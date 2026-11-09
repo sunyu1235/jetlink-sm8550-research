@@ -1,0 +1,14 @@
+{
+  "erf": {
+    "elements": 63491,
+    "value_mismatches": 0,
+    "bit_mismatches": 0,
+    "all_finite": true
+  },
+  "tanh": {
+    "elements": 63491,
+    "value_mismatches": 0,
+    "bit_mismatches": 0,
+    "all_finite": true
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "erf": {
+    "finite": true,
+    "host_equal": 63488,
+    "count": 63488,
+    "max_abs": 0.0009765625,
+    "rms": 5.1347339767890684e-05
+  },
+  "tanh": {
+    "finite": true,
+    "host_equal": 63488,
+    "count": 63488,
+    "max_abs": 0.001953125,
+    "rms": 5.253324495518328e-05
+  },
+  "index": {
+    "finite": true,
+    "host_equal": 63488,
+    "count": 63488,
+    "max_abs": 0.0,
+    "rms": 0.0
+  }
+}

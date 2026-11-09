@@ -1,0 +1,122 @@
+{
+  "result": "PASS",
+  "primary_order": [
+    "a0-shared0",
+    "b1-shared1",
+    "a2r-shared0"
+  ],
+  "smoke": {
+    "exit_code": 0,
+    "latency_ms": {
+      "mean": 73.4706216875,
+      "p50": 73.088125,
+      "p99": 75.699114,
+      "min": 70.521666,
+      "max": 79.42073
+    },
+    "all_finite": true
+  },
+  "primary_runs": {
+    "a0-shared0": {
+      "shared": 0,
+      "latency_ms": {
+        "mean": 73.66035442500001,
+        "p50": 73.87375,
+        "p99": 77.42875,
+        "min": 68.987083,
+        "max": 78.55974
+      },
+      "gpu_temp_start_end_milli_c": {
+        "start": 26800,
+        "end": 51300
+      },
+      "first_csv_battery_deci_c": 220,
+      "exit_code": 0,
+      "parity_exit_code": 0
+    },
+    "b1-shared1": {
+      "shared": 1,
+      "latency_ms": {
+        "mean": 72.401900025,
+        "p50": 72.544427,
+        "p99": 75.010781,
+        "min": 67.934115,
+        "max": 76.41573
+      },
+      "gpu_temp_start_end_milli_c": {
+        "start": 28400,
+        "end": 52800
+      },
+      "first_csv_battery_deci_c": 220,
+      "exit_code": 0,
+      "parity_exit_code": 0
+    },
+    "a2r-shared0": {
+      "shared": 0,
+      "latency_ms": {
+        "mean": 74.1981386875,
+        "p50": 74.515781,
+        "p99": 77.95125,
+        "min": 69.794479,
+        "max": 78.815208
+      },
+      "gpu_temp_start_end_milli_c": {
+        "start": 28400,
+        "end": 54400
+      },
+      "first_csv_battery_deci_c": 230,
+      "exit_code": 0,
+      "parity_exit_code": 0
+    }
+  },
+  "excluded_a2": "Additional A run ended with pre-run GPU temperature 29.2 C, 2.4 C above A0; excluded from primary temperature-controlled speed comparison, but byte and parity results retained. One further A2 repetition is a2r-shared0.",
+  "latency_effect_vs_mean_of_bracketing_A": {
+    "mean_p50_p99": {
+      "mean": {
+        "baseline_avg_ms": 73.92924655625,
+        "shared1_ms": 72.401900025,
+        "improvement_ms": 1.5273465312500036,
+        "improvement_percent": 2.0659571176447775
+      },
+      "p50": {
+        "baseline_avg_ms": 74.1947655,
+        "shared1_ms": 72.544427,
+        "improvement_ms": 1.6503385000000037,
+        "improvement_percent": 2.224332793396326
+      },
+      "p99": {
+        "baseline_avg_ms": 77.69,
+        "shared1_ms": 75.010781,
+        "improvement_ms": 2.6792190000000033,
+        "improvement_percent": 3.4486021366971342
+      }
+    }
+  },
+  "a_baseline_repeatability": {
+    "a0_vs_a2r_abs_delta_ms": {
+      "mean": 0.5377842624999971,
+      "p50": 0.6420310000000029,
+      "p99": 0.522500000000008
+    }
+  },
+  "raw_outputs": {
+    "byte_identical_all_160_frames": true,
+    "all_full_run_pairwise_equal": true,
+    "all_full_run_frames_finite": true,
+    "bytes_per_frame": 73808,
+    "float32_values_per_frame": 18452
+  },
+  "verify_parity": {
+    "source_sha256": "2434a762d33637ca2bf4bf5a72ad89b917d7e3db758ebebc6d1927f86b3debcb",
+    "thresholds": {
+      "MIN_CORR": 0.999,
+      "MIN_SAMPLES": 16,
+      "QUIET_FRACTION": 0.05,
+      "TINY_TOLERANCE": 0.1,
+      "CONSTANT_FRACTION": 0.001
+    },
+    "all_primary_and_supplemental_full_runs_pass": true
+  },
+  "temperature_note": "GPU temperature and clock are unavailable in CSV because history_probe ran as shell and receives EACCES on KGSL nodes; -1 denotes unreadable. Separate root-only reads are retained as ancillary measurements, not substituted for the CSV sampling point.",
+  "repeatability_assessment": "A-B-A bracket shows shared=1 was faster than both shared=0 runs; only one shared=1 full run was performed, so this is a positive controlled A/B observation rather than an independent repeat of B."
+}

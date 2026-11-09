@@ -1,0 +1,24 @@
+Current Battery Service state:
+  AC powered: true
+  USB powered: false
+  Wireless powered: false
+  Dock powered: false
+  Max charging current: 3000000
+  Max charging voltage: 5000000
+  Charge counter: 3749000
+  status: 5
+  health: 2
+  present: true
+  level: 100
+  scale: 100
+  voltage: 4413
+  temperature: 230
+  technology: Li-ion
+  AdaptiveCharging: config package:com.motorola.actions, mUpperLimit:-1, mLowerLimit:-1, mChargingDisabled:false, mLastLimitsUpdateTime:307683 (84208942 ms ago), mLastChargingStatusChangedTime:NOT SET, HAL service:motorola.hardware.health@2.0::IMotHealth@Proxy
+  vbus state: true
+  lpd state: false
+  cid state: 0
+  Full capacity: 3588000
+  Full design capacity: 4600000
+  charge watt: 32
+  last charge watt: 32

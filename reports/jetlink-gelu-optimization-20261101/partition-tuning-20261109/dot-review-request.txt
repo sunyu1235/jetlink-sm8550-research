@@ -1,0 +1,54 @@
+请独立研究 Jetlink Light Speed 在 Snapdragon 8 Gen 2 上能否同时达到约 30 ms 推理和可接受的数值精度。
+
+这是代码与数学审查任务，先阅读已有证据，避免重复失败实验。先不要运行手机负载、刷机或调整频率。前一轮没有找到能保住 32 ms 的精度修复，但这不是硬件不可能的证明；请独立判断。
+
+远端阅读范围与数据可用性
+- 本文所有文件路径均相对于当前 Git 仓库根目录；请只读取远端检出的仓库文件和明确给出的公开上游链接，不访问原机器的本地磁盘路径或手机。
+- 研究 snapshot 位于私有仓库 sunyu1235/jetlink-sm8550-research。可用证据包括 reports/jetlink* 下已提交的脚本、报告、汇总 JSON、比较日志、计时记录，以及 comparison/compare 目录中的 5536 个 .npy 文件（包含重复对照）。现成 compare 目录中的参考/实测数组可在远端重新运行原数值检查。旧 32 ms 报告及探针统一见 reports/jetlink-gelu-optimization-20261101/partition-tuning-20261109/legacy-32ms/。
+- 固定上游源码已附于 vendor/jetlink/，包含代码与完整 MIT LICENSE；排除 .git、__pycache__ 和 docs/images 下视频媒体。请使用 vendor/jetlink/scripts/verify_parity.py 验证已有 compare 目录。
+- outputs/ 未上传 Git；原始输入 captures、大型原始/派生 ONNX、QNN context binary、TFLite、运行库及可执行文件等也未随 snapshot 提供。报告或 manifest 中出现的旧绝对路径与 outputs/ 路径仅是产物来源记录，不能视为远端可读文件；上游源码请改读 vendor/jetlink/。
+- 可以依靠已提交的 compare 数组重跑数值判定，并审计摘要、哈希与日志；重新执行模型以生成新输出仍需要未上传的原始输入、模型产物及相应设备/运行环境。需要重现实验时，应明确区分这两种任务并列出缺失项，不把不可用数据当作已经读取。
+- 原始 Light Speed ONNX 可从公开上游下载：https://huggingface.co/commaai/openpilot_driving_models/resolve/main/f22b8b34-0983-4185-a453-a87b73798d61/16384/big_driving_supercombo.onnx
+  原始文件大小：792305602 bytes；SHA256：6274eb4a3f3eb7ad1ab341d222bbba2ba709b06645dbbd15ac4971d6cb22ab21。下载后先核对哈希。此链接只提供原始 ONNX，不包含派生缓存或 captures。
+
+环境与源码
+- 手机：Moto X40 / SM8550 / HTP v73 / Adreno 740，Android 14，已 root。
+- Jetlink 0.8.12，ORT 1.29.0，QNN 2.42，LiteRT 2.2。
+- Jetlink 源码固定版本：a863c3801da6fd925d14eb1f5b1e250f8efcc649
+- 固定提交源码：vendor/jetlink/；其中验收工具为 vendor/jetlink/scripts/verify_parity.py。原机 upstream-pinned-source 路径已由此仓库内副本替代。
+
+已有结果（严格区分测量范围）
+1. 旧全 NPU + 顶层共享 I/O：1200 帧，固定重复合成道路图、递归状态反馈、20 Hz，均值 32.475 ms，P99 33.437 ms。只是原生 Run 推理时间，未包含摄像头/传输/应用 staging。后续 5 帧和 16 个 varied 帧数值对照失败；有限输出不等于精度通过。
+   原始记录：reports/jetlink-gelu-optimization-20261101/partition-tuning-20261109/legacy-32ms/light-speed-baseline-20261031.md
+   旧源码：同一 legacy-32ms/ 目录的 qnn_context_probe.c、qnn_jl_shared.c。
+2. 保留两种 GELU 公式的准确修复：36 个 vision erf GELU + 27 个 policy tanh GELU 用 CPU 精确 FP16 查表，成为 45 个 NPU EPContext + 63 个 CPU 节点。后续共享全部中间边界、减少最后 transformer 层多余 query 计算后，160 帧均值 52.4086 ms，160 帧输出与准确 baseline 逐字节一致，原始数值阈值全部通过。
+   结果：reports/jetlink-gelu-optimization-20261101/partition-tuning-20261109/last-query-full160/summary.json
+   对应模型产物 whole-context-last-query-shared-all.onnx 未上传；请依据已提交的生成脚本、manifest、summary 和 parity 日志审查，勿假定可直接加载该模型。
+3. 6-op native GELU projection：16 帧原始阈值通过，但约 63.745 ms；shared-cache 版本约 58.741 ms。简化 3-op Min(Gelu(x),Relu(x))：50.463 ms，五个 head 失败。bounded-LUT 整图约 258.901 ms；不要把它们当作尚未试过的快速修复。
+4. NPU 准确 vision + LiteRT GPU policy 混合已跑通、正常退出：160 帧均值 65.284 ms，热身后约 65.027 ms；vision 42.726 ms，bridge 0.177 ms，policy 22.124 ms。160 帧均有限，但原始 checker 在 plan 的两个 quiet 列失败（最大误差约 0.004188/0.003910，门槛 0.003435）。16 帧先前通过。不是一个已通过完整精度的快模型。
+   结果：reports/jetlink-gelu-optimization-20261101/partition-tuning-20261109/mixed-litert-160-confirm/
+5. 用户曾观察官方 GPU 约 40 ms，未完成同条件复现或精度验证，不宜作为已验证准确基线。独立完整 LiteRT GPU 原图曾有 NaN；通过 LayerNorm epsilon 等价变换消除所测 16 帧非有限值，但约 81 ms。QNN GPU FP32 policy 在 OpenCL kernel binary 初始化时崩溃，关闭 MatMulAddFusion 仍未解决。
+
+关键因果证据和不能外推的范围
+- reports/jetlink-precision-audit-20261101/README.md：NPU vision + CPU32 policy 仍失败 lane_lines/road_edges；CPU vision + NPU policy 也有独立失败。不能把全 NPU 失败全部归到某一支路。
+- reports/jetlink-operator-audit-20261101/README.md：同一真实 block 输入的单节点 audit，GELU 的局部 HTP 误差明显高于 sampled LayerNorm/MatMul，出现正输入时 GELU 输出超过输入。只覆盖单节点/单激活，不能绝对排除其它层累计误差。
+- reports/jetlink-gelu-repair-20261101/README.md：仅修 36 个 vision GELU 后仍有三个 head 失败；其 vision 特征送入独立 FP32 policy 后通过，扩大为两种公式的修复才通过全部检查。
+- ORT QNN GELU builder 映射到 QNN_OP_GELU，已审查路径未转发 ONNX approximate 属性；原模型的 erf 与 tanh 两种公式不能随意互换。
+- CPU GELU 已经是有限 FP16 位模式查表，并非逐元素 erff；循环展开、线程数、affinity、spinning、shared I/O 等都有既有记录，勿重复当作新提速。
+- 尚无证据证明必须修全部 63 个节点，也没有更小修复子集通过整图的既有结果；应区分“未证明不可能”和“有理由值得投入”。
+- reports/jetlink-gelu-optimization-20261101/sdk/README.md：HTP 自定义算子工具链研究。没有完成匹配 QNN 2.42 / v73 的算子构建；HVX vlut16 不代表可以一次高效 gather 整个 128 KiB FP16 LUT。不要将可编译或 ISA 理论能力当作实际性能。
+
+验收方式
+- 使用 vendor/jetlink/scripts/verify_parity.py，保持原逐 head、逐列、逐帧/pooled 阈值；容许其阈值内的普通 FP16 误差，不要求输出位相同。既有 checker 运行结果见提交的 parity 日志。
+- 从仓库根目录重跑已提交的 160 帧准确版本 compare 示例（先按上游要求安装 Python 依赖）：
+  PYTHONPATH=vendor/jetlink python vendor/jetlink/scripts/verify_parity.py compare --dir reports/jetlink-gelu-optimization-20261101/partition-tuning-20261109/last-query-full160/compare
+  PYTHONPATH 应指向 vendor/jetlink；其它已提交的 compare 目录也可用同样方法复核。这一步使用仓库内 .npy 对照，不需要访问原机器或加载大型模型。
+- 现成分析脚本：reports/jetlink-gelu-optimization-20261101/partition-tuning-20261109/analyze_shared_run.py；其旧本地路径/默认路径需在复现环境中显式替换。若需从原始 run 文件重新生成汇总，应先确认这些输入已提供；直接复核现成 compare 则使用上一条命令。
+- 保留独立 recurrent 状态、相同输入、明确 warmup 和完整帧计时。分段流水吞吐不能冒充单帧延迟。
+- 全有限、合并相关系数高、单算子结果或短序列通过，均不能替代完整模型数值检查。
+
+希望你回答
+1. 是否存在此前遗漏、能落实到具体代码/API/公式的修复，并有理由保留接近 32 ms 的整图 NPU 优势？
+2. 若有，只提出最有根据的一个，指出已知证据、尚未验证的关键假设、最小验证方法与合理性能预算。无需重复广泛后端/调参枚举。
+3. 若必须重写 HTP 算子、换 runtime 或重新训练，请明确开发成本与不确定性，不许承诺 30 ms。
+4. 若没有值得继续的路线，明确说明，并以现有 52.4 ms 数值通过结果为边界。

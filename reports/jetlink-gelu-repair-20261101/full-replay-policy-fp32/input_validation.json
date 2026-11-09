@@ -1,0 +1,190 @@
+{
+  "frames": [
+    {
+      "frame": 0,
+      "raw_bytes": 73808,
+      "hidden_state_shape": [
+        1,
+        32,
+        512
+      ],
+      "packed_values": 12,
+      "all_finite": true
+    },
+    {
+      "frame": 1,
+      "raw_bytes": 73808,
+      "hidden_state_shape": [
+        1,
+        32,
+        512
+      ],
+      "packed_values": 12,
+      "all_finite": true
+    },
+    {
+      "frame": 2,
+      "raw_bytes": 73808,
+      "hidden_state_shape": [
+        1,
+        32,
+        512
+      ],
+      "packed_values": 12,
+      "all_finite": true
+    },
+    {
+      "frame": 3,
+      "raw_bytes": 73808,
+      "hidden_state_shape": [
+        1,
+        32,
+        512
+      ],
+      "packed_values": 12,
+      "all_finite": true
+    },
+    {
+      "frame": 4,
+      "raw_bytes": 73808,
+      "hidden_state_shape": [
+        1,
+        32,
+        512
+      ],
+      "packed_values": 12,
+      "all_finite": true
+    },
+    {
+      "frame": 5,
+      "raw_bytes": 73808,
+      "hidden_state_shape": [
+        1,
+        32,
+        512
+      ],
+      "packed_values": 12,
+      "all_finite": true
+    },
+    {
+      "frame": 6,
+      "raw_bytes": 73808,
+      "hidden_state_shape": [
+        1,
+        32,
+        512
+      ],
+      "packed_values": 12,
+      "all_finite": true
+    },
+    {
+      "frame": 7,
+      "raw_bytes": 73808,
+      "hidden_state_shape": [
+        1,
+        32,
+        512
+      ],
+      "packed_values": 12,
+      "all_finite": true
+    },
+    {
+      "frame": 8,
+      "raw_bytes": 73808,
+      "hidden_state_shape": [
+        1,
+        32,
+        512
+      ],
+      "packed_values": 12,
+      "all_finite": true
+    },
+    {
+      "frame": 9,
+      "raw_bytes": 73808,
+      "hidden_state_shape": [
+        1,
+        32,
+        512
+      ],
+      "packed_values": 12,
+      "all_finite": true
+    },
+    {
+      "frame": 10,
+      "raw_bytes": 73808,
+      "hidden_state_shape": [
+        1,
+        32,
+        512
+      ],
+      "packed_values": 12,
+      "all_finite": true
+    },
+    {
+      "frame": 11,
+      "raw_bytes": 73808,
+      "hidden_state_shape": [
+        1,
+        32,
+        512
+      ],
+      "packed_values": 12,
+      "all_finite": true
+    },
+    {
+      "frame": 12,
+      "raw_bytes": 73808,
+      "hidden_state_shape": [
+        1,
+        32,
+        512
+      ],
+      "packed_values": 12,
+      "all_finite": true
+    },
+    {
+      "frame": 13,
+      "raw_bytes": 73808,
+      "hidden_state_shape": [
+        1,
+        32,
+        512
+      ],
+      "packed_values": 12,
+      "all_finite": true
+    },
+    {
+      "frame": 14,
+      "raw_bytes": 73808,
+      "hidden_state_shape": [
+        1,
+        32,
+        512
+      ],
+      "packed_values": 12,
+      "all_finite": true
+    },
+    {
+      "frame": 15,
+      "raw_bytes": 73808,
+      "hidden_state_shape": [
+        1,
+        32,
+        512
+      ],
+      "packed_values": 12,
+      "all_finite": true
+    }
+  ],
+  "state_initialization": "zero; recursively updated only from this CPU policy",
+  "phone_hidden_state_slice": [
+    2066,
+    18450
+  ],
+  "phone_hidden_state_reshape": [
+    1,
+    32,
+    512
+  ]
+}

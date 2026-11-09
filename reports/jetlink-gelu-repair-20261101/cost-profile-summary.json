@@ -1,0 +1,284 @@
+{
+  "QNNExecutionProvider/QNN_719225639490524574_45": {
+    "count": 16,
+    "total_us": 72134,
+    "max_us": 9259,
+    "mean_ms_per_frame": 4.508375
+  },
+  "CPUExecutionProvider/ExactGelu": {
+    "count": 576,
+    "total_us": 194424,
+    "max_us": 1875,
+    "mean_ms_per_frame": 12.1515
+  },
+  "QNNExecutionProvider/QNN_719225639490524574_46": {
+    "count": 16,
+    "total_us": 19781,
+    "max_us": 1417,
+    "mean_ms_per_frame": 1.2363125
+  },
+  "QNNExecutionProvider/QNN_719225639490524574_47": {
+    "count": 16,
+    "total_us": 19801,
+    "max_us": 2896,
+    "mean_ms_per_frame": 1.2375625
+  },
+  "QNNExecutionProvider/QNN_719225639490524574_48": {
+    "count": 16,
+    "total_us": 17748,
+    "max_us": 1162,
+    "mean_ms_per_frame": 1.10925
+  },
+  "QNNExecutionProvider/QNN_719225639490524574_49": {
+    "count": 16,
+    "total_us": 13094,
+    "max_us": 832,
+    "mean_ms_per_frame": 0.818375
+  },
+  "QNNExecutionProvider/QNN_719225639490524574_50": {
+    "count": 16,
+    "total_us": 12695,
+    "max_us": 820,
+    "mean_ms_per_frame": 0.7934375
+  },
+  "QNNExecutionProvider/QNN_719225639490524574_51": {
+    "count": 16,
+    "total_us": 13723,
+    "max_us": 908,
+    "mean_ms_per_frame": 0.8576875
+  },
+  "QNNExecutionProvider/QNN_719225639490524574_52": {
+    "count": 16,
+    "total_us": 12390,
+    "max_us": 808,
+    "mean_ms_per_frame": 0.774375
+  },
+  "QNNExecutionProvider/QNN_719225639490524574_53": {
+    "count": 16,
+    "total_us": 11506,
+    "max_us": 773,
+    "mean_ms_per_frame": 0.719125
+  },
+  "QNNExecutionProvider/QNN_719225639490524574_54": {
+    "count": 16,
+    "total_us": 12276,
+    "max_us": 812,
+    "mean_ms_per_frame": 0.76725
+  },
+  "QNNExecutionProvider/QNN_719225639490524574_55": {
+    "count": 16,
+    "total_us": 12109,
+    "max_us": 794,
+    "mean_ms_per_frame": 0.7568125
+  },
+  "QNNExecutionProvider/QNN_719225639490524574_56": {
+    "count": 16,
+    "total_us": 11480,
+    "max_us": 731,
+    "mean_ms_per_frame": 0.7175
+  },
+  "QNNExecutionProvider/QNN_719225639490524574_57": {
+    "count": 16,
+    "total_us": 12174,
+    "max_us": 802,
+    "mean_ms_per_frame": 0.760875
+  },
+  "QNNExecutionProvider/QNN_719225639490524574_58": {
+    "count": 16,
+    "total_us": 12337,
+    "max_us": 820,
+    "mean_ms_per_frame": 0.7710625
+  },
+  "QNNExecutionProvider/QNN_719225639490524574_59": {
+    "count": 16,
+    "total_us": 12102,
+    "max_us": 775,
+    "mean_ms_per_frame": 0.756375
+  },
+  "QNNExecutionProvider/QNN_719225639490524574_60": {
+    "count": 16,
+    "total_us": 12267,
+    "max_us": 779,
+    "mean_ms_per_frame": 0.7666875
+  },
+  "QNNExecutionProvider/QNN_719225639490524574_61": {
+    "count": 16,
+    "total_us": 11357,
+    "max_us": 727,
+    "mean_ms_per_frame": 0.7098125
+  },
+  "QNNExecutionProvider/QNN_719225639490524574_62": {
+    "count": 16,
+    "total_us": 11993,
+    "max_us": 780,
+    "mean_ms_per_frame": 0.7495625
+  },
+  "QNNExecutionProvider/QNN_719225639490524574_63": {
+    "count": 16,
+    "total_us": 12127,
+    "max_us": 779,
+    "mean_ms_per_frame": 0.7579375
+  },
+  "QNNExecutionProvider/QNN_719225639490524574_64": {
+    "count": 16,
+    "total_us": 11404,
+    "max_us": 749,
+    "mean_ms_per_frame": 0.71275
+  },
+  "QNNExecutionProvider/QNN_719225639490524574_65": {
+    "count": 16,
+    "total_us": 12124,
+    "max_us": 780,
+    "mean_ms_per_frame": 0.75775
+  },
+  "QNNExecutionProvider/QNN_719225639490524574_66": {
+    "count": 16,
+    "total_us": 12284,
+    "max_us": 811,
+    "mean_ms_per_frame": 0.76775
+  },
+  "QNNExecutionProvider/QNN_719225639490524574_67": {
+    "count": 16,
+    "total_us": 11977,
+    "max_us": 777,
+    "mean_ms_per_frame": 0.7485625
+  },
+  "QNNExecutionProvider/QNN_719225639490524574_68": {
+    "count": 16,
+    "total_us": 12264,
+    "max_us": 784,
+    "mean_ms_per_frame": 0.7665
+  },
+  "QNNExecutionProvider/QNN_719225639490524574_69": {
+    "count": 16,
+    "total_us": 11499,
+    "max_us": 748,
+    "mean_ms_per_frame": 0.7186875
+  },
+  "QNNExecutionProvider/QNN_719225639490524574_70": {
+    "count": 16,
+    "total_us": 12113,
+    "max_us": 771,
+    "mean_ms_per_frame": 0.7570625
+  },
+  "QNNExecutionProvider/QNN_719225639490524574_71": {
+    "count": 16,
+    "total_us": 12027,
+    "max_us": 766,
+    "mean_ms_per_frame": 0.7516875
+  },
+  "QNNExecutionProvider/QNN_719225639490524574_72": {
+    "count": 16,
+    "total_us": 11618,
+    "max_us": 773,
+    "mean_ms_per_frame": 0.726125
+  },
+  "QNNExecutionProvider/QNN_719225639490524574_73": {
+    "count": 16,
+    "total_us": 12145,
+    "max_us": 787,
+    "mean_ms_per_frame": 0.7590625
+  },
+  "QNNExecutionProvider/QNN_719225639490524574_74": {
+    "count": 16,
+    "total_us": 12307,
+    "max_us": 816,
+    "mean_ms_per_frame": 0.7691875
+  },
+  "QNNExecutionProvider/QNN_719225639490524574_75": {
+    "count": 16,
+    "total_us": 12047,
+    "max_us": 767,
+    "mean_ms_per_frame": 0.7529375
+  },
+  "QNNExecutionProvider/QNN_719225639490524574_76": {
+    "count": 16,
+    "total_us": 12248,
+    "max_us": 812,
+    "mean_ms_per_frame": 0.7655
+  },
+  "QNNExecutionProvider/QNN_719225639490524574_77": {
+    "count": 16,
+    "total_us": 11456,
+    "max_us": 749,
+    "mean_ms_per_frame": 0.716
+  },
+  "QNNExecutionProvider/QNN_719225639490524574_78": {
+    "count": 16,
+    "total_us": 25266,
+    "max_us": 1666,
+    "mean_ms_per_frame": 1.579125
+  },
+  "QNNExecutionProvider/QNN_719225639490524574_79": {
+    "count": 16,
+    "total_us": 26872,
+    "max_us": 1695,
+    "mean_ms_per_frame": 1.6795
+  },
+  "QNNExecutionProvider/QNN_719225639490524574_80": {
+    "count": 16,
+    "total_us": 26926,
+    "max_us": 1700,
+    "mean_ms_per_frame": 1.682875
+  },
+  "QNNExecutionProvider/QNN_719225639490524574_81": {
+    "count": 16,
+    "total_us": 22222,
+    "max_us": 1407,
+    "mean_ms_per_frame": 1.388875
+  },
+  "CPUExecutionProvider/ExactGeluTanh": {
+    "count": 432,
+    "total_us": 68271,
+    "max_us": 1038,
+    "mean_ms_per_frame": 4.2669375
+  },
+  "QNNExecutionProvider/QNN_719225639490524574_82": {
+    "count": 16,
+    "total_us": 14322,
+    "max_us": 914,
+    "mean_ms_per_frame": 0.895125
+  },
+  "QNNExecutionProvider/QNN_719225639490524574_83": {
+    "count": 16,
+    "total_us": 83241,
+    "max_us": 5585,
+    "mean_ms_per_frame": 5.2025625
+  },
+  "QNNExecutionProvider/QNN_719225639490524574_84": {
+    "count": 16,
+    "total_us": 73553,
+    "max_us": 4644,
+    "mean_ms_per_frame": 4.5970625
+  },
+  "QNNExecutionProvider/QNN_719225639490524574_85": {
+    "count": 16,
+    "total_us": 72104,
+    "max_us": 4529,
+    "mean_ms_per_frame": 4.5065
+  },
+  "QNNExecutionProvider/QNN_719225639490524574_86": {
+    "count": 16,
+    "total_us": 72201,
+    "max_us": 4540,
+    "mean_ms_per_frame": 4.5125625
+  },
+  "QNNExecutionProvider/QNN_719225639490524574_87": {
+    "count": 16,
+    "total_us": 9375,
+    "max_us": 622,
+    "mean_ms_per_frame": 0.5859375
+  },
+  "QNNExecutionProvider/QNN_719225639490524574_88": {
+    "count": 16,
+    "total_us": 5644,
+    "max_us": 378,
+    "mean_ms_per_frame": 0.35275
+  },
+  "QNNExecutionProvider/QNN_719225639490524574_89": {
+    "count": 16,
+    "total_us": 29686,
+    "max_us": 3781,
+    "mean_ms_per_frame": 1.855375
+  }
+}

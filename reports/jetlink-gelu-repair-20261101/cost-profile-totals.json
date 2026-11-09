@@ -1,0 +1,8 @@
+{
+  "note": "ORT profiling adds overhead; QNN time includes host/RPC/copy costs, not accelerator-only compute",
+  "mean_ms_per_frame": {
+    "QNNExecutionProvider": 58.87618750000001,
+    "CPUExecutionProvider": 16.4184375
+  },
+  "frames": 16
+}

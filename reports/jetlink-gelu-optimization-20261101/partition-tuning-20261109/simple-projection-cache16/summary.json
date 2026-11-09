@@ -1,0 +1,156 @@
+{
+  "run_id": "simple-projection-cache16",
+  "frame_count_expected": 16,
+  "allow_rounding_error": true,
+  "output_validation": {
+    "bytes_expected": 73808,
+    "float32_values_expected": 18452,
+    "count": 16,
+    "byte_identical_baseline_count": 0,
+    "all_16_outputs_finite": true,
+    "sha256_by_frame": [
+      {
+        "frame": 0,
+        "run": "5d309302a0aeea5a50fc3c9fdc27ccdafa33eb725eb34cdbc1810586b4ac903f",
+        "accepted": "2dbceb12f5e4d421f98233bfb8ba4d2cd8701bbb2d8580f0b08844e6903afaa6"
+      },
+      {
+        "frame": 1,
+        "run": "566327b699bb2500aa7af5802f8e679049bf2f078758167780b9300edd19fb8b",
+        "accepted": "4e3b144fb46f3e2e610b97e282d1bbafe3971f66be0b9d95d4c54069d9b61987"
+      },
+      {
+        "frame": 2,
+        "run": "21b9c4f977a451ae2f535764ed9feabac2d06cae250909bd9565b9ecf3eff495",
+        "accepted": "084f81d7416fd8b982dfa688fc3b5f34fe8233e0a0b218d8fdfb909f69d13900"
+      },
+      {
+        "frame": 3,
+        "run": "e75add8a54d7f0821e2d49844383fc3065da6338a6fcdba9f522cbb6689a53db",
+        "accepted": "99836df92692da3534abc6d0ddccce4a6f02f9cc83d25e61ab7691357e7bc395"
+      },
+      {
+        "frame": 4,
+        "run": "11aff19169211ef539cebfb92815e7df3ff2d4e6b673555d264ff56aefbb2ddc",
+        "accepted": "9907ef29767f5985fa43ea58ac8264c8a91d24ee66e8432427124867bc35dc68"
+      },
+      {
+        "frame": 5,
+        "run": "cb1509ee9bf52bcf6de138c902c8350d0dc7d674c9272f948f24fe6caa8037b5",
+        "accepted": "ee2b943e7fda578a15f237db1ae78c8ae291e901da564f4fe8257ed93e7fcc2d"
+      },
+      {
+        "frame": 6,
+        "run": "5cafbb37b79a46b7f255ff3a74eb616fb609043f319f52446312930d642c27c7",
+        "accepted": "4d44fcb8071501174f7c4fdd29c61c4083e2abb5b133e4618adc227c4ac4f5c4"
+      },
+      {
+        "frame": 7,
+        "run": "08a12f7e2322b28bfd2ac655a855d9bffed6f5647c6bfe1ff36c32ecc1ddf2bb",
+        "accepted": "70b39b95ab8d92c320e81476441ed10d0552d26641bca026ff8b7e5963b2b398"
+      },
+      {
+        "frame": 8,
+        "run": "b68e6b18deb5beaefd83682ef87b497ba16752fd4f2d385e1f2a8bd2a8ff3449",
+        "accepted": "b97742f5cb3d456f17182fdb280692aae069bdb1af8a36d94922cda3c41ff299"
+      },
+      {
+        "frame": 9,
+        "run": "20527e7d2721e4211bae2eb5af6d7cf11d559719fadb86390fb4be81684e887f",
+        "accepted": "fad377a809c3e5119b251b12048c942decb2632bd223423a9ebaa2d56c8ab173"
+      },
+      {
+        "frame": 10,
+        "run": "b50f7070b9b94075b9b1d87d2bea4fff1e7020e97d86e0ae12859bf5cb1ad393",
+        "accepted": "0dfebe87395089790cdfbe40dd0c7a45cce7038ddd55fb6653b3c5e35ff3fd42"
+      },
+      {
+        "frame": 11,
+        "run": "40439ec06bb112a5dac31217deef660666d17a0af2fe8270f1bf51cddf309c36",
+        "accepted": "a460abe090a1802f0791e778e56450658dcb1196f6209ac02695aee1f4b7fe4a"
+      },
+      {
+        "frame": 12,
+        "run": "ad0f3f0c61c918d72ef79925d6ed3c860bc286e931408a71fad1e7cfa2e94ff3",
+        "accepted": "76e75890b431fcd324152f971975fe2f6189a721199ec3d47f74f98676acaaf2"
+      },
+      {
+        "frame": 13,
+        "run": "4fc4dd12d1e9d1cda280aa1969efd52b4074fe2fc7efa95bd8573cef99fc11cf",
+        "accepted": "ea9acdbafd048e8a648ae7dc67123929f8965c9349696babdbf6ae918afeeb21"
+      },
+      {
+        "frame": 14,
+        "run": "425ebd40c905a71473d996b4402d3f3a683f778d01f4576737e47f1c40bdd79d",
+        "accepted": "041798139d55646f71869e9bfe11a295a67613b1882d2b585fadb3f4302e974d"
+      },
+      {
+        "frame": 15,
+        "run": "daad927f33cdec5a91451488187dd97556d8cbde7e1e31b731b30ca07ece5e3b",
+        "accepted": "9307a8cd899cdbda952d5f8464781bae311c07d514ab482844f2b6e847acf9d4"
+      }
+    ]
+  },
+  "latency_ms": {
+    "scope": "16 CSV execute_ms rows, including frame 0",
+    "all_frames": {
+      "mean": 50.4625226875,
+      "p50": 50.465625,
+      "p99": 52.83163275,
+      "max": 53.2125,
+      "min": 49.28974
+    },
+    "excluding_first_frame": {
+      "scope": "CSV rows with frame != 0; 15 rows",
+      "mean": 50.27919086666667,
+      "p50": 50.454427,
+      "p99": 50.669775660000006,
+      "max": 50.673385,
+      "min": 49.28974
+    }
+  },
+  "root_temp_milli_c": {
+    "before": {
+      "path": "C:\\Users\\sunbo\\Documents\\openpilot\\reports\\jetlink-gelu-optimization-20261101\\partition-tuning-20261109\\simple-projection-cache16\\shared-boundaries.gpu-before.txt",
+      "available": true,
+      "raw": "25600",
+      "value_milli_c": 25600
+    },
+    "after": {
+      "path": "C:\\Users\\sunbo\\Documents\\openpilot\\reports\\jetlink-gelu-optimization-20261101\\partition-tuning-20261109\\simple-projection-cache16\\shared-boundaries.gpu-after.txt",
+      "available": true,
+      "raw": "31900",
+      "value_milli_c": 31900
+    }
+  },
+  "parity": {
+    "status": "fail",
+    "pass": false,
+    "exit_code": 1,
+    "log": "C:\\Users\\sunbo\\Documents\\openpilot\\reports\\jetlink-gelu-optimization-20261101\\partition-tuning-20261109\\simple-projection-cache16\\parity.log",
+    "compare_dir": "C:\\Users\\sunbo\\Documents\\openpilot\\reports\\jetlink-gelu-optimization-20261101\\partition-tuning-20261109\\simple-projection-cache16\\compare-16",
+    "verifier_found": true,
+    "verifier_path": "C:\\Users\\sunbo\\Documents\\openpilot\\outputs\\jetlink-gelu-optimization-20261101\\partition-tuning-20261109\\upstream-pinned-source\\scripts\\verify_parity.py",
+    "source_revision": "a863c3801da6fd925d14eb1f5b1e250f8efcc649"
+  },
+  "checks": {
+    "all_16_outputs_present": true,
+    "all_16_outputs_73808_bytes": true,
+    "all_16_outputs_finite_float32": true,
+    "all_16_outputs_byte_identical_to_accepted_baseline": false,
+    "timing_csv_has_16_rows": true,
+    "timing_values_finite": true,
+    "root_temp_before_after_available": true
+  },
+  "errors": [],
+  "required_checks": {
+    "all_16_outputs_present": true,
+    "all_16_outputs_73808_bytes": true,
+    "all_16_outputs_finite_float32": true,
+    "timing_csv_has_16_rows": true,
+    "timing_values_finite": true,
+    "original_parity_checker_pass": false
+  },
+  "data_status": "FAIL",
+  "status": "FAIL"
+}

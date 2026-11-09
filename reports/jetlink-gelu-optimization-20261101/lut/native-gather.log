@@ -1,0 +1,5 @@
+ORT 1.29.0
+in indices 253952 bytes
+out outputs 126976 bytes
+output_type=10 nonfinite=0/63488
+shared=0 rpc_us=0 n=1 mean_ms=1.028 p50_ms=1.028 p99_ms=1.028 min_ms=1.028 max_ms=1.028 over50=0

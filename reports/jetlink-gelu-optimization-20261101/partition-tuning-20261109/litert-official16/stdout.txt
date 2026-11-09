@@ -1,0 +1,24 @@
+INFO: Initialized TensorFlow Lite runtime.
+I0000 00:00:1794225620.753087   16781 delegate_opencl.cc:603] options->hint_waiting_for_completion: false
+I0000 00:00:1794225620.754500   16781 delegate_opencl.cc:605] options->kernel_batch_size: -1
+INFO: Loaded OpenCL library with dlopen.
+VERBOSE: Replacing 2919 out of 2919 node(s) with delegate (LITERT_CL) node, yielding 1 partitions for subgraph 0 (main).
+I0000 00:00:1794225623.896421   16781 delegate_kernel.cc:911] Initializing OpenCL-based API from graph.
+backend=LiteRT2.2 GPU OpenCL FP16 fully_accelerated=1
+in new_img type=2 bytes=393216 shape=[2,6,128,256]
+in desire type=1 bytes=32 shape=[8]
+in traffic_convention type=1 bytes=8 shape=[1,2]
+in action_t type=1 bytes=8 shape=[1,2]
+in state_img_q type=2 bytes=1966080 shape=[2,30,128,256]
+in state_desire_q type=1 bytes=4224 shape=[132,1,8]
+in state_feat_q type=1 bytes=8388608 shape=[128,1,16384]
+out outputs type=1 bytes=73808 shape=[1,18452]
+out next_state_img_q type=2 bytes=1966080 shape=[2,30,128,256]
+out next_state_desire_q type=1 bytes=4224 shape=[132,1,8]
+out next_state_feat_q type=1 bytes=8388608 shape=[128,1,16384]
+state_managed_pingpong state_img_q preferred_hardware=2
+state_managed_pingpong state_desire_q preferred_hardware=2
+state_managed_pingpong state_feat_q preferred_hardware=2
+timing=input-buffer writes+run+main-output read; file reads, source conversions and dumps excluded
+input size mismatch: /data/local/tmp/jetlink-history-160/0_new_img.bin expected=393216 got=786432
+RUNNER_EXIT=4

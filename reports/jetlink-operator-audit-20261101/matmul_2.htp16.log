@@ -1,0 +1,8 @@
+$ adb shell export LD_LIBRARY_PATH=/data/local/tmp/qnn-probe:/data/app/~~VpmS9jlwALEhgoyt9-46dg==/io.zoompilot.jetlink.android-EWl-c1N0tgoTnf5ottkdxQ==/lib/arm64:/vendor/lib64; export ADSP_LIBRARY_PATH=/data/app/~~VpmS9jlwALEhgoyt9-46dg==/io.zoompilot.jetlink.android-EWl-c1N0tgoTnf5ottkdxQ==/lib/arm64; /data/local/tmp/strict_probe /data/local/tmp/jetlink-operator-audit-20261101/matmul_2/operator.onnx 0 0 none 1 /data/local/tmp/jetlink-operator-audit-20261101/matmul_2/inputs /data/local/tmp/jetlink-operator-audit-20261101/matmul_2/htp-out oneop htp
+exit_code=0
+
+ORT 1.29.0
+in val_523__flat 524288 bytes
+out outputs 131072 bytes
+output_type=10 nonfinite=0/65536
+shared=0 rpc_us=0 n=1 mean_ms=1.548 p50_ms=1.548 p99_ms=1.548 min_ms=1.548 max_ms=1.548 over50=0

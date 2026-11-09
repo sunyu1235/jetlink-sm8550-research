@@ -1,0 +1,11 @@
+{
+  "status": "ready_for_full_model_parity",
+  "wrapper": "C:\\Users\\sunbo\\Documents\\openpilot\\outputs\\jetlink-gelu-optimization-20261101\\partition-tuning-20261109\\whole-context-last-query-shared-all.onnx",
+  "wrapper_sha256": "f21364f095747af0283bafd41aa932a7225f685534e61e8356f77d122eff85a0",
+  "original_partition": "QNNExecutionProvider_QNN_11262752905814198793_131_41",
+  "replacement_partition": "QNNExecutionProvider_QNN_2924206259495017751_1_0",
+  "new_cache_basename": "last-query-20261109-soc43_qnn.bin",
+  "source_wrapper": "C:\\Users\\sunbo\\Documents\\openpilot\\outputs\\jetlink-gelu-optimization-20261101\\partition-tuning-20261109\\whole-context-shared-all-boundaries.onnx",
+  "original_interface_and_all_other_nodes_preserved": true,
+  "boundary_prefix": "Rows 0..286 of the replacement outputs are intentionally zero; final consumers select only row287."
+}

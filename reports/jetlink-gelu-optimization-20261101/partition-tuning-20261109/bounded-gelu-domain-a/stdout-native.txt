@@ -1,0 +1,9 @@
+QNN tuning: soc_model=43 vtcm_mb=default profile=none
+ORT 1.29.0
+SESSION_CREATE_BEGIN
+SESSION_CREATE_END seconds=0.368
+in x 126976 bytes
+out projected 126976 bytes
+out raw 126976 bytes
+shared=0 rpc_us=0 n=8 mean_ms=0.564 p50_ms=0.579 p99_ms=0.611 min_ms=0.394 max_ms=0.613 over50=0
+RUNNER_EXIT=0

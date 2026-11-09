@@ -1,0 +1,9 @@
+{
+  "local_output": "C:\\Users\\sunbo\\Documents\\openpilot\\outputs\\jetlink-gelu-repair-20261101\\light-speed-exact-gelu.onnx",
+  "remote_output": "/data/local/tmp/jetlink-gelu-repair-20261101/light-speed-exact-gelu.onnx",
+  "device_model": "XT2301-5",
+  "bytes": 791639073,
+  "sha256": "9f9980ba2eb5eec4b30e68ad60e3a0cb6e4453e1c49d97448d468e7d3e7dbd02",
+  "transfer": "adb push completed successfully; remote size and SHA256 verified",
+  "executed": false
+}

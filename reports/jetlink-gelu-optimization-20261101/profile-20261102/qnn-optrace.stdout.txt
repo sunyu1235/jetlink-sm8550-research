@@ -1,0 +1,6 @@
+CHILD_STATUS
+Cpus_allowed:	f8
+Cpus_allowed_list:	3-7
+ORT 1.29.0
+session: Failed to load from EpContext model. qnn_backend_manager.cc:1518 LoadCachedQnnContextFromBuffer Failed to create context from binary. Error code: 1002
+RUNNER_EXIT=1

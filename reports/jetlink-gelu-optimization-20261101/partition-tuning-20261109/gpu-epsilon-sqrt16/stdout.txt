@@ -1,0 +1,42 @@
+INFO: Initialized TensorFlow Lite runtime.
+I0000 00:00:1794230735.711069   18878 delegate_opencl.cc:603] options->hint_waiting_for_completion: false
+I0000 00:00:1794230735.711442   18878 delegate_opencl.cc:605] options->kernel_batch_size: -1
+INFO: Loaded OpenCL library with dlopen.
+WARNING: [gpu_backend_opencl_litert.cc:176] Failed to upload compiled cache: Cannot mmap invalid file descriptor -1 ('/data/local/tmp/jetlink-litert-20261109/gpu-cache/lightspeed_eps_sqrt_20261109_v1_mldrift_compiled_cache.bin').
+VERBOSE: Replacing 2919 out of 2919 node(s) with delegate (LITERT_CL) node, yielding 1 partitions for subgraph 0 (main).
+I0000 00:00:1794230738.914192   18878 delegate_kernel.cc:911] Initializing OpenCL-based API from graph.
+backend=LiteRT2.2 GPU OpenCL FP16 fully_accelerated=1
+in new_img type=2 bytes=393216 shape=[2,6,128,256]
+in desire type=1 bytes=32 shape=[8]
+in traffic_convention type=1 bytes=8 shape=[1,2]
+in action_t type=1 bytes=8 shape=[1,2]
+in state_img_q type=2 bytes=1966080 shape=[2,30,128,256]
+in state_desire_q type=1 bytes=4224 shape=[132,1,8]
+in state_feat_q type=1 bytes=8388608 shape=[128,1,16384]
+out outputs type=1 bytes=73808 shape=[1,18452]
+out next_state_img_q type=2 bytes=1966080 shape=[2,30,128,256]
+out next_state_desire_q type=1 bytes=4224 shape=[132,1,8]
+out next_state_feat_q type=1 bytes=8388608 shape=[128,1,16384]
+state_managed_pingpong state_img_q preferred_hardware=2
+state_managed_pingpong state_desire_q preferred_hardware=2
+state_managed_pingpong state_feat_q preferred_hardware=2
+timing=input-buffer writes+run+main-output read; file reads, source conversions and dumps excluded
+source conversion new_img: FLOAT16->UINT8 exact image
+frame=0 total_ms=86.565 write=0.120 run=8.794 read=77.651 nonfinite=0/18452
+frame=1 total_ms=82.250 write=0.470 run=3.646 read=78.134 nonfinite=0/18452
+frame=2 total_ms=80.438 write=0.622 run=3.227 read=76.589 nonfinite=0/18452
+frame=3 total_ms=80.061 write=0.518 run=3.060 read=76.482 nonfinite=0/18452
+frame=4 total_ms=85.697 write=0.556 run=8.632 read=76.509 nonfinite=0/18452
+frame=5 total_ms=79.946 write=0.555 run=2.360 read=77.032 nonfinite=0/18452
+frame=6 total_ms=80.443 write=0.533 run=3.574 read=76.336 nonfinite=0/18452
+frame=7 total_ms=80.305 write=0.579 run=3.343 read=76.384 nonfinite=0/18452
+frame=8 total_ms=80.083 write=0.547 run=3.113 read=76.423 nonfinite=0/18452
+frame=9 total_ms=79.979 write=0.485 run=2.963 read=76.531 nonfinite=0/18452
+frame=10 total_ms=79.570 write=0.559 run=2.294 read=76.717 nonfinite=0/18452
+frame=11 total_ms=79.506 write=0.565 run=2.144 read=76.797 nonfinite=0/18452
+frame=12 total_ms=80.193 write=0.499 run=3.081 read=76.612 nonfinite=0/18452
+frame=13 total_ms=79.648 write=0.486 run=2.866 read=76.296 nonfinite=0/18452
+frame=14 total_ms=81.415 write=0.349 run=2.079 read=78.987 nonfinite=0/18452
+frame=15 total_ms=78.758 write=0.323 run=1.822 read=76.613 nonfinite=0/18452
+backend=LiteRT_GPU_OpenCL fully_accelerated=1 frames=16 mean_ms=80.929 p50_ms=80.083 p99_ms=85.697 min_ms=78.758 max_ms=86.565 mean_write_ms=0.485 mean_run_ms=3.562 mean_read_ms=76.881 output_float32_count=18452
+RUNNER_EXIT=0

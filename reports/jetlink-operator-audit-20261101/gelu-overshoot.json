@@ -1,0 +1,40 @@
+{
+  "node_name": "node_gelu_35",
+  "attribute_approximate": "none",
+  "input_shape": [
+    1,
+    4,
+    8,
+    8192
+  ],
+  "input_dtype": "float16",
+  "total_elements": 262144,
+  "positive_input_count": 1407,
+  "metric": "count/fraction with output > positive input",
+  "variants": {
+    "htp_fp16": {
+      "positive_output_gt_input_count": 48,
+      "positive_output_gt_input_fraction": 0.03411513859275053,
+      "max_positive_overshoot": 0.0078125,
+      "max_index_flat": 142666,
+      "max_case_input": 7.24609375,
+      "max_case_output": 7.25390625
+    },
+    "cpu_fp16": {
+      "positive_output_gt_input_count": 0,
+      "positive_output_gt_input_fraction": 0.0,
+      "max_positive_overshoot": 0.0,
+      "max_index_flat": null,
+      "max_case_input": null,
+      "max_case_output": null
+    },
+    "cpu_fp32_math": {
+      "positive_output_gt_input_count": 0,
+      "positive_output_gt_input_fraction": 0.0,
+      "max_positive_overshoot": 0.0,
+      "max_index_flat": null,
+      "max_case_input": null,
+      "max_case_output": null
+    }
+  }
+}

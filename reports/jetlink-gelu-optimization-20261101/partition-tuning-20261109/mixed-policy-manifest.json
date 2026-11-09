@@ -1,0 +1,31 @@
+{
+  "source": "C:\\Users\\sunbo\\Documents\\moto-x40-root\\policy-fp32.onnx",
+  "source_sha256": "249f40e501224fecb2a27b1bcf6dc292adf4a5c1066ae5931356bbbdfddb8a36",
+  "output": "C:\\Users\\sunbo\\Documents\\openpilot\\outputs\\jetlink-gelu-optimization-20261101\\partition-tuning-20261109\\mixed-policy-fp32-tanh.onnx",
+  "output_sha256": "686aff761ab4a96ef9871304b486f521b827169a8a471dbf07b8c224c814b579",
+  "output_bytes": 182005471,
+  "conversion": "replace 27 Gelu(approximate=tanh) with explicit FP32 scalar arithmetic",
+  "formula": "0.5*x*(1+tanh(sqrt(2/pi)*(x+0.044715*x*x*x)))",
+  "gelu_nodes_replaced": 27,
+  "gelu_nodes_remaining": 0,
+  "source_graph_nodes": 693,
+  "output_graph_nodes": 909,
+  "source_initializers": 411,
+  "output_initializers": 415,
+  "graph_inputs": [
+    "view_39",
+    "desire",
+    "traffic_convention",
+    "action_t",
+    "state_desire_q",
+    "state_feat_q"
+  ],
+  "graph_outputs": [
+    "outputs",
+    "next_state_desire_q",
+    "next_state_feat_q"
+  ],
+  "other_transformations": [],
+  "external_weights": false,
+  "onnx_checker": "passed (in-memory and serialized model, full_check=True)"
+}

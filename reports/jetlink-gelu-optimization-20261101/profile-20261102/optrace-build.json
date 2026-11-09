@@ -1,0 +1,16 @@
+{
+  "qnn_profile_level": "optrace",
+  "compiler": "C:\\Users\\sunbo\\Documents\\moto-x40-root\\android-ndk-r30\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\aarch64-linux-android24-clang.cmd",
+  "qnn_profile_path": "/data/local/tmp/jetlink_qnn_optrace_20261102.csv",
+  "flags": [
+    "-O2",
+    "-Wall",
+    "-Wextra",
+    "-Werror",
+    "-DJL_ORT_DLOPEN"
+  ],
+  "source": "C:\\Users\\sunbo\\Documents\\openpilot\\reports\\jetlink-gelu-optimization-20261101\\profile-20261102\\history_probe_optrace.c",
+  "binary": "C:\\Users\\sunbo\\Documents\\openpilot\\outputs\\jetlink-gelu-optimization-20261101\\profile-optrace\\history_probe_optrace",
+  "target": "aarch64-linux-android24",
+  "sha256": "aa790ae7adf80ff1d2dfb1f62cd045e8c2f655b520cdd95f5be9fb4780565838"
+}

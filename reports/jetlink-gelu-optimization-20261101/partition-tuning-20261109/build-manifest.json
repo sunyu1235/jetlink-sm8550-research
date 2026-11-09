@@ -1,0 +1,19 @@
+{
+  "qnn_profile_path_default": "/data/local/tmp/jetlink_qnn_profile_runtime_tuning.csv",
+  "source": "C:\\Users\\sunbo\\Documents\\openpilot\\reports\\jetlink-gelu-optimization-20261101\\partition-tuning-20261109\\partition_probe.c",
+  "runtime_options": [
+    "soc_model via JL_SOC_MODEL",
+    "vtcm_mb via JL_VTCM_MB"
+  ],
+  "binary": "C:\\Users\\sunbo\\Documents\\openpilot\\outputs\\jetlink-gelu-optimization-20261101\\partition-tuning-20261109\\partition_probe",
+  "target": "aarch64-linux-android24",
+  "sha256": "fac0b0e11ea5a30b1cf6ad5b5d0e1b0e7e514290aba36a19bbeb923310a68909",
+  "compiler": "C:\\Users\\sunbo\\Documents\\moto-x40-root\\android-ndk-r30\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\aarch64-linux-android24-clang.cmd",
+  "flags": [
+    "-O2",
+    "-Wall",
+    "-Wextra",
+    "-Werror",
+    "-DJL_ORT_DLOPEN"
+  ]
+}

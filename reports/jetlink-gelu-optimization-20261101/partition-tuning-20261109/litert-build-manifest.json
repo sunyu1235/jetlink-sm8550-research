@@ -1,0 +1,22 @@
+{
+  "official_shim_sha256": "acf9fc676702ebaf4c03344d05f23909b76ff5b1368ba620b4a025d8414ea482",
+  "binary_sha256": "f9a1ef61a77e92ae30c26733aed103ec67c9eeec6dee73a1e383ad615eb19415",
+  "purpose": "Standalone official LiteRT GPU synthetic recurrent replay; no phone execution during build",
+  "source_sha256": "c9782a55962e19a1b479e217e0b42e908668ff364908d8a49c30f886b1f58819",
+  "flags": [
+    "-std=gnu11",
+    "-O2",
+    "-Wall",
+    "-Wextra",
+    "-Werror",
+    "-ldl",
+    "-pthread",
+    "-lm"
+  ],
+  "official_shim": "C:\\Users\\sunbo\\Documents\\openpilot\\outputs\\jetlink-gelu-optimization-20261101\\partition-tuning-20261109\\upstream-pinned-source\\JetlinkKit\\Sources\\CLiteRt\\jl_litert.c",
+  "source": "C:\\Users\\sunbo\\Documents\\openpilot\\reports\\jetlink-gelu-optimization-20261101\\partition-tuning-20261109\\litert_history_probe.c",
+  "compiler": "C:\\Users\\sunbo\\Documents\\moto-x40-root\\android-ndk-r30\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\aarch64-linux-android24-clang.cmd",
+  "binary": "C:\\Users\\sunbo\\Documents\\openpilot\\outputs\\jetlink-gelu-optimization-20261101\\partition-tuning-20261109\\litert_history_probe",
+  "target": "aarch64-linux-android24",
+  "official_shim_modified": false
+}

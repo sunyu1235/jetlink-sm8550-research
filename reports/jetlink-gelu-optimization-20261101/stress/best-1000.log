@@ -1,0 +1,16 @@
+Cpus_allowed:	f8
+Cpus_allowed_list:	3-7
+ORT 1.29.0
+in new_img 786432 bytes
+in desire 32 bytes
+in traffic_convention 8 bytes
+in action_t 8 bytes
+in state_img_q 3932160 bytes
+in state_desire_q 4224 bytes
+in state_feat_q 8388608 bytes
+out outputs 73808 bytes
+out next_state_img_q 3932160 bytes
+out next_state_desire_q 4224 bytes
+out next_state_feat_q 8388608 bytes
+output_type=1 nonfinite=0/18452
+shared=1 rpc_us=0 n=1000 mean_ms=62.011 p50_ms=61.790 p99_ms=63.775 min_ms=61.326 max_ms=70.594 over50=1000

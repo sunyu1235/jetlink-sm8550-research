@@ -1,0 +1,8 @@
+CHILD_STATUS
+Cpus_allowed:	f8
+Cpus_allowed_list:	3-7
+QNN tuning: soc_model=default vtcm_mb=default profile=none
+ORT 1.29.0
+SESSION_CREATE_BEGIN
+session: Failed to load from EpContext model. tensorprotoutils.cc:426 ValidateExternalDataPathFromDir Absolute path not allowed for external data location
+RUNNER_EXIT=1

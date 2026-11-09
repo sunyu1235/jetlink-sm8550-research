@@ -1,0 +1,17 @@
+{
+  "checks": {
+    "all_160_frames_present_and_size_correct": true,
+    "all_outputs_finite": true,
+    "all_outputs_identical_to_accepted_baseline": true,
+    "all_outputs_identical_across_aba": true,
+    "thread_counts_logged_4_1_4": true,
+    "affinity_f8_all_runs": true,
+    "all_original_parity_checks_pass": true,
+    "all_processes_exit_zero": true
+  },
+  "errors": {
+    "a0-threads4": [],
+    "b1-threads1": [],
+    "a2-threads4": []
+  }
+}

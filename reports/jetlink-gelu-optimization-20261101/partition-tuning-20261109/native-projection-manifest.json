@@ -1,0 +1,76 @@
+{
+  "status": "onnx_checker_passed_pending_actual_htp_native_gelu_measurement",
+  "model": {
+    "path": "C:\\Users\\sunbo\\Documents\\openpilot\\outputs\\jetlink-gelu-optimization-20261101\\partition-tuning-20261109\\bounded-gelu\\native-projection-finite.onnx",
+    "bytes": 651,
+    "sha256": "9cbca57bb37bef4a7f3f264775cc431419a58590e885b1af8264a8c22df05ae9"
+  },
+  "input": {
+    "path": "C:\\Users\\sunbo\\Documents\\openpilot\\outputs\\jetlink-gelu-optimization-20261101\\partition-tuning-20261109\\bounded-gelu\\inputs\\0_x.bin",
+    "bytes": 126976,
+    "sha256": "2da4a859a17780f673138e72e4e2e6959131ff59f8f5c34d4f68598e722885fe"
+  },
+  "input_shape": [
+    1,
+    31,
+    32,
+    64
+  ],
+  "input_dtype": "FLOAT16",
+  "finite_fp16_count": 63488,
+  "outputs": {
+    "projected": {
+      "dtype": "FLOAT16",
+      "shape": [
+        1,
+        31,
+        32,
+        64
+      ]
+    },
+    "raw": {
+      "dtype": "FLOAT16",
+      "shape": [
+        1,
+        31,
+        32,
+        64
+      ],
+      "role": "diagnostic native GELU result"
+    }
+  },
+  "nodes": 6,
+  "definition": "raw=Gelu(x,approximate=none); r=Relu(x); b=Min(raw,r); tail=Abs(x)>4; projected=Where(tail,r,b)",
+  "floating_intermediates": "FLOAT16",
+  "condition_dtype": "BOOL",
+  "gather_nodes": 0,
+  "projection_mathematical_fact": "For finite native raw and either reference formula, the true GELU is <=Relu(x), so Min(raw,Relu(x)) cannot increase absolute error. This does not bound the native implementation's remaining error inside [-4,4].",
+  "tail_mathematical_fact": {
+    "condition": "strict abs(x)>4",
+    "replacement": "Relu(x)",
+    "erf_correction_magnitude_at_abs4_double": 0.00012668496733247991,
+    "tanh_correction_magnitude_at_abs4_double": 7.024594819227126e-05,
+    "scope": "Real-arithmetic tail correction at the cutoff, not a measured HTP full-domain or model error; FP16 reference rounding also applies."
+  },
+  "comparison_references": {
+    "erf": {
+      "path": "C:\\Users\\sunbo\\Documents\\openpilot\\outputs\\jetlink-gelu-optimization-20261101\\partition-tuning-20261109\\bounded-gelu\\reference\\erf.bin",
+      "bytes": 126976,
+      "sha256": "8ac73cab7c4de48c4dfcd108d4967d3bb6770f9a6bfb6df07cb65333015bd146"
+    },
+    "tanh": {
+      "path": "C:\\Users\\sunbo\\Documents\\openpilot\\outputs\\jetlink-gelu-optimization-20261101\\partition-tuning-20261109\\bounded-gelu\\reference\\tanh.bin",
+      "bytes": 126976,
+      "sha256": "7bff2507d3ea721f304ccfc658f578c430707ea9ca56b219ead83a56f62e91f8"
+    }
+  },
+  "reference_formulas": [
+    "erf",
+    "tanh"
+  ],
+  "host_accuracy_simulation": "not performed; host ONNX GELU cannot stand in for HTP native GELU",
+  "full_model_generated": false,
+  "device_execution": "not performed by preparation script",
+  "onnx_checker_full_check": "passed",
+  "shape_inference_strict": "passed"
+}

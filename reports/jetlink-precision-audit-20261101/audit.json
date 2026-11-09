@@ -1,0 +1,222 @@
+{
+  "source_script": "C:\\Users\\sunbo\\AppData\\Local\\Temp\\codex-jetlink-research\\scripts\\verify_parity.py",
+  "thresholds": {
+    "MIN_CORR": 0.999,
+    "MIN_SAMPLES": 16,
+    "QUIET_FRACTION": 0.05,
+    "TINY_TOLERANCE": 0.1,
+    "CONSTANT_FRACTION": 0.001
+  },
+  "results": [
+    {
+      "label": "original_npu",
+      "dataset": "C:\\Users\\sunbo\\Documents\\moto-x40-root\\parity-varied",
+      "frames": 16,
+      "exit_code": 1,
+      "pass": false,
+      "max_abs_head_error": 5.1875,
+      "failed_heads": [
+        {
+          "head": "meta",
+          "worst_corr": 0.998422,
+          "max_abs": 0.3364
+        },
+        {
+          "head": "lane_lines",
+          "worst_corr": 0.999497,
+          "max_abs": 0.4434
+        },
+        {
+          "head": "lead",
+          "worst_corr": 0.999781,
+          "max_abs": 0.4573
+        },
+        {
+          "head": "plan",
+          "worst_corr": 0.999872,
+          "max_abs": 2.2813
+        },
+        {
+          "head": "pose",
+          "worst_corr": 0.999883,
+          "max_abs": 0.003235
+        },
+        {
+          "head": "road_edges",
+          "worst_corr": 0.999572,
+          "max_abs": 0.4141
+        }
+      ],
+      "upstream_fail_summary": "meta 0.998422 on one frame, lane_lines pooled, lead pooled, plan pooled, pose pooled, road_edges pooled",
+      "log": "C:\\Users\\sunbo\\Documents\\openpilot\\reports\\jetlink-precision-audit-20261101\\original_npu.compare.log"
+    },
+    {
+      "label": "npu_vision_cpu16_policy",
+      "dataset": "C:\\Users\\sunbo\\Documents\\moto-x40-root\\parity-hybrid",
+      "frames": 16,
+      "exit_code": 1,
+      "pass": false,
+      "max_abs_head_error": 2.125,
+      "failed_heads": [
+        {
+          "head": "lane_lines",
+          "worst_corr": 0.999857,
+          "max_abs": 0.3594
+        },
+        {
+          "head": "road_edges",
+          "worst_corr": 0.999869,
+          "max_abs": 0.3516
+        }
+      ],
+      "upstream_fail_summary": "lane_lines pooled, road_edges pooled",
+      "log": "C:\\Users\\sunbo\\Documents\\openpilot\\reports\\jetlink-precision-audit-20261101\\npu_vision_cpu16_policy.compare.log"
+    },
+    {
+      "label": "npu_vision_cpu32_policy",
+      "dataset": "C:\\Users\\sunbo\\Documents\\moto-x40-root\\parity-policy-fp32",
+      "frames": 16,
+      "exit_code": 1,
+      "pass": false,
+      "max_abs_head_error": 2.0986,
+      "failed_heads": [
+        {
+          "head": "lane_lines",
+          "worst_corr": 0.999857,
+          "max_abs": 0.3616
+        },
+        {
+          "head": "road_edges",
+          "worst_corr": 0.999869,
+          "max_abs": 0.3537
+        }
+      ],
+      "upstream_fail_summary": "lane_lines pooled, road_edges pooled",
+      "log": "C:\\Users\\sunbo\\Documents\\openpilot\\reports\\jetlink-precision-audit-20261101\\npu_vision_cpu32_policy.compare.log"
+    },
+    {
+      "label": "cpu_vision_npu_policy",
+      "dataset": "C:\\Users\\sunbo\\Documents\\moto-x40-root\\parity-cpu-vision-htp",
+      "frames": 16,
+      "exit_code": 1,
+      "pass": false,
+      "max_abs_head_error": 3.75,
+      "failed_heads": [
+        {
+          "head": "lane_lines",
+          "worst_corr": 0.999714,
+          "max_abs": 0.3281
+        },
+        {
+          "head": "lead",
+          "worst_corr": 0.999873,
+          "max_abs": 0.3403
+        },
+        {
+          "head": "plan",
+          "worst_corr": 0.999936,
+          "max_abs": 1.3906
+        }
+      ],
+      "upstream_fail_summary": "lane_lines pooled, lead pooled, plan pooled",
+      "log": "C:\\Users\\sunbo\\Documents\\openpilot\\reports\\jetlink-precision-audit-20261101\\cpu_vision_npu_policy.compare.log"
+    },
+    {
+      "label": "all_cpu32_pc",
+      "dataset": "C:\\Users\\sunbo\\Documents\\moto-x40-root\\parity-all-fp32",
+      "frames": 16,
+      "exit_code": 0,
+      "pass": true,
+      "max_abs_head_error": 0.2098,
+      "failed_heads": [],
+      "upstream_fail_summary": null,
+      "log": "C:\\Users\\sunbo\\Documents\\openpilot\\reports\\jetlink-precision-audit-20261101\\all_cpu32_pc.compare.log"
+    },
+    {
+      "label": "phone_fp32",
+      "dataset": "C:\\Users\\sunbo\\Documents\\moto-x40-root\\parity-phone-fp32",
+      "frames": 16,
+      "exit_code": 1,
+      "pass": false,
+      "max_abs_head_error": 2.0985,
+      "failed_heads": [
+        {
+          "head": "lane_lines",
+          "worst_corr": 0.999857,
+          "max_abs": 0.3616
+        },
+        {
+          "head": "road_edges",
+          "worst_corr": 0.999869,
+          "max_abs": 0.3537
+        }
+      ],
+      "upstream_fail_summary": "lane_lines pooled, road_edges pooled",
+      "log": "C:\\Users\\sunbo\\Documents\\openpilot\\reports\\jetlink-precision-audit-20261101\\phone_fp32.compare.log"
+    },
+    {
+      "label": "phone_fp32_cpuvision",
+      "dataset": "C:\\Users\\sunbo\\Documents\\moto-x40-root\\parity-phone-fp32-cpuvision",
+      "frames": 16,
+      "exit_code": 0,
+      "pass": true,
+      "max_abs_head_error": 0.1081,
+      "failed_heads": [],
+      "upstream_fail_summary": null,
+      "log": "C:\\Users\\sunbo\\Documents\\openpilot\\reports\\jetlink-precision-audit-20261101\\phone_fp32_cpuvision.compare.log"
+    },
+    {
+      "label": "phone_hybrid",
+      "dataset": "C:\\Users\\sunbo\\Documents\\moto-x40-root\\parity-phone-hybrid",
+      "frames": 16,
+      "exit_code": 1,
+      "pass": false,
+      "max_abs_head_error": 4.625,
+      "failed_heads": [
+        {
+          "head": "meta",
+          "worst_corr": 0.99897,
+          "max_abs": 0.291
+        },
+        {
+          "head": "lane_lines",
+          "worst_corr": 0.999659,
+          "max_abs": 0.5547
+        },
+        {
+          "head": "lead",
+          "worst_corr": 0.999941,
+          "max_abs": 4.625
+        },
+        {
+          "head": "plan",
+          "worst_corr": 0.99991,
+          "max_abs": 1.7812
+        },
+        {
+          "head": "pose",
+          "worst_corr": 0.999795,
+          "max_abs": 0.003189
+        },
+        {
+          "head": "road_edges",
+          "worst_corr": 0.999541,
+          "max_abs": 0.5391
+        }
+      ],
+      "upstream_fail_summary": "meta 0.998970 on one frame, lane_lines pooled, lead pooled, plan pooled, pose pooled, road_edges pooled",
+      "log": "C:\\Users\\sunbo\\Documents\\openpilot\\reports\\jetlink-precision-audit-20261101\\phone_hybrid.compare.log"
+    },
+    {
+      "label": "phone_cpu32_full",
+      "dataset": "C:\\Users\\sunbo\\Documents\\openpilot\\reports\\jetlink-precision-audit-20261101\\phone-full-cpu32-compare",
+      "frames": 16,
+      "exit_code": 0,
+      "pass": true,
+      "max_abs_head_error": 0.2101,
+      "failed_heads": [],
+      "upstream_fail_summary": null,
+      "log": "C:\\Users\\sunbo\\Documents\\openpilot\\reports\\jetlink-precision-audit-20261101\\phone_cpu32_full.compare.log"
+    }
+  ]
+}

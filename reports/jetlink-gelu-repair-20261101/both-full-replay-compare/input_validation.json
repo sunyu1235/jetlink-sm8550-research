@@ -1,0 +1,101 @@
+{
+  "frames": [
+    {
+      "frame": 0,
+      "bytes": 73808,
+      "float32_count": 18452,
+      "all_finite": true
+    },
+    {
+      "frame": 1,
+      "bytes": 73808,
+      "float32_count": 18452,
+      "all_finite": true
+    },
+    {
+      "frame": 2,
+      "bytes": 73808,
+      "float32_count": 18452,
+      "all_finite": true
+    },
+    {
+      "frame": 3,
+      "bytes": 73808,
+      "float32_count": 18452,
+      "all_finite": true
+    },
+    {
+      "frame": 4,
+      "bytes": 73808,
+      "float32_count": 18452,
+      "all_finite": true
+    },
+    {
+      "frame": 5,
+      "bytes": 73808,
+      "float32_count": 18452,
+      "all_finite": true
+    },
+    {
+      "frame": 6,
+      "bytes": 73808,
+      "float32_count": 18452,
+      "all_finite": true
+    },
+    {
+      "frame": 7,
+      "bytes": 73808,
+      "float32_count": 18452,
+      "all_finite": true
+    },
+    {
+      "frame": 8,
+      "bytes": 73808,
+      "float32_count": 18452,
+      "all_finite": true
+    },
+    {
+      "frame": 9,
+      "bytes": 73808,
+      "float32_count": 18452,
+      "all_finite": true
+    },
+    {
+      "frame": 10,
+      "bytes": 73808,
+      "float32_count": 18452,
+      "all_finite": true
+    },
+    {
+      "frame": 11,
+      "bytes": 73808,
+      "float32_count": 18452,
+      "all_finite": true
+    },
+    {
+      "frame": 12,
+      "bytes": 73808,
+      "float32_count": 18452,
+      "all_finite": true
+    },
+    {
+      "frame": 13,
+      "bytes": 73808,
+      "float32_count": 18452,
+      "all_finite": true
+    },
+    {
+      "frame": 14,
+      "bytes": 73808,
+      "float32_count": 18452,
+      "all_finite": true
+    },
+    {
+      "frame": 15,
+      "bytes": 73808,
+      "float32_count": 18452,
+      "all_finite": true
+    }
+  ],
+  "expected_bytes_per_frame": 73808
+}

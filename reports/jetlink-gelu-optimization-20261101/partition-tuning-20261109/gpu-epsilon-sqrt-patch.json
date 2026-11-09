@@ -1,0 +1,3208 @@
+{
+  "source_prefix": "C:\\Users\\sunbo\\Documents\\openpilot\\outputs\\jetlink-gelu-optimization-20261101\\partition-tuning-20261109\\litert-metadata-prefix.bin",
+  "prefix_bytes": 8388608,
+  "model_size": 793980992,
+  "subgraphs": 1,
+  "candidate_chains_found": 103,
+  "safe_chains": 103,
+  "patch_records_unique": 309,
+  "patch_binary": "C:\\Users\\sunbo\\Documents\\openpilot\\reports\\jetlink-gelu-optimization-20261101\\partition-tuning-20261109\\gpu-epsilon-sqrt-patches.bin",
+  "rejected_candidates": [],
+  "plans": [
+    {
+      "subgraph": 0,
+      "epsilon_tensor": "layer_norm__epsilon",
+      "r2_tensor": "layer_norm__r2",
+      "scaled_epsilon_tensor": "layer_norm__eps",
+      "r2_operator": 500,
+      "epsilon_operator": 501,
+      "epsilon_original": 9.999999747378752e-06,
+      "epsilon_sqrt": 0.0031622776202254524,
+      "mathematical_identity": "r^2 * epsilon == (r * sqrt(epsilon))^2",
+      "edits": [
+        {
+          "label": "sg0:layer_norm__r2 MUL second input -> layer_norm__epsilon",
+          "byte_offset": 149316,
+          "old_hex": "48000000",
+          "new_hex": "4d000000"
+        },
+        {
+          "label": "sg0:layer_norm__eps MUL other input -> layer_norm__r2",
+          "byte_offset": 149268,
+          "old_hex": "4d000000",
+          "new_hex": "4c000000"
+        },
+        {
+          "label": "sg0:layer_norm__epsilon constant -> sqrt(epsilon)",
+          "byte_offset": 513616,
+          "old_hex": "acc52737",
+          "new_hex": "373e4f3b"
+        }
+      ]
+    },
+    {
+      "subgraph": 0,
+      "epsilon_tensor": "layer_norm_1__epsilon",
+      "r2_tensor": "layer_norm_1__r2",
+      "scaled_epsilon_tensor": "layer_norm_1__eps",
+      "r2_operator": 517,
+      "epsilon_operator": 518,
+      "epsilon_original": 9.999999747378752e-06,
+      "epsilon_sqrt": 0.0031622776202254524,
+      "mathematical_identity": "r^2 * epsilon == (r * sqrt(epsilon))^2",
+      "edits": [
+        {
+          "label": "sg0:layer_norm_1__r2 MUL second input -> layer_norm_1__epsilon",
+          "byte_offset": 148468,
+          "old_hex": "61000000",
+          "new_hex": "66000000"
+        },
+        {
+          "label": "sg0:layer_norm_1__eps MUL other input -> layer_norm_1__r2",
+          "byte_offset": 148420,
+          "old_hex": "66000000",
+          "new_hex": "65000000"
+        },
+        {
+          "label": "sg0:layer_norm_1__epsilon constant -> sqrt(epsilon)",
+          "byte_offset": 513472,
+          "old_hex": "acc52737",
+          "new_hex": "373e4f3b"
+        }
+      ]
+    },
+    {
+      "subgraph": 0,
+      "epsilon_tensor": "layer_norm_2__epsilon",
+      "r2_tensor": "layer_norm_2__r2",
+      "scaled_epsilon_tensor": "layer_norm_2__eps",
+      "r2_operator": 541,
+      "epsilon_operator": 542,
+      "epsilon_original": 9.999999747378752e-06,
+      "epsilon_sqrt": 0.0031622776202254524,
+      "mathematical_identity": "r^2 * epsilon == (r * sqrt(epsilon))^2",
+      "edits": [
+        {
+          "label": "sg0:layer_norm_2__r2 MUL second input -> layer_norm_2__epsilon",
+          "byte_offset": 147324,
+          "old_hex": "86000000",
+          "new_hex": "8b000000"
+        },
+        {
+          "label": "sg0:layer_norm_2__eps MUL other input -> layer_norm_2__r2",
+          "byte_offset": 147276,
+          "old_hex": "8b000000",
+          "new_hex": "8a000000"
+        },
+        {
+          "label": "sg0:layer_norm_2__epsilon constant -> sqrt(epsilon)",
+          "byte_offset": 513232,
+          "old_hex": "acc52737",
+          "new_hex": "373e4f3b"
+        }
+      ]
+    },
+    {
+      "subgraph": 0,
+      "epsilon_tensor": "layer_norm_3__epsilon",
+      "r2_tensor": "layer_norm_3__r2",
+      "scaled_epsilon_tensor": "layer_norm_3__eps",
+      "r2_operator": 565,
+      "epsilon_operator": 566,
+      "epsilon_original": 9.999999747378752e-06,
+      "epsilon_sqrt": 0.0031622776202254524,
+      "mathematical_identity": "r^2 * epsilon == (r * sqrt(epsilon))^2",
+      "edits": [
+        {
+          "label": "sg0:layer_norm_3__r2 MUL second input -> layer_norm_3__epsilon",
+          "byte_offset": 146180,
+          "old_hex": "ab000000",
+          "new_hex": "b0000000"
+        },
+        {
+          "label": "sg0:layer_norm_3__eps MUL other input -> layer_norm_3__r2",
+          "byte_offset": 146132,
+          "old_hex": "b0000000",
+          "new_hex": "af000000"
+        },
+        {
+          "label": "sg0:layer_norm_3__epsilon constant -> sqrt(epsilon)",
+          "byte_offset": 512992,
+          "old_hex": "acc52737",
+          "new_hex": "373e4f3b"
+        }
+      ]
+    },
+    {
+      "subgraph": 0,
+      "epsilon_tensor": "layer_norm_4__epsilon",
+      "r2_tensor": "layer_norm_4__r2",
+      "scaled_epsilon_tensor": "layer_norm_4__eps",
+      "r2_operator": 588,
+      "epsilon_operator": 589,
+      "epsilon_original": 9.999999747378752e-06,
+      "epsilon_sqrt": 0.0031622776202254524,
+      "mathematical_identity": "r^2 * epsilon == (r * sqrt(epsilon))^2",
+      "edits": [
+        {
+          "label": "sg0:layer_norm_4__r2 MUL second input -> layer_norm_4__epsilon",
+          "byte_offset": 145100,
+          "old_hex": "cc000000",
+          "new_hex": "d1000000"
+        },
+        {
+          "label": "sg0:layer_norm_4__eps MUL other input -> layer_norm_4__r2",
+          "byte_offset": 145052,
+          "old_hex": "d1000000",
+          "new_hex": "d0000000"
+        },
+        {
+          "label": "sg0:layer_norm_4__epsilon constant -> sqrt(epsilon)",
+          "byte_offset": 512800,
+          "old_hex": "acc52737",
+          "new_hex": "373e4f3b"
+        }
+      ]
+    },
+    {
+      "subgraph": 0,
+      "epsilon_tensor": "layer_norm_5__epsilon",
+      "r2_tensor": "layer_norm_5__r2",
+      "scaled_epsilon_tensor": "layer_norm_5__eps",
+      "r2_operator": 606,
+      "epsilon_operator": 607,
+      "epsilon_original": 9.999999747378752e-06,
+      "epsilon_sqrt": 0.0031622776202254524,
+      "mathematical_identity": "r^2 * epsilon == (r * sqrt(epsilon))^2",
+      "edits": [
+        {
+          "label": "sg0:layer_norm_5__r2 MUL second input -> layer_norm_5__epsilon",
+          "byte_offset": 144212,
+          "old_hex": "e9000000",
+          "new_hex": "ee000000"
+        },
+        {
+          "label": "sg0:layer_norm_5__eps MUL other input -> layer_norm_5__r2",
+          "byte_offset": 144164,
+          "old_hex": "ee000000",
+          "new_hex": "ed000000"
+        },
+        {
+          "label": "sg0:layer_norm_5__epsilon constant -> sqrt(epsilon)",
+          "byte_offset": 512608,
+          "old_hex": "acc52737",
+          "new_hex": "373e4f3b"
+        }
+      ]
+    },
+    {
+      "subgraph": 0,
+      "epsilon_tensor": "layer_norm_6__epsilon",
+      "r2_tensor": "layer_norm_6__r2",
+      "scaled_epsilon_tensor": "layer_norm_6__eps",
+      "r2_operator": 630,
+      "epsilon_operator": 631,
+      "epsilon_original": 9.999999747378752e-06,
+      "epsilon_sqrt": 0.0031622776202254524,
+      "mathematical_identity": "r^2 * epsilon == (r * sqrt(epsilon))^2",
+      "edits": [
+        {
+          "label": "sg0:layer_norm_6__r2 MUL second input -> layer_norm_6__epsilon",
+          "byte_offset": 143068,
+          "old_hex": "0e010000",
+          "new_hex": "13010000"
+        },
+        {
+          "label": "sg0:layer_norm_6__eps MUL other input -> layer_norm_6__r2",
+          "byte_offset": 143020,
+          "old_hex": "13010000",
+          "new_hex": "12010000"
+        },
+        {
+          "label": "sg0:layer_norm_6__epsilon constant -> sqrt(epsilon)",
+          "byte_offset": 512368,
+          "old_hex": "acc52737",
+          "new_hex": "373e4f3b"
+        }
+      ]
+    },
+    {
+      "subgraph": 0,
+      "epsilon_tensor": "layer_norm_7__epsilon",
+      "r2_tensor": "layer_norm_7__r2",
+      "scaled_epsilon_tensor": "layer_norm_7__eps",
+      "r2_operator": 654,
+      "epsilon_operator": 655,
+      "epsilon_original": 9.999999747378752e-06,
+      "epsilon_sqrt": 0.0031622776202254524,
+      "mathematical_identity": "r^2 * epsilon == (r * sqrt(epsilon))^2",
+      "edits": [
+        {
+          "label": "sg0:layer_norm_7__r2 MUL second input -> layer_norm_7__epsilon",
+          "byte_offset": 141924,
+          "old_hex": "33010000",
+          "new_hex": "38010000"
+        },
+        {
+          "label": "sg0:layer_norm_7__eps MUL other input -> layer_norm_7__r2",
+          "byte_offset": 141876,
+          "old_hex": "38010000",
+          "new_hex": "37010000"
+        },
+        {
+          "label": "sg0:layer_norm_7__epsilon constant -> sqrt(epsilon)",
+          "byte_offset": 512128,
+          "old_hex": "acc52737",
+          "new_hex": "373e4f3b"
+        }
+      ]
+    },
+    {
+      "subgraph": 0,
+      "epsilon_tensor": "layer_norm_8__epsilon",
+      "r2_tensor": "layer_norm_8__r2",
+      "scaled_epsilon_tensor": "layer_norm_8__eps",
+      "r2_operator": 677,
+      "epsilon_operator": 678,
+      "epsilon_original": 9.999999747378752e-06,
+      "epsilon_sqrt": 0.0031622776202254524,
+      "mathematical_identity": "r^2 * epsilon == (r * sqrt(epsilon))^2",
+      "edits": [
+        {
+          "label": "sg0:layer_norm_8__r2 MUL second input -> layer_norm_8__epsilon",
+          "byte_offset": 140844,
+          "old_hex": "54010000",
+          "new_hex": "59010000"
+        },
+        {
+          "label": "sg0:layer_norm_8__eps MUL other input -> layer_norm_8__r2",
+          "byte_offset": 140796,
+          "old_hex": "59010000",
+          "new_hex": "58010000"
+        },
+        {
+          "label": "sg0:layer_norm_8__epsilon constant -> sqrt(epsilon)",
+          "byte_offset": 511936,
+          "old_hex": "acc52737",
+          "new_hex": "373e4f3b"
+        }
+      ]
+    },
+    {
+      "subgraph": 0,
+      "epsilon_tensor": "layer_norm_9__epsilon",
+      "r2_tensor": "layer_norm_9__r2",
+      "scaled_epsilon_tensor": "layer_norm_9__eps",
+      "r2_operator": 695,
+      "epsilon_operator": 696,
+      "epsilon_original": 6.24999984211172e-07,
+      "epsilon_sqrt": 0.0007905694050563631,
+      "mathematical_identity": "r^2 * epsilon == (r * sqrt(epsilon))^2",
+      "edits": [
+        {
+          "label": "sg0:layer_norm_9__r2 MUL second input -> layer_norm_9__epsilon",
+          "byte_offset": 139956,
+          "old_hex": "73010000",
+          "new_hex": "78010000"
+        },
+        {
+          "label": "sg0:layer_norm_9__eps MUL other input -> layer_norm_9__r2",
+          "byte_offset": 139908,
+          "old_hex": "78010000",
+          "new_hex": "77010000"
+        },
+        {
+          "label": "sg0:layer_norm_9__epsilon constant -> sqrt(epsilon)",
+          "byte_offset": 511744,
+          "old_hex": "acc52735",
+          "new_hex": "373e4f3a"
+        }
+      ]
+    },
+    {
+      "subgraph": 0,
+      "epsilon_tensor": "layer_norm_10__epsilon",
+      "r2_tensor": "layer_norm_10__r2",
+      "scaled_epsilon_tensor": "layer_norm_10__eps",
+      "r2_operator": 719,
+      "epsilon_operator": 720,
+      "epsilon_original": 6.24999984211172e-07,
+      "epsilon_sqrt": 0.0007905694050563631,
+      "mathematical_identity": "r^2 * epsilon == (r * sqrt(epsilon))^2",
+      "edits": [
+        {
+          "label": "sg0:layer_norm_10__r2 MUL second input -> layer_norm_10__epsilon",
+          "byte_offset": 138812,
+          "old_hex": "9c010000",
+          "new_hex": "a1010000"
+        },
+        {
+          "label": "sg0:layer_norm_10__eps MUL other input -> layer_norm_10__r2",
+          "byte_offset": 138764,
+          "old_hex": "a1010000",
+          "new_hex": "a0010000"
+        },
+        {
+          "label": "sg0:layer_norm_10__epsilon constant -> sqrt(epsilon)",
+          "byte_offset": 511504,
+          "old_hex": "acc52735",
+          "new_hex": "373e4f3a"
+        }
+      ]
+    },
+    {
+      "subgraph": 0,
+      "epsilon_tensor": "layer_norm_11__epsilon",
+      "r2_tensor": "layer_norm_11__r2",
+      "scaled_epsilon_tensor": "layer_norm_11__eps",
+      "r2_operator": 743,
+      "epsilon_operator": 744,
+      "epsilon_original": 6.24999984211172e-07,
+      "epsilon_sqrt": 0.0007905694050563631,
+      "mathematical_identity": "r^2 * epsilon == (r * sqrt(epsilon))^2",
+      "edits": [
+        {
+          "label": "sg0:layer_norm_11__r2 MUL second input -> layer_norm_11__epsilon",
+          "byte_offset": 137668,
+          "old_hex": "c5010000",
+          "new_hex": "ca010000"
+        },
+        {
+          "label": "sg0:layer_norm_11__eps MUL other input -> layer_norm_11__r2",
+          "byte_offset": 137620,
+          "old_hex": "ca010000",
+          "new_hex": "c9010000"
+        },
+        {
+          "label": "sg0:layer_norm_11__epsilon constant -> sqrt(epsilon)",
+          "byte_offset": 511264,
+          "old_hex": "acc52735",
+          "new_hex": "373e4f3a"
+        }
+      ]
+    },
+    {
+      "subgraph": 0,
+      "epsilon_tensor": "layer_norm_12__epsilon",
+      "r2_tensor": "layer_norm_12__r2",
+      "scaled_epsilon_tensor": "layer_norm_12__eps",
+      "r2_operator": 767,
+      "epsilon_operator": 768,
+      "epsilon_original": 6.24999984211172e-07,
+      "epsilon_sqrt": 0.0007905694050563631,
+      "mathematical_identity": "r^2 * epsilon == (r * sqrt(epsilon))^2",
+      "edits": [
+        {
+          "label": "sg0:layer_norm_12__r2 MUL second input -> layer_norm_12__epsilon",
+          "byte_offset": 136524,
+          "old_hex": "ee010000",
+          "new_hex": "f3010000"
+        },
+        {
+          "label": "sg0:layer_norm_12__eps MUL other input -> layer_norm_12__r2",
+          "byte_offset": 136476,
+          "old_hex": "f3010000",
+          "new_hex": "f2010000"
+        },
+        {
+          "label": "sg0:layer_norm_12__epsilon constant -> sqrt(epsilon)",
+          "byte_offset": 511024,
+          "old_hex": "acc52735",
+          "new_hex": "373e4f3a"
+        }
+      ]
+    },
+    {
+      "subgraph": 0,
+      "epsilon_tensor": "layer_norm_13__epsilon",
+      "r2_tensor": "layer_norm_13__r2",
+      "scaled_epsilon_tensor": "layer_norm_13__eps",
+      "r2_operator": 791,
+      "epsilon_operator": 792,
+      "epsilon_original": 6.24999984211172e-07,
+      "epsilon_sqrt": 0.0007905694050563631,
+      "mathematical_identity": "r^2 * epsilon == (r * sqrt(epsilon))^2",
+      "edits": [
+        {
+          "label": "sg0:layer_norm_13__r2 MUL second input -> layer_norm_13__epsilon",
+          "byte_offset": 135380,
+          "old_hex": "17020000",
+          "new_hex": "1c020000"
+        },
+        {
+          "label": "sg0:layer_norm_13__eps MUL other input -> layer_norm_13__r2",
+          "byte_offset": 135332,
+          "old_hex": "1c020000",
+          "new_hex": "1b020000"
+        },
+        {
+          "label": "sg0:layer_norm_13__epsilon constant -> sqrt(epsilon)",
+          "byte_offset": 510784,
+          "old_hex": "acc52735",
+          "new_hex": "373e4f3a"
+        }
+      ]
+    },
+    {
+      "subgraph": 0,
+      "epsilon_tensor": "layer_norm_14__epsilon",
+      "r2_tensor": "layer_norm_14__r2",
+      "scaled_epsilon_tensor": "layer_norm_14__eps",
+      "r2_operator": 815,
+      "epsilon_operator": 816,
+      "epsilon_original": 6.24999984211172e-07,
+      "epsilon_sqrt": 0.0007905694050563631,
+      "mathematical_identity": "r^2 * epsilon == (r * sqrt(epsilon))^2",
+      "edits": [
+        {
+          "label": "sg0:layer_norm_14__r2 MUL second input -> layer_norm_14__epsilon",
+          "byte_offset": 134236,
+          "old_hex": "40020000",
+          "new_hex": "45020000"
+        },
+        {
+          "label": "sg0:layer_norm_14__eps MUL other input -> layer_norm_14__r2",
+          "byte_offset": 134188,
+          "old_hex": "45020000",
+          "new_hex": "44020000"
+        },
+        {
+          "label": "sg0:layer_norm_14__epsilon constant -> sqrt(epsilon)",
+          "byte_offset": 510544,
+          "old_hex": "acc52735",
+          "new_hex": "373e4f3a"
+        }
+      ]
+    },
+    {
+      "subgraph": 0,
+      "epsilon_tensor": "layer_norm_15__epsilon",
+      "r2_tensor": "layer_norm_15__r2",
+      "scaled_epsilon_tensor": "layer_norm_15__eps",
+      "r2_operator": 839,
+      "epsilon_operator": 840,
+      "epsilon_original": 6.24999984211172e-07,
+      "epsilon_sqrt": 0.0007905694050563631,
+      "mathematical_identity": "r^2 * epsilon == (r * sqrt(epsilon))^2",
+      "edits": [
+        {
+          "label": "sg0:layer_norm_15__r2 MUL second input -> layer_norm_15__epsilon",
+          "byte_offset": 133092,
+          "old_hex": "69020000",
+          "new_hex": "6e020000"
+        },
+        {
+          "label": "sg0:layer_norm_15__eps MUL other input -> layer_norm_15__r2",
+          "byte_offset": 133044,
+          "old_hex": "6e020000",
+          "new_hex": "6d020000"
+        },
+        {
+          "label": "sg0:layer_norm_15__epsilon constant -> sqrt(epsilon)",
+          "byte_offset": 510304,
+          "old_hex": "acc52735",
+          "new_hex": "373e4f3a"
+        }
+      ]
+    },
+    {
+      "subgraph": 0,
+      "epsilon_tensor": "layer_norm_16__epsilon",
+      "r2_tensor": "layer_norm_16__r2",
+      "scaled_epsilon_tensor": "layer_norm_16__eps",
+      "r2_operator": 863,
+      "epsilon_operator": 864,
+      "epsilon_original": 6.24999984211172e-07,
+      "epsilon_sqrt": 0.0007905694050563631,
+      "mathematical_identity": "r^2 * epsilon == (r * sqrt(epsilon))^2",
+      "edits": [
+        {
+          "label": "sg0:layer_norm_16__r2 MUL second input -> layer_norm_16__epsilon",
+          "byte_offset": 131948,
+          "old_hex": "92020000",
+          "new_hex": "97020000"
+        },
+        {
+          "label": "sg0:layer_norm_16__eps MUL other input -> layer_norm_16__r2",
+          "byte_offset": 131900,
+          "old_hex": "97020000",
+          "new_hex": "96020000"
+        },
+        {
+          "label": "sg0:layer_norm_16__epsilon constant -> sqrt(epsilon)",
+          "byte_offset": 510064,
+          "old_hex": "acc52735",
+          "new_hex": "373e4f3a"
+        }
+      ]
+    },
+    {
+      "subgraph": 0,
+      "epsilon_tensor": "layer_norm_17__epsilon",
+      "r2_tensor": "layer_norm_17__r2",
+      "scaled_epsilon_tensor": "layer_norm_17__eps",
+      "r2_operator": 887,
+      "epsilon_operator": 888,
+      "epsilon_original": 6.24999984211172e-07,
+      "epsilon_sqrt": 0.0007905694050563631,
+      "mathematical_identity": "r^2 * epsilon == (r * sqrt(epsilon))^2",
+      "edits": [
+        {
+          "label": "sg0:layer_norm_17__r2 MUL second input -> layer_norm_17__epsilon",
+          "byte_offset": 130804,
+          "old_hex": "bb020000",
+          "new_hex": "c0020000"
+        },
+        {
+          "label": "sg0:layer_norm_17__eps MUL other input -> layer_norm_17__r2",
+          "byte_offset": 130756,
+          "old_hex": "c0020000",
+          "new_hex": "bf020000"
+        },
+        {
+          "label": "sg0:layer_norm_17__epsilon constant -> sqrt(epsilon)",
+          "byte_offset": 509824,
+          "old_hex": "acc52735",
+          "new_hex": "373e4f3a"
+        }
+      ]
+    },
+    {
+      "subgraph": 0,
+      "epsilon_tensor": "layer_norm_18__epsilon",
+      "r2_tensor": "layer_norm_18__r2",
+      "scaled_epsilon_tensor": "layer_norm_18__eps",
+      "r2_operator": 911,
+      "epsilon_operator": 912,
+      "epsilon_original": 6.24999984211172e-07,
+      "epsilon_sqrt": 0.0007905694050563631,
+      "mathematical_identity": "r^2 * epsilon == (r * sqrt(epsilon))^2",
+      "edits": [
+        {
+          "label": "sg0:layer_norm_18__r2 MUL second input -> layer_norm_18__epsilon",
+          "byte_offset": 129660,
+          "old_hex": "e4020000",
+          "new_hex": "e9020000"
+        },
+        {
+          "label": "sg0:layer_norm_18__eps MUL other input -> layer_norm_18__r2",
+          "byte_offset": 129612,
+          "old_hex": "e9020000",
+          "new_hex": "e8020000"
+        },
+        {
+          "label": "sg0:layer_norm_18__epsilon constant -> sqrt(epsilon)",
+          "byte_offset": 509584,
+          "old_hex": "acc52735",
+          "new_hex": "373e4f3a"
+        }
+      ]
+    },
+    {
+      "subgraph": 0,
+      "epsilon_tensor": "layer_norm_19__epsilon",
+      "r2_tensor": "layer_norm_19__r2",
+      "scaled_epsilon_tensor": "layer_norm_19__eps",
+      "r2_operator": 935,
+      "epsilon_operator": 936,
+      "epsilon_original": 6.24999984211172e-07,
+      "epsilon_sqrt": 0.0007905694050563631,
+      "mathematical_identity": "r^2 * epsilon == (r * sqrt(epsilon))^2",
+      "edits": [
+        {
+          "label": "sg0:layer_norm_19__r2 MUL second input -> layer_norm_19__epsilon",
+          "byte_offset": 128516,
+          "old_hex": "0d030000",
+          "new_hex": "12030000"
+        },
+        {
+          "label": "sg0:layer_norm_19__eps MUL other input -> layer_norm_19__r2",
+          "byte_offset": 128468,
+          "old_hex": "12030000",
+          "new_hex": "11030000"
+        },
+        {
+          "label": "sg0:layer_norm_19__epsilon constant -> sqrt(epsilon)",
+          "byte_offset": 509344,
+          "old_hex": "acc52735",
+          "new_hex": "373e4f3a"
+        }
+      ]
+    },
+    {
+      "subgraph": 0,
+      "epsilon_tensor": "layer_norm_20__epsilon",
+      "r2_tensor": "layer_norm_20__r2",
+      "scaled_epsilon_tensor": "layer_norm_20__eps",
+      "r2_operator": 959,
+      "epsilon_operator": 960,
+      "epsilon_original": 6.24999984211172e-07,
+      "epsilon_sqrt": 0.0007905694050563631,
+      "mathematical_identity": "r^2 * epsilon == (r * sqrt(epsilon))^2",
+      "edits": [
+        {
+          "label": "sg0:layer_norm_20__r2 MUL second input -> layer_norm_20__epsilon",
+          "byte_offset": 127372,
+          "old_hex": "36030000",
+          "new_hex": "3b030000"
+        },
+        {
+          "label": "sg0:layer_norm_20__eps MUL other input -> layer_norm_20__r2",
+          "byte_offset": 127324,
+          "old_hex": "3b030000",
+          "new_hex": "3a030000"
+        },
+        {
+          "label": "sg0:layer_norm_20__epsilon constant -> sqrt(epsilon)",
+          "byte_offset": 509104,
+          "old_hex": "acc52735",
+          "new_hex": "373e4f3a"
+        }
+      ]
+    },
+    {
+      "subgraph": 0,
+      "epsilon_tensor": "layer_norm_21__epsilon",
+      "r2_tensor": "layer_norm_21__r2",
+      "scaled_epsilon_tensor": "layer_norm_21__eps",
+      "r2_operator": 983,
+      "epsilon_operator": 984,
+      "epsilon_original": 6.24999984211172e-07,
+      "epsilon_sqrt": 0.0007905694050563631,
+      "mathematical_identity": "r^2 * epsilon == (r * sqrt(epsilon))^2",
+      "edits": [
+        {
+          "label": "sg0:layer_norm_21__r2 MUL second input -> layer_norm_21__epsilon",
+          "byte_offset": 126228,
+          "old_hex": "5f030000",
+          "new_hex": "64030000"
+        },
+        {
+          "label": "sg0:layer_norm_21__eps MUL other input -> layer_norm_21__r2",
+          "byte_offset": 126180,
+          "old_hex": "64030000",
+          "new_hex": "63030000"
+        },
+        {
+          "label": "sg0:layer_norm_21__epsilon constant -> sqrt(epsilon)",
+          "byte_offset": 508864,
+          "old_hex": "acc52735",
+          "new_hex": "373e4f3a"
+        }
+      ]
+    },
+    {
+      "subgraph": 0,
+      "epsilon_tensor": "layer_norm_22__epsilon",
+      "r2_tensor": "layer_norm_22__r2",
+      "scaled_epsilon_tensor": "layer_norm_22__eps",
+      "r2_operator": 1007,
+      "epsilon_operator": 1008,
+      "epsilon_original": 6.24999984211172e-07,
+      "epsilon_sqrt": 0.0007905694050563631,
+      "mathematical_identity": "r^2 * epsilon == (r * sqrt(epsilon))^2",
+      "edits": [
+        {
+          "label": "sg0:layer_norm_22__r2 MUL second input -> layer_norm_22__epsilon",
+          "byte_offset": 125084,
+          "old_hex": "88030000",
+          "new_hex": "8d030000"
+        },
+        {
+          "label": "sg0:layer_norm_22__eps MUL other input -> layer_norm_22__r2",
+          "byte_offset": 125036,
+          "old_hex": "8d030000",
+          "new_hex": "8c030000"
+        },
+        {
+          "label": "sg0:layer_norm_22__epsilon constant -> sqrt(epsilon)",
+          "byte_offset": 508624,
+          "old_hex": "acc52735",
+          "new_hex": "373e4f3a"
+        }
+      ]
+    },
+    {
+      "subgraph": 0,
+      "epsilon_tensor": "layer_norm_23__epsilon",
+      "r2_tensor": "layer_norm_23__r2",
+      "scaled_epsilon_tensor": "layer_norm_23__eps",
+      "r2_operator": 1031,
+      "epsilon_operator": 1032,
+      "epsilon_original": 6.24999984211172e-07,
+      "epsilon_sqrt": 0.0007905694050563631,
+      "mathematical_identity": "r^2 * epsilon == (r * sqrt(epsilon))^2",
+      "edits": [
+        {
+          "label": "sg0:layer_norm_23__r2 MUL second input -> layer_norm_23__epsilon",
+          "byte_offset": 123940,
+          "old_hex": "b1030000",
+          "new_hex": "b6030000"
+        },
+        {
+          "label": "sg0:layer_norm_23__eps MUL other input -> layer_norm_23__r2",
+          "byte_offset": 123892,
+          "old_hex": "b6030000",
+          "new_hex": "b5030000"
+        },
+        {
+          "label": "sg0:layer_norm_23__epsilon constant -> sqrt(epsilon)",
+          "byte_offset": 508384,
+          "old_hex": "acc52735",
+          "new_hex": "373e4f3a"
+        }
+      ]
+    },
+    {
+      "subgraph": 0,
+      "epsilon_tensor": "layer_norm_24__epsilon",
+      "r2_tensor": "layer_norm_24__r2",
+      "scaled_epsilon_tensor": "layer_norm_24__eps",
+      "r2_operator": 1055,
+      "epsilon_operator": 1056,
+      "epsilon_original": 6.24999984211172e-07,
+      "epsilon_sqrt": 0.0007905694050563631,
+      "mathematical_identity": "r^2 * epsilon == (r * sqrt(epsilon))^2",
+      "edits": [
+        {
+          "label": "sg0:layer_norm_24__r2 MUL second input -> layer_norm_24__epsilon",
+          "byte_offset": 122796,
+          "old_hex": "da030000",
+          "new_hex": "df030000"
+        },
+        {
+          "label": "sg0:layer_norm_24__eps MUL other input -> layer_norm_24__r2",
+          "byte_offset": 122748,
+          "old_hex": "df030000",
+          "new_hex": "de030000"
+        },
+        {
+          "label": "sg0:layer_norm_24__epsilon constant -> sqrt(epsilon)",
+          "byte_offset": 508144,
+          "old_hex": "acc52735",
+          "new_hex": "373e4f3a"
+        }
+      ]
+    },
+    {
+      "subgraph": 0,
+      "epsilon_tensor": "layer_norm_25__epsilon",
+      "r2_tensor": "layer_norm_25__r2",
+      "scaled_epsilon_tensor": "layer_norm_25__eps",
+      "r2_operator": 1079,
+      "epsilon_operator": 1080,
+      "epsilon_original": 6.24999984211172e-07,
+      "epsilon_sqrt": 0.0007905694050563631,
+      "mathematical_identity": "r^2 * epsilon == (r * sqrt(epsilon))^2",
+      "edits": [
+        {
+          "label": "sg0:layer_norm_25__r2 MUL second input -> layer_norm_25__epsilon",
+          "byte_offset": 121652,
+          "old_hex": "03040000",
+          "new_hex": "08040000"
+        },
+        {
+          "label": "sg0:layer_norm_25__eps MUL other input -> layer_norm_25__r2",
+          "byte_offset": 121604,
+          "old_hex": "08040000",
+          "new_hex": "07040000"
+        },
+        {
+          "label": "sg0:layer_norm_25__epsilon constant -> sqrt(epsilon)",
+          "byte_offset": 507904,
+          "old_hex": "acc52735",
+          "new_hex": "373e4f3a"
+        }
+      ]
+    },
+    {
+      "subgraph": 0,
+      "epsilon_tensor": "layer_norm_26__epsilon",
+      "r2_tensor": "layer_norm_26__r2",
+      "scaled_epsilon_tensor": "layer_norm_26__eps",
+      "r2_operator": 1103,
+      "epsilon_operator": 1104,
+      "epsilon_original": 6.24999984211172e-07,
+      "epsilon_sqrt": 0.0007905694050563631,
+      "mathematical_identity": "r^2 * epsilon == (r * sqrt(epsilon))^2",
+      "edits": [
+        {
+          "label": "sg0:layer_norm_26__r2 MUL second input -> layer_norm_26__epsilon",
+          "byte_offset": 120508,
+          "old_hex": "2c040000",
+          "new_hex": "31040000"
+        },
+        {
+          "label": "sg0:layer_norm_26__eps MUL other input -> layer_norm_26__r2",
+          "byte_offset": 120460,
+          "old_hex": "31040000",
+          "new_hex": "30040000"
+        },
+        {
+          "label": "sg0:layer_norm_26__epsilon constant -> sqrt(epsilon)",
+          "byte_offset": 507664,
+          "old_hex": "acc52735",
+          "new_hex": "373e4f3a"
+        }
+      ]
+    },
+    {
+      "subgraph": 0,
+      "epsilon_tensor": "layer_norm_27__epsilon",
+      "r2_tensor": "layer_norm_27__r2",
+      "scaled_epsilon_tensor": "layer_norm_27__eps",
+      "r2_operator": 1127,
+      "epsilon_operator": 1128,
+      "epsilon_original": 6.24999984211172e-07,
+      "epsilon_sqrt": 0.0007905694050563631,
+      "mathematical_identity": "r^2 * epsilon == (r * sqrt(epsilon))^2",
+      "edits": [
+        {
+          "label": "sg0:layer_norm_27__r2 MUL second input -> layer_norm_27__epsilon",
+          "byte_offset": 119364,
+          "old_hex": "55040000",
+          "new_hex": "5a040000"
+        },
+        {
+          "label": "sg0:layer_norm_27__eps MUL other input -> layer_norm_27__r2",
+          "byte_offset": 119316,
+          "old_hex": "5a040000",
+          "new_hex": "59040000"
+        },
+        {
+          "label": "sg0:layer_norm_27__epsilon constant -> sqrt(epsilon)",
+          "byte_offset": 507424,
+          "old_hex": "acc52735",
+          "new_hex": "373e4f3a"
+        }
+      ]
+    },
+    {
+      "subgraph": 0,
+      "epsilon_tensor": "layer_norm_28__epsilon",
+      "r2_tensor": "layer_norm_28__r2",
+      "scaled_epsilon_tensor": "layer_norm_28__eps",
+      "r2_operator": 1151,
+      "epsilon_operator": 1152,
+      "epsilon_original": 6.24999984211172e-07,
+      "epsilon_sqrt": 0.0007905694050563631,
+      "mathematical_identity": "r^2 * epsilon == (r * sqrt(epsilon))^2",
+      "edits": [
+        {
+          "label": "sg0:layer_norm_28__r2 MUL second input -> layer_norm_28__epsilon",
+          "byte_offset": 118220,
+          "old_hex": "7e040000",
+          "new_hex": "83040000"
+        },
+        {
+          "label": "sg0:layer_norm_28__eps MUL other input -> layer_norm_28__r2",
+          "byte_offset": 118172,
+          "old_hex": "83040000",
+          "new_hex": "82040000"
+        },
+        {
+          "label": "sg0:layer_norm_28__epsilon constant -> sqrt(epsilon)",
+          "byte_offset": 507184,
+          "old_hex": "acc52735",
+          "new_hex": "373e4f3a"
+        }
+      ]
+    },
+    {
+      "subgraph": 0,
+      "epsilon_tensor": "layer_norm_29__epsilon",
+      "r2_tensor": "layer_norm_29__r2",
+      "scaled_epsilon_tensor": "layer_norm_29__eps",
+      "r2_operator": 1175,
+      "epsilon_operator": 1176,
+      "epsilon_original": 6.24999984211172e-07,
+      "epsilon_sqrt": 0.0007905694050563631,
+      "mathematical_identity": "r^2 * epsilon == (r * sqrt(epsilon))^2",
+      "edits": [
+        {
+          "label": "sg0:layer_norm_29__r2 MUL second input -> layer_norm_29__epsilon",
+          "byte_offset": 117076,
+          "old_hex": "a7040000",
+          "new_hex": "ac040000"
+        },
+        {
+          "label": "sg0:layer_norm_29__eps MUL other input -> layer_norm_29__r2",
+          "byte_offset": 117028,
+          "old_hex": "ac040000",
+          "new_hex": "ab040000"
+        },
+        {
+          "label": "sg0:layer_norm_29__epsilon constant -> sqrt(epsilon)",
+          "byte_offset": 506944,
+          "old_hex": "acc52735",
+          "new_hex": "373e4f3a"
+        }
+      ]
+    },
+    {
+      "subgraph": 0,
+      "epsilon_tensor": "layer_norm_30__epsilon",
+      "r2_tensor": "layer_norm_30__r2",
+      "scaled_epsilon_tensor": "layer_norm_30__eps",
+      "r2_operator": 1199,
+      "epsilon_operator": 1200,
+      "epsilon_original": 6.24999984211172e-07,
+      "epsilon_sqrt": 0.0007905694050563631,
+      "mathematical_identity": "r^2 * epsilon == (r * sqrt(epsilon))^2",
+      "edits": [
+        {
+          "label": "sg0:layer_norm_30__r2 MUL second input -> layer_norm_30__epsilon",
+          "byte_offset": 115932,
+          "old_hex": "d0040000",
+          "new_hex": "d5040000"
+        },
+        {
+          "label": "sg0:layer_norm_30__eps MUL other input -> layer_norm_30__r2",
+          "byte_offset": 115884,
+          "old_hex": "d5040000",
+          "new_hex": "d4040000"
+        },
+        {
+          "label": "sg0:layer_norm_30__epsilon constant -> sqrt(epsilon)",
+          "byte_offset": 506704,
+          "old_hex": "acc52735",
+          "new_hex": "373e4f3a"
+        }
+      ]
+    },
+    {
+      "subgraph": 0,
+      "epsilon_tensor": "layer_norm_31__epsilon",
+      "r2_tensor": "layer_norm_31__r2",
+      "scaled_epsilon_tensor": "layer_norm_31__eps",
+      "r2_operator": 1223,
+      "epsilon_operator": 1224,
+      "epsilon_original": 6.24999984211172e-07,
+      "epsilon_sqrt": 0.0007905694050563631,
+      "mathematical_identity": "r^2 * epsilon == (r * sqrt(epsilon))^2",
+      "edits": [
+        {
+          "label": "sg0:layer_norm_31__r2 MUL second input -> layer_norm_31__epsilon",
+          "byte_offset": 114788,
+          "old_hex": "f9040000",
+          "new_hex": "fe040000"
+        },
+        {
+          "label": "sg0:layer_norm_31__eps MUL other input -> layer_norm_31__r2",
+          "byte_offset": 114740,
+          "old_hex": "fe040000",
+          "new_hex": "fd040000"
+        },
+        {
+          "label": "sg0:layer_norm_31__epsilon constant -> sqrt(epsilon)",
+          "byte_offset": 506464,
+          "old_hex": "acc52735",
+          "new_hex": "373e4f3a"
+        }
+      ]
+    },
+    {
+      "subgraph": 0,
+      "epsilon_tensor": "layer_norm_32__epsilon",
+      "r2_tensor": "layer_norm_32__r2",
+      "scaled_epsilon_tensor": "layer_norm_32__eps",
+      "r2_operator": 1247,
+      "epsilon_operator": 1248,
+      "epsilon_original": 6.24999984211172e-07,
+      "epsilon_sqrt": 0.0007905694050563631,
+      "mathematical_identity": "r^2 * epsilon == (r * sqrt(epsilon))^2",
+      "edits": [
+        {
+          "label": "sg0:layer_norm_32__r2 MUL second input -> layer_norm_32__epsilon",
+          "byte_offset": 113644,
+          "old_hex": "22050000",
+          "new_hex": "27050000"
+        },
+        {
+          "label": "sg0:layer_norm_32__eps MUL other input -> layer_norm_32__r2",
+          "byte_offset": 113596,
+          "old_hex": "27050000",
+          "new_hex": "26050000"
+        },
+        {
+          "label": "sg0:layer_norm_32__epsilon constant -> sqrt(epsilon)",
+          "byte_offset": 506224,
+          "old_hex": "acc52735",
+          "new_hex": "373e4f3a"
+        }
+      ]
+    },
+    {
+      "subgraph": 0,
+      "epsilon_tensor": "layer_norm_33__epsilon",
+      "r2_tensor": "layer_norm_33__r2",
+      "scaled_epsilon_tensor": "layer_norm_33__eps",
+      "r2_operator": 1271,
+      "epsilon_operator": 1272,
+      "epsilon_original": 6.24999984211172e-07,
+      "epsilon_sqrt": 0.0007905694050563631,
+      "mathematical_identity": "r^2 * epsilon == (r * sqrt(epsilon))^2",
+      "edits": [
+        {
+          "label": "sg0:layer_norm_33__r2 MUL second input -> layer_norm_33__epsilon",
+          "byte_offset": 112500,
+          "old_hex": "4b050000",
+          "new_hex": "50050000"
+        },
+        {
+          "label": "sg0:layer_norm_33__eps MUL other input -> layer_norm_33__r2",
+          "byte_offset": 112452,
+          "old_hex": "50050000",
+          "new_hex": "4f050000"
+        },
+        {
+          "label": "sg0:layer_norm_33__epsilon constant -> sqrt(epsilon)",
+          "byte_offset": 505984,
+          "old_hex": "acc52735",
+          "new_hex": "373e4f3a"
+        }
+      ]
+    },
+    {
+      "subgraph": 0,
+      "epsilon_tensor": "layer_norm_34__epsilon",
+      "r2_tensor": "layer_norm_34__r2",
+      "scaled_epsilon_tensor": "layer_norm_34__eps",
+      "r2_operator": 1295,
+      "epsilon_operator": 1296,
+      "epsilon_original": 6.24999984211172e-07,
+      "epsilon_sqrt": 0.0007905694050563631,
+      "mathematical_identity": "r^2 * epsilon == (r * sqrt(epsilon))^2",
+      "edits": [
+        {
+          "label": "sg0:layer_norm_34__r2 MUL second input -> layer_norm_34__epsilon",
+          "byte_offset": 111356,
+          "old_hex": "74050000",
+          "new_hex": "79050000"
+        },
+        {
+          "label": "sg0:layer_norm_34__eps MUL other input -> layer_norm_34__r2",
+          "byte_offset": 111308,
+          "old_hex": "79050000",
+          "new_hex": "78050000"
+        },
+        {
+          "label": "sg0:layer_norm_34__epsilon constant -> sqrt(epsilon)",
+          "byte_offset": 505744,
+          "old_hex": "acc52735",
+          "new_hex": "373e4f3a"
+        }
+      ]
+    },
+    {
+      "subgraph": 0,
+      "epsilon_tensor": "layer_norm_35__epsilon",
+      "r2_tensor": "layer_norm_35__r2",
+      "scaled_epsilon_tensor": "layer_norm_35__eps",
+      "r2_operator": 1319,
+      "epsilon_operator": 1320,
+      "epsilon_original": 6.24999984211172e-07,
+      "epsilon_sqrt": 0.0007905694050563631,
+      "mathematical_identity": "r^2 * epsilon == (r * sqrt(epsilon))^2",
+      "edits": [
+        {
+          "label": "sg0:layer_norm_35__r2 MUL second input -> layer_norm_35__epsilon",
+          "byte_offset": 110212,
+          "old_hex": "9d050000",
+          "new_hex": "a2050000"
+        },
+        {
+          "label": "sg0:layer_norm_35__eps MUL other input -> layer_norm_35__r2",
+          "byte_offset": 110164,
+          "old_hex": "a2050000",
+          "new_hex": "a1050000"
+        },
+        {
+          "label": "sg0:layer_norm_35__epsilon constant -> sqrt(epsilon)",
+          "byte_offset": 505504,
+          "old_hex": "acc52735",
+          "new_hex": "373e4f3a"
+        }
+      ]
+    },
+    {
+      "subgraph": 0,
+      "epsilon_tensor": "layer_norm_36__epsilon",
+      "r2_tensor": "layer_norm_36__r2",
+      "scaled_epsilon_tensor": "layer_norm_36__eps",
+      "r2_operator": 1342,
+      "epsilon_operator": 1343,
+      "epsilon_original": 6.24999984211172e-07,
+      "epsilon_sqrt": 0.0007905694050563631,
+      "mathematical_identity": "r^2 * epsilon == (r * sqrt(epsilon))^2",
+      "edits": [
+        {
+          "label": "sg0:layer_norm_36__r2 MUL second input -> layer_norm_36__epsilon",
+          "byte_offset": 109132,
+          "old_hex": "c1050000",
+          "new_hex": "c6050000"
+        },
+        {
+          "label": "sg0:layer_norm_36__eps MUL other input -> layer_norm_36__r2",
+          "byte_offset": 109084,
+          "old_hex": "c6050000",
+          "new_hex": "c5050000"
+        },
+        {
+          "label": "sg0:layer_norm_36__epsilon constant -> sqrt(epsilon)",
+          "byte_offset": 505312,
+          "old_hex": "acc52735",
+          "new_hex": "373e4f3a"
+        }
+      ]
+    },
+    {
+      "subgraph": 0,
+      "epsilon_tensor": "layer_norm_37__epsilon",
+      "r2_tensor": "layer_norm_37__r2",
+      "scaled_epsilon_tensor": "layer_norm_37__eps",
+      "r2_operator": 1360,
+      "epsilon_operator": 1361,
+      "epsilon_original": 9.999999747378752e-06,
+      "epsilon_sqrt": 0.0031622776202254524,
+      "mathematical_identity": "r^2 * epsilon == (r * sqrt(epsilon))^2",
+      "edits": [
+        {
+          "label": "sg0:layer_norm_37__r2 MUL second input -> layer_norm_37__epsilon",
+          "byte_offset": 108244,
+          "old_hex": "e2050000",
+          "new_hex": "e7050000"
+        },
+        {
+          "label": "sg0:layer_norm_37__eps MUL other input -> layer_norm_37__r2",
+          "byte_offset": 108196,
+          "old_hex": "e7050000",
+          "new_hex": "e6050000"
+        },
+        {
+          "label": "sg0:layer_norm_37__epsilon constant -> sqrt(epsilon)",
+          "byte_offset": 505120,
+          "old_hex": "acc52737",
+          "new_hex": "373e4f3b"
+        }
+      ]
+    },
+    {
+      "subgraph": 0,
+      "epsilon_tensor": "layer_norm_38__epsilon",
+      "r2_tensor": "layer_norm_38__r2",
+      "scaled_epsilon_tensor": "layer_norm_38__eps",
+      "r2_operator": 1384,
+      "epsilon_operator": 1385,
+      "epsilon_original": 9.999999747378752e-06,
+      "epsilon_sqrt": 0.0031622776202254524,
+      "mathematical_identity": "r^2 * epsilon == (r * sqrt(epsilon))^2",
+      "edits": [
+        {
+          "label": "sg0:layer_norm_38__r2 MUL second input -> layer_norm_38__epsilon",
+          "byte_offset": 107100,
+          "old_hex": "0b060000",
+          "new_hex": "10060000"
+        },
+        {
+          "label": "sg0:layer_norm_38__eps MUL other input -> layer_norm_38__r2",
+          "byte_offset": 107052,
+          "old_hex": "10060000",
+          "new_hex": "0f060000"
+        },
+        {
+          "label": "sg0:layer_norm_38__epsilon constant -> sqrt(epsilon)",
+          "byte_offset": 504880,
+          "old_hex": "acc52737",
+          "new_hex": "373e4f3b"
+        }
+      ]
+    },
+    {
+      "subgraph": 0,
+      "epsilon_tensor": "layer_norm_39__epsilon",
+      "r2_tensor": "layer_norm_39__r2",
+      "scaled_epsilon_tensor": "layer_norm_39__eps",
+      "r2_operator": 1408,
+      "epsilon_operator": 1409,
+      "epsilon_original": 9.999999747378752e-06,
+      "epsilon_sqrt": 0.0031622776202254524,
+      "mathematical_identity": "r^2 * epsilon == (r * sqrt(epsilon))^2",
+      "edits": [
+        {
+          "label": "sg0:layer_norm_39__r2 MUL second input -> layer_norm_39__epsilon",
+          "byte_offset": 105956,
+          "old_hex": "34060000",
+          "new_hex": "39060000"
+        },
+        {
+          "label": "sg0:layer_norm_39__eps MUL other input -> layer_norm_39__r2",
+          "byte_offset": 105908,
+          "old_hex": "39060000",
+          "new_hex": "38060000"
+        },
+        {
+          "label": "sg0:layer_norm_39__epsilon constant -> sqrt(epsilon)",
+          "byte_offset": 504640,
+          "old_hex": "acc52737",
+          "new_hex": "373e4f3b"
+        }
+      ]
+    },
+    {
+      "subgraph": 0,
+      "epsilon_tensor": "layer_norm_40__epsilon",
+      "r2_tensor": "layer_norm_40__r2",
+      "scaled_epsilon_tensor": "layer_norm_40__eps",
+      "r2_operator": 1431,
+      "epsilon_operator": 1432,
+      "epsilon_original": 9.999999747378752e-06,
+      "epsilon_sqrt": 0.0031622776202254524,
+      "mathematical_identity": "r^2 * epsilon == (r * sqrt(epsilon))^2",
+      "edits": [
+        {
+          "label": "sg0:layer_norm_40__r2 MUL second input -> layer_norm_40__epsilon",
+          "byte_offset": 104876,
+          "old_hex": "58060000",
+          "new_hex": "5d060000"
+        },
+        {
+          "label": "sg0:layer_norm_40__eps MUL other input -> layer_norm_40__r2",
+          "byte_offset": 104828,
+          "old_hex": "5d060000",
+          "new_hex": "5c060000"
+        },
+        {
+          "label": "sg0:layer_norm_40__epsilon constant -> sqrt(epsilon)",
+          "byte_offset": 504448,
+          "old_hex": "acc52737",
+          "new_hex": "373e4f3b"
+        }
+      ]
+    },
+    {
+      "subgraph": 0,
+      "epsilon_tensor": "layer_norm_41__epsilon",
+      "r2_tensor": "layer_norm_41__r2",
+      "scaled_epsilon_tensor": "layer_norm_41__eps",
+      "r2_operator": 1452,
+      "epsilon_operator": 1453,
+      "epsilon_original": 9.999999747378752e-06,
+      "epsilon_sqrt": 0.0031622776202254524,
+      "mathematical_identity": "r^2 * epsilon == (r * sqrt(epsilon))^2",
+      "edits": [
+        {
+          "label": "sg0:layer_norm_41__r2 MUL second input -> layer_norm_41__epsilon",
+          "byte_offset": 103812,
+          "old_hex": "79060000",
+          "new_hex": "7e060000"
+        },
+        {
+          "label": "sg0:layer_norm_41__eps MUL other input -> layer_norm_41__r2",
+          "byte_offset": 103764,
+          "old_hex": "7e060000",
+          "new_hex": "7d060000"
+        },
+        {
+          "label": "sg0:layer_norm_41__epsilon constant -> sqrt(epsilon)",
+          "byte_offset": 504240,
+          "old_hex": "acc52737",
+          "new_hex": "373e4f3b"
+        }
+      ]
+    },
+    {
+      "subgraph": 0,
+      "epsilon_tensor": "layer_norm_42__epsilon",
+      "r2_tensor": "layer_norm_42__r2",
+      "scaled_epsilon_tensor": "layer_norm_42__eps",
+      "r2_operator": 1472,
+      "epsilon_operator": 1473,
+      "epsilon_original": 9.999999747378752e-06,
+      "epsilon_sqrt": 0.0031622776202254524,
+      "mathematical_identity": "r^2 * epsilon == (r * sqrt(epsilon))^2",
+      "edits": [
+        {
+          "label": "sg0:layer_norm_42__r2 MUL second input -> layer_norm_42__epsilon",
+          "byte_offset": 102852,
+          "old_hex": "96060000",
+          "new_hex": "9b060000"
+        },
+        {
+          "label": "sg0:layer_norm_42__eps MUL other input -> layer_norm_42__r2",
+          "byte_offset": 102804,
+          "old_hex": "9b060000",
+          "new_hex": "9a060000"
+        },
+        {
+          "label": "sg0:layer_norm_42__epsilon constant -> sqrt(epsilon)",
+          "byte_offset": 504096,
+          "old_hex": "acc52737",
+          "new_hex": "373e4f3b"
+        }
+      ]
+    },
+    {
+      "subgraph": 0,
+      "epsilon_tensor": "layer_norm_43__epsilon",
+      "r2_tensor": "layer_norm_43__r2",
+      "scaled_epsilon_tensor": "layer_norm_43__eps",
+      "r2_operator": 1499,
+      "epsilon_operator": 1500,
+      "epsilon_original": 9.999999747378752e-06,
+      "epsilon_sqrt": 0.0031622776202254524,
+      "mathematical_identity": "r^2 * epsilon == (r * sqrt(epsilon))^2",
+      "edits": [
+        {
+          "label": "sg0:layer_norm_43__r2 MUL second input -> layer_norm_43__epsilon",
+          "byte_offset": 101528,
+          "old_hex": "cf060000",
+          "new_hex": "d4060000"
+        },
+        {
+          "label": "sg0:layer_norm_43__eps MUL other input -> layer_norm_43__r2",
+          "byte_offset": 101480,
+          "old_hex": "d4060000",
+          "new_hex": "d3060000"
+        },
+        {
+          "label": "sg0:layer_norm_43__epsilon constant -> sqrt(epsilon)",
+          "byte_offset": 503184,
+          "old_hex": "acc52737",
+          "new_hex": "373e4f3b"
+        }
+      ]
+    },
+    {
+      "subgraph": 0,
+      "epsilon_tensor": "layer_norm_44__epsilon",
+      "r2_tensor": "layer_norm_44__r2",
+      "scaled_epsilon_tensor": "layer_norm_44__eps",
+      "r2_operator": 1530,
+      "epsilon_operator": 1531,
+      "epsilon_original": 9.999999747378752e-06,
+      "epsilon_sqrt": 0.0031622776202254524,
+      "mathematical_identity": "r^2 * epsilon == (r * sqrt(epsilon))^2",
+      "edits": [
+        {
+          "label": "sg0:layer_norm_44__r2 MUL second input -> layer_norm_44__epsilon",
+          "byte_offset": 99952,
+          "old_hex": "00070000",
+          "new_hex": "05070000"
+        },
+        {
+          "label": "sg0:layer_norm_44__eps MUL other input -> layer_norm_44__r2",
+          "byte_offset": 99904,
+          "old_hex": "05070000",
+          "new_hex": "04070000"
+        },
+        {
+          "label": "sg0:layer_norm_44__epsilon constant -> sqrt(epsilon)",
+          "byte_offset": 502720,
+          "old_hex": "acc52737",
+          "new_hex": "373e4f3b"
+        }
+      ]
+    },
+    {
+      "subgraph": 0,
+      "epsilon_tensor": "layer_norm_45__epsilon",
+      "r2_tensor": "layer_norm_45__r2",
+      "scaled_epsilon_tensor": "layer_norm_45__eps",
+      "r2_operator": 1550,
+      "epsilon_operator": 1551,
+      "epsilon_original": 9.999999747378752e-06,
+      "epsilon_sqrt": 0.0031622776202254524,
+      "mathematical_identity": "r^2 * epsilon == (r * sqrt(epsilon))^2",
+      "edits": [
+        {
+          "label": "sg0:layer_norm_45__r2 MUL second input -> layer_norm_45__epsilon",
+          "byte_offset": 99000,
+          "old_hex": "1d070000",
+          "new_hex": "22070000"
+        },
+        {
+          "label": "sg0:layer_norm_45__eps MUL other input -> layer_norm_45__r2",
+          "byte_offset": 98952,
+          "old_hex": "22070000",
+          "new_hex": "21070000"
+        },
+        {
+          "label": "sg0:layer_norm_45__epsilon constant -> sqrt(epsilon)",
+          "byte_offset": 502576,
+          "old_hex": "acc52737",
+          "new_hex": "373e4f3b"
+        }
+      ]
+    },
+    {
+      "subgraph": 0,
+      "epsilon_tensor": "layer_norm_46__epsilon",
+      "r2_tensor": "layer_norm_46__r2",
+      "scaled_epsilon_tensor": "layer_norm_46__eps",
+      "r2_operator": 1604,
+      "epsilon_operator": 1605,
+      "epsilon_original": 9.999999747378752e-06,
+      "epsilon_sqrt": 0.0031622776202254524,
+      "mathematical_identity": "r^2 * epsilon == (r * sqrt(epsilon))^2",
+      "edits": [
+        {
+          "label": "sg0:layer_norm_46__r2 MUL second input -> layer_norm_46__epsilon",
+          "byte_offset": 96256,
+          "old_hex": "7b070000",
+          "new_hex": "80070000"
+        },
+        {
+          "label": "sg0:layer_norm_46__eps MUL other input -> layer_norm_46__r2",
+          "byte_offset": 96208,
+          "old_hex": "80070000",
+          "new_hex": "7f070000"
+        },
+        {
+          "label": "sg0:layer_norm_46__epsilon constant -> sqrt(epsilon)",
+          "byte_offset": 501648,
+          "old_hex": "acc52737",
+          "new_hex": "373e4f3b"
+        }
+      ]
+    },
+    {
+      "subgraph": 0,
+      "epsilon_tensor": "layer_norm_47__epsilon",
+      "r2_tensor": "layer_norm_47__r2",
+      "scaled_epsilon_tensor": "layer_norm_47__eps",
+      "r2_operator": 1627,
+      "epsilon_operator": 1628,
+      "epsilon_original": 9.999999747378752e-06,
+      "epsilon_sqrt": 0.0031622776202254524,
+      "mathematical_identity": "r^2 * epsilon == (r * sqrt(epsilon))^2",
+      "edits": [
+        {
+          "label": "sg0:layer_norm_47__r2 MUL second input -> layer_norm_47__epsilon",
+          "byte_offset": 95124,
+          "old_hex": "a0070000",
+          "new_hex": "a5070000"
+        },
+        {
+          "label": "sg0:layer_norm_47__eps MUL other input -> layer_norm_47__r2",
+          "byte_offset": 95076,
+          "old_hex": "a5070000",
+          "new_hex": "a4070000"
+        },
+        {
+          "label": "sg0:layer_norm_47__epsilon constant -> sqrt(epsilon)",
+          "byte_offset": 501344,
+          "old_hex": "acc52737",
+          "new_hex": "373e4f3b"
+        }
+      ]
+    },
+    {
+      "subgraph": 0,
+      "epsilon_tensor": "layer_norm_48__epsilon",
+      "r2_tensor": "layer_norm_48__r2",
+      "scaled_epsilon_tensor": "layer_norm_48__eps",
+      "r2_operator": 1643,
+      "epsilon_operator": 1644,
+      "epsilon_original": 9.999999747378752e-06,
+      "epsilon_sqrt": 0.0031622776202254524,
+      "mathematical_identity": "r^2 * epsilon == (r * sqrt(epsilon))^2",
+      "edits": [
+        {
+          "label": "sg0:layer_norm_48__r2 MUL second input -> layer_norm_48__epsilon",
+          "byte_offset": 94364,
+          "old_hex": "b5070000",
+          "new_hex": "ba070000"
+        },
+        {
+          "label": "sg0:layer_norm_48__eps MUL other input -> layer_norm_48__r2",
+          "byte_offset": 94316,
+          "old_hex": "ba070000",
+          "new_hex": "b9070000"
+        },
+        {
+          "label": "sg0:layer_norm_48__epsilon constant -> sqrt(epsilon)",
+          "byte_offset": 500752,
+          "old_hex": "acc52737",
+          "new_hex": "373e4f3b"
+        }
+      ]
+    },
+    {
+      "subgraph": 0,
+      "epsilon_tensor": "layer_norm_49__epsilon",
+      "r2_tensor": "layer_norm_49__r2",
+      "scaled_epsilon_tensor": "layer_norm_49__eps",
+      "r2_operator": 1671,
+      "epsilon_operator": 1672,
+      "epsilon_original": 9.999999747378752e-06,
+      "epsilon_sqrt": 0.0031622776202254524,
+      "mathematical_identity": "r^2 * epsilon == (r * sqrt(epsilon))^2",
+      "edits": [
+        {
+          "label": "sg0:layer_norm_49__r2 MUL second input -> layer_norm_49__epsilon",
+          "byte_offset": 93008,
+          "old_hex": "e0070000",
+          "new_hex": "e5070000"
+        },
+        {
+          "label": "sg0:layer_norm_49__eps MUL other input -> layer_norm_49__r2",
+          "byte_offset": 92960,
+          "old_hex": "e5070000",
+          "new_hex": "e4070000"
+        },
+        {
+          "label": "sg0:layer_norm_49__epsilon constant -> sqrt(epsilon)",
+          "byte_offset": 499984,
+          "old_hex": "acc52737",
+          "new_hex": "373e4f3b"
+        }
+      ]
+    },
+    {
+      "subgraph": 0,
+      "epsilon_tensor": "layer_norm_50__epsilon",
+      "r2_tensor": "layer_norm_50__r2",
+      "scaled_epsilon_tensor": "layer_norm_50__eps",
+      "r2_operator": 1693,
+      "epsilon_operator": 1694,
+      "epsilon_original": 9.999999747378752e-06,
+      "epsilon_sqrt": 0.0031622776202254524,
+      "mathematical_identity": "r^2 * epsilon == (r * sqrt(epsilon))^2",
+      "edits": [
+        {
+          "label": "sg0:layer_norm_50__r2 MUL second input -> layer_norm_50__epsilon",
+          "byte_offset": 91960,
+          "old_hex": "02080000",
+          "new_hex": "07080000"
+        },
+        {
+          "label": "sg0:layer_norm_50__eps MUL other input -> layer_norm_50__r2",
+          "byte_offset": 91912,
+          "old_hex": "07080000",
+          "new_hex": "06080000"
+        },
+        {
+          "label": "sg0:layer_norm_50__epsilon constant -> sqrt(epsilon)",
+          "byte_offset": 499792,
+          "old_hex": "acc52737",
+          "new_hex": "373e4f3b"
+        }
+      ]
+    },
+    {
+      "subgraph": 0,
+      "epsilon_tensor": "layer_norm_51__epsilon",
+      "r2_tensor": "layer_norm_51__r2",
+      "scaled_epsilon_tensor": "layer_norm_51__eps",
+      "r2_operator": 1716,
+      "epsilon_operator": 1717,
+      "epsilon_original": 9.999999747378752e-06,
+      "epsilon_sqrt": 0.0031622776202254524,
+      "mathematical_identity": "r^2 * epsilon == (r * sqrt(epsilon))^2",
+      "edits": [
+        {
+          "label": "sg0:layer_norm_51__r2 MUL second input -> layer_norm_51__epsilon",
+          "byte_offset": 90828,
+          "old_hex": "22080000",
+          "new_hex": "27080000"
+        },
+        {
+          "label": "sg0:layer_norm_51__eps MUL other input -> layer_norm_51__r2",
+          "byte_offset": 90780,
+          "old_hex": "27080000",
+          "new_hex": "26080000"
+        },
+        {
+          "label": "sg0:layer_norm_51__epsilon constant -> sqrt(epsilon)",
+          "byte_offset": 499648,
+          "old_hex": "acc52737",
+          "new_hex": "373e4f3b"
+        }
+      ]
+    },
+    {
+      "subgraph": 0,
+      "epsilon_tensor": "layer_norm_52__epsilon",
+      "r2_tensor": "layer_norm_52__r2",
+      "scaled_epsilon_tensor": "layer_norm_52__eps",
+      "r2_operator": 1732,
+      "epsilon_operator": 1733,
+      "epsilon_original": 9.999999747378752e-06,
+      "epsilon_sqrt": 0.0031622776202254524,
+      "mathematical_identity": "r^2 * epsilon == (r * sqrt(epsilon))^2",
+      "edits": [
+        {
+          "label": "sg0:layer_norm_52__r2 MUL second input -> layer_norm_52__epsilon",
+          "byte_offset": 90068,
+          "old_hex": "37080000",
+          "new_hex": "3c080000"
+        },
+        {
+          "label": "sg0:layer_norm_52__eps MUL other input -> layer_norm_52__r2",
+          "byte_offset": 90020,
+          "old_hex": "3c080000",
+          "new_hex": "3b080000"
+        },
+        {
+          "label": "sg0:layer_norm_52__epsilon constant -> sqrt(epsilon)",
+          "byte_offset": 499056,
+          "old_hex": "acc52737",
+          "new_hex": "373e4f3b"
+        }
+      ]
+    },
+    {
+      "subgraph": 0,
+      "epsilon_tensor": "layer_norm_53__epsilon",
+      "r2_tensor": "layer_norm_53__r2",
+      "scaled_epsilon_tensor": "layer_norm_53__eps",
+      "r2_operator": 1760,
+      "epsilon_operator": 1761,
+      "epsilon_original": 9.999999747378752e-06,
+      "epsilon_sqrt": 0.0031622776202254524,
+      "mathematical_identity": "r^2 * epsilon == (r * sqrt(epsilon))^2",
+      "edits": [
+        {
+          "label": "sg0:layer_norm_53__r2 MUL second input -> layer_norm_53__epsilon",
+          "byte_offset": 88712,
+          "old_hex": "5f080000",
+          "new_hex": "64080000"
+        },
+        {
+          "label": "sg0:layer_norm_53__eps MUL other input -> layer_norm_53__r2",
+          "byte_offset": 88664,
+          "old_hex": "64080000",
+          "new_hex": "63080000"
+        },
+        {
+          "label": "sg0:layer_norm_53__epsilon constant -> sqrt(epsilon)",
+          "byte_offset": 498368,
+          "old_hex": "acc52737",
+          "new_hex": "373e4f3b"
+        }
+      ]
+    },
+    {
+      "subgraph": 0,
+      "epsilon_tensor": "layer_norm_54__epsilon",
+      "r2_tensor": "layer_norm_54__r2",
+      "scaled_epsilon_tensor": "layer_norm_54__eps",
+      "r2_operator": 1782,
+      "epsilon_operator": 1783,
+      "epsilon_original": 9.999999747378752e-06,
+      "epsilon_sqrt": 0.0031622776202254524,
+      "mathematical_identity": "r^2 * epsilon == (r * sqrt(epsilon))^2",
+      "edits": [
+        {
+          "label": "sg0:layer_norm_54__r2 MUL second input -> layer_norm_54__epsilon",
+          "byte_offset": 87664,
+          "old_hex": "81080000",
+          "new_hex": "86080000"
+        },
+        {
+          "label": "sg0:layer_norm_54__eps MUL other input -> layer_norm_54__r2",
+          "byte_offset": 87616,
+          "old_hex": "86080000",
+          "new_hex": "85080000"
+        },
+        {
+          "label": "sg0:layer_norm_54__epsilon constant -> sqrt(epsilon)",
+          "byte_offset": 498176,
+          "old_hex": "acc52737",
+          "new_hex": "373e4f3b"
+        }
+      ]
+    },
+    {
+      "subgraph": 0,
+      "epsilon_tensor": "layer_norm_55__epsilon",
+      "r2_tensor": "layer_norm_55__r2",
+      "scaled_epsilon_tensor": "layer_norm_55__eps",
+      "r2_operator": 1805,
+      "epsilon_operator": 1806,
+      "epsilon_original": 9.999999747378752e-06,
+      "epsilon_sqrt": 0.0031622776202254524,
+      "mathematical_identity": "r^2 * epsilon == (r * sqrt(epsilon))^2",
+      "edits": [
+        {
+          "label": "sg0:layer_norm_55__r2 MUL second input -> layer_norm_55__epsilon",
+          "byte_offset": 86532,
+          "old_hex": "a1080000",
+          "new_hex": "a6080000"
+        },
+        {
+          "label": "sg0:layer_norm_55__eps MUL other input -> layer_norm_55__r2",
+          "byte_offset": 86484,
+          "old_hex": "a6080000",
+          "new_hex": "a5080000"
+        },
+        {
+          "label": "sg0:layer_norm_55__epsilon constant -> sqrt(epsilon)",
+          "byte_offset": 498032,
+          "old_hex": "acc52737",
+          "new_hex": "373e4f3b"
+        }
+      ]
+    },
+    {
+      "subgraph": 0,
+      "epsilon_tensor": "layer_norm_56__epsilon",
+      "r2_tensor": "layer_norm_56__r2",
+      "scaled_epsilon_tensor": "layer_norm_56__eps",
+      "r2_operator": 1821,
+      "epsilon_operator": 1822,
+      "epsilon_original": 9.999999747378752e-06,
+      "epsilon_sqrt": 0.0031622776202254524,
+      "mathematical_identity": "r^2 * epsilon == (r * sqrt(epsilon))^2",
+      "edits": [
+        {
+          "label": "sg0:layer_norm_56__r2 MUL second input -> layer_norm_56__epsilon",
+          "byte_offset": 85772,
+          "old_hex": "b6080000",
+          "new_hex": "bb080000"
+        },
+        {
+          "label": "sg0:layer_norm_56__eps MUL other input -> layer_norm_56__r2",
+          "byte_offset": 85724,
+          "old_hex": "bb080000",
+          "new_hex": "ba080000"
+        },
+        {
+          "label": "sg0:layer_norm_56__epsilon constant -> sqrt(epsilon)",
+          "byte_offset": 497440,
+          "old_hex": "acc52737",
+          "new_hex": "373e4f3b"
+        }
+      ]
+    },
+    {
+      "subgraph": 0,
+      "epsilon_tensor": "layer_norm_57__epsilon",
+      "r2_tensor": "layer_norm_57__r2",
+      "scaled_epsilon_tensor": "layer_norm_57__eps",
+      "r2_operator": 1849,
+      "epsilon_operator": 1850,
+      "epsilon_original": 9.999999747378752e-06,
+      "epsilon_sqrt": 0.0031622776202254524,
+      "mathematical_identity": "r^2 * epsilon == (r * sqrt(epsilon))^2",
+      "edits": [
+        {
+          "label": "sg0:layer_norm_57__r2 MUL second input -> layer_norm_57__epsilon",
+          "byte_offset": 84416,
+          "old_hex": "de080000",
+          "new_hex": "e3080000"
+        },
+        {
+          "label": "sg0:layer_norm_57__eps MUL other input -> layer_norm_57__r2",
+          "byte_offset": 84368,
+          "old_hex": "e3080000",
+          "new_hex": "e2080000"
+        },
+        {
+          "label": "sg0:layer_norm_57__epsilon constant -> sqrt(epsilon)",
+          "byte_offset": 496752,
+          "old_hex": "acc52737",
+          "new_hex": "373e4f3b"
+        }
+      ]
+    },
+    {
+      "subgraph": 0,
+      "epsilon_tensor": "layer_norm_58__epsilon",
+      "r2_tensor": "layer_norm_58__r2",
+      "scaled_epsilon_tensor": "layer_norm_58__eps",
+      "r2_operator": 1871,
+      "epsilon_operator": 1872,
+      "epsilon_original": 9.999999747378752e-06,
+      "epsilon_sqrt": 0.0031622776202254524,
+      "mathematical_identity": "r^2 * epsilon == (r * sqrt(epsilon))^2",
+      "edits": [
+        {
+          "label": "sg0:layer_norm_58__r2 MUL second input -> layer_norm_58__epsilon",
+          "byte_offset": 83368,
+          "old_hex": "00090000",
+          "new_hex": "05090000"
+        },
+        {
+          "label": "sg0:layer_norm_58__eps MUL other input -> layer_norm_58__r2",
+          "byte_offset": 83320,
+          "old_hex": "05090000",
+          "new_hex": "04090000"
+        },
+        {
+          "label": "sg0:layer_norm_58__epsilon constant -> sqrt(epsilon)",
+          "byte_offset": 496560,
+          "old_hex": "acc52737",
+          "new_hex": "373e4f3b"
+        }
+      ]
+    },
+    {
+      "subgraph": 0,
+      "epsilon_tensor": "layer_norm_59__epsilon",
+      "r2_tensor": "layer_norm_59__r2",
+      "scaled_epsilon_tensor": "layer_norm_59__eps",
+      "r2_operator": 1894,
+      "epsilon_operator": 1895,
+      "epsilon_original": 9.999999747378752e-06,
+      "epsilon_sqrt": 0.0031622776202254524,
+      "mathematical_identity": "r^2 * epsilon == (r * sqrt(epsilon))^2",
+      "edits": [
+        {
+          "label": "sg0:layer_norm_59__r2 MUL second input -> layer_norm_59__epsilon",
+          "byte_offset": 82236,
+          "old_hex": "20090000",
+          "new_hex": "25090000"
+        },
+        {
+          "label": "sg0:layer_norm_59__eps MUL other input -> layer_norm_59__r2",
+          "byte_offset": 82188,
+          "old_hex": "25090000",
+          "new_hex": "24090000"
+        },
+        {
+          "label": "sg0:layer_norm_59__epsilon constant -> sqrt(epsilon)",
+          "byte_offset": 496416,
+          "old_hex": "acc52737",
+          "new_hex": "373e4f3b"
+        }
+      ]
+    },
+    {
+      "subgraph": 0,
+      "epsilon_tensor": "layer_norm_60__epsilon",
+      "r2_tensor": "layer_norm_60__r2",
+      "scaled_epsilon_tensor": "layer_norm_60__eps",
+      "r2_operator": 1910,
+      "epsilon_operator": 1911,
+      "epsilon_original": 9.999999747378752e-06,
+      "epsilon_sqrt": 0.0031622776202254524,
+      "mathematical_identity": "r^2 * epsilon == (r * sqrt(epsilon))^2",
+      "edits": [
+        {
+          "label": "sg0:layer_norm_60__r2 MUL second input -> layer_norm_60__epsilon",
+          "byte_offset": 81476,
+          "old_hex": "35090000",
+          "new_hex": "3a090000"
+        },
+        {
+          "label": "sg0:layer_norm_60__eps MUL other input -> layer_norm_60__r2",
+          "byte_offset": 81428,
+          "old_hex": "3a090000",
+          "new_hex": "39090000"
+        },
+        {
+          "label": "sg0:layer_norm_60__epsilon constant -> sqrt(epsilon)",
+          "byte_offset": 495824,
+          "old_hex": "acc52737",
+          "new_hex": "373e4f3b"
+        }
+      ]
+    },
+    {
+      "subgraph": 0,
+      "epsilon_tensor": "layer_norm_61__epsilon",
+      "r2_tensor": "layer_norm_61__r2",
+      "scaled_epsilon_tensor": "layer_norm_61__eps",
+      "r2_operator": 1938,
+      "epsilon_operator": 1939,
+      "epsilon_original": 9.999999747378752e-06,
+      "epsilon_sqrt": 0.0031622776202254524,
+      "mathematical_identity": "r^2 * epsilon == (r * sqrt(epsilon))^2",
+      "edits": [
+        {
+          "label": "sg0:layer_norm_61__r2 MUL second input -> layer_norm_61__epsilon",
+          "byte_offset": 80120,
+          "old_hex": "5d090000",
+          "new_hex": "62090000"
+        },
+        {
+          "label": "sg0:layer_norm_61__eps MUL other input -> layer_norm_61__r2",
+          "byte_offset": 80072,
+          "old_hex": "62090000",
+          "new_hex": "61090000"
+        },
+        {
+          "label": "sg0:layer_norm_61__epsilon constant -> sqrt(epsilon)",
+          "byte_offset": 495136,
+          "old_hex": "acc52737",
+          "new_hex": "373e4f3b"
+        }
+      ]
+    },
+    {
+      "subgraph": 0,
+      "epsilon_tensor": "layer_norm_62__epsilon",
+      "r2_tensor": "layer_norm_62__r2",
+      "scaled_epsilon_tensor": "layer_norm_62__eps",
+      "r2_operator": 1962,
+      "epsilon_operator": 1963,
+      "epsilon_original": 9.999999747378752e-06,
+      "epsilon_sqrt": 0.0031622776202254524,
+      "mathematical_identity": "r^2 * epsilon == (r * sqrt(epsilon))^2",
+      "edits": [
+        {
+          "label": "sg0:layer_norm_62__r2 MUL second input -> layer_norm_62__epsilon",
+          "byte_offset": 78956,
+          "old_hex": "83090000",
+          "new_hex": "88090000"
+        },
+        {
+          "label": "sg0:layer_norm_62__eps MUL other input -> layer_norm_62__r2",
+          "byte_offset": 78908,
+          "old_hex": "88090000",
+          "new_hex": "87090000"
+        },
+        {
+          "label": "sg0:layer_norm_62__epsilon constant -> sqrt(epsilon)",
+          "byte_offset": 494880,
+          "old_hex": "acc52737",
+          "new_hex": "373e4f3b"
+        }
+      ]
+    },
+    {
+      "subgraph": 0,
+      "epsilon_tensor": "layer_norm_63__epsilon",
+      "r2_tensor": "layer_norm_63__r2",
+      "scaled_epsilon_tensor": "layer_norm_63__eps",
+      "r2_operator": 1983,
+      "epsilon_operator": 1984,
+      "epsilon_original": 9.999999747378752e-06,
+      "epsilon_sqrt": 0.0031622776202254524,
+      "mathematical_identity": "r^2 * epsilon == (r * sqrt(epsilon))^2",
+      "edits": [
+        {
+          "label": "sg0:layer_norm_63__r2 MUL second input -> layer_norm_63__epsilon",
+          "byte_offset": 77944,
+          "old_hex": "a4090000",
+          "new_hex": "a9090000"
+        },
+        {
+          "label": "sg0:layer_norm_63__eps MUL other input -> layer_norm_63__r2",
+          "byte_offset": 77896,
+          "old_hex": "a9090000",
+          "new_hex": "a8090000"
+        },
+        {
+          "label": "sg0:layer_norm_63__epsilon constant -> sqrt(epsilon)",
+          "byte_offset": 494688,
+          "old_hex": "acc52737",
+          "new_hex": "373e4f3b"
+        }
+      ]
+    },
+    {
+      "subgraph": 0,
+      "epsilon_tensor": "layer_norm_64__epsilon",
+      "r2_tensor": "layer_norm_64__r2",
+      "scaled_epsilon_tensor": "layer_norm_64__eps",
+      "r2_operator": 2004,
+      "epsilon_operator": 2005,
+      "epsilon_original": 9.999999747378752e-06,
+      "epsilon_sqrt": 0.0031622776202254524,
+      "mathematical_identity": "r^2 * epsilon == (r * sqrt(epsilon))^2",
+      "edits": [
+        {
+          "label": "sg0:layer_norm_64__r2 MUL second input -> layer_norm_64__epsilon",
+          "byte_offset": 76932,
+          "old_hex": "c5090000",
+          "new_hex": "ca090000"
+        },
+        {
+          "label": "sg0:layer_norm_64__eps MUL other input -> layer_norm_64__r2",
+          "byte_offset": 76884,
+          "old_hex": "ca090000",
+          "new_hex": "c9090000"
+        },
+        {
+          "label": "sg0:layer_norm_64__epsilon constant -> sqrt(epsilon)",
+          "byte_offset": 493920,
+          "old_hex": "acc52737",
+          "new_hex": "373e4f3b"
+        }
+      ]
+    },
+    {
+      "subgraph": 0,
+      "epsilon_tensor": "layer_norm_66__epsilon",
+      "r2_tensor": "layer_norm_66__r2",
+      "scaled_epsilon_tensor": "layer_norm_66__eps",
+      "r2_operator": 2025,
+      "epsilon_operator": 2026,
+      "epsilon_original": 9.999999747378752e-06,
+      "epsilon_sqrt": 0.0031622776202254524,
+      "mathematical_identity": "r^2 * epsilon == (r * sqrt(epsilon))^2",
+      "edits": [
+        {
+          "label": "sg0:layer_norm_66__r2 MUL second input -> layer_norm_66__epsilon",
+          "byte_offset": 75920,
+          "old_hex": "e6090000",
+          "new_hex": "eb090000"
+        },
+        {
+          "label": "sg0:layer_norm_66__eps MUL other input -> layer_norm_66__r2",
+          "byte_offset": 75872,
+          "old_hex": "eb090000",
+          "new_hex": "ea090000"
+        },
+        {
+          "label": "sg0:layer_norm_66__epsilon constant -> sqrt(epsilon)",
+          "byte_offset": 493728,
+          "old_hex": "acc52737",
+          "new_hex": "373e4f3b"
+        }
+      ]
+    },
+    {
+      "subgraph": 0,
+      "epsilon_tensor": "layer_norm_68__epsilon",
+      "r2_tensor": "layer_norm_68__r2",
+      "scaled_epsilon_tensor": "layer_norm_68__eps",
+      "r2_operator": 2052,
+      "epsilon_operator": 2053,
+      "epsilon_original": 9.999999747378752e-06,
+      "epsilon_sqrt": 0.0031622776202254524,
+      "mathematical_identity": "r^2 * epsilon == (r * sqrt(epsilon))^2",
+      "edits": [
+        {
+          "label": "sg0:layer_norm_68__r2 MUL second input -> layer_norm_68__epsilon",
+          "byte_offset": 74620,
+          "old_hex": "130a0000",
+          "new_hex": "180a0000"
+        },
+        {
+          "label": "sg0:layer_norm_68__eps MUL other input -> layer_norm_68__r2",
+          "byte_offset": 74572,
+          "old_hex": "180a0000",
+          "new_hex": "170a0000"
+        },
+        {
+          "label": "sg0:layer_norm_68__epsilon constant -> sqrt(epsilon)",
+          "byte_offset": 492832,
+          "old_hex": "acc52737",
+          "new_hex": "373e4f3b"
+        }
+      ]
+    },
+    {
+      "subgraph": 0,
+      "epsilon_tensor": "layer_norm_69__epsilon",
+      "r2_tensor": "layer_norm_69__r2",
+      "scaled_epsilon_tensor": "layer_norm_69__eps",
+      "r2_operator": 2089,
+      "epsilon_operator": 2090,
+      "epsilon_original": 9.999999747378752e-06,
+      "epsilon_sqrt": 0.0031622776202254524,
+      "mathematical_identity": "r^2 * epsilon == (r * sqrt(epsilon))^2",
+      "edits": [
+        {
+          "label": "sg0:layer_norm_69__r2 MUL second input -> layer_norm_69__epsilon",
+          "byte_offset": 72756,
+          "old_hex": "4a0a0000",
+          "new_hex": "4f0a0000"
+        },
+        {
+          "label": "sg0:layer_norm_69__eps MUL other input -> layer_norm_69__r2",
+          "byte_offset": 72708,
+          "old_hex": "4f0a0000",
+          "new_hex": "4e0a0000"
+        },
+        {
+          "label": "sg0:layer_norm_69__epsilon constant -> sqrt(epsilon)",
+          "byte_offset": 492464,
+          "old_hex": "acc52737",
+          "new_hex": "373e4f3b"
+        }
+      ]
+    },
+    {
+      "subgraph": 0,
+      "epsilon_tensor": "layer_norm_70__epsilon",
+      "r2_tensor": "layer_norm_70__r2",
+      "scaled_epsilon_tensor": "layer_norm_70__eps",
+      "r2_operator": 2112,
+      "epsilon_operator": 2113,
+      "epsilon_original": 9.999999747378752e-06,
+      "epsilon_sqrt": 0.0031622776202254524,
+      "mathematical_identity": "r^2 * epsilon == (r * sqrt(epsilon))^2",
+      "edits": [
+        {
+          "label": "sg0:layer_norm_70__r2 MUL second input -> layer_norm_70__epsilon",
+          "byte_offset": 71624,
+          "old_hex": "680a0000",
+          "new_hex": "6d0a0000"
+        },
+        {
+          "label": "sg0:layer_norm_70__eps MUL other input -> layer_norm_70__r2",
+          "byte_offset": 71576,
+          "old_hex": "6d0a0000",
+          "new_hex": "6c0a0000"
+        },
+        {
+          "label": "sg0:layer_norm_70__epsilon constant -> sqrt(epsilon)",
+          "byte_offset": 492368,
+          "old_hex": "acc52737",
+          "new_hex": "373e4f3b"
+        }
+      ]
+    },
+    {
+      "subgraph": 0,
+      "epsilon_tensor": "layer_norm_71__epsilon",
+      "r2_tensor": "layer_norm_71__r2",
+      "scaled_epsilon_tensor": "layer_norm_71__eps",
+      "r2_operator": 2128,
+      "epsilon_operator": 2129,
+      "epsilon_original": 9.999999747378752e-06,
+      "epsilon_sqrt": 0.0031622776202254524,
+      "mathematical_identity": "r^2 * epsilon == (r * sqrt(epsilon))^2",
+      "edits": [
+        {
+          "label": "sg0:layer_norm_71__r2 MUL second input -> layer_norm_71__epsilon",
+          "byte_offset": 70864,
+          "old_hex": "7b0a0000",
+          "new_hex": "800a0000"
+        },
+        {
+          "label": "sg0:layer_norm_71__eps MUL other input -> layer_norm_71__r2",
+          "byte_offset": 70816,
+          "old_hex": "800a0000",
+          "new_hex": "7f0a0000"
+        },
+        {
+          "label": "sg0:layer_norm_71__epsilon constant -> sqrt(epsilon)",
+          "byte_offset": 492320,
+          "old_hex": "acc52737",
+          "new_hex": "373e4f3b"
+        }
+      ]
+    },
+    {
+      "subgraph": 0,
+      "epsilon_tensor": "layer_norm_72__epsilon",
+      "r2_tensor": "layer_norm_72__r2",
+      "scaled_epsilon_tensor": "layer_norm_72__eps",
+      "r2_operator": 2156,
+      "epsilon_operator": 2157,
+      "epsilon_original": 9.999999747378752e-06,
+      "epsilon_sqrt": 0.0031622776202254524,
+      "mathematical_identity": "r^2 * epsilon == (r * sqrt(epsilon))^2",
+      "edits": [
+        {
+          "label": "sg0:layer_norm_72__r2 MUL second input -> layer_norm_72__epsilon",
+          "byte_offset": 69508,
+          "old_hex": "a00a0000",
+          "new_hex": "a50a0000"
+        },
+        {
+          "label": "sg0:layer_norm_72__eps MUL other input -> layer_norm_72__r2",
+          "byte_offset": 69460,
+          "old_hex": "a50a0000",
+          "new_hex": "a40a0000"
+        },
+        {
+          "label": "sg0:layer_norm_72__epsilon constant -> sqrt(epsilon)",
+          "byte_offset": 492192,
+          "old_hex": "acc52737",
+          "new_hex": "373e4f3b"
+        }
+      ]
+    },
+    {
+      "subgraph": 0,
+      "epsilon_tensor": "layer_norm_73__epsilon",
+      "r2_tensor": "layer_norm_73__r2",
+      "scaled_epsilon_tensor": "layer_norm_73__eps",
+      "r2_operator": 2178,
+      "epsilon_operator": 2179,
+      "epsilon_original": 9.999999747378752e-06,
+      "epsilon_sqrt": 0.0031622776202254524,
+      "mathematical_identity": "r^2 * epsilon == (r * sqrt(epsilon))^2",
+      "edits": [
+        {
+          "label": "sg0:layer_norm_73__r2 MUL second input -> layer_norm_73__epsilon",
+          "byte_offset": 68460,
+          "old_hex": "bd0a0000",
+          "new_hex": "c20a0000"
+        },
+        {
+          "label": "sg0:layer_norm_73__eps MUL other input -> layer_norm_73__r2",
+          "byte_offset": 68412,
+          "old_hex": "c20a0000",
+          "new_hex": "c10a0000"
+        },
+        {
+          "label": "sg0:layer_norm_73__epsilon constant -> sqrt(epsilon)",
+          "byte_offset": 492096,
+          "old_hex": "acc52737",
+          "new_hex": "373e4f3b"
+        }
+      ]
+    },
+    {
+      "subgraph": 0,
+      "epsilon_tensor": "layer_norm_74__epsilon",
+      "r2_tensor": "layer_norm_74__r2",
+      "scaled_epsilon_tensor": "layer_norm_74__eps",
+      "r2_operator": 2201,
+      "epsilon_operator": 2202,
+      "epsilon_original": 9.999999747378752e-06,
+      "epsilon_sqrt": 0.0031622776202254524,
+      "mathematical_identity": "r^2 * epsilon == (r * sqrt(epsilon))^2",
+      "edits": [
+        {
+          "label": "sg0:layer_norm_74__r2 MUL second input -> layer_norm_74__epsilon",
+          "byte_offset": 67328,
+          "old_hex": "db0a0000",
+          "new_hex": "e00a0000"
+        },
+        {
+          "label": "sg0:layer_norm_74__eps MUL other input -> layer_norm_74__r2",
+          "byte_offset": 67280,
+          "old_hex": "e00a0000",
+          "new_hex": "df0a0000"
+        },
+        {
+          "label": "sg0:layer_norm_74__epsilon constant -> sqrt(epsilon)",
+          "byte_offset": 492000,
+          "old_hex": "acc52737",
+          "new_hex": "373e4f3b"
+        }
+      ]
+    },
+    {
+      "subgraph": 0,
+      "epsilon_tensor": "layer_norm_75__epsilon",
+      "r2_tensor": "layer_norm_75__r2",
+      "scaled_epsilon_tensor": "layer_norm_75__eps",
+      "r2_operator": 2217,
+      "epsilon_operator": 2218,
+      "epsilon_original": 9.999999747378752e-06,
+      "epsilon_sqrt": 0.0031622776202254524,
+      "mathematical_identity": "r^2 * epsilon == (r * sqrt(epsilon))^2",
+      "edits": [
+        {
+          "label": "sg0:layer_norm_75__r2 MUL second input -> layer_norm_75__epsilon",
+          "byte_offset": 66568,
+          "old_hex": "ee0a0000",
+          "new_hex": "f30a0000"
+        },
+        {
+          "label": "sg0:layer_norm_75__eps MUL other input -> layer_norm_75__r2",
+          "byte_offset": 66520,
+          "old_hex": "f30a0000",
+          "new_hex": "f20a0000"
+        },
+        {
+          "label": "sg0:layer_norm_75__epsilon constant -> sqrt(epsilon)",
+          "byte_offset": 491952,
+          "old_hex": "acc52737",
+          "new_hex": "373e4f3b"
+        }
+      ]
+    },
+    {
+      "subgraph": 0,
+      "epsilon_tensor": "layer_norm_76__epsilon",
+      "r2_tensor": "layer_norm_76__r2",
+      "scaled_epsilon_tensor": "layer_norm_76__eps",
+      "r2_operator": 2245,
+      "epsilon_operator": 2246,
+      "epsilon_original": 9.999999747378752e-06,
+      "epsilon_sqrt": 0.0031622776202254524,
+      "mathematical_identity": "r^2 * epsilon == (r * sqrt(epsilon))^2",
+      "edits": [
+        {
+          "label": "sg0:layer_norm_76__r2 MUL second input -> layer_norm_76__epsilon",
+          "byte_offset": 65212,
+          "old_hex": "130b0000",
+          "new_hex": "180b0000"
+        },
+        {
+          "label": "sg0:layer_norm_76__eps MUL other input -> layer_norm_76__r2",
+          "byte_offset": 65164,
+          "old_hex": "180b0000",
+          "new_hex": "170b0000"
+        },
+        {
+          "label": "sg0:layer_norm_76__epsilon constant -> sqrt(epsilon)",
+          "byte_offset": 491824,
+          "old_hex": "acc52737",
+          "new_hex": "373e4f3b"
+        }
+      ]
+    },
+    {
+      "subgraph": 0,
+      "epsilon_tensor": "layer_norm_77__epsilon",
+      "r2_tensor": "layer_norm_77__r2",
+      "scaled_epsilon_tensor": "layer_norm_77__eps",
+      "r2_operator": 2267,
+      "epsilon_operator": 2268,
+      "epsilon_original": 9.999999747378752e-06,
+      "epsilon_sqrt": 0.0031622776202254524,
+      "mathematical_identity": "r^2 * epsilon == (r * sqrt(epsilon))^2",
+      "edits": [
+        {
+          "label": "sg0:layer_norm_77__r2 MUL second input -> layer_norm_77__epsilon",
+          "byte_offset": 64164,
+          "old_hex": "300b0000",
+          "new_hex": "350b0000"
+        },
+        {
+          "label": "sg0:layer_norm_77__eps MUL other input -> layer_norm_77__r2",
+          "byte_offset": 64116,
+          "old_hex": "350b0000",
+          "new_hex": "340b0000"
+        },
+        {
+          "label": "sg0:layer_norm_77__epsilon constant -> sqrt(epsilon)",
+          "byte_offset": 491728,
+          "old_hex": "acc52737",
+          "new_hex": "373e4f3b"
+        }
+      ]
+    },
+    {
+      "subgraph": 0,
+      "epsilon_tensor": "layer_norm_78__epsilon",
+      "r2_tensor": "layer_norm_78__r2",
+      "scaled_epsilon_tensor": "layer_norm_78__eps",
+      "r2_operator": 2290,
+      "epsilon_operator": 2291,
+      "epsilon_original": 9.999999747378752e-06,
+      "epsilon_sqrt": 0.0031622776202254524,
+      "mathematical_identity": "r^2 * epsilon == (r * sqrt(epsilon))^2",
+      "edits": [
+        {
+          "label": "sg0:layer_norm_78__r2 MUL second input -> layer_norm_78__epsilon",
+          "byte_offset": 63032,
+          "old_hex": "4e0b0000",
+          "new_hex": "530b0000"
+        },
+        {
+          "label": "sg0:layer_norm_78__eps MUL other input -> layer_norm_78__r2",
+          "byte_offset": 62984,
+          "old_hex": "530b0000",
+          "new_hex": "520b0000"
+        },
+        {
+          "label": "sg0:layer_norm_78__epsilon constant -> sqrt(epsilon)",
+          "byte_offset": 491632,
+          "old_hex": "acc52737",
+          "new_hex": "373e4f3b"
+        }
+      ]
+    },
+    {
+      "subgraph": 0,
+      "epsilon_tensor": "layer_norm_79__epsilon",
+      "r2_tensor": "layer_norm_79__r2",
+      "scaled_epsilon_tensor": "layer_norm_79__eps",
+      "r2_operator": 2306,
+      "epsilon_operator": 2307,
+      "epsilon_original": 9.999999747378752e-06,
+      "epsilon_sqrt": 0.0031622776202254524,
+      "mathematical_identity": "r^2 * epsilon == (r * sqrt(epsilon))^2",
+      "edits": [
+        {
+          "label": "sg0:layer_norm_79__r2 MUL second input -> layer_norm_79__epsilon",
+          "byte_offset": 62272,
+          "old_hex": "610b0000",
+          "new_hex": "660b0000"
+        },
+        {
+          "label": "sg0:layer_norm_79__eps MUL other input -> layer_norm_79__r2",
+          "byte_offset": 62224,
+          "old_hex": "660b0000",
+          "new_hex": "650b0000"
+        },
+        {
+          "label": "sg0:layer_norm_79__epsilon constant -> sqrt(epsilon)",
+          "byte_offset": 491584,
+          "old_hex": "acc52737",
+          "new_hex": "373e4f3b"
+        }
+      ]
+    },
+    {
+      "subgraph": 0,
+      "epsilon_tensor": "layer_norm_80__epsilon",
+      "r2_tensor": "layer_norm_80__r2",
+      "scaled_epsilon_tensor": "layer_norm_80__eps",
+      "r2_operator": 2334,
+      "epsilon_operator": 2335,
+      "epsilon_original": 9.999999747378752e-06,
+      "epsilon_sqrt": 0.0031622776202254524,
+      "mathematical_identity": "r^2 * epsilon == (r * sqrt(epsilon))^2",
+      "edits": [
+        {
+          "label": "sg0:layer_norm_80__r2 MUL second input -> layer_norm_80__epsilon",
+          "byte_offset": 60916,
+          "old_hex": "860b0000",
+          "new_hex": "8b0b0000"
+        },
+        {
+          "label": "sg0:layer_norm_80__eps MUL other input -> layer_norm_80__r2",
+          "byte_offset": 60868,
+          "old_hex": "8b0b0000",
+          "new_hex": "8a0b0000"
+        },
+        {
+          "label": "sg0:layer_norm_80__epsilon constant -> sqrt(epsilon)",
+          "byte_offset": 491456,
+          "old_hex": "acc52737",
+          "new_hex": "373e4f3b"
+        }
+      ]
+    },
+    {
+      "subgraph": 0,
+      "epsilon_tensor": "layer_norm_81__epsilon",
+      "r2_tensor": "layer_norm_81__r2",
+      "scaled_epsilon_tensor": "layer_norm_81__eps",
+      "r2_operator": 2356,
+      "epsilon_operator": 2357,
+      "epsilon_original": 9.999999747378752e-06,
+      "epsilon_sqrt": 0.0031622776202254524,
+      "mathematical_identity": "r^2 * epsilon == (r * sqrt(epsilon))^2",
+      "edits": [
+        {
+          "label": "sg0:layer_norm_81__r2 MUL second input -> layer_norm_81__epsilon",
+          "byte_offset": 59868,
+          "old_hex": "a30b0000",
+          "new_hex": "a80b0000"
+        },
+        {
+          "label": "sg0:layer_norm_81__eps MUL other input -> layer_norm_81__r2",
+          "byte_offset": 59820,
+          "old_hex": "a80b0000",
+          "new_hex": "a70b0000"
+        },
+        {
+          "label": "sg0:layer_norm_81__epsilon constant -> sqrt(epsilon)",
+          "byte_offset": 491360,
+          "old_hex": "acc52737",
+          "new_hex": "373e4f3b"
+        }
+      ]
+    },
+    {
+      "subgraph": 0,
+      "epsilon_tensor": "layer_norm_82__epsilon",
+      "r2_tensor": "layer_norm_82__r2",
+      "scaled_epsilon_tensor": "layer_norm_82__eps",
+      "r2_operator": 2379,
+      "epsilon_operator": 2380,
+      "epsilon_original": 9.999999747378752e-06,
+      "epsilon_sqrt": 0.0031622776202254524,
+      "mathematical_identity": "r^2 * epsilon == (r * sqrt(epsilon))^2",
+      "edits": [
+        {
+          "label": "sg0:layer_norm_82__r2 MUL second input -> layer_norm_82__epsilon",
+          "byte_offset": 58736,
+          "old_hex": "c10b0000",
+          "new_hex": "c60b0000"
+        },
+        {
+          "label": "sg0:layer_norm_82__eps MUL other input -> layer_norm_82__r2",
+          "byte_offset": 58688,
+          "old_hex": "c60b0000",
+          "new_hex": "c50b0000"
+        },
+        {
+          "label": "sg0:layer_norm_82__epsilon constant -> sqrt(epsilon)",
+          "byte_offset": 491264,
+          "old_hex": "acc52737",
+          "new_hex": "373e4f3b"
+        }
+      ]
+    },
+    {
+      "subgraph": 0,
+      "epsilon_tensor": "layer_norm_83__epsilon",
+      "r2_tensor": "layer_norm_83__r2",
+      "scaled_epsilon_tensor": "layer_norm_83__eps",
+      "r2_operator": 2395,
+      "epsilon_operator": 2396,
+      "epsilon_original": 9.999999747378752e-06,
+      "epsilon_sqrt": 0.0031622776202254524,
+      "mathematical_identity": "r^2 * epsilon == (r * sqrt(epsilon))^2",
+      "edits": [
+        {
+          "label": "sg0:layer_norm_83__r2 MUL second input -> layer_norm_83__epsilon",
+          "byte_offset": 57976,
+          "old_hex": "d40b0000",
+          "new_hex": "d90b0000"
+        },
+        {
+          "label": "sg0:layer_norm_83__eps MUL other input -> layer_norm_83__r2",
+          "byte_offset": 57928,
+          "old_hex": "d90b0000",
+          "new_hex": "d80b0000"
+        },
+        {
+          "label": "sg0:layer_norm_83__epsilon constant -> sqrt(epsilon)",
+          "byte_offset": 491216,
+          "old_hex": "acc52737",
+          "new_hex": "373e4f3b"
+        }
+      ]
+    },
+    {
+      "subgraph": 0,
+      "epsilon_tensor": "layer_norm_84__epsilon",
+      "r2_tensor": "layer_norm_84__r2",
+      "scaled_epsilon_tensor": "layer_norm_84__eps",
+      "r2_operator": 2423,
+      "epsilon_operator": 2424,
+      "epsilon_original": 9.999999747378752e-06,
+      "epsilon_sqrt": 0.0031622776202254524,
+      "mathematical_identity": "r^2 * epsilon == (r * sqrt(epsilon))^2",
+      "edits": [
+        {
+          "label": "sg0:layer_norm_84__r2 MUL second input -> layer_norm_84__epsilon",
+          "byte_offset": 56620,
+          "old_hex": "f90b0000",
+          "new_hex": "fe0b0000"
+        },
+        {
+          "label": "sg0:layer_norm_84__eps MUL other input -> layer_norm_84__r2",
+          "byte_offset": 56572,
+          "old_hex": "fe0b0000",
+          "new_hex": "fd0b0000"
+        },
+        {
+          "label": "sg0:layer_norm_84__epsilon constant -> sqrt(epsilon)",
+          "byte_offset": 491088,
+          "old_hex": "acc52737",
+          "new_hex": "373e4f3b"
+        }
+      ]
+    },
+    {
+      "subgraph": 0,
+      "epsilon_tensor": "layer_norm_85__epsilon",
+      "r2_tensor": "layer_norm_85__r2",
+      "scaled_epsilon_tensor": "layer_norm_85__eps",
+      "r2_operator": 2447,
+      "epsilon_operator": 2448,
+      "epsilon_original": 9.999999747378752e-06,
+      "epsilon_sqrt": 0.0031622776202254524,
+      "mathematical_identity": "r^2 * epsilon == (r * sqrt(epsilon))^2",
+      "edits": [
+        {
+          "label": "sg0:layer_norm_85__r2 MUL second input -> layer_norm_85__epsilon",
+          "byte_offset": 55456,
+          "old_hex": "180c0000",
+          "new_hex": "1d0c0000"
+        },
+        {
+          "label": "sg0:layer_norm_85__eps MUL other input -> layer_norm_85__r2",
+          "byte_offset": 55408,
+          "old_hex": "1d0c0000",
+          "new_hex": "1c0c0000"
+        },
+        {
+          "label": "sg0:layer_norm_85__epsilon constant -> sqrt(epsilon)",
+          "byte_offset": 490992,
+          "old_hex": "acc52737",
+          "new_hex": "373e4f3b"
+        }
+      ]
+    },
+    {
+      "subgraph": 0,
+      "epsilon_tensor": "layer_norm_86__epsilon",
+      "r2_tensor": "layer_norm_86__r2",
+      "scaled_epsilon_tensor": "layer_norm_86__eps",
+      "r2_operator": 2469,
+      "epsilon_operator": 2470,
+      "epsilon_original": 9.999999747378752e-06,
+      "epsilon_sqrt": 0.0031622776202254524,
+      "mathematical_identity": "r^2 * epsilon == (r * sqrt(epsilon))^2",
+      "edits": [
+        {
+          "label": "sg0:layer_norm_86__r2 MUL second input -> layer_norm_86__epsilon",
+          "byte_offset": 54396,
+          "old_hex": "3b0c0000",
+          "new_hex": "400c0000"
+        },
+        {
+          "label": "sg0:layer_norm_86__eps MUL other input -> layer_norm_86__r2",
+          "byte_offset": 54348,
+          "old_hex": "400c0000",
+          "new_hex": "3f0c0000"
+        },
+        {
+          "label": "sg0:layer_norm_86__epsilon constant -> sqrt(epsilon)",
+          "byte_offset": 490752,
+          "old_hex": "acc52737",
+          "new_hex": "373e4f3b"
+        }
+      ]
+    },
+    {
+      "subgraph": 0,
+      "epsilon_tensor": "layer_norm_87__epsilon",
+      "r2_tensor": "layer_norm_87__r2",
+      "scaled_epsilon_tensor": "layer_norm_87__eps",
+      "r2_operator": 2489,
+      "epsilon_operator": 2490,
+      "epsilon_original": 9.999999747378752e-06,
+      "epsilon_sqrt": 0.0031622776202254524,
+      "mathematical_identity": "r^2 * epsilon == (r * sqrt(epsilon))^2",
+      "edits": [
+        {
+          "label": "sg0:layer_norm_87__r2 MUL second input -> layer_norm_87__epsilon",
+          "byte_offset": 53444,
+          "old_hex": "580c0000",
+          "new_hex": "5d0c0000"
+        },
+        {
+          "label": "sg0:layer_norm_87__eps MUL other input -> layer_norm_87__r2",
+          "byte_offset": 53396,
+          "old_hex": "5d0c0000",
+          "new_hex": "5c0c0000"
+        },
+        {
+          "label": "sg0:layer_norm_87__epsilon constant -> sqrt(epsilon)",
+          "byte_offset": 490608,
+          "old_hex": "acc52737",
+          "new_hex": "373e4f3b"
+        }
+      ]
+    },
+    {
+      "subgraph": 0,
+      "epsilon_tensor": "layer_norm_88__epsilon",
+      "r2_tensor": "layer_norm_88__r2",
+      "scaled_epsilon_tensor": "layer_norm_88__eps",
+      "r2_operator": 2532,
+      "epsilon_operator": 2533,
+      "epsilon_original": 9.999999747378752e-06,
+      "epsilon_sqrt": 0.0031622776202254524,
+      "mathematical_identity": "r^2 * epsilon == (r * sqrt(epsilon))^2",
+      "edits": [
+        {
+          "label": "sg0:layer_norm_88__r2 MUL second input -> layer_norm_88__epsilon",
+          "byte_offset": 51316,
+          "old_hex": "9e0c0000",
+          "new_hex": "a30c0000"
+        },
+        {
+          "label": "sg0:layer_norm_88__eps MUL other input -> layer_norm_88__r2",
+          "byte_offset": 51268,
+          "old_hex": "a30c0000",
+          "new_hex": "a20c0000"
+        },
+        {
+          "label": "sg0:layer_norm_88__epsilon constant -> sqrt(epsilon)",
+          "byte_offset": 490064,
+          "old_hex": "acc52737",
+          "new_hex": "373e4f3b"
+        }
+      ]
+    },
+    {
+      "subgraph": 0,
+      "epsilon_tensor": "layer_norm_89__epsilon",
+      "r2_tensor": "layer_norm_89__r2",
+      "scaled_epsilon_tensor": "layer_norm_89__eps",
+      "r2_operator": 2555,
+      "epsilon_operator": 2556,
+      "epsilon_original": 9.999999747378752e-06,
+      "epsilon_sqrt": 0.0031622776202254524,
+      "mathematical_identity": "r^2 * epsilon == (r * sqrt(epsilon))^2",
+      "edits": [
+        {
+          "label": "sg0:layer_norm_89__r2 MUL second input -> layer_norm_89__epsilon",
+          "byte_offset": 50184,
+          "old_hex": "be0c0000",
+          "new_hex": "c30c0000"
+        },
+        {
+          "label": "sg0:layer_norm_89__eps MUL other input -> layer_norm_89__r2",
+          "byte_offset": 50136,
+          "old_hex": "c30c0000",
+          "new_hex": "c20c0000"
+        },
+        {
+          "label": "sg0:layer_norm_89__epsilon constant -> sqrt(epsilon)",
+          "byte_offset": 489920,
+          "old_hex": "acc52737",
+          "new_hex": "373e4f3b"
+        }
+      ]
+    },
+    {
+      "subgraph": 0,
+      "epsilon_tensor": "layer_norm_90__epsilon",
+      "r2_tensor": "layer_norm_90__r2",
+      "scaled_epsilon_tensor": "layer_norm_90__eps",
+      "r2_operator": 2571,
+      "epsilon_operator": 2572,
+      "epsilon_original": 9.999999747378752e-06,
+      "epsilon_sqrt": 0.0031622776202254524,
+      "mathematical_identity": "r^2 * epsilon == (r * sqrt(epsilon))^2",
+      "edits": [
+        {
+          "label": "sg0:layer_norm_90__r2 MUL second input -> layer_norm_90__epsilon",
+          "byte_offset": 49424,
+          "old_hex": "d30c0000",
+          "new_hex": "d80c0000"
+        },
+        {
+          "label": "sg0:layer_norm_90__eps MUL other input -> layer_norm_90__r2",
+          "byte_offset": 49376,
+          "old_hex": "d80c0000",
+          "new_hex": "d70c0000"
+        },
+        {
+          "label": "sg0:layer_norm_90__epsilon constant -> sqrt(epsilon)",
+          "byte_offset": 489328,
+          "old_hex": "acc52737",
+          "new_hex": "373e4f3b"
+        }
+      ]
+    },
+    {
+      "subgraph": 0,
+      "epsilon_tensor": "layer_norm_91__epsilon",
+      "r2_tensor": "layer_norm_91__r2",
+      "scaled_epsilon_tensor": "layer_norm_91__eps",
+      "r2_operator": 2599,
+      "epsilon_operator": 2600,
+      "epsilon_original": 9.999999747378752e-06,
+      "epsilon_sqrt": 0.0031622776202254524,
+      "mathematical_identity": "r^2 * epsilon == (r * sqrt(epsilon))^2",
+      "edits": [
+        {
+          "label": "sg0:layer_norm_91__r2 MUL second input -> layer_norm_91__epsilon",
+          "byte_offset": 48068,
+          "old_hex": "fb0c0000",
+          "new_hex": "000d0000"
+        },
+        {
+          "label": "sg0:layer_norm_91__eps MUL other input -> layer_norm_91__r2",
+          "byte_offset": 48020,
+          "old_hex": "000d0000",
+          "new_hex": "ff0c0000"
+        },
+        {
+          "label": "sg0:layer_norm_91__epsilon constant -> sqrt(epsilon)",
+          "byte_offset": 488640,
+          "old_hex": "acc52737",
+          "new_hex": "373e4f3b"
+        }
+      ]
+    },
+    {
+      "subgraph": 0,
+      "epsilon_tensor": "layer_norm_92__epsilon",
+      "r2_tensor": "layer_norm_92__r2",
+      "scaled_epsilon_tensor": "layer_norm_92__eps",
+      "r2_operator": 2621,
+      "epsilon_operator": 2622,
+      "epsilon_original": 9.999999747378752e-06,
+      "epsilon_sqrt": 0.0031622776202254524,
+      "mathematical_identity": "r^2 * epsilon == (r * sqrt(epsilon))^2",
+      "edits": [
+        {
+          "label": "sg0:layer_norm_92__r2 MUL second input -> layer_norm_92__epsilon",
+          "byte_offset": 47020,
+          "old_hex": "1d0d0000",
+          "new_hex": "220d0000"
+        },
+        {
+          "label": "sg0:layer_norm_92__eps MUL other input -> layer_norm_92__r2",
+          "byte_offset": 46972,
+          "old_hex": "220d0000",
+          "new_hex": "210d0000"
+        },
+        {
+          "label": "sg0:layer_norm_92__epsilon constant -> sqrt(epsilon)",
+          "byte_offset": 488448,
+          "old_hex": "acc52737",
+          "new_hex": "373e4f3b"
+        }
+      ]
+    },
+    {
+      "subgraph": 0,
+      "epsilon_tensor": "layer_norm_93__epsilon",
+      "r2_tensor": "layer_norm_93__r2",
+      "scaled_epsilon_tensor": "layer_norm_93__eps",
+      "r2_operator": 2644,
+      "epsilon_operator": 2645,
+      "epsilon_original": 9.999999747378752e-06,
+      "epsilon_sqrt": 0.0031622776202254524,
+      "mathematical_identity": "r^2 * epsilon == (r * sqrt(epsilon))^2",
+      "edits": [
+        {
+          "label": "sg0:layer_norm_93__r2 MUL second input -> layer_norm_93__epsilon",
+          "byte_offset": 45888,
+          "old_hex": "3d0d0000",
+          "new_hex": "420d0000"
+        },
+        {
+          "label": "sg0:layer_norm_93__eps MUL other input -> layer_norm_93__r2",
+          "byte_offset": 45840,
+          "old_hex": "420d0000",
+          "new_hex": "410d0000"
+        },
+        {
+          "label": "sg0:layer_norm_93__epsilon constant -> sqrt(epsilon)",
+          "byte_offset": 488304,
+          "old_hex": "acc52737",
+          "new_hex": "373e4f3b"
+        }
+      ]
+    },
+    {
+      "subgraph": 0,
+      "epsilon_tensor": "layer_norm_94__epsilon",
+      "r2_tensor": "layer_norm_94__r2",
+      "scaled_epsilon_tensor": "layer_norm_94__eps",
+      "r2_operator": 2660,
+      "epsilon_operator": 2661,
+      "epsilon_original": 9.999999747378752e-06,
+      "epsilon_sqrt": 0.0031622776202254524,
+      "mathematical_identity": "r^2 * epsilon == (r * sqrt(epsilon))^2",
+      "edits": [
+        {
+          "label": "sg0:layer_norm_94__r2 MUL second input -> layer_norm_94__epsilon",
+          "byte_offset": 45128,
+          "old_hex": "520d0000",
+          "new_hex": "570d0000"
+        },
+        {
+          "label": "sg0:layer_norm_94__eps MUL other input -> layer_norm_94__r2",
+          "byte_offset": 45080,
+          "old_hex": "570d0000",
+          "new_hex": "560d0000"
+        },
+        {
+          "label": "sg0:layer_norm_94__epsilon constant -> sqrt(epsilon)",
+          "byte_offset": 487712,
+          "old_hex": "acc52737",
+          "new_hex": "373e4f3b"
+        }
+      ]
+    },
+    {
+      "subgraph": 0,
+      "epsilon_tensor": "layer_norm_95__epsilon",
+      "r2_tensor": "layer_norm_95__r2",
+      "scaled_epsilon_tensor": "layer_norm_95__eps",
+      "r2_operator": 2688,
+      "epsilon_operator": 2689,
+      "epsilon_original": 9.999999747378752e-06,
+      "epsilon_sqrt": 0.0031622776202254524,
+      "mathematical_identity": "r^2 * epsilon == (r * sqrt(epsilon))^2",
+      "edits": [
+        {
+          "label": "sg0:layer_norm_95__r2 MUL second input -> layer_norm_95__epsilon",
+          "byte_offset": 43772,
+          "old_hex": "7a0d0000",
+          "new_hex": "7f0d0000"
+        },
+        {
+          "label": "sg0:layer_norm_95__eps MUL other input -> layer_norm_95__r2",
+          "byte_offset": 43724,
+          "old_hex": "7f0d0000",
+          "new_hex": "7e0d0000"
+        },
+        {
+          "label": "sg0:layer_norm_95__epsilon constant -> sqrt(epsilon)",
+          "byte_offset": 487024,
+          "old_hex": "acc52737",
+          "new_hex": "373e4f3b"
+        }
+      ]
+    },
+    {
+      "subgraph": 0,
+      "epsilon_tensor": "layer_norm_96__epsilon",
+      "r2_tensor": "layer_norm_96__r2",
+      "scaled_epsilon_tensor": "layer_norm_96__eps",
+      "r2_operator": 2710,
+      "epsilon_operator": 2711,
+      "epsilon_original": 9.999999747378752e-06,
+      "epsilon_sqrt": 0.0031622776202254524,
+      "mathematical_identity": "r^2 * epsilon == (r * sqrt(epsilon))^2",
+      "edits": [
+        {
+          "label": "sg0:layer_norm_96__r2 MUL second input -> layer_norm_96__epsilon",
+          "byte_offset": 42724,
+          "old_hex": "9c0d0000",
+          "new_hex": "a10d0000"
+        },
+        {
+          "label": "sg0:layer_norm_96__eps MUL other input -> layer_norm_96__r2",
+          "byte_offset": 42676,
+          "old_hex": "a10d0000",
+          "new_hex": "a00d0000"
+        },
+        {
+          "label": "sg0:layer_norm_96__epsilon constant -> sqrt(epsilon)",
+          "byte_offset": 486832,
+          "old_hex": "acc52737",
+          "new_hex": "373e4f3b"
+        }
+      ]
+    },
+    {
+      "subgraph": 0,
+      "epsilon_tensor": "layer_norm_97__epsilon",
+      "r2_tensor": "layer_norm_97__r2",
+      "scaled_epsilon_tensor": "layer_norm_97__eps",
+      "r2_operator": 2733,
+      "epsilon_operator": 2734,
+      "epsilon_original": 9.999999747378752e-06,
+      "epsilon_sqrt": 0.0031622776202254524,
+      "mathematical_identity": "r^2 * epsilon == (r * sqrt(epsilon))^2",
+      "edits": [
+        {
+          "label": "sg0:layer_norm_97__r2 MUL second input -> layer_norm_97__epsilon",
+          "byte_offset": 41592,
+          "old_hex": "bc0d0000",
+          "new_hex": "c10d0000"
+        },
+        {
+          "label": "sg0:layer_norm_97__eps MUL other input -> layer_norm_97__r2",
+          "byte_offset": 41544,
+          "old_hex": "c10d0000",
+          "new_hex": "c00d0000"
+        },
+        {
+          "label": "sg0:layer_norm_97__epsilon constant -> sqrt(epsilon)",
+          "byte_offset": 486688,
+          "old_hex": "acc52737",
+          "new_hex": "373e4f3b"
+        }
+      ]
+    },
+    {
+      "subgraph": 0,
+      "epsilon_tensor": "layer_norm_98__epsilon",
+      "r2_tensor": "layer_norm_98__r2",
+      "scaled_epsilon_tensor": "layer_norm_98__eps",
+      "r2_operator": 2749,
+      "epsilon_operator": 2750,
+      "epsilon_original": 9.999999747378752e-06,
+      "epsilon_sqrt": 0.0031622776202254524,
+      "mathematical_identity": "r^2 * epsilon == (r * sqrt(epsilon))^2",
+      "edits": [
+        {
+          "label": "sg0:layer_norm_98__r2 MUL second input -> layer_norm_98__epsilon",
+          "byte_offset": 40832,
+          "old_hex": "d10d0000",
+          "new_hex": "d60d0000"
+        },
+        {
+          "label": "sg0:layer_norm_98__eps MUL other input -> layer_norm_98__r2",
+          "byte_offset": 40784,
+          "old_hex": "d60d0000",
+          "new_hex": "d50d0000"
+        },
+        {
+          "label": "sg0:layer_norm_98__epsilon constant -> sqrt(epsilon)",
+          "byte_offset": 486096,
+          "old_hex": "acc52737",
+          "new_hex": "373e4f3b"
+        }
+      ]
+    },
+    {
+      "subgraph": 0,
+      "epsilon_tensor": "layer_norm_99__epsilon",
+      "r2_tensor": "layer_norm_99__r2",
+      "scaled_epsilon_tensor": "layer_norm_99__eps",
+      "r2_operator": 2777,
+      "epsilon_operator": 2778,
+      "epsilon_original": 9.999999747378752e-06,
+      "epsilon_sqrt": 0.0031622776202254524,
+      "mathematical_identity": "r^2 * epsilon == (r * sqrt(epsilon))^2",
+      "edits": [
+        {
+          "label": "sg0:layer_norm_99__r2 MUL second input -> layer_norm_99__epsilon",
+          "byte_offset": 39476,
+          "old_hex": "f90d0000",
+          "new_hex": "fe0d0000"
+        },
+        {
+          "label": "sg0:layer_norm_99__eps MUL other input -> layer_norm_99__r2",
+          "byte_offset": 39428,
+          "old_hex": "fe0d0000",
+          "new_hex": "fd0d0000"
+        },
+        {
+          "label": "sg0:layer_norm_99__epsilon constant -> sqrt(epsilon)",
+          "byte_offset": 485408,
+          "old_hex": "acc52737",
+          "new_hex": "373e4f3b"
+        }
+      ]
+    },
+    {
+      "subgraph": 0,
+      "epsilon_tensor": "layer_norm_100__epsilon",
+      "r2_tensor": "layer_norm_100__r2",
+      "scaled_epsilon_tensor": "layer_norm_100__eps",
+      "r2_operator": 2799,
+      "epsilon_operator": 2800,
+      "epsilon_original": 9.999999747378752e-06,
+      "epsilon_sqrt": 0.0031622776202254524,
+      "mathematical_identity": "r^2 * epsilon == (r * sqrt(epsilon))^2",
+      "edits": [
+        {
+          "label": "sg0:layer_norm_100__r2 MUL second input -> layer_norm_100__epsilon",
+          "byte_offset": 38428,
+          "old_hex": "1b0e0000",
+          "new_hex": "200e0000"
+        },
+        {
+          "label": "sg0:layer_norm_100__eps MUL other input -> layer_norm_100__r2",
+          "byte_offset": 38380,
+          "old_hex": "200e0000",
+          "new_hex": "1f0e0000"
+        },
+        {
+          "label": "sg0:layer_norm_100__epsilon constant -> sqrt(epsilon)",
+          "byte_offset": 485216,
+          "old_hex": "acc52737",
+          "new_hex": "373e4f3b"
+        }
+      ]
+    },
+    {
+      "subgraph": 0,
+      "epsilon_tensor": "layer_norm_101__epsilon",
+      "r2_tensor": "layer_norm_101__r2",
+      "scaled_epsilon_tensor": "layer_norm_101__eps",
+      "r2_operator": 2822,
+      "epsilon_operator": 2823,
+      "epsilon_original": 9.999999747378752e-06,
+      "epsilon_sqrt": 0.0031622776202254524,
+      "mathematical_identity": "r^2 * epsilon == (r * sqrt(epsilon))^2",
+      "edits": [
+        {
+          "label": "sg0:layer_norm_101__r2 MUL second input -> layer_norm_101__epsilon",
+          "byte_offset": 37296,
+          "old_hex": "3b0e0000",
+          "new_hex": "400e0000"
+        },
+        {
+          "label": "sg0:layer_norm_101__eps MUL other input -> layer_norm_101__r2",
+          "byte_offset": 37248,
+          "old_hex": "400e0000",
+          "new_hex": "3f0e0000"
+        },
+        {
+          "label": "sg0:layer_norm_101__epsilon constant -> sqrt(epsilon)",
+          "byte_offset": 485072,
+          "old_hex": "acc52737",
+          "new_hex": "373e4f3b"
+        }
+      ]
+    },
+    {
+      "subgraph": 0,
+      "epsilon_tensor": "layer_norm_102__epsilon",
+      "r2_tensor": "layer_norm_102__r2",
+      "scaled_epsilon_tensor": "layer_norm_102__eps",
+      "r2_operator": 2838,
+      "epsilon_operator": 2839,
+      "epsilon_original": 9.999999747378752e-06,
+      "epsilon_sqrt": 0.0031622776202254524,
+      "mathematical_identity": "r^2 * epsilon == (r * sqrt(epsilon))^2",
+      "edits": [
+        {
+          "label": "sg0:layer_norm_102__r2 MUL second input -> layer_norm_102__epsilon",
+          "byte_offset": 36536,
+          "old_hex": "500e0000",
+          "new_hex": "550e0000"
+        },
+        {
+          "label": "sg0:layer_norm_102__eps MUL other input -> layer_norm_102__r2",
+          "byte_offset": 36488,
+          "old_hex": "550e0000",
+          "new_hex": "540e0000"
+        },
+        {
+          "label": "sg0:layer_norm_102__epsilon constant -> sqrt(epsilon)",
+          "byte_offset": 484480,
+          "old_hex": "acc52737",
+          "new_hex": "373e4f3b"
+        }
+      ]
+    },
+    {
+      "subgraph": 0,
+      "epsilon_tensor": "layer_norm_103__epsilon",
+      "r2_tensor": "layer_norm_103__r2",
+      "scaled_epsilon_tensor": "layer_norm_103__eps",
+      "r2_operator": 2866,
+      "epsilon_operator": 2867,
+      "epsilon_original": 9.999999747378752e-06,
+      "epsilon_sqrt": 0.0031622776202254524,
+      "mathematical_identity": "r^2 * epsilon == (r * sqrt(epsilon))^2",
+      "edits": [
+        {
+          "label": "sg0:layer_norm_103__r2 MUL second input -> layer_norm_103__epsilon",
+          "byte_offset": 35180,
+          "old_hex": "780e0000",
+          "new_hex": "7d0e0000"
+        },
+        {
+          "label": "sg0:layer_norm_103__eps MUL other input -> layer_norm_103__r2",
+          "byte_offset": 35132,
+          "old_hex": "7d0e0000",
+          "new_hex": "7c0e0000"
+        },
+        {
+          "label": "sg0:layer_norm_103__epsilon constant -> sqrt(epsilon)",
+          "byte_offset": 483792,
+          "old_hex": "acc52737",
+          "new_hex": "373e4f3b"
+        }
+      ]
+    },
+    {
+      "subgraph": 0,
+      "epsilon_tensor": "layer_norm_104__epsilon",
+      "r2_tensor": "layer_norm_104__r2",
+      "scaled_epsilon_tensor": "layer_norm_104__eps",
+      "r2_operator": 2896,
+      "epsilon_operator": 2897,
+      "epsilon_original": 9.999999747378752e-06,
+      "epsilon_sqrt": 0.0031622776202254524,
+      "mathematical_identity": "r^2 * epsilon == (r * sqrt(epsilon))^2",
+      "edits": [
+        {
+          "label": "sg0:layer_norm_104__r2 MUL second input -> layer_norm_104__epsilon",
+          "byte_offset": 33732,
+          "old_hex": "a70e0000",
+          "new_hex": "ac0e0000"
+        },
+        {
+          "label": "sg0:layer_norm_104__eps MUL other input -> layer_norm_104__r2",
+          "byte_offset": 33684,
+          "old_hex": "ac0e0000",
+          "new_hex": "ab0e0000"
+        },
+        {
+          "label": "sg0:layer_norm_104__epsilon constant -> sqrt(epsilon)",
+          "byte_offset": 483520,
+          "old_hex": "acc52737",
+          "new_hex": "373e4f3b"
+        }
+      ]
+    }
+  ],
+  "status": "ready",
+  "caveat": "Algebraic identity is exact over reals; LiteRT GPU compiler reassociation, runtime behavior, numerical error, and overflow still require validation."
+}

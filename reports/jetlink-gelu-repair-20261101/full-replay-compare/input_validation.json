@@ -1,0 +1,118 @@
+{
+  "frame_count": 16,
+  "expected_bytes_per_output": 73808,
+  "checks": [
+    {
+      "frame": 0,
+      "raw_bytes": 73808,
+      "float32_count": 18452,
+      "all_finite": true,
+      "reference_bytes": 73936
+    },
+    {
+      "frame": 1,
+      "raw_bytes": 73808,
+      "float32_count": 18452,
+      "all_finite": true,
+      "reference_bytes": 73936
+    },
+    {
+      "frame": 2,
+      "raw_bytes": 73808,
+      "float32_count": 18452,
+      "all_finite": true,
+      "reference_bytes": 73936
+    },
+    {
+      "frame": 3,
+      "raw_bytes": 73808,
+      "float32_count": 18452,
+      "all_finite": true,
+      "reference_bytes": 73936
+    },
+    {
+      "frame": 4,
+      "raw_bytes": 73808,
+      "float32_count": 18452,
+      "all_finite": true,
+      "reference_bytes": 73936
+    },
+    {
+      "frame": 5,
+      "raw_bytes": 73808,
+      "float32_count": 18452,
+      "all_finite": true,
+      "reference_bytes": 73936
+    },
+    {
+      "frame": 6,
+      "raw_bytes": 73808,
+      "float32_count": 18452,
+      "all_finite": true,
+      "reference_bytes": 73936
+    },
+    {
+      "frame": 7,
+      "raw_bytes": 73808,
+      "float32_count": 18452,
+      "all_finite": true,
+      "reference_bytes": 73936
+    },
+    {
+      "frame": 8,
+      "raw_bytes": 73808,
+      "float32_count": 18452,
+      "all_finite": true,
+      "reference_bytes": 73936
+    },
+    {
+      "frame": 9,
+      "raw_bytes": 73808,
+      "float32_count": 18452,
+      "all_finite": true,
+      "reference_bytes": 73936
+    },
+    {
+      "frame": 10,
+      "raw_bytes": 73808,
+      "float32_count": 18452,
+      "all_finite": true,
+      "reference_bytes": 73936
+    },
+    {
+      "frame": 11,
+      "raw_bytes": 73808,
+      "float32_count": 18452,
+      "all_finite": true,
+      "reference_bytes": 73936
+    },
+    {
+      "frame": 12,
+      "raw_bytes": 73808,
+      "float32_count": 18452,
+      "all_finite": true,
+      "reference_bytes": 73936
+    },
+    {
+      "frame": 13,
+      "raw_bytes": 73808,
+      "float32_count": 18452,
+      "all_finite": true,
+      "reference_bytes": 73936
+    },
+    {
+      "frame": 14,
+      "raw_bytes": 73808,
+      "float32_count": 18452,
+      "all_finite": true,
+      "reference_bytes": 73936
+    },
+    {
+      "frame": 15,
+      "raw_bytes": 73808,
+      "float32_count": 18452,
+      "all_finite": true,
+      "reference_bytes": 73936
+    }
+  ]
+}

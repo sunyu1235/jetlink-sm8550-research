@@ -1,0 +1,125 @@
+{
+  "status": "rank1_gather_layout_repair_checker_passed_pending_device_execution",
+  "source_model": {
+    "path": "C:\\Users\\sunbo\\Documents\\openpilot\\outputs\\jetlink-gelu-optimization-20261101\\partition-tuning-20261109\\bounded-gelu\\bounded-gelu-finite-domain.onnx",
+    "bytes": 132139,
+    "sha256": "b63322b8c016444572bd06f95b3e338c150a2b2d536d935914b01aec5c27d716"
+  },
+  "model": {
+    "path": "C:\\Users\\sunbo\\Documents\\openpilot\\outputs\\jetlink-gelu-optimization-20261101\\partition-tuning-20261109\\bounded-gelu\\bounded-gelu-finite-flat.onnx",
+    "bytes": 132793,
+    "sha256": "bb370bf9a4ee34161f31b1127fbb8e5526a32ddadfd6cf2688a8861866c037ca"
+  },
+  "input": {
+    "path": "C:\\Users\\sunbo\\Documents\\openpilot\\outputs\\jetlink-gelu-optimization-20261101\\partition-tuning-20261109\\bounded-gelu\\inputs\\0_x.bin",
+    "bytes": 126976,
+    "sha256": "2da4a859a17780f673138e72e4e2e6959131ff59f8f5c34d4f68598e722885fe"
+  },
+  "input_dtype": "FLOAT16",
+  "input_shape": [
+    1,
+    31,
+    32,
+    64
+  ],
+  "outputs": {
+    "erf": {
+      "dtype": "FLOAT16",
+      "shape": [
+        1,
+        31,
+        32,
+        64
+      ]
+    },
+    "tanh": {
+      "dtype": "FLOAT16",
+      "shape": [
+        1,
+        31,
+        32,
+        64
+      ]
+    },
+    "index": {
+      "dtype": "INT32",
+      "shape": [
+        1,
+        31,
+        32,
+        64
+      ]
+    }
+  },
+  "change": "Shared Reshape(index,[-1]) -> rank1 Gather -> Reshape to original rank4; floating arithmetic, table bytes and index calculation unchanged.",
+  "reason": "Device rank4 probe had all indices correct but correction output errors up to about0.17. Prior rank1 Gather-only finite-domain diagnostic passed. This repair targets the demonstrated multidimensional Gather path.",
+  "nodes": 12,
+  "shared_index_reshape_count": 1,
+  "gather_indices_shape": [
+    63488
+  ],
+  "correction_output_reshape_count": 2,
+  "flatten_note": "ONNX Flatten creates a rank2 tensor; this implementation deliberately uses Reshape([-1]) for actual rank1 indices.",
+  "tables_unchanged": true,
+  "index_calculation_unchanged": true,
+  "input_output_metadata_unchanged": true,
+  "original_reference_manifest": "C:\\Users\\sunbo\\Documents\\openpilot\\reports\\jetlink-gelu-optimization-20261101\\partition-tuning-20261109\\bounded-gelu-manifest.json",
+  "host_fp16_simulation": {
+    "erf": {
+      "max_abs": 0.0009765625,
+      "rms": 5.1347339767890684e-05,
+      "mean_abs": 2.396788125136687e-05,
+      "nonfinite_count": 0,
+      "max_error_input": 1.1484375,
+      "max_error_input_bits": "0x3c98",
+      "max_error_actual": 1.00390625,
+      "max_error_reference": 1.0048828125,
+      "value_mismatch_count": 24565,
+      "signed_zero_bit_mismatches": 13895,
+      "pre_add_round_max_abs_vs_fp16_reference": 0.0009765625
+    },
+    "tanh": {
+      "max_abs": 0.001953125,
+      "rms": 5.253324495518328e-05,
+      "mean_abs": 2.40909360018709e-05,
+      "nonfinite_count": 0,
+      "max_error_input": 2.51171875,
+      "max_error_input_bits": "0x4106",
+      "max_error_actual": 2.49609375,
+      "max_error_reference": 2.498046875,
+      "value_mismatch_count": 24584,
+      "signed_zero_bit_mismatches": 14007,
+      "pre_add_round_max_abs_vs_fp16_reference": 0.0009765625
+    }
+  },
+  "double_formula_to_fp16_references": {
+    "erf": {
+      "path": "C:\\Users\\sunbo\\Documents\\openpilot\\outputs\\jetlink-gelu-optimization-20261101\\partition-tuning-20261109\\bounded-gelu\\reference\\erf.bin",
+      "bytes": 126976,
+      "sha256": "8ac73cab7c4de48c4dfcd108d4967d3bb6770f9a6bfb6df07cb65333015bd146"
+    },
+    "tanh": {
+      "path": "C:\\Users\\sunbo\\Documents\\openpilot\\outputs\\jetlink-gelu-optimization-20261101\\partition-tuning-20261109\\bounded-gelu\\reference\\tanh.bin",
+      "bytes": 126976,
+      "sha256": "7bff2507d3ea721f304ccfc658f578c430707ea9ca56b219ead83a56f62e91f8"
+    }
+  },
+  "index": {
+    "method": "FP16 Abs -> Clip(0,8) -> Mul(4096) -> Cast(INT32 truncation)",
+    "minimum": 0,
+    "maximum": 32768,
+    "table_last_index": 32768,
+    "out_of_bounds_count": 0,
+    "fp16_scaling_matches_double_floor_for_all_finite_inputs": true,
+    "int32_arithmetic_nodes": 0,
+    "gather_indices_rank": 4,
+    "ideal_reference": {
+      "path": "C:\\Users\\sunbo\\Documents\\openpilot\\outputs\\jetlink-gelu-optimization-20261101\\partition-tuning-20261109\\bounded-gelu\\reference\\index.bin",
+      "bytes": 253952,
+      "sha256": "fa2b49ec34c633d51f795f7df90c0c0c71ef8d827a5ece1857c85252a43fec79"
+    }
+  },
+  "onnx_checker_full_check": "passed",
+  "shape_inference_strict": "passed",
+  "device_execution": "not performed by preparation script"
+}

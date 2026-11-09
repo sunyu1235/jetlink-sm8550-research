@@ -1,0 +1,4 @@
+# Keep generated tensor captures and failed setup attempts local.
+*.bin
+*.npy
+*.import-failure

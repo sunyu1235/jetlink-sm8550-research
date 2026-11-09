@@ -1,0 +1,3 @@
+# Keep generated tensor captures local; commit logs and hash manifests.
+*.bin
+*.npy

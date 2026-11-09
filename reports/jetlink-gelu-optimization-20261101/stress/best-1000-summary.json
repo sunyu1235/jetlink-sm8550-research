@@ -1,0 +1,38 @@
+{
+  "frames": 1000,
+  "loop_elapsed_s": 63.403627,
+  "execute_mean_ms": 62.010536128,
+  "execute_p50_ms": 61.789844,
+  "execute_p99_ms": 63.775,
+  "execute_max_ms": 70.594427,
+  "loop_fps": 15.771968376509438,
+  "battery_c_start": 23.0,
+  "battery_c_end": 24.0,
+  "gpu_sensor_c_start": 31.5,
+  "gpu_sensor_c_end": 75.7,
+  "gpu_sensor_c_max": 75.7,
+  "frames_with_nonfinite_output": 0,
+  "configuration": {
+    "affinity_mask": "f8",
+    "allowed_cpus": "3-7",
+    "shared_memory": true,
+    "cpu_gelu": "original accepted LUT library",
+    "spinning": false,
+    "frequency_or_thermal_changes": false
+  },
+  "note": "1000-frame synthetic replay; input cycles every160 frames, recurrent states do not reset. Per-frame finiteness; prefix160 full parity to be checked separately.",
+  "first_160": {
+    "execute_mean_ms": 61.76319888125,
+    "execute_max_ms": 70.594427
+  },
+  "last_160": {
+    "execute_mean_ms": 62.53597495625,
+    "execute_max_ms": 64.373021
+  },
+  "earlier_stress_comparison": {
+    "earlier_mean_ms": 73.75085565,
+    "mean_speedup_percent": 15.918892626434234,
+    "earlier_loop_fps": 13.335062668710421,
+    "note": "Same model/formulas/input cycle; separate sessions, different number of frames, no matched temperature baseline. Controlled A-B-A results retained separately."
+  }
+}

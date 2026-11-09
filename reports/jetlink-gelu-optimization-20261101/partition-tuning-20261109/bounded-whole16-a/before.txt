@@ -1,0 +1,3 @@
+24400
+  level: 82
+  temperature: 210

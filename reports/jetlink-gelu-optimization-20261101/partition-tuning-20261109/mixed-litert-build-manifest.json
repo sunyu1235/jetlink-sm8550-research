@@ -1,0 +1,17 @@
+﻿{
+    "source":  "C:\\Users\\sunbo\\Documents\\openpilot\\reports\\jetlink-gelu-optimization-20261101\\partition-tuning-20261109\\mixed_litert_probe.c",
+    "sha256":  "78538aabbc684cb46d5918dc7db9fc6d323a9a7515497e3e0b35fed73abedce9",
+    "source_sha256":  "06d4fb188479fb5da759da8ace4797495c0cf1d37c3891ad80e3460ca497266e",
+    "flags":  [
+                  "-std=gnu11",
+                  "-O2",
+                  "-Wall",
+                  "-Wextra",
+                  "-Werror",
+                  "-DJL_ORT_DLOPEN"
+              ],
+    "binary":  "C:\\Users\\sunbo\\Documents\\openpilot\\outputs\\jetlink-gelu-optimization-20261101\\partition-tuning-20261109\\mixed_litert_probe",
+    "purpose":  "Mixed exact cached HTP vision + LiteRT OpenCL GPU policy with GPU-resident recurrent states",
+    "official_litert_shim":  "C:\\Users\\sunbo\\Documents\\openpilot\\outputs\\jetlink-gelu-optimization-20261101\\partition-tuning-20261109\\upstream-pinned-source\\JetlinkKit\\Sources\\CLiteRt\\jl_litert.c",
+    "official_litert_shim_sha256":  "acf9fc676702ebaf4c03344d05f23909b76ff5b1368ba620b4a025d8414ea482"
+}

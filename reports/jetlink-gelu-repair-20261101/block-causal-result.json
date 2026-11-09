@@ -1,0 +1,47 @@
+{
+  "before": {
+    "mae": 0.014173908509292232,
+    "rmse": 0.03715962293546577,
+    "max_abs": 1.4375
+  },
+  "after": {
+    "mae": 0.00047804292171349516,
+    "rmse": 0.0030057779856339987,
+    "max_abs": 0.5,
+    "exact_fraction": 0.8287353515625
+  },
+  "placement": [
+    {
+      "op": "EPContext",
+      "domain": "com.microsoft",
+      "inputs": [
+        "add_34"
+      ],
+      "outputs": [
+        "Transpose_out0",
+        "linear_70"
+      ]
+    },
+    {
+      "op": "ExactGelu",
+      "domain": "jetlink.precision",
+      "inputs": [
+        "linear_70"
+      ],
+      "outputs": [
+        "gelu_35"
+      ]
+    },
+    {
+      "op": "EPContext",
+      "domain": "com.microsoft",
+      "inputs": [
+        "gelu_35",
+        "Transpose_out0"
+      ],
+      "outputs": [
+        "outputs"
+      ]
+    }
+  ]
+}

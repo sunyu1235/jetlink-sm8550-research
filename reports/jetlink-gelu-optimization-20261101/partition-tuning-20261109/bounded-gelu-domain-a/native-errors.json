@@ -1,0 +1,36 @@
+{
+  "projected": {
+    "finite": true,
+    "erf": {
+      "max_abs": 0.001953125,
+      "rms": 0.00018420059233041977,
+      "worst_x": 1.833984375,
+      "actual": 1.7744140625,
+      "reference": 1.7724609375
+    },
+    "tanh": {
+      "max_abs": 0.001953125,
+      "rms": 0.00018179603810736806,
+      "worst_x": 1.833984375,
+      "actual": 1.7744140625,
+      "reference": 1.7724609375
+    }
+  },
+  "raw": {
+    "finite": false,
+    "erf": {
+      "max_abs": Infinity,
+      "rms": Infinity,
+      "worst_x": 65472.0,
+      "actual": Infinity,
+      "reference": 65472.0
+    },
+    "tanh": {
+      "max_abs": Infinity,
+      "rms": Infinity,
+      "worst_x": 65472.0,
+      "actual": Infinity,
+      "reference": 65472.0
+    }
+  }
+}

@@ -1,0 +1,2209 @@
+Msg Timestamp,Message,Time,Unit of Measurement,Timing Source,Event Level,Event Identifier
+0,BACKEND,114050,US,BACKEND,ROOT,RPC (load binary) time
+0,BACKEND,113078,US,BACKEND,ROOT,QNN accelerator (load binary) time
+0,BACKEND,6574,US,BACKEND,ROOT,Accelerator (load binary) time
+0,BACKEND,858,US,BACKEND,ROOT,Accelerator (load binary) time
+0,BACKEND,813,US,BACKEND,ROOT,Accelerator (load binary) time
+0,BACKEND,1684,US,BACKEND,ROOT,Accelerator (load binary) time
+0,BACKEND,929,US,BACKEND,ROOT,Accelerator (load binary) time
+0,BACKEND,940,US,BACKEND,ROOT,Accelerator (load binary) time
+0,BACKEND,2339,US,BACKEND,ROOT,Accelerator (load binary) time
+0,BACKEND,1346,US,BACKEND,ROOT,Accelerator (load binary) time
+0,BACKEND,1514,US,BACKEND,ROOT,Accelerator (load binary) time
+0,BACKEND,2433,US,BACKEND,ROOT,Accelerator (load binary) time
+0,BACKEND,1420,US,BACKEND,ROOT,Accelerator (load binary) time
+0,BACKEND,1434,US,BACKEND,ROOT,Accelerator (load binary) time
+0,BACKEND,2189,US,BACKEND,ROOT,Accelerator (load binary) time
+0,BACKEND,1428,US,BACKEND,ROOT,Accelerator (load binary) time
+0,BACKEND,1446,US,BACKEND,ROOT,Accelerator (load binary) time
+0,BACKEND,2183,US,BACKEND,ROOT,Accelerator (load binary) time
+0,BACKEND,1452,US,BACKEND,ROOT,Accelerator (load binary) time
+0,BACKEND,1408,US,BACKEND,ROOT,Accelerator (load binary) time
+0,BACKEND,2370,US,BACKEND,ROOT,Accelerator (load binary) time
+0,BACKEND,1441,US,BACKEND,ROOT,Accelerator (load binary) time
+0,BACKEND,1394,US,BACKEND,ROOT,Accelerator (load binary) time
+0,BACKEND,2102,US,BACKEND,ROOT,Accelerator (load binary) time
+0,BACKEND,1423,US,BACKEND,ROOT,Accelerator (load binary) time
+0,BACKEND,1440,US,BACKEND,ROOT,Accelerator (load binary) time
+0,BACKEND,2148,US,BACKEND,ROOT,Accelerator (load binary) time
+0,BACKEND,1422,US,BACKEND,ROOT,Accelerator (load binary) time
+0,BACKEND,1450,US,BACKEND,ROOT,Accelerator (load binary) time
+0,BACKEND,2128,US,BACKEND,ROOT,Accelerator (load binary) time
+0,BACKEND,1452,US,BACKEND,ROOT,Accelerator (load binary) time
+0,BACKEND,1482,US,BACKEND,ROOT,Accelerator (load binary) time
+0,BACKEND,2350,US,BACKEND,ROOT,Accelerator (load binary) time
+0,BACKEND,1442,US,BACKEND,ROOT,Accelerator (load binary) time
+0,BACKEND,1477,US,BACKEND,ROOT,Accelerator (load binary) time
+0,BACKEND,3781,US,BACKEND,ROOT,Accelerator (load binary) time
+0,BACKEND,3061,US,BACKEND,ROOT,Accelerator (load binary) time
+0,BACKEND,3035,US,BACKEND,ROOT,Accelerator (load binary) time
+0,BACKEND,4587,US,BACKEND,ROOT,Accelerator (load binary) time
+0,BACKEND,1579,US,BACKEND,ROOT,Accelerator (load binary) time
+0,BACKEND,6078,US,BACKEND,ROOT,Accelerator (load binary) time
+0,BACKEND,4198,US,BACKEND,ROOT,Accelerator (load binary) time
+0,BACKEND,6351,US,BACKEND,ROOT,Accelerator (load binary) time
+0,BACKEND,5313,US,BACKEND,ROOT,Accelerator (load binary) time
+0,BACKEND,1191,US,BACKEND,ROOT,Accelerator (load binary) time
+0,BACKEND,1135,US,BACKEND,ROOT,Accelerator (load binary) time
+0,BACKEND,3683,US,BACKEND,ROOT,Accelerator (load binary) time
+0,INIT,204713,US,BACKEND,ROOT,QNN (load binary) time
+0,BACKEND,4,COUNT,BACKEND,ROOT,Number of HVX threads used
+0,BACKEND,2629,US,BACKEND,ROOT,RPC (execute) time
+0,BACKEND,2471,US,BACKEND,ROOT,QNN accelerator (execute) time
+0,BACKEND,2365,US,BACKEND,ROOT,Accelerator (execute) time
+0,BACKEND,2097,US,BACKEND,ROOT,Accelerator (execute excluding wait) time
+0,EXECUTE,2743,US,BACKEND,ROOT,QNN (execute) time
+0,BACKEND,4,COUNT,BACKEND,ROOT,Number of HVX threads used
+0,BACKEND,630,US,BACKEND,ROOT,RPC (execute) time
+0,BACKEND,597,US,BACKEND,ROOT,QNN accelerator (execute) time
+0,BACKEND,556,US,BACKEND,ROOT,Accelerator (execute) time
+0,BACKEND,493,US,BACKEND,ROOT,Accelerator (execute excluding wait) time
+0,EXECUTE,668,US,BACKEND,ROOT,QNN (execute) time
+0,BACKEND,4,COUNT,BACKEND,ROOT,Number of HVX threads used
+0,BACKEND,600,US,BACKEND,ROOT,RPC (execute) time
+0,BACKEND,567,US,BACKEND,ROOT,QNN accelerator (execute) time
+0,BACKEND,530,US,BACKEND,ROOT,Accelerator (execute) time
+0,BACKEND,490,US,BACKEND,ROOT,Accelerator (execute excluding wait) time
+0,EXECUTE,633,US,BACKEND,ROOT,QNN (execute) time
+0,BACKEND,4,COUNT,BACKEND,ROOT,Number of HVX threads used
+0,BACKEND,717,US,BACKEND,ROOT,RPC (execute) time
+0,BACKEND,683,US,BACKEND,ROOT,QNN accelerator (execute) time
+0,BACKEND,647,US,BACKEND,ROOT,Accelerator (execute) time
+0,BACKEND,616,US,BACKEND,ROOT,Accelerator (execute excluding wait) time
+0,EXECUTE,750,US,BACKEND,ROOT,QNN (execute) time
+0,BACKEND,4,COUNT,BACKEND,ROOT,Number of HVX threads used
+0,BACKEND,579,US,BACKEND,ROOT,RPC (execute) time
+0,BACKEND,566,US,BACKEND,ROOT,QNN accelerator (execute) time
+0,BACKEND,532,US,BACKEND,ROOT,Accelerator (execute) time
+0,BACKEND,493,US,BACKEND,ROOT,Accelerator (execute excluding wait) time
+0,EXECUTE,627,US,BACKEND,ROOT,QNN (execute) time
+0,BACKEND,4,COUNT,BACKEND,ROOT,Number of HVX threads used
+0,BACKEND,565,US,BACKEND,ROOT,RPC (execute) time
+0,BACKEND,528,US,BACKEND,ROOT,QNN accelerator (execute) time
+0,BACKEND,498,US,BACKEND,ROOT,Accelerator (execute) time
+0,BACKEND,469,US,BACKEND,ROOT,Accelerator (execute excluding wait) time
+0,EXECUTE,592,US,BACKEND,ROOT,QNN (execute) time
+0,BACKEND,4,COUNT,BACKEND,ROOT,Number of HVX threads used
+0,BACKEND,678,US,BACKEND,ROOT,RPC (execute) time
+0,BACKEND,644,US,BACKEND,ROOT,QNN accelerator (execute) time
+0,BACKEND,613,US,BACKEND,ROOT,Accelerator (execute) time
+0,BACKEND,586,US,BACKEND,ROOT,Accelerator (execute excluding wait) time
+0,EXECUTE,705,US,BACKEND,ROOT,QNN (execute) time
+0,BACKEND,4,COUNT,BACKEND,ROOT,Number of HVX threads used
+0,BACKEND,659,US,BACKEND,ROOT,RPC (execute) time
+0,BACKEND,622,US,BACKEND,ROOT,QNN accelerator (execute) time
+0,BACKEND,587,US,BACKEND,ROOT,Accelerator (execute) time
+0,BACKEND,556,US,BACKEND,ROOT,Accelerator (execute excluding wait) time
+0,EXECUTE,705,US,BACKEND,ROOT,QNN (execute) time
+0,BACKEND,4,COUNT,BACKEND,ROOT,Number of HVX threads used
+0,BACKEND,652,US,BACKEND,ROOT,RPC (execute) time
+0,BACKEND,616,US,BACKEND,ROOT,QNN accelerator (execute) time
+0,BACKEND,585,US,BACKEND,ROOT,Accelerator (execute) time
+0,BACKEND,557,US,BACKEND,ROOT,Accelerator (execute excluding wait) time
+0,EXECUTE,680,US,BACKEND,ROOT,QNN (execute) time
+0,BACKEND,4,COUNT,BACKEND,ROOT,Number of HVX threads used
+0,BACKEND,663,US,BACKEND,ROOT,RPC (execute) time
+0,BACKEND,620,US,BACKEND,ROOT,QNN accelerator (execute) time
+0,BACKEND,587,US,BACKEND,ROOT,Accelerator (execute) time
+0,BACKEND,556,US,BACKEND,ROOT,Accelerator (execute excluding wait) time
+0,EXECUTE,690,US,BACKEND,ROOT,QNN (execute) time
+0,BACKEND,4,COUNT,BACKEND,ROOT,Number of HVX threads used
+0,BACKEND,602,US,BACKEND,ROOT,RPC (execute) time
+0,BACKEND,565,US,BACKEND,ROOT,QNN accelerator (execute) time
+0,BACKEND,534,US,BACKEND,ROOT,Accelerator (execute) time
+0,BACKEND,502,US,BACKEND,ROOT,Accelerator (execute excluding wait) time
+0,EXECUTE,628,US,BACKEND,ROOT,QNN (execute) time
+0,BACKEND,4,COUNT,BACKEND,ROOT,Number of HVX threads used
+0,BACKEND,655,US,BACKEND,ROOT,RPC (execute) time
+0,BACKEND,613,US,BACKEND,ROOT,QNN accelerator (execute) time
+0,BACKEND,581,US,BACKEND,ROOT,Accelerator (execute) time
+0,BACKEND,551,US,BACKEND,ROOT,Accelerator (execute excluding wait) time
+0,EXECUTE,681,US,BACKEND,ROOT,QNN (execute) time
+0,BACKEND,4,COUNT,BACKEND,ROOT,Number of HVX threads used
+0,BACKEND,649,US,BACKEND,ROOT,RPC (execute) time
+0,BACKEND,613,US,BACKEND,ROOT,QNN accelerator (execute) time
+0,BACKEND,579,US,BACKEND,ROOT,Accelerator (execute) time
+0,BACKEND,553,US,BACKEND,ROOT,Accelerator (execute excluding wait) time
+0,EXECUTE,674,US,BACKEND,ROOT,QNN (execute) time
+0,BACKEND,4,COUNT,BACKEND,ROOT,Number of HVX threads used
+0,BACKEND,649,US,BACKEND,ROOT,RPC (execute) time
+0,BACKEND,615,US,BACKEND,ROOT,QNN accelerator (execute) time
+0,BACKEND,583,US,BACKEND,ROOT,Accelerator (execute) time
+0,BACKEND,552,US,BACKEND,ROOT,Accelerator (execute excluding wait) time
+0,EXECUTE,680,US,BACKEND,ROOT,QNN (execute) time
+0,BACKEND,4,COUNT,BACKEND,ROOT,Number of HVX threads used
+0,BACKEND,651,US,BACKEND,ROOT,RPC (execute) time
+0,BACKEND,617,US,BACKEND,ROOT,QNN accelerator (execute) time
+0,BACKEND,587,US,BACKEND,ROOT,Accelerator (execute) time
+0,BACKEND,558,US,BACKEND,ROOT,Accelerator (execute excluding wait) time
+0,EXECUTE,679,US,BACKEND,ROOT,QNN (execute) time
+0,BACKEND,4,COUNT,BACKEND,ROOT,Number of HVX threads used
+0,BACKEND,655,US,BACKEND,ROOT,RPC (execute) time
+0,BACKEND,615,US,BACKEND,ROOT,QNN accelerator (execute) time
+0,BACKEND,584,US,BACKEND,ROOT,Accelerator (execute) time
+0,BACKEND,553,US,BACKEND,ROOT,Accelerator (execute excluding wait) time
+0,EXECUTE,681,US,BACKEND,ROOT,QNN (execute) time
+0,BACKEND,4,COUNT,BACKEND,ROOT,Number of HVX threads used
+0,BACKEND,589,US,BACKEND,ROOT,RPC (execute) time
+0,BACKEND,562,US,BACKEND,ROOT,QNN accelerator (execute) time
+0,BACKEND,531,US,BACKEND,ROOT,Accelerator (execute) time
+0,BACKEND,502,US,BACKEND,ROOT,Accelerator (execute excluding wait) time
+0,EXECUTE,640,US,BACKEND,ROOT,QNN (execute) time
+0,BACKEND,4,COUNT,BACKEND,ROOT,Number of HVX threads used
+0,BACKEND,650,US,BACKEND,ROOT,RPC (execute) time
+0,BACKEND,614,US,BACKEND,ROOT,QNN accelerator (execute) time
+0,BACKEND,585,US,BACKEND,ROOT,Accelerator (execute) time
+0,BACKEND,555,US,BACKEND,ROOT,Accelerator (execute excluding wait) time
+0,EXECUTE,678,US,BACKEND,ROOT,QNN (execute) time
+0,BACKEND,4,COUNT,BACKEND,ROOT,Number of HVX threads used
+0,BACKEND,648,US,BACKEND,ROOT,RPC (execute) time
+0,BACKEND,614,US,BACKEND,ROOT,QNN accelerator (execute) time
+0,BACKEND,585,US,BACKEND,ROOT,Accelerator (execute) time
+0,BACKEND,556,US,BACKEND,ROOT,Accelerator (execute excluding wait) time
+0,EXECUTE,676,US,BACKEND,ROOT,QNN (execute) time
+0,BACKEND,4,COUNT,BACKEND,ROOT,Number of HVX threads used
+0,BACKEND,647,US,BACKEND,ROOT,RPC (execute) time
+0,BACKEND,611,US,BACKEND,ROOT,QNN accelerator (execute) time
+0,BACKEND,581,US,BACKEND,ROOT,Accelerator (execute) time
+0,BACKEND,552,US,BACKEND,ROOT,Accelerator (execute excluding wait) time
+0,EXECUTE,677,US,BACKEND,ROOT,QNN (execute) time
+0,BACKEND,4,COUNT,BACKEND,ROOT,Number of HVX threads used
+0,BACKEND,641,US,BACKEND,ROOT,RPC (execute) time
+0,BACKEND,609,US,BACKEND,ROOT,QNN accelerator (execute) time
+0,BACKEND,578,US,BACKEND,ROOT,Accelerator (execute) time
+0,BACKEND,550,US,BACKEND,ROOT,Accelerator (execute excluding wait) time
+0,EXECUTE,669,US,BACKEND,ROOT,QNN (execute) time
+0,BACKEND,4,COUNT,BACKEND,ROOT,Number of HVX threads used
+0,BACKEND,643,US,BACKEND,ROOT,RPC (execute) time
+0,BACKEND,608,US,BACKEND,ROOT,QNN accelerator (execute) time
+0,BACKEND,579,US,BACKEND,ROOT,Accelerator (execute) time
+0,BACKEND,550,US,BACKEND,ROOT,Accelerator (execute excluding wait) time
+0,EXECUTE,672,US,BACKEND,ROOT,QNN (execute) time
+0,BACKEND,4,COUNT,BACKEND,ROOT,Number of HVX threads used
+0,BACKEND,639,US,BACKEND,ROOT,RPC (execute) time
+0,BACKEND,606,US,BACKEND,ROOT,QNN accelerator (execute) time
+0,BACKEND,575,US,BACKEND,ROOT,Accelerator (execute) time
+0,BACKEND,547,US,BACKEND,ROOT,Accelerator (execute excluding wait) time
+0,EXECUTE,665,US,BACKEND,ROOT,QNN (execute) time
+0,BACKEND,4,COUNT,BACKEND,ROOT,Number of HVX threads used
+0,BACKEND,597,US,BACKEND,ROOT,RPC (execute) time
+0,BACKEND,558,US,BACKEND,ROOT,QNN accelerator (execute) time
+0,BACKEND,530,US,BACKEND,ROOT,Accelerator (execute) time
+0,BACKEND,497,US,BACKEND,ROOT,Accelerator (execute excluding wait) time
+0,EXECUTE,626,US,BACKEND,ROOT,QNN (execute) time
+0,BACKEND,4,COUNT,BACKEND,ROOT,Number of HVX threads used
+0,BACKEND,643,US,BACKEND,ROOT,RPC (execute) time
+0,BACKEND,610,US,BACKEND,ROOT,QNN accelerator (execute) time
+0,BACKEND,581,US,BACKEND,ROOT,Accelerator (execute) time
+0,BACKEND,553,US,BACKEND,ROOT,Accelerator (execute excluding wait) time
+0,EXECUTE,672,US,BACKEND,ROOT,QNN (execute) time
+0,BACKEND,4,COUNT,BACKEND,ROOT,Number of HVX threads used
+0,BACKEND,653,US,BACKEND,ROOT,RPC (execute) time
+0,BACKEND,616,US,BACKEND,ROOT,QNN accelerator (execute) time
+0,BACKEND,586,US,BACKEND,ROOT,Accelerator (execute) time
+0,BACKEND,556,US,BACKEND,ROOT,Accelerator (execute excluding wait) time
+0,EXECUTE,682,US,BACKEND,ROOT,QNN (execute) time
+0,BACKEND,4,COUNT,BACKEND,ROOT,Number of HVX threads used
+0,BACKEND,637,US,BACKEND,ROOT,RPC (execute) time
+0,BACKEND,607,US,BACKEND,ROOT,QNN accelerator (execute) time
+0,BACKEND,578,US,BACKEND,ROOT,Accelerator (execute) time
+0,BACKEND,550,US,BACKEND,ROOT,Accelerator (execute excluding wait) time
+0,EXECUTE,667,US,BACKEND,ROOT,QNN (execute) time
+0,BACKEND,4,COUNT,BACKEND,ROOT,Number of HVX threads used
+0,BACKEND,603,US,BACKEND,ROOT,RPC (execute) time
+0,BACKEND,569,US,BACKEND,ROOT,QNN accelerator (execute) time
+0,BACKEND,537,US,BACKEND,ROOT,Accelerator (execute) time
+0,BACKEND,505,US,BACKEND,ROOT,Accelerator (execute excluding wait) time
+0,EXECUTE,634,US,BACKEND,ROOT,QNN (execute) time
+0,BACKEND,4,COUNT,BACKEND,ROOT,Number of HVX threads used
+0,BACKEND,639,US,BACKEND,ROOT,RPC (execute) time
+0,BACKEND,606,US,BACKEND,ROOT,QNN accelerator (execute) time
+0,BACKEND,577,US,BACKEND,ROOT,Accelerator (execute) time
+0,BACKEND,549,US,BACKEND,ROOT,Accelerator (execute excluding wait) time
+0,EXECUTE,667,US,BACKEND,ROOT,QNN (execute) time
+0,BACKEND,4,COUNT,BACKEND,ROOT,Number of HVX threads used
+0,BACKEND,645,US,BACKEND,ROOT,RPC (execute) time
+0,BACKEND,612,US,BACKEND,ROOT,QNN accelerator (execute) time
+0,BACKEND,583,US,BACKEND,ROOT,Accelerator (execute) time
+0,BACKEND,552,US,BACKEND,ROOT,Accelerator (execute excluding wait) time
+0,EXECUTE,674,US,BACKEND,ROOT,QNN (execute) time
+0,BACKEND,4,COUNT,BACKEND,ROOT,Number of HVX threads used
+0,BACKEND,638,US,BACKEND,ROOT,RPC (execute) time
+0,BACKEND,607,US,BACKEND,ROOT,QNN accelerator (execute) time
+0,BACKEND,579,US,BACKEND,ROOT,Accelerator (execute) time
+0,BACKEND,551,US,BACKEND,ROOT,Accelerator (execute excluding wait) time
+0,EXECUTE,667,US,BACKEND,ROOT,QNN (execute) time
+0,BACKEND,4,COUNT,BACKEND,ROOT,Number of HVX threads used
+0,BACKEND,643,US,BACKEND,ROOT,RPC (execute) time
+0,BACKEND,611,US,BACKEND,ROOT,QNN accelerator (execute) time
+0,BACKEND,582,US,BACKEND,ROOT,Accelerator (execute) time
+0,BACKEND,549,US,BACKEND,ROOT,Accelerator (execute excluding wait) time
+0,EXECUTE,674,US,BACKEND,ROOT,QNN (execute) time
+0,BACKEND,4,COUNT,BACKEND,ROOT,Number of HVX threads used
+0,BACKEND,600,US,BACKEND,ROOT,RPC (execute) time
+0,BACKEND,568,US,BACKEND,ROOT,QNN accelerator (execute) time
+0,BACKEND,537,US,BACKEND,ROOT,Accelerator (execute) time
+0,BACKEND,503,US,BACKEND,ROOT,Accelerator (execute excluding wait) time
+0,EXECUTE,633,US,BACKEND,ROOT,QNN (execute) time
+0,BACKEND,4,COUNT,BACKEND,ROOT,Number of HVX threads used
+0,BACKEND,1453,US,BACKEND,ROOT,RPC (execute) time
+0,BACKEND,1415,US,BACKEND,ROOT,QNN accelerator (execute) time
+0,BACKEND,1377,US,BACKEND,ROOT,Accelerator (execute) time
+0,BACKEND,1338,US,BACKEND,ROOT,Accelerator (execute excluding wait) time
+0,EXECUTE,1482,US,BACKEND,ROOT,QNN (execute) time
+0,BACKEND,4,COUNT,BACKEND,ROOT,Number of HVX threads used
+0,BACKEND,1536,US,BACKEND,ROOT,RPC (execute) time
+0,BACKEND,1517,US,BACKEND,ROOT,QNN accelerator (execute) time
+0,BACKEND,1481,US,BACKEND,ROOT,Accelerator (execute) time
+0,BACKEND,1439,US,BACKEND,ROOT,Accelerator (execute excluding wait) time
+0,EXECUTE,1584,US,BACKEND,ROOT,QNN (execute) time
+0,BACKEND,4,COUNT,BACKEND,ROOT,Number of HVX threads used
+0,BACKEND,1546,US,BACKEND,ROOT,RPC (execute) time
+0,BACKEND,1508,US,BACKEND,ROOT,QNN accelerator (execute) time
+0,BACKEND,1474,US,BACKEND,ROOT,Accelerator (execute) time
+0,BACKEND,1433,US,BACKEND,ROOT,Accelerator (execute excluding wait) time
+0,EXECUTE,1587,US,BACKEND,ROOT,QNN (execute) time
+0,BACKEND,4,COUNT,BACKEND,ROOT,Number of HVX threads used
+0,BACKEND,1175,US,BACKEND,ROOT,RPC (execute) time
+0,BACKEND,1140,US,BACKEND,ROOT,QNN accelerator (execute) time
+0,BACKEND,1089,US,BACKEND,ROOT,Accelerator (execute) time
+0,BACKEND,1034,US,BACKEND,ROOT,Accelerator (execute excluding wait) time
+0,EXECUTE,1218,US,BACKEND,ROOT,QNN (execute) time
+0,BACKEND,4,COUNT,BACKEND,ROOT,Number of HVX threads used
+0,BACKEND,689,US,BACKEND,ROOT,RPC (execute) time
+0,BACKEND,652,US,BACKEND,ROOT,QNN accelerator (execute) time
+0,BACKEND,592,US,BACKEND,ROOT,Accelerator (execute) time
+0,BACKEND,537,US,BACKEND,ROOT,Accelerator (execute excluding wait) time
+0,EXECUTE,730,US,BACKEND,ROOT,QNN (execute) time
+0,BACKEND,4,COUNT,BACKEND,ROOT,Number of HVX threads used
+0,BACKEND,4888,US,BACKEND,ROOT,RPC (execute) time
+0,BACKEND,4825,US,BACKEND,ROOT,QNN accelerator (execute) time
+0,BACKEND,4696,US,BACKEND,ROOT,Accelerator (execute) time
+0,BACKEND,4615,US,BACKEND,ROOT,Accelerator (execute excluding wait) time
+0,EXECUTE,4947,US,BACKEND,ROOT,QNN (execute) time
+0,BACKEND,4,COUNT,BACKEND,ROOT,Number of HVX threads used
+0,BACKEND,4371,US,BACKEND,ROOT,RPC (execute) time
+0,BACKEND,4313,US,BACKEND,ROOT,QNN accelerator (execute) time
+0,BACKEND,4222,US,BACKEND,ROOT,Accelerator (execute) time
+0,BACKEND,4121,US,BACKEND,ROOT,Accelerator (execute excluding wait) time
+0,EXECUTE,4453,US,BACKEND,ROOT,QNN (execute) time
+0,BACKEND,4,COUNT,BACKEND,ROOT,Number of HVX threads used
+0,BACKEND,4282,US,BACKEND,ROOT,RPC (execute) time
+0,BACKEND,4230,US,BACKEND,ROOT,QNN accelerator (execute) time
+0,BACKEND,4146,US,BACKEND,ROOT,Accelerator (execute) time
+0,BACKEND,4046,US,BACKEND,ROOT,Accelerator (execute excluding wait) time
+0,EXECUTE,4326,US,BACKEND,ROOT,QNN (execute) time
+0,BACKEND,4,COUNT,BACKEND,ROOT,Number of HVX threads used
+0,BACKEND,4300,US,BACKEND,ROOT,RPC (execute) time
+0,BACKEND,4249,US,BACKEND,ROOT,QNN accelerator (execute) time
+0,BACKEND,4165,US,BACKEND,ROOT,Accelerator (execute) time
+0,BACKEND,4062,US,BACKEND,ROOT,Accelerator (execute excluding wait) time
+0,EXECUTE,4374,US,BACKEND,ROOT,QNN (execute) time
+0,BACKEND,4,COUNT,BACKEND,ROOT,Number of HVX threads used
+0,BACKEND,478,US,BACKEND,ROOT,RPC (execute) time
+0,BACKEND,453,US,BACKEND,ROOT,QNN accelerator (execute) time
+0,BACKEND,388,US,BACKEND,ROOT,Accelerator (execute) time
+0,BACKEND,301,US,BACKEND,ROOT,Accelerator (execute excluding wait) time
+0,EXECUTE,522,US,BACKEND,ROOT,QNN (execute) time
+0,BACKEND,4,COUNT,BACKEND,ROOT,Number of HVX threads used
+0,BACKEND,316,US,BACKEND,ROOT,RPC (execute) time
+0,BACKEND,305,US,BACKEND,ROOT,QNN accelerator (execute) time
+0,BACKEND,244,US,BACKEND,ROOT,Accelerator (execute) time
+0,BACKEND,188,US,BACKEND,ROOT,Accelerator (execute excluding wait) time
+0,EXECUTE,364,US,BACKEND,ROOT,QNN (execute) time
+0,BACKEND,4,COUNT,BACKEND,ROOT,Number of HVX threads used
+0,BACKEND,766,US,BACKEND,ROOT,RPC (execute) time
+0,BACKEND,744,US,BACKEND,ROOT,QNN accelerator (execute) time
+0,BACKEND,668,US,BACKEND,ROOT,Accelerator (execute) time
+0,BACKEND,627,US,BACKEND,ROOT,Accelerator (execute excluding wait) time
+0,EXECUTE,813,US,BACKEND,ROOT,QNN (execute) time
+0,BACKEND,4,COUNT,BACKEND,ROOT,Number of HVX threads used
+0,BACKEND,2337,US,BACKEND,ROOT,RPC (execute) time
+0,BACKEND,2256,US,BACKEND,ROOT,QNN accelerator (execute) time
+0,BACKEND,2151,US,BACKEND,ROOT,Accelerator (execute) time
+0,BACKEND,2086,US,BACKEND,ROOT,Accelerator (execute excluding wait) time
+0,EXECUTE,2431,US,BACKEND,ROOT,QNN (execute) time
+0,BACKEND,4,COUNT,BACKEND,ROOT,Number of HVX threads used
+0,BACKEND,596,US,BACKEND,ROOT,RPC (execute) time
+0,BACKEND,575,US,BACKEND,ROOT,QNN accelerator (execute) time
+0,BACKEND,540,US,BACKEND,ROOT,Accelerator (execute) time
+0,BACKEND,499,US,BACKEND,ROOT,Accelerator (execute excluding wait) time
+0,EXECUTE,639,US,BACKEND,ROOT,QNN (execute) time
+0,BACKEND,4,COUNT,BACKEND,ROOT,Number of HVX threads used
+0,BACKEND,564,US,BACKEND,ROOT,RPC (execute) time
+0,BACKEND,542,US,BACKEND,ROOT,QNN accelerator (execute) time
+0,BACKEND,514,US,BACKEND,ROOT,Accelerator (execute) time
+0,BACKEND,494,US,BACKEND,ROOT,Accelerator (execute excluding wait) time
+0,EXECUTE,601,US,BACKEND,ROOT,QNN (execute) time
+0,BACKEND,4,COUNT,BACKEND,ROOT,Number of HVX threads used
+0,BACKEND,703,US,BACKEND,ROOT,RPC (execute) time
+0,BACKEND,681,US,BACKEND,ROOT,QNN accelerator (execute) time
+0,BACKEND,649,US,BACKEND,ROOT,Accelerator (execute) time
+0,BACKEND,625,US,BACKEND,ROOT,Accelerator (execute excluding wait) time
+0,EXECUTE,746,US,BACKEND,ROOT,QNN (execute) time
+0,BACKEND,4,COUNT,BACKEND,ROOT,Number of HVX threads used
+0,BACKEND,587,US,BACKEND,ROOT,RPC (execute) time
+0,BACKEND,549,US,BACKEND,ROOT,QNN accelerator (execute) time
+0,BACKEND,516,US,BACKEND,ROOT,Accelerator (execute) time
+0,BACKEND,495,US,BACKEND,ROOT,Accelerator (execute excluding wait) time
+0,EXECUTE,622,US,BACKEND,ROOT,QNN (execute) time
+0,BACKEND,4,COUNT,BACKEND,ROOT,Number of HVX threads used
+0,BACKEND,566,US,BACKEND,ROOT,RPC (execute) time
+0,BACKEND,544,US,BACKEND,ROOT,QNN accelerator (execute) time
+0,BACKEND,516,US,BACKEND,ROOT,Accelerator (execute) time
+0,BACKEND,492,US,BACKEND,ROOT,Accelerator (execute excluding wait) time
+0,EXECUTE,603,US,BACKEND,ROOT,QNN (execute) time
+0,BACKEND,4,COUNT,BACKEND,ROOT,Number of HVX threads used
+0,BACKEND,667,US,BACKEND,ROOT,RPC (execute) time
+0,BACKEND,649,US,BACKEND,ROOT,QNN accelerator (execute) time
+0,BACKEND,615,US,BACKEND,ROOT,Accelerator (execute) time
+0,BACKEND,593,US,BACKEND,ROOT,Accelerator (execute excluding wait) time
+0,EXECUTE,704,US,BACKEND,ROOT,QNN (execute) time
+0,BACKEND,4,COUNT,BACKEND,ROOT,Number of HVX threads used
+0,BACKEND,628,US,BACKEND,ROOT,RPC (execute) time
+0,BACKEND,617,US,BACKEND,ROOT,QNN accelerator (execute) time
+0,BACKEND,580,US,BACKEND,ROOT,Accelerator (execute) time
+0,BACKEND,557,US,BACKEND,ROOT,Accelerator (execute excluding wait) time
+0,EXECUTE,662,US,BACKEND,ROOT,QNN (execute) time
+0,BACKEND,4,COUNT,BACKEND,ROOT,Number of HVX threads used
+0,BACKEND,642,US,BACKEND,ROOT,RPC (execute) time
+0,BACKEND,624,US,BACKEND,ROOT,QNN accelerator (execute) time
+0,BACKEND,589,US,BACKEND,ROOT,Accelerator (execute) time
+0,BACKEND,563,US,BACKEND,ROOT,Accelerator (execute excluding wait) time
+0,EXECUTE,677,US,BACKEND,ROOT,QNN (execute) time
+0,BACKEND,4,COUNT,BACKEND,ROOT,Number of HVX threads used
+0,BACKEND,637,US,BACKEND,ROOT,RPC (execute) time
+0,BACKEND,622,US,BACKEND,ROOT,QNN accelerator (execute) time
+0,BACKEND,590,US,BACKEND,ROOT,Accelerator (execute) time
+0,BACKEND,565,US,BACKEND,ROOT,Accelerator (execute excluding wait) time
+0,EXECUTE,673,US,BACKEND,ROOT,QNN (execute) time
+0,BACKEND,4,COUNT,BACKEND,ROOT,Number of HVX threads used
+0,BACKEND,571,US,BACKEND,ROOT,RPC (execute) time
+0,BACKEND,562,US,BACKEND,ROOT,QNN accelerator (execute) time
+0,BACKEND,531,US,BACKEND,ROOT,Accelerator (execute) time
+0,BACKEND,507,US,BACKEND,ROOT,Accelerator (execute excluding wait) time
+0,EXECUTE,605,US,BACKEND,ROOT,QNN (execute) time
+0,BACKEND,4,COUNT,BACKEND,ROOT,Number of HVX threads used
+0,BACKEND,649,US,BACKEND,ROOT,RPC (execute) time
+0,BACKEND,613,US,BACKEND,ROOT,QNN accelerator (execute) time
+0,BACKEND,584,US,BACKEND,ROOT,Accelerator (execute) time
+0,BACKEND,563,US,BACKEND,ROOT,Accelerator (execute excluding wait) time
+0,EXECUTE,683,US,BACKEND,ROOT,QNN (execute) time
+0,BACKEND,4,COUNT,BACKEND,ROOT,Number of HVX threads used
+0,BACKEND,642,US,BACKEND,ROOT,RPC (execute) time
+0,BACKEND,623,US,BACKEND,ROOT,QNN accelerator (execute) time
+0,BACKEND,587,US,BACKEND,ROOT,Accelerator (execute) time
+0,BACKEND,562,US,BACKEND,ROOT,Accelerator (execute excluding wait) time
+0,EXECUTE,675,US,BACKEND,ROOT,QNN (execute) time
+0,BACKEND,4,COUNT,BACKEND,ROOT,Number of HVX threads used
+0,BACKEND,630,US,BACKEND,ROOT,RPC (execute) time
+0,BACKEND,616,US,BACKEND,ROOT,QNN accelerator (execute) time
+0,BACKEND,586,US,BACKEND,ROOT,Accelerator (execute) time
+0,BACKEND,560,US,BACKEND,ROOT,Accelerator (execute excluding wait) time
+0,EXECUTE,664,US,BACKEND,ROOT,QNN (execute) time
+0,BACKEND,4,COUNT,BACKEND,ROOT,Number of HVX threads used
+0,BACKEND,642,US,BACKEND,ROOT,RPC (execute) time
+0,BACKEND,616,US,BACKEND,ROOT,QNN accelerator (execute) time
+0,BACKEND,590,US,BACKEND,ROOT,Accelerator (execute) time
+0,BACKEND,569,US,BACKEND,ROOT,Accelerator (execute excluding wait) time
+0,EXECUTE,675,US,BACKEND,ROOT,QNN (execute) time
+0,BACKEND,4,COUNT,BACKEND,ROOT,Number of HVX threads used
+0,BACKEND,630,US,BACKEND,ROOT,RPC (execute) time
+0,BACKEND,613,US,BACKEND,ROOT,QNN accelerator (execute) time
+0,BACKEND,584,US,BACKEND,ROOT,Accelerator (execute) time
+0,BACKEND,562,US,BACKEND,ROOT,Accelerator (execute excluding wait) time
+0,EXECUTE,672,US,BACKEND,ROOT,QNN (execute) time
+0,BACKEND,4,COUNT,BACKEND,ROOT,Number of HVX threads used
+0,BACKEND,603,US,BACKEND,ROOT,RPC (execute) time
+0,BACKEND,564,US,BACKEND,ROOT,QNN accelerator (execute) time
+0,BACKEND,531,US,BACKEND,ROOT,Accelerator (execute) time
+0,BACKEND,509,US,BACKEND,ROOT,Accelerator (execute excluding wait) time
+0,EXECUTE,634,US,BACKEND,ROOT,QNN (execute) time
+0,BACKEND,4,COUNT,BACKEND,ROOT,Number of HVX threads used
+0,BACKEND,637,US,BACKEND,ROOT,RPC (execute) time
+0,BACKEND,606,US,BACKEND,ROOT,QNN accelerator (execute) time
+0,BACKEND,578,US,BACKEND,ROOT,Accelerator (execute) time
+0,BACKEND,555,US,BACKEND,ROOT,Accelerator (execute excluding wait) time
+0,EXECUTE,675,US,BACKEND,ROOT,QNN (execute) time
+0,BACKEND,4,COUNT,BACKEND,ROOT,Number of HVX threads used
+0,BACKEND,631,US,BACKEND,ROOT,RPC (execute) time
+0,BACKEND,615,US,BACKEND,ROOT,QNN accelerator (execute) time
+0,BACKEND,586,US,BACKEND,ROOT,Accelerator (execute) time
+0,BACKEND,566,US,BACKEND,ROOT,Accelerator (execute excluding wait) time
+0,EXECUTE,664,US,BACKEND,ROOT,QNN (execute) time
+0,BACKEND,4,COUNT,BACKEND,ROOT,Number of HVX threads used
+0,BACKEND,622,US,BACKEND,ROOT,RPC (execute) time
+0,BACKEND,612,US,BACKEND,ROOT,QNN accelerator (execute) time
+0,BACKEND,585,US,BACKEND,ROOT,Accelerator (execute) time
+0,BACKEND,562,US,BACKEND,ROOT,Accelerator (execute excluding wait) time
+0,EXECUTE,653,US,BACKEND,ROOT,QNN (execute) time
+0,BACKEND,4,COUNT,BACKEND,ROOT,Number of HVX threads used
+0,BACKEND,648,US,BACKEND,ROOT,RPC (execute) time
+0,BACKEND,616,US,BACKEND,ROOT,QNN accelerator (execute) time
+0,BACKEND,582,US,BACKEND,ROOT,Accelerator (execute) time
+0,BACKEND,558,US,BACKEND,ROOT,Accelerator (execute excluding wait) time
+0,EXECUTE,680,US,BACKEND,ROOT,QNN (execute) time
+0,BACKEND,4,COUNT,BACKEND,ROOT,Number of HVX threads used
+0,BACKEND,622,US,BACKEND,ROOT,RPC (execute) time
+0,BACKEND,608,US,BACKEND,ROOT,QNN accelerator (execute) time
+0,BACKEND,578,US,BACKEND,ROOT,Accelerator (execute) time
+0,BACKEND,555,US,BACKEND,ROOT,Accelerator (execute excluding wait) time
+0,EXECUTE,654,US,BACKEND,ROOT,QNN (execute) time
+0,BACKEND,4,COUNT,BACKEND,ROOT,Number of HVX threads used
+0,BACKEND,626,US,BACKEND,ROOT,RPC (execute) time
+0,BACKEND,605,US,BACKEND,ROOT,QNN accelerator (execute) time
+0,BACKEND,576,US,BACKEND,ROOT,Accelerator (execute) time
+0,BACKEND,555,US,BACKEND,ROOT,Accelerator (execute excluding wait) time
+0,EXECUTE,658,US,BACKEND,ROOT,QNN (execute) time
+0,BACKEND,4,COUNT,BACKEND,ROOT,Number of HVX threads used
+0,BACKEND,566,US,BACKEND,ROOT,RPC (execute) time
+0,BACKEND,554,US,BACKEND,ROOT,QNN accelerator (execute) time
+0,BACKEND,528,US,BACKEND,ROOT,Accelerator (execute) time
+0,BACKEND,508,US,BACKEND,ROOT,Accelerator (execute excluding wait) time
+0,EXECUTE,596,US,BACKEND,ROOT,QNN (execute) time
+0,BACKEND,4,COUNT,BACKEND,ROOT,Number of HVX threads used
+0,BACKEND,647,US,BACKEND,ROOT,RPC (execute) time
+0,BACKEND,617,US,BACKEND,ROOT,QNN accelerator (execute) time
+0,BACKEND,583,US,BACKEND,ROOT,Accelerator (execute) time
+0,BACKEND,560,US,BACKEND,ROOT,Accelerator (execute excluding wait) time
+0,EXECUTE,679,US,BACKEND,ROOT,QNN (execute) time
+0,BACKEND,4,COUNT,BACKEND,ROOT,Number of HVX threads used
+0,BACKEND,624,US,BACKEND,ROOT,RPC (execute) time
+0,BACKEND,607,US,BACKEND,ROOT,QNN accelerator (execute) time
+0,BACKEND,580,US,BACKEND,ROOT,Accelerator (execute) time
+0,BACKEND,559,US,BACKEND,ROOT,Accelerator (execute excluding wait) time
+0,EXECUTE,655,US,BACKEND,ROOT,QNN (execute) time
+0,BACKEND,4,COUNT,BACKEND,ROOT,Number of HVX threads used
+0,BACKEND,628,US,BACKEND,ROOT,RPC (execute) time
+0,BACKEND,596,US,BACKEND,ROOT,QNN accelerator (execute) time
+0,BACKEND,571,US,BACKEND,ROOT,Accelerator (execute) time
+0,BACKEND,552,US,BACKEND,ROOT,Accelerator (execute excluding wait) time
+0,EXECUTE,659,US,BACKEND,ROOT,QNN (execute) time
+0,BACKEND,4,COUNT,BACKEND,ROOT,Number of HVX threads used
+0,BACKEND,577,US,BACKEND,ROOT,RPC (execute) time
+0,BACKEND,559,US,BACKEND,ROOT,QNN accelerator (execute) time
+0,BACKEND,532,US,BACKEND,ROOT,Accelerator (execute) time
+0,BACKEND,510,US,BACKEND,ROOT,Accelerator (execute excluding wait) time
+0,EXECUTE,608,US,BACKEND,ROOT,QNN (execute) time
+0,BACKEND,4,COUNT,BACKEND,ROOT,Number of HVX threads used
+0,BACKEND,622,US,BACKEND,ROOT,RPC (execute) time
+0,BACKEND,612,US,BACKEND,ROOT,QNN accelerator (execute) time
+0,BACKEND,583,US,BACKEND,ROOT,Accelerator (execute) time
+0,BACKEND,561,US,BACKEND,ROOT,Accelerator (execute excluding wait) time
+0,EXECUTE,653,US,BACKEND,ROOT,QNN (execute) time
+0,BACKEND,4,COUNT,BACKEND,ROOT,Number of HVX threads used
+0,BACKEND,638,US,BACKEND,ROOT,RPC (execute) time
+0,BACKEND,609,US,BACKEND,ROOT,QNN accelerator (execute) time
+0,BACKEND,581,US,BACKEND,ROOT,Accelerator (execute) time
+0,BACKEND,558,US,BACKEND,ROOT,Accelerator (execute excluding wait) time
+0,EXECUTE,670,US,BACKEND,ROOT,QNN (execute) time
+0,BACKEND,4,COUNT,BACKEND,ROOT,Number of HVX threads used
+0,BACKEND,632,US,BACKEND,ROOT,RPC (execute) time
+0,BACKEND,604,US,BACKEND,ROOT,QNN accelerator (execute) time
+0,BACKEND,577,US,BACKEND,ROOT,Accelerator (execute) time
+0,BACKEND,557,US,BACKEND,ROOT,Accelerator (execute excluding wait) time
+0,EXECUTE,679,US,BACKEND,ROOT,QNN (execute) time
+0,BACKEND,4,COUNT,BACKEND,ROOT,Number of HVX threads used
+0,BACKEND,624,US,BACKEND,ROOT,RPC (execute) time
+0,BACKEND,602,US,BACKEND,ROOT,QNN accelerator (execute) time
+0,BACKEND,575,US,BACKEND,ROOT,Accelerator (execute) time
+0,BACKEND,553,US,BACKEND,ROOT,Accelerator (execute excluding wait) time
+0,EXECUTE,654,US,BACKEND,ROOT,QNN (execute) time
+0,BACKEND,4,COUNT,BACKEND,ROOT,Number of HVX threads used
+0,BACKEND,568,US,BACKEND,ROOT,RPC (execute) time
+0,BACKEND,556,US,BACKEND,ROOT,QNN accelerator (execute) time
+0,BACKEND,529,US,BACKEND,ROOT,Accelerator (execute) time
+0,BACKEND,508,US,BACKEND,ROOT,Accelerator (execute excluding wait) time
+0,EXECUTE,602,US,BACKEND,ROOT,QNN (execute) time
+0,BACKEND,4,COUNT,BACKEND,ROOT,Number of HVX threads used
+0,BACKEND,1419,US,BACKEND,ROOT,RPC (execute) time
+0,BACKEND,1383,US,BACKEND,ROOT,QNN accelerator (execute) time
+0,BACKEND,1354,US,BACKEND,ROOT,Accelerator (execute) time
+0,BACKEND,1334,US,BACKEND,ROOT,Accelerator (execute excluding wait) time
+0,EXECUTE,1456,US,BACKEND,ROOT,QNN (execute) time
+0,BACKEND,4,COUNT,BACKEND,ROOT,Number of HVX threads used
+0,BACKEND,1505,US,BACKEND,ROOT,RPC (execute) time
+0,BACKEND,1495,US,BACKEND,ROOT,QNN accelerator (execute) time
+0,BACKEND,1462,US,BACKEND,ROOT,Accelerator (execute) time
+0,BACKEND,1439,US,BACKEND,ROOT,Accelerator (execute excluding wait) time
+0,EXECUTE,1532,US,BACKEND,ROOT,QNN (execute) time
+0,BACKEND,4,COUNT,BACKEND,ROOT,Number of HVX threads used
+0,BACKEND,1508,US,BACKEND,ROOT,RPC (execute) time
+0,BACKEND,1484,US,BACKEND,ROOT,QNN accelerator (execute) time
+0,BACKEND,1453,US,BACKEND,ROOT,Accelerator (execute) time
+0,BACKEND,1427,US,BACKEND,ROOT,Accelerator (execute excluding wait) time
+0,EXECUTE,1536,US,BACKEND,ROOT,QNN (execute) time
+0,BACKEND,4,COUNT,BACKEND,ROOT,Number of HVX threads used
+0,BACKEND,1145,US,BACKEND,ROOT,RPC (execute) time
+0,BACKEND,1108,US,BACKEND,ROOT,QNN accelerator (execute) time
+0,BACKEND,1067,US,BACKEND,ROOT,Accelerator (execute) time
+0,BACKEND,1040,US,BACKEND,ROOT,Accelerator (execute excluding wait) time
+0,EXECUTE,1179,US,BACKEND,ROOT,QNN (execute) time
+0,BACKEND,4,COUNT,BACKEND,ROOT,Number of HVX threads used
+0,BACKEND,642,US,BACKEND,ROOT,RPC (execute) time
+0,BACKEND,624,US,BACKEND,ROOT,QNN accelerator (execute) time
+0,BACKEND,574,US,BACKEND,ROOT,Accelerator (execute) time
+0,BACKEND,546,US,BACKEND,ROOT,Accelerator (execute excluding wait) time
+0,EXECUTE,676,US,BACKEND,ROOT,QNN (execute) time
+0,BACKEND,4,COUNT,BACKEND,ROOT,Number of HVX threads used
+0,BACKEND,4830,US,BACKEND,ROOT,RPC (execute) time
+0,BACKEND,4774,US,BACKEND,ROOT,QNN accelerator (execute) time
+0,BACKEND,4661,US,BACKEND,ROOT,Accelerator (execute) time
+0,BACKEND,4613,US,BACKEND,ROOT,Accelerator (execute excluding wait) time
+0,EXECUTE,4877,US,BACKEND,ROOT,QNN (execute) time
+0,BACKEND,4,COUNT,BACKEND,ROOT,Number of HVX threads used
+0,BACKEND,4249,US,BACKEND,ROOT,RPC (execute) time
+0,BACKEND,4214,US,BACKEND,ROOT,QNN accelerator (execute) time
+0,BACKEND,4141,US,BACKEND,ROOT,Accelerator (execute) time
+0,BACKEND,4093,US,BACKEND,ROOT,Accelerator (execute excluding wait) time
+0,EXECUTE,4281,US,BACKEND,ROOT,QNN (execute) time
+0,BACKEND,4,COUNT,BACKEND,ROOT,Number of HVX threads used
+0,BACKEND,4185,US,BACKEND,ROOT,RPC (execute) time
+0,BACKEND,4148,US,BACKEND,ROOT,QNN accelerator (execute) time
+0,BACKEND,4080,US,BACKEND,ROOT,Accelerator (execute) time
+0,BACKEND,4031,US,BACKEND,ROOT,Accelerator (execute excluding wait) time
+0,EXECUTE,4215,US,BACKEND,ROOT,QNN (execute) time
+0,BACKEND,4,COUNT,BACKEND,ROOT,Number of HVX threads used
+0,BACKEND,4189,US,BACKEND,ROOT,RPC (execute) time
+0,BACKEND,4147,US,BACKEND,ROOT,QNN accelerator (execute) time
+0,BACKEND,4080,US,BACKEND,ROOT,Accelerator (execute) time
+0,BACKEND,4035,US,BACKEND,ROOT,Accelerator (execute excluding wait) time
+0,EXECUTE,4219,US,BACKEND,ROOT,QNN (execute) time
+0,BACKEND,4,COUNT,BACKEND,ROOT,Number of HVX threads used
+0,BACKEND,420,US,BACKEND,ROOT,RPC (execute) time
+0,BACKEND,384,US,BACKEND,ROOT,QNN accelerator (execute) time
+0,BACKEND,332,US,BACKEND,ROOT,Accelerator (execute) time
+0,BACKEND,293,US,BACKEND,ROOT,Accelerator (execute excluding wait) time
+0,EXECUTE,451,US,BACKEND,ROOT,QNN (execute) time
+0,BACKEND,4,COUNT,BACKEND,ROOT,Number of HVX threads used
+0,BACKEND,284,US,BACKEND,ROOT,RPC (execute) time
+0,BACKEND,272,US,BACKEND,ROOT,QNN accelerator (execute) time
+0,BACKEND,220,US,BACKEND,ROOT,Accelerator (execute) time
+0,BACKEND,198,US,BACKEND,ROOT,Accelerator (execute excluding wait) time
+0,EXECUTE,315,US,BACKEND,ROOT,QNN (execute) time
+0,BACKEND,4,COUNT,BACKEND,ROOT,Number of HVX threads used
+0,BACKEND,740,US,BACKEND,ROOT,RPC (execute) time
+0,BACKEND,700,US,BACKEND,ROOT,QNN accelerator (execute) time
+0,BACKEND,638,US,BACKEND,ROOT,Accelerator (execute) time
+0,BACKEND,613,US,BACKEND,ROOT,Accelerator (execute excluding wait) time
+0,EXECUTE,773,US,BACKEND,ROOT,QNN (execute) time
+0,BACKEND,4,COUNT,BACKEND,ROOT,Number of HVX threads used
+0,BACKEND,2235,US,BACKEND,ROOT,RPC (execute) time
+0,BACKEND,2188,US,BACKEND,ROOT,QNN accelerator (execute) time
+0,BACKEND,2095,US,BACKEND,ROOT,Accelerator (execute) time
+0,BACKEND,2046,US,BACKEND,ROOT,Accelerator (execute excluding wait) time
+0,EXECUTE,2301,US,BACKEND,ROOT,QNN (execute) time
+0,BACKEND,4,COUNT,BACKEND,ROOT,Number of HVX threads used
+0,BACKEND,569,US,BACKEND,ROOT,RPC (execute) time
+0,BACKEND,560,US,BACKEND,ROOT,QNN accelerator (execute) time
+0,BACKEND,531,US,BACKEND,ROOT,Accelerator (execute) time
+0,BACKEND,495,US,BACKEND,ROOT,Accelerator (execute excluding wait) time
+0,EXECUTE,597,US,BACKEND,ROOT,QNN (execute) time
+0,BACKEND,4,COUNT,BACKEND,ROOT,Number of HVX threads used
+0,BACKEND,559,US,BACKEND,ROOT,RPC (execute) time
+0,BACKEND,535,US,BACKEND,ROOT,QNN accelerator (execute) time
+0,BACKEND,509,US,BACKEND,ROOT,Accelerator (execute) time
+0,BACKEND,490,US,BACKEND,ROOT,Accelerator (execute excluding wait) time
+0,EXECUTE,587,US,BACKEND,ROOT,QNN (execute) time
+0,BACKEND,4,COUNT,BACKEND,ROOT,Number of HVX threads used
+0,BACKEND,673,US,BACKEND,ROOT,RPC (execute) time
+0,BACKEND,659,US,BACKEND,ROOT,QNN accelerator (execute) time
+0,BACKEND,633,US,BACKEND,ROOT,Accelerator (execute) time
+0,BACKEND,614,US,BACKEND,ROOT,Accelerator (execute excluding wait) time
+0,EXECUTE,703,US,BACKEND,ROOT,QNN (execute) time
+0,BACKEND,4,COUNT,BACKEND,ROOT,Number of HVX threads used
+0,BACKEND,556,US,BACKEND,ROOT,RPC (execute) time
+0,BACKEND,535,US,BACKEND,ROOT,QNN accelerator (execute) time
+0,BACKEND,510,US,BACKEND,ROOT,Accelerator (execute) time
+0,BACKEND,490,US,BACKEND,ROOT,Accelerator (execute excluding wait) time
+0,EXECUTE,586,US,BACKEND,ROOT,QNN (execute) time
+0,BACKEND,4,COUNT,BACKEND,ROOT,Number of HVX threads used
+0,BACKEND,572,US,BACKEND,ROOT,RPC (execute) time
+0,BACKEND,537,US,BACKEND,ROOT,QNN accelerator (execute) time
+0,BACKEND,510,US,BACKEND,ROOT,Accelerator (execute) time
+0,BACKEND,489,US,BACKEND,ROOT,Accelerator (execute excluding wait) time
+0,EXECUTE,601,US,BACKEND,ROOT,QNN (execute) time
+0,BACKEND,4,COUNT,BACKEND,ROOT,Number of HVX threads used
+0,BACKEND,646,US,BACKEND,ROOT,RPC (execute) time
+0,BACKEND,635,US,BACKEND,ROOT,QNN accelerator (execute) time
+0,BACKEND,605,US,BACKEND,ROOT,Accelerator (execute) time
+0,BACKEND,586,US,BACKEND,ROOT,Accelerator (execute excluding wait) time
+0,EXECUTE,677,US,BACKEND,ROOT,QNN (execute) time
+0,BACKEND,4,COUNT,BACKEND,ROOT,Number of HVX threads used
+0,BACKEND,611,US,BACKEND,ROOT,RPC (execute) time
+0,BACKEND,602,US,BACKEND,ROOT,QNN accelerator (execute) time
+0,BACKEND,575,US,BACKEND,ROOT,Accelerator (execute) time
+0,BACKEND,554,US,BACKEND,ROOT,Accelerator (execute excluding wait) time
+0,EXECUTE,639,US,BACKEND,ROOT,QNN (execute) time
+0,BACKEND,4,COUNT,BACKEND,ROOT,Number of HVX threads used
+0,BACKEND,639,US,BACKEND,ROOT,RPC (execute) time
+0,BACKEND,606,US,BACKEND,ROOT,QNN accelerator (execute) time
+0,BACKEND,579,US,BACKEND,ROOT,Accelerator (execute) time
+0,BACKEND,558,US,BACKEND,ROOT,Accelerator (execute excluding wait) time
+0,EXECUTE,665,US,BACKEND,ROOT,QNN (execute) time
+0,BACKEND,4,COUNT,BACKEND,ROOT,Number of HVX threads used
+0,BACKEND,647,US,BACKEND,ROOT,RPC (execute) time
+0,BACKEND,607,US,BACKEND,ROOT,QNN accelerator (execute) time
+0,BACKEND,578,US,BACKEND,ROOT,Accelerator (execute) time
+0,BACKEND,556,US,BACKEND,ROOT,Accelerator (execute excluding wait) time
+0,EXECUTE,674,US,BACKEND,ROOT,QNN (execute) time
+0,BACKEND,4,COUNT,BACKEND,ROOT,Number of HVX threads used
+0,BACKEND,569,US,BACKEND,ROOT,RPC (execute) time
+0,BACKEND,551,US,BACKEND,ROOT,QNN accelerator (execute) time
+0,BACKEND,524,US,BACKEND,ROOT,Accelerator (execute) time
+0,BACKEND,503,US,BACKEND,ROOT,Accelerator (execute excluding wait) time
+0,EXECUTE,593,US,BACKEND,ROOT,QNN (execute) time
+0,BACKEND,4,COUNT,BACKEND,ROOT,Number of HVX threads used
+0,BACKEND,630,US,BACKEND,ROOT,RPC (execute) time
+0,BACKEND,602,US,BACKEND,ROOT,QNN accelerator (execute) time
+0,BACKEND,575,US,BACKEND,ROOT,Accelerator (execute) time
+0,BACKEND,556,US,BACKEND,ROOT,Accelerator (execute excluding wait) time
+0,EXECUTE,657,US,BACKEND,ROOT,QNN (execute) time
+0,BACKEND,4,COUNT,BACKEND,ROOT,Number of HVX threads used
+0,BACKEND,634,US,BACKEND,ROOT,RPC (execute) time
+0,BACKEND,601,US,BACKEND,ROOT,QNN accelerator (execute) time
+0,BACKEND,574,US,BACKEND,ROOT,Accelerator (execute) time
+0,BACKEND,556,US,BACKEND,ROOT,Accelerator (execute excluding wait) time
+0,EXECUTE,662,US,BACKEND,ROOT,QNN (execute) time
+0,BACKEND,4,COUNT,BACKEND,ROOT,Number of HVX threads used
+0,BACKEND,626,US,BACKEND,ROOT,RPC (execute) time
+0,BACKEND,602,US,BACKEND,ROOT,QNN accelerator (execute) time
+0,BACKEND,576,US,BACKEND,ROOT,Accelerator (execute) time
+0,BACKEND,556,US,BACKEND,ROOT,Accelerator (execute excluding wait) time
+0,EXECUTE,656,US,BACKEND,ROOT,QNN (execute) time
+0,BACKEND,4,COUNT,BACKEND,ROOT,Number of HVX threads used
+0,BACKEND,637,US,BACKEND,ROOT,RPC (execute) time
+0,BACKEND,611,US,BACKEND,ROOT,QNN accelerator (execute) time
+0,BACKEND,584,US,BACKEND,ROOT,Accelerator (execute) time
+0,BACKEND,563,US,BACKEND,ROOT,Accelerator (execute excluding wait) time
+0,EXECUTE,662,US,BACKEND,ROOT,QNN (execute) time
+0,BACKEND,4,COUNT,BACKEND,ROOT,Number of HVX threads used
+0,BACKEND,637,US,BACKEND,ROOT,RPC (execute) time
+0,BACKEND,604,US,BACKEND,ROOT,QNN accelerator (execute) time
+0,BACKEND,575,US,BACKEND,ROOT,Accelerator (execute) time
+0,BACKEND,557,US,BACKEND,ROOT,Accelerator (execute excluding wait) time
+0,EXECUTE,689,US,BACKEND,ROOT,QNN (execute) time
+0,BACKEND,4,COUNT,BACKEND,ROOT,Number of HVX threads used
+0,BACKEND,568,US,BACKEND,ROOT,RPC (execute) time
+0,BACKEND,548,US,BACKEND,ROOT,QNN accelerator (execute) time
+0,BACKEND,523,US,BACKEND,ROOT,Accelerator (execute) time
+0,BACKEND,504,US,BACKEND,ROOT,Accelerator (execute excluding wait) time
+0,EXECUTE,595,US,BACKEND,ROOT,QNN (execute) time
+0,BACKEND,4,COUNT,BACKEND,ROOT,Number of HVX threads used
+0,BACKEND,629,US,BACKEND,ROOT,RPC (execute) time
+0,BACKEND,597,US,BACKEND,ROOT,QNN accelerator (execute) time
+0,BACKEND,573,US,BACKEND,ROOT,Accelerator (execute) time
+0,BACKEND,554,US,BACKEND,ROOT,Accelerator (execute excluding wait) time
+0,EXECUTE,655,US,BACKEND,ROOT,QNN (execute) time
+0,BACKEND,4,COUNT,BACKEND,ROOT,Number of HVX threads used
+0,BACKEND,639,US,BACKEND,ROOT,RPC (execute) time
+0,BACKEND,605,US,BACKEND,ROOT,QNN accelerator (execute) time
+0,BACKEND,580,US,BACKEND,ROOT,Accelerator (execute) time
+0,BACKEND,559,US,BACKEND,ROOT,Accelerator (execute excluding wait) time
+0,EXECUTE,661,US,BACKEND,ROOT,QNN (execute) time
+0,BACKEND,4,COUNT,BACKEND,ROOT,Number of HVX threads used
+0,BACKEND,614,US,BACKEND,ROOT,RPC (execute) time
+0,BACKEND,606,US,BACKEND,ROOT,QNN accelerator (execute) time
+0,BACKEND,580,US,BACKEND,ROOT,Accelerator (execute) time
+0,BACKEND,561,US,BACKEND,ROOT,Accelerator (execute excluding wait) time
+0,EXECUTE,639,US,BACKEND,ROOT,QNN (execute) time
+0,BACKEND,4,COUNT,BACKEND,ROOT,Number of HVX threads used
+0,BACKEND,625,US,BACKEND,ROOT,RPC (execute) time
+0,BACKEND,602,US,BACKEND,ROOT,QNN accelerator (execute) time
+0,BACKEND,576,US,BACKEND,ROOT,Accelerator (execute) time
+0,BACKEND,558,US,BACKEND,ROOT,Accelerator (execute excluding wait) time
+0,EXECUTE,653,US,BACKEND,ROOT,QNN (execute) time
+0,BACKEND,4,COUNT,BACKEND,ROOT,Number of HVX threads used
+0,BACKEND,631,US,BACKEND,ROOT,RPC (execute) time
+0,BACKEND,597,US,BACKEND,ROOT,QNN accelerator (execute) time
+0,BACKEND,570,US,BACKEND,ROOT,Accelerator (execute) time
+0,BACKEND,551,US,BACKEND,ROOT,Accelerator (execute excluding wait) time
+0,EXECUTE,659,US,BACKEND,ROOT,QNN (execute) time
+0,BACKEND,4,COUNT,BACKEND,ROOT,Number of HVX threads used
+0,BACKEND,628,US,BACKEND,ROOT,RPC (execute) time
+0,BACKEND,598,US,BACKEND,ROOT,QNN accelerator (execute) time
+0,BACKEND,572,US,BACKEND,ROOT,Accelerator (execute) time
+0,BACKEND,554,US,BACKEND,ROOT,Accelerator (execute excluding wait) time
+0,EXECUTE,656,US,BACKEND,ROOT,QNN (execute) time
+0,BACKEND,4,COUNT,BACKEND,ROOT,Number of HVX threads used
+0,BACKEND,568,US,BACKEND,ROOT,RPC (execute) time
+0,BACKEND,547,US,BACKEND,ROOT,QNN accelerator (execute) time
+0,BACKEND,521,US,BACKEND,ROOT,Accelerator (execute) time
+0,BACKEND,502,US,BACKEND,ROOT,Accelerator (execute excluding wait) time
+0,EXECUTE,594,US,BACKEND,ROOT,QNN (execute) time
+0,BACKEND,4,COUNT,BACKEND,ROOT,Number of HVX threads used
+0,BACKEND,631,US,BACKEND,ROOT,RPC (execute) time
+0,BACKEND,604,US,BACKEND,ROOT,QNN accelerator (execute) time
+0,BACKEND,577,US,BACKEND,ROOT,Accelerator (execute) time
+0,BACKEND,559,US,BACKEND,ROOT,Accelerator (execute excluding wait) time
+0,EXECUTE,658,US,BACKEND,ROOT,QNN (execute) time
+0,BACKEND,4,COUNT,BACKEND,ROOT,Number of HVX threads used
+0,BACKEND,625,US,BACKEND,ROOT,RPC (execute) time
+0,BACKEND,598,US,BACKEND,ROOT,QNN accelerator (execute) time
+0,BACKEND,574,US,BACKEND,ROOT,Accelerator (execute) time
+0,BACKEND,557,US,BACKEND,ROOT,Accelerator (execute excluding wait) time
+0,EXECUTE,652,US,BACKEND,ROOT,QNN (execute) time
+0,BACKEND,4,COUNT,BACKEND,ROOT,Number of HVX threads used
+0,BACKEND,618,US,BACKEND,ROOT,RPC (execute) time
+0,BACKEND,597,US,BACKEND,ROOT,QNN accelerator (execute) time
+0,BACKEND,573,US,BACKEND,ROOT,Accelerator (execute) time
+0,BACKEND,553,US,BACKEND,ROOT,Accelerator (execute excluding wait) time
+0,EXECUTE,646,US,BACKEND,ROOT,QNN (execute) time
+0,BACKEND,4,COUNT,BACKEND,ROOT,Number of HVX threads used
+0,BACKEND,574,US,BACKEND,ROOT,RPC (execute) time
+0,BACKEND,556,US,BACKEND,ROOT,QNN accelerator (execute) time
+0,BACKEND,529,US,BACKEND,ROOT,Accelerator (execute) time
+0,BACKEND,511,US,BACKEND,ROOT,Accelerator (execute excluding wait) time
+0,EXECUTE,598,US,BACKEND,ROOT,QNN (execute) time
+0,BACKEND,4,COUNT,BACKEND,ROOT,Number of HVX threads used
+0,BACKEND,631,US,BACKEND,ROOT,RPC (execute) time
+0,BACKEND,598,US,BACKEND,ROOT,QNN accelerator (execute) time
+0,BACKEND,572,US,BACKEND,ROOT,Accelerator (execute) time
+0,BACKEND,552,US,BACKEND,ROOT,Accelerator (execute excluding wait) time
+0,EXECUTE,659,US,BACKEND,ROOT,QNN (execute) time
+0,BACKEND,4,COUNT,BACKEND,ROOT,Number of HVX threads used
+0,BACKEND,607,US,BACKEND,ROOT,RPC (execute) time
+0,BACKEND,594,US,BACKEND,ROOT,QNN accelerator (execute) time
+0,BACKEND,571,US,BACKEND,ROOT,Accelerator (execute) time
+0,BACKEND,554,US,BACKEND,ROOT,Accelerator (execute excluding wait) time
+0,EXECUTE,637,US,BACKEND,ROOT,QNN (execute) time
+0,BACKEND,4,COUNT,BACKEND,ROOT,Number of HVX threads used
+0,BACKEND,634,US,BACKEND,ROOT,RPC (execute) time
+0,BACKEND,603,US,BACKEND,ROOT,QNN accelerator (execute) time
+0,BACKEND,578,US,BACKEND,ROOT,Accelerator (execute) time
+0,BACKEND,556,US,BACKEND,ROOT,Accelerator (execute excluding wait) time
+0,EXECUTE,662,US,BACKEND,ROOT,QNN (execute) time
+0,BACKEND,4,COUNT,BACKEND,ROOT,Number of HVX threads used
+0,BACKEND,631,US,BACKEND,ROOT,RPC (execute) time
+0,BACKEND,596,US,BACKEND,ROOT,QNN accelerator (execute) time
+0,BACKEND,570,US,BACKEND,ROOT,Accelerator (execute) time
+0,BACKEND,552,US,BACKEND,ROOT,Accelerator (execute excluding wait) time
+0,EXECUTE,659,US,BACKEND,ROOT,QNN (execute) time
+0,BACKEND,4,COUNT,BACKEND,ROOT,Number of HVX threads used
+0,BACKEND,565,US,BACKEND,ROOT,RPC (execute) time
+0,BACKEND,547,US,BACKEND,ROOT,QNN accelerator (execute) time
+0,BACKEND,520,US,BACKEND,ROOT,Accelerator (execute) time
+0,BACKEND,501,US,BACKEND,ROOT,Accelerator (execute excluding wait) time
+0,EXECUTE,593,US,BACKEND,ROOT,QNN (execute) time
+0,BACKEND,4,COUNT,BACKEND,ROOT,Number of HVX threads used
+0,BACKEND,1381,US,BACKEND,ROOT,RPC (execute) time
+0,BACKEND,1372,US,BACKEND,ROOT,QNN accelerator (execute) time
+0,BACKEND,1345,US,BACKEND,ROOT,Accelerator (execute) time
+0,BACKEND,1326,US,BACKEND,ROOT,Accelerator (execute excluding wait) time
+0,EXECUTE,1429,US,BACKEND,ROOT,QNN (execute) time
+0,BACKEND,4,COUNT,BACKEND,ROOT,Number of HVX threads used
+0,BACKEND,1493,US,BACKEND,ROOT,RPC (execute) time
+0,BACKEND,1473,US,BACKEND,ROOT,QNN accelerator (execute) time
+0,BACKEND,1446,US,BACKEND,ROOT,Accelerator (execute) time
+0,BACKEND,1428,US,BACKEND,ROOT,Accelerator (execute excluding wait) time
+0,EXECUTE,1517,US,BACKEND,ROOT,QNN (execute) time
+0,BACKEND,4,COUNT,BACKEND,ROOT,Number of HVX threads used
+0,BACKEND,1485,US,BACKEND,ROOT,RPC (execute) time
+0,BACKEND,1466,US,BACKEND,ROOT,QNN accelerator (execute) time
+0,BACKEND,1439,US,BACKEND,ROOT,Accelerator (execute) time
+0,BACKEND,1420,US,BACKEND,ROOT,Accelerator (execute excluding wait) time
+0,EXECUTE,1510,US,BACKEND,ROOT,QNN (execute) time
+0,BACKEND,4,COUNT,BACKEND,ROOT,Number of HVX threads used
+0,BACKEND,1111,US,BACKEND,ROOT,RPC (execute) time
+0,BACKEND,1098,US,BACKEND,ROOT,QNN accelerator (execute) time
+0,BACKEND,1058,US,BACKEND,ROOT,Accelerator (execute) time
+0,BACKEND,1034,US,BACKEND,ROOT,Accelerator (execute excluding wait) time
+0,EXECUTE,1141,US,BACKEND,ROOT,QNN (execute) time
+0,BACKEND,4,COUNT,BACKEND,ROOT,Number of HVX threads used
+0,BACKEND,642,US,BACKEND,ROOT,RPC (execute) time
+0,BACKEND,610,US,BACKEND,ROOT,QNN accelerator (execute) time
+0,BACKEND,563,US,BACKEND,ROOT,Accelerator (execute) time
+0,BACKEND,542,US,BACKEND,ROOT,Accelerator (execute excluding wait) time
+0,EXECUTE,677,US,BACKEND,ROOT,QNN (execute) time
+0,BACKEND,4,COUNT,BACKEND,ROOT,Number of HVX threads used
+0,BACKEND,4794,US,BACKEND,ROOT,RPC (execute) time
+0,BACKEND,4744,US,BACKEND,ROOT,QNN accelerator (execute) time
+0,BACKEND,4631,US,BACKEND,ROOT,Accelerator (execute) time
+0,BACKEND,4588,US,BACKEND,ROOT,Accelerator (execute excluding wait) time
+0,EXECUTE,4838,US,BACKEND,ROOT,QNN (execute) time
+0,BACKEND,4,COUNT,BACKEND,ROOT,Number of HVX threads used
+0,BACKEND,4262,US,BACKEND,ROOT,RPC (execute) time
+0,BACKEND,4214,US,BACKEND,ROOT,QNN accelerator (execute) time
+0,BACKEND,4141,US,BACKEND,ROOT,Accelerator (execute) time
+0,BACKEND,4091,US,BACKEND,ROOT,Accelerator (execute excluding wait) time
+0,EXECUTE,4313,US,BACKEND,ROOT,QNN (execute) time
+0,BACKEND,4,COUNT,BACKEND,ROOT,Number of HVX threads used
+0,BACKEND,4186,US,BACKEND,ROOT,RPC (execute) time
+0,BACKEND,4148,US,BACKEND,ROOT,QNN accelerator (execute) time
+0,BACKEND,4081,US,BACKEND,ROOT,Accelerator (execute) time
+0,BACKEND,4032,US,BACKEND,ROOT,Accelerator (execute excluding wait) time
+0,EXECUTE,4217,US,BACKEND,ROOT,QNN (execute) time
+0,BACKEND,4,COUNT,BACKEND,ROOT,Number of HVX threads used
+0,BACKEND,4176,US,BACKEND,ROOT,RPC (execute) time
+0,BACKEND,4151,US,BACKEND,ROOT,QNN accelerator (execute) time
+0,BACKEND,4084,US,BACKEND,ROOT,Accelerator (execute) time
+0,BACKEND,4036,US,BACKEND,ROOT,Accelerator (execute excluding wait) time
+0,EXECUTE,4203,US,BACKEND,ROOT,QNN (execute) time
+0,BACKEND,4,COUNT,BACKEND,ROOT,Number of HVX threads used
+0,BACKEND,416,US,BACKEND,ROOT,RPC (execute) time
+0,BACKEND,380,US,BACKEND,ROOT,QNN accelerator (execute) time
+0,BACKEND,330,US,BACKEND,ROOT,Accelerator (execute) time
+0,BACKEND,294,US,BACKEND,ROOT,Accelerator (execute excluding wait) time
+0,EXECUTE,444,US,BACKEND,ROOT,QNN (execute) time
+0,BACKEND,4,COUNT,BACKEND,ROOT,Number of HVX threads used
+0,BACKEND,281,US,BACKEND,ROOT,RPC (execute) time
+0,BACKEND,271,US,BACKEND,ROOT,QNN accelerator (execute) time
+0,BACKEND,221,US,BACKEND,ROOT,Accelerator (execute) time
+0,BACKEND,198,US,BACKEND,ROOT,Accelerator (execute excluding wait) time
+0,EXECUTE,310,US,BACKEND,ROOT,QNN (execute) time
+0,BACKEND,4,COUNT,BACKEND,ROOT,Number of HVX threads used
+0,BACKEND,743,US,BACKEND,ROOT,RPC (execute) time
+0,BACKEND,702,US,BACKEND,ROOT,QNN accelerator (execute) time
+0,BACKEND,640,US,BACKEND,ROOT,Accelerator (execute) time
+0,BACKEND,615,US,BACKEND,ROOT,Accelerator (execute excluding wait) time
+0,EXECUTE,773,US,BACKEND,ROOT,QNN (execute) time
+0,BACKEND,4,COUNT,BACKEND,ROOT,Number of HVX threads used
+0,BACKEND,2222,US,BACKEND,ROOT,RPC (execute) time
+0,BACKEND,2179,US,BACKEND,ROOT,QNN accelerator (execute) time
+0,BACKEND,2087,US,BACKEND,ROOT,Accelerator (execute) time
+0,BACKEND,2040,US,BACKEND,ROOT,Accelerator (execute excluding wait) time
+0,EXECUTE,2262,US,BACKEND,ROOT,QNN (execute) time
+0,BACKEND,4,COUNT,BACKEND,ROOT,Number of HVX threads used
+0,BACKEND,574,US,BACKEND,ROOT,RPC (execute) time
+0,BACKEND,564,US,BACKEND,ROOT,QNN accelerator (execute) time
+0,BACKEND,535,US,BACKEND,ROOT,Accelerator (execute) time
+0,BACKEND,500,US,BACKEND,ROOT,Accelerator (execute excluding wait) time
+0,EXECUTE,609,US,BACKEND,ROOT,QNN (execute) time
+0,BACKEND,4,COUNT,BACKEND,ROOT,Number of HVX threads used
+0,BACKEND,550,US,BACKEND,ROOT,RPC (execute) time
+0,BACKEND,537,US,BACKEND,ROOT,QNN accelerator (execute) time
+0,BACKEND,512,US,BACKEND,ROOT,Accelerator (execute) time
+0,BACKEND,494,US,BACKEND,ROOT,Accelerator (execute excluding wait) time
+0,EXECUTE,579,US,BACKEND,ROOT,QNN (execute) time
+0,BACKEND,4,COUNT,BACKEND,ROOT,Number of HVX threads used
+0,BACKEND,673,US,BACKEND,ROOT,RPC (execute) time
+0,BACKEND,662,US,BACKEND,ROOT,QNN accelerator (execute) time
+0,BACKEND,635,US,BACKEND,ROOT,Accelerator (execute) time
+0,BACKEND,616,US,BACKEND,ROOT,Accelerator (execute excluding wait) time
+0,EXECUTE,698,US,BACKEND,ROOT,QNN (execute) time
+0,BACKEND,4,COUNT,BACKEND,ROOT,Number of HVX threads used
+0,BACKEND,567,US,BACKEND,ROOT,RPC (execute) time
+0,BACKEND,534,US,BACKEND,ROOT,QNN accelerator (execute) time
+0,BACKEND,508,US,BACKEND,ROOT,Accelerator (execute) time
+0,BACKEND,489,US,BACKEND,ROOT,Accelerator (execute excluding wait) time
+0,EXECUTE,592,US,BACKEND,ROOT,QNN (execute) time
+0,BACKEND,4,COUNT,BACKEND,ROOT,Number of HVX threads used
+0,BACKEND,565,US,BACKEND,ROOT,RPC (execute) time
+0,BACKEND,537,US,BACKEND,ROOT,QNN accelerator (execute) time
+0,BACKEND,510,US,BACKEND,ROOT,Accelerator (execute) time
+0,BACKEND,490,US,BACKEND,ROOT,Accelerator (execute excluding wait) time
+0,EXECUTE,592,US,BACKEND,ROOT,QNN (execute) time
+0,BACKEND,4,COUNT,BACKEND,ROOT,Number of HVX threads used
+0,BACKEND,642,US,BACKEND,ROOT,RPC (execute) time
+0,BACKEND,630,US,BACKEND,ROOT,QNN accelerator (execute) time
+0,BACKEND,601,US,BACKEND,ROOT,Accelerator (execute) time
+0,BACKEND,583,US,BACKEND,ROOT,Accelerator (execute excluding wait) time
+0,EXECUTE,671,US,BACKEND,ROOT,QNN (execute) time
+0,BACKEND,4,COUNT,BACKEND,ROOT,Number of HVX threads used
+0,BACKEND,609,US,BACKEND,ROOT,RPC (execute) time
+0,BACKEND,600,US,BACKEND,ROOT,QNN accelerator (execute) time
+0,BACKEND,573,US,BACKEND,ROOT,Accelerator (execute) time
+0,BACKEND,554,US,BACKEND,ROOT,Accelerator (execute excluding wait) time
+0,EXECUTE,636,US,BACKEND,ROOT,QNN (execute) time
+0,BACKEND,4,COUNT,BACKEND,ROOT,Number of HVX threads used
+0,BACKEND,621,US,BACKEND,ROOT,RPC (execute) time
+0,BACKEND,606,US,BACKEND,ROOT,QNN accelerator (execute) time
+0,BACKEND,577,US,BACKEND,ROOT,Accelerator (execute) time
+0,BACKEND,555,US,BACKEND,ROOT,Accelerator (execute excluding wait) time
+0,EXECUTE,649,US,BACKEND,ROOT,QNN (execute) time
+0,BACKEND,4,COUNT,BACKEND,ROOT,Number of HVX threads used
+0,BACKEND,653,US,BACKEND,ROOT,RPC (execute) time
+0,BACKEND,611,US,BACKEND,ROOT,QNN accelerator (execute) time
+0,BACKEND,582,US,BACKEND,ROOT,Accelerator (execute) time
+0,BACKEND,560,US,BACKEND,ROOT,Accelerator (execute excluding wait) time
+0,EXECUTE,680,US,BACKEND,ROOT,QNN (execute) time
+0,BACKEND,4,COUNT,BACKEND,ROOT,Number of HVX threads used
+0,BACKEND,576,US,BACKEND,ROOT,RPC (execute) time
+0,BACKEND,552,US,BACKEND,ROOT,QNN accelerator (execute) time
+0,BACKEND,524,US,BACKEND,ROOT,Accelerator (execute) time
+0,BACKEND,503,US,BACKEND,ROOT,Accelerator (execute excluding wait) time
+0,EXECUTE,604,US,BACKEND,ROOT,QNN (execute) time
+0,BACKEND,4,COUNT,BACKEND,ROOT,Number of HVX threads used
+0,BACKEND,609,US,BACKEND,ROOT,RPC (execute) time
+0,BACKEND,600,US,BACKEND,ROOT,QNN accelerator (execute) time
+0,BACKEND,574,US,BACKEND,ROOT,Accelerator (execute) time
+0,BACKEND,555,US,BACKEND,ROOT,Accelerator (execute excluding wait) time
+0,EXECUTE,637,US,BACKEND,ROOT,QNN (execute) time
+0,BACKEND,4,COUNT,BACKEND,ROOT,Number of HVX threads used
+0,BACKEND,624,US,BACKEND,ROOT,RPC (execute) time
+0,BACKEND,598,US,BACKEND,ROOT,QNN accelerator (execute) time
+0,BACKEND,572,US,BACKEND,ROOT,Accelerator (execute) time
+0,BACKEND,555,US,BACKEND,ROOT,Accelerator (execute excluding wait) time
+0,EXECUTE,648,US,BACKEND,ROOT,QNN (execute) time
+0,BACKEND,4,COUNT,BACKEND,ROOT,Number of HVX threads used
+0,BACKEND,608,US,BACKEND,ROOT,RPC (execute) time
+0,BACKEND,598,US,BACKEND,ROOT,QNN accelerator (execute) time
+0,BACKEND,574,US,BACKEND,ROOT,Accelerator (execute) time
+0,BACKEND,555,US,BACKEND,ROOT,Accelerator (execute excluding wait) time
+0,EXECUTE,635,US,BACKEND,ROOT,QNN (execute) time
+0,BACKEND,4,COUNT,BACKEND,ROOT,Number of HVX threads used
+0,BACKEND,645,US,BACKEND,ROOT,RPC (execute) time
+0,BACKEND,612,US,BACKEND,ROOT,QNN accelerator (execute) time
+0,BACKEND,584,US,BACKEND,ROOT,Accelerator (execute) time
+0,BACKEND,562,US,BACKEND,ROOT,Accelerator (execute excluding wait) time
+0,EXECUTE,673,US,BACKEND,ROOT,QNN (execute) time
+0,BACKEND,4,COUNT,BACKEND,ROOT,Number of HVX threads used
+0,BACKEND,635,US,BACKEND,ROOT,RPC (execute) time
+0,BACKEND,602,US,BACKEND,ROOT,QNN accelerator (execute) time
+0,BACKEND,575,US,BACKEND,ROOT,Accelerator (execute) time
+0,BACKEND,555,US,BACKEND,ROOT,Accelerator (execute excluding wait) time
+0,EXECUTE,662,US,BACKEND,ROOT,QNN (execute) time
+0,BACKEND,4,COUNT,BACKEND,ROOT,Number of HVX threads used
+0,BACKEND,568,US,BACKEND,ROOT,RPC (execute) time
+0,BACKEND,552,US,BACKEND,ROOT,QNN accelerator (execute) time
+0,BACKEND,525,US,BACKEND,ROOT,Accelerator (execute) time
+0,BACKEND,506,US,BACKEND,ROOT,Accelerator (execute excluding wait) time
+0,EXECUTE,595,US,BACKEND,ROOT,QNN (execute) time
+0,BACKEND,4,COUNT,BACKEND,ROOT,Number of HVX threads used
+0,BACKEND,617,US,BACKEND,ROOT,RPC (execute) time
+0,BACKEND,601,US,BACKEND,ROOT,QNN accelerator (execute) time
+0,BACKEND,576,US,BACKEND,ROOT,Accelerator (execute) time
+0,BACKEND,555,US,BACKEND,ROOT,Accelerator (execute excluding wait) time
+0,EXECUTE,642,US,BACKEND,ROOT,QNN (execute) time
+0,BACKEND,4,COUNT,BACKEND,ROOT,Number of HVX threads used
+0,BACKEND,621,US,BACKEND,ROOT,RPC (execute) time
+0,BACKEND,605,US,BACKEND,ROOT,QNN accelerator (execute) time
+0,BACKEND,578,US,BACKEND,ROOT,Accelerator (execute) time
+0,BACKEND,561,US,BACKEND,ROOT,Accelerator (execute excluding wait) time
+0,EXECUTE,668,US,BACKEND,ROOT,QNN (execute) time
+0,BACKEND,4,COUNT,BACKEND,ROOT,Number of HVX threads used
+0,BACKEND,630,US,BACKEND,ROOT,RPC (execute) time
+0,BACKEND,607,US,BACKEND,ROOT,QNN accelerator (execute) time
+0,BACKEND,580,US,BACKEND,ROOT,Accelerator (execute) time
+0,BACKEND,561,US,BACKEND,ROOT,Accelerator (execute excluding wait) time
+0,EXECUTE,656,US,BACKEND,ROOT,QNN (execute) time
+0,BACKEND,4,COUNT,BACKEND,ROOT,Number of HVX threads used
+0,BACKEND,612,US,BACKEND,ROOT,RPC (execute) time
+0,BACKEND,601,US,BACKEND,ROOT,QNN accelerator (execute) time
+0,BACKEND,574,US,BACKEND,ROOT,Accelerator (execute) time
+0,BACKEND,556,US,BACKEND,ROOT,Accelerator (execute excluding wait) time
+0,EXECUTE,636,US,BACKEND,ROOT,QNN (execute) time
+0,BACKEND,4,COUNT,BACKEND,ROOT,Number of HVX threads used
+0,BACKEND,612,US,BACKEND,ROOT,RPC (execute) time
+0,BACKEND,592,US,BACKEND,ROOT,QNN accelerator (execute) time
+0,BACKEND,568,US,BACKEND,ROOT,Accelerator (execute) time
+0,BACKEND,550,US,BACKEND,ROOT,Accelerator (execute excluding wait) time
+0,EXECUTE,637,US,BACKEND,ROOT,QNN (execute) time
+0,BACKEND,4,COUNT,BACKEND,ROOT,Number of HVX threads used
+0,BACKEND,615,US,BACKEND,ROOT,RPC (execute) time
+0,BACKEND,597,US,BACKEND,ROOT,QNN accelerator (execute) time
+0,BACKEND,572,US,BACKEND,ROOT,Accelerator (execute) time
+0,BACKEND,552,US,BACKEND,ROOT,Accelerator (execute excluding wait) time
+0,EXECUTE,642,US,BACKEND,ROOT,QNN (execute) time
+0,BACKEND,4,COUNT,BACKEND,ROOT,Number of HVX threads used
+0,BACKEND,555,US,BACKEND,ROOT,RPC (execute) time
+0,BACKEND,546,US,BACKEND,ROOT,QNN accelerator (execute) time
+0,BACKEND,520,US,BACKEND,ROOT,Accelerator (execute) time
+0,BACKEND,501,US,BACKEND,ROOT,Accelerator (execute excluding wait) time
+0,EXECUTE,581,US,BACKEND,ROOT,QNN (execute) time
+0,BACKEND,4,COUNT,BACKEND,ROOT,Number of HVX threads used
+0,BACKEND,618,US,BACKEND,ROOT,RPC (execute) time
+0,BACKEND,604,US,BACKEND,ROOT,QNN accelerator (execute) time
+0,BACKEND,578,US,BACKEND,ROOT,Accelerator (execute) time
+0,BACKEND,560,US,BACKEND,ROOT,Accelerator (execute excluding wait) time
+0,EXECUTE,647,US,BACKEND,ROOT,QNN (execute) time
+0,BACKEND,4,COUNT,BACKEND,ROOT,Number of HVX threads used
+0,BACKEND,629,US,BACKEND,ROOT,RPC (execute) time
+0,BACKEND,598,US,BACKEND,ROOT,QNN accelerator (execute) time
+0,BACKEND,573,US,BACKEND,ROOT,Accelerator (execute) time
+0,BACKEND,555,US,BACKEND,ROOT,Accelerator (execute excluding wait) time
+0,EXECUTE,655,US,BACKEND,ROOT,QNN (execute) time
+0,BACKEND,4,COUNT,BACKEND,ROOT,Number of HVX threads used
+0,BACKEND,610,US,BACKEND,ROOT,RPC (execute) time
+0,BACKEND,601,US,BACKEND,ROOT,QNN accelerator (execute) time
+0,BACKEND,575,US,BACKEND,ROOT,Accelerator (execute) time
+0,BACKEND,556,US,BACKEND,ROOT,Accelerator (execute excluding wait) time
+0,EXECUTE,636,US,BACKEND,ROOT,QNN (execute) time
+0,BACKEND,4,COUNT,BACKEND,ROOT,Number of HVX threads used
+0,BACKEND,570,US,BACKEND,ROOT,RPC (execute) time
+0,BACKEND,551,US,BACKEND,ROOT,QNN accelerator (execute) time
+0,BACKEND,525,US,BACKEND,ROOT,Accelerator (execute) time
+0,BACKEND,505,US,BACKEND,ROOT,Accelerator (execute excluding wait) time
+0,EXECUTE,597,US,BACKEND,ROOT,QNN (execute) time
+0,BACKEND,4,COUNT,BACKEND,ROOT,Number of HVX threads used
+0,BACKEND,634,US,BACKEND,ROOT,RPC (execute) time
+0,BACKEND,603,US,BACKEND,ROOT,QNN accelerator (execute) time
+0,BACKEND,576,US,BACKEND,ROOT,Accelerator (execute) time
+0,BACKEND,555,US,BACKEND,ROOT,Accelerator (execute excluding wait) time
+0,EXECUTE,663,US,BACKEND,ROOT,QNN (execute) time
+0,BACKEND,4,COUNT,BACKEND,ROOT,Number of HVX threads used
+0,BACKEND,626,US,BACKEND,ROOT,RPC (execute) time
+0,BACKEND,597,US,BACKEND,ROOT,QNN accelerator (execute) time
+0,BACKEND,572,US,BACKEND,ROOT,Accelerator (execute) time
+0,BACKEND,554,US,BACKEND,ROOT,Accelerator (execute excluding wait) time
+0,EXECUTE,654,US,BACKEND,ROOT,QNN (execute) time
+0,BACKEND,4,COUNT,BACKEND,ROOT,Number of HVX threads used
+0,BACKEND,613,US,BACKEND,ROOT,RPC (execute) time
+0,BACKEND,601,US,BACKEND,ROOT,QNN accelerator (execute) time
+0,BACKEND,576,US,BACKEND,ROOT,Accelerator (execute) time
+0,BACKEND,556,US,BACKEND,ROOT,Accelerator (execute excluding wait) time
+0,EXECUTE,638,US,BACKEND,ROOT,QNN (execute) time
+0,BACKEND,4,COUNT,BACKEND,ROOT,Number of HVX threads used
+0,BACKEND,634,US,BACKEND,ROOT,RPC (execute) time
+0,BACKEND,594,US,BACKEND,ROOT,QNN accelerator (execute) time
+0,BACKEND,568,US,BACKEND,ROOT,Accelerator (execute) time
+0,BACKEND,550,US,BACKEND,ROOT,Accelerator (execute excluding wait) time
+0,EXECUTE,663,US,BACKEND,ROOT,QNN (execute) time
+0,BACKEND,4,COUNT,BACKEND,ROOT,Number of HVX threads used
+0,BACKEND,583,US,BACKEND,ROOT,RPC (execute) time
+0,BACKEND,550,US,BACKEND,ROOT,QNN accelerator (execute) time
+0,BACKEND,522,US,BACKEND,ROOT,Accelerator (execute) time
+0,BACKEND,502,US,BACKEND,ROOT,Accelerator (execute excluding wait) time
+0,EXECUTE,611,US,BACKEND,ROOT,QNN (execute) time
+0,BACKEND,4,COUNT,BACKEND,ROOT,Number of HVX threads used
+0,BACKEND,1383,US,BACKEND,ROOT,RPC (execute) time
+0,BACKEND,1370,US,BACKEND,ROOT,QNN accelerator (execute) time
+0,BACKEND,1345,US,BACKEND,ROOT,Accelerator (execute) time
+0,BACKEND,1327,US,BACKEND,ROOT,Accelerator (execute excluding wait) time
+0,EXECUTE,1406,US,BACKEND,ROOT,QNN (execute) time
+0,BACKEND,4,COUNT,BACKEND,ROOT,Number of HVX threads used
+0,BACKEND,1492,US,BACKEND,ROOT,RPC (execute) time
+0,BACKEND,1477,US,BACKEND,ROOT,QNN accelerator (execute) time
+0,BACKEND,1448,US,BACKEND,ROOT,Accelerator (execute) time
+0,BACKEND,1429,US,BACKEND,ROOT,Accelerator (execute excluding wait) time
+0,EXECUTE,1539,US,BACKEND,ROOT,QNN (execute) time
+0,BACKEND,4,COUNT,BACKEND,ROOT,Number of HVX threads used
+0,BACKEND,1499,US,BACKEND,ROOT,RPC (execute) time
+0,BACKEND,1467,US,BACKEND,ROOT,QNN accelerator (execute) time
+0,BACKEND,1440,US,BACKEND,ROOT,Accelerator (execute) time
+0,BACKEND,1420,US,BACKEND,ROOT,Accelerator (execute excluding wait) time
+0,EXECUTE,1525,US,BACKEND,ROOT,QNN (execute) time
+0,BACKEND,4,COUNT,BACKEND,ROOT,Number of HVX threads used
+0,BACKEND,1109,US,BACKEND,ROOT,RPC (execute) time
+0,BACKEND,1096,US,BACKEND,ROOT,QNN accelerator (execute) time
+0,BACKEND,1054,US,BACKEND,ROOT,Accelerator (execute) time
+0,BACKEND,1032,US,BACKEND,ROOT,Accelerator (execute excluding wait) time
+0,EXECUTE,1141,US,BACKEND,ROOT,QNN (execute) time
+0,BACKEND,4,COUNT,BACKEND,ROOT,Number of HVX threads used
+0,BACKEND,648,US,BACKEND,ROOT,RPC (execute) time
+0,BACKEND,610,US,BACKEND,ROOT,QNN accelerator (execute) time
+0,BACKEND,561,US,BACKEND,ROOT,Accelerator (execute) time
+0,BACKEND,541,US,BACKEND,ROOT,Accelerator (execute excluding wait) time
+0,EXECUTE,681,US,BACKEND,ROOT,QNN (execute) time
+0,BACKEND,4,COUNT,BACKEND,ROOT,Number of HVX threads used
+0,BACKEND,4788,US,BACKEND,ROOT,RPC (execute) time
+0,BACKEND,4736,US,BACKEND,ROOT,QNN accelerator (execute) time
+0,BACKEND,4622,US,BACKEND,ROOT,Accelerator (execute) time
+0,BACKEND,4581,US,BACKEND,ROOT,Accelerator (execute excluding wait) time
+0,EXECUTE,4828,US,BACKEND,ROOT,QNN (execute) time
+0,BACKEND,4,COUNT,BACKEND,ROOT,Number of HVX threads used
+0,BACKEND,4260,US,BACKEND,ROOT,RPC (execute) time
+0,BACKEND,4234,US,BACKEND,ROOT,QNN accelerator (execute) time
+0,BACKEND,4160,US,BACKEND,ROOT,Accelerator (execute) time
+0,BACKEND,4110,US,BACKEND,ROOT,Accelerator (execute excluding wait) time
+0,EXECUTE,4291,US,BACKEND,ROOT,QNN (execute) time
+0,BACKEND,4,COUNT,BACKEND,ROOT,Number of HVX threads used
+0,BACKEND,4177,US,BACKEND,ROOT,RPC (execute) time
+0,BACKEND,4135,US,BACKEND,ROOT,QNN accelerator (execute) time
+0,BACKEND,4070,US,BACKEND,ROOT,Accelerator (execute) time
+0,BACKEND,4022,US,BACKEND,ROOT,Accelerator (execute excluding wait) time
+0,EXECUTE,4210,US,BACKEND,ROOT,QNN (execute) time
+0,BACKEND,4,COUNT,BACKEND,ROOT,Number of HVX threads used
+0,BACKEND,4185,US,BACKEND,ROOT,RPC (execute) time
+0,BACKEND,4141,US,BACKEND,ROOT,QNN accelerator (execute) time
+0,BACKEND,4073,US,BACKEND,ROOT,Accelerator (execute) time
+0,BACKEND,4025,US,BACKEND,ROOT,Accelerator (execute excluding wait) time
+0,EXECUTE,4213,US,BACKEND,ROOT,QNN (execute) time
+0,BACKEND,4,COUNT,BACKEND,ROOT,Number of HVX threads used
+0,BACKEND,401,US,BACKEND,ROOT,RPC (execute) time
+0,BACKEND,382,US,BACKEND,ROOT,QNN accelerator (execute) time
+0,BACKEND,332,US,BACKEND,ROOT,Accelerator (execute) time
+0,BACKEND,296,US,BACKEND,ROOT,Accelerator (execute excluding wait) time
+0,EXECUTE,432,US,BACKEND,ROOT,QNN (execute) time
+0,BACKEND,4,COUNT,BACKEND,ROOT,Number of HVX threads used
+0,BACKEND,279,US,BACKEND,ROOT,RPC (execute) time
+0,BACKEND,272,US,BACKEND,ROOT,QNN accelerator (execute) time
+0,BACKEND,221,US,BACKEND,ROOT,Accelerator (execute) time
+0,BACKEND,198,US,BACKEND,ROOT,Accelerator (execute excluding wait) time
+0,EXECUTE,309,US,BACKEND,ROOT,QNN (execute) time
+0,BACKEND,4,COUNT,BACKEND,ROOT,Number of HVX threads used
+0,BACKEND,727,US,BACKEND,ROOT,RPC (execute) time
+0,BACKEND,704,US,BACKEND,ROOT,QNN accelerator (execute) time
+0,BACKEND,641,US,BACKEND,ROOT,Accelerator (execute) time
+0,BACKEND,615,US,BACKEND,ROOT,Accelerator (execute excluding wait) time
+0,EXECUTE,758,US,BACKEND,ROOT,QNN (execute) time
+0,BACKEND,4,COUNT,BACKEND,ROOT,Number of HVX threads used
+0,BACKEND,2233,US,BACKEND,ROOT,RPC (execute) time
+0,BACKEND,2189,US,BACKEND,ROOT,QNN accelerator (execute) time
+0,BACKEND,2097,US,BACKEND,ROOT,Accelerator (execute) time
+0,BACKEND,2050,US,BACKEND,ROOT,Accelerator (execute excluding wait) time
+0,EXECUTE,2271,US,BACKEND,ROOT,QNN (execute) time
+0,BACKEND,4,COUNT,BACKEND,ROOT,Number of HVX threads used
+0,BACKEND,587,US,BACKEND,ROOT,RPC (execute) time
+0,BACKEND,561,US,BACKEND,ROOT,QNN accelerator (execute) time
+0,BACKEND,532,US,BACKEND,ROOT,Accelerator (execute) time
+0,BACKEND,497,US,BACKEND,ROOT,Accelerator (execute excluding wait) time
+0,EXECUTE,615,US,BACKEND,ROOT,QNN (execute) time
+0,BACKEND,4,COUNT,BACKEND,ROOT,Number of HVX threads used
+0,BACKEND,556,US,BACKEND,ROOT,RPC (execute) time
+0,BACKEND,538,US,BACKEND,ROOT,QNN accelerator (execute) time
+0,BACKEND,513,US,BACKEND,ROOT,Accelerator (execute) time
+0,BACKEND,494,US,BACKEND,ROOT,Accelerator (execute excluding wait) time
+0,EXECUTE,585,US,BACKEND,ROOT,QNN (execute) time
+0,BACKEND,4,COUNT,BACKEND,ROOT,Number of HVX threads used
+0,BACKEND,675,US,BACKEND,ROOT,RPC (execute) time
+0,BACKEND,658,US,BACKEND,ROOT,QNN accelerator (execute) time
+0,BACKEND,631,US,BACKEND,ROOT,Accelerator (execute) time
+0,BACKEND,613,US,BACKEND,ROOT,Accelerator (execute excluding wait) time
+0,EXECUTE,715,US,BACKEND,ROOT,QNN (execute) time
+0,BACKEND,4,COUNT,BACKEND,ROOT,Number of HVX threads used
+0,BACKEND,555,US,BACKEND,ROOT,RPC (execute) time
+0,BACKEND,539,US,BACKEND,ROOT,QNN accelerator (execute) time
+0,BACKEND,510,US,BACKEND,ROOT,Accelerator (execute) time
+0,BACKEND,490,US,BACKEND,ROOT,Accelerator (execute excluding wait) time
+0,EXECUTE,585,US,BACKEND,ROOT,QNN (execute) time
+0,BACKEND,4,COUNT,BACKEND,ROOT,Number of HVX threads used
+0,BACKEND,550,US,BACKEND,ROOT,RPC (execute) time
+0,BACKEND,532,US,BACKEND,ROOT,QNN accelerator (execute) time
+0,BACKEND,506,US,BACKEND,ROOT,Accelerator (execute) time
+0,BACKEND,488,US,BACKEND,ROOT,Accelerator (execute excluding wait) time
+0,EXECUTE,577,US,BACKEND,ROOT,QNN (execute) time
+0,BACKEND,4,COUNT,BACKEND,ROOT,Number of HVX threads used
+0,BACKEND,642,US,BACKEND,ROOT,RPC (execute) time
+0,BACKEND,634,US,BACKEND,ROOT,QNN accelerator (execute) time
+0,BACKEND,607,US,BACKEND,ROOT,Accelerator (execute) time
+0,BACKEND,588,US,BACKEND,ROOT,Accelerator (execute excluding wait) time
+0,EXECUTE,672,US,BACKEND,ROOT,QNN (execute) time
+0,BACKEND,4,COUNT,BACKEND,ROOT,Number of HVX threads used
+0,BACKEND,624,US,BACKEND,ROOT,RPC (execute) time
+0,BACKEND,602,US,BACKEND,ROOT,QNN accelerator (execute) time
+0,BACKEND,573,US,BACKEND,ROOT,Accelerator (execute) time
+0,BACKEND,554,US,BACKEND,ROOT,Accelerator (execute excluding wait) time
+0,EXECUTE,654,US,BACKEND,ROOT,QNN (execute) time
+0,BACKEND,4,COUNT,BACKEND,ROOT,Number of HVX threads used
+0,BACKEND,649,US,BACKEND,ROOT,RPC (execute) time
+0,BACKEND,613,US,BACKEND,ROOT,QNN accelerator (execute) time
+0,BACKEND,582,US,BACKEND,ROOT,Accelerator (execute) time
+0,BACKEND,559,US,BACKEND,ROOT,Accelerator (execute excluding wait) time
+0,EXECUTE,676,US,BACKEND,ROOT,QNN (execute) time
+0,BACKEND,4,COUNT,BACKEND,ROOT,Number of HVX threads used
+0,BACKEND,613,US,BACKEND,ROOT,RPC (execute) time
+0,BACKEND,603,US,BACKEND,ROOT,QNN accelerator (execute) time
+0,BACKEND,576,US,BACKEND,ROOT,Accelerator (execute) time
+0,BACKEND,556,US,BACKEND,ROOT,Accelerator (execute excluding wait) time
+0,EXECUTE,639,US,BACKEND,ROOT,QNN (execute) time
+0,BACKEND,4,COUNT,BACKEND,ROOT,Number of HVX threads used
+0,BACKEND,567,US,BACKEND,ROOT,RPC (execute) time
+0,BACKEND,549,US,BACKEND,ROOT,QNN accelerator (execute) time
+0,BACKEND,522,US,BACKEND,ROOT,Accelerator (execute) time
+0,BACKEND,503,US,BACKEND,ROOT,Accelerator (execute excluding wait) time
+0,EXECUTE,594,US,BACKEND,ROOT,QNN (execute) time
+0,BACKEND,4,COUNT,BACKEND,ROOT,Number of HVX threads used
+0,BACKEND,621,US,BACKEND,ROOT,RPC (execute) time
+0,BACKEND,601,US,BACKEND,ROOT,QNN accelerator (execute) time
+0,BACKEND,574,US,BACKEND,ROOT,Accelerator (execute) time
+0,BACKEND,556,US,BACKEND,ROOT,Accelerator (execute excluding wait) time
+0,EXECUTE,647,US,BACKEND,ROOT,QNN (execute) time
+0,BACKEND,4,COUNT,BACKEND,ROOT,Number of HVX threads used
+0,BACKEND,636,US,BACKEND,ROOT,RPC (execute) time
+0,BACKEND,600,US,BACKEND,ROOT,QNN accelerator (execute) time
+0,BACKEND,573,US,BACKEND,ROOT,Accelerator (execute) time
+0,BACKEND,555,US,BACKEND,ROOT,Accelerator (execute excluding wait) time
+0,EXECUTE,661,US,BACKEND,ROOT,QNN (execute) time
+0,BACKEND,4,COUNT,BACKEND,ROOT,Number of HVX threads used
+0,BACKEND,627,US,BACKEND,ROOT,RPC (execute) time
+0,BACKEND,606,US,BACKEND,ROOT,QNN accelerator (execute) time
+0,BACKEND,579,US,BACKEND,ROOT,Accelerator (execute) time
+0,BACKEND,557,US,BACKEND,ROOT,Accelerator (execute excluding wait) time
+0,EXECUTE,655,US,BACKEND,ROOT,QNN (execute) time
+0,BACKEND,4,COUNT,BACKEND,ROOT,Number of HVX threads used
+0,BACKEND,639,US,BACKEND,ROOT,RPC (execute) time
+0,BACKEND,608,US,BACKEND,ROOT,QNN accelerator (execute) time
+0,BACKEND,581,US,BACKEND,ROOT,Accelerator (execute) time
+0,BACKEND,562,US,BACKEND,ROOT,Accelerator (execute excluding wait) time
+0,EXECUTE,667,US,BACKEND,ROOT,QNN (execute) time
+0,BACKEND,4,COUNT,BACKEND,ROOT,Number of HVX threads used
+0,BACKEND,629,US,BACKEND,ROOT,RPC (execute) time
+0,BACKEND,601,US,BACKEND,ROOT,QNN accelerator (execute) time
+0,BACKEND,575,US,BACKEND,ROOT,Accelerator (execute) time
+0,BACKEND,556,US,BACKEND,ROOT,Accelerator (execute excluding wait) time
+0,EXECUTE,657,US,BACKEND,ROOT,QNN (execute) time
+0,BACKEND,4,COUNT,BACKEND,ROOT,Number of HVX threads used
+0,BACKEND,565,US,BACKEND,ROOT,RPC (execute) time
+0,BACKEND,552,US,BACKEND,ROOT,QNN accelerator (execute) time
+0,BACKEND,525,US,BACKEND,ROOT,Accelerator (execute) time
+0,BACKEND,505,US,BACKEND,ROOT,Accelerator (execute excluding wait) time
+0,EXECUTE,592,US,BACKEND,ROOT,QNN (execute) time
+0,BACKEND,4,COUNT,BACKEND,ROOT,Number of HVX threads used
+0,BACKEND,636,US,BACKEND,ROOT,RPC (execute) time
+0,BACKEND,596,US,BACKEND,ROOT,QNN accelerator (execute) time
+0,BACKEND,570,US,BACKEND,ROOT,Accelerator (execute) time
+0,BACKEND,552,US,BACKEND,ROOT,Accelerator (execute excluding wait) time
+0,EXECUTE,661,US,BACKEND,ROOT,QNN (execute) time
+0,BACKEND,4,COUNT,BACKEND,ROOT,Number of HVX threads used
+0,BACKEND,612,US,BACKEND,ROOT,RPC (execute) time
+0,BACKEND,603,US,BACKEND,ROOT,QNN accelerator (execute) time
+0,BACKEND,578,US,BACKEND,ROOT,Accelerator (execute) time
+0,BACKEND,559,US,BACKEND,ROOT,Accelerator (execute excluding wait) time
+0,EXECUTE,637,US,BACKEND,ROOT,QNN (execute) time
+0,BACKEND,4,COUNT,BACKEND,ROOT,Number of HVX threads used
+0,BACKEND,612,US,BACKEND,ROOT,RPC (execute) time
+0,BACKEND,603,US,BACKEND,ROOT,QNN accelerator (execute) time
+0,BACKEND,578,US,BACKEND,ROOT,Accelerator (execute) time
+0,BACKEND,560,US,BACKEND,ROOT,Accelerator (execute excluding wait) time
+0,EXECUTE,638,US,BACKEND,ROOT,QNN (execute) time
+0,BACKEND,4,COUNT,BACKEND,ROOT,Number of HVX threads used
+0,BACKEND,618,US,BACKEND,ROOT,RPC (execute) time
+0,BACKEND,604,US,BACKEND,ROOT,QNN accelerator (execute) time
+0,BACKEND,578,US,BACKEND,ROOT,Accelerator (execute) time
+0,BACKEND,558,US,BACKEND,ROOT,Accelerator (execute excluding wait) time
+0,EXECUTE,667,US,BACKEND,ROOT,QNN (execute) time
+0,BACKEND,4,COUNT,BACKEND,ROOT,Number of HVX threads used
+0,BACKEND,619,US,BACKEND,ROOT,RPC (execute) time
+0,BACKEND,598,US,BACKEND,ROOT,QNN accelerator (execute) time
+0,BACKEND,570,US,BACKEND,ROOT,Accelerator (execute) time
+0,BACKEND,552,US,BACKEND,ROOT,Accelerator (execute excluding wait) time
+0,EXECUTE,647,US,BACKEND,ROOT,QNN (execute) time
+0,BACKEND,4,COUNT,BACKEND,ROOT,Number of HVX threads used
+0,BACKEND,605,US,BACKEND,ROOT,RPC (execute) time
+0,BACKEND,596,US,BACKEND,ROOT,QNN accelerator (execute) time
+0,BACKEND,569,US,BACKEND,ROOT,Accelerator (execute) time
+0,BACKEND,552,US,BACKEND,ROOT,Accelerator (execute excluding wait) time
+0,EXECUTE,633,US,BACKEND,ROOT,QNN (execute) time
+0,BACKEND,4,COUNT,BACKEND,ROOT,Number of HVX threads used
+0,BACKEND,579,US,BACKEND,ROOT,RPC (execute) time
+0,BACKEND,547,US,BACKEND,ROOT,QNN accelerator (execute) time
+0,BACKEND,522,US,BACKEND,ROOT,Accelerator (execute) time
+0,BACKEND,504,US,BACKEND,ROOT,Accelerator (execute excluding wait) time
+0,EXECUTE,606,US,BACKEND,ROOT,QNN (execute) time
+0,BACKEND,4,COUNT,BACKEND,ROOT,Number of HVX threads used
+0,BACKEND,617,US,BACKEND,ROOT,RPC (execute) time
+0,BACKEND,606,US,BACKEND,ROOT,QNN accelerator (execute) time
+0,BACKEND,579,US,BACKEND,ROOT,Accelerator (execute) time
+0,BACKEND,561,US,BACKEND,ROOT,Accelerator (execute excluding wait) time
+0,EXECUTE,641,US,BACKEND,ROOT,QNN (execute) time
+0,BACKEND,4,COUNT,BACKEND,ROOT,Number of HVX threads used
+0,BACKEND,612,US,BACKEND,ROOT,RPC (execute) time
+0,BACKEND,603,US,BACKEND,ROOT,QNN accelerator (execute) time
+0,BACKEND,577,US,BACKEND,ROOT,Accelerator (execute) time
+0,BACKEND,557,US,BACKEND,ROOT,Accelerator (execute excluding wait) time
+0,EXECUTE,640,US,BACKEND,ROOT,QNN (execute) time
+0,BACKEND,4,COUNT,BACKEND,ROOT,Number of HVX threads used
+0,BACKEND,616,US,BACKEND,ROOT,RPC (execute) time
+0,BACKEND,599,US,BACKEND,ROOT,QNN accelerator (execute) time
+0,BACKEND,572,US,BACKEND,ROOT,Accelerator (execute) time
+0,BACKEND,554,US,BACKEND,ROOT,Accelerator (execute excluding wait) time
+0,EXECUTE,639,US,BACKEND,ROOT,QNN (execute) time
+0,BACKEND,4,COUNT,BACKEND,ROOT,Number of HVX threads used
+0,BACKEND,582,US,BACKEND,ROOT,RPC (execute) time
+0,BACKEND,549,US,BACKEND,ROOT,QNN accelerator (execute) time
+0,BACKEND,523,US,BACKEND,ROOT,Accelerator (execute) time
+0,BACKEND,505,US,BACKEND,ROOT,Accelerator (execute excluding wait) time
+0,EXECUTE,610,US,BACKEND,ROOT,QNN (execute) time
+0,BACKEND,4,COUNT,BACKEND,ROOT,Number of HVX threads used
+0,BACKEND,629,US,BACKEND,ROOT,RPC (execute) time
+0,BACKEND,600,US,BACKEND,ROOT,QNN accelerator (execute) time
+0,BACKEND,571,US,BACKEND,ROOT,Accelerator (execute) time
+0,BACKEND,553,US,BACKEND,ROOT,Accelerator (execute excluding wait) time
+0,EXECUTE,656,US,BACKEND,ROOT,QNN (execute) time
+0,BACKEND,4,COUNT,BACKEND,ROOT,Number of HVX threads used
+0,BACKEND,631,US,BACKEND,ROOT,RPC (execute) time
+0,BACKEND,598,US,BACKEND,ROOT,QNN accelerator (execute) time
+0,BACKEND,573,US,BACKEND,ROOT,Accelerator (execute) time
+0,BACKEND,553,US,BACKEND,ROOT,Accelerator (execute excluding wait) time
+0,EXECUTE,658,US,BACKEND,ROOT,QNN (execute) time
+0,BACKEND,4,COUNT,BACKEND,ROOT,Number of HVX threads used
+0,BACKEND,619,US,BACKEND,ROOT,RPC (execute) time
+0,BACKEND,600,US,BACKEND,ROOT,QNN accelerator (execute) time
+0,BACKEND,574,US,BACKEND,ROOT,Accelerator (execute) time
+0,BACKEND,556,US,BACKEND,ROOT,Accelerator (execute excluding wait) time
+0,EXECUTE,646,US,BACKEND,ROOT,QNN (execute) time
+0,BACKEND,4,COUNT,BACKEND,ROOT,Number of HVX threads used
+0,BACKEND,629,US,BACKEND,ROOT,RPC (execute) time
+0,BACKEND,595,US,BACKEND,ROOT,QNN accelerator (execute) time
+0,BACKEND,570,US,BACKEND,ROOT,Accelerator (execute) time
+0,BACKEND,552,US,BACKEND,ROOT,Accelerator (execute excluding wait) time
+0,EXECUTE,654,US,BACKEND,ROOT,QNN (execute) time
+0,BACKEND,4,COUNT,BACKEND,ROOT,Number of HVX threads used
+0,BACKEND,559,US,BACKEND,ROOT,RPC (execute) time
+0,BACKEND,547,US,BACKEND,ROOT,QNN accelerator (execute) time
+0,BACKEND,520,US,BACKEND,ROOT,Accelerator (execute) time
+0,BACKEND,502,US,BACKEND,ROOT,Accelerator (execute excluding wait) time
+0,EXECUTE,582,US,BACKEND,ROOT,QNN (execute) time
+0,BACKEND,4,COUNT,BACKEND,ROOT,Number of HVX threads used
+0,BACKEND,1382,US,BACKEND,ROOT,RPC (execute) time
+0,BACKEND,1374,US,BACKEND,ROOT,QNN accelerator (execute) time
+0,BACKEND,1347,US,BACKEND,ROOT,Accelerator (execute) time
+0,BACKEND,1328,US,BACKEND,ROOT,Accelerator (execute excluding wait) time
+0,EXECUTE,1407,US,BACKEND,ROOT,QNN (execute) time
+0,BACKEND,4,COUNT,BACKEND,ROOT,Number of HVX threads used
+0,BACKEND,1515,US,BACKEND,ROOT,RPC (execute) time
+0,BACKEND,1476,US,BACKEND,ROOT,QNN accelerator (execute) time
+0,BACKEND,1445,US,BACKEND,ROOT,Accelerator (execute) time
+0,BACKEND,1427,US,BACKEND,ROOT,Accelerator (execute excluding wait) time
+0,EXECUTE,1541,US,BACKEND,ROOT,QNN (execute) time
+0,BACKEND,4,COUNT,BACKEND,ROOT,Number of HVX threads used
+0,BACKEND,1486,US,BACKEND,ROOT,RPC (execute) time
+0,BACKEND,1469,US,BACKEND,ROOT,QNN accelerator (execute) time
+0,BACKEND,1441,US,BACKEND,ROOT,Accelerator (execute) time
+0,BACKEND,1420,US,BACKEND,ROOT,Accelerator (execute excluding wait) time
+0,EXECUTE,1513,US,BACKEND,ROOT,QNN (execute) time
+0,BACKEND,4,COUNT,BACKEND,ROOT,Number of HVX threads used
+0,BACKEND,1111,US,BACKEND,ROOT,RPC (execute) time
+0,BACKEND,1093,US,BACKEND,ROOT,QNN accelerator (execute) time
+0,BACKEND,1056,US,BACKEND,ROOT,Accelerator (execute) time
+0,BACKEND,1033,US,BACKEND,ROOT,Accelerator (execute excluding wait) time
+0,EXECUTE,1163,US,BACKEND,ROOT,QNN (execute) time
+0,BACKEND,4,COUNT,BACKEND,ROOT,Number of HVX threads used
+0,BACKEND,626,US,BACKEND,ROOT,RPC (execute) time
+0,BACKEND,611,US,BACKEND,ROOT,QNN accelerator (execute) time
+0,BACKEND,563,US,BACKEND,ROOT,Accelerator (execute) time
+0,BACKEND,540,US,BACKEND,ROOT,Accelerator (execute excluding wait) time
+0,EXECUTE,655,US,BACKEND,ROOT,QNN (execute) time
+0,BACKEND,4,COUNT,BACKEND,ROOT,Number of HVX threads used
+0,BACKEND,4766,US,BACKEND,ROOT,RPC (execute) time
+0,BACKEND,4722,US,BACKEND,ROOT,QNN accelerator (execute) time
+0,BACKEND,4612,US,BACKEND,ROOT,Accelerator (execute) time
+0,BACKEND,4572,US,BACKEND,ROOT,Accelerator (execute excluding wait) time
+0,EXECUTE,4806,US,BACKEND,ROOT,QNN (execute) time
+0,BACKEND,4,COUNT,BACKEND,ROOT,Number of HVX threads used
+0,BACKEND,4273,US,BACKEND,ROOT,RPC (execute) time
+0,BACKEND,4247,US,BACKEND,ROOT,QNN accelerator (execute) time
+0,BACKEND,4174,US,BACKEND,ROOT,Accelerator (execute) time
+0,BACKEND,4121,US,BACKEND,ROOT,Accelerator (execute excluding wait) time
+0,EXECUTE,4303,US,BACKEND,ROOT,QNN (execute) time
+0,BACKEND,4,COUNT,BACKEND,ROOT,Number of HVX threads used
+0,BACKEND,4165,US,BACKEND,ROOT,RPC (execute) time
+0,BACKEND,4125,US,BACKEND,ROOT,QNN accelerator (execute) time
+0,BACKEND,4058,US,BACKEND,ROOT,Accelerator (execute) time
+0,BACKEND,4012,US,BACKEND,ROOT,Accelerator (execute excluding wait) time
+0,EXECUTE,4216,US,BACKEND,ROOT,QNN (execute) time
+0,BACKEND,4,COUNT,BACKEND,ROOT,Number of HVX threads used
+0,BACKEND,4169,US,BACKEND,ROOT,RPC (execute) time
+0,BACKEND,4135,US,BACKEND,ROOT,QNN accelerator (execute) time
+0,BACKEND,4070,US,BACKEND,ROOT,Accelerator (execute) time
+0,BACKEND,4024,US,BACKEND,ROOT,Accelerator (execute excluding wait) time
+0,EXECUTE,4199,US,BACKEND,ROOT,QNN (execute) time
+0,BACKEND,4,COUNT,BACKEND,ROOT,Number of HVX threads used
+0,BACKEND,418,US,BACKEND,ROOT,RPC (execute) time
+0,BACKEND,378,US,BACKEND,ROOT,QNN accelerator (execute) time
+0,BACKEND,327,US,BACKEND,ROOT,Accelerator (execute) time
+0,BACKEND,291,US,BACKEND,ROOT,Accelerator (execute excluding wait) time
+0,EXECUTE,452,US,BACKEND,ROOT,QNN (execute) time
+0,BACKEND,4,COUNT,BACKEND,ROOT,Number of HVX threads used
+0,BACKEND,295,US,BACKEND,ROOT,RPC (execute) time
+0,BACKEND,272,US,BACKEND,ROOT,QNN accelerator (execute) time
+0,BACKEND,222,US,BACKEND,ROOT,Accelerator (execute) time
+0,BACKEND,199,US,BACKEND,ROOT,Accelerator (execute excluding wait) time
+0,EXECUTE,326,US,BACKEND,ROOT,QNN (execute) time
+0,BACKEND,4,COUNT,BACKEND,ROOT,Number of HVX threads used
+0,BACKEND,743,US,BACKEND,ROOT,RPC (execute) time
+0,BACKEND,705,US,BACKEND,ROOT,QNN accelerator (execute) time
+0,BACKEND,641,US,BACKEND,ROOT,Accelerator (execute) time
+0,BACKEND,617,US,BACKEND,ROOT,Accelerator (execute excluding wait) time
+0,EXECUTE,774,US,BACKEND,ROOT,QNN (execute) time
+0,BACKEND,4,COUNT,BACKEND,ROOT,Number of HVX threads used
+0,BACKEND,2235,US,BACKEND,ROOT,RPC (execute) time
+0,BACKEND,2183,US,BACKEND,ROOT,QNN accelerator (execute) time
+0,BACKEND,2089,US,BACKEND,ROOT,Accelerator (execute) time
+0,BACKEND,2040,US,BACKEND,ROOT,Accelerator (execute excluding wait) time
+0,EXECUTE,2273,US,BACKEND,ROOT,QNN (execute) time
+0,BACKEND,4,COUNT,BACKEND,ROOT,Number of HVX threads used
+0,BACKEND,569,US,BACKEND,ROOT,RPC (execute) time
+0,BACKEND,559,US,BACKEND,ROOT,QNN accelerator (execute) time
+0,BACKEND,532,US,BACKEND,ROOT,Accelerator (execute) time
+0,BACKEND,497,US,BACKEND,ROOT,Accelerator (execute excluding wait) time
+0,EXECUTE,597,US,BACKEND,ROOT,QNN (execute) time
+0,BACKEND,4,COUNT,BACKEND,ROOT,Number of HVX threads used
+0,BACKEND,573,US,BACKEND,ROOT,RPC (execute) time
+0,BACKEND,539,US,BACKEND,ROOT,QNN accelerator (execute) time
+0,BACKEND,513,US,BACKEND,ROOT,Accelerator (execute) time
+0,BACKEND,494,US,BACKEND,ROOT,Accelerator (execute excluding wait) time
+0,EXECUTE,604,US,BACKEND,ROOT,QNN (execute) time
+0,BACKEND,4,COUNT,BACKEND,ROOT,Number of HVX threads used
+0,BACKEND,692,US,BACKEND,ROOT,RPC (execute) time
+0,BACKEND,661,US,BACKEND,ROOT,QNN accelerator (execute) time
+0,BACKEND,634,US,BACKEND,ROOT,Accelerator (execute) time
+0,BACKEND,615,US,BACKEND,ROOT,Accelerator (execute excluding wait) time
+0,EXECUTE,723,US,BACKEND,ROOT,QNN (execute) time
+0,BACKEND,4,COUNT,BACKEND,ROOT,Number of HVX threads used
+0,BACKEND,575,US,BACKEND,ROOT,RPC (execute) time
+0,BACKEND,537,US,BACKEND,ROOT,QNN accelerator (execute) time
+0,BACKEND,508,US,BACKEND,ROOT,Accelerator (execute) time
+0,BACKEND,488,US,BACKEND,ROOT,Accelerator (execute excluding wait) time
+0,EXECUTE,601,US,BACKEND,ROOT,QNN (execute) time
+0,BACKEND,4,COUNT,BACKEND,ROOT,Number of HVX threads used
+0,BACKEND,563,US,BACKEND,ROOT,RPC (execute) time
+0,BACKEND,533,US,BACKEND,ROOT,QNN accelerator (execute) time
+0,BACKEND,506,US,BACKEND,ROOT,Accelerator (execute) time
+0,BACKEND,487,US,BACKEND,ROOT,Accelerator (execute excluding wait) time
+0,EXECUTE,615,US,BACKEND,ROOT,QNN (execute) time
+0,BACKEND,4,COUNT,BACKEND,ROOT,Number of HVX threads used
+0,BACKEND,641,US,BACKEND,ROOT,RPC (execute) time
+0,BACKEND,632,US,BACKEND,ROOT,QNN accelerator (execute) time
+0,BACKEND,605,US,BACKEND,ROOT,Accelerator (execute) time
+0,BACKEND,586,US,BACKEND,ROOT,Accelerator (execute excluding wait) time
+0,EXECUTE,668,US,BACKEND,ROOT,QNN (execute) time
+0,BACKEND,4,COUNT,BACKEND,ROOT,Number of HVX threads used
+0,BACKEND,615,US,BACKEND,ROOT,RPC (execute) time
+0,BACKEND,603,US,BACKEND,ROOT,QNN accelerator (execute) time
+0,BACKEND,574,US,BACKEND,ROOT,Accelerator (execute) time
+0,BACKEND,555,US,BACKEND,ROOT,Accelerator (execute excluding wait) time
+0,EXECUTE,641,US,BACKEND,ROOT,QNN (execute) time
+0,BACKEND,4,COUNT,BACKEND,ROOT,Number of HVX threads used
+0,BACKEND,646,US,BACKEND,ROOT,RPC (execute) time
+0,BACKEND,608,US,BACKEND,ROOT,QNN accelerator (execute) time
+0,BACKEND,578,US,BACKEND,ROOT,Accelerator (execute) time
+0,BACKEND,556,US,BACKEND,ROOT,Accelerator (execute excluding wait) time
+0,EXECUTE,671,US,BACKEND,ROOT,QNN (execute) time
+0,BACKEND,4,COUNT,BACKEND,ROOT,Number of HVX threads used
+0,BACKEND,634,US,BACKEND,ROOT,RPC (execute) time
+0,BACKEND,605,US,BACKEND,ROOT,QNN accelerator (execute) time
+0,BACKEND,578,US,BACKEND,ROOT,Accelerator (execute) time
+0,BACKEND,556,US,BACKEND,ROOT,Accelerator (execute excluding wait) time
+0,EXECUTE,660,US,BACKEND,ROOT,QNN (execute) time
+0,BACKEND,4,COUNT,BACKEND,ROOT,Number of HVX threads used
+0,BACKEND,582,US,BACKEND,ROOT,RPC (execute) time
+0,BACKEND,550,US,BACKEND,ROOT,QNN accelerator (execute) time
+0,BACKEND,524,US,BACKEND,ROOT,Accelerator (execute) time
+0,BACKEND,502,US,BACKEND,ROOT,Accelerator (execute excluding wait) time
+0,EXECUTE,609,US,BACKEND,ROOT,QNN (execute) time
+0,BACKEND,4,COUNT,BACKEND,ROOT,Number of HVX threads used
+0,BACKEND,609,US,BACKEND,ROOT,RPC (execute) time
+0,BACKEND,600,US,BACKEND,ROOT,QNN accelerator (execute) time
+0,BACKEND,575,US,BACKEND,ROOT,Accelerator (execute) time
+0,BACKEND,555,US,BACKEND,ROOT,Accelerator (execute excluding wait) time
+0,EXECUTE,636,US,BACKEND,ROOT,QNN (execute) time
+0,BACKEND,4,COUNT,BACKEND,ROOT,Number of HVX threads used
+0,BACKEND,611,US,BACKEND,ROOT,RPC (execute) time
+0,BACKEND,599,US,BACKEND,ROOT,QNN accelerator (execute) time
+0,BACKEND,572,US,BACKEND,ROOT,Accelerator (execute) time
+0,BACKEND,555,US,BACKEND,ROOT,Accelerator (execute excluding wait) time
+0,EXECUTE,637,US,BACKEND,ROOT,QNN (execute) time
+0,BACKEND,4,COUNT,BACKEND,ROOT,Number of HVX threads used
+0,BACKEND,637,US,BACKEND,ROOT,RPC (execute) time
+0,BACKEND,603,US,BACKEND,ROOT,QNN accelerator (execute) time
+0,BACKEND,575,US,BACKEND,ROOT,Accelerator (execute) time
+0,BACKEND,555,US,BACKEND,ROOT,Accelerator (execute excluding wait) time
+0,EXECUTE,664,US,BACKEND,ROOT,QNN (execute) time
+0,BACKEND,4,COUNT,BACKEND,ROOT,Number of HVX threads used
+0,BACKEND,639,US,BACKEND,ROOT,RPC (execute) time
+0,BACKEND,608,US,BACKEND,ROOT,QNN accelerator (execute) time
+0,BACKEND,581,US,BACKEND,ROOT,Accelerator (execute) time
+0,BACKEND,561,US,BACKEND,ROOT,Accelerator (execute excluding wait) time
+0,EXECUTE,668,US,BACKEND,ROOT,QNN (execute) time
+0,BACKEND,4,COUNT,BACKEND,ROOT,Number of HVX threads used
+0,BACKEND,618,US,BACKEND,ROOT,RPC (execute) time
+0,BACKEND,599,US,BACKEND,ROOT,QNN accelerator (execute) time
+0,BACKEND,574,US,BACKEND,ROOT,Accelerator (execute) time
+0,BACKEND,555,US,BACKEND,ROOT,Accelerator (execute excluding wait) time
+0,EXECUTE,644,US,BACKEND,ROOT,QNN (execute) time
+0,BACKEND,4,COUNT,BACKEND,ROOT,Number of HVX threads used
+0,BACKEND,572,US,BACKEND,ROOT,RPC (execute) time
+0,BACKEND,554,US,BACKEND,ROOT,QNN accelerator (execute) time
+0,BACKEND,524,US,BACKEND,ROOT,Accelerator (execute) time
+0,BACKEND,504,US,BACKEND,ROOT,Accelerator (execute excluding wait) time
+0,EXECUTE,597,US,BACKEND,ROOT,QNN (execute) time
+0,BACKEND,4,COUNT,BACKEND,ROOT,Number of HVX threads used
+0,BACKEND,626,US,BACKEND,ROOT,RPC (execute) time
+0,BACKEND,596,US,BACKEND,ROOT,QNN accelerator (execute) time
+0,BACKEND,570,US,BACKEND,ROOT,Accelerator (execute) time
+0,BACKEND,552,US,BACKEND,ROOT,Accelerator (execute excluding wait) time
+0,EXECUTE,651,US,BACKEND,ROOT,QNN (execute) time
+0,BACKEND,4,COUNT,BACKEND,ROOT,Number of HVX threads used
+0,BACKEND,626,US,BACKEND,ROOT,RPC (execute) time
+0,BACKEND,602,US,BACKEND,ROOT,QNN accelerator (execute) time
+0,BACKEND,577,US,BACKEND,ROOT,Accelerator (execute) time
+0,BACKEND,557,US,BACKEND,ROOT,Accelerator (execute excluding wait) time
+0,EXECUTE,653,US,BACKEND,ROOT,QNN (execute) time
+0,BACKEND,4,COUNT,BACKEND,ROOT,Number of HVX threads used
+0,BACKEND,636,US,BACKEND,ROOT,RPC (execute) time
+0,BACKEND,603,US,BACKEND,ROOT,QNN accelerator (execute) time
+0,BACKEND,578,US,BACKEND,ROOT,Accelerator (execute) time
+0,BACKEND,559,US,BACKEND,ROOT,Accelerator (execute excluding wait) time
+0,EXECUTE,663,US,BACKEND,ROOT,QNN (execute) time
+0,BACKEND,4,COUNT,BACKEND,ROOT,Number of HVX threads used
+0,BACKEND,618,US,BACKEND,ROOT,RPC (execute) time
+0,BACKEND,603,US,BACKEND,ROOT,QNN accelerator (execute) time
+0,BACKEND,576,US,BACKEND,ROOT,Accelerator (execute) time
+0,BACKEND,556,US,BACKEND,ROOT,Accelerator (execute excluding wait) time
+0,EXECUTE,648,US,BACKEND,ROOT,QNN (execute) time
+0,BACKEND,4,COUNT,BACKEND,ROOT,Number of HVX threads used
+0,BACKEND,615,US,BACKEND,ROOT,RPC (execute) time
+0,BACKEND,597,US,BACKEND,ROOT,QNN accelerator (execute) time
+0,BACKEND,571,US,BACKEND,ROOT,Accelerator (execute) time
+0,BACKEND,553,US,BACKEND,ROOT,Accelerator (execute excluding wait) time
+0,EXECUTE,641,US,BACKEND,ROOT,QNN (execute) time
+0,BACKEND,4,COUNT,BACKEND,ROOT,Number of HVX threads used
+0,BACKEND,623,US,BACKEND,ROOT,RPC (execute) time
+0,BACKEND,595,US,BACKEND,ROOT,QNN accelerator (execute) time
+0,BACKEND,570,US,BACKEND,ROOT,Accelerator (execute) time
+0,BACKEND,550,US,BACKEND,ROOT,Accelerator (execute excluding wait) time
+0,EXECUTE,648,US,BACKEND,ROOT,QNN (execute) time
+0,BACKEND,4,COUNT,BACKEND,ROOT,Number of HVX threads used
+0,BACKEND,555,US,BACKEND,ROOT,RPC (execute) time
+0,BACKEND,546,US,BACKEND,ROOT,QNN accelerator (execute) time
+0,BACKEND,521,US,BACKEND,ROOT,Accelerator (execute) time
+0,BACKEND,503,US,BACKEND,ROOT,Accelerator (execute excluding wait) time
+0,EXECUTE,602,US,BACKEND,ROOT,QNN (execute) time
+0,BACKEND,4,COUNT,BACKEND,ROOT,Number of HVX threads used
+0,BACKEND,639,US,BACKEND,ROOT,RPC (execute) time
+0,BACKEND,606,US,BACKEND,ROOT,QNN accelerator (execute) time
+0,BACKEND,578,US,BACKEND,ROOT,Accelerator (execute) time
+0,BACKEND,561,US,BACKEND,ROOT,Accelerator (execute excluding wait) time
+0,EXECUTE,662,US,BACKEND,ROOT,QNN (execute) time
+0,BACKEND,4,COUNT,BACKEND,ROOT,Number of HVX threads used
+0,BACKEND,625,US,BACKEND,ROOT,RPC (execute) time
+0,BACKEND,607,US,BACKEND,ROOT,QNN accelerator (execute) time
+0,BACKEND,581,US,BACKEND,ROOT,Accelerator (execute) time
+0,BACKEND,562,US,BACKEND,ROOT,Accelerator (execute excluding wait) time
+0,EXECUTE,651,US,BACKEND,ROOT,QNN (execute) time
+0,BACKEND,4,COUNT,BACKEND,ROOT,Number of HVX threads used
+0,BACKEND,611,US,BACKEND,ROOT,RPC (execute) time
+0,BACKEND,597,US,BACKEND,ROOT,QNN accelerator (execute) time
+0,BACKEND,573,US,BACKEND,ROOT,Accelerator (execute) time
+0,BACKEND,554,US,BACKEND,ROOT,Accelerator (execute excluding wait) time
+0,EXECUTE,636,US,BACKEND,ROOT,QNN (execute) time
+0,BACKEND,4,COUNT,BACKEND,ROOT,Number of HVX threads used
+0,BACKEND,567,US,BACKEND,ROOT,RPC (execute) time
+0,BACKEND,558,US,BACKEND,ROOT,QNN accelerator (execute) time
+0,BACKEND,533,US,BACKEND,ROOT,Accelerator (execute) time
+0,BACKEND,514,US,BACKEND,ROOT,Accelerator (execute excluding wait) time
+0,EXECUTE,624,US,BACKEND,ROOT,QNN (execute) time
+0,BACKEND,4,COUNT,BACKEND,ROOT,Number of HVX threads used
+0,BACKEND,618,US,BACKEND,ROOT,RPC (execute) time
+0,BACKEND,595,US,BACKEND,ROOT,QNN accelerator (execute) time
+0,BACKEND,569,US,BACKEND,ROOT,Accelerator (execute) time
+0,BACKEND,551,US,BACKEND,ROOT,Accelerator (execute excluding wait) time
+0,EXECUTE,645,US,BACKEND,ROOT,QNN (execute) time
+0,BACKEND,4,COUNT,BACKEND,ROOT,Number of HVX threads used
+0,BACKEND,629,US,BACKEND,ROOT,RPC (execute) time
+0,BACKEND,597,US,BACKEND,ROOT,QNN accelerator (execute) time
+0,BACKEND,573,US,BACKEND,ROOT,Accelerator (execute) time
+0,BACKEND,553,US,BACKEND,ROOT,Accelerator (execute excluding wait) time
+0,EXECUTE,655,US,BACKEND,ROOT,QNN (execute) time
+0,BACKEND,4,COUNT,BACKEND,ROOT,Number of HVX threads used
+0,BACKEND,626,US,BACKEND,ROOT,RPC (execute) time
+0,BACKEND,600,US,BACKEND,ROOT,QNN accelerator (execute) time
+0,BACKEND,574,US,BACKEND,ROOT,Accelerator (execute) time
+0,BACKEND,556,US,BACKEND,ROOT,Accelerator (execute excluding wait) time
+0,EXECUTE,651,US,BACKEND,ROOT,QNN (execute) time
+0,BACKEND,4,COUNT,BACKEND,ROOT,Number of HVX threads used
+0,BACKEND,616,US,BACKEND,ROOT,RPC (execute) time
+0,BACKEND,596,US,BACKEND,ROOT,QNN accelerator (execute) time
+0,BACKEND,571,US,BACKEND,ROOT,Accelerator (execute) time
+0,BACKEND,552,US,BACKEND,ROOT,Accelerator (execute excluding wait) time
+0,EXECUTE,643,US,BACKEND,ROOT,QNN (execute) time
+0,BACKEND,4,COUNT,BACKEND,ROOT,Number of HVX threads used
+0,BACKEND,583,US,BACKEND,ROOT,RPC (execute) time
+0,BACKEND,562,US,BACKEND,ROOT,QNN accelerator (execute) time
+0,BACKEND,534,US,BACKEND,ROOT,Accelerator (execute) time
+0,BACKEND,517,US,BACKEND,ROOT,Accelerator (execute excluding wait) time
+0,EXECUTE,610,US,BACKEND,ROOT,QNN (execute) time
+0,BACKEND,4,COUNT,BACKEND,ROOT,Number of HVX threads used
+0,BACKEND,1394,US,BACKEND,ROOT,RPC (execute) time
+0,BACKEND,1382,US,BACKEND,ROOT,QNN accelerator (execute) time
+0,BACKEND,1356,US,BACKEND,ROOT,Accelerator (execute) time
+0,BACKEND,1337,US,BACKEND,ROOT,Accelerator (execute excluding wait) time
+0,EXECUTE,1420,US,BACKEND,ROOT,QNN (execute) time
+0,BACKEND,4,COUNT,BACKEND,ROOT,Number of HVX threads used
+0,BACKEND,1500,US,BACKEND,ROOT,RPC (execute) time
+0,BACKEND,1478,US,BACKEND,ROOT,QNN accelerator (execute) time
+0,BACKEND,1450,US,BACKEND,ROOT,Accelerator (execute) time
+0,BACKEND,1432,US,BACKEND,ROOT,Accelerator (execute excluding wait) time
+0,EXECUTE,1524,US,BACKEND,ROOT,QNN (execute) time
+0,BACKEND,4,COUNT,BACKEND,ROOT,Number of HVX threads used
+0,BACKEND,1476,US,BACKEND,ROOT,RPC (execute) time
+0,BACKEND,1468,US,BACKEND,ROOT,QNN accelerator (execute) time
+0,BACKEND,1440,US,BACKEND,ROOT,Accelerator (execute) time
+0,BACKEND,1420,US,BACKEND,ROOT,Accelerator (execute excluding wait) time
+0,EXECUTE,1502,US,BACKEND,ROOT,QNN (execute) time
+0,BACKEND,4,COUNT,BACKEND,ROOT,Number of HVX threads used
+0,BACKEND,1099,US,BACKEND,ROOT,RPC (execute) time
+0,BACKEND,1089,US,BACKEND,ROOT,QNN accelerator (execute) time
+0,BACKEND,1052,US,BACKEND,ROOT,Accelerator (execute) time
+0,BACKEND,1031,US,BACKEND,ROOT,Accelerator (execute excluding wait) time
+0,EXECUTE,1129,US,BACKEND,ROOT,QNN (execute) time
+0,BACKEND,4,COUNT,BACKEND,ROOT,Number of HVX threads used
+0,BACKEND,642,US,BACKEND,ROOT,RPC (execute) time
+0,BACKEND,611,US,BACKEND,ROOT,QNN accelerator (execute) time
+0,BACKEND,562,US,BACKEND,ROOT,Accelerator (execute) time
+0,BACKEND,542,US,BACKEND,ROOT,Accelerator (execute excluding wait) time
+0,EXECUTE,672,US,BACKEND,ROOT,QNN (execute) time
+0,BACKEND,4,COUNT,BACKEND,ROOT,Number of HVX threads used
+0,BACKEND,4770,US,BACKEND,ROOT,RPC (execute) time
+0,BACKEND,4726,US,BACKEND,ROOT,QNN accelerator (execute) time
+0,BACKEND,4615,US,BACKEND,ROOT,Accelerator (execute) time
+0,BACKEND,4573,US,BACKEND,ROOT,Accelerator (execute excluding wait) time
+0,EXECUTE,4818,US,BACKEND,ROOT,QNN (execute) time
+0,BACKEND,4,COUNT,BACKEND,ROOT,Number of HVX threads used
+0,BACKEND,4276,US,BACKEND,ROOT,RPC (execute) time
+0,BACKEND,4229,US,BACKEND,ROOT,QNN accelerator (execute) time
+0,BACKEND,4155,US,BACKEND,ROOT,Accelerator (execute) time
+0,BACKEND,4107,US,BACKEND,ROOT,Accelerator (execute excluding wait) time
+0,EXECUTE,4309,US,BACKEND,ROOT,QNN (execute) time
+0,BACKEND,4,COUNT,BACKEND,ROOT,Number of HVX threads used
+0,BACKEND,4189,US,BACKEND,ROOT,RPC (execute) time
+0,BACKEND,4150,US,BACKEND,ROOT,QNN accelerator (execute) time
+0,BACKEND,4084,US,BACKEND,ROOT,Accelerator (execute) time
+0,BACKEND,4035,US,BACKEND,ROOT,Accelerator (execute excluding wait) time
+0,EXECUTE,4221,US,BACKEND,ROOT,QNN (execute) time
+0,BACKEND,4,COUNT,BACKEND,ROOT,Number of HVX threads used
+0,BACKEND,4187,US,BACKEND,ROOT,RPC (execute) time
+0,BACKEND,4141,US,BACKEND,ROOT,QNN accelerator (execute) time
+0,BACKEND,4072,US,BACKEND,ROOT,Accelerator (execute) time
+0,BACKEND,4026,US,BACKEND,ROOT,Accelerator (execute excluding wait) time
+0,EXECUTE,4219,US,BACKEND,ROOT,QNN (execute) time
+0,BACKEND,4,COUNT,BACKEND,ROOT,Number of HVX threads used
+0,BACKEND,410,US,BACKEND,ROOT,RPC (execute) time
+0,BACKEND,384,US,BACKEND,ROOT,QNN accelerator (execute) time
+0,BACKEND,333,US,BACKEND,ROOT,Accelerator (execute) time
+0,BACKEND,295,US,BACKEND,ROOT,Accelerator (execute excluding wait) time
+0,EXECUTE,442,US,BACKEND,ROOT,QNN (execute) time
+0,BACKEND,4,COUNT,BACKEND,ROOT,Number of HVX threads used
+0,BACKEND,307,US,BACKEND,ROOT,RPC (execute) time
+0,BACKEND,274,US,BACKEND,ROOT,QNN accelerator (execute) time
+0,BACKEND,223,US,BACKEND,ROOT,Accelerator (execute) time
+0,BACKEND,200,US,BACKEND,ROOT,Accelerator (execute excluding wait) time
+0,EXECUTE,338,US,BACKEND,ROOT,QNN (execute) time
+0,BACKEND,4,COUNT,BACKEND,ROOT,Number of HVX threads used
+0,BACKEND,722,US,BACKEND,ROOT,RPC (execute) time
+0,BACKEND,700,US,BACKEND,ROOT,QNN accelerator (execute) time
+0,BACKEND,639,US,BACKEND,ROOT,Accelerator (execute) time
+0,BACKEND,614,US,BACKEND,ROOT,Accelerator (execute excluding wait) time
+0,EXECUTE,753,US,BACKEND,ROOT,QNN (execute) time
+0,BACKEND,4,COUNT,BACKEND,ROOT,Number of HVX threads used
+0,BACKEND,2246,US,BACKEND,ROOT,RPC (execute) time
+0,BACKEND,2194,US,BACKEND,ROOT,QNN accelerator (execute) time
+0,BACKEND,2102,US,BACKEND,ROOT,Accelerator (execute) time
+0,BACKEND,2054,US,BACKEND,ROOT,Accelerator (execute excluding wait) time
+0,EXECUTE,2284,US,BACKEND,ROOT,QNN (execute) time
+0,BACKEND,4,COUNT,BACKEND,ROOT,Number of HVX threads used
+0,BACKEND,583,US,BACKEND,ROOT,RPC (execute) time
+0,BACKEND,562,US,BACKEND,ROOT,QNN accelerator (execute) time
+0,BACKEND,533,US,BACKEND,ROOT,Accelerator (execute) time
+0,BACKEND,500,US,BACKEND,ROOT,Accelerator (execute excluding wait) time
+0,EXECUTE,611,US,BACKEND,ROOT,QNN (execute) time
+0,BACKEND,4,COUNT,BACKEND,ROOT,Number of HVX threads used
+0,BACKEND,560,US,BACKEND,ROOT,RPC (execute) time
+0,BACKEND,538,US,BACKEND,ROOT,QNN accelerator (execute) time
+0,BACKEND,511,US,BACKEND,ROOT,Accelerator (execute) time
+0,BACKEND,493,US,BACKEND,ROOT,Accelerator (execute excluding wait) time
+0,EXECUTE,592,US,BACKEND,ROOT,QNN (execute) time
+0,BACKEND,4,COUNT,BACKEND,ROOT,Number of HVX threads used
+0,BACKEND,679,US,BACKEND,ROOT,RPC (execute) time
+0,BACKEND,659,US,BACKEND,ROOT,QNN accelerator (execute) time
+0,BACKEND,633,US,BACKEND,ROOT,Accelerator (execute) time
+0,BACKEND,614,US,BACKEND,ROOT,Accelerator (execute excluding wait) time
+0,EXECUTE,709,US,BACKEND,ROOT,QNN (execute) time
+0,BACKEND,4,COUNT,BACKEND,ROOT,Number of HVX threads used
+0,BACKEND,546,US,BACKEND,ROOT,RPC (execute) time
+0,BACKEND,537,US,BACKEND,ROOT,QNN accelerator (execute) time
+0,BACKEND,511,US,BACKEND,ROOT,Accelerator (execute) time
+0,BACKEND,493,US,BACKEND,ROOT,Accelerator (execute excluding wait) time
+0,EXECUTE,575,US,BACKEND,ROOT,QNN (execute) time
+0,BACKEND,4,COUNT,BACKEND,ROOT,Number of HVX threads used
+0,BACKEND,578,US,BACKEND,ROOT,RPC (execute) time
+0,BACKEND,536,US,BACKEND,ROOT,QNN accelerator (execute) time
+0,BACKEND,509,US,BACKEND,ROOT,Accelerator (execute) time
+0,BACKEND,489,US,BACKEND,ROOT,Accelerator (execute excluding wait) time
+0,EXECUTE,608,US,BACKEND,ROOT,QNN (execute) time
+0,BACKEND,4,COUNT,BACKEND,ROOT,Number of HVX threads used
+0,BACKEND,643,US,BACKEND,ROOT,RPC (execute) time
+0,BACKEND,629,US,BACKEND,ROOT,QNN accelerator (execute) time
+0,BACKEND,601,US,BACKEND,ROOT,Accelerator (execute) time
+0,BACKEND,581,US,BACKEND,ROOT,Accelerator (execute excluding wait) time
+0,EXECUTE,693,US,BACKEND,ROOT,QNN (execute) time
+0,BACKEND,4,COUNT,BACKEND,ROOT,Number of HVX threads used
+0,BACKEND,615,US,BACKEND,ROOT,RPC (execute) time
+0,BACKEND,600,US,BACKEND,ROOT,QNN accelerator (execute) time
+0,BACKEND,573,US,BACKEND,ROOT,Accelerator (execute) time
+0,BACKEND,554,US,BACKEND,ROOT,Accelerator (execute excluding wait) time
+0,EXECUTE,641,US,BACKEND,ROOT,QNN (execute) time
+0,BACKEND,4,COUNT,BACKEND,ROOT,Number of HVX threads used
+0,BACKEND,619,US,BACKEND,ROOT,RPC (execute) time
+0,BACKEND,608,US,BACKEND,ROOT,QNN accelerator (execute) time
+0,BACKEND,580,US,BACKEND,ROOT,Accelerator (execute) time
+0,BACKEND,559,US,BACKEND,ROOT,Accelerator (execute excluding wait) time
+0,EXECUTE,645,US,BACKEND,ROOT,QNN (execute) time
+0,BACKEND,4,COUNT,BACKEND,ROOT,Number of HVX threads used
+0,BACKEND,648,US,BACKEND,ROOT,RPC (execute) time
+0,BACKEND,606,US,BACKEND,ROOT,QNN accelerator (execute) time
+0,BACKEND,578,US,BACKEND,ROOT,Accelerator (execute) time
+0,BACKEND,556,US,BACKEND,ROOT,Accelerator (execute excluding wait) time
+0,EXECUTE,678,US,BACKEND,ROOT,QNN (execute) time
+0,BACKEND,4,COUNT,BACKEND,ROOT,Number of HVX threads used
+0,BACKEND,576,US,BACKEND,ROOT,RPC (execute) time
+0,BACKEND,549,US,BACKEND,ROOT,QNN accelerator (execute) time
+0,BACKEND,522,US,BACKEND,ROOT,Accelerator (execute) time
+0,BACKEND,503,US,BACKEND,ROOT,Accelerator (execute excluding wait) time
+0,EXECUTE,604,US,BACKEND,ROOT,QNN (execute) time
+0,BACKEND,4,COUNT,BACKEND,ROOT,Number of HVX threads used
+0,BACKEND,625,US,BACKEND,ROOT,RPC (execute) time
+0,BACKEND,602,US,BACKEND,ROOT,QNN accelerator (execute) time
+0,BACKEND,575,US,BACKEND,ROOT,Accelerator (execute) time
+0,BACKEND,556,US,BACKEND,ROOT,Accelerator (execute excluding wait) time
+0,EXECUTE,655,US,BACKEND,ROOT,QNN (execute) time
+0,BACKEND,4,COUNT,BACKEND,ROOT,Number of HVX threads used
+0,BACKEND,631,US,BACKEND,ROOT,RPC (execute) time
+0,BACKEND,603,US,BACKEND,ROOT,QNN accelerator (execute) time
+0,BACKEND,575,US,BACKEND,ROOT,Accelerator (execute) time
+0,BACKEND,556,US,BACKEND,ROOT,Accelerator (execute excluding wait) time
+0,EXECUTE,657,US,BACKEND,ROOT,QNN (execute) time
+0,BACKEND,4,COUNT,BACKEND,ROOT,Number of HVX threads used
+0,BACKEND,623,US,BACKEND,ROOT,RPC (execute) time
+0,BACKEND,606,US,BACKEND,ROOT,QNN accelerator (execute) time
+0,BACKEND,577,US,BACKEND,ROOT,Accelerator (execute) time
+0,BACKEND,559,US,BACKEND,ROOT,Accelerator (execute excluding wait) time
+0,EXECUTE,653,US,BACKEND,ROOT,QNN (execute) time
+0,BACKEND,4,COUNT,BACKEND,ROOT,Number of HVX threads used
+0,BACKEND,641,US,BACKEND,ROOT,RPC (execute) time
+0,BACKEND,611,US,BACKEND,ROOT,QNN accelerator (execute) time
+0,BACKEND,583,US,BACKEND,ROOT,Accelerator (execute) time
+0,BACKEND,563,US,BACKEND,ROOT,Accelerator (execute excluding wait) time
+0,EXECUTE,669,US,BACKEND,ROOT,QNN (execute) time
+0,BACKEND,4,COUNT,BACKEND,ROOT,Number of HVX threads used
+0,BACKEND,632,US,BACKEND,ROOT,RPC (execute) time
+0,BACKEND,600,US,BACKEND,ROOT,QNN accelerator (execute) time
+0,BACKEND,574,US,BACKEND,ROOT,Accelerator (execute) time
+0,BACKEND,556,US,BACKEND,ROOT,Accelerator (execute excluding wait) time
+0,EXECUTE,656,US,BACKEND,ROOT,QNN (execute) time
+0,BACKEND,4,COUNT,BACKEND,ROOT,Number of HVX threads used
+0,BACKEND,569,US,BACKEND,ROOT,RPC (execute) time
+0,BACKEND,552,US,BACKEND,ROOT,QNN accelerator (execute) time
+0,BACKEND,524,US,BACKEND,ROOT,Accelerator (execute) time
+0,BACKEND,505,US,BACKEND,ROOT,Accelerator (execute excluding wait) time
+0,EXECUTE,597,US,BACKEND,ROOT,QNN (execute) time
+0,BACKEND,4,COUNT,BACKEND,ROOT,Number of HVX threads used
+0,BACKEND,642,US,BACKEND,ROOT,RPC (execute) time
+0,BACKEND,601,US,BACKEND,ROOT,QNN accelerator (execute) time
+0,BACKEND,573,US,BACKEND,ROOT,Accelerator (execute) time
+0,BACKEND,555,US,BACKEND,ROOT,Accelerator (execute excluding wait) time
+0,EXECUTE,671,US,BACKEND,ROOT,QNN (execute) time
+0,BACKEND,4,COUNT,BACKEND,ROOT,Number of HVX threads used
+0,BACKEND,609,US,BACKEND,ROOT,RPC (execute) time
+0,BACKEND,601,US,BACKEND,ROOT,QNN accelerator (execute) time
+0,BACKEND,574,US,BACKEND,ROOT,Accelerator (execute) time
+0,BACKEND,556,US,BACKEND,ROOT,Accelerator (execute excluding wait) time
+0,EXECUTE,636,US,BACKEND,ROOT,QNN (execute) time
+0,BACKEND,4,COUNT,BACKEND,ROOT,Number of HVX threads used
+0,BACKEND,637,US,BACKEND,ROOT,RPC (execute) time
+0,BACKEND,603,US,BACKEND,ROOT,QNN accelerator (execute) time
+0,BACKEND,578,US,BACKEND,ROOT,Accelerator (execute) time
+0,BACKEND,559,US,BACKEND,ROOT,Accelerator (execute excluding wait) time
+0,EXECUTE,665,US,BACKEND,ROOT,QNN (execute) time
+0,BACKEND,4,COUNT,BACKEND,ROOT,Number of HVX threads used
+0,BACKEND,626,US,BACKEND,ROOT,RPC (execute) time
+0,BACKEND,605,US,BACKEND,ROOT,QNN accelerator (execute) time
+0,BACKEND,576,US,BACKEND,ROOT,Accelerator (execute) time
+0,BACKEND,557,US,BACKEND,ROOT,Accelerator (execute excluding wait) time
+0,EXECUTE,653,US,BACKEND,ROOT,QNN (execute) time
+0,BACKEND,4,COUNT,BACKEND,ROOT,Number of HVX threads used
+0,BACKEND,614,US,BACKEND,ROOT,RPC (execute) time
+0,BACKEND,595,US,BACKEND,ROOT,QNN accelerator (execute) time
+0,BACKEND,570,US,BACKEND,ROOT,Accelerator (execute) time
+0,BACKEND,552,US,BACKEND,ROOT,Accelerator (execute excluding wait) time
+0,EXECUTE,639,US,BACKEND,ROOT,QNN (execute) time
+0,BACKEND,4,COUNT,BACKEND,ROOT,Number of HVX threads used
+0,BACKEND,624,US,BACKEND,ROOT,RPC (execute) time
+0,BACKEND,597,US,BACKEND,ROOT,QNN accelerator (execute) time
+0,BACKEND,570,US,BACKEND,ROOT,Accelerator (execute) time
+0,BACKEND,552,US,BACKEND,ROOT,Accelerator (execute excluding wait) time
+0,EXECUTE,652,US,BACKEND,ROOT,QNN (execute) time
+0,BACKEND,4,COUNT,BACKEND,ROOT,Number of HVX threads used
+0,BACKEND,554,US,BACKEND,ROOT,RPC (execute) time
+0,BACKEND,545,US,BACKEND,ROOT,QNN accelerator (execute) time
+0,BACKEND,521,US,BACKEND,ROOT,Accelerator (execute) time
+0,BACKEND,502,US,BACKEND,ROOT,Accelerator (execute excluding wait) time
+0,EXECUTE,581,US,BACKEND,ROOT,QNN (execute) time
+0,BACKEND,4,COUNT,BACKEND,ROOT,Number of HVX threads used
+0,BACKEND,620,US,BACKEND,ROOT,RPC (execute) time
+0,BACKEND,606,US,BACKEND,ROOT,QNN accelerator (execute) time
+0,BACKEND,578,US,BACKEND,ROOT,Accelerator (execute) time
+0,BACKEND,559,US,BACKEND,ROOT,Accelerator (execute excluding wait) time
+0,EXECUTE,668,US,BACKEND,ROOT,QNN (execute) time
+0,BACKEND,4,COUNT,BACKEND,ROOT,Number of HVX threads used
+0,BACKEND,629,US,BACKEND,ROOT,RPC (execute) time
+0,BACKEND,597,US,BACKEND,ROOT,QNN accelerator (execute) time
+0,BACKEND,572,US,BACKEND,ROOT,Accelerator (execute) time
+0,BACKEND,554,US,BACKEND,ROOT,Accelerator (execute excluding wait) time
+0,EXECUTE,659,US,BACKEND,ROOT,QNN (execute) time
+0,BACKEND,4,COUNT,BACKEND,ROOT,Number of HVX threads used
+0,BACKEND,638,US,BACKEND,ROOT,RPC (execute) time
+0,BACKEND,599,US,BACKEND,ROOT,QNN accelerator (execute) time
+0,BACKEND,572,US,BACKEND,ROOT,Accelerator (execute) time
+0,BACKEND,553,US,BACKEND,ROOT,Accelerator (execute excluding wait) time
+0,EXECUTE,661,US,BACKEND,ROOT,QNN (execute) time
+0,BACKEND,4,COUNT,BACKEND,ROOT,Number of HVX threads used
+0,BACKEND,559,US,BACKEND,ROOT,RPC (execute) time
+0,BACKEND,551,US,BACKEND,ROOT,QNN accelerator (execute) time
+0,BACKEND,525,US,BACKEND,ROOT,Accelerator (execute) time
+0,BACKEND,506,US,BACKEND,ROOT,Accelerator (execute excluding wait) time
+0,EXECUTE,584,US,BACKEND,ROOT,QNN (execute) time
+0,BACKEND,4,COUNT,BACKEND,ROOT,Number of HVX threads used
+0,BACKEND,603,US,BACKEND,ROOT,RPC (execute) time
+0,BACKEND,594,US,BACKEND,ROOT,QNN accelerator (execute) time
+0,BACKEND,568,US,BACKEND,ROOT,Accelerator (execute) time
+0,BACKEND,551,US,BACKEND,ROOT,Accelerator (execute excluding wait) time
+0,EXECUTE,631,US,BACKEND,ROOT,QNN (execute) time
+0,BACKEND,4,COUNT,BACKEND,ROOT,Number of HVX threads used
+0,BACKEND,634,US,BACKEND,ROOT,RPC (execute) time
+0,BACKEND,602,US,BACKEND,ROOT,QNN accelerator (execute) time
+0,BACKEND,577,US,BACKEND,ROOT,Accelerator (execute) time
+0,BACKEND,558,US,BACKEND,ROOT,Accelerator (execute excluding wait) time
+0,EXECUTE,663,US,BACKEND,ROOT,QNN (execute) time
+0,BACKEND,4,COUNT,BACKEND,ROOT,Number of HVX threads used
+0,BACKEND,616,US,BACKEND,ROOT,RPC (execute) time
+0,BACKEND,599,US,BACKEND,ROOT,QNN accelerator (execute) time
+0,BACKEND,573,US,BACKEND,ROOT,Accelerator (execute) time
+0,BACKEND,554,US,BACKEND,ROOT,Accelerator (execute excluding wait) time
+0,EXECUTE,645,US,BACKEND,ROOT,QNN (execute) time
+0,BACKEND,4,COUNT,BACKEND,ROOT,Number of HVX threads used
+0,BACKEND,631,US,BACKEND,ROOT,RPC (execute) time
+0,BACKEND,598,US,BACKEND,ROOT,QNN accelerator (execute) time
+0,BACKEND,572,US,BACKEND,ROOT,Accelerator (execute) time
+0,BACKEND,550,US,BACKEND,ROOT,Accelerator (execute excluding wait) time
+0,EXECUTE,659,US,BACKEND,ROOT,QNN (execute) time
+0,BACKEND,4,COUNT,BACKEND,ROOT,Number of HVX threads used
+0,BACKEND,564,US,BACKEND,ROOT,RPC (execute) time
+0,BACKEND,548,US,BACKEND,ROOT,QNN accelerator (execute) time
+0,BACKEND,521,US,BACKEND,ROOT,Accelerator (execute) time
+0,BACKEND,502,US,BACKEND,ROOT,Accelerator (execute excluding wait) time
+0,EXECUTE,592,US,BACKEND,ROOT,QNN (execute) time
+0,BACKEND,4,COUNT,BACKEND,ROOT,Number of HVX threads used
+0,BACKEND,1396,US,BACKEND,ROOT,RPC (execute) time
+0,BACKEND,1374,US,BACKEND,ROOT,QNN accelerator (execute) time
+0,BACKEND,1348,US,BACKEND,ROOT,Accelerator (execute) time
+0,BACKEND,1327,US,BACKEND,ROOT,Accelerator (execute excluding wait) time
+0,EXECUTE,1423,US,BACKEND,ROOT,QNN (execute) time
+0,BACKEND,4,COUNT,BACKEND,ROOT,Number of HVX threads used
+0,BACKEND,1509,US,BACKEND,ROOT,RPC (execute) time
+0,BACKEND,1478,US,BACKEND,ROOT,QNN accelerator (execute) time
+0,BACKEND,1449,US,BACKEND,ROOT,Accelerator (execute) time
+0,BACKEND,1430,US,BACKEND,ROOT,Accelerator (execute excluding wait) time
+0,EXECUTE,1535,US,BACKEND,ROOT,QNN (execute) time
+0,BACKEND,4,COUNT,BACKEND,ROOT,Number of HVX threads used
+0,BACKEND,1502,US,BACKEND,ROOT,RPC (execute) time
+0,BACKEND,1469,US,BACKEND,ROOT,QNN accelerator (execute) time
+0,BACKEND,1441,US,BACKEND,ROOT,Accelerator (execute) time
+0,BACKEND,1420,US,BACKEND,ROOT,Accelerator (execute excluding wait) time
+0,EXECUTE,1528,US,BACKEND,ROOT,QNN (execute) time
+0,BACKEND,4,COUNT,BACKEND,ROOT,Number of HVX threads used
+0,BACKEND,1106,US,BACKEND,ROOT,RPC (execute) time
+0,BACKEND,1094,US,BACKEND,ROOT,QNN accelerator (execute) time
+0,BACKEND,1055,US,BACKEND,ROOT,Accelerator (execute) time
+0,BACKEND,1033,US,BACKEND,ROOT,Accelerator (execute excluding wait) time
+0,EXECUTE,1136,US,BACKEND,ROOT,QNN (execute) time
+0,BACKEND,4,COUNT,BACKEND,ROOT,Number of HVX threads used
+0,BACKEND,649,US,BACKEND,ROOT,RPC (execute) time
+0,BACKEND,608,US,BACKEND,ROOT,QNN accelerator (execute) time
+0,BACKEND,561,US,BACKEND,ROOT,Accelerator (execute) time
+0,BACKEND,540,US,BACKEND,ROOT,Accelerator (execute excluding wait) time
+0,EXECUTE,681,US,BACKEND,ROOT,QNN (execute) time
+0,BACKEND,4,COUNT,BACKEND,ROOT,Number of HVX threads used
+0,BACKEND,4805,US,BACKEND,ROOT,RPC (execute) time
+0,BACKEND,4749,US,BACKEND,ROOT,QNN accelerator (execute) time
+0,BACKEND,4638,US,BACKEND,ROOT,Accelerator (execute) time
+0,BACKEND,4597,US,BACKEND,ROOT,Accelerator (execute excluding wait) time
+0,EXECUTE,4842,US,BACKEND,ROOT,QNN (execute) time
+0,BACKEND,4,COUNT,BACKEND,ROOT,Number of HVX threads used
+0,BACKEND,4253,US,BACKEND,ROOT,RPC (execute) time
+0,BACKEND,4223,US,BACKEND,ROOT,QNN accelerator (execute) time
+0,BACKEND,4151,US,BACKEND,ROOT,Accelerator (execute) time
+0,BACKEND,4101,US,BACKEND,ROOT,Accelerator (execute excluding wait) time
+0,EXECUTE,4286,US,BACKEND,ROOT,QNN (execute) time
+0,BACKEND,4,COUNT,BACKEND,ROOT,Number of HVX threads used
+0,BACKEND,4196,US,BACKEND,ROOT,RPC (execute) time
+0,BACKEND,4140,US,BACKEND,ROOT,QNN accelerator (execute) time
+0,BACKEND,4073,US,BACKEND,ROOT,Accelerator (execute) time
+0,BACKEND,4026,US,BACKEND,ROOT,Accelerator (execute excluding wait) time
+0,EXECUTE,4229,US,BACKEND,ROOT,QNN (execute) time
+0,BACKEND,4,COUNT,BACKEND,ROOT,Number of HVX threads used
+0,BACKEND,4159,US,BACKEND,ROOT,RPC (execute) time
+0,BACKEND,4133,US,BACKEND,ROOT,QNN accelerator (execute) time
+0,BACKEND,4067,US,BACKEND,ROOT,Accelerator (execute) time
+0,BACKEND,4020,US,BACKEND,ROOT,Accelerator (execute excluding wait) time
+0,EXECUTE,4222,US,BACKEND,ROOT,QNN (execute) time
+0,BACKEND,4,COUNT,BACKEND,ROOT,Number of HVX threads used
+0,BACKEND,400,US,BACKEND,ROOT,RPC (execute) time
+0,BACKEND,381,US,BACKEND,ROOT,QNN accelerator (execute) time
+0,BACKEND,329,US,BACKEND,ROOT,Accelerator (execute) time
+0,BACKEND,294,US,BACKEND,ROOT,Accelerator (execute excluding wait) time
+0,EXECUTE,430,US,BACKEND,ROOT,QNN (execute) time
+0,BACKEND,4,COUNT,BACKEND,ROOT,Number of HVX threads used
+0,BACKEND,279,US,BACKEND,ROOT,RPC (execute) time
+0,BACKEND,270,US,BACKEND,ROOT,QNN accelerator (execute) time
+0,BACKEND,220,US,BACKEND,ROOT,Accelerator (execute) time
+0,BACKEND,197,US,BACKEND,ROOT,Accelerator (execute excluding wait) time
+0,EXECUTE,312,US,BACKEND,ROOT,QNN (execute) time
+0,BACKEND,4,COUNT,BACKEND,ROOT,Number of HVX threads used
+0,BACKEND,723,US,BACKEND,ROOT,RPC (execute) time
+0,BACKEND,706,US,BACKEND,ROOT,QNN accelerator (execute) time
+0,BACKEND,643,US,BACKEND,ROOT,Accelerator (execute) time
+0,BACKEND,620,US,BACKEND,ROOT,Accelerator (execute excluding wait) time
+0,EXECUTE,757,US,BACKEND,ROOT,QNN (execute) time
+0,BACKEND,4,COUNT,BACKEND,ROOT,Number of HVX threads used
+0,BACKEND,2254,US,BACKEND,ROOT,RPC (execute) time
+0,BACKEND,2199,US,BACKEND,ROOT,QNN accelerator (execute) time
+0,BACKEND,2106,US,BACKEND,ROOT,Accelerator (execute) time
+0,BACKEND,2058,US,BACKEND,ROOT,Accelerator (execute excluding wait) time
+0,EXECUTE,2296,US,BACKEND,ROOT,QNN (execute) time
+0,BACKEND,4,COUNT,BACKEND,ROOT,Number of HVX threads used
+0,BACKEND,571,US,BACKEND,ROOT,RPC (execute) time
+0,BACKEND,560,US,BACKEND,ROOT,QNN accelerator (execute) time
+0,BACKEND,531,US,BACKEND,ROOT,Accelerator (execute) time
+0,BACKEND,494,US,BACKEND,ROOT,Accelerator (execute excluding wait) time
+0,EXECUTE,603,US,BACKEND,ROOT,QNN (execute) time
+0,BACKEND,4,COUNT,BACKEND,ROOT,Number of HVX threads used
+0,BACKEND,576,US,BACKEND,ROOT,RPC (execute) time
+0,BACKEND,544,US,BACKEND,ROOT,QNN accelerator (execute) time
+0,BACKEND,517,US,BACKEND,ROOT,Accelerator (execute) time
+0,BACKEND,499,US,BACKEND,ROOT,Accelerator (execute excluding wait) time
+0,EXECUTE,606,US,BACKEND,ROOT,QNN (execute) time
+0,BACKEND,4,COUNT,BACKEND,ROOT,Number of HVX threads used
+0,BACKEND,703,US,BACKEND,ROOT,RPC (execute) time
+0,BACKEND,670,US,BACKEND,ROOT,QNN accelerator (execute) time
+0,BACKEND,644,US,BACKEND,ROOT,Accelerator (execute) time
+0,BACKEND,624,US,BACKEND,ROOT,Accelerator (execute excluding wait) time
+0,EXECUTE,731,US,BACKEND,ROOT,QNN (execute) time
+0,BACKEND,4,COUNT,BACKEND,ROOT,Number of HVX threads used
+0,BACKEND,565,US,BACKEND,ROOT,RPC (execute) time
+0,BACKEND,535,US,BACKEND,ROOT,QNN accelerator (execute) time
+0,BACKEND,510,US,BACKEND,ROOT,Accelerator (execute) time
+0,BACKEND,491,US,BACKEND,ROOT,Accelerator (execute excluding wait) time
+0,EXECUTE,592,US,BACKEND,ROOT,QNN (execute) time
+0,BACKEND,4,COUNT,BACKEND,ROOT,Number of HVX threads used
+0,BACKEND,556,US,BACKEND,ROOT,RPC (execute) time
+0,BACKEND,535,US,BACKEND,ROOT,QNN accelerator (execute) time
+0,BACKEND,508,US,BACKEND,ROOT,Accelerator (execute) time
+0,BACKEND,489,US,BACKEND,ROOT,Accelerator (execute excluding wait) time
+0,EXECUTE,586,US,BACKEND,ROOT,QNN (execute) time
+0,BACKEND,4,COUNT,BACKEND,ROOT,Number of HVX threads used
+0,BACKEND,647,US,BACKEND,ROOT,RPC (execute) time
+0,BACKEND,632,US,BACKEND,ROOT,QNN accelerator (execute) time
+0,BACKEND,603,US,BACKEND,ROOT,Accelerator (execute) time
+0,BACKEND,584,US,BACKEND,ROOT,Accelerator (execute excluding wait) time
+0,EXECUTE,675,US,BACKEND,ROOT,QNN (execute) time
+0,BACKEND,4,COUNT,BACKEND,ROOT,Number of HVX threads used
+0,BACKEND,631,US,BACKEND,ROOT,RPC (execute) time
+0,BACKEND,605,US,BACKEND,ROOT,QNN accelerator (execute) time
+0,BACKEND,577,US,BACKEND,ROOT,Accelerator (execute) time
+0,BACKEND,558,US,BACKEND,ROOT,Accelerator (execute excluding wait) time
+0,EXECUTE,659,US,BACKEND,ROOT,QNN (execute) time
+0,BACKEND,4,COUNT,BACKEND,ROOT,Number of HVX threads used
+0,BACKEND,643,US,BACKEND,ROOT,RPC (execute) time
+0,BACKEND,608,US,BACKEND,ROOT,QNN accelerator (execute) time
+0,BACKEND,580,US,BACKEND,ROOT,Accelerator (execute) time
+0,BACKEND,559,US,BACKEND,ROOT,Accelerator (execute excluding wait) time
+0,EXECUTE,667,US,BACKEND,ROOT,QNN (execute) time
+0,BACKEND,4,COUNT,BACKEND,ROOT,Number of HVX threads used
+0,BACKEND,623,US,BACKEND,ROOT,RPC (execute) time
+0,BACKEND,606,US,BACKEND,ROOT,QNN accelerator (execute) time
+0,BACKEND,578,US,BACKEND,ROOT,Accelerator (execute) time
+0,BACKEND,557,US,BACKEND,ROOT,Accelerator (execute excluding wait) time
+0,EXECUTE,679,US,BACKEND,ROOT,QNN (execute) time
+0,BACKEND,4,COUNT,BACKEND,ROOT,Number of HVX threads used
+0,BACKEND,559,US,BACKEND,ROOT,RPC (execute) time
+0,BACKEND,551,US,BACKEND,ROOT,QNN accelerator (execute) time
+0,BACKEND,524,US,BACKEND,ROOT,Accelerator (execute) time
+0,BACKEND,502,US,BACKEND,ROOT,Accelerator (execute excluding wait) time
+0,EXECUTE,586,US,BACKEND,ROOT,QNN (execute) time
+0,BACKEND,4,COUNT,BACKEND,ROOT,Number of HVX threads used
+0,BACKEND,628,US,BACKEND,ROOT,RPC (execute) time
+0,BACKEND,601,US,BACKEND,ROOT,QNN accelerator (execute) time
+0,BACKEND,576,US,BACKEND,ROOT,Accelerator (execute) time
+0,BACKEND,555,US,BACKEND,ROOT,Accelerator (execute excluding wait) time
+0,EXECUTE,656,US,BACKEND,ROOT,QNN (execute) time
+0,BACKEND,4,COUNT,BACKEND,ROOT,Number of HVX threads used
+0,BACKEND,628,US,BACKEND,ROOT,RPC (execute) time
+0,BACKEND,601,US,BACKEND,ROOT,QNN accelerator (execute) time
+0,BACKEND,573,US,BACKEND,ROOT,Accelerator (execute) time
+0,BACKEND,554,US,BACKEND,ROOT,Accelerator (execute excluding wait) time
+0,EXECUTE,654,US,BACKEND,ROOT,QNN (execute) time
+0,BACKEND,4,COUNT,BACKEND,ROOT,Number of HVX threads used
+0,BACKEND,610,US,BACKEND,ROOT,RPC (execute) time
+0,BACKEND,602,US,BACKEND,ROOT,QNN accelerator (execute) time
+0,BACKEND,576,US,BACKEND,ROOT,Accelerator (execute) time
+0,BACKEND,556,US,BACKEND,ROOT,Accelerator (execute excluding wait) time
+0,EXECUTE,640,US,BACKEND,ROOT,QNN (execute) time
+0,BACKEND,4,COUNT,BACKEND,ROOT,Number of HVX threads used
+0,BACKEND,628,US,BACKEND,ROOT,RPC (execute) time
+0,BACKEND,609,US,BACKEND,ROOT,QNN accelerator (execute) time
+0,BACKEND,582,US,BACKEND,ROOT,Accelerator (execute) time
+0,BACKEND,562,US,BACKEND,ROOT,Accelerator (execute excluding wait) time
+0,EXECUTE,655,US,BACKEND,ROOT,QNN (execute) time
+0,BACKEND,4,COUNT,BACKEND,ROOT,Number of HVX threads used
+0,BACKEND,635,US,BACKEND,ROOT,RPC (execute) time
+0,BACKEND,602,US,BACKEND,ROOT,QNN accelerator (execute) time
+0,BACKEND,575,US,BACKEND,ROOT,Accelerator (execute) time
+0,BACKEND,556,US,BACKEND,ROOT,Accelerator (execute excluding wait) time
+0,EXECUTE,659,US,BACKEND,ROOT,QNN (execute) time
+0,BACKEND,4,COUNT,BACKEND,ROOT,Number of HVX threads used
+0,BACKEND,565,US,BACKEND,ROOT,RPC (execute) time
+0,BACKEND,550,US,BACKEND,ROOT,QNN accelerator (execute) time
+0,BACKEND,523,US,BACKEND,ROOT,Accelerator (execute) time
+0,BACKEND,504,US,BACKEND,ROOT,Accelerator (execute excluding wait) time
+0,EXECUTE,591,US,BACKEND,ROOT,QNN (execute) time
+0,BACKEND,4,COUNT,BACKEND,ROOT,Number of HVX threads used
+0,BACKEND,625,US,BACKEND,ROOT,RPC (execute) time
+0,BACKEND,598,US,BACKEND,ROOT,QNN accelerator (execute) time
+0,BACKEND,574,US,BACKEND,ROOT,Accelerator (execute) time
+0,BACKEND,556,US,BACKEND,ROOT,Accelerator (execute excluding wait) time
+0,EXECUTE,653,US,BACKEND,ROOT,QNN (execute) time
+0,BACKEND,4,COUNT,BACKEND,ROOT,Number of HVX threads used
+0,BACKEND,642,US,BACKEND,ROOT,RPC (execute) time
+0,BACKEND,603,US,BACKEND,ROOT,QNN accelerator (execute) time
+0,BACKEND,577,US,BACKEND,ROOT,Accelerator (execute) time
+0,BACKEND,558,US,BACKEND,ROOT,Accelerator (execute excluding wait) time
+0,EXECUTE,669,US,BACKEND,ROOT,QNN (execute) time
+0,BACKEND,4,COUNT,BACKEND,ROOT,Number of HVX threads used
+0,BACKEND,624,US,BACKEND,ROOT,RPC (execute) time
+0,BACKEND,602,US,BACKEND,ROOT,QNN accelerator (execute) time
+0,BACKEND,577,US,BACKEND,ROOT,Accelerator (execute) time
+0,BACKEND,557,US,BACKEND,ROOT,Accelerator (execute excluding wait) time
+0,EXECUTE,652,US,BACKEND,ROOT,QNN (execute) time
+0,BACKEND,4,COUNT,BACKEND,ROOT,Number of HVX threads used
+0,BACKEND,610,US,BACKEND,ROOT,RPC (execute) time
+0,BACKEND,600,US,BACKEND,ROOT,QNN accelerator (execute) time
+0,BACKEND,575,US,BACKEND,ROOT,Accelerator (execute) time
+0,BACKEND,555,US,BACKEND,ROOT,Accelerator (execute excluding wait) time
+0,EXECUTE,639,US,BACKEND,ROOT,QNN (execute) time
+0,BACKEND,4,COUNT,BACKEND,ROOT,Number of HVX threads used
+0,BACKEND,603,US,BACKEND,ROOT,RPC (execute) time
+0,BACKEND,594,US,BACKEND,ROOT,QNN accelerator (execute) time
+0,BACKEND,569,US,BACKEND,ROOT,Accelerator (execute) time
+0,BACKEND,551,US,BACKEND,ROOT,Accelerator (execute excluding wait) time
+0,EXECUTE,628,US,BACKEND,ROOT,QNN (execute) time
+0,BACKEND,4,COUNT,BACKEND,ROOT,Number of HVX threads used
+0,BACKEND,631,US,BACKEND,ROOT,RPC (execute) time
+0,BACKEND,596,US,BACKEND,ROOT,QNN accelerator (execute) time
+0,BACKEND,569,US,BACKEND,ROOT,Accelerator (execute) time
+0,BACKEND,551,US,BACKEND,ROOT,Accelerator (execute excluding wait) time
+0,EXECUTE,658,US,BACKEND,ROOT,QNN (execute) time
+0,BACKEND,4,COUNT,BACKEND,ROOT,Number of HVX threads used
+0,BACKEND,564,US,BACKEND,ROOT,RPC (execute) time
+0,BACKEND,547,US,BACKEND,ROOT,QNN accelerator (execute) time
+0,BACKEND,522,US,BACKEND,ROOT,Accelerator (execute) time
+0,BACKEND,502,US,BACKEND,ROOT,Accelerator (execute excluding wait) time
+0,EXECUTE,591,US,BACKEND,ROOT,QNN (execute) time
+0,BACKEND,4,COUNT,BACKEND,ROOT,Number of HVX threads used
+0,BACKEND,618,US,BACKEND,ROOT,RPC (execute) time
+0,BACKEND,602,US,BACKEND,ROOT,QNN accelerator (execute) time
+0,BACKEND,576,US,BACKEND,ROOT,Accelerator (execute) time
+0,BACKEND,559,US,BACKEND,ROOT,Accelerator (execute excluding wait) time
+0,EXECUTE,646,US,BACKEND,ROOT,QNN (execute) time
+0,BACKEND,4,COUNT,BACKEND,ROOT,Number of HVX threads used
+0,BACKEND,634,US,BACKEND,ROOT,RPC (execute) time
+0,BACKEND,603,US,BACKEND,ROOT,QNN accelerator (execute) time
+0,BACKEND,577,US,BACKEND,ROOT,Accelerator (execute) time
+0,BACKEND,558,US,BACKEND,ROOT,Accelerator (execute excluding wait) time
+0,EXECUTE,664,US,BACKEND,ROOT,QNN (execute) time
+0,BACKEND,4,COUNT,BACKEND,ROOT,Number of HVX threads used
+0,BACKEND,628,US,BACKEND,ROOT,RPC (execute) time
+0,BACKEND,596,US,BACKEND,ROOT,QNN accelerator (execute) time
+0,BACKEND,571,US,BACKEND,ROOT,Accelerator (execute) time
+0,BACKEND,552,US,BACKEND,ROOT,Accelerator (execute excluding wait) time
+0,EXECUTE,653,US,BACKEND,ROOT,QNN (execute) time
+0,BACKEND,4,COUNT,BACKEND,ROOT,Number of HVX threads used
+0,BACKEND,573,US,BACKEND,ROOT,RPC (execute) time
+0,BACKEND,551,US,BACKEND,ROOT,QNN accelerator (execute) time
+0,BACKEND,524,US,BACKEND,ROOT,Accelerator (execute) time
+0,BACKEND,506,US,BACKEND,ROOT,Accelerator (execute excluding wait) time
+0,EXECUTE,622,US,BACKEND,ROOT,QNN (execute) time
+0,BACKEND,4,COUNT,BACKEND,ROOT,Number of HVX threads used
+0,BACKEND,617,US,BACKEND,ROOT,RPC (execute) time
+0,BACKEND,599,US,BACKEND,ROOT,QNN accelerator (execute) time
+0,BACKEND,572,US,BACKEND,ROOT,Accelerator (execute) time
+0,BACKEND,552,US,BACKEND,ROOT,Accelerator (execute excluding wait) time
+0,EXECUTE,645,US,BACKEND,ROOT,QNN (execute) time
+0,BACKEND,4,COUNT,BACKEND,ROOT,Number of HVX threads used
+0,BACKEND,604,US,BACKEND,ROOT,RPC (execute) time
+0,BACKEND,596,US,BACKEND,ROOT,QNN accelerator (execute) time
+0,BACKEND,572,US,BACKEND,ROOT,Accelerator (execute) time
+0,BACKEND,554,US,BACKEND,ROOT,Accelerator (execute excluding wait) time
+0,EXECUTE,631,US,BACKEND,ROOT,QNN (execute) time
+0,BACKEND,4,COUNT,BACKEND,ROOT,Number of HVX threads used
+0,BACKEND,630,US,BACKEND,ROOT,RPC (execute) time
+0,BACKEND,596,US,BACKEND,ROOT,QNN accelerator (execute) time
+0,BACKEND,570,US,BACKEND,ROOT,Accelerator (execute) time
+0,BACKEND,552,US,BACKEND,ROOT,Accelerator (execute excluding wait) time
+0,EXECUTE,656,US,BACKEND,ROOT,QNN (execute) time
+0,BACKEND,4,COUNT,BACKEND,ROOT,Number of HVX threads used
+0,BACKEND,614,US,BACKEND,ROOT,RPC (execute) time
+0,BACKEND,595,US,BACKEND,ROOT,QNN accelerator (execute) time
+0,BACKEND,569,US,BACKEND,ROOT,Accelerator (execute) time
+0,BACKEND,551,US,BACKEND,ROOT,Accelerator (execute excluding wait) time
+0,EXECUTE,641,US,BACKEND,ROOT,QNN (execute) time
+0,BACKEND,4,COUNT,BACKEND,ROOT,Number of HVX threads used
+0,BACKEND,560,US,BACKEND,ROOT,RPC (execute) time
+0,BACKEND,548,US,BACKEND,ROOT,QNN accelerator (execute) time
+0,BACKEND,520,US,BACKEND,ROOT,Accelerator (execute) time
+0,BACKEND,502,US,BACKEND,ROOT,Accelerator (execute excluding wait) time
+0,EXECUTE,588,US,BACKEND,ROOT,QNN (execute) time
+0,BACKEND,4,COUNT,BACKEND,ROOT,Number of HVX threads used
+0,BACKEND,1390,US,BACKEND,ROOT,RPC (execute) time
+0,BACKEND,1372,US,BACKEND,ROOT,QNN accelerator (execute) time
+0,BACKEND,1346,US,BACKEND,ROOT,Accelerator (execute) time
+0,BACKEND,1328,US,BACKEND,ROOT,Accelerator (execute excluding wait) time
+0,EXECUTE,1413,US,BACKEND,ROOT,QNN (execute) time
+0,BACKEND,4,COUNT,BACKEND,ROOT,Number of HVX threads used
+0,BACKEND,1499,US,BACKEND,ROOT,RPC (execute) time
+0,BACKEND,1475,US,BACKEND,ROOT,QNN accelerator (execute) time
+0,BACKEND,1447,US,BACKEND,ROOT,Accelerator (execute) time
+0,BACKEND,1428,US,BACKEND,ROOT,Accelerator (execute excluding wait) time
+0,EXECUTE,1525,US,BACKEND,ROOT,QNN (execute) time
+0,BACKEND,4,COUNT,BACKEND,ROOT,Number of HVX threads used
+0,BACKEND,1493,US,BACKEND,ROOT,RPC (execute) time
+0,BACKEND,1464,US,BACKEND,ROOT,QNN accelerator (execute) time
+0,BACKEND,1438,US,BACKEND,ROOT,Accelerator (execute) time
+0,BACKEND,1420,US,BACKEND,ROOT,Accelerator (execute excluding wait) time
+0,EXECUTE,1518,US,BACKEND,ROOT,QNN (execute) time
+0,BACKEND,4,COUNT,BACKEND,ROOT,Number of HVX threads used
+0,BACKEND,1103,US,BACKEND,ROOT,RPC (execute) time
+0,BACKEND,1094,US,BACKEND,ROOT,QNN accelerator (execute) time
+0,BACKEND,1054,US,BACKEND,ROOT,Accelerator (execute) time
+0,BACKEND,1031,US,BACKEND,ROOT,Accelerator (execute excluding wait) time
+0,EXECUTE,1148,US,BACKEND,ROOT,QNN (execute) time
+0,BACKEND,4,COUNT,BACKEND,ROOT,Number of HVX threads used
+0,BACKEND,645,US,BACKEND,ROOT,RPC (execute) time
+0,BACKEND,607,US,BACKEND,ROOT,QNN accelerator (execute) time
+0,BACKEND,561,US,BACKEND,ROOT,Accelerator (execute) time
+0,BACKEND,539,US,BACKEND,ROOT,Accelerator (execute excluding wait) time
+0,EXECUTE,679,US,BACKEND,ROOT,QNN (execute) time
+0,BACKEND,4,COUNT,BACKEND,ROOT,Number of HVX threads used
+0,BACKEND,4792,US,BACKEND,ROOT,RPC (execute) time
+0,BACKEND,4730,US,BACKEND,ROOT,QNN accelerator (execute) time
+0,BACKEND,4617,US,BACKEND,ROOT,Accelerator (execute) time
+0,BACKEND,4574,US,BACKEND,ROOT,Accelerator (execute excluding wait) time
+0,EXECUTE,4854,US,BACKEND,ROOT,QNN (execute) time
+0,BACKEND,4,COUNT,BACKEND,ROOT,Number of HVX threads used
+0,BACKEND,4277,US,BACKEND,ROOT,RPC (execute) time
+0,BACKEND,4248,US,BACKEND,ROOT,QNN accelerator (execute) time
+0,BACKEND,4175,US,BACKEND,ROOT,Accelerator (execute) time
+0,BACKEND,4126,US,BACKEND,ROOT,Accelerator (execute excluding wait) time
+0,EXECUTE,4309,US,BACKEND,ROOT,QNN (execute) time
+0,BACKEND,4,COUNT,BACKEND,ROOT,Number of HVX threads used
+0,BACKEND,4180,US,BACKEND,ROOT,RPC (execute) time
+0,BACKEND,4127,US,BACKEND,ROOT,QNN accelerator (execute) time
+0,BACKEND,4060,US,BACKEND,ROOT,Accelerator (execute) time
+0,BACKEND,4011,US,BACKEND,ROOT,Accelerator (execute excluding wait) time
+0,EXECUTE,4208,US,BACKEND,ROOT,QNN (execute) time
+0,BACKEND,4,COUNT,BACKEND,ROOT,Number of HVX threads used
+0,BACKEND,4155,US,BACKEND,ROOT,RPC (execute) time
+0,BACKEND,4129,US,BACKEND,ROOT,QNN accelerator (execute) time
+0,BACKEND,4062,US,BACKEND,ROOT,Accelerator (execute) time
+0,BACKEND,4018,US,BACKEND,ROOT,Accelerator (execute excluding wait) time
+0,EXECUTE,4189,US,BACKEND,ROOT,QNN (execute) time
+0,BACKEND,4,COUNT,BACKEND,ROOT,Number of HVX threads used
+0,BACKEND,419,US,BACKEND,ROOT,RPC (execute) time
+0,BACKEND,381,US,BACKEND,ROOT,QNN accelerator (execute) time
+0,BACKEND,330,US,BACKEND,ROOT,Accelerator (execute) time
+0,BACKEND,293,US,BACKEND,ROOT,Accelerator (execute excluding wait) time
+0,EXECUTE,449,US,BACKEND,ROOT,QNN (execute) time
+0,BACKEND,4,COUNT,BACKEND,ROOT,Number of HVX threads used
+0,BACKEND,299,US,BACKEND,ROOT,RPC (execute) time
+0,BACKEND,273,US,BACKEND,ROOT,QNN accelerator (execute) time
+0,BACKEND,222,US,BACKEND,ROOT,Accelerator (execute) time
+0,BACKEND,199,US,BACKEND,ROOT,Accelerator (execute excluding wait) time
+0,EXECUTE,348,US,BACKEND,ROOT,QNN (execute) time
+0,BACKEND,4,COUNT,BACKEND,ROOT,Number of HVX threads used
+0,BACKEND,726,US,BACKEND,ROOT,RPC (execute) time
+0,BACKEND,699,US,BACKEND,ROOT,QNN accelerator (execute) time
+0,BACKEND,637,US,BACKEND,ROOT,Accelerator (execute) time
+0,BACKEND,613,US,BACKEND,ROOT,Accelerator (execute excluding wait) time
+0,EXECUTE,759,US,BACKEND,ROOT,QNN (execute) time

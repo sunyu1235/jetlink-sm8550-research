@@ -1,0 +1,1406 @@
+{
+  "status": "whole_standard_onnx_candidate_shape_checker_passed_pending_full_htp_parity",
+  "source_whole": {
+    "path": "C:\\Users\\sunbo\\Documents\\openpilot\\outputs\\jetlink-gelu-repair-20261101\\light-speed-gelu-both.onnx",
+    "sha256": "9268de3ae9c86d55d64265691bc00a7e1ca418bca57cb895848be806995a7721"
+  },
+  "source_last_query": {
+    "path": "C:\\Users\\sunbo\\Documents\\openpilot\\outputs\\jetlink-gelu-optimization-20261101\\partition-tuning-20261109\\last-query-partition-131-41.onnx",
+    "sha256": "2b82ff27aab349dede0638506778fc935870c4c23b953d3343fa78a4c8d74476"
+  },
+  "model": {
+    "path": "C:\\Users\\sunbo\\Documents\\openpilot\\outputs\\jetlink-gelu-optimization-20261101\\partition-tuning-20261109\\whole-last-query-bounded-gelu.onnx",
+    "bytes": 792432198,
+    "sha256": "c5681e60028d8ee9f488195809342acacfcd2134b25527b3d5f0a1913eab88f4"
+  },
+  "original_node_count": 1180,
+  "candidate_node_count": 1693,
+  "original_initializer_count": 907,
+  "candidate_initializer_count": 935,
+  "last_query_replaced_nodes": [
+    "add_51__prescale",
+    "add_52__prescale",
+    "add_71__prescale",
+    "add_72__prescale",
+    "add_87__prescale",
+    "add_88__prescale",
+    "node_Split_1003",
+    "node_Split_1037",
+    "node_Split_1071",
+    "node__unsafe_view_13",
+    "node__unsafe_view_5",
+    "node__unsafe_view_9",
+    "node_add_51",
+    "node_add_52",
+    "node_add_71",
+    "node_add_72",
+    "node_add_87",
+    "node_add_88",
+    "node_bitwise_not_11",
+    "node_bitwise_not_3",
+    "node_bitwise_not_7",
+    "node_layer_norm_100",
+    "node_layer_norm_101",
+    "node_layer_norm_102",
+    "node_layer_norm_103",
+    "node_layer_norm_58",
+    "node_layer_norm_59",
+    "node_layer_norm_60",
+    "node_layer_norm_61",
+    "node_layer_norm_81",
+    "node_layer_norm_82",
+    "node_layer_norm_83",
+    "node_layer_norm_84",
+    "node_masked_fill_11",
+    "node_masked_fill_3",
+    "node_masked_fill_7",
+    "node_matmul_14",
+    "node_matmul_15",
+    "node_matmul_22",
+    "node_matmul_23",
+    "node_matmul_6",
+    "node_matmul_7",
+    "node_mul_40",
+    "node_mul_47",
+    "node_mul_52",
+    "node_permute_86",
+    "node_permute_90",
+    "node_permute_94",
+    "node_softmax_11",
+    "node_softmax_3",
+    "node_softmax_7",
+    "node_squeeze_10",
+    "node_squeeze_11",
+    "node_squeeze_21",
+    "node_squeeze_22",
+    "node_squeeze_23",
+    "node_squeeze_33",
+    "node_squeeze_34",
+    "node_squeeze_35",
+    "node_squeeze_9",
+    "node_transpose_16",
+    "node_transpose_17",
+    "node_transpose_24",
+    "node_transpose_25",
+    "node_transpose_8",
+    "node_transpose_9",
+    "node_view_49",
+    "node_view_59",
+    "node_view_69",
+    "squeeze_10__prescale",
+    "squeeze_21__prescale",
+    "squeeze_22__prescale",
+    "squeeze_33__prescale",
+    "squeeze_34__prescale",
+    "squeeze_9__prescale",
+    "val_1076__gemm",
+    "val_1076__reshape_in",
+    "val_1076__reshape_out",
+    "val_1080__gemm",
+    "val_1080__reshape_in",
+    "val_1080__reshape_out",
+    "val_1099__gemm",
+    "val_1099__reshape_in",
+    "val_1099__reshape_out",
+    "val_1103__gemm",
+    "val_1103__reshape_in",
+    "val_1103__reshape_out",
+    "val_706__gemm",
+    "val_706__reshape_in",
+    "val_706__reshape_out",
+    "val_710__gemm",
+    "val_710__reshape_in",
+    "val_710__reshape_out",
+    "val_729__gemm",
+    "val_729__reshape_in",
+    "val_729__reshape_out",
+    "val_733__gemm",
+    "val_733__reshape_in",
+    "val_733__reshape_out",
+    "val_894__gemm",
+    "val_894__reshape_in",
+    "val_894__reshape_out",
+    "val_898__gemm",
+    "val_898__reshape_in",
+    "val_898__reshape_out",
+    "val_917__gemm",
+    "val_917__reshape_in",
+    "val_917__reshape_out",
+    "val_921__gemm",
+    "val_921__reshape_in",
+    "val_921__reshape_out"
+  ],
+  "last_query_replacement_node_count": 120,
+  "last_query_reused_initializer_count": 59,
+  "last_query_added_initializers": [
+    {
+      "name": "jl_last_query_starts",
+      "raw_bytes": 8
+    },
+    {
+      "name": "jl_last_query_ends",
+      "raw_bytes": 8
+    },
+    {
+      "name": "jl_last_query_axis1",
+      "raw_bytes": 8
+    },
+    {
+      "name": "jl_last_query_axis2",
+      "raw_bytes": 8
+    },
+    {
+      "name": "val_566__node__unsafe_view_5__last_query",
+      "raw_bytes": 24
+    },
+    {
+      "name": "val_729__out_shape__val_729__reshape_out__last_query",
+      "raw_bytes": 24
+    },
+    {
+      "name": "val_733__out_shape__val_733__reshape_out__last_query",
+      "raw_bytes": 24
+    },
+    {
+      "name": "val_566__node__unsafe_view_9__last_query",
+      "raw_bytes": 24
+    },
+    {
+      "name": "val_917__out_shape__val_917__reshape_out__last_query",
+      "raw_bytes": 24
+    },
+    {
+      "name": "val_921__out_shape__val_921__reshape_out__last_query",
+      "raw_bytes": 24
+    },
+    {
+      "name": "val_566__node__unsafe_view_13__last_query",
+      "raw_bytes": 24
+    },
+    {
+      "name": "val_1099__out_shape__val_1099__reshape_out__last_query",
+      "raw_bytes": 24
+    },
+    {
+      "name": "val_1103__out_shape__val_1103__reshape_out__last_query",
+      "raw_bytes": 24
+    },
+    {
+      "name": "jl_last_query_zero_prefix_512",
+      "raw_bytes": 293888
+    },
+    {
+      "name": "jl_last_query_zero_prefix_1024",
+      "raw_bytes": 587776
+    }
+  ],
+  "gelu_rewrite": {
+    "rewritten_count": 63,
+    "erf_count": 36,
+    "tanh_count": 27,
+    "new_standard_nodes_per_formula": 9,
+    "flat_indices": true,
+    "shared_initializer_names": [
+      "jl_bounded_clip_min",
+      "jl_bounded_clip_max",
+      "jl_bounded_index_scale",
+      "jl_bounded_table_erf",
+      "jl_bounded_table_tanh",
+      "jl_bounded_flat_shape",
+      "jl_bounded_shape_1x4x8x8192",
+      "jl_bounded_shape_1x8x16x4096",
+      "jl_bounded_shape_1x9x32x1024",
+      "jl_bounded_shape_1x16x32x2048",
+      "jl_bounded_shape_1x32x64x1024",
+      "jl_bounded_shape_1x288x1024",
+      "jl_bounded_shape_1x1024"
+    ],
+    "shared_table_raw_bytes": 131076,
+    "replacements": [
+      {
+        "original_node": "node_gelu",
+        "original_op": "ExactGelu",
+        "input": "linear",
+        "output": "gelu",
+        "formula": "erf",
+        "new_nodes": [
+          "jl_bounded_35_node_gelu_abs_node",
+          "jl_bounded_35_node_gelu_clip_node",
+          "jl_bounded_35_node_gelu_scale_node",
+          "jl_bounded_35_node_gelu_index_node",
+          "jl_bounded_35_node_gelu_relu_node",
+          "jl_bounded_35_node_gelu_flatten_index",
+          "jl_bounded_35_node_gelu_gather_node",
+          "jl_bounded_35_node_gelu_restore_shape",
+          "jl_bounded_35_node_gelu_add_node"
+        ]
+      },
+      {
+        "original_node": "node_gelu_1",
+        "original_op": "ExactGelu",
+        "input": "linear_2",
+        "output": "gelu_1",
+        "formula": "erf",
+        "new_nodes": [
+          "jl_bounded_48_node_gelu_1_abs_node",
+          "jl_bounded_48_node_gelu_1_clip_node",
+          "jl_bounded_48_node_gelu_1_scale_node",
+          "jl_bounded_48_node_gelu_1_index_node",
+          "jl_bounded_48_node_gelu_1_relu_node",
+          "jl_bounded_48_node_gelu_1_flatten_index",
+          "jl_bounded_48_node_gelu_1_gather_node",
+          "jl_bounded_48_node_gelu_1_restore_shape",
+          "jl_bounded_48_node_gelu_1_add_node"
+        ]
+      },
+      {
+        "original_node": "node_gelu_2",
+        "original_op": "ExactGelu",
+        "input": "linear_4",
+        "output": "gelu_2",
+        "formula": "erf",
+        "new_nodes": [
+          "jl_bounded_61_node_gelu_2_abs_node",
+          "jl_bounded_61_node_gelu_2_clip_node",
+          "jl_bounded_61_node_gelu_2_scale_node",
+          "jl_bounded_61_node_gelu_2_index_node",
+          "jl_bounded_61_node_gelu_2_relu_node",
+          "jl_bounded_61_node_gelu_2_flatten_index",
+          "jl_bounded_61_node_gelu_2_gather_node",
+          "jl_bounded_61_node_gelu_2_restore_shape",
+          "jl_bounded_61_node_gelu_2_add_node"
+        ]
+      },
+      {
+        "original_node": "node_gelu_3",
+        "original_op": "ExactGelu",
+        "input": "linear_6",
+        "output": "gelu_3",
+        "formula": "erf",
+        "new_nodes": [
+          "jl_bounded_78_node_gelu_3_abs_node",
+          "jl_bounded_78_node_gelu_3_clip_node",
+          "jl_bounded_78_node_gelu_3_scale_node",
+          "jl_bounded_78_node_gelu_3_index_node",
+          "jl_bounded_78_node_gelu_3_relu_node",
+          "jl_bounded_78_node_gelu_3_flatten_index",
+          "jl_bounded_78_node_gelu_3_gather_node",
+          "jl_bounded_78_node_gelu_3_restore_shape",
+          "jl_bounded_78_node_gelu_3_add_node"
+        ]
+      },
+      {
+        "original_node": "node_gelu_4",
+        "original_op": "ExactGelu",
+        "input": "linear_8",
+        "output": "gelu_4",
+        "formula": "erf",
+        "new_nodes": [
+          "jl_bounded_91_node_gelu_4_abs_node",
+          "jl_bounded_91_node_gelu_4_clip_node",
+          "jl_bounded_91_node_gelu_4_scale_node",
+          "jl_bounded_91_node_gelu_4_index_node",
+          "jl_bounded_91_node_gelu_4_relu_node",
+          "jl_bounded_91_node_gelu_4_flatten_index",
+          "jl_bounded_91_node_gelu_4_gather_node",
+          "jl_bounded_91_node_gelu_4_restore_shape",
+          "jl_bounded_91_node_gelu_4_add_node"
+        ]
+      },
+      {
+        "original_node": "node_gelu_5",
+        "original_op": "ExactGelu",
+        "input": "linear_10",
+        "output": "gelu_5",
+        "formula": "erf",
+        "new_nodes": [
+          "jl_bounded_104_node_gelu_5_abs_node",
+          "jl_bounded_104_node_gelu_5_clip_node",
+          "jl_bounded_104_node_gelu_5_scale_node",
+          "jl_bounded_104_node_gelu_5_index_node",
+          "jl_bounded_104_node_gelu_5_relu_node",
+          "jl_bounded_104_node_gelu_5_flatten_index",
+          "jl_bounded_104_node_gelu_5_gather_node",
+          "jl_bounded_104_node_gelu_5_restore_shape",
+          "jl_bounded_104_node_gelu_5_add_node"
+        ]
+      },
+      {
+        "original_node": "node_gelu_6",
+        "original_op": "ExactGelu",
+        "input": "linear_12",
+        "output": "gelu_6",
+        "formula": "erf",
+        "new_nodes": [
+          "jl_bounded_121_node_gelu_6_abs_node",
+          "jl_bounded_121_node_gelu_6_clip_node",
+          "jl_bounded_121_node_gelu_6_scale_node",
+          "jl_bounded_121_node_gelu_6_index_node",
+          "jl_bounded_121_node_gelu_6_relu_node",
+          "jl_bounded_121_node_gelu_6_flatten_index",
+          "jl_bounded_121_node_gelu_6_gather_node",
+          "jl_bounded_121_node_gelu_6_restore_shape",
+          "jl_bounded_121_node_gelu_6_add_node"
+        ]
+      },
+      {
+        "original_node": "node_gelu_7",
+        "original_op": "ExactGelu",
+        "input": "linear_14",
+        "output": "gelu_7",
+        "formula": "erf",
+        "new_nodes": [
+          "jl_bounded_134_node_gelu_7_abs_node",
+          "jl_bounded_134_node_gelu_7_clip_node",
+          "jl_bounded_134_node_gelu_7_scale_node",
+          "jl_bounded_134_node_gelu_7_index_node",
+          "jl_bounded_134_node_gelu_7_relu_node",
+          "jl_bounded_134_node_gelu_7_flatten_index",
+          "jl_bounded_134_node_gelu_7_gather_node",
+          "jl_bounded_134_node_gelu_7_restore_shape",
+          "jl_bounded_134_node_gelu_7_add_node"
+        ]
+      },
+      {
+        "original_node": "node_gelu_8",
+        "original_op": "ExactGelu",
+        "input": "linear_16",
+        "output": "gelu_8",
+        "formula": "erf",
+        "new_nodes": [
+          "jl_bounded_147_node_gelu_8_abs_node",
+          "jl_bounded_147_node_gelu_8_clip_node",
+          "jl_bounded_147_node_gelu_8_scale_node",
+          "jl_bounded_147_node_gelu_8_index_node",
+          "jl_bounded_147_node_gelu_8_relu_node",
+          "jl_bounded_147_node_gelu_8_flatten_index",
+          "jl_bounded_147_node_gelu_8_gather_node",
+          "jl_bounded_147_node_gelu_8_restore_shape",
+          "jl_bounded_147_node_gelu_8_add_node"
+        ]
+      },
+      {
+        "original_node": "node_gelu_9",
+        "original_op": "ExactGelu",
+        "input": "linear_18",
+        "output": "gelu_9",
+        "formula": "erf",
+        "new_nodes": [
+          "jl_bounded_160_node_gelu_9_abs_node",
+          "jl_bounded_160_node_gelu_9_clip_node",
+          "jl_bounded_160_node_gelu_9_scale_node",
+          "jl_bounded_160_node_gelu_9_index_node",
+          "jl_bounded_160_node_gelu_9_relu_node",
+          "jl_bounded_160_node_gelu_9_flatten_index",
+          "jl_bounded_160_node_gelu_9_gather_node",
+          "jl_bounded_160_node_gelu_9_restore_shape",
+          "jl_bounded_160_node_gelu_9_add_node"
+        ]
+      },
+      {
+        "original_node": "node_gelu_10",
+        "original_op": "ExactGelu",
+        "input": "linear_20",
+        "output": "gelu_10",
+        "formula": "erf",
+        "new_nodes": [
+          "jl_bounded_173_node_gelu_10_abs_node",
+          "jl_bounded_173_node_gelu_10_clip_node",
+          "jl_bounded_173_node_gelu_10_scale_node",
+          "jl_bounded_173_node_gelu_10_index_node",
+          "jl_bounded_173_node_gelu_10_relu_node",
+          "jl_bounded_173_node_gelu_10_flatten_index",
+          "jl_bounded_173_node_gelu_10_gather_node",
+          "jl_bounded_173_node_gelu_10_restore_shape",
+          "jl_bounded_173_node_gelu_10_add_node"
+        ]
+      },
+      {
+        "original_node": "node_gelu_11",
+        "original_op": "ExactGelu",
+        "input": "linear_22",
+        "output": "gelu_11",
+        "formula": "erf",
+        "new_nodes": [
+          "jl_bounded_186_node_gelu_11_abs_node",
+          "jl_bounded_186_node_gelu_11_clip_node",
+          "jl_bounded_186_node_gelu_11_scale_node",
+          "jl_bounded_186_node_gelu_11_index_node",
+          "jl_bounded_186_node_gelu_11_relu_node",
+          "jl_bounded_186_node_gelu_11_flatten_index",
+          "jl_bounded_186_node_gelu_11_gather_node",
+          "jl_bounded_186_node_gelu_11_restore_shape",
+          "jl_bounded_186_node_gelu_11_add_node"
+        ]
+      },
+      {
+        "original_node": "node_gelu_12",
+        "original_op": "ExactGelu",
+        "input": "linear_24",
+        "output": "gelu_12",
+        "formula": "erf",
+        "new_nodes": [
+          "jl_bounded_199_node_gelu_12_abs_node",
+          "jl_bounded_199_node_gelu_12_clip_node",
+          "jl_bounded_199_node_gelu_12_scale_node",
+          "jl_bounded_199_node_gelu_12_index_node",
+          "jl_bounded_199_node_gelu_12_relu_node",
+          "jl_bounded_199_node_gelu_12_flatten_index",
+          "jl_bounded_199_node_gelu_12_gather_node",
+          "jl_bounded_199_node_gelu_12_restore_shape",
+          "jl_bounded_199_node_gelu_12_add_node"
+        ]
+      },
+      {
+        "original_node": "node_gelu_13",
+        "original_op": "ExactGelu",
+        "input": "linear_26",
+        "output": "gelu_13",
+        "formula": "erf",
+        "new_nodes": [
+          "jl_bounded_212_node_gelu_13_abs_node",
+          "jl_bounded_212_node_gelu_13_clip_node",
+          "jl_bounded_212_node_gelu_13_scale_node",
+          "jl_bounded_212_node_gelu_13_index_node",
+          "jl_bounded_212_node_gelu_13_relu_node",
+          "jl_bounded_212_node_gelu_13_flatten_index",
+          "jl_bounded_212_node_gelu_13_gather_node",
+          "jl_bounded_212_node_gelu_13_restore_shape",
+          "jl_bounded_212_node_gelu_13_add_node"
+        ]
+      },
+      {
+        "original_node": "node_gelu_14",
+        "original_op": "ExactGelu",
+        "input": "linear_28",
+        "output": "gelu_14",
+        "formula": "erf",
+        "new_nodes": [
+          "jl_bounded_225_node_gelu_14_abs_node",
+          "jl_bounded_225_node_gelu_14_clip_node",
+          "jl_bounded_225_node_gelu_14_scale_node",
+          "jl_bounded_225_node_gelu_14_index_node",
+          "jl_bounded_225_node_gelu_14_relu_node",
+          "jl_bounded_225_node_gelu_14_flatten_index",
+          "jl_bounded_225_node_gelu_14_gather_node",
+          "jl_bounded_225_node_gelu_14_restore_shape",
+          "jl_bounded_225_node_gelu_14_add_node"
+        ]
+      },
+      {
+        "original_node": "node_gelu_15",
+        "original_op": "ExactGelu",
+        "input": "linear_30",
+        "output": "gelu_15",
+        "formula": "erf",
+        "new_nodes": [
+          "jl_bounded_238_node_gelu_15_abs_node",
+          "jl_bounded_238_node_gelu_15_clip_node",
+          "jl_bounded_238_node_gelu_15_scale_node",
+          "jl_bounded_238_node_gelu_15_index_node",
+          "jl_bounded_238_node_gelu_15_relu_node",
+          "jl_bounded_238_node_gelu_15_flatten_index",
+          "jl_bounded_238_node_gelu_15_gather_node",
+          "jl_bounded_238_node_gelu_15_restore_shape",
+          "jl_bounded_238_node_gelu_15_add_node"
+        ]
+      },
+      {
+        "original_node": "node_gelu_16",
+        "original_op": "ExactGelu",
+        "input": "linear_32",
+        "output": "gelu_16",
+        "formula": "erf",
+        "new_nodes": [
+          "jl_bounded_251_node_gelu_16_abs_node",
+          "jl_bounded_251_node_gelu_16_clip_node",
+          "jl_bounded_251_node_gelu_16_scale_node",
+          "jl_bounded_251_node_gelu_16_index_node",
+          "jl_bounded_251_node_gelu_16_relu_node",
+          "jl_bounded_251_node_gelu_16_flatten_index",
+          "jl_bounded_251_node_gelu_16_gather_node",
+          "jl_bounded_251_node_gelu_16_restore_shape",
+          "jl_bounded_251_node_gelu_16_add_node"
+        ]
+      },
+      {
+        "original_node": "node_gelu_17",
+        "original_op": "ExactGelu",
+        "input": "linear_34",
+        "output": "gelu_17",
+        "formula": "erf",
+        "new_nodes": [
+          "jl_bounded_264_node_gelu_17_abs_node",
+          "jl_bounded_264_node_gelu_17_clip_node",
+          "jl_bounded_264_node_gelu_17_scale_node",
+          "jl_bounded_264_node_gelu_17_index_node",
+          "jl_bounded_264_node_gelu_17_relu_node",
+          "jl_bounded_264_node_gelu_17_flatten_index",
+          "jl_bounded_264_node_gelu_17_gather_node",
+          "jl_bounded_264_node_gelu_17_restore_shape",
+          "jl_bounded_264_node_gelu_17_add_node"
+        ]
+      },
+      {
+        "original_node": "node_gelu_18",
+        "original_op": "ExactGelu",
+        "input": "linear_36",
+        "output": "gelu_18",
+        "formula": "erf",
+        "new_nodes": [
+          "jl_bounded_277_node_gelu_18_abs_node",
+          "jl_bounded_277_node_gelu_18_clip_node",
+          "jl_bounded_277_node_gelu_18_scale_node",
+          "jl_bounded_277_node_gelu_18_index_node",
+          "jl_bounded_277_node_gelu_18_relu_node",
+          "jl_bounded_277_node_gelu_18_flatten_index",
+          "jl_bounded_277_node_gelu_18_gather_node",
+          "jl_bounded_277_node_gelu_18_restore_shape",
+          "jl_bounded_277_node_gelu_18_add_node"
+        ]
+      },
+      {
+        "original_node": "node_gelu_19",
+        "original_op": "ExactGelu",
+        "input": "linear_38",
+        "output": "gelu_19",
+        "formula": "erf",
+        "new_nodes": [
+          "jl_bounded_290_node_gelu_19_abs_node",
+          "jl_bounded_290_node_gelu_19_clip_node",
+          "jl_bounded_290_node_gelu_19_scale_node",
+          "jl_bounded_290_node_gelu_19_index_node",
+          "jl_bounded_290_node_gelu_19_relu_node",
+          "jl_bounded_290_node_gelu_19_flatten_index",
+          "jl_bounded_290_node_gelu_19_gather_node",
+          "jl_bounded_290_node_gelu_19_restore_shape",
+          "jl_bounded_290_node_gelu_19_add_node"
+        ]
+      },
+      {
+        "original_node": "node_gelu_20",
+        "original_op": "ExactGelu",
+        "input": "linear_40",
+        "output": "gelu_20",
+        "formula": "erf",
+        "new_nodes": [
+          "jl_bounded_303_node_gelu_20_abs_node",
+          "jl_bounded_303_node_gelu_20_clip_node",
+          "jl_bounded_303_node_gelu_20_scale_node",
+          "jl_bounded_303_node_gelu_20_index_node",
+          "jl_bounded_303_node_gelu_20_relu_node",
+          "jl_bounded_303_node_gelu_20_flatten_index",
+          "jl_bounded_303_node_gelu_20_gather_node",
+          "jl_bounded_303_node_gelu_20_restore_shape",
+          "jl_bounded_303_node_gelu_20_add_node"
+        ]
+      },
+      {
+        "original_node": "node_gelu_21",
+        "original_op": "ExactGelu",
+        "input": "linear_42",
+        "output": "gelu_21",
+        "formula": "erf",
+        "new_nodes": [
+          "jl_bounded_316_node_gelu_21_abs_node",
+          "jl_bounded_316_node_gelu_21_clip_node",
+          "jl_bounded_316_node_gelu_21_scale_node",
+          "jl_bounded_316_node_gelu_21_index_node",
+          "jl_bounded_316_node_gelu_21_relu_node",
+          "jl_bounded_316_node_gelu_21_flatten_index",
+          "jl_bounded_316_node_gelu_21_gather_node",
+          "jl_bounded_316_node_gelu_21_restore_shape",
+          "jl_bounded_316_node_gelu_21_add_node"
+        ]
+      },
+      {
+        "original_node": "node_gelu_22",
+        "original_op": "ExactGelu",
+        "input": "linear_44",
+        "output": "gelu_22",
+        "formula": "erf",
+        "new_nodes": [
+          "jl_bounded_329_node_gelu_22_abs_node",
+          "jl_bounded_329_node_gelu_22_clip_node",
+          "jl_bounded_329_node_gelu_22_scale_node",
+          "jl_bounded_329_node_gelu_22_index_node",
+          "jl_bounded_329_node_gelu_22_relu_node",
+          "jl_bounded_329_node_gelu_22_flatten_index",
+          "jl_bounded_329_node_gelu_22_gather_node",
+          "jl_bounded_329_node_gelu_22_restore_shape",
+          "jl_bounded_329_node_gelu_22_add_node"
+        ]
+      },
+      {
+        "original_node": "node_gelu_23",
+        "original_op": "ExactGelu",
+        "input": "linear_46",
+        "output": "gelu_23",
+        "formula": "erf",
+        "new_nodes": [
+          "jl_bounded_342_node_gelu_23_abs_node",
+          "jl_bounded_342_node_gelu_23_clip_node",
+          "jl_bounded_342_node_gelu_23_scale_node",
+          "jl_bounded_342_node_gelu_23_index_node",
+          "jl_bounded_342_node_gelu_23_relu_node",
+          "jl_bounded_342_node_gelu_23_flatten_index",
+          "jl_bounded_342_node_gelu_23_gather_node",
+          "jl_bounded_342_node_gelu_23_restore_shape",
+          "jl_bounded_342_node_gelu_23_add_node"
+        ]
+      },
+      {
+        "original_node": "node_gelu_24",
+        "original_op": "ExactGelu",
+        "input": "linear_48",
+        "output": "gelu_24",
+        "formula": "erf",
+        "new_nodes": [
+          "jl_bounded_355_node_gelu_24_abs_node",
+          "jl_bounded_355_node_gelu_24_clip_node",
+          "jl_bounded_355_node_gelu_24_scale_node",
+          "jl_bounded_355_node_gelu_24_index_node",
+          "jl_bounded_355_node_gelu_24_relu_node",
+          "jl_bounded_355_node_gelu_24_flatten_index",
+          "jl_bounded_355_node_gelu_24_gather_node",
+          "jl_bounded_355_node_gelu_24_restore_shape",
+          "jl_bounded_355_node_gelu_24_add_node"
+        ]
+      },
+      {
+        "original_node": "node_gelu_25",
+        "original_op": "ExactGelu",
+        "input": "linear_50",
+        "output": "gelu_25",
+        "formula": "erf",
+        "new_nodes": [
+          "jl_bounded_368_node_gelu_25_abs_node",
+          "jl_bounded_368_node_gelu_25_clip_node",
+          "jl_bounded_368_node_gelu_25_scale_node",
+          "jl_bounded_368_node_gelu_25_index_node",
+          "jl_bounded_368_node_gelu_25_relu_node",
+          "jl_bounded_368_node_gelu_25_flatten_index",
+          "jl_bounded_368_node_gelu_25_gather_node",
+          "jl_bounded_368_node_gelu_25_restore_shape",
+          "jl_bounded_368_node_gelu_25_add_node"
+        ]
+      },
+      {
+        "original_node": "node_gelu_26",
+        "original_op": "ExactGelu",
+        "input": "linear_52",
+        "output": "gelu_26",
+        "formula": "erf",
+        "new_nodes": [
+          "jl_bounded_381_node_gelu_26_abs_node",
+          "jl_bounded_381_node_gelu_26_clip_node",
+          "jl_bounded_381_node_gelu_26_scale_node",
+          "jl_bounded_381_node_gelu_26_index_node",
+          "jl_bounded_381_node_gelu_26_relu_node",
+          "jl_bounded_381_node_gelu_26_flatten_index",
+          "jl_bounded_381_node_gelu_26_gather_node",
+          "jl_bounded_381_node_gelu_26_restore_shape",
+          "jl_bounded_381_node_gelu_26_add_node"
+        ]
+      },
+      {
+        "original_node": "node_gelu_27",
+        "original_op": "ExactGelu",
+        "input": "linear_54",
+        "output": "gelu_27",
+        "formula": "erf",
+        "new_nodes": [
+          "jl_bounded_394_node_gelu_27_abs_node",
+          "jl_bounded_394_node_gelu_27_clip_node",
+          "jl_bounded_394_node_gelu_27_scale_node",
+          "jl_bounded_394_node_gelu_27_index_node",
+          "jl_bounded_394_node_gelu_27_relu_node",
+          "jl_bounded_394_node_gelu_27_flatten_index",
+          "jl_bounded_394_node_gelu_27_gather_node",
+          "jl_bounded_394_node_gelu_27_restore_shape",
+          "jl_bounded_394_node_gelu_27_add_node"
+        ]
+      },
+      {
+        "original_node": "node_gelu_28",
+        "original_op": "ExactGelu",
+        "input": "linear_56",
+        "output": "gelu_28",
+        "formula": "erf",
+        "new_nodes": [
+          "jl_bounded_407_node_gelu_28_abs_node",
+          "jl_bounded_407_node_gelu_28_clip_node",
+          "jl_bounded_407_node_gelu_28_scale_node",
+          "jl_bounded_407_node_gelu_28_index_node",
+          "jl_bounded_407_node_gelu_28_relu_node",
+          "jl_bounded_407_node_gelu_28_flatten_index",
+          "jl_bounded_407_node_gelu_28_gather_node",
+          "jl_bounded_407_node_gelu_28_restore_shape",
+          "jl_bounded_407_node_gelu_28_add_node"
+        ]
+      },
+      {
+        "original_node": "node_gelu_29",
+        "original_op": "ExactGelu",
+        "input": "linear_58",
+        "output": "gelu_29",
+        "formula": "erf",
+        "new_nodes": [
+          "jl_bounded_420_node_gelu_29_abs_node",
+          "jl_bounded_420_node_gelu_29_clip_node",
+          "jl_bounded_420_node_gelu_29_scale_node",
+          "jl_bounded_420_node_gelu_29_index_node",
+          "jl_bounded_420_node_gelu_29_relu_node",
+          "jl_bounded_420_node_gelu_29_flatten_index",
+          "jl_bounded_420_node_gelu_29_gather_node",
+          "jl_bounded_420_node_gelu_29_restore_shape",
+          "jl_bounded_420_node_gelu_29_add_node"
+        ]
+      },
+      {
+        "original_node": "node_gelu_30",
+        "original_op": "ExactGelu",
+        "input": "linear_60",
+        "output": "gelu_30",
+        "formula": "erf",
+        "new_nodes": [
+          "jl_bounded_433_node_gelu_30_abs_node",
+          "jl_bounded_433_node_gelu_30_clip_node",
+          "jl_bounded_433_node_gelu_30_scale_node",
+          "jl_bounded_433_node_gelu_30_index_node",
+          "jl_bounded_433_node_gelu_30_relu_node",
+          "jl_bounded_433_node_gelu_30_flatten_index",
+          "jl_bounded_433_node_gelu_30_gather_node",
+          "jl_bounded_433_node_gelu_30_restore_shape",
+          "jl_bounded_433_node_gelu_30_add_node"
+        ]
+      },
+      {
+        "original_node": "node_gelu_31",
+        "original_op": "ExactGelu",
+        "input": "linear_62",
+        "output": "gelu_31",
+        "formula": "erf",
+        "new_nodes": [
+          "jl_bounded_446_node_gelu_31_abs_node",
+          "jl_bounded_446_node_gelu_31_clip_node",
+          "jl_bounded_446_node_gelu_31_scale_node",
+          "jl_bounded_446_node_gelu_31_index_node",
+          "jl_bounded_446_node_gelu_31_relu_node",
+          "jl_bounded_446_node_gelu_31_flatten_index",
+          "jl_bounded_446_node_gelu_31_gather_node",
+          "jl_bounded_446_node_gelu_31_restore_shape",
+          "jl_bounded_446_node_gelu_31_add_node"
+        ]
+      },
+      {
+        "original_node": "node_gelu_32",
+        "original_op": "ExactGelu",
+        "input": "linear_64",
+        "output": "gelu_32",
+        "formula": "erf",
+        "new_nodes": [
+          "jl_bounded_459_node_gelu_32_abs_node",
+          "jl_bounded_459_node_gelu_32_clip_node",
+          "jl_bounded_459_node_gelu_32_scale_node",
+          "jl_bounded_459_node_gelu_32_index_node",
+          "jl_bounded_459_node_gelu_32_relu_node",
+          "jl_bounded_459_node_gelu_32_flatten_index",
+          "jl_bounded_459_node_gelu_32_gather_node",
+          "jl_bounded_459_node_gelu_32_restore_shape",
+          "jl_bounded_459_node_gelu_32_add_node"
+        ]
+      },
+      {
+        "original_node": "node_gelu_33",
+        "original_op": "ExactGelu",
+        "input": "linear_66",
+        "output": "gelu_33",
+        "formula": "erf",
+        "new_nodes": [
+          "jl_bounded_476_node_gelu_33_abs_node",
+          "jl_bounded_476_node_gelu_33_clip_node",
+          "jl_bounded_476_node_gelu_33_scale_node",
+          "jl_bounded_476_node_gelu_33_index_node",
+          "jl_bounded_476_node_gelu_33_relu_node",
+          "jl_bounded_476_node_gelu_33_flatten_index",
+          "jl_bounded_476_node_gelu_33_gather_node",
+          "jl_bounded_476_node_gelu_33_restore_shape",
+          "jl_bounded_476_node_gelu_33_add_node"
+        ]
+      },
+      {
+        "original_node": "node_gelu_34",
+        "original_op": "ExactGelu",
+        "input": "linear_68",
+        "output": "gelu_34",
+        "formula": "erf",
+        "new_nodes": [
+          "jl_bounded_489_node_gelu_34_abs_node",
+          "jl_bounded_489_node_gelu_34_clip_node",
+          "jl_bounded_489_node_gelu_34_scale_node",
+          "jl_bounded_489_node_gelu_34_index_node",
+          "jl_bounded_489_node_gelu_34_relu_node",
+          "jl_bounded_489_node_gelu_34_flatten_index",
+          "jl_bounded_489_node_gelu_34_gather_node",
+          "jl_bounded_489_node_gelu_34_restore_shape",
+          "jl_bounded_489_node_gelu_34_add_node"
+        ]
+      },
+      {
+        "original_node": "node_gelu_35",
+        "original_op": "ExactGelu",
+        "input": "linear_70",
+        "output": "gelu_35",
+        "formula": "erf",
+        "new_nodes": [
+          "jl_bounded_502_node_gelu_35_abs_node",
+          "jl_bounded_502_node_gelu_35_clip_node",
+          "jl_bounded_502_node_gelu_35_scale_node",
+          "jl_bounded_502_node_gelu_35_index_node",
+          "jl_bounded_502_node_gelu_35_relu_node",
+          "jl_bounded_502_node_gelu_35_flatten_index",
+          "jl_bounded_502_node_gelu_35_gather_node",
+          "jl_bounded_502_node_gelu_35_restore_shape",
+          "jl_bounded_502_node_gelu_35_add_node"
+        ]
+      },
+      {
+        "original_node": "node_gelu_36",
+        "original_op": "ExactGeluTanh",
+        "input": "linear_72",
+        "output": "gelu_36",
+        "formula": "tanh",
+        "new_nodes": [
+          "jl_bounded_520_node_gelu_36_abs_node",
+          "jl_bounded_520_node_gelu_36_clip_node",
+          "jl_bounded_520_node_gelu_36_scale_node",
+          "jl_bounded_520_node_gelu_36_index_node",
+          "jl_bounded_520_node_gelu_36_relu_node",
+          "jl_bounded_520_node_gelu_36_flatten_index",
+          "jl_bounded_520_node_gelu_36_gather_node",
+          "jl_bounded_520_node_gelu_36_restore_shape",
+          "jl_bounded_520_node_gelu_36_add_node"
+        ]
+      },
+      {
+        "original_node": "node_gelu_37",
+        "original_op": "ExactGeluTanh",
+        "input": "linear_74",
+        "output": "gelu_37",
+        "formula": "tanh",
+        "new_nodes": [
+          "jl_bounded_525_node_gelu_37_abs_node",
+          "jl_bounded_525_node_gelu_37_clip_node",
+          "jl_bounded_525_node_gelu_37_scale_node",
+          "jl_bounded_525_node_gelu_37_index_node",
+          "jl_bounded_525_node_gelu_37_relu_node",
+          "jl_bounded_525_node_gelu_37_flatten_index",
+          "jl_bounded_525_node_gelu_37_gather_node",
+          "jl_bounded_525_node_gelu_37_restore_shape",
+          "jl_bounded_525_node_gelu_37_add_node"
+        ]
+      },
+      {
+        "original_node": "node_gelu_38",
+        "original_op": "ExactGeluTanh",
+        "input": "linear_83",
+        "output": "gelu_38",
+        "formula": "tanh",
+        "new_nodes": [
+          "jl_bounded_537_node_gelu_38_abs_node",
+          "jl_bounded_537_node_gelu_38_clip_node",
+          "jl_bounded_537_node_gelu_38_scale_node",
+          "jl_bounded_537_node_gelu_38_index_node",
+          "jl_bounded_537_node_gelu_38_relu_node",
+          "jl_bounded_537_node_gelu_38_flatten_index",
+          "jl_bounded_537_node_gelu_38_gather_node",
+          "jl_bounded_537_node_gelu_38_restore_shape",
+          "jl_bounded_537_node_gelu_38_add_node"
+        ]
+      },
+      {
+        "original_node": "node_gelu_39",
+        "original_op": "ExactGeluTanh",
+        "input": "linear_86",
+        "output": "gelu_39",
+        "formula": "tanh",
+        "new_nodes": [
+          "jl_bounded_552_node_gelu_39_abs_node",
+          "jl_bounded_552_node_gelu_39_clip_node",
+          "jl_bounded_552_node_gelu_39_scale_node",
+          "jl_bounded_552_node_gelu_39_index_node",
+          "jl_bounded_552_node_gelu_39_relu_node",
+          "jl_bounded_552_node_gelu_39_flatten_index",
+          "jl_bounded_552_node_gelu_39_gather_node",
+          "jl_bounded_552_node_gelu_39_restore_shape",
+          "jl_bounded_552_node_gelu_39_add_node"
+        ]
+      },
+      {
+        "original_node": "node_gelu_40",
+        "original_op": "ExactGeluTanh",
+        "input": "linear_88",
+        "output": "gelu_40",
+        "formula": "tanh",
+        "new_nodes": [
+          "jl_bounded_558_node_gelu_40_abs_node",
+          "jl_bounded_558_node_gelu_40_clip_node",
+          "jl_bounded_558_node_gelu_40_scale_node",
+          "jl_bounded_558_node_gelu_40_index_node",
+          "jl_bounded_558_node_gelu_40_relu_node",
+          "jl_bounded_558_node_gelu_40_flatten_index",
+          "jl_bounded_558_node_gelu_40_gather_node",
+          "jl_bounded_558_node_gelu_40_restore_shape",
+          "jl_bounded_558_node_gelu_40_add_node"
+        ]
+      },
+      {
+        "original_node": "node_gelu_41",
+        "original_op": "ExactGeluTanh",
+        "input": "linear_98",
+        "output": "gelu_41",
+        "formula": "tanh",
+        "new_nodes": [
+          "jl_bounded_624_node_gelu_41_abs_node",
+          "jl_bounded_624_node_gelu_41_clip_node",
+          "jl_bounded_624_node_gelu_41_scale_node",
+          "jl_bounded_624_node_gelu_41_index_node",
+          "jl_bounded_624_node_gelu_41_relu_node",
+          "jl_bounded_624_node_gelu_41_flatten_index",
+          "jl_bounded_624_node_gelu_41_gather_node",
+          "jl_bounded_624_node_gelu_41_restore_shape",
+          "jl_bounded_624_node_gelu_41_add_node"
+        ]
+      },
+      {
+        "original_node": "node_gelu_42",
+        "original_op": "ExactGeluTanh",
+        "input": "linear_102",
+        "output": "gelu_42",
+        "formula": "tanh",
+        "new_nodes": [
+          "jl_bounded_662_node_gelu_42_abs_node",
+          "jl_bounded_662_node_gelu_42_clip_node",
+          "jl_bounded_662_node_gelu_42_scale_node",
+          "jl_bounded_662_node_gelu_42_index_node",
+          "jl_bounded_662_node_gelu_42_relu_node",
+          "jl_bounded_662_node_gelu_42_flatten_index",
+          "jl_bounded_662_node_gelu_42_gather_node",
+          "jl_bounded_662_node_gelu_42_restore_shape",
+          "jl_bounded_662_node_gelu_42_add_node"
+        ]
+      },
+      {
+        "original_node": "node_gelu_43",
+        "original_op": "ExactGeluTanh",
+        "input": "linear_106",
+        "output": "gelu_43",
+        "formula": "tanh",
+        "new_nodes": [
+          "jl_bounded_700_node_gelu_43_abs_node",
+          "jl_bounded_700_node_gelu_43_clip_node",
+          "jl_bounded_700_node_gelu_43_scale_node",
+          "jl_bounded_700_node_gelu_43_index_node",
+          "jl_bounded_700_node_gelu_43_relu_node",
+          "jl_bounded_700_node_gelu_43_flatten_index",
+          "jl_bounded_700_node_gelu_43_gather_node",
+          "jl_bounded_700_node_gelu_43_restore_shape",
+          "jl_bounded_700_node_gelu_43_add_node"
+        ]
+      },
+      {
+        "original_node": "node_gelu_50",
+        "original_op": "ExactGeluTanh",
+        "input": "linear_127",
+        "output": "gelu_50",
+        "formula": "tanh",
+        "new_nodes": [
+          "jl_bounded_702_node_gelu_50_abs_node",
+          "jl_bounded_702_node_gelu_50_clip_node",
+          "jl_bounded_702_node_gelu_50_scale_node",
+          "jl_bounded_702_node_gelu_50_index_node",
+          "jl_bounded_702_node_gelu_50_relu_node",
+          "jl_bounded_702_node_gelu_50_flatten_index",
+          "jl_bounded_702_node_gelu_50_gather_node",
+          "jl_bounded_702_node_gelu_50_restore_shape",
+          "jl_bounded_702_node_gelu_50_add_node"
+        ]
+      },
+      {
+        "original_node": "node_gelu_51",
+        "original_op": "ExactGeluTanh",
+        "input": "linear_129",
+        "output": "gelu_51",
+        "formula": "tanh",
+        "new_nodes": [
+          "jl_bounded_708_node_gelu_51_abs_node",
+          "jl_bounded_708_node_gelu_51_clip_node",
+          "jl_bounded_708_node_gelu_51_scale_node",
+          "jl_bounded_708_node_gelu_51_index_node",
+          "jl_bounded_708_node_gelu_51_relu_node",
+          "jl_bounded_708_node_gelu_51_flatten_index",
+          "jl_bounded_708_node_gelu_51_gather_node",
+          "jl_bounded_708_node_gelu_51_restore_shape",
+          "jl_bounded_708_node_gelu_51_add_node"
+        ]
+      },
+      {
+        "original_node": "node_gelu_52",
+        "original_op": "ExactGeluTanh",
+        "input": "linear_139",
+        "output": "gelu_52",
+        "formula": "tanh",
+        "new_nodes": [
+          "jl_bounded_766_node_gelu_52_abs_node",
+          "jl_bounded_766_node_gelu_52_clip_node",
+          "jl_bounded_766_node_gelu_52_scale_node",
+          "jl_bounded_766_node_gelu_52_index_node",
+          "jl_bounded_766_node_gelu_52_relu_node",
+          "jl_bounded_766_node_gelu_52_flatten_index",
+          "jl_bounded_766_node_gelu_52_gather_node",
+          "jl_bounded_766_node_gelu_52_restore_shape",
+          "jl_bounded_766_node_gelu_52_add_node"
+        ]
+      },
+      {
+        "original_node": "node_gelu_53",
+        "original_op": "ExactGeluTanh",
+        "input": "linear_143",
+        "output": "gelu_53",
+        "formula": "tanh",
+        "new_nodes": [
+          "jl_bounded_804_node_gelu_53_abs_node",
+          "jl_bounded_804_node_gelu_53_clip_node",
+          "jl_bounded_804_node_gelu_53_scale_node",
+          "jl_bounded_804_node_gelu_53_index_node",
+          "jl_bounded_804_node_gelu_53_relu_node",
+          "jl_bounded_804_node_gelu_53_flatten_index",
+          "jl_bounded_804_node_gelu_53_gather_node",
+          "jl_bounded_804_node_gelu_53_restore_shape",
+          "jl_bounded_804_node_gelu_53_add_node"
+        ]
+      },
+      {
+        "original_node": "node_gelu_54",
+        "original_op": "ExactGeluTanh",
+        "input": "linear_147",
+        "output": "gelu_54",
+        "formula": "tanh",
+        "new_nodes": [
+          "jl_bounded_842_node_gelu_54_abs_node",
+          "jl_bounded_842_node_gelu_54_clip_node",
+          "jl_bounded_842_node_gelu_54_scale_node",
+          "jl_bounded_842_node_gelu_54_index_node",
+          "jl_bounded_842_node_gelu_54_relu_node",
+          "jl_bounded_842_node_gelu_54_flatten_index",
+          "jl_bounded_842_node_gelu_54_gather_node",
+          "jl_bounded_842_node_gelu_54_restore_shape",
+          "jl_bounded_842_node_gelu_54_add_node"
+        ]
+      },
+      {
+        "original_node": "node_gelu_57",
+        "original_op": "ExactGeluTanh",
+        "input": "linear_156",
+        "output": "gelu_57",
+        "formula": "tanh",
+        "new_nodes": [
+          "jl_bounded_845_node_gelu_57_abs_node",
+          "jl_bounded_845_node_gelu_57_clip_node",
+          "jl_bounded_845_node_gelu_57_scale_node",
+          "jl_bounded_845_node_gelu_57_index_node",
+          "jl_bounded_845_node_gelu_57_relu_node",
+          "jl_bounded_845_node_gelu_57_flatten_index",
+          "jl_bounded_845_node_gelu_57_gather_node",
+          "jl_bounded_845_node_gelu_57_restore_shape",
+          "jl_bounded_845_node_gelu_57_add_node"
+        ]
+      },
+      {
+        "original_node": "node_gelu_58",
+        "original_op": "ExactGeluTanh",
+        "input": "linear_158",
+        "output": "gelu_58",
+        "formula": "tanh",
+        "new_nodes": [
+          "jl_bounded_851_node_gelu_58_abs_node",
+          "jl_bounded_851_node_gelu_58_clip_node",
+          "jl_bounded_851_node_gelu_58_scale_node",
+          "jl_bounded_851_node_gelu_58_index_node",
+          "jl_bounded_851_node_gelu_58_relu_node",
+          "jl_bounded_851_node_gelu_58_flatten_index",
+          "jl_bounded_851_node_gelu_58_gather_node",
+          "jl_bounded_851_node_gelu_58_restore_shape",
+          "jl_bounded_851_node_gelu_58_add_node"
+        ]
+      },
+      {
+        "original_node": "node_gelu_59",
+        "original_op": "ExactGeluTanh",
+        "input": "linear_168",
+        "output": "gelu_59",
+        "formula": "tanh",
+        "new_nodes": [
+          "jl_bounded_915_node_gelu_59_abs_node",
+          "jl_bounded_915_node_gelu_59_clip_node",
+          "jl_bounded_915_node_gelu_59_scale_node",
+          "jl_bounded_915_node_gelu_59_index_node",
+          "jl_bounded_915_node_gelu_59_relu_node",
+          "jl_bounded_915_node_gelu_59_flatten_index",
+          "jl_bounded_915_node_gelu_59_gather_node",
+          "jl_bounded_915_node_gelu_59_restore_shape",
+          "jl_bounded_915_node_gelu_59_add_node"
+        ]
+      },
+      {
+        "original_node": "node_gelu_60",
+        "original_op": "ExactGeluTanh",
+        "input": "linear_172",
+        "output": "gelu_60",
+        "formula": "tanh",
+        "new_nodes": [
+          "jl_bounded_953_node_gelu_60_abs_node",
+          "jl_bounded_953_node_gelu_60_clip_node",
+          "jl_bounded_953_node_gelu_60_scale_node",
+          "jl_bounded_953_node_gelu_60_index_node",
+          "jl_bounded_953_node_gelu_60_relu_node",
+          "jl_bounded_953_node_gelu_60_flatten_index",
+          "jl_bounded_953_node_gelu_60_gather_node",
+          "jl_bounded_953_node_gelu_60_restore_shape",
+          "jl_bounded_953_node_gelu_60_add_node"
+        ]
+      },
+      {
+        "original_node": "node_gelu_61",
+        "original_op": "ExactGeluTanh",
+        "input": "linear_176",
+        "output": "gelu_61",
+        "formula": "tanh",
+        "new_nodes": [
+          "jl_bounded_991_node_gelu_61_abs_node",
+          "jl_bounded_991_node_gelu_61_clip_node",
+          "jl_bounded_991_node_gelu_61_scale_node",
+          "jl_bounded_991_node_gelu_61_index_node",
+          "jl_bounded_991_node_gelu_61_relu_node",
+          "jl_bounded_991_node_gelu_61_flatten_index",
+          "jl_bounded_991_node_gelu_61_gather_node",
+          "jl_bounded_991_node_gelu_61_restore_shape",
+          "jl_bounded_991_node_gelu_61_add_node"
+        ]
+      },
+      {
+        "original_node": "node_gelu_44",
+        "original_op": "ExactGeluTanh",
+        "input": "linear_110",
+        "output": "gelu_44",
+        "formula": "tanh",
+        "new_nodes": [
+          "jl_bounded_1112_node_gelu_44_abs_node",
+          "jl_bounded_1112_node_gelu_44_clip_node",
+          "jl_bounded_1112_node_gelu_44_scale_node",
+          "jl_bounded_1112_node_gelu_44_index_node",
+          "jl_bounded_1112_node_gelu_44_relu_node",
+          "jl_bounded_1112_node_gelu_44_flatten_index",
+          "jl_bounded_1112_node_gelu_44_gather_node",
+          "jl_bounded_1112_node_gelu_44_restore_shape",
+          "jl_bounded_1112_node_gelu_44_add_node"
+        ]
+      },
+      {
+        "original_node": "node_gelu_45",
+        "original_op": "ExactGeluTanh",
+        "input": "linear_112",
+        "output": "gelu_45",
+        "formula": "tanh",
+        "new_nodes": [
+          "jl_bounded_1121_node_gelu_45_abs_node",
+          "jl_bounded_1121_node_gelu_45_clip_node",
+          "jl_bounded_1121_node_gelu_45_scale_node",
+          "jl_bounded_1121_node_gelu_45_index_node",
+          "jl_bounded_1121_node_gelu_45_relu_node",
+          "jl_bounded_1121_node_gelu_45_flatten_index",
+          "jl_bounded_1121_node_gelu_45_gather_node",
+          "jl_bounded_1121_node_gelu_45_restore_shape",
+          "jl_bounded_1121_node_gelu_45_add_node"
+        ]
+      },
+      {
+        "original_node": "node_gelu_46",
+        "original_op": "ExactGeluTanh",
+        "input": "linear_115",
+        "output": "gelu_46",
+        "formula": "tanh",
+        "new_nodes": [
+          "jl_bounded_1127_node_gelu_46_abs_node",
+          "jl_bounded_1127_node_gelu_46_clip_node",
+          "jl_bounded_1127_node_gelu_46_scale_node",
+          "jl_bounded_1127_node_gelu_46_index_node",
+          "jl_bounded_1127_node_gelu_46_relu_node",
+          "jl_bounded_1127_node_gelu_46_flatten_index",
+          "jl_bounded_1127_node_gelu_46_gather_node",
+          "jl_bounded_1127_node_gelu_46_restore_shape",
+          "jl_bounded_1127_node_gelu_46_add_node"
+        ]
+      },
+      {
+        "original_node": "node_gelu_47",
+        "original_op": "ExactGeluTanh",
+        "input": "linear_118",
+        "output": "gelu_47",
+        "formula": "tanh",
+        "new_nodes": [
+          "jl_bounded_1133_node_gelu_47_abs_node",
+          "jl_bounded_1133_node_gelu_47_clip_node",
+          "jl_bounded_1133_node_gelu_47_scale_node",
+          "jl_bounded_1133_node_gelu_47_index_node",
+          "jl_bounded_1133_node_gelu_47_relu_node",
+          "jl_bounded_1133_node_gelu_47_flatten_index",
+          "jl_bounded_1133_node_gelu_47_gather_node",
+          "jl_bounded_1133_node_gelu_47_restore_shape",
+          "jl_bounded_1133_node_gelu_47_add_node"
+        ]
+      },
+      {
+        "original_node": "node_gelu_49",
+        "original_op": "ExactGeluTanh",
+        "input": "linear_124",
+        "output": "gelu_49",
+        "formula": "tanh",
+        "new_nodes": [
+          "jl_bounded_1139_node_gelu_49_abs_node",
+          "jl_bounded_1139_node_gelu_49_clip_node",
+          "jl_bounded_1139_node_gelu_49_scale_node",
+          "jl_bounded_1139_node_gelu_49_index_node",
+          "jl_bounded_1139_node_gelu_49_relu_node",
+          "jl_bounded_1139_node_gelu_49_flatten_index",
+          "jl_bounded_1139_node_gelu_49_gather_node",
+          "jl_bounded_1139_node_gelu_49_restore_shape",
+          "jl_bounded_1139_node_gelu_49_add_node"
+        ]
+      },
+      {
+        "original_node": "node_gelu_55",
+        "original_op": "ExactGeluTanh",
+        "input": "linear_151",
+        "output": "gelu_55",
+        "formula": "tanh",
+        "new_nodes": [
+          "jl_bounded_1146_node_gelu_55_abs_node",
+          "jl_bounded_1146_node_gelu_55_clip_node",
+          "jl_bounded_1146_node_gelu_55_scale_node",
+          "jl_bounded_1146_node_gelu_55_index_node",
+          "jl_bounded_1146_node_gelu_55_relu_node",
+          "jl_bounded_1146_node_gelu_55_flatten_index",
+          "jl_bounded_1146_node_gelu_55_gather_node",
+          "jl_bounded_1146_node_gelu_55_restore_shape",
+          "jl_bounded_1146_node_gelu_55_add_node"
+        ]
+      },
+      {
+        "original_node": "node_gelu_56",
+        "original_op": "ExactGeluTanh",
+        "input": "linear_153",
+        "output": "gelu_56",
+        "formula": "tanh",
+        "new_nodes": [
+          "jl_bounded_1155_node_gelu_56_abs_node",
+          "jl_bounded_1155_node_gelu_56_clip_node",
+          "jl_bounded_1155_node_gelu_56_scale_node",
+          "jl_bounded_1155_node_gelu_56_index_node",
+          "jl_bounded_1155_node_gelu_56_relu_node",
+          "jl_bounded_1155_node_gelu_56_flatten_index",
+          "jl_bounded_1155_node_gelu_56_gather_node",
+          "jl_bounded_1155_node_gelu_56_restore_shape",
+          "jl_bounded_1155_node_gelu_56_add_node"
+        ]
+      },
+      {
+        "original_node": "node_gelu_62",
+        "original_op": "ExactGeluTanh",
+        "input": "linear_180",
+        "output": "gelu_62",
+        "formula": "tanh",
+        "new_nodes": [
+          "jl_bounded_1167_node_gelu_62_abs_node",
+          "jl_bounded_1167_node_gelu_62_clip_node",
+          "jl_bounded_1167_node_gelu_62_scale_node",
+          "jl_bounded_1167_node_gelu_62_index_node",
+          "jl_bounded_1167_node_gelu_62_relu_node",
+          "jl_bounded_1167_node_gelu_62_flatten_index",
+          "jl_bounded_1167_node_gelu_62_gather_node",
+          "jl_bounded_1167_node_gelu_62_restore_shape",
+          "jl_bounded_1167_node_gelu_62_add_node"
+        ]
+      },
+      {
+        "original_node": "node_gelu_63",
+        "original_op": "ExactGeluTanh",
+        "input": "linear_184",
+        "output": "gelu_63",
+        "formula": "tanh",
+        "new_nodes": [
+          "jl_bounded_1177_node_gelu_63_abs_node",
+          "jl_bounded_1177_node_gelu_63_clip_node",
+          "jl_bounded_1177_node_gelu_63_scale_node",
+          "jl_bounded_1177_node_gelu_63_index_node",
+          "jl_bounded_1177_node_gelu_63_relu_node",
+          "jl_bounded_1177_node_gelu_63_flatten_index",
+          "jl_bounded_1177_node_gelu_63_gather_node",
+          "jl_bounded_1177_node_gelu_63_restore_shape",
+          "jl_bounded_1177_node_gelu_63_add_node"
+        ]
+      }
+    ],
+    "acceptance": "Pending strict HTP finite-domain probe and full-model recurrent head parity; thresholds unchanged"
+  },
+  "custom_nodes": 0,
+  "epcontext_nodes": 0,
+  "op_counts": {
+    "Abs": 63,
+    "Add": 155,
+    "Cast": 68,
+    "Clip": 63,
+    "Concat": 13,
+    "Conv": 41,
+    "Div": 1,
+    "Gather": 74,
+    "GatherND": 1,
+    "Gemm": 167,
+    "Identity": 3,
+    "LayerNormalization": 103,
+    "MatMul": 39,
+    "Mul": 178,
+    "Not": 9,
+    "ReduceMax": 1,
+    "ReduceMean": 1,
+    "Relu": 63,
+    "Reshape": 419,
+    "Sigmoid": 8,
+    "Slice": 15,
+    "Softmax": 12,
+    "Split": 12,
+    "Squeeze": 36,
+    "Sub": 1,
+    "Tanh": 1,
+    "Tile": 3,
+    "Transpose": 123,
+    "Unsqueeze": 11,
+    "Where": 9
+  },
+  "public_inputs_preserved": true,
+  "public_outputs_preserved": true,
+  "public_output_names": [
+    "outputs",
+    "next_state_img_q",
+    "next_state_desire_q",
+    "next_state_feat_q"
+  ],
+  "original_metadata_ir_and_opsets_preserved": true,
+  "original_weights_retained": "All source initializers preserved byte-for-byte; same-name last-query constants reused only after exact protobuf equality checks.",
+  "topological_sort": "passed",
+  "onnx_shape_inference_strict": "passed",
+  "onnx_checker_full_check": "passed",
+  "operator_validation_reference": "C:\\Users\\sunbo\\Documents\\openpilot\\reports\\jetlink-gelu-optimization-20261101\\partition-tuning-20261109\\bounded-gelu-flat-manifest.json",
+  "scope": "The rank1 Gather operator formulation passed the device finite-domain check. Complete recurrent model error/per-head parity and timing remain to be measured; original thresholds are unchanged."
+}

@@ -1,0 +1,42 @@
+{
+  "artifact": "legacy 32 ms shared-memory experiment source and profiling evidence",
+  "source_directory": "C:\\Users\\sunbo\\Documents\\moto-x40-root",
+  "model_sha256": "6274eb4a3f3eb7ad1ab341d222bbba2ba709b06645dbbd15ac4971d6cb22ab21",
+  "files": [
+    {
+      "file": "light-speed-baseline-20261031.md",
+      "source_name": "light-speed-baseline-20261031.md",
+      "bytes": 5527,
+      "sha256": "c97c91756ffdf3377fd754dd8662eda01322bd565976c416a04157ed6c217366"
+    },
+    {
+      "file": "qnn_context_probe.c",
+      "source_name": "qnn_context_probe.c",
+      "bytes": 5682,
+      "sha256": "30e585ddc61b7749023f4ecc9419cbcc7d45912c55f97bcbded032862376627a"
+    },
+    {
+      "file": "qnn_jl_shared.c",
+      "source_name": "qnn_jl_shared.c",
+      "bytes": 11460,
+      "sha256": "a337487d3c22f7f8418ffd3a0bc795b10042fe5044c41420d8960d75689ae170"
+    },
+    {
+      "file": "jl_ort.h",
+      "source_name": "jl_ort.h",
+      "bytes": 3066,
+      "sha256": "3802e1ac975c1f39654c23179901f8651ffe6909a68d229f030a3c58363b162b"
+    },
+    {
+      "file": "qnn-profile-basic.csv",
+      "source_name": "qnn-profile-basic.csv",
+      "bytes": 15636,
+      "sha256": "cb012a31b5dc3494161c8be437153a75c2ab56a9f4ee48377ec08c467c279a9f"
+    }
+  ],
+  "notes": [
+    "Original 1,200-frame stdout and CSV were not found in the workspace or source files provided for this copy.",
+    "qnn-profile-basic.csv is an instrumented profile; profiling affects performance and does not replace an unprofiled 32 ms timing result.",
+    "No binary, runtime, model, account, or token files are included."
+  ]
+}

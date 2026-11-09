@@ -1,0 +1,90 @@
+{
+  "base": "C:\\Users\\sunbo\\Documents\\openpilot\\outputs\\jetlink-block-case-20261101\\block-fp16.onnx",
+  "base_sha256": "6256b95a2711c8b8c48dc2a90155087df855a876e25eac0f6a74c784f8d2018f",
+  "graph": "C:\\Users\\sunbo\\Documents\\openpilot\\outputs\\jetlink-block-case-20261101\\block-custom-thin.onnx",
+  "graph_bytes": 23525,
+  "graph_sha256": "bf4b24f1f7d9bf0e448f874a52d494fb24ed16038c9efd793ba979bc58307780",
+  "external_initializer_count": 13,
+  "weight_bytes_reused": 67346528,
+  "external_tensors": [
+    {
+      "name": "model.vision.encoder.stages.3.blocks.2.conv_dw.weight",
+      "offset": 19814,
+      "length": 200704,
+      "sha256": "06abedc68586ffd8fe652d61443e175cf69eff4504239946f28c8be9e86111a9"
+    },
+    {
+      "name": "model.vision.encoder.stages.3.blocks.2.conv_dw.bias",
+      "offset": 220582,
+      "length": 4096,
+      "sha256": "5a002028219ae005d68928d7a3c75c2e31fe1ce35f0973bf4f3f8def64bb18d4"
+    },
+    {
+      "name": "model.vision.encoder.stages.3.blocks.2.norm.weight",
+      "offset": 224741,
+      "length": 4096,
+      "sha256": "9825ec5a9bcb53e9dd0b876ea0c693c70e0167b0b9ff9d7d0f49fea56274407b"
+    },
+    {
+      "name": "model.vision.encoder.stages.3.blocks.2.norm.bias",
+      "offset": 228898,
+      "length": 4096,
+      "sha256": "2bb721f337a85e68441faaa105ff90393008ec26af7840334a23d5d193c67680"
+    },
+    {
+      "name": "model.vision.encoder.stages.3.blocks.2.mlp.fc1.bias",
+      "offset": 233060,
+      "length": 16384,
+      "sha256": "a46d72788389439892abdd56441813785e83c63cba7d18e286541b0c361c1789"
+    },
+    {
+      "name": "model.vision.encoder.stages.3.blocks.2.mlp.fc2.bias",
+      "offset": 249508,
+      "length": 4096,
+      "sha256": "da1bbf94e86f1ed965f70a1e3a4df745009d21afe57927cd91535506d4cf1c53"
+    },
+    {
+      "name": "view_38",
+      "offset": 253630,
+      "length": 4096,
+      "sha256": "c444130785a8eabdaacd3c33b45410d043f876a24ceddf206e3d4d56c7ab8ede"
+    },
+    {
+      "name": "val_521__flat_shape",
+      "offset": 257755,
+      "length": 16,
+      "sha256": "76aecb4697fd87cedf5df57b5c33ef92ec5236f810b3c989d7d3dd37f74a42ec"
+    },
+    {
+      "name": "val_521__out_shape",
+      "offset": 257799,
+      "length": 32,
+      "sha256": "3c4ea31e1fb8e0eeef7b6725d117569006d27442abf668e7feada5c0f99577ea"
+    },
+    {
+      "name": "val_523__flat_shape",
+      "offset": 257860,
+      "length": 16,
+      "sha256": "459bafd4a88ed73fa4fbcef7178f19339cb5ba8b75590f548a4e696c96b721c6"
+    },
+    {
+      "name": "val_523__out_shape",
+      "offset": 257904,
+      "length": 32,
+      "sha256": "65cc52916b2557cc7484f6debcda8dd8dc8ca501eeda333ab47bbdd875548053"
+    },
+    {
+      "name": "val_521__wt__matmul",
+      "offset": 257975,
+      "length": 33554432,
+      "sha256": "e979f8659d41d7189b107c6951ef454ab052f14129cac75ebf07e9bb5cf9df8b"
+    },
+    {
+      "name": "val_523__wt__matmul",
+      "offset": 33812446,
+      "length": 33554432,
+      "sha256": "94b70ad0f4b51ea1fa57cf83ed8255221ce7ebfe98bf16b90376975252fe0084"
+    }
+  ],
+  "onnx_checker": "passed"
+}

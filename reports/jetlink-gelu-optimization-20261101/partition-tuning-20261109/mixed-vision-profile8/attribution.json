@@ -1,0 +1,79 @@
+{
+  "profile": "outputs\\jetlink-gelu-optimization-20261101\\partition-tuning-20261109\\mixed-vision-profile8\\ort-profile_2026-11-09_21-54-52_054.json",
+  "profile_is_attribution_not_unprofiled_latency": true,
+  "frames": 8,
+  "providers": {
+    "QNNExecutionProvider": {
+      "events_per_frame": 37.0,
+      "mean_ms_per_frame": 36.949625,
+      "excluding_first_frame_ms": 32.01128571428571
+    },
+    "CPUExecutionProvider": {
+      "events_per_frame": 36.0,
+      "mean_ms_per_frame": 12.758625,
+      "excluding_first_frame_ms": 13.573285714285715
+    }
+  },
+  "top_nodes": [
+    {
+      "provider": "QNNExecutionProvider",
+      "name": "QNNExecutionProvider_QNN_7258221202719330170_37_0_kernel_time",
+      "mean_ms": 3.629125
+    },
+    {
+      "provider": "QNNExecutionProvider",
+      "name": "QNNExecutionProvider_QNN_7258221202719330170_71_34_kernel_time",
+      "mean_ms": 1.772625
+    },
+    {
+      "provider": "QNNExecutionProvider",
+      "name": "QNNExecutionProvider_QNN_7258221202719330170_72_35_kernel_time",
+      "mean_ms": 1.76575
+    },
+    {
+      "provider": "QNNExecutionProvider",
+      "name": "QNNExecutionProvider_QNN_7258221202719330170_70_33_kernel_time",
+      "mean_ms": 1.691125
+    },
+    {
+      "provider": "QNNExecutionProvider",
+      "name": "QNNExecutionProvider_QNN_7258221202719330170_73_36_kernel_time",
+      "mean_ms": 1.571375
+    },
+    {
+      "provider": "CPUExecutionProvider",
+      "name": "node_gelu_kernel_time",
+      "mean_ms": 1.4715
+    },
+    {
+      "provider": "CPUExecutionProvider",
+      "name": "node_gelu_1_kernel_time",
+      "mean_ms": 1.43275
+    },
+    {
+      "provider": "CPUExecutionProvider",
+      "name": "node_gelu_2_kernel_time",
+      "mean_ms": 1.389375
+    },
+    {
+      "provider": "QNNExecutionProvider",
+      "name": "QNNExecutionProvider_QNN_7258221202719330170_40_3_kernel_time",
+      "mean_ms": 0.96175
+    },
+    {
+      "provider": "QNNExecutionProvider",
+      "name": "QNNExecutionProvider_QNN_7258221202719330170_43_6_kernel_time",
+      "mean_ms": 0.910625
+    },
+    {
+      "provider": "QNNExecutionProvider",
+      "name": "QNNExecutionProvider_QNN_7258221202719330170_38_1_kernel_time",
+      "mean_ms": 0.9103749999999999
+    },
+    {
+      "provider": "QNNExecutionProvider",
+      "name": "QNNExecutionProvider_QNN_7258221202719330170_45_8_kernel_time",
+      "mean_ms": 0.8704999999999999
+    }
+  ]
+}

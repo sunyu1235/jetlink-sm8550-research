@@ -1,0 +1,1001 @@
+{
+  "source": "C:\\Users\\sunbo\\Documents\\moto-x40-root\\jetlink-prepared.onnx",
+  "source_sha256": "ffaf014ecbde4b697744e13948914cf6e61259453d04021c82439187e9d06f4f",
+  "output": "C:\\Users\\sunbo\\Documents\\openpilot\\outputs\\jetlink-gelu-repair-20261101\\light-speed-exact-gelu.onnx",
+  "output_sha256": "9f9980ba2eb5eec4b30e68ad60e3a0cb6e4453e1c49d97448d468e7d3e7dbd02",
+  "output_bytes": 791639073,
+  "scope": "all",
+  "custom_domain": "jetlink.precision",
+  "custom_opset": 1,
+  "upstream_image_inputs": [
+    "img",
+    "big_img",
+    "new_img",
+    "state_img_q"
+  ],
+  "image_dependency_seeded_inputs_present_in_graph": [
+    "new_img",
+    "state_img_q"
+  ],
+  "image_dependent_value_count": 531,
+  "image_dependent_node_count": 529,
+  "image_dependency_mask_note": "matches upstream Split.visionMask: remove initializer inputs, require at least one nonempty data input, then require every data input to be in visionTensors; initializer-only nodes are excluded",
+  "replacements": [
+    {
+      "index": 35,
+      "name": "node_gelu",
+      "input": "linear",
+      "input_elem_type": "FLOAT16",
+      "input_shape": [
+        1,
+        32,
+        64,
+        1024
+      ],
+      "outputs": [
+        "gelu"
+      ],
+      "old_domain": "",
+      "old_op_type": "Gelu",
+      "old_approximate": "none",
+      "new_domain": "jetlink.precision",
+      "new_op_type": "ExactGelu",
+      "attribute_removed": true,
+      "image_dependent": true
+    },
+    {
+      "index": 48,
+      "name": "node_gelu_1",
+      "input": "linear_2",
+      "input_elem_type": "FLOAT16",
+      "input_shape": [
+        1,
+        32,
+        64,
+        1024
+      ],
+      "outputs": [
+        "gelu_1"
+      ],
+      "old_domain": "",
+      "old_op_type": "Gelu",
+      "old_approximate": "none",
+      "new_domain": "jetlink.precision",
+      "new_op_type": "ExactGelu",
+      "attribute_removed": true,
+      "image_dependent": true
+    },
+    {
+      "index": 61,
+      "name": "node_gelu_2",
+      "input": "linear_4",
+      "input_elem_type": "FLOAT16",
+      "input_shape": [
+        1,
+        32,
+        64,
+        1024
+      ],
+      "outputs": [
+        "gelu_2"
+      ],
+      "old_domain": "",
+      "old_op_type": "Gelu",
+      "old_approximate": "none",
+      "new_domain": "jetlink.precision",
+      "new_op_type": "ExactGelu",
+      "attribute_removed": true,
+      "image_dependent": true
+    },
+    {
+      "index": 78,
+      "name": "node_gelu_3",
+      "input": "linear_6",
+      "input_elem_type": "FLOAT16",
+      "input_shape": [
+        1,
+        16,
+        32,
+        2048
+      ],
+      "outputs": [
+        "gelu_3"
+      ],
+      "old_domain": "",
+      "old_op_type": "Gelu",
+      "old_approximate": "none",
+      "new_domain": "jetlink.precision",
+      "new_op_type": "ExactGelu",
+      "attribute_removed": true,
+      "image_dependent": true
+    },
+    {
+      "index": 91,
+      "name": "node_gelu_4",
+      "input": "linear_8",
+      "input_elem_type": "FLOAT16",
+      "input_shape": [
+        1,
+        16,
+        32,
+        2048
+      ],
+      "outputs": [
+        "gelu_4"
+      ],
+      "old_domain": "",
+      "old_op_type": "Gelu",
+      "old_approximate": "none",
+      "new_domain": "jetlink.precision",
+      "new_op_type": "ExactGelu",
+      "attribute_removed": true,
+      "image_dependent": true
+    },
+    {
+      "index": 104,
+      "name": "node_gelu_5",
+      "input": "linear_10",
+      "input_elem_type": "FLOAT16",
+      "input_shape": [
+        1,
+        16,
+        32,
+        2048
+      ],
+      "outputs": [
+        "gelu_5"
+      ],
+      "old_domain": "",
+      "old_op_type": "Gelu",
+      "old_approximate": "none",
+      "new_domain": "jetlink.precision",
+      "new_op_type": "ExactGelu",
+      "attribute_removed": true,
+      "image_dependent": true
+    },
+    {
+      "index": 121,
+      "name": "node_gelu_6",
+      "input": "linear_12",
+      "input_elem_type": "FLOAT16",
+      "input_shape": [
+        1,
+        8,
+        16,
+        4096
+      ],
+      "outputs": [
+        "gelu_6"
+      ],
+      "old_domain": "",
+      "old_op_type": "Gelu",
+      "old_approximate": "none",
+      "new_domain": "jetlink.precision",
+      "new_op_type": "ExactGelu",
+      "attribute_removed": true,
+      "image_dependent": true
+    },
+    {
+      "index": 134,
+      "name": "node_gelu_7",
+      "input": "linear_14",
+      "input_elem_type": "FLOAT16",
+      "input_shape": [
+        1,
+        8,
+        16,
+        4096
+      ],
+      "outputs": [
+        "gelu_7"
+      ],
+      "old_domain": "",
+      "old_op_type": "Gelu",
+      "old_approximate": "none",
+      "new_domain": "jetlink.precision",
+      "new_op_type": "ExactGelu",
+      "attribute_removed": true,
+      "image_dependent": true
+    },
+    {
+      "index": 147,
+      "name": "node_gelu_8",
+      "input": "linear_16",
+      "input_elem_type": "FLOAT16",
+      "input_shape": [
+        1,
+        8,
+        16,
+        4096
+      ],
+      "outputs": [
+        "gelu_8"
+      ],
+      "old_domain": "",
+      "old_op_type": "Gelu",
+      "old_approximate": "none",
+      "new_domain": "jetlink.precision",
+      "new_op_type": "ExactGelu",
+      "attribute_removed": true,
+      "image_dependent": true
+    },
+    {
+      "index": 160,
+      "name": "node_gelu_9",
+      "input": "linear_18",
+      "input_elem_type": "FLOAT16",
+      "input_shape": [
+        1,
+        8,
+        16,
+        4096
+      ],
+      "outputs": [
+        "gelu_9"
+      ],
+      "old_domain": "",
+      "old_op_type": "Gelu",
+      "old_approximate": "none",
+      "new_domain": "jetlink.precision",
+      "new_op_type": "ExactGelu",
+      "attribute_removed": true,
+      "image_dependent": true
+    },
+    {
+      "index": 173,
+      "name": "node_gelu_10",
+      "input": "linear_20",
+      "input_elem_type": "FLOAT16",
+      "input_shape": [
+        1,
+        8,
+        16,
+        4096
+      ],
+      "outputs": [
+        "gelu_10"
+      ],
+      "old_domain": "",
+      "old_op_type": "Gelu",
+      "old_approximate": "none",
+      "new_domain": "jetlink.precision",
+      "new_op_type": "ExactGelu",
+      "attribute_removed": true,
+      "image_dependent": true
+    },
+    {
+      "index": 186,
+      "name": "node_gelu_11",
+      "input": "linear_22",
+      "input_elem_type": "FLOAT16",
+      "input_shape": [
+        1,
+        8,
+        16,
+        4096
+      ],
+      "outputs": [
+        "gelu_11"
+      ],
+      "old_domain": "",
+      "old_op_type": "Gelu",
+      "old_approximate": "none",
+      "new_domain": "jetlink.precision",
+      "new_op_type": "ExactGelu",
+      "attribute_removed": true,
+      "image_dependent": true
+    },
+    {
+      "index": 199,
+      "name": "node_gelu_12",
+      "input": "linear_24",
+      "input_elem_type": "FLOAT16",
+      "input_shape": [
+        1,
+        8,
+        16,
+        4096
+      ],
+      "outputs": [
+        "gelu_12"
+      ],
+      "old_domain": "",
+      "old_op_type": "Gelu",
+      "old_approximate": "none",
+      "new_domain": "jetlink.precision",
+      "new_op_type": "ExactGelu",
+      "attribute_removed": true,
+      "image_dependent": true
+    },
+    {
+      "index": 212,
+      "name": "node_gelu_13",
+      "input": "linear_26",
+      "input_elem_type": "FLOAT16",
+      "input_shape": [
+        1,
+        8,
+        16,
+        4096
+      ],
+      "outputs": [
+        "gelu_13"
+      ],
+      "old_domain": "",
+      "old_op_type": "Gelu",
+      "old_approximate": "none",
+      "new_domain": "jetlink.precision",
+      "new_op_type": "ExactGelu",
+      "attribute_removed": true,
+      "image_dependent": true
+    },
+    {
+      "index": 225,
+      "name": "node_gelu_14",
+      "input": "linear_28",
+      "input_elem_type": "FLOAT16",
+      "input_shape": [
+        1,
+        8,
+        16,
+        4096
+      ],
+      "outputs": [
+        "gelu_14"
+      ],
+      "old_domain": "",
+      "old_op_type": "Gelu",
+      "old_approximate": "none",
+      "new_domain": "jetlink.precision",
+      "new_op_type": "ExactGelu",
+      "attribute_removed": true,
+      "image_dependent": true
+    },
+    {
+      "index": 238,
+      "name": "node_gelu_15",
+      "input": "linear_30",
+      "input_elem_type": "FLOAT16",
+      "input_shape": [
+        1,
+        8,
+        16,
+        4096
+      ],
+      "outputs": [
+        "gelu_15"
+      ],
+      "old_domain": "",
+      "old_op_type": "Gelu",
+      "old_approximate": "none",
+      "new_domain": "jetlink.precision",
+      "new_op_type": "ExactGelu",
+      "attribute_removed": true,
+      "image_dependent": true
+    },
+    {
+      "index": 251,
+      "name": "node_gelu_16",
+      "input": "linear_32",
+      "input_elem_type": "FLOAT16",
+      "input_shape": [
+        1,
+        8,
+        16,
+        4096
+      ],
+      "outputs": [
+        "gelu_16"
+      ],
+      "old_domain": "",
+      "old_op_type": "Gelu",
+      "old_approximate": "none",
+      "new_domain": "jetlink.precision",
+      "new_op_type": "ExactGelu",
+      "attribute_removed": true,
+      "image_dependent": true
+    },
+    {
+      "index": 264,
+      "name": "node_gelu_17",
+      "input": "linear_34",
+      "input_elem_type": "FLOAT16",
+      "input_shape": [
+        1,
+        8,
+        16,
+        4096
+      ],
+      "outputs": [
+        "gelu_17"
+      ],
+      "old_domain": "",
+      "old_op_type": "Gelu",
+      "old_approximate": "none",
+      "new_domain": "jetlink.precision",
+      "new_op_type": "ExactGelu",
+      "attribute_removed": true,
+      "image_dependent": true
+    },
+    {
+      "index": 277,
+      "name": "node_gelu_18",
+      "input": "linear_36",
+      "input_elem_type": "FLOAT16",
+      "input_shape": [
+        1,
+        8,
+        16,
+        4096
+      ],
+      "outputs": [
+        "gelu_18"
+      ],
+      "old_domain": "",
+      "old_op_type": "Gelu",
+      "old_approximate": "none",
+      "new_domain": "jetlink.precision",
+      "new_op_type": "ExactGelu",
+      "attribute_removed": true,
+      "image_dependent": true
+    },
+    {
+      "index": 290,
+      "name": "node_gelu_19",
+      "input": "linear_38",
+      "input_elem_type": "FLOAT16",
+      "input_shape": [
+        1,
+        8,
+        16,
+        4096
+      ],
+      "outputs": [
+        "gelu_19"
+      ],
+      "old_domain": "",
+      "old_op_type": "Gelu",
+      "old_approximate": "none",
+      "new_domain": "jetlink.precision",
+      "new_op_type": "ExactGelu",
+      "attribute_removed": true,
+      "image_dependent": true
+    },
+    {
+      "index": 303,
+      "name": "node_gelu_20",
+      "input": "linear_40",
+      "input_elem_type": "FLOAT16",
+      "input_shape": [
+        1,
+        8,
+        16,
+        4096
+      ],
+      "outputs": [
+        "gelu_20"
+      ],
+      "old_domain": "",
+      "old_op_type": "Gelu",
+      "old_approximate": "none",
+      "new_domain": "jetlink.precision",
+      "new_op_type": "ExactGelu",
+      "attribute_removed": true,
+      "image_dependent": true
+    },
+    {
+      "index": 316,
+      "name": "node_gelu_21",
+      "input": "linear_42",
+      "input_elem_type": "FLOAT16",
+      "input_shape": [
+        1,
+        8,
+        16,
+        4096
+      ],
+      "outputs": [
+        "gelu_21"
+      ],
+      "old_domain": "",
+      "old_op_type": "Gelu",
+      "old_approximate": "none",
+      "new_domain": "jetlink.precision",
+      "new_op_type": "ExactGelu",
+      "attribute_removed": true,
+      "image_dependent": true
+    },
+    {
+      "index": 329,
+      "name": "node_gelu_22",
+      "input": "linear_44",
+      "input_elem_type": "FLOAT16",
+      "input_shape": [
+        1,
+        8,
+        16,
+        4096
+      ],
+      "outputs": [
+        "gelu_22"
+      ],
+      "old_domain": "",
+      "old_op_type": "Gelu",
+      "old_approximate": "none",
+      "new_domain": "jetlink.precision",
+      "new_op_type": "ExactGelu",
+      "attribute_removed": true,
+      "image_dependent": true
+    },
+    {
+      "index": 342,
+      "name": "node_gelu_23",
+      "input": "linear_46",
+      "input_elem_type": "FLOAT16",
+      "input_shape": [
+        1,
+        8,
+        16,
+        4096
+      ],
+      "outputs": [
+        "gelu_23"
+      ],
+      "old_domain": "",
+      "old_op_type": "Gelu",
+      "old_approximate": "none",
+      "new_domain": "jetlink.precision",
+      "new_op_type": "ExactGelu",
+      "attribute_removed": true,
+      "image_dependent": true
+    },
+    {
+      "index": 355,
+      "name": "node_gelu_24",
+      "input": "linear_48",
+      "input_elem_type": "FLOAT16",
+      "input_shape": [
+        1,
+        8,
+        16,
+        4096
+      ],
+      "outputs": [
+        "gelu_24"
+      ],
+      "old_domain": "",
+      "old_op_type": "Gelu",
+      "old_approximate": "none",
+      "new_domain": "jetlink.precision",
+      "new_op_type": "ExactGelu",
+      "attribute_removed": true,
+      "image_dependent": true
+    },
+    {
+      "index": 368,
+      "name": "node_gelu_25",
+      "input": "linear_50",
+      "input_elem_type": "FLOAT16",
+      "input_shape": [
+        1,
+        8,
+        16,
+        4096
+      ],
+      "outputs": [
+        "gelu_25"
+      ],
+      "old_domain": "",
+      "old_op_type": "Gelu",
+      "old_approximate": "none",
+      "new_domain": "jetlink.precision",
+      "new_op_type": "ExactGelu",
+      "attribute_removed": true,
+      "image_dependent": true
+    },
+    {
+      "index": 381,
+      "name": "node_gelu_26",
+      "input": "linear_52",
+      "input_elem_type": "FLOAT16",
+      "input_shape": [
+        1,
+        8,
+        16,
+        4096
+      ],
+      "outputs": [
+        "gelu_26"
+      ],
+      "old_domain": "",
+      "old_op_type": "Gelu",
+      "old_approximate": "none",
+      "new_domain": "jetlink.precision",
+      "new_op_type": "ExactGelu",
+      "attribute_removed": true,
+      "image_dependent": true
+    },
+    {
+      "index": 394,
+      "name": "node_gelu_27",
+      "input": "linear_54",
+      "input_elem_type": "FLOAT16",
+      "input_shape": [
+        1,
+        8,
+        16,
+        4096
+      ],
+      "outputs": [
+        "gelu_27"
+      ],
+      "old_domain": "",
+      "old_op_type": "Gelu",
+      "old_approximate": "none",
+      "new_domain": "jetlink.precision",
+      "new_op_type": "ExactGelu",
+      "attribute_removed": true,
+      "image_dependent": true
+    },
+    {
+      "index": 407,
+      "name": "node_gelu_28",
+      "input": "linear_56",
+      "input_elem_type": "FLOAT16",
+      "input_shape": [
+        1,
+        8,
+        16,
+        4096
+      ],
+      "outputs": [
+        "gelu_28"
+      ],
+      "old_domain": "",
+      "old_op_type": "Gelu",
+      "old_approximate": "none",
+      "new_domain": "jetlink.precision",
+      "new_op_type": "ExactGelu",
+      "attribute_removed": true,
+      "image_dependent": true
+    },
+    {
+      "index": 420,
+      "name": "node_gelu_29",
+      "input": "linear_58",
+      "input_elem_type": "FLOAT16",
+      "input_shape": [
+        1,
+        8,
+        16,
+        4096
+      ],
+      "outputs": [
+        "gelu_29"
+      ],
+      "old_domain": "",
+      "old_op_type": "Gelu",
+      "old_approximate": "none",
+      "new_domain": "jetlink.precision",
+      "new_op_type": "ExactGelu",
+      "attribute_removed": true,
+      "image_dependent": true
+    },
+    {
+      "index": 433,
+      "name": "node_gelu_30",
+      "input": "linear_60",
+      "input_elem_type": "FLOAT16",
+      "input_shape": [
+        1,
+        8,
+        16,
+        4096
+      ],
+      "outputs": [
+        "gelu_30"
+      ],
+      "old_domain": "",
+      "old_op_type": "Gelu",
+      "old_approximate": "none",
+      "new_domain": "jetlink.precision",
+      "new_op_type": "ExactGelu",
+      "attribute_removed": true,
+      "image_dependent": true
+    },
+    {
+      "index": 446,
+      "name": "node_gelu_31",
+      "input": "linear_62",
+      "input_elem_type": "FLOAT16",
+      "input_shape": [
+        1,
+        8,
+        16,
+        4096
+      ],
+      "outputs": [
+        "gelu_31"
+      ],
+      "old_domain": "",
+      "old_op_type": "Gelu",
+      "old_approximate": "none",
+      "new_domain": "jetlink.precision",
+      "new_op_type": "ExactGelu",
+      "attribute_removed": true,
+      "image_dependent": true
+    },
+    {
+      "index": 459,
+      "name": "node_gelu_32",
+      "input": "linear_64",
+      "input_elem_type": "FLOAT16",
+      "input_shape": [
+        1,
+        8,
+        16,
+        4096
+      ],
+      "outputs": [
+        "gelu_32"
+      ],
+      "old_domain": "",
+      "old_op_type": "Gelu",
+      "old_approximate": "none",
+      "new_domain": "jetlink.precision",
+      "new_op_type": "ExactGelu",
+      "attribute_removed": true,
+      "image_dependent": true
+    },
+    {
+      "index": 476,
+      "name": "node_gelu_33",
+      "input": "linear_66",
+      "input_elem_type": "FLOAT16",
+      "input_shape": [
+        1,
+        4,
+        8,
+        8192
+      ],
+      "outputs": [
+        "gelu_33"
+      ],
+      "old_domain": "",
+      "old_op_type": "Gelu",
+      "old_approximate": "none",
+      "new_domain": "jetlink.precision",
+      "new_op_type": "ExactGelu",
+      "attribute_removed": true,
+      "image_dependent": true
+    },
+    {
+      "index": 489,
+      "name": "node_gelu_34",
+      "input": "linear_68",
+      "input_elem_type": "FLOAT16",
+      "input_shape": [
+        1,
+        4,
+        8,
+        8192
+      ],
+      "outputs": [
+        "gelu_34"
+      ],
+      "old_domain": "",
+      "old_op_type": "Gelu",
+      "old_approximate": "none",
+      "new_domain": "jetlink.precision",
+      "new_op_type": "ExactGelu",
+      "attribute_removed": true,
+      "image_dependent": true
+    },
+    {
+      "index": 502,
+      "name": "node_gelu_35",
+      "input": "linear_70",
+      "input_elem_type": "FLOAT16",
+      "input_shape": [
+        1,
+        4,
+        8,
+        8192
+      ],
+      "outputs": [
+        "gelu_35"
+      ],
+      "old_domain": "",
+      "old_op_type": "Gelu",
+      "old_approximate": "none",
+      "new_domain": "jetlink.precision",
+      "new_op_type": "ExactGelu",
+      "attribute_removed": true,
+      "image_dependent": true
+    }
+  ],
+  "replacement_count": 36,
+  "skipped_gelu_nodes": [
+    {
+      "index": 520,
+      "name": "node_gelu_36",
+      "reason": "approximate is not none",
+      "approximate": "tanh"
+    },
+    {
+      "index": 525,
+      "name": "node_gelu_37",
+      "reason": "approximate is not none",
+      "approximate": "tanh"
+    },
+    {
+      "index": 537,
+      "name": "node_gelu_38",
+      "reason": "approximate is not none",
+      "approximate": "tanh"
+    },
+    {
+      "index": 552,
+      "name": "node_gelu_39",
+      "reason": "approximate is not none",
+      "approximate": "tanh"
+    },
+    {
+      "index": 558,
+      "name": "node_gelu_40",
+      "reason": "approximate is not none",
+      "approximate": "tanh"
+    },
+    {
+      "index": 624,
+      "name": "node_gelu_41",
+      "reason": "approximate is not none",
+      "approximate": "tanh"
+    },
+    {
+      "index": 662,
+      "name": "node_gelu_42",
+      "reason": "approximate is not none",
+      "approximate": "tanh"
+    },
+    {
+      "index": 700,
+      "name": "node_gelu_43",
+      "reason": "approximate is not none",
+      "approximate": "tanh"
+    },
+    {
+      "index": 738,
+      "name": "node_gelu_44",
+      "reason": "approximate is not none",
+      "approximate": "tanh"
+    },
+    {
+      "index": 747,
+      "name": "node_gelu_45",
+      "reason": "approximate is not none",
+      "approximate": "tanh"
+    },
+    {
+      "index": 753,
+      "name": "node_gelu_46",
+      "reason": "approximate is not none",
+      "approximate": "tanh"
+    },
+    {
+      "index": 759,
+      "name": "node_gelu_47",
+      "reason": "approximate is not none",
+      "approximate": "tanh"
+    },
+    {
+      "index": 765,
+      "name": "node_gelu_49",
+      "reason": "approximate is not none",
+      "approximate": "tanh"
+    },
+    {
+      "index": 772,
+      "name": "node_gelu_50",
+      "reason": "approximate is not none",
+      "approximate": "tanh"
+    },
+    {
+      "index": 778,
+      "name": "node_gelu_51",
+      "reason": "approximate is not none",
+      "approximate": "tanh"
+    },
+    {
+      "index": 836,
+      "name": "node_gelu_52",
+      "reason": "approximate is not none",
+      "approximate": "tanh"
+    },
+    {
+      "index": 874,
+      "name": "node_gelu_53",
+      "reason": "approximate is not none",
+      "approximate": "tanh"
+    },
+    {
+      "index": 912,
+      "name": "node_gelu_54",
+      "reason": "approximate is not none",
+      "approximate": "tanh"
+    },
+    {
+      "index": 950,
+      "name": "node_gelu_55",
+      "reason": "approximate is not none",
+      "approximate": "tanh"
+    },
+    {
+      "index": 959,
+      "name": "node_gelu_56",
+      "reason": "approximate is not none",
+      "approximate": "tanh"
+    },
+    {
+      "index": 966,
+      "name": "node_gelu_57",
+      "reason": "approximate is not none",
+      "approximate": "tanh"
+    },
+    {
+      "index": 972,
+      "name": "node_gelu_58",
+      "reason": "approximate is not none",
+      "approximate": "tanh"
+    },
+    {
+      "index": 1036,
+      "name": "node_gelu_59",
+      "reason": "approximate is not none",
+      "approximate": "tanh"
+    },
+    {
+      "index": 1074,
+      "name": "node_gelu_60",
+      "reason": "approximate is not none",
+      "approximate": "tanh"
+    },
+    {
+      "index": 1112,
+      "name": "node_gelu_61",
+      "reason": "approximate is not none",
+      "approximate": "tanh"
+    },
+    {
+      "index": 1150,
+      "name": "node_gelu_62",
+      "reason": "approximate is not none",
+      "approximate": "tanh"
+    },
+    {
+      "index": 1165,
+      "name": "node_gelu_63",
+      "reason": "approximate is not none",
+      "approximate": "tanh"
+    }
+  ],
+  "custom_opset_change": {
+    "action": "added",
+    "version": 1
+  },
+  "onnx_checker": {
+    "status": "passed",
+    "message": "ONNX structural/schema check passed"
+  },
+  "structural_invariants": {
+    "graph_inputs_and_metadata_unchanged": true,
+    "graph_outputs_and_metadata_unchanged": true,
+    "graph_value_info_unchanged": true,
+    "node_count_unchanged": true,
+    "replacement_edges_preserved": true,
+    "custom_opset_import_present": true,
+    "no_approximate_attr_on_replacements": true
+  },
+  "semantic_check_note": "ONNX checker cannot validate custom Jetlink operator semantics or the CPU ExactGelu/ExactGelu32 implementation.",
+  "generator_script_sha256_after_mask_fix": "ee2e5dbbc41d83bc63a547f1a4c22d26d6ae2d85b9aa86dd10f7b36247cb2d7b"
+}

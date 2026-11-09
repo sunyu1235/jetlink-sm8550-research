@@ -1,0 +1,2499 @@
+{
+  "purpose": "prebind exact CPU GELU boundaries to QnnHtpShared allocations through graph output I/O binding",
+  "status": "onnx_checker_passed_no_phone_execution",
+  "source_context": {
+    "path": "C:\\Users\\sunbo\\Documents\\openpilot\\outputs\\jetlink-gelu-repair-20261101\\light-speed-gelu-both-ctx.onnx",
+    "bytes": 34651,
+    "sha256": "2c8b28e972af55ca3592c386b049674f9da946fce2fd6a82b0e5877c98d6d68f"
+  },
+  "wrapper": {
+    "path": "C:\\Users\\sunbo\\Documents\\openpilot\\outputs\\jetlink-gelu-optimization-20261101\\partition-tuning-20261109\\whole-context-shared-gelu-boundaries.onnx",
+    "bytes": 39099,
+    "sha256": "ec758019861403b35e6eeef555787655a9afe960081e871a271b49bc0460cb3f"
+  },
+  "custom_gelu_nodes": 63,
+  "original_outputs": [
+    "outputs",
+    "next_state_img_q",
+    "next_state_desire_q",
+    "next_state_feat_q"
+  ],
+  "appended_output_count": 126,
+  "output_count_total": 130,
+  "appended_output_names": [
+    "linear",
+    "gelu",
+    "linear_2",
+    "gelu_1",
+    "linear_4",
+    "gelu_2",
+    "linear_6",
+    "gelu_3",
+    "linear_8",
+    "gelu_4",
+    "linear_10",
+    "gelu_5",
+    "linear_12",
+    "gelu_6",
+    "linear_14",
+    "gelu_7",
+    "linear_16",
+    "gelu_8",
+    "linear_18",
+    "gelu_9",
+    "linear_20",
+    "gelu_10",
+    "linear_22",
+    "gelu_11",
+    "linear_24",
+    "gelu_12",
+    "linear_26",
+    "gelu_13",
+    "linear_28",
+    "gelu_14",
+    "linear_30",
+    "gelu_15",
+    "linear_32",
+    "gelu_16",
+    "linear_34",
+    "gelu_17",
+    "linear_36",
+    "gelu_18",
+    "linear_38",
+    "gelu_19",
+    "linear_40",
+    "gelu_20",
+    "linear_42",
+    "gelu_21",
+    "linear_44",
+    "gelu_22",
+    "linear_46",
+    "gelu_23",
+    "linear_48",
+    "gelu_24",
+    "linear_50",
+    "gelu_25",
+    "linear_52",
+    "gelu_26",
+    "linear_54",
+    "gelu_27",
+    "linear_56",
+    "gelu_28",
+    "linear_58",
+    "gelu_29",
+    "linear_60",
+    "gelu_30",
+    "linear_62",
+    "gelu_31",
+    "linear_64",
+    "gelu_32",
+    "linear_66",
+    "gelu_33",
+    "linear_68",
+    "gelu_34",
+    "linear_70",
+    "gelu_35",
+    "linear_156",
+    "gelu_57",
+    "linear_127",
+    "gelu_50",
+    "linear_86",
+    "gelu_39",
+    "linear_72",
+    "gelu_36",
+    "linear_158",
+    "gelu_58",
+    "linear_129",
+    "gelu_51",
+    "linear_88",
+    "gelu_40",
+    "linear_74",
+    "gelu_37",
+    "linear_168",
+    "gelu_59",
+    "linear_139",
+    "gelu_52",
+    "linear_98",
+    "gelu_41",
+    "linear_83",
+    "gelu_38",
+    "linear_172",
+    "gelu_60",
+    "linear_143",
+    "gelu_53",
+    "linear_102",
+    "gelu_42",
+    "linear_176",
+    "gelu_61",
+    "linear_147",
+    "gelu_54",
+    "linear_106",
+    "gelu_43",
+    "linear_180",
+    "gelu_62",
+    "linear_151",
+    "gelu_55",
+    "linear_110",
+    "gelu_44",
+    "linear_153",
+    "gelu_56",
+    "linear_124",
+    "gelu_49",
+    "linear_118",
+    "gelu_47",
+    "linear_115",
+    "gelu_46",
+    "linear_112",
+    "gelu_45",
+    "linear_184",
+    "gelu_63"
+  ],
+  "boundary_tensors": [
+    {
+      "name": "linear",
+      "elem_type": 10,
+      "dtype": "FLOAT16",
+      "shape": [
+        1,
+        32,
+        64,
+        1024
+      ],
+      "bytes": 4194304,
+      "roles": [
+        {
+          "node": "node_gelu",
+          "role": "gelu_input",
+          "op_type": "ExactGelu"
+        }
+      ]
+    },
+    {
+      "name": "gelu",
+      "elem_type": 10,
+      "dtype": "FLOAT16",
+      "shape": [
+        1,
+        32,
+        64,
+        1024
+      ],
+      "bytes": 4194304,
+      "roles": [
+        {
+          "node": "node_gelu",
+          "role": "gelu_output",
+          "op_type": "ExactGelu"
+        }
+      ]
+    },
+    {
+      "name": "linear_2",
+      "elem_type": 10,
+      "dtype": "FLOAT16",
+      "shape": [
+        1,
+        32,
+        64,
+        1024
+      ],
+      "bytes": 4194304,
+      "roles": [
+        {
+          "node": "node_gelu_1",
+          "role": "gelu_input",
+          "op_type": "ExactGelu"
+        }
+      ]
+    },
+    {
+      "name": "gelu_1",
+      "elem_type": 10,
+      "dtype": "FLOAT16",
+      "shape": [
+        1,
+        32,
+        64,
+        1024
+      ],
+      "bytes": 4194304,
+      "roles": [
+        {
+          "node": "node_gelu_1",
+          "role": "gelu_output",
+          "op_type": "ExactGelu"
+        }
+      ]
+    },
+    {
+      "name": "linear_4",
+      "elem_type": 10,
+      "dtype": "FLOAT16",
+      "shape": [
+        1,
+        32,
+        64,
+        1024
+      ],
+      "bytes": 4194304,
+      "roles": [
+        {
+          "node": "node_gelu_2",
+          "role": "gelu_input",
+          "op_type": "ExactGelu"
+        }
+      ]
+    },
+    {
+      "name": "gelu_2",
+      "elem_type": 10,
+      "dtype": "FLOAT16",
+      "shape": [
+        1,
+        32,
+        64,
+        1024
+      ],
+      "bytes": 4194304,
+      "roles": [
+        {
+          "node": "node_gelu_2",
+          "role": "gelu_output",
+          "op_type": "ExactGelu"
+        }
+      ]
+    },
+    {
+      "name": "linear_6",
+      "elem_type": 10,
+      "dtype": "FLOAT16",
+      "shape": [
+        1,
+        16,
+        32,
+        2048
+      ],
+      "bytes": 2097152,
+      "roles": [
+        {
+          "node": "node_gelu_3",
+          "role": "gelu_input",
+          "op_type": "ExactGelu"
+        }
+      ]
+    },
+    {
+      "name": "gelu_3",
+      "elem_type": 10,
+      "dtype": "FLOAT16",
+      "shape": [
+        1,
+        16,
+        32,
+        2048
+      ],
+      "bytes": 2097152,
+      "roles": [
+        {
+          "node": "node_gelu_3",
+          "role": "gelu_output",
+          "op_type": "ExactGelu"
+        }
+      ]
+    },
+    {
+      "name": "linear_8",
+      "elem_type": 10,
+      "dtype": "FLOAT16",
+      "shape": [
+        1,
+        16,
+        32,
+        2048
+      ],
+      "bytes": 2097152,
+      "roles": [
+        {
+          "node": "node_gelu_4",
+          "role": "gelu_input",
+          "op_type": "ExactGelu"
+        }
+      ]
+    },
+    {
+      "name": "gelu_4",
+      "elem_type": 10,
+      "dtype": "FLOAT16",
+      "shape": [
+        1,
+        16,
+        32,
+        2048
+      ],
+      "bytes": 2097152,
+      "roles": [
+        {
+          "node": "node_gelu_4",
+          "role": "gelu_output",
+          "op_type": "ExactGelu"
+        }
+      ]
+    },
+    {
+      "name": "linear_10",
+      "elem_type": 10,
+      "dtype": "FLOAT16",
+      "shape": [
+        1,
+        16,
+        32,
+        2048
+      ],
+      "bytes": 2097152,
+      "roles": [
+        {
+          "node": "node_gelu_5",
+          "role": "gelu_input",
+          "op_type": "ExactGelu"
+        }
+      ]
+    },
+    {
+      "name": "gelu_5",
+      "elem_type": 10,
+      "dtype": "FLOAT16",
+      "shape": [
+        1,
+        16,
+        32,
+        2048
+      ],
+      "bytes": 2097152,
+      "roles": [
+        {
+          "node": "node_gelu_5",
+          "role": "gelu_output",
+          "op_type": "ExactGelu"
+        }
+      ]
+    },
+    {
+      "name": "linear_12",
+      "elem_type": 10,
+      "dtype": "FLOAT16",
+      "shape": [
+        1,
+        8,
+        16,
+        4096
+      ],
+      "bytes": 1048576,
+      "roles": [
+        {
+          "node": "node_gelu_6",
+          "role": "gelu_input",
+          "op_type": "ExactGelu"
+        }
+      ]
+    },
+    {
+      "name": "gelu_6",
+      "elem_type": 10,
+      "dtype": "FLOAT16",
+      "shape": [
+        1,
+        8,
+        16,
+        4096
+      ],
+      "bytes": 1048576,
+      "roles": [
+        {
+          "node": "node_gelu_6",
+          "role": "gelu_output",
+          "op_type": "ExactGelu"
+        }
+      ]
+    },
+    {
+      "name": "linear_14",
+      "elem_type": 10,
+      "dtype": "FLOAT16",
+      "shape": [
+        1,
+        8,
+        16,
+        4096
+      ],
+      "bytes": 1048576,
+      "roles": [
+        {
+          "node": "node_gelu_7",
+          "role": "gelu_input",
+          "op_type": "ExactGelu"
+        }
+      ]
+    },
+    {
+      "name": "gelu_7",
+      "elem_type": 10,
+      "dtype": "FLOAT16",
+      "shape": [
+        1,
+        8,
+        16,
+        4096
+      ],
+      "bytes": 1048576,
+      "roles": [
+        {
+          "node": "node_gelu_7",
+          "role": "gelu_output",
+          "op_type": "ExactGelu"
+        }
+      ]
+    },
+    {
+      "name": "linear_16",
+      "elem_type": 10,
+      "dtype": "FLOAT16",
+      "shape": [
+        1,
+        8,
+        16,
+        4096
+      ],
+      "bytes": 1048576,
+      "roles": [
+        {
+          "node": "node_gelu_8",
+          "role": "gelu_input",
+          "op_type": "ExactGelu"
+        }
+      ]
+    },
+    {
+      "name": "gelu_8",
+      "elem_type": 10,
+      "dtype": "FLOAT16",
+      "shape": [
+        1,
+        8,
+        16,
+        4096
+      ],
+      "bytes": 1048576,
+      "roles": [
+        {
+          "node": "node_gelu_8",
+          "role": "gelu_output",
+          "op_type": "ExactGelu"
+        }
+      ]
+    },
+    {
+      "name": "linear_18",
+      "elem_type": 10,
+      "dtype": "FLOAT16",
+      "shape": [
+        1,
+        8,
+        16,
+        4096
+      ],
+      "bytes": 1048576,
+      "roles": [
+        {
+          "node": "node_gelu_9",
+          "role": "gelu_input",
+          "op_type": "ExactGelu"
+        }
+      ]
+    },
+    {
+      "name": "gelu_9",
+      "elem_type": 10,
+      "dtype": "FLOAT16",
+      "shape": [
+        1,
+        8,
+        16,
+        4096
+      ],
+      "bytes": 1048576,
+      "roles": [
+        {
+          "node": "node_gelu_9",
+          "role": "gelu_output",
+          "op_type": "ExactGelu"
+        }
+      ]
+    },
+    {
+      "name": "linear_20",
+      "elem_type": 10,
+      "dtype": "FLOAT16",
+      "shape": [
+        1,
+        8,
+        16,
+        4096
+      ],
+      "bytes": 1048576,
+      "roles": [
+        {
+          "node": "node_gelu_10",
+          "role": "gelu_input",
+          "op_type": "ExactGelu"
+        }
+      ]
+    },
+    {
+      "name": "gelu_10",
+      "elem_type": 10,
+      "dtype": "FLOAT16",
+      "shape": [
+        1,
+        8,
+        16,
+        4096
+      ],
+      "bytes": 1048576,
+      "roles": [
+        {
+          "node": "node_gelu_10",
+          "role": "gelu_output",
+          "op_type": "ExactGelu"
+        }
+      ]
+    },
+    {
+      "name": "linear_22",
+      "elem_type": 10,
+      "dtype": "FLOAT16",
+      "shape": [
+        1,
+        8,
+        16,
+        4096
+      ],
+      "bytes": 1048576,
+      "roles": [
+        {
+          "node": "node_gelu_11",
+          "role": "gelu_input",
+          "op_type": "ExactGelu"
+        }
+      ]
+    },
+    {
+      "name": "gelu_11",
+      "elem_type": 10,
+      "dtype": "FLOAT16",
+      "shape": [
+        1,
+        8,
+        16,
+        4096
+      ],
+      "bytes": 1048576,
+      "roles": [
+        {
+          "node": "node_gelu_11",
+          "role": "gelu_output",
+          "op_type": "ExactGelu"
+        }
+      ]
+    },
+    {
+      "name": "linear_24",
+      "elem_type": 10,
+      "dtype": "FLOAT16",
+      "shape": [
+        1,
+        8,
+        16,
+        4096
+      ],
+      "bytes": 1048576,
+      "roles": [
+        {
+          "node": "node_gelu_12",
+          "role": "gelu_input",
+          "op_type": "ExactGelu"
+        }
+      ]
+    },
+    {
+      "name": "gelu_12",
+      "elem_type": 10,
+      "dtype": "FLOAT16",
+      "shape": [
+        1,
+        8,
+        16,
+        4096
+      ],
+      "bytes": 1048576,
+      "roles": [
+        {
+          "node": "node_gelu_12",
+          "role": "gelu_output",
+          "op_type": "ExactGelu"
+        }
+      ]
+    },
+    {
+      "name": "linear_26",
+      "elem_type": 10,
+      "dtype": "FLOAT16",
+      "shape": [
+        1,
+        8,
+        16,
+        4096
+      ],
+      "bytes": 1048576,
+      "roles": [
+        {
+          "node": "node_gelu_13",
+          "role": "gelu_input",
+          "op_type": "ExactGelu"
+        }
+      ]
+    },
+    {
+      "name": "gelu_13",
+      "elem_type": 10,
+      "dtype": "FLOAT16",
+      "shape": [
+        1,
+        8,
+        16,
+        4096
+      ],
+      "bytes": 1048576,
+      "roles": [
+        {
+          "node": "node_gelu_13",
+          "role": "gelu_output",
+          "op_type": "ExactGelu"
+        }
+      ]
+    },
+    {
+      "name": "linear_28",
+      "elem_type": 10,
+      "dtype": "FLOAT16",
+      "shape": [
+        1,
+        8,
+        16,
+        4096
+      ],
+      "bytes": 1048576,
+      "roles": [
+        {
+          "node": "node_gelu_14",
+          "role": "gelu_input",
+          "op_type": "ExactGelu"
+        }
+      ]
+    },
+    {
+      "name": "gelu_14",
+      "elem_type": 10,
+      "dtype": "FLOAT16",
+      "shape": [
+        1,
+        8,
+        16,
+        4096
+      ],
+      "bytes": 1048576,
+      "roles": [
+        {
+          "node": "node_gelu_14",
+          "role": "gelu_output",
+          "op_type": "ExactGelu"
+        }
+      ]
+    },
+    {
+      "name": "linear_30",
+      "elem_type": 10,
+      "dtype": "FLOAT16",
+      "shape": [
+        1,
+        8,
+        16,
+        4096
+      ],
+      "bytes": 1048576,
+      "roles": [
+        {
+          "node": "node_gelu_15",
+          "role": "gelu_input",
+          "op_type": "ExactGelu"
+        }
+      ]
+    },
+    {
+      "name": "gelu_15",
+      "elem_type": 10,
+      "dtype": "FLOAT16",
+      "shape": [
+        1,
+        8,
+        16,
+        4096
+      ],
+      "bytes": 1048576,
+      "roles": [
+        {
+          "node": "node_gelu_15",
+          "role": "gelu_output",
+          "op_type": "ExactGelu"
+        }
+      ]
+    },
+    {
+      "name": "linear_32",
+      "elem_type": 10,
+      "dtype": "FLOAT16",
+      "shape": [
+        1,
+        8,
+        16,
+        4096
+      ],
+      "bytes": 1048576,
+      "roles": [
+        {
+          "node": "node_gelu_16",
+          "role": "gelu_input",
+          "op_type": "ExactGelu"
+        }
+      ]
+    },
+    {
+      "name": "gelu_16",
+      "elem_type": 10,
+      "dtype": "FLOAT16",
+      "shape": [
+        1,
+        8,
+        16,
+        4096
+      ],
+      "bytes": 1048576,
+      "roles": [
+        {
+          "node": "node_gelu_16",
+          "role": "gelu_output",
+          "op_type": "ExactGelu"
+        }
+      ]
+    },
+    {
+      "name": "linear_34",
+      "elem_type": 10,
+      "dtype": "FLOAT16",
+      "shape": [
+        1,
+        8,
+        16,
+        4096
+      ],
+      "bytes": 1048576,
+      "roles": [
+        {
+          "node": "node_gelu_17",
+          "role": "gelu_input",
+          "op_type": "ExactGelu"
+        }
+      ]
+    },
+    {
+      "name": "gelu_17",
+      "elem_type": 10,
+      "dtype": "FLOAT16",
+      "shape": [
+        1,
+        8,
+        16,
+        4096
+      ],
+      "bytes": 1048576,
+      "roles": [
+        {
+          "node": "node_gelu_17",
+          "role": "gelu_output",
+          "op_type": "ExactGelu"
+        }
+      ]
+    },
+    {
+      "name": "linear_36",
+      "elem_type": 10,
+      "dtype": "FLOAT16",
+      "shape": [
+        1,
+        8,
+        16,
+        4096
+      ],
+      "bytes": 1048576,
+      "roles": [
+        {
+          "node": "node_gelu_18",
+          "role": "gelu_input",
+          "op_type": "ExactGelu"
+        }
+      ]
+    },
+    {
+      "name": "gelu_18",
+      "elem_type": 10,
+      "dtype": "FLOAT16",
+      "shape": [
+        1,
+        8,
+        16,
+        4096
+      ],
+      "bytes": 1048576,
+      "roles": [
+        {
+          "node": "node_gelu_18",
+          "role": "gelu_output",
+          "op_type": "ExactGelu"
+        }
+      ]
+    },
+    {
+      "name": "linear_38",
+      "elem_type": 10,
+      "dtype": "FLOAT16",
+      "shape": [
+        1,
+        8,
+        16,
+        4096
+      ],
+      "bytes": 1048576,
+      "roles": [
+        {
+          "node": "node_gelu_19",
+          "role": "gelu_input",
+          "op_type": "ExactGelu"
+        }
+      ]
+    },
+    {
+      "name": "gelu_19",
+      "elem_type": 10,
+      "dtype": "FLOAT16",
+      "shape": [
+        1,
+        8,
+        16,
+        4096
+      ],
+      "bytes": 1048576,
+      "roles": [
+        {
+          "node": "node_gelu_19",
+          "role": "gelu_output",
+          "op_type": "ExactGelu"
+        }
+      ]
+    },
+    {
+      "name": "linear_40",
+      "elem_type": 10,
+      "dtype": "FLOAT16",
+      "shape": [
+        1,
+        8,
+        16,
+        4096
+      ],
+      "bytes": 1048576,
+      "roles": [
+        {
+          "node": "node_gelu_20",
+          "role": "gelu_input",
+          "op_type": "ExactGelu"
+        }
+      ]
+    },
+    {
+      "name": "gelu_20",
+      "elem_type": 10,
+      "dtype": "FLOAT16",
+      "shape": [
+        1,
+        8,
+        16,
+        4096
+      ],
+      "bytes": 1048576,
+      "roles": [
+        {
+          "node": "node_gelu_20",
+          "role": "gelu_output",
+          "op_type": "ExactGelu"
+        }
+      ]
+    },
+    {
+      "name": "linear_42",
+      "elem_type": 10,
+      "dtype": "FLOAT16",
+      "shape": [
+        1,
+        8,
+        16,
+        4096
+      ],
+      "bytes": 1048576,
+      "roles": [
+        {
+          "node": "node_gelu_21",
+          "role": "gelu_input",
+          "op_type": "ExactGelu"
+        }
+      ]
+    },
+    {
+      "name": "gelu_21",
+      "elem_type": 10,
+      "dtype": "FLOAT16",
+      "shape": [
+        1,
+        8,
+        16,
+        4096
+      ],
+      "bytes": 1048576,
+      "roles": [
+        {
+          "node": "node_gelu_21",
+          "role": "gelu_output",
+          "op_type": "ExactGelu"
+        }
+      ]
+    },
+    {
+      "name": "linear_44",
+      "elem_type": 10,
+      "dtype": "FLOAT16",
+      "shape": [
+        1,
+        8,
+        16,
+        4096
+      ],
+      "bytes": 1048576,
+      "roles": [
+        {
+          "node": "node_gelu_22",
+          "role": "gelu_input",
+          "op_type": "ExactGelu"
+        }
+      ]
+    },
+    {
+      "name": "gelu_22",
+      "elem_type": 10,
+      "dtype": "FLOAT16",
+      "shape": [
+        1,
+        8,
+        16,
+        4096
+      ],
+      "bytes": 1048576,
+      "roles": [
+        {
+          "node": "node_gelu_22",
+          "role": "gelu_output",
+          "op_type": "ExactGelu"
+        }
+      ]
+    },
+    {
+      "name": "linear_46",
+      "elem_type": 10,
+      "dtype": "FLOAT16",
+      "shape": [
+        1,
+        8,
+        16,
+        4096
+      ],
+      "bytes": 1048576,
+      "roles": [
+        {
+          "node": "node_gelu_23",
+          "role": "gelu_input",
+          "op_type": "ExactGelu"
+        }
+      ]
+    },
+    {
+      "name": "gelu_23",
+      "elem_type": 10,
+      "dtype": "FLOAT16",
+      "shape": [
+        1,
+        8,
+        16,
+        4096
+      ],
+      "bytes": 1048576,
+      "roles": [
+        {
+          "node": "node_gelu_23",
+          "role": "gelu_output",
+          "op_type": "ExactGelu"
+        }
+      ]
+    },
+    {
+      "name": "linear_48",
+      "elem_type": 10,
+      "dtype": "FLOAT16",
+      "shape": [
+        1,
+        8,
+        16,
+        4096
+      ],
+      "bytes": 1048576,
+      "roles": [
+        {
+          "node": "node_gelu_24",
+          "role": "gelu_input",
+          "op_type": "ExactGelu"
+        }
+      ]
+    },
+    {
+      "name": "gelu_24",
+      "elem_type": 10,
+      "dtype": "FLOAT16",
+      "shape": [
+        1,
+        8,
+        16,
+        4096
+      ],
+      "bytes": 1048576,
+      "roles": [
+        {
+          "node": "node_gelu_24",
+          "role": "gelu_output",
+          "op_type": "ExactGelu"
+        }
+      ]
+    },
+    {
+      "name": "linear_50",
+      "elem_type": 10,
+      "dtype": "FLOAT16",
+      "shape": [
+        1,
+        8,
+        16,
+        4096
+      ],
+      "bytes": 1048576,
+      "roles": [
+        {
+          "node": "node_gelu_25",
+          "role": "gelu_input",
+          "op_type": "ExactGelu"
+        }
+      ]
+    },
+    {
+      "name": "gelu_25",
+      "elem_type": 10,
+      "dtype": "FLOAT16",
+      "shape": [
+        1,
+        8,
+        16,
+        4096
+      ],
+      "bytes": 1048576,
+      "roles": [
+        {
+          "node": "node_gelu_25",
+          "role": "gelu_output",
+          "op_type": "ExactGelu"
+        }
+      ]
+    },
+    {
+      "name": "linear_52",
+      "elem_type": 10,
+      "dtype": "FLOAT16",
+      "shape": [
+        1,
+        8,
+        16,
+        4096
+      ],
+      "bytes": 1048576,
+      "roles": [
+        {
+          "node": "node_gelu_26",
+          "role": "gelu_input",
+          "op_type": "ExactGelu"
+        }
+      ]
+    },
+    {
+      "name": "gelu_26",
+      "elem_type": 10,
+      "dtype": "FLOAT16",
+      "shape": [
+        1,
+        8,
+        16,
+        4096
+      ],
+      "bytes": 1048576,
+      "roles": [
+        {
+          "node": "node_gelu_26",
+          "role": "gelu_output",
+          "op_type": "ExactGelu"
+        }
+      ]
+    },
+    {
+      "name": "linear_54",
+      "elem_type": 10,
+      "dtype": "FLOAT16",
+      "shape": [
+        1,
+        8,
+        16,
+        4096
+      ],
+      "bytes": 1048576,
+      "roles": [
+        {
+          "node": "node_gelu_27",
+          "role": "gelu_input",
+          "op_type": "ExactGelu"
+        }
+      ]
+    },
+    {
+      "name": "gelu_27",
+      "elem_type": 10,
+      "dtype": "FLOAT16",
+      "shape": [
+        1,
+        8,
+        16,
+        4096
+      ],
+      "bytes": 1048576,
+      "roles": [
+        {
+          "node": "node_gelu_27",
+          "role": "gelu_output",
+          "op_type": "ExactGelu"
+        }
+      ]
+    },
+    {
+      "name": "linear_56",
+      "elem_type": 10,
+      "dtype": "FLOAT16",
+      "shape": [
+        1,
+        8,
+        16,
+        4096
+      ],
+      "bytes": 1048576,
+      "roles": [
+        {
+          "node": "node_gelu_28",
+          "role": "gelu_input",
+          "op_type": "ExactGelu"
+        }
+      ]
+    },
+    {
+      "name": "gelu_28",
+      "elem_type": 10,
+      "dtype": "FLOAT16",
+      "shape": [
+        1,
+        8,
+        16,
+        4096
+      ],
+      "bytes": 1048576,
+      "roles": [
+        {
+          "node": "node_gelu_28",
+          "role": "gelu_output",
+          "op_type": "ExactGelu"
+        }
+      ]
+    },
+    {
+      "name": "linear_58",
+      "elem_type": 10,
+      "dtype": "FLOAT16",
+      "shape": [
+        1,
+        8,
+        16,
+        4096
+      ],
+      "bytes": 1048576,
+      "roles": [
+        {
+          "node": "node_gelu_29",
+          "role": "gelu_input",
+          "op_type": "ExactGelu"
+        }
+      ]
+    },
+    {
+      "name": "gelu_29",
+      "elem_type": 10,
+      "dtype": "FLOAT16",
+      "shape": [
+        1,
+        8,
+        16,
+        4096
+      ],
+      "bytes": 1048576,
+      "roles": [
+        {
+          "node": "node_gelu_29",
+          "role": "gelu_output",
+          "op_type": "ExactGelu"
+        }
+      ]
+    },
+    {
+      "name": "linear_60",
+      "elem_type": 10,
+      "dtype": "FLOAT16",
+      "shape": [
+        1,
+        8,
+        16,
+        4096
+      ],
+      "bytes": 1048576,
+      "roles": [
+        {
+          "node": "node_gelu_30",
+          "role": "gelu_input",
+          "op_type": "ExactGelu"
+        }
+      ]
+    },
+    {
+      "name": "gelu_30",
+      "elem_type": 10,
+      "dtype": "FLOAT16",
+      "shape": [
+        1,
+        8,
+        16,
+        4096
+      ],
+      "bytes": 1048576,
+      "roles": [
+        {
+          "node": "node_gelu_30",
+          "role": "gelu_output",
+          "op_type": "ExactGelu"
+        }
+      ]
+    },
+    {
+      "name": "linear_62",
+      "elem_type": 10,
+      "dtype": "FLOAT16",
+      "shape": [
+        1,
+        8,
+        16,
+        4096
+      ],
+      "bytes": 1048576,
+      "roles": [
+        {
+          "node": "node_gelu_31",
+          "role": "gelu_input",
+          "op_type": "ExactGelu"
+        }
+      ]
+    },
+    {
+      "name": "gelu_31",
+      "elem_type": 10,
+      "dtype": "FLOAT16",
+      "shape": [
+        1,
+        8,
+        16,
+        4096
+      ],
+      "bytes": 1048576,
+      "roles": [
+        {
+          "node": "node_gelu_31",
+          "role": "gelu_output",
+          "op_type": "ExactGelu"
+        }
+      ]
+    },
+    {
+      "name": "linear_64",
+      "elem_type": 10,
+      "dtype": "FLOAT16",
+      "shape": [
+        1,
+        8,
+        16,
+        4096
+      ],
+      "bytes": 1048576,
+      "roles": [
+        {
+          "node": "node_gelu_32",
+          "role": "gelu_input",
+          "op_type": "ExactGelu"
+        }
+      ]
+    },
+    {
+      "name": "gelu_32",
+      "elem_type": 10,
+      "dtype": "FLOAT16",
+      "shape": [
+        1,
+        8,
+        16,
+        4096
+      ],
+      "bytes": 1048576,
+      "roles": [
+        {
+          "node": "node_gelu_32",
+          "role": "gelu_output",
+          "op_type": "ExactGelu"
+        }
+      ]
+    },
+    {
+      "name": "linear_66",
+      "elem_type": 10,
+      "dtype": "FLOAT16",
+      "shape": [
+        1,
+        4,
+        8,
+        8192
+      ],
+      "bytes": 524288,
+      "roles": [
+        {
+          "node": "node_gelu_33",
+          "role": "gelu_input",
+          "op_type": "ExactGelu"
+        }
+      ]
+    },
+    {
+      "name": "gelu_33",
+      "elem_type": 10,
+      "dtype": "FLOAT16",
+      "shape": [
+        1,
+        4,
+        8,
+        8192
+      ],
+      "bytes": 524288,
+      "roles": [
+        {
+          "node": "node_gelu_33",
+          "role": "gelu_output",
+          "op_type": "ExactGelu"
+        }
+      ]
+    },
+    {
+      "name": "linear_68",
+      "elem_type": 10,
+      "dtype": "FLOAT16",
+      "shape": [
+        1,
+        4,
+        8,
+        8192
+      ],
+      "bytes": 524288,
+      "roles": [
+        {
+          "node": "node_gelu_34",
+          "role": "gelu_input",
+          "op_type": "ExactGelu"
+        }
+      ]
+    },
+    {
+      "name": "gelu_34",
+      "elem_type": 10,
+      "dtype": "FLOAT16",
+      "shape": [
+        1,
+        4,
+        8,
+        8192
+      ],
+      "bytes": 524288,
+      "roles": [
+        {
+          "node": "node_gelu_34",
+          "role": "gelu_output",
+          "op_type": "ExactGelu"
+        }
+      ]
+    },
+    {
+      "name": "linear_70",
+      "elem_type": 10,
+      "dtype": "FLOAT16",
+      "shape": [
+        1,
+        4,
+        8,
+        8192
+      ],
+      "bytes": 524288,
+      "roles": [
+        {
+          "node": "node_gelu_35",
+          "role": "gelu_input",
+          "op_type": "ExactGelu"
+        }
+      ]
+    },
+    {
+      "name": "gelu_35",
+      "elem_type": 10,
+      "dtype": "FLOAT16",
+      "shape": [
+        1,
+        4,
+        8,
+        8192
+      ],
+      "bytes": 524288,
+      "roles": [
+        {
+          "node": "node_gelu_35",
+          "role": "gelu_output",
+          "op_type": "ExactGelu"
+        }
+      ]
+    },
+    {
+      "name": "linear_156",
+      "elem_type": 10,
+      "dtype": "FLOAT16",
+      "shape": [
+        1,
+        9,
+        32,
+        1024
+      ],
+      "bytes": 589824,
+      "roles": [
+        {
+          "node": "node_gelu_57",
+          "role": "gelu_input",
+          "op_type": "ExactGeluTanh"
+        }
+      ]
+    },
+    {
+      "name": "gelu_57",
+      "elem_type": 10,
+      "dtype": "FLOAT16",
+      "shape": [
+        1,
+        9,
+        32,
+        1024
+      ],
+      "bytes": 589824,
+      "roles": [
+        {
+          "node": "node_gelu_57",
+          "role": "gelu_output",
+          "op_type": "ExactGeluTanh"
+        }
+      ]
+    },
+    {
+      "name": "linear_127",
+      "elem_type": 10,
+      "dtype": "FLOAT16",
+      "shape": [
+        1,
+        9,
+        32,
+        1024
+      ],
+      "bytes": 589824,
+      "roles": [
+        {
+          "node": "node_gelu_50",
+          "role": "gelu_input",
+          "op_type": "ExactGeluTanh"
+        }
+      ]
+    },
+    {
+      "name": "gelu_50",
+      "elem_type": 10,
+      "dtype": "FLOAT16",
+      "shape": [
+        1,
+        9,
+        32,
+        1024
+      ],
+      "bytes": 589824,
+      "roles": [
+        {
+          "node": "node_gelu_50",
+          "role": "gelu_output",
+          "op_type": "ExactGeluTanh"
+        }
+      ]
+    },
+    {
+      "name": "linear_86",
+      "elem_type": 10,
+      "dtype": "FLOAT16",
+      "shape": [
+        1,
+        9,
+        32,
+        1024
+      ],
+      "bytes": 589824,
+      "roles": [
+        {
+          "node": "node_gelu_39",
+          "role": "gelu_input",
+          "op_type": "ExactGeluTanh"
+        }
+      ]
+    },
+    {
+      "name": "gelu_39",
+      "elem_type": 10,
+      "dtype": "FLOAT16",
+      "shape": [
+        1,
+        9,
+        32,
+        1024
+      ],
+      "bytes": 589824,
+      "roles": [
+        {
+          "node": "node_gelu_39",
+          "role": "gelu_output",
+          "op_type": "ExactGeluTanh"
+        }
+      ]
+    },
+    {
+      "name": "linear_72",
+      "elem_type": 10,
+      "dtype": "FLOAT16",
+      "shape": [
+        1,
+        1024
+      ],
+      "bytes": 2048,
+      "roles": [
+        {
+          "node": "node_gelu_36",
+          "role": "gelu_input",
+          "op_type": "ExactGeluTanh"
+        }
+      ]
+    },
+    {
+      "name": "gelu_36",
+      "elem_type": 10,
+      "dtype": "FLOAT16",
+      "shape": [
+        1,
+        1024
+      ],
+      "bytes": 2048,
+      "roles": [
+        {
+          "node": "node_gelu_36",
+          "role": "gelu_output",
+          "op_type": "ExactGeluTanh"
+        }
+      ]
+    },
+    {
+      "name": "linear_158",
+      "elem_type": 10,
+      "dtype": "FLOAT16",
+      "shape": [
+        1,
+        9,
+        32,
+        1024
+      ],
+      "bytes": 589824,
+      "roles": [
+        {
+          "node": "node_gelu_58",
+          "role": "gelu_input",
+          "op_type": "ExactGeluTanh"
+        }
+      ]
+    },
+    {
+      "name": "gelu_58",
+      "elem_type": 10,
+      "dtype": "FLOAT16",
+      "shape": [
+        1,
+        9,
+        32,
+        1024
+      ],
+      "bytes": 589824,
+      "roles": [
+        {
+          "node": "node_gelu_58",
+          "role": "gelu_output",
+          "op_type": "ExactGeluTanh"
+        }
+      ]
+    },
+    {
+      "name": "linear_129",
+      "elem_type": 10,
+      "dtype": "FLOAT16",
+      "shape": [
+        1,
+        9,
+        32,
+        1024
+      ],
+      "bytes": 589824,
+      "roles": [
+        {
+          "node": "node_gelu_51",
+          "role": "gelu_input",
+          "op_type": "ExactGeluTanh"
+        }
+      ]
+    },
+    {
+      "name": "gelu_51",
+      "elem_type": 10,
+      "dtype": "FLOAT16",
+      "shape": [
+        1,
+        9,
+        32,
+        1024
+      ],
+      "bytes": 589824,
+      "roles": [
+        {
+          "node": "node_gelu_51",
+          "role": "gelu_output",
+          "op_type": "ExactGeluTanh"
+        }
+      ]
+    },
+    {
+      "name": "linear_88",
+      "elem_type": 10,
+      "dtype": "FLOAT16",
+      "shape": [
+        1,
+        9,
+        32,
+        1024
+      ],
+      "bytes": 589824,
+      "roles": [
+        {
+          "node": "node_gelu_40",
+          "role": "gelu_input",
+          "op_type": "ExactGeluTanh"
+        }
+      ]
+    },
+    {
+      "name": "gelu_40",
+      "elem_type": 10,
+      "dtype": "FLOAT16",
+      "shape": [
+        1,
+        9,
+        32,
+        1024
+      ],
+      "bytes": 589824,
+      "roles": [
+        {
+          "node": "node_gelu_40",
+          "role": "gelu_output",
+          "op_type": "ExactGeluTanh"
+        }
+      ]
+    },
+    {
+      "name": "linear_74",
+      "elem_type": 10,
+      "dtype": "FLOAT16",
+      "shape": [
+        1,
+        1024
+      ],
+      "bytes": 2048,
+      "roles": [
+        {
+          "node": "node_gelu_37",
+          "role": "gelu_input",
+          "op_type": "ExactGeluTanh"
+        }
+      ]
+    },
+    {
+      "name": "gelu_37",
+      "elem_type": 10,
+      "dtype": "FLOAT16",
+      "shape": [
+        1,
+        1024
+      ],
+      "bytes": 2048,
+      "roles": [
+        {
+          "node": "node_gelu_37",
+          "role": "gelu_output",
+          "op_type": "ExactGeluTanh"
+        }
+      ]
+    },
+    {
+      "name": "linear_168",
+      "elem_type": 10,
+      "dtype": "FLOAT16",
+      "shape": [
+        1,
+        288,
+        1024
+      ],
+      "bytes": 589824,
+      "roles": [
+        {
+          "node": "node_gelu_59",
+          "role": "gelu_input",
+          "op_type": "ExactGeluTanh"
+        }
+      ]
+    },
+    {
+      "name": "gelu_59",
+      "elem_type": 10,
+      "dtype": "FLOAT16",
+      "shape": [
+        1,
+        288,
+        1024
+      ],
+      "bytes": 589824,
+      "roles": [
+        {
+          "node": "node_gelu_59",
+          "role": "gelu_output",
+          "op_type": "ExactGeluTanh"
+        }
+      ]
+    },
+    {
+      "name": "linear_139",
+      "elem_type": 10,
+      "dtype": "FLOAT16",
+      "shape": [
+        1,
+        288,
+        1024
+      ],
+      "bytes": 589824,
+      "roles": [
+        {
+          "node": "node_gelu_52",
+          "role": "gelu_input",
+          "op_type": "ExactGeluTanh"
+        }
+      ]
+    },
+    {
+      "name": "gelu_52",
+      "elem_type": 10,
+      "dtype": "FLOAT16",
+      "shape": [
+        1,
+        288,
+        1024
+      ],
+      "bytes": 589824,
+      "roles": [
+        {
+          "node": "node_gelu_52",
+          "role": "gelu_output",
+          "op_type": "ExactGeluTanh"
+        }
+      ]
+    },
+    {
+      "name": "linear_98",
+      "elem_type": 10,
+      "dtype": "FLOAT16",
+      "shape": [
+        1,
+        288,
+        1024
+      ],
+      "bytes": 589824,
+      "roles": [
+        {
+          "node": "node_gelu_41",
+          "role": "gelu_input",
+          "op_type": "ExactGeluTanh"
+        }
+      ]
+    },
+    {
+      "name": "gelu_41",
+      "elem_type": 10,
+      "dtype": "FLOAT16",
+      "shape": [
+        1,
+        288,
+        1024
+      ],
+      "bytes": 589824,
+      "roles": [
+        {
+          "node": "node_gelu_41",
+          "role": "gelu_output",
+          "op_type": "ExactGeluTanh"
+        }
+      ]
+    },
+    {
+      "name": "linear_83",
+      "elem_type": 10,
+      "dtype": "FLOAT16",
+      "shape": [
+        1,
+        1024
+      ],
+      "bytes": 2048,
+      "roles": [
+        {
+          "node": "node_gelu_38",
+          "role": "gelu_input",
+          "op_type": "ExactGeluTanh"
+        }
+      ]
+    },
+    {
+      "name": "gelu_38",
+      "elem_type": 10,
+      "dtype": "FLOAT16",
+      "shape": [
+        1,
+        1024
+      ],
+      "bytes": 2048,
+      "roles": [
+        {
+          "node": "node_gelu_38",
+          "role": "gelu_output",
+          "op_type": "ExactGeluTanh"
+        }
+      ]
+    },
+    {
+      "name": "linear_172",
+      "elem_type": 10,
+      "dtype": "FLOAT16",
+      "shape": [
+        1,
+        288,
+        1024
+      ],
+      "bytes": 589824,
+      "roles": [
+        {
+          "node": "node_gelu_60",
+          "role": "gelu_input",
+          "op_type": "ExactGeluTanh"
+        }
+      ]
+    },
+    {
+      "name": "gelu_60",
+      "elem_type": 10,
+      "dtype": "FLOAT16",
+      "shape": [
+        1,
+        288,
+        1024
+      ],
+      "bytes": 589824,
+      "roles": [
+        {
+          "node": "node_gelu_60",
+          "role": "gelu_output",
+          "op_type": "ExactGeluTanh"
+        }
+      ]
+    },
+    {
+      "name": "linear_143",
+      "elem_type": 10,
+      "dtype": "FLOAT16",
+      "shape": [
+        1,
+        288,
+        1024
+      ],
+      "bytes": 589824,
+      "roles": [
+        {
+          "node": "node_gelu_53",
+          "role": "gelu_input",
+          "op_type": "ExactGeluTanh"
+        }
+      ]
+    },
+    {
+      "name": "gelu_53",
+      "elem_type": 10,
+      "dtype": "FLOAT16",
+      "shape": [
+        1,
+        288,
+        1024
+      ],
+      "bytes": 589824,
+      "roles": [
+        {
+          "node": "node_gelu_53",
+          "role": "gelu_output",
+          "op_type": "ExactGeluTanh"
+        }
+      ]
+    },
+    {
+      "name": "linear_102",
+      "elem_type": 10,
+      "dtype": "FLOAT16",
+      "shape": [
+        1,
+        288,
+        1024
+      ],
+      "bytes": 589824,
+      "roles": [
+        {
+          "node": "node_gelu_42",
+          "role": "gelu_input",
+          "op_type": "ExactGeluTanh"
+        }
+      ]
+    },
+    {
+      "name": "gelu_42",
+      "elem_type": 10,
+      "dtype": "FLOAT16",
+      "shape": [
+        1,
+        288,
+        1024
+      ],
+      "bytes": 589824,
+      "roles": [
+        {
+          "node": "node_gelu_42",
+          "role": "gelu_output",
+          "op_type": "ExactGeluTanh"
+        }
+      ]
+    },
+    {
+      "name": "linear_176",
+      "elem_type": 10,
+      "dtype": "FLOAT16",
+      "shape": [
+        1,
+        288,
+        1024
+      ],
+      "bytes": 589824,
+      "roles": [
+        {
+          "node": "node_gelu_61",
+          "role": "gelu_input",
+          "op_type": "ExactGeluTanh"
+        }
+      ]
+    },
+    {
+      "name": "gelu_61",
+      "elem_type": 10,
+      "dtype": "FLOAT16",
+      "shape": [
+        1,
+        288,
+        1024
+      ],
+      "bytes": 589824,
+      "roles": [
+        {
+          "node": "node_gelu_61",
+          "role": "gelu_output",
+          "op_type": "ExactGeluTanh"
+        }
+      ]
+    },
+    {
+      "name": "linear_147",
+      "elem_type": 10,
+      "dtype": "FLOAT16",
+      "shape": [
+        1,
+        288,
+        1024
+      ],
+      "bytes": 589824,
+      "roles": [
+        {
+          "node": "node_gelu_54",
+          "role": "gelu_input",
+          "op_type": "ExactGeluTanh"
+        }
+      ]
+    },
+    {
+      "name": "gelu_54",
+      "elem_type": 10,
+      "dtype": "FLOAT16",
+      "shape": [
+        1,
+        288,
+        1024
+      ],
+      "bytes": 589824,
+      "roles": [
+        {
+          "node": "node_gelu_54",
+          "role": "gelu_output",
+          "op_type": "ExactGeluTanh"
+        }
+      ]
+    },
+    {
+      "name": "linear_106",
+      "elem_type": 10,
+      "dtype": "FLOAT16",
+      "shape": [
+        1,
+        288,
+        1024
+      ],
+      "bytes": 589824,
+      "roles": [
+        {
+          "node": "node_gelu_43",
+          "role": "gelu_input",
+          "op_type": "ExactGeluTanh"
+        }
+      ]
+    },
+    {
+      "name": "gelu_43",
+      "elem_type": 10,
+      "dtype": "FLOAT16",
+      "shape": [
+        1,
+        288,
+        1024
+      ],
+      "bytes": 589824,
+      "roles": [
+        {
+          "node": "node_gelu_43",
+          "role": "gelu_output",
+          "op_type": "ExactGeluTanh"
+        }
+      ]
+    },
+    {
+      "name": "linear_180",
+      "elem_type": 10,
+      "dtype": "FLOAT16",
+      "shape": [
+        1,
+        288,
+        1024
+      ],
+      "bytes": 589824,
+      "roles": [
+        {
+          "node": "node_gelu_62",
+          "role": "gelu_input",
+          "op_type": "ExactGeluTanh"
+        }
+      ]
+    },
+    {
+      "name": "gelu_62",
+      "elem_type": 10,
+      "dtype": "FLOAT16",
+      "shape": [
+        1,
+        288,
+        1024
+      ],
+      "bytes": 589824,
+      "roles": [
+        {
+          "node": "node_gelu_62",
+          "role": "gelu_output",
+          "op_type": "ExactGeluTanh"
+        }
+      ]
+    },
+    {
+      "name": "linear_151",
+      "elem_type": 10,
+      "dtype": "FLOAT16",
+      "shape": [
+        1,
+        288,
+        1024
+      ],
+      "bytes": 589824,
+      "roles": [
+        {
+          "node": "node_gelu_55",
+          "role": "gelu_input",
+          "op_type": "ExactGeluTanh"
+        }
+      ]
+    },
+    {
+      "name": "gelu_55",
+      "elem_type": 10,
+      "dtype": "FLOAT16",
+      "shape": [
+        1,
+        288,
+        1024
+      ],
+      "bytes": 589824,
+      "roles": [
+        {
+          "node": "node_gelu_55",
+          "role": "gelu_output",
+          "op_type": "ExactGeluTanh"
+        }
+      ]
+    },
+    {
+      "name": "linear_110",
+      "elem_type": 10,
+      "dtype": "FLOAT16",
+      "shape": [
+        1,
+        288,
+        1024
+      ],
+      "bytes": 589824,
+      "roles": [
+        {
+          "node": "node_gelu_44",
+          "role": "gelu_input",
+          "op_type": "ExactGeluTanh"
+        }
+      ]
+    },
+    {
+      "name": "gelu_44",
+      "elem_type": 10,
+      "dtype": "FLOAT16",
+      "shape": [
+        1,
+        288,
+        1024
+      ],
+      "bytes": 589824,
+      "roles": [
+        {
+          "node": "node_gelu_44",
+          "role": "gelu_output",
+          "op_type": "ExactGeluTanh"
+        }
+      ]
+    },
+    {
+      "name": "linear_153",
+      "elem_type": 10,
+      "dtype": "FLOAT16",
+      "shape": [
+        1,
+        1024
+      ],
+      "bytes": 2048,
+      "roles": [
+        {
+          "node": "node_gelu_56",
+          "role": "gelu_input",
+          "op_type": "ExactGeluTanh"
+        }
+      ]
+    },
+    {
+      "name": "gelu_56",
+      "elem_type": 10,
+      "dtype": "FLOAT16",
+      "shape": [
+        1,
+        1024
+      ],
+      "bytes": 2048,
+      "roles": [
+        {
+          "node": "node_gelu_56",
+          "role": "gelu_output",
+          "op_type": "ExactGeluTanh"
+        }
+      ]
+    },
+    {
+      "name": "linear_124",
+      "elem_type": 10,
+      "dtype": "FLOAT16",
+      "shape": [
+        1,
+        1024
+      ],
+      "bytes": 2048,
+      "roles": [
+        {
+          "node": "node_gelu_49",
+          "role": "gelu_input",
+          "op_type": "ExactGeluTanh"
+        }
+      ]
+    },
+    {
+      "name": "gelu_49",
+      "elem_type": 10,
+      "dtype": "FLOAT16",
+      "shape": [
+        1,
+        1024
+      ],
+      "bytes": 2048,
+      "roles": [
+        {
+          "node": "node_gelu_49",
+          "role": "gelu_output",
+          "op_type": "ExactGeluTanh"
+        }
+      ]
+    },
+    {
+      "name": "linear_118",
+      "elem_type": 10,
+      "dtype": "FLOAT16",
+      "shape": [
+        1,
+        1024
+      ],
+      "bytes": 2048,
+      "roles": [
+        {
+          "node": "node_gelu_47",
+          "role": "gelu_input",
+          "op_type": "ExactGeluTanh"
+        }
+      ]
+    },
+    {
+      "name": "gelu_47",
+      "elem_type": 10,
+      "dtype": "FLOAT16",
+      "shape": [
+        1,
+        1024
+      ],
+      "bytes": 2048,
+      "roles": [
+        {
+          "node": "node_gelu_47",
+          "role": "gelu_output",
+          "op_type": "ExactGeluTanh"
+        }
+      ]
+    },
+    {
+      "name": "linear_115",
+      "elem_type": 10,
+      "dtype": "FLOAT16",
+      "shape": [
+        1,
+        1024
+      ],
+      "bytes": 2048,
+      "roles": [
+        {
+          "node": "node_gelu_46",
+          "role": "gelu_input",
+          "op_type": "ExactGeluTanh"
+        }
+      ]
+    },
+    {
+      "name": "gelu_46",
+      "elem_type": 10,
+      "dtype": "FLOAT16",
+      "shape": [
+        1,
+        1024
+      ],
+      "bytes": 2048,
+      "roles": [
+        {
+          "node": "node_gelu_46",
+          "role": "gelu_output",
+          "op_type": "ExactGeluTanh"
+        }
+      ]
+    },
+    {
+      "name": "linear_112",
+      "elem_type": 10,
+      "dtype": "FLOAT16",
+      "shape": [
+        1,
+        1024
+      ],
+      "bytes": 2048,
+      "roles": [
+        {
+          "node": "node_gelu_45",
+          "role": "gelu_input",
+          "op_type": "ExactGeluTanh"
+        }
+      ]
+    },
+    {
+      "name": "gelu_45",
+      "elem_type": 10,
+      "dtype": "FLOAT16",
+      "shape": [
+        1,
+        1024
+      ],
+      "bytes": 2048,
+      "roles": [
+        {
+          "node": "node_gelu_45",
+          "role": "gelu_output",
+          "op_type": "ExactGeluTanh"
+        }
+      ]
+    },
+    {
+      "name": "linear_184",
+      "elem_type": 10,
+      "dtype": "FLOAT16",
+      "shape": [
+        1,
+        1024
+      ],
+      "bytes": 2048,
+      "roles": [
+        {
+          "node": "node_gelu_63",
+          "role": "gelu_input",
+          "op_type": "ExactGeluTanh"
+        }
+      ]
+    },
+    {
+      "name": "gelu_63",
+      "elem_type": 10,
+      "dtype": "FLOAT16",
+      "shape": [
+        1,
+        1024
+      ],
+      "bytes": 2048,
+      "roles": [
+        {
+          "node": "node_gelu_63",
+          "role": "gelu_output",
+          "op_type": "ExactGeluTanh"
+        }
+      ]
+    }
+  ],
+  "boundary_total_bytes": 118788096,
+  "boundary_total_mib": 113.28515625,
+  "cache_locations_preserved": [
+    "light-speed-gelu-both-ctx_qnn.bin"
+  ],
+  "deployment": "Create a hard link to the original QNN binary beside the wrapper using each unchanged relative basename above. Absolute ep_cache_context paths are rejected by the tested device runtime.",
+  "original_nodes_byte_identical": true,
+  "original_inputs_byte_identical": true,
+  "original_outputs_preserved_in_order": true,
+  "onnx_checker": "passed",
+  "formula_or_weight_changes": "none",
+  "scope": "Metadata preparation only; zero-copy placement and performance require device verification."
+}

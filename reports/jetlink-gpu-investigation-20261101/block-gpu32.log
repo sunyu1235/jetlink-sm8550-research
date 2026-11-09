@@ -1,0 +1,5 @@
+ORT 1.29.0
+in add_34 262144 bytes
+out outputs 262144 bytes
+output_type=1 nonfinite=0/65536
+shared=0 rpc_us=0 n=1 mean_ms=10.835 p50_ms=10.835 p99_ms=10.835 min_ms=10.835 max_ms=10.835 over50=0

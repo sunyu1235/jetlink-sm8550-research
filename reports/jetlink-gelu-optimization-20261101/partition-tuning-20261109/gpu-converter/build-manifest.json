@@ -1,0 +1,51 @@
+{
+  "built_at_utc": "2026-11-09T13:16:19.4721545Z",
+  "source": "C:\\Users\\sunbo\\Documents\\openpilot\\reports\\jetlink-gelu-optimization-20261101\\partition-tuning-20261109\\gpu-converter\\Native.java",
+  "source_sha256": "934f36f7a59b26a583040b957fa93bd87f10f9e633c3850acee25ac2806461df",
+  "bridge_source": "C:\\Users\\sunbo\\Documents\\openpilot\\outputs\\jetlink-gelu-optimization-20261101\\partition-tuning-20261109\\upstream-pinned-source\\JetlinkKit\\Sources\\JetlinkAndroid\\Bridge.swift",
+  "bridge_sha256": "0bc0e0d95253d8ac0eb747aa2ca25cb294fbf972c7112fba4ad9c8c4ff1077a4",
+  "kotlin_source": "C:\\Users\\sunbo\\Documents\\openpilot\\outputs\\jetlink-gelu-optimization-20261101\\partition-tuning-20261109\\upstream-pinned-source\\android\\app\\src\\main\\java\\io\\zoompilot\\jetlink\\server\\Native.kt",
+  "kotlin_sha256": "5b746f22df6fac05c98a4ce6a8cdf4838eb3f4b553ca8a2714ae473ea0dd8cd3",
+  "javac": "C:\\Users\\sunbo\\Documents\\openpilot\\tools\\jdk-17\\bin\\javac.exe",
+  "javac_version": "javac 17.0.20",
+  "android_jar": "C:\\mp-sdk\\platforms\\android-33\\android.jar",
+  "d8": "C:\\mp-sdk\\build-tools\\33.0.2\\d8.bat",
+  "d8_jar_fallback": "C:\\mp-sdk\\build-tools\\33.0.2\\lib\\d8.jar",
+  "java_source_target": 8,
+  "min_api": 26,
+  "output": "C:\\Users\\sunbo\\Documents\\openpilot\\outputs\\jetlink-gelu-optimization-20261101\\partition-tuning-20261109\\gpu-converter\\native-console.jar",
+  "output_sha256": "fb20830cf42138a8fcc05f4e204a1b996c2618bbe1c7b65e5a52732ee8f7fb25",
+  "output_bytes": 1924,
+  "archive_entries": [
+    "classes.dex"
+  ],
+  "entry_class": "io.zoompilot.jetlink.server.Native",
+  "jni_methods": [
+    "static String start(String)",
+    "static void stop()",
+    "static String command(String)",
+    "static String snapshot(long,int)",
+    "static String logs(long)"
+  ],
+  "config": {
+    "cache": "<cacheDir>",
+    "backend": "litert",
+    "device": "gpu",
+    "chip": "SM8550",
+    "native_library_dir": "<nativeLibDir>",
+    "preload": false,
+    "listen": false,
+    "port": 0,
+    "usb": false,
+    "keep_alive": false,
+    "keep_cpu_warm": false
+  },
+  "stdin_commands": [
+    "<control JSON>",
+    "@start-snapshot",
+    "@logs",
+    "@quit"
+  ],
+  "app_process": "CLASSPATH=/data/local/tmp/native-console.jar LD_LIBRARY_PATH=\"$LIBDIR\" app_process /system/bin io.zoompilot.jetlink.server.Native \"$LIBDIR\" \"$CACHEDIR\"",
+  "device_connected": false
+}

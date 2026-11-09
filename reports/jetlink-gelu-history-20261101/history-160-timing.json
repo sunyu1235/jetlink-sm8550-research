@@ -1,0 +1,13 @@
+{
+  "frames": 160,
+  "elapsed_s": 11.999185,
+  "mean_execute_ms": 73.7608879875,
+  "fps_from_execution_mean": 13.557320516117791,
+  "observed_loop_fps": 13.334238950395381,
+  "battery_c_start": 22.0,
+  "battery_c_end": 22.0,
+  "gpu_sensor_c_start": 31.1,
+  "gpu_sensor_c_end": 58.0,
+  "gpu_sensor_c_max": 58.4,
+  "all_frames_finite": true
+}

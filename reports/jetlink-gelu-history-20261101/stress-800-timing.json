@@ -1,0 +1,16 @@
+{
+  "frames": 800,
+  "loop_elapsed_s": 59.992219,
+  "execute_mean_ms": 73.75085565,
+  "execute_p50_ms": 73.755416,
+  "execute_p99_ms": 76.630937,
+  "execute_max_ms": 81.150053,
+  "loop_fps": 13.335062668710421,
+  "battery_c_start": 22.0,
+  "battery_c_end": 23.0,
+  "gpu_sensor_c_start": 31.9,
+  "gpu_sensor_c_end": 71.8,
+  "gpu_sensor_c_max": 72.2,
+  "frames_with_nonfinite_output": 0,
+  "note": "160 synthetic seed-1 frames repeated five times; recurrent states never reset between cycles. Finiteness was checked every frame. The independent 160-frame full parity comparison passed unchanged upstream thresholds; the 800-frame stress run was not independently compared on all output values."
+}

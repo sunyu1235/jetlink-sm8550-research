@@ -1,0 +1,19 @@
+{
+  "runtime_options": [
+    "soc_model via JL_SOC_MODEL",
+    "vtcm_mb via JL_VTCM_MB"
+  ],
+  "binary": "C:\\Users\\sunbo\\Documents\\openpilot\\outputs\\jetlink-gelu-optimization-20261101\\runtime-tuning-20261102\\history_probe_runtime_tuning",
+  "target": "aarch64-linux-android24",
+  "compiler": "C:\\Users\\sunbo\\Documents\\moto-x40-root\\android-ndk-r30\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\aarch64-linux-android24-clang.cmd",
+  "qnn_profile_path_default": "/data/local/tmp/jetlink_qnn_profile_runtime_tuning.csv",
+  "flags": [
+    "-O2",
+    "-Wall",
+    "-Wextra",
+    "-Werror",
+    "-DJL_ORT_DLOPEN"
+  ],
+  "source": "C:\\Users\\sunbo\\Documents\\openpilot\\reports\\jetlink-gelu-optimization-20261101\\runtime-tuning-20261102\\history_probe_runtime_tuning.c",
+  "sha256": "cdc766826e6eff2001824075c0513b00b73bd3cae2c10fe44def6245d6937210"
+}

@@ -1,0 +1,21 @@
+Current temperatures from HAL:
+	Temperature{mValue=4.384, mType=6, mName=vbat, mStatus=0}
+	Temperature{mValue=19.013, mType=3, mName=skin, mStatus=0}
+	Temperature{mValue=1.5, mType=7, mName=ibat, mStatus=0}
+	Temperature{mValue=23.8, mType=9, mName=nsp3, mStatus=0}
+	Temperature{mValue=24.2, mType=9, mName=nsp2, mStatus=0}
+	Temperature{mValue=23.8, mType=9, mName=nsp1, mStatus=0}
+	Temperature{mValue=24.2, mType=9, mName=nsp0, mStatus=0}
+	Temperature{mValue=25.2, mType=1, mName=GPU6, mStatus=0}
+	Temperature{mValue=25.2, mType=1, mName=GPU5, mStatus=0}
+	Temperature{mValue=24.4, mType=1, mName=GPU4, mStatus=0}
+	Temperature{mValue=26.1, mType=0, mName=CPU6, mStatus=0}
+	Temperature{mValue=24.8, mType=1, mName=GPU1, mStatus=0}
+	Temperature{mValue=24.8, mType=1, mName=GPU2, mStatus=0}
+	Temperature{mValue=21.0, mType=2, mName=battery, mStatus=0}
+	Temperature{mValue=24.8, mType=1, mName=GPU3, mStatus=0}
+	Temperature{mValue=25.7, mType=0, mName=CPU7, mStatus=0}
+	Temperature{mValue=24.8, mType=1, mName=GPU0, mStatus=0}
+	Temperature{mValue=24.9, mType=0, mName=CPU5, mStatus=0}
+	Temperature{mValue=0.0, mType=8, mName=socd, mStatus=0}
+	Temperature{mValue=25.3, mType=0, mName=CPU3, mStatus=0}

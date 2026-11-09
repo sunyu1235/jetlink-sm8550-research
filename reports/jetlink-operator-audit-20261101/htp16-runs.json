@@ -1,0 +1,97 @@
+{
+  "device": "192.168.1.49:5555",
+  "device_model": "XT2301_5 / rtwo",
+  "device_clock": "2026-11-01T13:42:22+08:00",
+  "strict_probe_sha256": "3c18656a2194bfaf653015f63a2ae881ac277d1dc2bed8821a912a70b3dfa59c",
+  "strict_cpu_fallback_disabled": true,
+  "backend": "QNN HTP FP16 (enable_htp_fp16_precision=1)",
+  "input_preflight": [
+    {
+      "operator": "depthwise_conv",
+      "input": "add_34",
+      "expected_bytes": 131072,
+      "device_check": "exists and exact size"
+    },
+    {
+      "operator": "layer_normalization",
+      "input": "permute_78",
+      "expected_bytes": 131072,
+      "device_check": "exists and exact size"
+    },
+    {
+      "operator": "matmul_1",
+      "input": "val_521__flat",
+      "expected_bytes": 131072,
+      "device_check": "exists and exact size"
+    },
+    {
+      "operator": "matmul_2",
+      "input": "val_523__flat",
+      "expected_bytes": 524288,
+      "device_check": "exists and exact size"
+    },
+    {
+      "operator": "gelu",
+      "input": "linear_70",
+      "expected_bytes": 524288,
+      "device_check": "exists and exact size"
+    }
+  ],
+  "runs": [
+    {
+      "operator": "depthwise_conv",
+      "command": "export LD_LIBRARY_PATH=/data/local/tmp/qnn-probe:/data/app/~~VpmS9jlwALEhgoyt9-46dg==/io.zoompilot.jetlink.android-EWl-c1N0tgoTnf5ottkdxQ==/lib/arm64:/vendor/lib64; export ADSP_LIBRARY_PATH=/data/app/~~VpmS9jlwALEhgoyt9-46dg==/io.zoompilot.jetlink.android-EWl-c1N0tgoTnf5ottkdxQ==/lib/arm64; /data/local/tmp/strict_probe /data/local/tmp/jetlink-operator-audit-20261101/depthwise_conv/operator.onnx 0 0 none 1 /data/local/tmp/jetlink-operator-audit-20261101/depthwise_conv/inputs /data/local/tmp/jetlink-operator-audit-20261101/depthwise_conv/htp-out oneop htp",
+      "exit_code": 0,
+      "log": "C:\\Users\\sunbo\\Documents\\openpilot\\reports\\jetlink-operator-audit-20261101\\depthwise_conv.htp16.log",
+      "device_output": "ORT 1.29.0\nin add_34 131072 bytes\nout outputs 131072 bytes\noutput_type=10 nonfinite=0/65536\nshared=0 rpc_us=0 n=1 mean_ms=0.705 p50_ms=0.705 p99_ms=0.705 min_ms=0.705 max_ms=0.705 over50=0\n",
+      "output_bytes": 131072,
+      "output_sha256": "3dae06f3ca7646e39d5a9dd539e65b815e2ddb03950ff121b5072e5ee56832a4",
+      "output_local": "C:\\Users\\sunbo\\Documents\\openpilot\\outputs\\jetlink-operator-audit-20261101\\depthwise_conv\\htp-output.bin",
+      "pull_output": "/data/local/tmp/jetlink-operator-audit-20261101/depthwise_conv/htp-out/out_0.bin: 1 file pulled. 1.1 MB/s (131072 bytes in 0.110s)\n"
+    },
+    {
+      "operator": "layer_normalization",
+      "command": "export LD_LIBRARY_PATH=/data/local/tmp/qnn-probe:/data/app/~~VpmS9jlwALEhgoyt9-46dg==/io.zoompilot.jetlink.android-EWl-c1N0tgoTnf5ottkdxQ==/lib/arm64:/vendor/lib64; export ADSP_LIBRARY_PATH=/data/app/~~VpmS9jlwALEhgoyt9-46dg==/io.zoompilot.jetlink.android-EWl-c1N0tgoTnf5ottkdxQ==/lib/arm64; /data/local/tmp/strict_probe /data/local/tmp/jetlink-operator-audit-20261101/layer_normalization/operator.onnx 0 0 none 1 /data/local/tmp/jetlink-operator-audit-20261101/layer_normalization/inputs /data/local/tmp/jetlink-operator-audit-20261101/layer_normalization/htp-out oneop htp",
+      "exit_code": 0,
+      "log": "C:\\Users\\sunbo\\Documents\\openpilot\\reports\\jetlink-operator-audit-20261101\\layer_normalization.htp16.log",
+      "device_output": "ORT 1.29.0\nin permute_78 131072 bytes\nout outputs 131072 bytes\noutput_type=10 nonfinite=0/65536\nshared=0 rpc_us=0 n=1 mean_ms=0.529 p50_ms=0.529 p99_ms=0.529 min_ms=0.529 max_ms=0.529 over50=0\n",
+      "output_bytes": 131072,
+      "output_sha256": "f37660a9dadd9a19bd73456c8a4c6d7613d57b2172d0629791989f037abdddb8",
+      "output_local": "C:\\Users\\sunbo\\Documents\\openpilot\\outputs\\jetlink-operator-audit-20261101\\layer_normalization\\htp-output.bin",
+      "pull_output": "/data/local/tmp/jetlink-operator-audit-20261101/layer_normalization/htp-out/out_0.bin: 1 file pulled. 1.1 MB/s (131072 bytes in 0.110s)\n"
+    },
+    {
+      "operator": "matmul_1",
+      "command": "export LD_LIBRARY_PATH=/data/local/tmp/qnn-probe:/data/app/~~VpmS9jlwALEhgoyt9-46dg==/io.zoompilot.jetlink.android-EWl-c1N0tgoTnf5ottkdxQ==/lib/arm64:/vendor/lib64; export ADSP_LIBRARY_PATH=/data/app/~~VpmS9jlwALEhgoyt9-46dg==/io.zoompilot.jetlink.android-EWl-c1N0tgoTnf5ottkdxQ==/lib/arm64; /data/local/tmp/strict_probe /data/local/tmp/jetlink-operator-audit-20261101/matmul_1/operator.onnx 0 0 none 1 /data/local/tmp/jetlink-operator-audit-20261101/matmul_1/inputs /data/local/tmp/jetlink-operator-audit-20261101/matmul_1/htp-out oneop htp",
+      "exit_code": 0,
+      "log": "C:\\Users\\sunbo\\Documents\\openpilot\\reports\\jetlink-operator-audit-20261101\\matmul_1.htp16.log",
+      "device_output": "ORT 1.29.0\nin val_521__flat 131072 bytes\nout outputs 524288 bytes\noutput_type=10 nonfinite=0/262144\nshared=0 rpc_us=0 n=1 mean_ms=1.704 p50_ms=1.704 p99_ms=1.704 min_ms=1.704 max_ms=1.704 over50=0\n",
+      "output_bytes": 524288,
+      "output_sha256": "e36ac16181fa5cb6e6ef0b4f697428cd62120ceb18f63a648bb8b07a98ea3646",
+      "output_local": "C:\\Users\\sunbo\\Documents\\openpilot\\outputs\\jetlink-operator-audit-20261101\\matmul_1\\htp-output.bin",
+      "pull_output": "/data/local/tmp/jetlink-operator-audit-20261101/matmul_1/htp-out/out_0.bin: 1 file pulled. 1.4 MB/s (524288 bytes in 0.352s)\n"
+    },
+    {
+      "operator": "matmul_2",
+      "command": "export LD_LIBRARY_PATH=/data/local/tmp/qnn-probe:/data/app/~~VpmS9jlwALEhgoyt9-46dg==/io.zoompilot.jetlink.android-EWl-c1N0tgoTnf5ottkdxQ==/lib/arm64:/vendor/lib64; export ADSP_LIBRARY_PATH=/data/app/~~VpmS9jlwALEhgoyt9-46dg==/io.zoompilot.jetlink.android-EWl-c1N0tgoTnf5ottkdxQ==/lib/arm64; /data/local/tmp/strict_probe /data/local/tmp/jetlink-operator-audit-20261101/matmul_2/operator.onnx 0 0 none 1 /data/local/tmp/jetlink-operator-audit-20261101/matmul_2/inputs /data/local/tmp/jetlink-operator-audit-20261101/matmul_2/htp-out oneop htp",
+      "exit_code": 0,
+      "log": "C:\\Users\\sunbo\\Documents\\openpilot\\reports\\jetlink-operator-audit-20261101\\matmul_2.htp16.log",
+      "device_output": "ORT 1.29.0\nin val_523__flat 524288 bytes\nout outputs 131072 bytes\noutput_type=10 nonfinite=0/65536\nshared=0 rpc_us=0 n=1 mean_ms=1.548 p50_ms=1.548 p99_ms=1.548 min_ms=1.548 max_ms=1.548 over50=0\n",
+      "output_bytes": 131072,
+      "output_sha256": "866deab5cca1a2066289c0a72f83c523bfd60e4f290855b1801b4245f524495b",
+      "output_local": "C:\\Users\\sunbo\\Documents\\openpilot\\outputs\\jetlink-operator-audit-20261101\\matmul_2\\htp-output.bin",
+      "pull_output": "/data/local/tmp/jetlink-operator-audit-20261101/matmul_2/htp-out/out_0.bin: 1 file pulled. 4.0 MB/s (131072 bytes in 0.031s)\n"
+    },
+    {
+      "operator": "gelu",
+      "command": "export LD_LIBRARY_PATH=/data/local/tmp/qnn-probe:/data/app/~~VpmS9jlwALEhgoyt9-46dg==/io.zoompilot.jetlink.android-EWl-c1N0tgoTnf5ottkdxQ==/lib/arm64:/vendor/lib64; export ADSP_LIBRARY_PATH=/data/app/~~VpmS9jlwALEhgoyt9-46dg==/io.zoompilot.jetlink.android-EWl-c1N0tgoTnf5ottkdxQ==/lib/arm64; /data/local/tmp/strict_probe /data/local/tmp/jetlink-operator-audit-20261101/gelu/operator.onnx 0 0 none 1 /data/local/tmp/jetlink-operator-audit-20261101/gelu/inputs /data/local/tmp/jetlink-operator-audit-20261101/gelu/htp-out oneop htp",
+      "exit_code": 0,
+      "log": "C:\\Users\\sunbo\\Documents\\openpilot\\reports\\jetlink-operator-audit-20261101\\gelu.htp16.log",
+      "device_output": "ORT 1.29.0\nin linear_70 524288 bytes\nout outputs 524288 bytes\noutput_type=10 nonfinite=0/262144\nshared=0 rpc_us=0 n=1 mean_ms=1.025 p50_ms=1.025 p99_ms=1.025 min_ms=1.025 max_ms=1.025 over50=0\n",
+      "output_bytes": 524288,
+      "output_sha256": "568ef93943cfdad17bd79bc0b2e0536c75963ae4918cbdb4ea72554e6db6f128",
+      "output_local": "C:\\Users\\sunbo\\Documents\\openpilot\\outputs\\jetlink-operator-audit-20261101\\gelu\\htp-output.bin",
+      "pull_output": "/data/local/tmp/jetlink-operator-audit-20261101/gelu/htp-out/out_0.bin: 1 file pulled. 3.5 MB/s (524288 bytes in 0.143s)\n"
+    }
+  ]
+}

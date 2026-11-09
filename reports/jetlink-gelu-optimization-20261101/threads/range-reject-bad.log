@@ -1,0 +1,2 @@
+PREFLIGHT_EXIT=2
+JL_CPU_THREADS must be an integer in [1,8]; got 'bad'

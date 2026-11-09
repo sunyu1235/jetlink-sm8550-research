@@ -1,0 +1,2 @@
+C:\Users\sunbo\AppData\Local\Programs\Python\Python313\python.exe C:\Users\sunbo\AppData\Local\Temp\codex-jetlink-research\scripts\verify_parity.py compare --dir C:\Users\sunbo\Documents\openpilot\reports\jetlink-gelu-optimization-20261101\threads\compare\b1-threads1
+PYTHONPATH=C:\Users\sunbo\AppData\Local\Temp\codex-jetlink-research;

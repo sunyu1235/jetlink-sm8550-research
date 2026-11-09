@@ -1,0 +1,948 @@
+{
+  "device": "192.168.1.49:5555 (XT2301 / rtwo)",
+  "runtime": "ONNX Runtime 1.29.0",
+  "probe": "qnn_context_probe, CPU provider only, 4 intra-op threads, no HTP/GPU provider",
+  "runs": [
+    {
+      "name": "vision FP32 CPU on phone",
+      "model": "/data/local/tmp/vision-fp32.onnx",
+      "model_bytes": 1398016728,
+      "inputs": "16 new_img files; each 1572864 bytes, checked on device; state_img_q zero initialized then ping-pong feedback",
+      "output_remote_dir": "/data/local/tmp/vision-phone-cpu32-audit-20261101",
+      "output_count": 16,
+      "output_bytes_each": 65536,
+      "mean_ms": 608.229,
+      "p50_ms": 613.225,
+      "p99_ms": 633.318,
+      "min_ms": 573.28,
+      "max_ms": 638.649,
+      "outputs": [
+        {
+          "name": "out_0.bin",
+          "bytes": 65536,
+          "sha256": "eca6e50ca74fc97186893f5d234f738d4e2cbfdfc1558126ee968f54425f6f82"
+        },
+        {
+          "name": "out_1.bin",
+          "bytes": 65536,
+          "sha256": "64ef7fb66c0a8265fc62fb61b74bb39f26a8c2c8ad463f855fc83a176dfe4237"
+        },
+        {
+          "name": "out_2.bin",
+          "bytes": 65536,
+          "sha256": "80f1402fcb49e1cabfc91c0e514f8cd9d231ca5eee14ed96220e41481caef24a"
+        },
+        {
+          "name": "out_3.bin",
+          "bytes": 65536,
+          "sha256": "4fd252ea7f166697a1e143c2ef2b147ca535aeebca34b3f14b76e347907565af"
+        },
+        {
+          "name": "out_4.bin",
+          "bytes": 65536,
+          "sha256": "850bf268d9a76e160518fb81860bf296a2001f1fb9aec08e48421dd97c42ca19"
+        },
+        {
+          "name": "out_5.bin",
+          "bytes": 65536,
+          "sha256": "97203694a88adaec225e1f6041418ae0c6a679d46461078e450b1b43c2f9e685"
+        },
+        {
+          "name": "out_6.bin",
+          "bytes": 65536,
+          "sha256": "0126a030e90dfcda49a2f3e5604801593c7b44ea1ebb5f345759fcabcabbd30a"
+        },
+        {
+          "name": "out_7.bin",
+          "bytes": 65536,
+          "sha256": "60cc0496f9558ca2598b7579c95614d70402959302cfdd1f68295be3d0e8e3e1"
+        },
+        {
+          "name": "out_8.bin",
+          "bytes": 65536,
+          "sha256": "e0b95e22f442ee37c978ddeb2fa4cffd81a0d0df53cfbf23ba1eedd109370553"
+        },
+        {
+          "name": "out_9.bin",
+          "bytes": 65536,
+          "sha256": "c66a6fb883b37d63d27df07b4e76da9b39786cf2736499ccf98748b00b1eb7f0"
+        },
+        {
+          "name": "out_10.bin",
+          "bytes": 65536,
+          "sha256": "162b28a9262d2d67cf5b36277dc1ee13985d29af411734b7c581aeb9fb9756e4"
+        },
+        {
+          "name": "out_11.bin",
+          "bytes": 65536,
+          "sha256": "420517d6a725577a3643e25867c0fc87b87238aeff055a60a870636505b0a2bb"
+        },
+        {
+          "name": "out_12.bin",
+          "bytes": 65536,
+          "sha256": "d66d28f7d1f70d6a7d75689eea7fae90e621eecf515b7ae1b4325b4bc541ebfc"
+        },
+        {
+          "name": "out_13.bin",
+          "bytes": 65536,
+          "sha256": "d877690fc7f50ce3768abf6c9acea217e48c50f31d52714cc6f8fb4df8fc7c36"
+        },
+        {
+          "name": "out_14.bin",
+          "bytes": 65536,
+          "sha256": "2361561fbec8086000ea078769d8b8a4e8f33f6371886ace7a25ff1fa5b48f9c"
+        },
+        {
+          "name": "out_15.bin",
+          "bytes": 65536,
+          "sha256": "036f6332b86b318a373bdcc55a29add3cdabbc60e0587f0b74fbcdbd0b3e6dbb"
+        }
+      ]
+    },
+    {
+      "name": "policy FP32 CPU on phone",
+      "model": "/data/local/tmp/policy-fp32.onnx",
+      "model_bytes": 182034656,
+      "inputs": "16 frames; view_39 from phone vision output (65536 B each) plus controls from parity-varied (desire 32 B, traffic_convention/action_t 8 B each), all checked on device; state_* zero initialized then ping-pong feedback",
+      "output_remote_dir": "/data/local/tmp/policy-phone-cpu32-audit-20261101-output",
+      "output_count": 16,
+      "output_bytes_each": 73808,
+      "nonfinite_values": 0,
+      "output_elements": 18452,
+      "mean_ms": 150.245,
+      "p50_ms": 144.962,
+      "p99_ms": 166.653,
+      "min_ms": 143.475,
+      "max_ms": 206.076,
+      "outputs": [
+        {
+          "name": "out_0.bin",
+          "bytes": 73808,
+          "sha256": "72a0f25adabb562241831dfd9bf94e1995161c4230622ba9117600c43f0dcf71"
+        },
+        {
+          "name": "out_1.bin",
+          "bytes": 73808,
+          "sha256": "dc18b04d68a33aa50a1cdcf02cea0d5ed9dc80d689f6faf7de8d2e7cd4049cad"
+        },
+        {
+          "name": "out_2.bin",
+          "bytes": 73808,
+          "sha256": "3eea7001b6bb29c7797a43af2bf4138ebd0beb6fb216a5e791e831960499303a"
+        },
+        {
+          "name": "out_3.bin",
+          "bytes": 73808,
+          "sha256": "b741b4cfb27ba4de19e2be83a2b69640033d2417a8f24128184f62be88a58aee"
+        },
+        {
+          "name": "out_4.bin",
+          "bytes": 73808,
+          "sha256": "08ab842b7fa54f1e87448bbe6a41c708f35805fe6b679f8ee6e9320fb4a77342"
+        },
+        {
+          "name": "out_5.bin",
+          "bytes": 73808,
+          "sha256": "68477eb6cdd06faebd0f898a874127646a2db6484208b0c2809892df89f91f0d"
+        },
+        {
+          "name": "out_6.bin",
+          "bytes": 73808,
+          "sha256": "43cecdd3909e657bb3bc85b4ff493e47ba302992fbb41ab24e77c11c4a9d90f0"
+        },
+        {
+          "name": "out_7.bin",
+          "bytes": 73808,
+          "sha256": "72d443f512f290de714be10423246cde4d371e1d2fc0d019ee799e44bf0f0ce7"
+        },
+        {
+          "name": "out_8.bin",
+          "bytes": 73808,
+          "sha256": "fc96e4ebefc88608322a61223cfa7bf81c32cd71ebbca5cf09e55c3b40dc0462"
+        },
+        {
+          "name": "out_9.bin",
+          "bytes": 73808,
+          "sha256": "95984fcbb116e18280e3a0d66348b8cd98e9e0939a4e2ca9a6aae24bc677ad62"
+        },
+        {
+          "name": "out_10.bin",
+          "bytes": 73808,
+          "sha256": "2b8416f4b26b04cbe7386d060aa861ecfe21843890a00595754378b0ef16a52f"
+        },
+        {
+          "name": "out_11.bin",
+          "bytes": 73808,
+          "sha256": "11d3919a435c1a668c65c5506121a9597c9e998931dc32f6c4569aa0245336e3"
+        },
+        {
+          "name": "out_12.bin",
+          "bytes": 73808,
+          "sha256": "3bce365b451548635dc947fc231bc94475d263bea1a757def46b71313d2d9767"
+        },
+        {
+          "name": "out_13.bin",
+          "bytes": 73808,
+          "sha256": "3a3b89c2456678582378603f70d97979afa4476865ba72190c41963579075efd"
+        },
+        {
+          "name": "out_14.bin",
+          "bytes": 73808,
+          "sha256": "f9f01cce178b42e0ae3367ee399628fbd25a46f79d1b7a0ccf8b380be49e7817"
+        },
+        {
+          "name": "out_15.bin",
+          "bytes": 73808,
+          "sha256": "872bc6b4b362a5321a217e39f4fb4028d5bd8c8e2feadab4833bef8e3ea9fc28"
+        }
+      ]
+    }
+  ],
+  "comparison": {
+    "dataset": "C:\\Users\\sunbo\\Documents\\openpilot\\reports\\jetlink-precision-audit-20261101\\phone-full-cpu32-compare",
+    "reference": "parity-varied out_ref_0..15.npy (16 frames)",
+    "thresholds_source": "upstream scripts/verify_parity.py unchanged",
+    "exit_code": 0,
+    "max_abs": 0.2101,
+    "pass": true
+  },
+  "timestamps_device_local": "2026-11-01 13:34\u201313:36 +08:00 (phone stat timestamps; host wrapper output captured during same run)",
+  "input_file_audit": {
+    "vision": {
+      "expected_count": 16,
+      "present_count": 16,
+      "size_match_count": 16,
+      "files": [
+        {
+          "frame": 0,
+          "name": "new_img",
+          "exists": true,
+          "bytes": 1572864,
+          "expected_bytes": 1572864,
+          "size_match": true,
+          "sha256": "4fd47fbdb70d9d9004fc827ee619246953cc297fbadcd445838095b403c98cdd"
+        },
+        {
+          "frame": 1,
+          "name": "new_img",
+          "exists": true,
+          "bytes": 1572864,
+          "expected_bytes": 1572864,
+          "size_match": true,
+          "sha256": "2797bf11b43f5a489b363457ef7335bc27e2df5da5316bf5b02cb5d100923b2b"
+        },
+        {
+          "frame": 2,
+          "name": "new_img",
+          "exists": true,
+          "bytes": 1572864,
+          "expected_bytes": 1572864,
+          "size_match": true,
+          "sha256": "275afd38b23751b420cda600fc89dd27cfdef6b2ac6ec4d804b30c4efcd1b697"
+        },
+        {
+          "frame": 3,
+          "name": "new_img",
+          "exists": true,
+          "bytes": 1572864,
+          "expected_bytes": 1572864,
+          "size_match": true,
+          "sha256": "c112694404168d4a1cbbbc941053644a4f6c3d0c0987743d1265bfa0bc8dc413"
+        },
+        {
+          "frame": 4,
+          "name": "new_img",
+          "exists": true,
+          "bytes": 1572864,
+          "expected_bytes": 1572864,
+          "size_match": true,
+          "sha256": "dd939b8ae57fdb89a90b7aa13f0e66e92ef2f439d1d341787817c9a5c784fec5"
+        },
+        {
+          "frame": 5,
+          "name": "new_img",
+          "exists": true,
+          "bytes": 1572864,
+          "expected_bytes": 1572864,
+          "size_match": true,
+          "sha256": "2946c5464494812b0dc8ab255e4cd2608f2207560a7165532f00448ec8dcd737"
+        },
+        {
+          "frame": 6,
+          "name": "new_img",
+          "exists": true,
+          "bytes": 1572864,
+          "expected_bytes": 1572864,
+          "size_match": true,
+          "sha256": "c50d960cda8811ae10356fac84efb6ceff694a7279f2a94d23d24f095e5b2681"
+        },
+        {
+          "frame": 7,
+          "name": "new_img",
+          "exists": true,
+          "bytes": 1572864,
+          "expected_bytes": 1572864,
+          "size_match": true,
+          "sha256": "4d865ef16ce962a8c5d9867bd50c0ffae4598910807fc7cfc31a36de2fe1453c"
+        },
+        {
+          "frame": 8,
+          "name": "new_img",
+          "exists": true,
+          "bytes": 1572864,
+          "expected_bytes": 1572864,
+          "size_match": true,
+          "sha256": "252d2a563bb89f758d9268566f89479744502a1360d9929ce83c2ca617174b94"
+        },
+        {
+          "frame": 9,
+          "name": "new_img",
+          "exists": true,
+          "bytes": 1572864,
+          "expected_bytes": 1572864,
+          "size_match": true,
+          "sha256": "25f87d96899a160d19479b5aa369adab0453fa40460ab38250f4071a25517265"
+        },
+        {
+          "frame": 10,
+          "name": "new_img",
+          "exists": true,
+          "bytes": 1572864,
+          "expected_bytes": 1572864,
+          "size_match": true,
+          "sha256": "a4c10b5318f21f1a8fdab32e46fe47380104f025be38bca3ffdf01f863c576f1"
+        },
+        {
+          "frame": 11,
+          "name": "new_img",
+          "exists": true,
+          "bytes": 1572864,
+          "expected_bytes": 1572864,
+          "size_match": true,
+          "sha256": "8cd36bf9ac2aba1dce16a9211102ade22959a8981c255a540958520c43ffd292"
+        },
+        {
+          "frame": 12,
+          "name": "new_img",
+          "exists": true,
+          "bytes": 1572864,
+          "expected_bytes": 1572864,
+          "size_match": true,
+          "sha256": "e757286e6c7c58c4d45f34a0f8c27e353dfc7c2e066538521f68853dfad37f01"
+        },
+        {
+          "frame": 13,
+          "name": "new_img",
+          "exists": true,
+          "bytes": 1572864,
+          "expected_bytes": 1572864,
+          "size_match": true,
+          "sha256": "6a716669900b14b2270349fdf83b462a05bf5f92b4d5b5c69da257c6ac5e7767"
+        },
+        {
+          "frame": 14,
+          "name": "new_img",
+          "exists": true,
+          "bytes": 1572864,
+          "expected_bytes": 1572864,
+          "size_match": true,
+          "sha256": "1b4f817e6c6775c0658bd68ebc89e6d460ac52f8c150bd8fa1d46e57629ca8dd"
+        },
+        {
+          "frame": 15,
+          "name": "new_img",
+          "exists": true,
+          "bytes": 1572864,
+          "expected_bytes": 1572864,
+          "size_match": true,
+          "sha256": "7843cf2f2293031129c0fd11bc82f8c45fcff1cec399c49b7b2ab389f6740a86"
+        }
+      ],
+      "phone_preflight": "all 16 files were also checked on-device with adb stat before run; 16-vision-inputs-ok"
+    },
+    "policy": {
+      "expected_count": 64,
+      "present_count": 64,
+      "size_match_count": 64,
+      "files": [
+        {
+          "frame": 0,
+          "name": "view_39",
+          "exists": true,
+          "bytes": 65536,
+          "expected_bytes": 65536,
+          "size_match": true,
+          "sha256": "eca6e50ca74fc97186893f5d234f738d4e2cbfdfc1558126ee968f54425f6f82"
+        },
+        {
+          "frame": 0,
+          "name": "desire",
+          "exists": true,
+          "bytes": 32,
+          "expected_bytes": 32,
+          "size_match": true,
+          "sha256": "da4694421b90756b88d8c88357060e334958d3ccbff159128d6c9c269f75217a"
+        },
+        {
+          "frame": 0,
+          "name": "traffic_convention",
+          "exists": true,
+          "bytes": 8,
+          "expected_bytes": 8,
+          "size_match": true,
+          "sha256": "434b26042aff3fb844a4c4c6be0d81a079b0ce84cfb8190679024404e5dc4822"
+        },
+        {
+          "frame": 0,
+          "name": "action_t",
+          "exists": true,
+          "bytes": 8,
+          "expected_bytes": 8,
+          "size_match": true,
+          "sha256": "068d7f8115948bea481343100b821115e784e288cdcf5bf97deb60129ff1bd5d"
+        },
+        {
+          "frame": 1,
+          "name": "view_39",
+          "exists": true,
+          "bytes": 65536,
+          "expected_bytes": 65536,
+          "size_match": true,
+          "sha256": "64ef7fb66c0a8265fc62fb61b74bb39f26a8c2c8ad463f855fc83a176dfe4237"
+        },
+        {
+          "frame": 1,
+          "name": "desire",
+          "exists": true,
+          "bytes": 32,
+          "expected_bytes": 32,
+          "size_match": true,
+          "sha256": "66687aadf862bd776c8fc18b8e9f8e20089714856ee233b3902a591d0d5f2925"
+        },
+        {
+          "frame": 1,
+          "name": "traffic_convention",
+          "exists": true,
+          "bytes": 8,
+          "expected_bytes": 8,
+          "size_match": true,
+          "sha256": "434b26042aff3fb844a4c4c6be0d81a079b0ce84cfb8190679024404e5dc4822"
+        },
+        {
+          "frame": 1,
+          "name": "action_t",
+          "exists": true,
+          "bytes": 8,
+          "expected_bytes": 8,
+          "size_match": true,
+          "sha256": "b399b1776e23310e7981ef6c412f365e1cc1c7d4526da33b3aa095ce1c8b3938"
+        },
+        {
+          "frame": 2,
+          "name": "view_39",
+          "exists": true,
+          "bytes": 65536,
+          "expected_bytes": 65536,
+          "size_match": true,
+          "sha256": "80f1402fcb49e1cabfc91c0e514f8cd9d231ca5eee14ed96220e41481caef24a"
+        },
+        {
+          "frame": 2,
+          "name": "desire",
+          "exists": true,
+          "bytes": 32,
+          "expected_bytes": 32,
+          "size_match": true,
+          "sha256": "66687aadf862bd776c8fc18b8e9f8e20089714856ee233b3902a591d0d5f2925"
+        },
+        {
+          "frame": 2,
+          "name": "traffic_convention",
+          "exists": true,
+          "bytes": 8,
+          "expected_bytes": 8,
+          "size_match": true,
+          "sha256": "434b26042aff3fb844a4c4c6be0d81a079b0ce84cfb8190679024404e5dc4822"
+        },
+        {
+          "frame": 2,
+          "name": "action_t",
+          "exists": true,
+          "bytes": 8,
+          "expected_bytes": 8,
+          "size_match": true,
+          "sha256": "068b046c53016bbac329786a7b38df98b9a87ab7305b6bb274c838f9746ab4d7"
+        },
+        {
+          "frame": 3,
+          "name": "view_39",
+          "exists": true,
+          "bytes": 65536,
+          "expected_bytes": 65536,
+          "size_match": true,
+          "sha256": "4fd252ea7f166697a1e143c2ef2b147ca535aeebca34b3f14b76e347907565af"
+        },
+        {
+          "frame": 3,
+          "name": "desire",
+          "exists": true,
+          "bytes": 32,
+          "expected_bytes": 32,
+          "size_match": true,
+          "sha256": "66687aadf862bd776c8fc18b8e9f8e20089714856ee233b3902a591d0d5f2925"
+        },
+        {
+          "frame": 3,
+          "name": "traffic_convention",
+          "exists": true,
+          "bytes": 8,
+          "expected_bytes": 8,
+          "size_match": true,
+          "sha256": "434b26042aff3fb844a4c4c6be0d81a079b0ce84cfb8190679024404e5dc4822"
+        },
+        {
+          "frame": 3,
+          "name": "action_t",
+          "exists": true,
+          "bytes": 8,
+          "expected_bytes": 8,
+          "size_match": true,
+          "sha256": "814c929465c5ace6bd016a30d416d11e5bf3261f7fd9f4222ede3d8920da17b0"
+        },
+        {
+          "frame": 4,
+          "name": "view_39",
+          "exists": true,
+          "bytes": 65536,
+          "expected_bytes": 65536,
+          "size_match": true,
+          "sha256": "850bf268d9a76e160518fb81860bf296a2001f1fb9aec08e48421dd97c42ca19"
+        },
+        {
+          "frame": 4,
+          "name": "desire",
+          "exists": true,
+          "bytes": 32,
+          "expected_bytes": 32,
+          "size_match": true,
+          "sha256": "66687aadf862bd776c8fc18b8e9f8e20089714856ee233b3902a591d0d5f2925"
+        },
+        {
+          "frame": 4,
+          "name": "traffic_convention",
+          "exists": true,
+          "bytes": 8,
+          "expected_bytes": 8,
+          "size_match": true,
+          "sha256": "434b26042aff3fb844a4c4c6be0d81a079b0ce84cfb8190679024404e5dc4822"
+        },
+        {
+          "frame": 4,
+          "name": "action_t",
+          "exists": true,
+          "bytes": 8,
+          "expected_bytes": 8,
+          "size_match": true,
+          "sha256": "8920845bf56712a84cf442d984624614553c7517670c980f9f0910e22c91da99"
+        },
+        {
+          "frame": 5,
+          "name": "view_39",
+          "exists": true,
+          "bytes": 65536,
+          "expected_bytes": 65536,
+          "size_match": true,
+          "sha256": "97203694a88adaec225e1f6041418ae0c6a679d46461078e450b1b43c2f9e685"
+        },
+        {
+          "frame": 5,
+          "name": "desire",
+          "exists": true,
+          "bytes": 32,
+          "expected_bytes": 32,
+          "size_match": true,
+          "sha256": "66687aadf862bd776c8fc18b8e9f8e20089714856ee233b3902a591d0d5f2925"
+        },
+        {
+          "frame": 5,
+          "name": "traffic_convention",
+          "exists": true,
+          "bytes": 8,
+          "expected_bytes": 8,
+          "size_match": true,
+          "sha256": "434b26042aff3fb844a4c4c6be0d81a079b0ce84cfb8190679024404e5dc4822"
+        },
+        {
+          "frame": 5,
+          "name": "action_t",
+          "exists": true,
+          "bytes": 8,
+          "expected_bytes": 8,
+          "size_match": true,
+          "sha256": "6874296014d827ba6b245aa0bb17acf5491a23c7e3202b4bce4c65b45d217aa1"
+        },
+        {
+          "frame": 6,
+          "name": "view_39",
+          "exists": true,
+          "bytes": 65536,
+          "expected_bytes": 65536,
+          "size_match": true,
+          "sha256": "0126a030e90dfcda49a2f3e5604801593c7b44ea1ebb5f345759fcabcabbd30a"
+        },
+        {
+          "frame": 6,
+          "name": "desire",
+          "exists": true,
+          "bytes": 32,
+          "expected_bytes": 32,
+          "size_match": true,
+          "sha256": "66687aadf862bd776c8fc18b8e9f8e20089714856ee233b3902a591d0d5f2925"
+        },
+        {
+          "frame": 6,
+          "name": "traffic_convention",
+          "exists": true,
+          "bytes": 8,
+          "expected_bytes": 8,
+          "size_match": true,
+          "sha256": "434b26042aff3fb844a4c4c6be0d81a079b0ce84cfb8190679024404e5dc4822"
+        },
+        {
+          "frame": 6,
+          "name": "action_t",
+          "exists": true,
+          "bytes": 8,
+          "expected_bytes": 8,
+          "size_match": true,
+          "sha256": "ee821be1ffecceb4f2e73c2f28ca584588aadaa05ef72a439d7407e8982032b2"
+        },
+        {
+          "frame": 7,
+          "name": "view_39",
+          "exists": true,
+          "bytes": 65536,
+          "expected_bytes": 65536,
+          "size_match": true,
+          "sha256": "60cc0496f9558ca2598b7579c95614d70402959302cfdd1f68295be3d0e8e3e1"
+        },
+        {
+          "frame": 7,
+          "name": "desire",
+          "exists": true,
+          "bytes": 32,
+          "expected_bytes": 32,
+          "size_match": true,
+          "sha256": "66687aadf862bd776c8fc18b8e9f8e20089714856ee233b3902a591d0d5f2925"
+        },
+        {
+          "frame": 7,
+          "name": "traffic_convention",
+          "exists": true,
+          "bytes": 8,
+          "expected_bytes": 8,
+          "size_match": true,
+          "sha256": "434b26042aff3fb844a4c4c6be0d81a079b0ce84cfb8190679024404e5dc4822"
+        },
+        {
+          "frame": 7,
+          "name": "action_t",
+          "exists": true,
+          "bytes": 8,
+          "expected_bytes": 8,
+          "size_match": true,
+          "sha256": "f558d87911bf94d44868424d59cdf040e2bcd289df82f3ddf71daf6c495faf4f"
+        },
+        {
+          "frame": 8,
+          "name": "view_39",
+          "exists": true,
+          "bytes": 65536,
+          "expected_bytes": 65536,
+          "size_match": true,
+          "sha256": "e0b95e22f442ee37c978ddeb2fa4cffd81a0d0df53cfbf23ba1eedd109370553"
+        },
+        {
+          "frame": 8,
+          "name": "desire",
+          "exists": true,
+          "bytes": 32,
+          "expected_bytes": 32,
+          "size_match": true,
+          "sha256": "2e95ca52b653af4a516ae0b368ae89f2b05ae4088842e24a9d58887d7a885e1c"
+        },
+        {
+          "frame": 8,
+          "name": "traffic_convention",
+          "exists": true,
+          "bytes": 8,
+          "expected_bytes": 8,
+          "size_match": true,
+          "sha256": "434b26042aff3fb844a4c4c6be0d81a079b0ce84cfb8190679024404e5dc4822"
+        },
+        {
+          "frame": 8,
+          "name": "action_t",
+          "exists": true,
+          "bytes": 8,
+          "expected_bytes": 8,
+          "size_match": true,
+          "sha256": "7f7479c4b629ea0424efb957e2ef10d2f8fc3725109dfe673fbb2f3395c01320"
+        },
+        {
+          "frame": 9,
+          "name": "view_39",
+          "exists": true,
+          "bytes": 65536,
+          "expected_bytes": 65536,
+          "size_match": true,
+          "sha256": "c66a6fb883b37d63d27df07b4e76da9b39786cf2736499ccf98748b00b1eb7f0"
+        },
+        {
+          "frame": 9,
+          "name": "desire",
+          "exists": true,
+          "bytes": 32,
+          "expected_bytes": 32,
+          "size_match": true,
+          "sha256": "66687aadf862bd776c8fc18b8e9f8e20089714856ee233b3902a591d0d5f2925"
+        },
+        {
+          "frame": 9,
+          "name": "traffic_convention",
+          "exists": true,
+          "bytes": 8,
+          "expected_bytes": 8,
+          "size_match": true,
+          "sha256": "434b26042aff3fb844a4c4c6be0d81a079b0ce84cfb8190679024404e5dc4822"
+        },
+        {
+          "frame": 9,
+          "name": "action_t",
+          "exists": true,
+          "bytes": 8,
+          "expected_bytes": 8,
+          "size_match": true,
+          "sha256": "805c754a2175c8d2a831f6692fdc5e2f6b04e05708797ce421099adf366f3452"
+        },
+        {
+          "frame": 10,
+          "name": "view_39",
+          "exists": true,
+          "bytes": 65536,
+          "expected_bytes": 65536,
+          "size_match": true,
+          "sha256": "162b28a9262d2d67cf5b36277dc1ee13985d29af411734b7c581aeb9fb9756e4"
+        },
+        {
+          "frame": 10,
+          "name": "desire",
+          "exists": true,
+          "bytes": 32,
+          "expected_bytes": 32,
+          "size_match": true,
+          "sha256": "66687aadf862bd776c8fc18b8e9f8e20089714856ee233b3902a591d0d5f2925"
+        },
+        {
+          "frame": 10,
+          "name": "traffic_convention",
+          "exists": true,
+          "bytes": 8,
+          "expected_bytes": 8,
+          "size_match": true,
+          "sha256": "434b26042aff3fb844a4c4c6be0d81a079b0ce84cfb8190679024404e5dc4822"
+        },
+        {
+          "frame": 10,
+          "name": "action_t",
+          "exists": true,
+          "bytes": 8,
+          "expected_bytes": 8,
+          "size_match": true,
+          "sha256": "0af52649f01d5ad70898a9ca74a53c8a2d36e9b530e02799f8645e0811858207"
+        },
+        {
+          "frame": 11,
+          "name": "view_39",
+          "exists": true,
+          "bytes": 65536,
+          "expected_bytes": 65536,
+          "size_match": true,
+          "sha256": "420517d6a725577a3643e25867c0fc87b87238aeff055a60a870636505b0a2bb"
+        },
+        {
+          "frame": 11,
+          "name": "desire",
+          "exists": true,
+          "bytes": 32,
+          "expected_bytes": 32,
+          "size_match": true,
+          "sha256": "66687aadf862bd776c8fc18b8e9f8e20089714856ee233b3902a591d0d5f2925"
+        },
+        {
+          "frame": 11,
+          "name": "traffic_convention",
+          "exists": true,
+          "bytes": 8,
+          "expected_bytes": 8,
+          "size_match": true,
+          "sha256": "434b26042aff3fb844a4c4c6be0d81a079b0ce84cfb8190679024404e5dc4822"
+        },
+        {
+          "frame": 11,
+          "name": "action_t",
+          "exists": true,
+          "bytes": 8,
+          "expected_bytes": 8,
+          "size_match": true,
+          "sha256": "4fc3c91a07fa1a84b5923c9710cb26688401c283233478d5f7b39fb7883cd03a"
+        },
+        {
+          "frame": 12,
+          "name": "view_39",
+          "exists": true,
+          "bytes": 65536,
+          "expected_bytes": 65536,
+          "size_match": true,
+          "sha256": "d66d28f7d1f70d6a7d75689eea7fae90e621eecf515b7ae1b4325b4bc541ebfc"
+        },
+        {
+          "frame": 12,
+          "name": "desire",
+          "exists": true,
+          "bytes": 32,
+          "expected_bytes": 32,
+          "size_match": true,
+          "sha256": "66687aadf862bd776c8fc18b8e9f8e20089714856ee233b3902a591d0d5f2925"
+        },
+        {
+          "frame": 12,
+          "name": "traffic_convention",
+          "exists": true,
+          "bytes": 8,
+          "expected_bytes": 8,
+          "size_match": true,
+          "sha256": "434b26042aff3fb844a4c4c6be0d81a079b0ce84cfb8190679024404e5dc4822"
+        },
+        {
+          "frame": 12,
+          "name": "action_t",
+          "exists": true,
+          "bytes": 8,
+          "expected_bytes": 8,
+          "size_match": true,
+          "sha256": "cf7dd85433428cfac38aa1a4642d0b92b714d16debe80e17477c43d034574f90"
+        },
+        {
+          "frame": 13,
+          "name": "view_39",
+          "exists": true,
+          "bytes": 65536,
+          "expected_bytes": 65536,
+          "size_match": true,
+          "sha256": "d877690fc7f50ce3768abf6c9acea217e48c50f31d52714cc6f8fb4df8fc7c36"
+        },
+        {
+          "frame": 13,
+          "name": "desire",
+          "exists": true,
+          "bytes": 32,
+          "expected_bytes": 32,
+          "size_match": true,
+          "sha256": "66687aadf862bd776c8fc18b8e9f8e20089714856ee233b3902a591d0d5f2925"
+        },
+        {
+          "frame": 13,
+          "name": "traffic_convention",
+          "exists": true,
+          "bytes": 8,
+          "expected_bytes": 8,
+          "size_match": true,
+          "sha256": "434b26042aff3fb844a4c4c6be0d81a079b0ce84cfb8190679024404e5dc4822"
+        },
+        {
+          "frame": 13,
+          "name": "action_t",
+          "exists": true,
+          "bytes": 8,
+          "expected_bytes": 8,
+          "size_match": true,
+          "sha256": "48b8d9f185ec8d094f4555a47626143fa7ab7db441c15abd951303d5ae303e6c"
+        },
+        {
+          "frame": 14,
+          "name": "view_39",
+          "exists": true,
+          "bytes": 65536,
+          "expected_bytes": 65536,
+          "size_match": true,
+          "sha256": "2361561fbec8086000ea078769d8b8a4e8f33f6371886ace7a25ff1fa5b48f9c"
+        },
+        {
+          "frame": 14,
+          "name": "desire",
+          "exists": true,
+          "bytes": 32,
+          "expected_bytes": 32,
+          "size_match": true,
+          "sha256": "66687aadf862bd776c8fc18b8e9f8e20089714856ee233b3902a591d0d5f2925"
+        },
+        {
+          "frame": 14,
+          "name": "traffic_convention",
+          "exists": true,
+          "bytes": 8,
+          "expected_bytes": 8,
+          "size_match": true,
+          "sha256": "434b26042aff3fb844a4c4c6be0d81a079b0ce84cfb8190679024404e5dc4822"
+        },
+        {
+          "frame": 14,
+          "name": "action_t",
+          "exists": true,
+          "bytes": 8,
+          "expected_bytes": 8,
+          "size_match": true,
+          "sha256": "74fa05a05e338f4a0e50b959b36c057fcc1acb2449e9606d2d073b8266ebe5dc"
+        },
+        {
+          "frame": 15,
+          "name": "view_39",
+          "exists": true,
+          "bytes": 65536,
+          "expected_bytes": 65536,
+          "size_match": true,
+          "sha256": "036f6332b86b318a373bdcc55a29add3cdabbc60e0587f0b74fbcdbd0b3e6dbb"
+        },
+        {
+          "frame": 15,
+          "name": "desire",
+          "exists": true,
+          "bytes": 32,
+          "expected_bytes": 32,
+          "size_match": true,
+          "sha256": "66687aadf862bd776c8fc18b8e9f8e20089714856ee233b3902a591d0d5f2925"
+        },
+        {
+          "frame": 15,
+          "name": "traffic_convention",
+          "exists": true,
+          "bytes": 8,
+          "expected_bytes": 8,
+          "size_match": true,
+          "sha256": "434b26042aff3fb844a4c4c6be0d81a079b0ce84cfb8190679024404e5dc4822"
+        },
+        {
+          "frame": 15,
+          "name": "action_t",
+          "exists": true,
+          "bytes": 8,
+          "expected_bytes": 8,
+          "size_match": true,
+          "sha256": "5e1b62f82b4347ae16bd6b53d9e2972da9ff2b52f5a83e5d8b8e2a6adea78b55"
+        }
+      ],
+      "phone_preflight": "all 64 files were also checked on-device with adb stat before run; 64-policy-inputs-ok"
+    }
+  }
+}

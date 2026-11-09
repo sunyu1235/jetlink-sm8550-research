@@ -1,0 +1,92 @@
+{
+  "compiler": "C:/mp-sdk/ndk/27.3.13750724/toolchains/llvm/prebuilt/windows-x86_64/bin/aarch64-linux-android30-clang.cmd",
+  "target": "aarch64-linux-android30",
+  "flags": [
+    "-O2",
+    "-Wall",
+    "-Wextra",
+    "-Werror",
+    "-DJL_ORT_DLOPEN",
+    "-ldl"
+  ],
+  "compile_success": true,
+  "remote_deployment": {
+    "path": "/data/local/tmp/jetlink-gelu-optimization-20261101/threads/history_probe_threads",
+    "sha256": "57091fba0fb396483fce99881e307ede319c44e36ed2df93b94cd7579195a1ac",
+    "matches_local": true
+  },
+  "artifacts": {
+    "thread_runner_source": {
+      "path": "reports/jetlink-gelu-optimization-20261101/threads/history_probe_threads.c",
+      "exists": true,
+      "size_bytes": 7940,
+      "sha256": "957d2fa4b9737a412b338f462032c9725d1a396ea6c8ea63a44d05b2baf0fa69"
+    },
+    "ort_header_copy": {
+      "path": "reports/jetlink-gelu-optimization-20261101/threads/jl_ort.h",
+      "exists": true,
+      "size_bytes": 3066,
+      "sha256": "3802e1ac975c1f39654c23179901f8651ffe6909a68d229f030a3c58363b162b"
+    },
+    "qnn_wrapper_source": {
+      "path": "reports/jetlink-gelu-repair-20261101/qnn_jl_custom.c",
+      "exists": true,
+      "size_bytes": 12304,
+      "sha256": "82d2aa107a19d351a81272d4498a5dbb696087180ebe9e4d8507e6e2c969ce11"
+    },
+    "build_script": {
+      "path": "reports/jetlink-gelu-optimization-20261101/threads/build_threads.ps1",
+      "exists": true,
+      "size_bytes": 976,
+      "sha256": "8547eb57052eaf33e4b775c918961e6316350842d49df1a0e14f92f8ba17aabb"
+    },
+    "built_runner": {
+      "path": "outputs/jetlink-gelu-optimization-20261101/threads/history_probe_threads",
+      "exists": true,
+      "size_bytes": 28608,
+      "sha256": "57091fba0fb396483fce99881e307ede319c44e36ed2df93b94cd7579195a1ac"
+    },
+    "thread_summary": {
+      "path": "reports/jetlink-gelu-optimization-20261101/threads/summary.json",
+      "exists": true,
+      "size_bytes": 43229,
+      "sha256": "51fa30487962c879eb39626f877c4ac0d6f45043b0cc4711ddd650dabd00e630"
+    },
+    "thread_checks": {
+      "path": "reports/jetlink-gelu-optimization-20261101/threads/checks.json",
+      "exists": true,
+      "size_bytes": 466,
+      "sha256": "deed2ca2c3d5170186313f829dbb4f69819d91d963130af16b59010f648f0b26"
+    },
+    "thread_report": {
+      "path": "reports/jetlink-gelu-optimization-20261101/threads/README.md",
+      "exists": true,
+      "size_bytes": 3420,
+      "sha256": "87fef075af50b7ee2f2321f3f200b1c03dd05457fa9b6b19ee9e5429d5323fee"
+    },
+    "accepted_original_library": {
+      "path": "outputs/jetlink-gelu-repair-20261101/libspecifiedgelu.so",
+      "exists": true,
+      "size_bytes": 12200,
+      "sha256": "3f682906d26ff829cdf8ecda2f32d9bcb05f4450f1c9afc211fcb0991082f700"
+    },
+    "context_model": {
+      "path": "outputs/jetlink-gelu-repair-20261101/light-speed-gelu-both-ctx.onnx",
+      "exists": true,
+      "size_bytes": 34651,
+      "sha256": "2c8b28e972af55ca3592c386b049674f9da946fce2fd6a82b0e5877c98d6d68f"
+    },
+    "history_input_manifest": {
+      "path": "reports/jetlink-gelu-history-20261101/input-manifest.json",
+      "exists": true,
+      "size_bytes": 229633,
+      "sha256": "7709ab36dadc4f50e1b2cc3d0306f8998e2714092446b2c34319a7ac5256ecbd"
+    },
+    "unit_range_preflight": {
+      "path": "reports/jetlink-gelu-optimization-20261101/threads/preflight-thread-range.ps1",
+      "exists": true,
+      "size_bytes": 823,
+      "sha256": "9df96f6760992c7e11cf2214d3c94c7061d3ec72e09bc2295428f546a61510be"
+    }
+  }
+}

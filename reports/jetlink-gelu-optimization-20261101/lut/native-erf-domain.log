@@ -1,0 +1,5 @@
+ORT 1.29.0
+in x 126976 bytes
+out outputs 126976 bytes
+run: Non-zero status code returned while running QNN_13665455796313825680_1 node. Name:'QNNExecutionProvider_QNN_13665455796313825680_1_0' Status Message: QNN graph execute error. Error code: 1100
+Segmentation fault 

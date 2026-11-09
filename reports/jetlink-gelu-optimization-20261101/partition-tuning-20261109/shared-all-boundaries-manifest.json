@@ -1,0 +1,3964 @@
+{
+  "purpose": "prebind accepted cached context boundaries to QnnHtpShared allocations through graph output I/O binding",
+  "boundary_mode": "all_cached_value_info",
+  "status": "onnx_checker_passed_no_phone_execution",
+  "source_context": {
+    "path": "C:\\Users\\sunbo\\Documents\\openpilot\\outputs\\jetlink-gelu-repair-20261101\\light-speed-gelu-both-ctx.onnx",
+    "bytes": 34651,
+    "sha256": "2c8b28e972af55ca3592c386b049674f9da946fce2fd6a82b0e5877c98d6d68f"
+  },
+  "wrapper": {
+    "path": "C:\\Users\\sunbo\\Documents\\openpilot\\outputs\\jetlink-gelu-optimization-20261101\\partition-tuning-20261109\\whole-context-shared-all-boundaries.onnx",
+    "bytes": 42083,
+    "sha256": "d1334bc98927751627b385d933f79013e20ab67518eee58d521359f6975d2d1a"
+  },
+  "custom_gelu_nodes": 63,
+  "original_outputs": [
+    "outputs",
+    "next_state_img_q",
+    "next_state_desire_q",
+    "next_state_feat_q"
+  ],
+  "appended_output_count": 211,
+  "output_count_total": 215,
+  "appended_output_names": [
+    "add_36",
+    "add_37",
+    "add_39",
+    "add_46",
+    "add_48",
+    "add_50",
+    "add_52",
+    "add_59",
+    "add_66",
+    "add_68",
+    "add_70",
+    "add_72",
+    "add_75",
+    "add_82",
+    "add_84",
+    "add_86",
+    "add_88",
+    "add_90",
+    "gelu",
+    "gelu_1",
+    "gelu_10",
+    "gelu_11",
+    "gelu_12",
+    "gelu_13",
+    "gelu_14",
+    "gelu_15",
+    "gelu_16",
+    "gelu_17",
+    "gelu_18",
+    "gelu_19",
+    "gelu_2",
+    "gelu_20",
+    "gelu_21",
+    "gelu_22",
+    "gelu_23",
+    "gelu_24",
+    "gelu_25",
+    "gelu_26",
+    "gelu_27",
+    "gelu_28",
+    "gelu_29",
+    "gelu_3",
+    "gelu_30",
+    "gelu_31",
+    "gelu_32",
+    "gelu_33",
+    "gelu_34",
+    "gelu_35",
+    "gelu_36",
+    "gelu_37",
+    "gelu_38",
+    "gelu_39",
+    "gelu_4",
+    "gelu_40",
+    "gelu_41",
+    "gelu_42",
+    "gelu_43",
+    "gelu_44",
+    "gelu_45",
+    "gelu_46",
+    "gelu_47",
+    "gelu_49",
+    "gelu_5",
+    "gelu_50",
+    "gelu_51",
+    "gelu_52",
+    "gelu_53",
+    "gelu_54",
+    "gelu_55",
+    "gelu_56",
+    "gelu_57",
+    "gelu_58",
+    "gelu_59",
+    "gelu_6",
+    "gelu_60",
+    "gelu_61",
+    "gelu_62",
+    "gelu_63",
+    "gelu_7",
+    "gelu_8",
+    "gelu_9",
+    "index",
+    "layer_norm",
+    "linear",
+    "linear_10",
+    "linear_102",
+    "linear_106",
+    "linear_110",
+    "linear_112",
+    "linear_115",
+    "linear_118",
+    "linear_12",
+    "linear_120",
+    "linear_124",
+    "linear_126",
+    "linear_127",
+    "linear_129",
+    "linear_139",
+    "linear_14",
+    "linear_143",
+    "linear_147",
+    "linear_151",
+    "linear_153",
+    "linear_156",
+    "linear_158",
+    "linear_16",
+    "linear_168",
+    "linear_172",
+    "linear_176",
+    "linear_18",
+    "linear_180",
+    "linear_184",
+    "linear_2",
+    "linear_20",
+    "linear_22",
+    "linear_24",
+    "linear_26",
+    "linear_28",
+    "linear_30",
+    "linear_32",
+    "linear_34",
+    "linear_36",
+    "linear_38",
+    "linear_4",
+    "linear_40",
+    "linear_42",
+    "linear_44",
+    "linear_46",
+    "linear_48",
+    "linear_50",
+    "linear_52",
+    "linear_54",
+    "linear_56",
+    "linear_58",
+    "linear_6",
+    "linear_60",
+    "linear_62",
+    "linear_64",
+    "linear_66",
+    "linear_68",
+    "linear_70",
+    "linear_72",
+    "linear_74",
+    "linear_76",
+    "linear_77",
+    "linear_78",
+    "linear_79",
+    "linear_8",
+    "linear_80",
+    "linear_81",
+    "linear_82",
+    "linear_83",
+    "linear_86",
+    "linear_88",
+    "linear_98",
+    "mean",
+    "mul_36",
+    "mul_41",
+    "mul_42",
+    "node__to_copy_1",
+    "node_add",
+    "node_add_1",
+    "node_add_10",
+    "node_add_11",
+    "node_add_12",
+    "node_add_13",
+    "node_add_14",
+    "node_add_15",
+    "node_add_16",
+    "node_add_17",
+    "node_add_18",
+    "node_add_19",
+    "node_add_20",
+    "node_add_21",
+    "node_add_22",
+    "node_add_23",
+    "node_add_24",
+    "node_add_25",
+    "node_add_26",
+    "node_add_27",
+    "node_add_28",
+    "node_add_29",
+    "node_add_3",
+    "node_add_30",
+    "node_add_31",
+    "node_add_33",
+    "node_add_34",
+    "node_add_4",
+    "node_add_6",
+    "node_add_7",
+    "node_add_8",
+    "node_add_9",
+    "node_conv2d_36",
+    "node_conv2d_4",
+    "node_conv2d_8",
+    "repeat_interleave",
+    "repeat_interleave_1",
+    "repeat_interleave_2",
+    "select_10",
+    "select_4",
+    "select_7",
+    "slice_10",
+    "slice_6",
+    "slice_8",
+    "view_42",
+    "view_43",
+    "view_52",
+    "view_53",
+    "view_62",
+    "view_63",
+    "view_70"
+  ],
+  "boundary_tensors": [
+    {
+      "name": "add_36",
+      "elem_type": 10,
+      "dtype": "FLOAT16",
+      "shape": [
+        1,
+        512
+      ],
+      "bytes": 1024,
+      "roles": [
+        {
+          "role": "cached_context_intermediate"
+        }
+      ]
+    },
+    {
+      "name": "add_37",
+      "elem_type": 10,
+      "dtype": "FLOAT16",
+      "shape": [
+        1,
+        512
+      ],
+      "bytes": 1024,
+      "roles": [
+        {
+          "role": "cached_context_intermediate"
+        }
+      ]
+    },
+    {
+      "name": "add_39",
+      "elem_type": 10,
+      "dtype": "FLOAT16",
+      "shape": [
+        1,
+        9,
+        32,
+        512
+      ],
+      "bytes": 294912,
+      "roles": [
+        {
+          "role": "cached_context_intermediate"
+        }
+      ]
+    },
+    {
+      "name": "add_46",
+      "elem_type": 10,
+      "dtype": "FLOAT16",
+      "shape": [
+        1,
+        288,
+        512
+      ],
+      "bytes": 294912,
+      "roles": [
+        {
+          "role": "cached_context_intermediate"
+        }
+      ]
+    },
+    {
+      "name": "add_48",
+      "elem_type": 10,
+      "dtype": "FLOAT16",
+      "shape": [
+        1,
+        288,
+        512
+      ],
+      "bytes": 294912,
+      "roles": [
+        {
+          "role": "cached_context_intermediate"
+        }
+      ]
+    },
+    {
+      "name": "add_50",
+      "elem_type": 10,
+      "dtype": "FLOAT16",
+      "shape": [
+        1,
+        288,
+        512
+      ],
+      "bytes": 294912,
+      "roles": [
+        {
+          "role": "cached_context_intermediate"
+        }
+      ]
+    },
+    {
+      "name": "add_52",
+      "elem_type": 10,
+      "dtype": "FLOAT16",
+      "shape": [
+        1,
+        288,
+        512
+      ],
+      "bytes": 294912,
+      "roles": [
+        {
+          "role": "cached_context_intermediate"
+        }
+      ]
+    },
+    {
+      "name": "add_59",
+      "elem_type": 10,
+      "dtype": "FLOAT16",
+      "shape": [
+        1,
+        9,
+        32,
+        512
+      ],
+      "bytes": 294912,
+      "roles": [
+        {
+          "role": "cached_context_intermediate"
+        }
+      ]
+    },
+    {
+      "name": "add_66",
+      "elem_type": 10,
+      "dtype": "FLOAT16",
+      "shape": [
+        1,
+        288,
+        512
+      ],
+      "bytes": 294912,
+      "roles": [
+        {
+          "role": "cached_context_intermediate"
+        }
+      ]
+    },
+    {
+      "name": "add_68",
+      "elem_type": 10,
+      "dtype": "FLOAT16",
+      "shape": [
+        1,
+        288,
+        512
+      ],
+      "bytes": 294912,
+      "roles": [
+        {
+          "role": "cached_context_intermediate"
+        }
+      ]
+    },
+    {
+      "name": "add_70",
+      "elem_type": 10,
+      "dtype": "FLOAT16",
+      "shape": [
+        1,
+        288,
+        512
+      ],
+      "bytes": 294912,
+      "roles": [
+        {
+          "role": "cached_context_intermediate"
+        }
+      ]
+    },
+    {
+      "name": "add_72",
+      "elem_type": 10,
+      "dtype": "FLOAT16",
+      "shape": [
+        1,
+        288,
+        512
+      ],
+      "bytes": 294912,
+      "roles": [
+        {
+          "role": "cached_context_intermediate"
+        }
+      ]
+    },
+    {
+      "name": "add_75",
+      "elem_type": 10,
+      "dtype": "FLOAT16",
+      "shape": [
+        1,
+        9,
+        32,
+        512
+      ],
+      "bytes": 294912,
+      "roles": [
+        {
+          "role": "cached_context_intermediate"
+        }
+      ]
+    },
+    {
+      "name": "add_82",
+      "elem_type": 10,
+      "dtype": "FLOAT16",
+      "shape": [
+        1,
+        288,
+        512
+      ],
+      "bytes": 294912,
+      "roles": [
+        {
+          "role": "cached_context_intermediate"
+        }
+      ]
+    },
+    {
+      "name": "add_84",
+      "elem_type": 10,
+      "dtype": "FLOAT16",
+      "shape": [
+        1,
+        288,
+        512
+      ],
+      "bytes": 294912,
+      "roles": [
+        {
+          "role": "cached_context_intermediate"
+        }
+      ]
+    },
+    {
+      "name": "add_86",
+      "elem_type": 10,
+      "dtype": "FLOAT16",
+      "shape": [
+        1,
+        288,
+        512
+      ],
+      "bytes": 294912,
+      "roles": [
+        {
+          "role": "cached_context_intermediate"
+        }
+      ]
+    },
+    {
+      "name": "add_88",
+      "elem_type": 10,
+      "dtype": "FLOAT16",
+      "shape": [
+        1,
+        288,
+        512
+      ],
+      "bytes": 294912,
+      "roles": [
+        {
+          "role": "cached_context_intermediate"
+        }
+      ]
+    },
+    {
+      "name": "add_90",
+      "elem_type": 10,
+      "dtype": "FLOAT16",
+      "shape": [
+        1,
+        512
+      ],
+      "bytes": 1024,
+      "roles": [
+        {
+          "role": "cached_context_intermediate"
+        }
+      ]
+    },
+    {
+      "name": "gelu",
+      "elem_type": 10,
+      "dtype": "FLOAT16",
+      "shape": [
+        1,
+        32,
+        64,
+        1024
+      ],
+      "bytes": 4194304,
+      "roles": [
+        {
+          "node": "node_gelu",
+          "role": "gelu_output",
+          "op_type": "ExactGelu"
+        }
+      ]
+    },
+    {
+      "name": "gelu_1",
+      "elem_type": 10,
+      "dtype": "FLOAT16",
+      "shape": [
+        1,
+        32,
+        64,
+        1024
+      ],
+      "bytes": 4194304,
+      "roles": [
+        {
+          "node": "node_gelu_1",
+          "role": "gelu_output",
+          "op_type": "ExactGelu"
+        }
+      ]
+    },
+    {
+      "name": "gelu_10",
+      "elem_type": 10,
+      "dtype": "FLOAT16",
+      "shape": [
+        1,
+        8,
+        16,
+        4096
+      ],
+      "bytes": 1048576,
+      "roles": [
+        {
+          "node": "node_gelu_10",
+          "role": "gelu_output",
+          "op_type": "ExactGelu"
+        }
+      ]
+    },
+    {
+      "name": "gelu_11",
+      "elem_type": 10,
+      "dtype": "FLOAT16",
+      "shape": [
+        1,
+        8,
+        16,
+        4096
+      ],
+      "bytes": 1048576,
+      "roles": [
+        {
+          "node": "node_gelu_11",
+          "role": "gelu_output",
+          "op_type": "ExactGelu"
+        }
+      ]
+    },
+    {
+      "name": "gelu_12",
+      "elem_type": 10,
+      "dtype": "FLOAT16",
+      "shape": [
+        1,
+        8,
+        16,
+        4096
+      ],
+      "bytes": 1048576,
+      "roles": [
+        {
+          "node": "node_gelu_12",
+          "role": "gelu_output",
+          "op_type": "ExactGelu"
+        }
+      ]
+    },
+    {
+      "name": "gelu_13",
+      "elem_type": 10,
+      "dtype": "FLOAT16",
+      "shape": [
+        1,
+        8,
+        16,
+        4096
+      ],
+      "bytes": 1048576,
+      "roles": [
+        {
+          "node": "node_gelu_13",
+          "role": "gelu_output",
+          "op_type": "ExactGelu"
+        }
+      ]
+    },
+    {
+      "name": "gelu_14",
+      "elem_type": 10,
+      "dtype": "FLOAT16",
+      "shape": [
+        1,
+        8,
+        16,
+        4096
+      ],
+      "bytes": 1048576,
+      "roles": [
+        {
+          "node": "node_gelu_14",
+          "role": "gelu_output",
+          "op_type": "ExactGelu"
+        }
+      ]
+    },
+    {
+      "name": "gelu_15",
+      "elem_type": 10,
+      "dtype": "FLOAT16",
+      "shape": [
+        1,
+        8,
+        16,
+        4096
+      ],
+      "bytes": 1048576,
+      "roles": [
+        {
+          "node": "node_gelu_15",
+          "role": "gelu_output",
+          "op_type": "ExactGelu"
+        }
+      ]
+    },
+    {
+      "name": "gelu_16",
+      "elem_type": 10,
+      "dtype": "FLOAT16",
+      "shape": [
+        1,
+        8,
+        16,
+        4096
+      ],
+      "bytes": 1048576,
+      "roles": [
+        {
+          "node": "node_gelu_16",
+          "role": "gelu_output",
+          "op_type": "ExactGelu"
+        }
+      ]
+    },
+    {
+      "name": "gelu_17",
+      "elem_type": 10,
+      "dtype": "FLOAT16",
+      "shape": [
+        1,
+        8,
+        16,
+        4096
+      ],
+      "bytes": 1048576,
+      "roles": [
+        {
+          "node": "node_gelu_17",
+          "role": "gelu_output",
+          "op_type": "ExactGelu"
+        }
+      ]
+    },
+    {
+      "name": "gelu_18",
+      "elem_type": 10,
+      "dtype": "FLOAT16",
+      "shape": [
+        1,
+        8,
+        16,
+        4096
+      ],
+      "bytes": 1048576,
+      "roles": [
+        {
+          "node": "node_gelu_18",
+          "role": "gelu_output",
+          "op_type": "ExactGelu"
+        }
+      ]
+    },
+    {
+      "name": "gelu_19",
+      "elem_type": 10,
+      "dtype": "FLOAT16",
+      "shape": [
+        1,
+        8,
+        16,
+        4096
+      ],
+      "bytes": 1048576,
+      "roles": [
+        {
+          "node": "node_gelu_19",
+          "role": "gelu_output",
+          "op_type": "ExactGelu"
+        }
+      ]
+    },
+    {
+      "name": "gelu_2",
+      "elem_type": 10,
+      "dtype": "FLOAT16",
+      "shape": [
+        1,
+        32,
+        64,
+        1024
+      ],
+      "bytes": 4194304,
+      "roles": [
+        {
+          "node": "node_gelu_2",
+          "role": "gelu_output",
+          "op_type": "ExactGelu"
+        }
+      ]
+    },
+    {
+      "name": "gelu_20",
+      "elem_type": 10,
+      "dtype": "FLOAT16",
+      "shape": [
+        1,
+        8,
+        16,
+        4096
+      ],
+      "bytes": 1048576,
+      "roles": [
+        {
+          "node": "node_gelu_20",
+          "role": "gelu_output",
+          "op_type": "ExactGelu"
+        }
+      ]
+    },
+    {
+      "name": "gelu_21",
+      "elem_type": 10,
+      "dtype": "FLOAT16",
+      "shape": [
+        1,
+        8,
+        16,
+        4096
+      ],
+      "bytes": 1048576,
+      "roles": [
+        {
+          "node": "node_gelu_21",
+          "role": "gelu_output",
+          "op_type": "ExactGelu"
+        }
+      ]
+    },
+    {
+      "name": "gelu_22",
+      "elem_type": 10,
+      "dtype": "FLOAT16",
+      "shape": [
+        1,
+        8,
+        16,
+        4096
+      ],
+      "bytes": 1048576,
+      "roles": [
+        {
+          "node": "node_gelu_22",
+          "role": "gelu_output",
+          "op_type": "ExactGelu"
+        }
+      ]
+    },
+    {
+      "name": "gelu_23",
+      "elem_type": 10,
+      "dtype": "FLOAT16",
+      "shape": [
+        1,
+        8,
+        16,
+        4096
+      ],
+      "bytes": 1048576,
+      "roles": [
+        {
+          "node": "node_gelu_23",
+          "role": "gelu_output",
+          "op_type": "ExactGelu"
+        }
+      ]
+    },
+    {
+      "name": "gelu_24",
+      "elem_type": 10,
+      "dtype": "FLOAT16",
+      "shape": [
+        1,
+        8,
+        16,
+        4096
+      ],
+      "bytes": 1048576,
+      "roles": [
+        {
+          "node": "node_gelu_24",
+          "role": "gelu_output",
+          "op_type": "ExactGelu"
+        }
+      ]
+    },
+    {
+      "name": "gelu_25",
+      "elem_type": 10,
+      "dtype": "FLOAT16",
+      "shape": [
+        1,
+        8,
+        16,
+        4096
+      ],
+      "bytes": 1048576,
+      "roles": [
+        {
+          "node": "node_gelu_25",
+          "role": "gelu_output",
+          "op_type": "ExactGelu"
+        }
+      ]
+    },
+    {
+      "name": "gelu_26",
+      "elem_type": 10,
+      "dtype": "FLOAT16",
+      "shape": [
+        1,
+        8,
+        16,
+        4096
+      ],
+      "bytes": 1048576,
+      "roles": [
+        {
+          "node": "node_gelu_26",
+          "role": "gelu_output",
+          "op_type": "ExactGelu"
+        }
+      ]
+    },
+    {
+      "name": "gelu_27",
+      "elem_type": 10,
+      "dtype": "FLOAT16",
+      "shape": [
+        1,
+        8,
+        16,
+        4096
+      ],
+      "bytes": 1048576,
+      "roles": [
+        {
+          "node": "node_gelu_27",
+          "role": "gelu_output",
+          "op_type": "ExactGelu"
+        }
+      ]
+    },
+    {
+      "name": "gelu_28",
+      "elem_type": 10,
+      "dtype": "FLOAT16",
+      "shape": [
+        1,
+        8,
+        16,
+        4096
+      ],
+      "bytes": 1048576,
+      "roles": [
+        {
+          "node": "node_gelu_28",
+          "role": "gelu_output",
+          "op_type": "ExactGelu"
+        }
+      ]
+    },
+    {
+      "name": "gelu_29",
+      "elem_type": 10,
+      "dtype": "FLOAT16",
+      "shape": [
+        1,
+        8,
+        16,
+        4096
+      ],
+      "bytes": 1048576,
+      "roles": [
+        {
+          "node": "node_gelu_29",
+          "role": "gelu_output",
+          "op_type": "ExactGelu"
+        }
+      ]
+    },
+    {
+      "name": "gelu_3",
+      "elem_type": 10,
+      "dtype": "FLOAT16",
+      "shape": [
+        1,
+        16,
+        32,
+        2048
+      ],
+      "bytes": 2097152,
+      "roles": [
+        {
+          "node": "node_gelu_3",
+          "role": "gelu_output",
+          "op_type": "ExactGelu"
+        }
+      ]
+    },
+    {
+      "name": "gelu_30",
+      "elem_type": 10,
+      "dtype": "FLOAT16",
+      "shape": [
+        1,
+        8,
+        16,
+        4096
+      ],
+      "bytes": 1048576,
+      "roles": [
+        {
+          "node": "node_gelu_30",
+          "role": "gelu_output",
+          "op_type": "ExactGelu"
+        }
+      ]
+    },
+    {
+      "name": "gelu_31",
+      "elem_type": 10,
+      "dtype": "FLOAT16",
+      "shape": [
+        1,
+        8,
+        16,
+        4096
+      ],
+      "bytes": 1048576,
+      "roles": [
+        {
+          "node": "node_gelu_31",
+          "role": "gelu_output",
+          "op_type": "ExactGelu"
+        }
+      ]
+    },
+    {
+      "name": "gelu_32",
+      "elem_type": 10,
+      "dtype": "FLOAT16",
+      "shape": [
+        1,
+        8,
+        16,
+        4096
+      ],
+      "bytes": 1048576,
+      "roles": [
+        {
+          "node": "node_gelu_32",
+          "role": "gelu_output",
+          "op_type": "ExactGelu"
+        }
+      ]
+    },
+    {
+      "name": "gelu_33",
+      "elem_type": 10,
+      "dtype": "FLOAT16",
+      "shape": [
+        1,
+        4,
+        8,
+        8192
+      ],
+      "bytes": 524288,
+      "roles": [
+        {
+          "node": "node_gelu_33",
+          "role": "gelu_output",
+          "op_type": "ExactGelu"
+        }
+      ]
+    },
+    {
+      "name": "gelu_34",
+      "elem_type": 10,
+      "dtype": "FLOAT16",
+      "shape": [
+        1,
+        4,
+        8,
+        8192
+      ],
+      "bytes": 524288,
+      "roles": [
+        {
+          "node": "node_gelu_34",
+          "role": "gelu_output",
+          "op_type": "ExactGelu"
+        }
+      ]
+    },
+    {
+      "name": "gelu_35",
+      "elem_type": 10,
+      "dtype": "FLOAT16",
+      "shape": [
+        1,
+        4,
+        8,
+        8192
+      ],
+      "bytes": 524288,
+      "roles": [
+        {
+          "node": "node_gelu_35",
+          "role": "gelu_output",
+          "op_type": "ExactGelu"
+        }
+      ]
+    },
+    {
+      "name": "gelu_36",
+      "elem_type": 10,
+      "dtype": "FLOAT16",
+      "shape": [
+        1,
+        1024
+      ],
+      "bytes": 2048,
+      "roles": [
+        {
+          "node": "node_gelu_36",
+          "role": "gelu_output",
+          "op_type": "ExactGeluTanh"
+        }
+      ]
+    },
+    {
+      "name": "gelu_37",
+      "elem_type": 10,
+      "dtype": "FLOAT16",
+      "shape": [
+        1,
+        1024
+      ],
+      "bytes": 2048,
+      "roles": [
+        {
+          "node": "node_gelu_37",
+          "role": "gelu_output",
+          "op_type": "ExactGeluTanh"
+        }
+      ]
+    },
+    {
+      "name": "gelu_38",
+      "elem_type": 10,
+      "dtype": "FLOAT16",
+      "shape": [
+        1,
+        1024
+      ],
+      "bytes": 2048,
+      "roles": [
+        {
+          "node": "node_gelu_38",
+          "role": "gelu_output",
+          "op_type": "ExactGeluTanh"
+        }
+      ]
+    },
+    {
+      "name": "gelu_39",
+      "elem_type": 10,
+      "dtype": "FLOAT16",
+      "shape": [
+        1,
+        9,
+        32,
+        1024
+      ],
+      "bytes": 589824,
+      "roles": [
+        {
+          "node": "node_gelu_39",
+          "role": "gelu_output",
+          "op_type": "ExactGeluTanh"
+        }
+      ]
+    },
+    {
+      "name": "gelu_4",
+      "elem_type": 10,
+      "dtype": "FLOAT16",
+      "shape": [
+        1,
+        16,
+        32,
+        2048
+      ],
+      "bytes": 2097152,
+      "roles": [
+        {
+          "node": "node_gelu_4",
+          "role": "gelu_output",
+          "op_type": "ExactGelu"
+        }
+      ]
+    },
+    {
+      "name": "gelu_40",
+      "elem_type": 10,
+      "dtype": "FLOAT16",
+      "shape": [
+        1,
+        9,
+        32,
+        1024
+      ],
+      "bytes": 589824,
+      "roles": [
+        {
+          "node": "node_gelu_40",
+          "role": "gelu_output",
+          "op_type": "ExactGeluTanh"
+        }
+      ]
+    },
+    {
+      "name": "gelu_41",
+      "elem_type": 10,
+      "dtype": "FLOAT16",
+      "shape": [
+        1,
+        288,
+        1024
+      ],
+      "bytes": 589824,
+      "roles": [
+        {
+          "node": "node_gelu_41",
+          "role": "gelu_output",
+          "op_type": "ExactGeluTanh"
+        }
+      ]
+    },
+    {
+      "name": "gelu_42",
+      "elem_type": 10,
+      "dtype": "FLOAT16",
+      "shape": [
+        1,
+        288,
+        1024
+      ],
+      "bytes": 589824,
+      "roles": [
+        {
+          "node": "node_gelu_42",
+          "role": "gelu_output",
+          "op_type": "ExactGeluTanh"
+        }
+      ]
+    },
+    {
+      "name": "gelu_43",
+      "elem_type": 10,
+      "dtype": "FLOAT16",
+      "shape": [
+        1,
+        288,
+        1024
+      ],
+      "bytes": 589824,
+      "roles": [
+        {
+          "node": "node_gelu_43",
+          "role": "gelu_output",
+          "op_type": "ExactGeluTanh"
+        }
+      ]
+    },
+    {
+      "name": "gelu_44",
+      "elem_type": 10,
+      "dtype": "FLOAT16",
+      "shape": [
+        1,
+        288,
+        1024
+      ],
+      "bytes": 589824,
+      "roles": [
+        {
+          "node": "node_gelu_44",
+          "role": "gelu_output",
+          "op_type": "ExactGeluTanh"
+        }
+      ]
+    },
+    {
+      "name": "gelu_45",
+      "elem_type": 10,
+      "dtype": "FLOAT16",
+      "shape": [
+        1,
+        1024
+      ],
+      "bytes": 2048,
+      "roles": [
+        {
+          "node": "node_gelu_45",
+          "role": "gelu_output",
+          "op_type": "ExactGeluTanh"
+        }
+      ]
+    },
+    {
+      "name": "gelu_46",
+      "elem_type": 10,
+      "dtype": "FLOAT16",
+      "shape": [
+        1,
+        1024
+      ],
+      "bytes": 2048,
+      "roles": [
+        {
+          "node": "node_gelu_46",
+          "role": "gelu_output",
+          "op_type": "ExactGeluTanh"
+        }
+      ]
+    },
+    {
+      "name": "gelu_47",
+      "elem_type": 10,
+      "dtype": "FLOAT16",
+      "shape": [
+        1,
+        1024
+      ],
+      "bytes": 2048,
+      "roles": [
+        {
+          "node": "node_gelu_47",
+          "role": "gelu_output",
+          "op_type": "ExactGeluTanh"
+        }
+      ]
+    },
+    {
+      "name": "gelu_49",
+      "elem_type": 10,
+      "dtype": "FLOAT16",
+      "shape": [
+        1,
+        1024
+      ],
+      "bytes": 2048,
+      "roles": [
+        {
+          "node": "node_gelu_49",
+          "role": "gelu_output",
+          "op_type": "ExactGeluTanh"
+        }
+      ]
+    },
+    {
+      "name": "gelu_5",
+      "elem_type": 10,
+      "dtype": "FLOAT16",
+      "shape": [
+        1,
+        16,
+        32,
+        2048
+      ],
+      "bytes": 2097152,
+      "roles": [
+        {
+          "node": "node_gelu_5",
+          "role": "gelu_output",
+          "op_type": "ExactGelu"
+        }
+      ]
+    },
+    {
+      "name": "gelu_50",
+      "elem_type": 10,
+      "dtype": "FLOAT16",
+      "shape": [
+        1,
+        9,
+        32,
+        1024
+      ],
+      "bytes": 589824,
+      "roles": [
+        {
+          "node": "node_gelu_50",
+          "role": "gelu_output",
+          "op_type": "ExactGeluTanh"
+        }
+      ]
+    },
+    {
+      "name": "gelu_51",
+      "elem_type": 10,
+      "dtype": "FLOAT16",
+      "shape": [
+        1,
+        9,
+        32,
+        1024
+      ],
+      "bytes": 589824,
+      "roles": [
+        {
+          "node": "node_gelu_51",
+          "role": "gelu_output",
+          "op_type": "ExactGeluTanh"
+        }
+      ]
+    },
+    {
+      "name": "gelu_52",
+      "elem_type": 10,
+      "dtype": "FLOAT16",
+      "shape": [
+        1,
+        288,
+        1024
+      ],
+      "bytes": 589824,
+      "roles": [
+        {
+          "node": "node_gelu_52",
+          "role": "gelu_output",
+          "op_type": "ExactGeluTanh"
+        }
+      ]
+    },
+    {
+      "name": "gelu_53",
+      "elem_type": 10,
+      "dtype": "FLOAT16",
+      "shape": [
+        1,
+        288,
+        1024
+      ],
+      "bytes": 589824,
+      "roles": [
+        {
+          "node": "node_gelu_53",
+          "role": "gelu_output",
+          "op_type": "ExactGeluTanh"
+        }
+      ]
+    },
+    {
+      "name": "gelu_54",
+      "elem_type": 10,
+      "dtype": "FLOAT16",
+      "shape": [
+        1,
+        288,
+        1024
+      ],
+      "bytes": 589824,
+      "roles": [
+        {
+          "node": "node_gelu_54",
+          "role": "gelu_output",
+          "op_type": "ExactGeluTanh"
+        }
+      ]
+    },
+    {
+      "name": "gelu_55",
+      "elem_type": 10,
+      "dtype": "FLOAT16",
+      "shape": [
+        1,
+        288,
+        1024
+      ],
+      "bytes": 589824,
+      "roles": [
+        {
+          "node": "node_gelu_55",
+          "role": "gelu_output",
+          "op_type": "ExactGeluTanh"
+        }
+      ]
+    },
+    {
+      "name": "gelu_56",
+      "elem_type": 10,
+      "dtype": "FLOAT16",
+      "shape": [
+        1,
+        1024
+      ],
+      "bytes": 2048,
+      "roles": [
+        {
+          "node": "node_gelu_56",
+          "role": "gelu_output",
+          "op_type": "ExactGeluTanh"
+        }
+      ]
+    },
+    {
+      "name": "gelu_57",
+      "elem_type": 10,
+      "dtype": "FLOAT16",
+      "shape": [
+        1,
+        9,
+        32,
+        1024
+      ],
+      "bytes": 589824,
+      "roles": [
+        {
+          "node": "node_gelu_57",
+          "role": "gelu_output",
+          "op_type": "ExactGeluTanh"
+        }
+      ]
+    },
+    {
+      "name": "gelu_58",
+      "elem_type": 10,
+      "dtype": "FLOAT16",
+      "shape": [
+        1,
+        9,
+        32,
+        1024
+      ],
+      "bytes": 589824,
+      "roles": [
+        {
+          "node": "node_gelu_58",
+          "role": "gelu_output",
+          "op_type": "ExactGeluTanh"
+        }
+      ]
+    },
+    {
+      "name": "gelu_59",
+      "elem_type": 10,
+      "dtype": "FLOAT16",
+      "shape": [
+        1,
+        288,
+        1024
+      ],
+      "bytes": 589824,
+      "roles": [
+        {
+          "node": "node_gelu_59",
+          "role": "gelu_output",
+          "op_type": "ExactGeluTanh"
+        }
+      ]
+    },
+    {
+      "name": "gelu_6",
+      "elem_type": 10,
+      "dtype": "FLOAT16",
+      "shape": [
+        1,
+        8,
+        16,
+        4096
+      ],
+      "bytes": 1048576,
+      "roles": [
+        {
+          "node": "node_gelu_6",
+          "role": "gelu_output",
+          "op_type": "ExactGelu"
+        }
+      ]
+    },
+    {
+      "name": "gelu_60",
+      "elem_type": 10,
+      "dtype": "FLOAT16",
+      "shape": [
+        1,
+        288,
+        1024
+      ],
+      "bytes": 589824,
+      "roles": [
+        {
+          "node": "node_gelu_60",
+          "role": "gelu_output",
+          "op_type": "ExactGeluTanh"
+        }
+      ]
+    },
+    {
+      "name": "gelu_61",
+      "elem_type": 10,
+      "dtype": "FLOAT16",
+      "shape": [
+        1,
+        288,
+        1024
+      ],
+      "bytes": 589824,
+      "roles": [
+        {
+          "node": "node_gelu_61",
+          "role": "gelu_output",
+          "op_type": "ExactGeluTanh"
+        }
+      ]
+    },
+    {
+      "name": "gelu_62",
+      "elem_type": 10,
+      "dtype": "FLOAT16",
+      "shape": [
+        1,
+        288,
+        1024
+      ],
+      "bytes": 589824,
+      "roles": [
+        {
+          "node": "node_gelu_62",
+          "role": "gelu_output",
+          "op_type": "ExactGeluTanh"
+        }
+      ]
+    },
+    {
+      "name": "gelu_63",
+      "elem_type": 10,
+      "dtype": "FLOAT16",
+      "shape": [
+        1,
+        1024
+      ],
+      "bytes": 2048,
+      "roles": [
+        {
+          "node": "node_gelu_63",
+          "role": "gelu_output",
+          "op_type": "ExactGeluTanh"
+        }
+      ]
+    },
+    {
+      "name": "gelu_7",
+      "elem_type": 10,
+      "dtype": "FLOAT16",
+      "shape": [
+        1,
+        8,
+        16,
+        4096
+      ],
+      "bytes": 1048576,
+      "roles": [
+        {
+          "node": "node_gelu_7",
+          "role": "gelu_output",
+          "op_type": "ExactGelu"
+        }
+      ]
+    },
+    {
+      "name": "gelu_8",
+      "elem_type": 10,
+      "dtype": "FLOAT16",
+      "shape": [
+        1,
+        8,
+        16,
+        4096
+      ],
+      "bytes": 1048576,
+      "roles": [
+        {
+          "node": "node_gelu_8",
+          "role": "gelu_output",
+          "op_type": "ExactGelu"
+        }
+      ]
+    },
+    {
+      "name": "gelu_9",
+      "elem_type": 10,
+      "dtype": "FLOAT16",
+      "shape": [
+        1,
+        8,
+        16,
+        4096
+      ],
+      "bytes": 1048576,
+      "roles": [
+        {
+          "node": "node_gelu_9",
+          "role": "gelu_output",
+          "op_type": "ExactGelu"
+        }
+      ]
+    },
+    {
+      "name": "index",
+      "elem_type": 10,
+      "dtype": "FLOAT16",
+      "shape": [
+        1,
+        9,
+        32,
+        512
+      ],
+      "bytes": 294912,
+      "roles": [
+        {
+          "role": "cached_context_intermediate"
+        }
+      ]
+    },
+    {
+      "name": "layer_norm",
+      "elem_type": 10,
+      "dtype": "FLOAT16",
+      "shape": [
+        1,
+        32,
+        64,
+        256
+      ],
+      "bytes": 1048576,
+      "roles": [
+        {
+          "role": "cached_context_intermediate"
+        }
+      ]
+    },
+    {
+      "name": "linear",
+      "elem_type": 10,
+      "dtype": "FLOAT16",
+      "shape": [
+        1,
+        32,
+        64,
+        1024
+      ],
+      "bytes": 4194304,
+      "roles": [
+        {
+          "node": "node_gelu",
+          "role": "gelu_input",
+          "op_type": "ExactGelu"
+        }
+      ]
+    },
+    {
+      "name": "linear_10",
+      "elem_type": 10,
+      "dtype": "FLOAT16",
+      "shape": [
+        1,
+        16,
+        32,
+        2048
+      ],
+      "bytes": 2097152,
+      "roles": [
+        {
+          "node": "node_gelu_5",
+          "role": "gelu_input",
+          "op_type": "ExactGelu"
+        }
+      ]
+    },
+    {
+      "name": "linear_102",
+      "elem_type": 10,
+      "dtype": "FLOAT16",
+      "shape": [
+        1,
+        288,
+        1024
+      ],
+      "bytes": 589824,
+      "roles": [
+        {
+          "node": "node_gelu_42",
+          "role": "gelu_input",
+          "op_type": "ExactGeluTanh"
+        }
+      ]
+    },
+    {
+      "name": "linear_106",
+      "elem_type": 10,
+      "dtype": "FLOAT16",
+      "shape": [
+        1,
+        288,
+        1024
+      ],
+      "bytes": 589824,
+      "roles": [
+        {
+          "node": "node_gelu_43",
+          "role": "gelu_input",
+          "op_type": "ExactGeluTanh"
+        }
+      ]
+    },
+    {
+      "name": "linear_110",
+      "elem_type": 10,
+      "dtype": "FLOAT16",
+      "shape": [
+        1,
+        288,
+        1024
+      ],
+      "bytes": 589824,
+      "roles": [
+        {
+          "node": "node_gelu_44",
+          "role": "gelu_input",
+          "op_type": "ExactGeluTanh"
+        }
+      ]
+    },
+    {
+      "name": "linear_112",
+      "elem_type": 10,
+      "dtype": "FLOAT16",
+      "shape": [
+        1,
+        1024
+      ],
+      "bytes": 2048,
+      "roles": [
+        {
+          "node": "node_gelu_45",
+          "role": "gelu_input",
+          "op_type": "ExactGeluTanh"
+        }
+      ]
+    },
+    {
+      "name": "linear_115",
+      "elem_type": 10,
+      "dtype": "FLOAT16",
+      "shape": [
+        1,
+        1024
+      ],
+      "bytes": 2048,
+      "roles": [
+        {
+          "node": "node_gelu_46",
+          "role": "gelu_input",
+          "op_type": "ExactGeluTanh"
+        }
+      ]
+    },
+    {
+      "name": "linear_118",
+      "elem_type": 10,
+      "dtype": "FLOAT16",
+      "shape": [
+        1,
+        1024
+      ],
+      "bytes": 2048,
+      "roles": [
+        {
+          "node": "node_gelu_47",
+          "role": "gelu_input",
+          "op_type": "ExactGeluTanh"
+        }
+      ]
+    },
+    {
+      "name": "linear_12",
+      "elem_type": 10,
+      "dtype": "FLOAT16",
+      "shape": [
+        1,
+        8,
+        16,
+        4096
+      ],
+      "bytes": 1048576,
+      "roles": [
+        {
+          "node": "node_gelu_6",
+          "role": "gelu_input",
+          "op_type": "ExactGelu"
+        }
+      ]
+    },
+    {
+      "name": "linear_120",
+      "elem_type": 10,
+      "dtype": "FLOAT16",
+      "shape": [
+        1,
+        3
+      ],
+      "bytes": 6,
+      "roles": [
+        {
+          "role": "cached_context_intermediate"
+        }
+      ]
+    },
+    {
+      "name": "linear_124",
+      "elem_type": 10,
+      "dtype": "FLOAT16",
+      "shape": [
+        1,
+        1024
+      ],
+      "bytes": 2048,
+      "roles": [
+        {
+          "node": "node_gelu_49",
+          "role": "gelu_input",
+          "op_type": "ExactGeluTanh"
+        }
+      ]
+    },
+    {
+      "name": "linear_126",
+      "elem_type": 10,
+      "dtype": "FLOAT16",
+      "shape": [
+        1,
+        8
+      ],
+      "bytes": 16,
+      "roles": [
+        {
+          "role": "cached_context_intermediate"
+        }
+      ]
+    },
+    {
+      "name": "linear_127",
+      "elem_type": 10,
+      "dtype": "FLOAT16",
+      "shape": [
+        1,
+        9,
+        32,
+        1024
+      ],
+      "bytes": 589824,
+      "roles": [
+        {
+          "node": "node_gelu_50",
+          "role": "gelu_input",
+          "op_type": "ExactGeluTanh"
+        }
+      ]
+    },
+    {
+      "name": "linear_129",
+      "elem_type": 10,
+      "dtype": "FLOAT16",
+      "shape": [
+        1,
+        9,
+        32,
+        1024
+      ],
+      "bytes": 589824,
+      "roles": [
+        {
+          "node": "node_gelu_51",
+          "role": "gelu_input",
+          "op_type": "ExactGeluTanh"
+        }
+      ]
+    },
+    {
+      "name": "linear_139",
+      "elem_type": 10,
+      "dtype": "FLOAT16",
+      "shape": [
+        1,
+        288,
+        1024
+      ],
+      "bytes": 589824,
+      "roles": [
+        {
+          "node": "node_gelu_52",
+          "role": "gelu_input",
+          "op_type": "ExactGeluTanh"
+        }
+      ]
+    },
+    {
+      "name": "linear_14",
+      "elem_type": 10,
+      "dtype": "FLOAT16",
+      "shape": [
+        1,
+        8,
+        16,
+        4096
+      ],
+      "bytes": 1048576,
+      "roles": [
+        {
+          "node": "node_gelu_7",
+          "role": "gelu_input",
+          "op_type": "ExactGelu"
+        }
+      ]
+    },
+    {
+      "name": "linear_143",
+      "elem_type": 10,
+      "dtype": "FLOAT16",
+      "shape": [
+        1,
+        288,
+        1024
+      ],
+      "bytes": 589824,
+      "roles": [
+        {
+          "node": "node_gelu_53",
+          "role": "gelu_input",
+          "op_type": "ExactGeluTanh"
+        }
+      ]
+    },
+    {
+      "name": "linear_147",
+      "elem_type": 10,
+      "dtype": "FLOAT16",
+      "shape": [
+        1,
+        288,
+        1024
+      ],
+      "bytes": 589824,
+      "roles": [
+        {
+          "node": "node_gelu_54",
+          "role": "gelu_input",
+          "op_type": "ExactGeluTanh"
+        }
+      ]
+    },
+    {
+      "name": "linear_151",
+      "elem_type": 10,
+      "dtype": "FLOAT16",
+      "shape": [
+        1,
+        288,
+        1024
+      ],
+      "bytes": 589824,
+      "roles": [
+        {
+          "node": "node_gelu_55",
+          "role": "gelu_input",
+          "op_type": "ExactGeluTanh"
+        }
+      ]
+    },
+    {
+      "name": "linear_153",
+      "elem_type": 10,
+      "dtype": "FLOAT16",
+      "shape": [
+        1,
+        1024
+      ],
+      "bytes": 2048,
+      "roles": [
+        {
+          "node": "node_gelu_56",
+          "role": "gelu_input",
+          "op_type": "ExactGeluTanh"
+        }
+      ]
+    },
+    {
+      "name": "linear_156",
+      "elem_type": 10,
+      "dtype": "FLOAT16",
+      "shape": [
+        1,
+        9,
+        32,
+        1024
+      ],
+      "bytes": 589824,
+      "roles": [
+        {
+          "node": "node_gelu_57",
+          "role": "gelu_input",
+          "op_type": "ExactGeluTanh"
+        }
+      ]
+    },
+    {
+      "name": "linear_158",
+      "elem_type": 10,
+      "dtype": "FLOAT16",
+      "shape": [
+        1,
+        9,
+        32,
+        1024
+      ],
+      "bytes": 589824,
+      "roles": [
+        {
+          "node": "node_gelu_58",
+          "role": "gelu_input",
+          "op_type": "ExactGeluTanh"
+        }
+      ]
+    },
+    {
+      "name": "linear_16",
+      "elem_type": 10,
+      "dtype": "FLOAT16",
+      "shape": [
+        1,
+        8,
+        16,
+        4096
+      ],
+      "bytes": 1048576,
+      "roles": [
+        {
+          "node": "node_gelu_8",
+          "role": "gelu_input",
+          "op_type": "ExactGelu"
+        }
+      ]
+    },
+    {
+      "name": "linear_168",
+      "elem_type": 10,
+      "dtype": "FLOAT16",
+      "shape": [
+        1,
+        288,
+        1024
+      ],
+      "bytes": 589824,
+      "roles": [
+        {
+          "node": "node_gelu_59",
+          "role": "gelu_input",
+          "op_type": "ExactGeluTanh"
+        }
+      ]
+    },
+    {
+      "name": "linear_172",
+      "elem_type": 10,
+      "dtype": "FLOAT16",
+      "shape": [
+        1,
+        288,
+        1024
+      ],
+      "bytes": 589824,
+      "roles": [
+        {
+          "node": "node_gelu_60",
+          "role": "gelu_input",
+          "op_type": "ExactGeluTanh"
+        }
+      ]
+    },
+    {
+      "name": "linear_176",
+      "elem_type": 10,
+      "dtype": "FLOAT16",
+      "shape": [
+        1,
+        288,
+        1024
+      ],
+      "bytes": 589824,
+      "roles": [
+        {
+          "node": "node_gelu_61",
+          "role": "gelu_input",
+          "op_type": "ExactGeluTanh"
+        }
+      ]
+    },
+    {
+      "name": "linear_18",
+      "elem_type": 10,
+      "dtype": "FLOAT16",
+      "shape": [
+        1,
+        8,
+        16,
+        4096
+      ],
+      "bytes": 1048576,
+      "roles": [
+        {
+          "node": "node_gelu_9",
+          "role": "gelu_input",
+          "op_type": "ExactGelu"
+        }
+      ]
+    },
+    {
+      "name": "linear_180",
+      "elem_type": 10,
+      "dtype": "FLOAT16",
+      "shape": [
+        1,
+        288,
+        1024
+      ],
+      "bytes": 589824,
+      "roles": [
+        {
+          "node": "node_gelu_62",
+          "role": "gelu_input",
+          "op_type": "ExactGeluTanh"
+        }
+      ]
+    },
+    {
+      "name": "linear_184",
+      "elem_type": 10,
+      "dtype": "FLOAT16",
+      "shape": [
+        1,
+        1024
+      ],
+      "bytes": 2048,
+      "roles": [
+        {
+          "node": "node_gelu_63",
+          "role": "gelu_input",
+          "op_type": "ExactGeluTanh"
+        }
+      ]
+    },
+    {
+      "name": "linear_2",
+      "elem_type": 10,
+      "dtype": "FLOAT16",
+      "shape": [
+        1,
+        32,
+        64,
+        1024
+      ],
+      "bytes": 4194304,
+      "roles": [
+        {
+          "node": "node_gelu_1",
+          "role": "gelu_input",
+          "op_type": "ExactGelu"
+        }
+      ]
+    },
+    {
+      "name": "linear_20",
+      "elem_type": 10,
+      "dtype": "FLOAT16",
+      "shape": [
+        1,
+        8,
+        16,
+        4096
+      ],
+      "bytes": 1048576,
+      "roles": [
+        {
+          "node": "node_gelu_10",
+          "role": "gelu_input",
+          "op_type": "ExactGelu"
+        }
+      ]
+    },
+    {
+      "name": "linear_22",
+      "elem_type": 10,
+      "dtype": "FLOAT16",
+      "shape": [
+        1,
+        8,
+        16,
+        4096
+      ],
+      "bytes": 1048576,
+      "roles": [
+        {
+          "node": "node_gelu_11",
+          "role": "gelu_input",
+          "op_type": "ExactGelu"
+        }
+      ]
+    },
+    {
+      "name": "linear_24",
+      "elem_type": 10,
+      "dtype": "FLOAT16",
+      "shape": [
+        1,
+        8,
+        16,
+        4096
+      ],
+      "bytes": 1048576,
+      "roles": [
+        {
+          "node": "node_gelu_12",
+          "role": "gelu_input",
+          "op_type": "ExactGelu"
+        }
+      ]
+    },
+    {
+      "name": "linear_26",
+      "elem_type": 10,
+      "dtype": "FLOAT16",
+      "shape": [
+        1,
+        8,
+        16,
+        4096
+      ],
+      "bytes": 1048576,
+      "roles": [
+        {
+          "node": "node_gelu_13",
+          "role": "gelu_input",
+          "op_type": "ExactGelu"
+        }
+      ]
+    },
+    {
+      "name": "linear_28",
+      "elem_type": 10,
+      "dtype": "FLOAT16",
+      "shape": [
+        1,
+        8,
+        16,
+        4096
+      ],
+      "bytes": 1048576,
+      "roles": [
+        {
+          "node": "node_gelu_14",
+          "role": "gelu_input",
+          "op_type": "ExactGelu"
+        }
+      ]
+    },
+    {
+      "name": "linear_30",
+      "elem_type": 10,
+      "dtype": "FLOAT16",
+      "shape": [
+        1,
+        8,
+        16,
+        4096
+      ],
+      "bytes": 1048576,
+      "roles": [
+        {
+          "node": "node_gelu_15",
+          "role": "gelu_input",
+          "op_type": "ExactGelu"
+        }
+      ]
+    },
+    {
+      "name": "linear_32",
+      "elem_type": 10,
+      "dtype": "FLOAT16",
+      "shape": [
+        1,
+        8,
+        16,
+        4096
+      ],
+      "bytes": 1048576,
+      "roles": [
+        {
+          "node": "node_gelu_16",
+          "role": "gelu_input",
+          "op_type": "ExactGelu"
+        }
+      ]
+    },
+    {
+      "name": "linear_34",
+      "elem_type": 10,
+      "dtype": "FLOAT16",
+      "shape": [
+        1,
+        8,
+        16,
+        4096
+      ],
+      "bytes": 1048576,
+      "roles": [
+        {
+          "node": "node_gelu_17",
+          "role": "gelu_input",
+          "op_type": "ExactGelu"
+        }
+      ]
+    },
+    {
+      "name": "linear_36",
+      "elem_type": 10,
+      "dtype": "FLOAT16",
+      "shape": [
+        1,
+        8,
+        16,
+        4096
+      ],
+      "bytes": 1048576,
+      "roles": [
+        {
+          "node": "node_gelu_18",
+          "role": "gelu_input",
+          "op_type": "ExactGelu"
+        }
+      ]
+    },
+    {
+      "name": "linear_38",
+      "elem_type": 10,
+      "dtype": "FLOAT16",
+      "shape": [
+        1,
+        8,
+        16,
+        4096
+      ],
+      "bytes": 1048576,
+      "roles": [
+        {
+          "node": "node_gelu_19",
+          "role": "gelu_input",
+          "op_type": "ExactGelu"
+        }
+      ]
+    },
+    {
+      "name": "linear_4",
+      "elem_type": 10,
+      "dtype": "FLOAT16",
+      "shape": [
+        1,
+        32,
+        64,
+        1024
+      ],
+      "bytes": 4194304,
+      "roles": [
+        {
+          "node": "node_gelu_2",
+          "role": "gelu_input",
+          "op_type": "ExactGelu"
+        }
+      ]
+    },
+    {
+      "name": "linear_40",
+      "elem_type": 10,
+      "dtype": "FLOAT16",
+      "shape": [
+        1,
+        8,
+        16,
+        4096
+      ],
+      "bytes": 1048576,
+      "roles": [
+        {
+          "node": "node_gelu_20",
+          "role": "gelu_input",
+          "op_type": "ExactGelu"
+        }
+      ]
+    },
+    {
+      "name": "linear_42",
+      "elem_type": 10,
+      "dtype": "FLOAT16",
+      "shape": [
+        1,
+        8,
+        16,
+        4096
+      ],
+      "bytes": 1048576,
+      "roles": [
+        {
+          "node": "node_gelu_21",
+          "role": "gelu_input",
+          "op_type": "ExactGelu"
+        }
+      ]
+    },
+    {
+      "name": "linear_44",
+      "elem_type": 10,
+      "dtype": "FLOAT16",
+      "shape": [
+        1,
+        8,
+        16,
+        4096
+      ],
+      "bytes": 1048576,
+      "roles": [
+        {
+          "node": "node_gelu_22",
+          "role": "gelu_input",
+          "op_type": "ExactGelu"
+        }
+      ]
+    },
+    {
+      "name": "linear_46",
+      "elem_type": 10,
+      "dtype": "FLOAT16",
+      "shape": [
+        1,
+        8,
+        16,
+        4096
+      ],
+      "bytes": 1048576,
+      "roles": [
+        {
+          "node": "node_gelu_23",
+          "role": "gelu_input",
+          "op_type": "ExactGelu"
+        }
+      ]
+    },
+    {
+      "name": "linear_48",
+      "elem_type": 10,
+      "dtype": "FLOAT16",
+      "shape": [
+        1,
+        8,
+        16,
+        4096
+      ],
+      "bytes": 1048576,
+      "roles": [
+        {
+          "node": "node_gelu_24",
+          "role": "gelu_input",
+          "op_type": "ExactGelu"
+        }
+      ]
+    },
+    {
+      "name": "linear_50",
+      "elem_type": 10,
+      "dtype": "FLOAT16",
+      "shape": [
+        1,
+        8,
+        16,
+        4096
+      ],
+      "bytes": 1048576,
+      "roles": [
+        {
+          "node": "node_gelu_25",
+          "role": "gelu_input",
+          "op_type": "ExactGelu"
+        }
+      ]
+    },
+    {
+      "name": "linear_52",
+      "elem_type": 10,
+      "dtype": "FLOAT16",
+      "shape": [
+        1,
+        8,
+        16,
+        4096
+      ],
+      "bytes": 1048576,
+      "roles": [
+        {
+          "node": "node_gelu_26",
+          "role": "gelu_input",
+          "op_type": "ExactGelu"
+        }
+      ]
+    },
+    {
+      "name": "linear_54",
+      "elem_type": 10,
+      "dtype": "FLOAT16",
+      "shape": [
+        1,
+        8,
+        16,
+        4096
+      ],
+      "bytes": 1048576,
+      "roles": [
+        {
+          "node": "node_gelu_27",
+          "role": "gelu_input",
+          "op_type": "ExactGelu"
+        }
+      ]
+    },
+    {
+      "name": "linear_56",
+      "elem_type": 10,
+      "dtype": "FLOAT16",
+      "shape": [
+        1,
+        8,
+        16,
+        4096
+      ],
+      "bytes": 1048576,
+      "roles": [
+        {
+          "node": "node_gelu_28",
+          "role": "gelu_input",
+          "op_type": "ExactGelu"
+        }
+      ]
+    },
+    {
+      "name": "linear_58",
+      "elem_type": 10,
+      "dtype": "FLOAT16",
+      "shape": [
+        1,
+        8,
+        16,
+        4096
+      ],
+      "bytes": 1048576,
+      "roles": [
+        {
+          "node": "node_gelu_29",
+          "role": "gelu_input",
+          "op_type": "ExactGelu"
+        }
+      ]
+    },
+    {
+      "name": "linear_6",
+      "elem_type": 10,
+      "dtype": "FLOAT16",
+      "shape": [
+        1,
+        16,
+        32,
+        2048
+      ],
+      "bytes": 2097152,
+      "roles": [
+        {
+          "node": "node_gelu_3",
+          "role": "gelu_input",
+          "op_type": "ExactGelu"
+        }
+      ]
+    },
+    {
+      "name": "linear_60",
+      "elem_type": 10,
+      "dtype": "FLOAT16",
+      "shape": [
+        1,
+        8,
+        16,
+        4096
+      ],
+      "bytes": 1048576,
+      "roles": [
+        {
+          "node": "node_gelu_30",
+          "role": "gelu_input",
+          "op_type": "ExactGelu"
+        }
+      ]
+    },
+    {
+      "name": "linear_62",
+      "elem_type": 10,
+      "dtype": "FLOAT16",
+      "shape": [
+        1,
+        8,
+        16,
+        4096
+      ],
+      "bytes": 1048576,
+      "roles": [
+        {
+          "node": "node_gelu_31",
+          "role": "gelu_input",
+          "op_type": "ExactGelu"
+        }
+      ]
+    },
+    {
+      "name": "linear_64",
+      "elem_type": 10,
+      "dtype": "FLOAT16",
+      "shape": [
+        1,
+        8,
+        16,
+        4096
+      ],
+      "bytes": 1048576,
+      "roles": [
+        {
+          "node": "node_gelu_32",
+          "role": "gelu_input",
+          "op_type": "ExactGelu"
+        }
+      ]
+    },
+    {
+      "name": "linear_66",
+      "elem_type": 10,
+      "dtype": "FLOAT16",
+      "shape": [
+        1,
+        4,
+        8,
+        8192
+      ],
+      "bytes": 524288,
+      "roles": [
+        {
+          "node": "node_gelu_33",
+          "role": "gelu_input",
+          "op_type": "ExactGelu"
+        }
+      ]
+    },
+    {
+      "name": "linear_68",
+      "elem_type": 10,
+      "dtype": "FLOAT16",
+      "shape": [
+        1,
+        4,
+        8,
+        8192
+      ],
+      "bytes": 524288,
+      "roles": [
+        {
+          "node": "node_gelu_34",
+          "role": "gelu_input",
+          "op_type": "ExactGelu"
+        }
+      ]
+    },
+    {
+      "name": "linear_70",
+      "elem_type": 10,
+      "dtype": "FLOAT16",
+      "shape": [
+        1,
+        4,
+        8,
+        8192
+      ],
+      "bytes": 524288,
+      "roles": [
+        {
+          "node": "node_gelu_35",
+          "role": "gelu_input",
+          "op_type": "ExactGelu"
+        }
+      ]
+    },
+    {
+      "name": "linear_72",
+      "elem_type": 10,
+      "dtype": "FLOAT16",
+      "shape": [
+        1,
+        1024
+      ],
+      "bytes": 2048,
+      "roles": [
+        {
+          "node": "node_gelu_36",
+          "role": "gelu_input",
+          "op_type": "ExactGeluTanh"
+        }
+      ]
+    },
+    {
+      "name": "linear_74",
+      "elem_type": 10,
+      "dtype": "FLOAT16",
+      "shape": [
+        1,
+        1024
+      ],
+      "bytes": 2048,
+      "roles": [
+        {
+          "node": "node_gelu_37",
+          "role": "gelu_input",
+          "op_type": "ExactGeluTanh"
+        }
+      ]
+    },
+    {
+      "name": "linear_76",
+      "elem_type": 10,
+      "dtype": "FLOAT16",
+      "shape": [
+        1,
+        528
+      ],
+      "bytes": 1056,
+      "roles": [
+        {
+          "role": "cached_context_intermediate"
+        }
+      ]
+    },
+    {
+      "name": "linear_77",
+      "elem_type": 10,
+      "dtype": "FLOAT16",
+      "shape": [
+        1,
+        8
+      ],
+      "bytes": 16,
+      "roles": [
+        {
+          "role": "cached_context_intermediate"
+        }
+      ]
+    },
+    {
+      "name": "linear_78",
+      "elem_type": 10,
+      "dtype": "FLOAT16",
+      "shape": [
+        1,
+        264
+      ],
+      "bytes": 528,
+      "roles": [
+        {
+          "role": "cached_context_intermediate"
+        }
+      ]
+    },
+    {
+      "name": "linear_79",
+      "elem_type": 10,
+      "dtype": "FLOAT16",
+      "shape": [
+        1,
+        55
+      ],
+      "bytes": 110,
+      "roles": [
+        {
+          "role": "cached_context_intermediate"
+        }
+      ]
+    },
+    {
+      "name": "linear_8",
+      "elem_type": 10,
+      "dtype": "FLOAT16",
+      "shape": [
+        1,
+        16,
+        32,
+        2048
+      ],
+      "bytes": 2097152,
+      "roles": [
+        {
+          "node": "node_gelu_4",
+          "role": "gelu_input",
+          "op_type": "ExactGelu"
+        }
+      ]
+    },
+    {
+      "name": "linear_80",
+      "elem_type": 10,
+      "dtype": "FLOAT16",
+      "shape": [
+        1,
+        32
+      ],
+      "bytes": 64,
+      "roles": [
+        {
+          "role": "cached_context_intermediate"
+        }
+      ]
+    },
+    {
+      "name": "linear_81",
+      "elem_type": 10,
+      "dtype": "FLOAT16",
+      "shape": [
+        1,
+        12
+      ],
+      "bytes": 24,
+      "roles": [
+        {
+          "role": "cached_context_intermediate"
+        }
+      ]
+    },
+    {
+      "name": "linear_82",
+      "elem_type": 10,
+      "dtype": "FLOAT16",
+      "shape": [
+        1,
+        6
+      ],
+      "bytes": 12,
+      "roles": [
+        {
+          "role": "cached_context_intermediate"
+        }
+      ]
+    },
+    {
+      "name": "linear_83",
+      "elem_type": 10,
+      "dtype": "FLOAT16",
+      "shape": [
+        1,
+        1024
+      ],
+      "bytes": 2048,
+      "roles": [
+        {
+          "node": "node_gelu_38",
+          "role": "gelu_input",
+          "op_type": "ExactGeluTanh"
+        }
+      ]
+    },
+    {
+      "name": "linear_86",
+      "elem_type": 10,
+      "dtype": "FLOAT16",
+      "shape": [
+        1,
+        9,
+        32,
+        1024
+      ],
+      "bytes": 589824,
+      "roles": [
+        {
+          "node": "node_gelu_39",
+          "role": "gelu_input",
+          "op_type": "ExactGeluTanh"
+        }
+      ]
+    },
+    {
+      "name": "linear_88",
+      "elem_type": 10,
+      "dtype": "FLOAT16",
+      "shape": [
+        1,
+        9,
+        32,
+        1024
+      ],
+      "bytes": 589824,
+      "roles": [
+        {
+          "node": "node_gelu_40",
+          "role": "gelu_input",
+          "op_type": "ExactGeluTanh"
+        }
+      ]
+    },
+    {
+      "name": "linear_98",
+      "elem_type": 10,
+      "dtype": "FLOAT16",
+      "shape": [
+        1,
+        288,
+        1024
+      ],
+      "bytes": 589824,
+      "roles": [
+        {
+          "node": "node_gelu_41",
+          "role": "gelu_input",
+          "op_type": "ExactGeluTanh"
+        }
+      ]
+    },
+    {
+      "name": "mean",
+      "elem_type": 10,
+      "dtype": "FLOAT16",
+      "shape": [
+        1,
+        512
+      ],
+      "bytes": 1024,
+      "roles": [
+        {
+          "role": "cached_context_intermediate"
+        }
+      ]
+    },
+    {
+      "name": "mul_36",
+      "elem_type": 10,
+      "dtype": "FLOAT16",
+      "shape": [
+        1,
+        12
+      ],
+      "bytes": 24,
+      "roles": [
+        {
+          "role": "cached_context_intermediate"
+        }
+      ]
+    },
+    {
+      "name": "mul_41",
+      "elem_type": 10,
+      "dtype": "FLOAT16",
+      "shape": [
+        1,
+        990
+      ],
+      "bytes": 1980,
+      "roles": [
+        {
+          "role": "cached_context_intermediate"
+        }
+      ]
+    },
+    {
+      "name": "mul_42",
+      "elem_type": 10,
+      "dtype": "FLOAT16",
+      "shape": [
+        1,
+        144
+      ],
+      "bytes": 288,
+      "roles": [
+        {
+          "role": "cached_context_intermediate"
+        }
+      ]
+    },
+    {
+      "name": "node__to_copy_1",
+      "elem_type": 10,
+      "dtype": "FLOAT16",
+      "shape": [
+        32,
+        1,
+        32,
+        512
+      ],
+      "bytes": 1048576,
+      "roles": [
+        {
+          "role": "cached_context_intermediate"
+        }
+      ]
+    },
+    {
+      "name": "node_add",
+      "elem_type": 10,
+      "dtype": "FLOAT16",
+      "shape": [
+        1,
+        32,
+        64,
+        256
+      ],
+      "bytes": 1048576,
+      "roles": [
+        {
+          "role": "cached_context_intermediate"
+        }
+      ]
+    },
+    {
+      "name": "node_add_1",
+      "elem_type": 10,
+      "dtype": "FLOAT16",
+      "shape": [
+        1,
+        32,
+        64,
+        256
+      ],
+      "bytes": 1048576,
+      "roles": [
+        {
+          "role": "cached_context_intermediate"
+        }
+      ]
+    },
+    {
+      "name": "node_add_10",
+      "elem_type": 10,
+      "dtype": "FLOAT16",
+      "shape": [
+        1,
+        8,
+        16,
+        1024
+      ],
+      "bytes": 262144,
+      "roles": [
+        {
+          "role": "cached_context_intermediate"
+        }
+      ]
+    },
+    {
+      "name": "node_add_11",
+      "elem_type": 10,
+      "dtype": "FLOAT16",
+      "shape": [
+        1,
+        8,
+        16,
+        1024
+      ],
+      "bytes": 262144,
+      "roles": [
+        {
+          "role": "cached_context_intermediate"
+        }
+      ]
+    },
+    {
+      "name": "node_add_12",
+      "elem_type": 10,
+      "dtype": "FLOAT16",
+      "shape": [
+        1,
+        8,
+        16,
+        1024
+      ],
+      "bytes": 262144,
+      "roles": [
+        {
+          "role": "cached_context_intermediate"
+        }
+      ]
+    },
+    {
+      "name": "node_add_13",
+      "elem_type": 10,
+      "dtype": "FLOAT16",
+      "shape": [
+        1,
+        8,
+        16,
+        1024
+      ],
+      "bytes": 262144,
+      "roles": [
+        {
+          "role": "cached_context_intermediate"
+        }
+      ]
+    },
+    {
+      "name": "node_add_14",
+      "elem_type": 10,
+      "dtype": "FLOAT16",
+      "shape": [
+        1,
+        8,
+        16,
+        1024
+      ],
+      "bytes": 262144,
+      "roles": [
+        {
+          "role": "cached_context_intermediate"
+        }
+      ]
+    },
+    {
+      "name": "node_add_15",
+      "elem_type": 10,
+      "dtype": "FLOAT16",
+      "shape": [
+        1,
+        8,
+        16,
+        1024
+      ],
+      "bytes": 262144,
+      "roles": [
+        {
+          "role": "cached_context_intermediate"
+        }
+      ]
+    },
+    {
+      "name": "node_add_16",
+      "elem_type": 10,
+      "dtype": "FLOAT16",
+      "shape": [
+        1,
+        8,
+        16,
+        1024
+      ],
+      "bytes": 262144,
+      "roles": [
+        {
+          "role": "cached_context_intermediate"
+        }
+      ]
+    },
+    {
+      "name": "node_add_17",
+      "elem_type": 10,
+      "dtype": "FLOAT16",
+      "shape": [
+        1,
+        8,
+        16,
+        1024
+      ],
+      "bytes": 262144,
+      "roles": [
+        {
+          "role": "cached_context_intermediate"
+        }
+      ]
+    },
+    {
+      "name": "node_add_18",
+      "elem_type": 10,
+      "dtype": "FLOAT16",
+      "shape": [
+        1,
+        8,
+        16,
+        1024
+      ],
+      "bytes": 262144,
+      "roles": [
+        {
+          "role": "cached_context_intermediate"
+        }
+      ]
+    },
+    {
+      "name": "node_add_19",
+      "elem_type": 10,
+      "dtype": "FLOAT16",
+      "shape": [
+        1,
+        8,
+        16,
+        1024
+      ],
+      "bytes": 262144,
+      "roles": [
+        {
+          "role": "cached_context_intermediate"
+        }
+      ]
+    },
+    {
+      "name": "node_add_20",
+      "elem_type": 10,
+      "dtype": "FLOAT16",
+      "shape": [
+        1,
+        8,
+        16,
+        1024
+      ],
+      "bytes": 262144,
+      "roles": [
+        {
+          "role": "cached_context_intermediate"
+        }
+      ]
+    },
+    {
+      "name": "node_add_21",
+      "elem_type": 10,
+      "dtype": "FLOAT16",
+      "shape": [
+        1,
+        8,
+        16,
+        1024
+      ],
+      "bytes": 262144,
+      "roles": [
+        {
+          "role": "cached_context_intermediate"
+        }
+      ]
+    },
+    {
+      "name": "node_add_22",
+      "elem_type": 10,
+      "dtype": "FLOAT16",
+      "shape": [
+        1,
+        8,
+        16,
+        1024
+      ],
+      "bytes": 262144,
+      "roles": [
+        {
+          "role": "cached_context_intermediate"
+        }
+      ]
+    },
+    {
+      "name": "node_add_23",
+      "elem_type": 10,
+      "dtype": "FLOAT16",
+      "shape": [
+        1,
+        8,
+        16,
+        1024
+      ],
+      "bytes": 262144,
+      "roles": [
+        {
+          "role": "cached_context_intermediate"
+        }
+      ]
+    },
+    {
+      "name": "node_add_24",
+      "elem_type": 10,
+      "dtype": "FLOAT16",
+      "shape": [
+        1,
+        8,
+        16,
+        1024
+      ],
+      "bytes": 262144,
+      "roles": [
+        {
+          "role": "cached_context_intermediate"
+        }
+      ]
+    },
+    {
+      "name": "node_add_25",
+      "elem_type": 10,
+      "dtype": "FLOAT16",
+      "shape": [
+        1,
+        8,
+        16,
+        1024
+      ],
+      "bytes": 262144,
+      "roles": [
+        {
+          "role": "cached_context_intermediate"
+        }
+      ]
+    },
+    {
+      "name": "node_add_26",
+      "elem_type": 10,
+      "dtype": "FLOAT16",
+      "shape": [
+        1,
+        8,
+        16,
+        1024
+      ],
+      "bytes": 262144,
+      "roles": [
+        {
+          "role": "cached_context_intermediate"
+        }
+      ]
+    },
+    {
+      "name": "node_add_27",
+      "elem_type": 10,
+      "dtype": "FLOAT16",
+      "shape": [
+        1,
+        8,
+        16,
+        1024
+      ],
+      "bytes": 262144,
+      "roles": [
+        {
+          "role": "cached_context_intermediate"
+        }
+      ]
+    },
+    {
+      "name": "node_add_28",
+      "elem_type": 10,
+      "dtype": "FLOAT16",
+      "shape": [
+        1,
+        8,
+        16,
+        1024
+      ],
+      "bytes": 262144,
+      "roles": [
+        {
+          "role": "cached_context_intermediate"
+        }
+      ]
+    },
+    {
+      "name": "node_add_29",
+      "elem_type": 10,
+      "dtype": "FLOAT16",
+      "shape": [
+        1,
+        8,
+        16,
+        1024
+      ],
+      "bytes": 262144,
+      "roles": [
+        {
+          "role": "cached_context_intermediate"
+        }
+      ]
+    },
+    {
+      "name": "node_add_3",
+      "elem_type": 10,
+      "dtype": "FLOAT16",
+      "shape": [
+        1,
+        16,
+        32,
+        512
+      ],
+      "bytes": 524288,
+      "roles": [
+        {
+          "role": "cached_context_intermediate"
+        }
+      ]
+    },
+    {
+      "name": "node_add_30",
+      "elem_type": 10,
+      "dtype": "FLOAT16",
+      "shape": [
+        1,
+        8,
+        16,
+        1024
+      ],
+      "bytes": 262144,
+      "roles": [
+        {
+          "role": "cached_context_intermediate"
+        }
+      ]
+    },
+    {
+      "name": "node_add_31",
+      "elem_type": 10,
+      "dtype": "FLOAT16",
+      "shape": [
+        1,
+        8,
+        16,
+        1024
+      ],
+      "bytes": 262144,
+      "roles": [
+        {
+          "role": "cached_context_intermediate"
+        }
+      ]
+    },
+    {
+      "name": "node_add_33",
+      "elem_type": 10,
+      "dtype": "FLOAT16",
+      "shape": [
+        1,
+        4,
+        8,
+        2048
+      ],
+      "bytes": 131072,
+      "roles": [
+        {
+          "role": "cached_context_intermediate"
+        }
+      ]
+    },
+    {
+      "name": "node_add_34",
+      "elem_type": 10,
+      "dtype": "FLOAT16",
+      "shape": [
+        1,
+        4,
+        8,
+        2048
+      ],
+      "bytes": 131072,
+      "roles": [
+        {
+          "role": "cached_context_intermediate"
+        }
+      ]
+    },
+    {
+      "name": "node_add_4",
+      "elem_type": 10,
+      "dtype": "FLOAT16",
+      "shape": [
+        1,
+        16,
+        32,
+        512
+      ],
+      "bytes": 524288,
+      "roles": [
+        {
+          "role": "cached_context_intermediate"
+        }
+      ]
+    },
+    {
+      "name": "node_add_6",
+      "elem_type": 10,
+      "dtype": "FLOAT16",
+      "shape": [
+        1,
+        8,
+        16,
+        1024
+      ],
+      "bytes": 262144,
+      "roles": [
+        {
+          "role": "cached_context_intermediate"
+        }
+      ]
+    },
+    {
+      "name": "node_add_7",
+      "elem_type": 10,
+      "dtype": "FLOAT16",
+      "shape": [
+        1,
+        8,
+        16,
+        1024
+      ],
+      "bytes": 262144,
+      "roles": [
+        {
+          "role": "cached_context_intermediate"
+        }
+      ]
+    },
+    {
+      "name": "node_add_8",
+      "elem_type": 10,
+      "dtype": "FLOAT16",
+      "shape": [
+        1,
+        8,
+        16,
+        1024
+      ],
+      "bytes": 262144,
+      "roles": [
+        {
+          "role": "cached_context_intermediate"
+        }
+      ]
+    },
+    {
+      "name": "node_add_9",
+      "elem_type": 10,
+      "dtype": "FLOAT16",
+      "shape": [
+        1,
+        8,
+        16,
+        1024
+      ],
+      "bytes": 262144,
+      "roles": [
+        {
+          "role": "cached_context_intermediate"
+        }
+      ]
+    },
+    {
+      "name": "node_conv2d_36",
+      "elem_type": 10,
+      "dtype": "FLOAT16",
+      "shape": [
+        1,
+        4,
+        8,
+        2048
+      ],
+      "bytes": 131072,
+      "roles": [
+        {
+          "role": "cached_context_intermediate"
+        }
+      ]
+    },
+    {
+      "name": "node_conv2d_4",
+      "elem_type": 10,
+      "dtype": "FLOAT16",
+      "shape": [
+        1,
+        16,
+        32,
+        512
+      ],
+      "bytes": 524288,
+      "roles": [
+        {
+          "role": "cached_context_intermediate"
+        }
+      ]
+    },
+    {
+      "name": "node_conv2d_8",
+      "elem_type": 10,
+      "dtype": "FLOAT16",
+      "shape": [
+        1,
+        8,
+        16,
+        1024
+      ],
+      "bytes": 262144,
+      "roles": [
+        {
+          "role": "cached_context_intermediate"
+        }
+      ]
+    },
+    {
+      "name": "repeat_interleave",
+      "elem_type": 10,
+      "dtype": "FLOAT16",
+      "shape": [
+        1,
+        288,
+        512
+      ],
+      "bytes": 294912,
+      "roles": [
+        {
+          "role": "cached_context_intermediate"
+        }
+      ]
+    },
+    {
+      "name": "repeat_interleave_1",
+      "elem_type": 10,
+      "dtype": "FLOAT16",
+      "shape": [
+        1,
+        288,
+        512
+      ],
+      "bytes": 294912,
+      "roles": [
+        {
+          "role": "cached_context_intermediate"
+        }
+      ]
+    },
+    {
+      "name": "repeat_interleave_2",
+      "elem_type": 10,
+      "dtype": "FLOAT16",
+      "shape": [
+        1,
+        288,
+        512
+      ],
+      "bytes": 294912,
+      "roles": [
+        {
+          "role": "cached_context_intermediate"
+        }
+      ]
+    },
+    {
+      "name": "select_10",
+      "elem_type": 10,
+      "dtype": "FLOAT16",
+      "shape": [
+        1,
+        512
+      ],
+      "bytes": 1024,
+      "roles": [
+        {
+          "role": "cached_context_intermediate"
+        }
+      ]
+    },
+    {
+      "name": "select_4",
+      "elem_type": 10,
+      "dtype": "FLOAT16",
+      "shape": [
+        1,
+        512
+      ],
+      "bytes": 1024,
+      "roles": [
+        {
+          "role": "cached_context_intermediate"
+        }
+      ]
+    },
+    {
+      "name": "select_7",
+      "elem_type": 10,
+      "dtype": "FLOAT16",
+      "shape": [
+        1,
+        512
+      ],
+      "bytes": 1024,
+      "roles": [
+        {
+          "role": "cached_context_intermediate"
+        }
+      ]
+    },
+    {
+      "name": "slice_10",
+      "elem_type": 1,
+      "dtype": "FLOAT",
+      "shape": [
+        127,
+        1,
+        16384
+      ],
+      "bytes": 8323072,
+      "roles": [
+        {
+          "role": "cached_context_intermediate"
+        }
+      ]
+    },
+    {
+      "name": "slice_6",
+      "elem_type": 10,
+      "dtype": "FLOAT16",
+      "shape": [
+        1,
+        2
+      ],
+      "bytes": 4,
+      "roles": [
+        {
+          "role": "cached_context_intermediate"
+        }
+      ]
+    },
+    {
+      "name": "slice_8",
+      "elem_type": 10,
+      "dtype": "FLOAT16",
+      "shape": [
+        1,
+        2
+      ],
+      "bytes": 4,
+      "roles": [
+        {
+          "role": "cached_context_intermediate"
+        }
+      ]
+    },
+    {
+      "name": "view_42",
+      "elem_type": 10,
+      "dtype": "FLOAT16",
+      "shape": [
+        1,
+        1,
+        512
+      ],
+      "bytes": 1024,
+      "roles": [
+        {
+          "role": "cached_context_intermediate"
+        }
+      ]
+    },
+    {
+      "name": "view_43",
+      "elem_type": 10,
+      "dtype": "FLOAT16",
+      "shape": [
+        1,
+        1,
+        512
+      ],
+      "bytes": 1024,
+      "roles": [
+        {
+          "role": "cached_context_intermediate"
+        }
+      ]
+    },
+    {
+      "name": "view_52",
+      "elem_type": 10,
+      "dtype": "FLOAT16",
+      "shape": [
+        1,
+        1,
+        512
+      ],
+      "bytes": 1024,
+      "roles": [
+        {
+          "role": "cached_context_intermediate"
+        }
+      ]
+    },
+    {
+      "name": "view_53",
+      "elem_type": 10,
+      "dtype": "FLOAT16",
+      "shape": [
+        1,
+        1,
+        512
+      ],
+      "bytes": 1024,
+      "roles": [
+        {
+          "role": "cached_context_intermediate"
+        }
+      ]
+    },
+    {
+      "name": "view_62",
+      "elem_type": 10,
+      "dtype": "FLOAT16",
+      "shape": [
+        1,
+        1,
+        512
+      ],
+      "bytes": 1024,
+      "roles": [
+        {
+          "role": "cached_context_intermediate"
+        }
+      ]
+    },
+    {
+      "name": "view_63",
+      "elem_type": 10,
+      "dtype": "FLOAT16",
+      "shape": [
+        1,
+        1,
+        512
+      ],
+      "bytes": 1024,
+      "roles": [
+        {
+          "role": "cached_context_intermediate"
+        }
+      ]
+    },
+    {
+      "name": "view_70",
+      "elem_type": 10,
+      "dtype": "FLOAT16",
+      "shape": [
+        1,
+        16384
+      ],
+      "bytes": 32768,
+      "roles": [
+        {
+          "role": "cached_context_intermediate"
+        }
+      ]
+    }
+  ],
+  "boundary_total_bytes": 146002980,
+  "boundary_total_mib": 139.2392921447754,
+  "cache_locations_preserved": [
+    "light-speed-gelu-both-ctx_qnn.bin"
+  ],
+  "deployment": "Put the wrapper directly in /data/local/tmp beside the existing QNN cache binary, preserving the relative basename above. The phone rejected hard links and absolute ep_cache_context paths; do not create any links.",
+  "original_nodes_byte_identical": true,
+  "original_inputs_byte_identical": true,
+  "original_outputs_preserved_in_order": true,
+  "onnx_checker": "passed",
+  "formula_or_weight_changes": "none",
+  "scope": "Metadata preparation only; zero-copy placement and performance require device verification."
+}

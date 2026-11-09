@@ -1,0 +1,1417 @@
+{
+  "status": "accurate_cached_vision_prefix_static_checker_passed_pending_mixed_runtime_parity",
+  "model": {
+    "path": "C:\\Users\\sunbo\\Documents\\openpilot\\outputs\\jetlink-gelu-optimization-20261101\\partition-tuning-20261109\\mixed-vision-context.onnx",
+    "bytes": 30105,
+    "sha256": "a0374d0583444b9701b6ae135c9dc728fe95a4ac5701527e5795f2b8351d9df3"
+  },
+  "source": {
+    "path": "C:\\Users\\sunbo\\Documents\\openpilot\\outputs\\jetlink-gelu-optimization-20261101\\partition-tuning-20261109\\whole-context-last-query-shared-all.onnx",
+    "bytes": 42129,
+    "sha256": "f21364f095747af0283bafd41aa932a7225f685534e61e8356f77d122eff85a0"
+  },
+  "source_node_range_inclusive": [
+    0,
+    72
+  ],
+  "original_node_count": 108,
+  "candidate_node_count": 73,
+  "op_counts": {
+    "EPContext": 37,
+    "ExactGelu": 36
+  },
+  "cached_ep_and_custom_nodes_byte_identical": true,
+  "cached_ep_binary_files_unchanged": [
+    "light-speed-gelu-both-ctx_qnn.bin"
+  ],
+  "inputs": [
+    {
+      "name": "new_img",
+      "dtype": "FLOAT16",
+      "shape": [
+        2,
+        6,
+        128,
+        256
+      ]
+    },
+    {
+      "name": "desire",
+      "dtype": "FLOAT",
+      "shape": [
+        8
+      ]
+    },
+    {
+      "name": "traffic_convention",
+      "dtype": "FLOAT",
+      "shape": [
+        1,
+        2
+      ]
+    },
+    {
+      "name": "action_t",
+      "dtype": "FLOAT",
+      "shape": [
+        1,
+        2
+      ]
+    },
+    {
+      "name": "state_img_q",
+      "dtype": "FLOAT16",
+      "shape": [
+        2,
+        5,
+        6,
+        128,
+        256
+      ]
+    },
+    {
+      "name": "state_desire_q",
+      "dtype": "FLOAT",
+      "shape": [
+        132,
+        1,
+        8
+      ]
+    },
+    {
+      "name": "state_feat_q",
+      "dtype": "FLOAT",
+      "shape": [
+        128,
+        1,
+        16384
+      ]
+    }
+  ],
+  "required_outputs": [
+    {
+      "name": "view_70",
+      "dtype": "FLOAT16",
+      "shape": [
+        1,
+        16384
+      ]
+    },
+    {
+      "name": "next_state_img_q",
+      "dtype": "FLOAT16",
+      "shape": [
+        2,
+        5,
+        6,
+        128,
+        256
+      ]
+    },
+    {
+      "name": "next_state_desire_q",
+      "dtype": "FLOAT",
+      "shape": [
+        132,
+        1,
+        8
+      ]
+    }
+  ],
+  "original_output_count": 215,
+  "output_count": 128,
+  "outputs": [
+    {
+      "name": "next_state_img_q",
+      "dtype": "FLOAT16",
+      "shape": [
+        2,
+        5,
+        6,
+        128,
+        256
+      ]
+    },
+    {
+      "name": "next_state_desire_q",
+      "dtype": "FLOAT",
+      "shape": [
+        132,
+        1,
+        8
+      ]
+    },
+    {
+      "name": "gelu",
+      "dtype": "FLOAT16",
+      "shape": [
+        1,
+        32,
+        64,
+        1024
+      ]
+    },
+    {
+      "name": "gelu_1",
+      "dtype": "FLOAT16",
+      "shape": [
+        1,
+        32,
+        64,
+        1024
+      ]
+    },
+    {
+      "name": "gelu_10",
+      "dtype": "FLOAT16",
+      "shape": [
+        1,
+        8,
+        16,
+        4096
+      ]
+    },
+    {
+      "name": "gelu_11",
+      "dtype": "FLOAT16",
+      "shape": [
+        1,
+        8,
+        16,
+        4096
+      ]
+    },
+    {
+      "name": "gelu_12",
+      "dtype": "FLOAT16",
+      "shape": [
+        1,
+        8,
+        16,
+        4096
+      ]
+    },
+    {
+      "name": "gelu_13",
+      "dtype": "FLOAT16",
+      "shape": [
+        1,
+        8,
+        16,
+        4096
+      ]
+    },
+    {
+      "name": "gelu_14",
+      "dtype": "FLOAT16",
+      "shape": [
+        1,
+        8,
+        16,
+        4096
+      ]
+    },
+    {
+      "name": "gelu_15",
+      "dtype": "FLOAT16",
+      "shape": [
+        1,
+        8,
+        16,
+        4096
+      ]
+    },
+    {
+      "name": "gelu_16",
+      "dtype": "FLOAT16",
+      "shape": [
+        1,
+        8,
+        16,
+        4096
+      ]
+    },
+    {
+      "name": "gelu_17",
+      "dtype": "FLOAT16",
+      "shape": [
+        1,
+        8,
+        16,
+        4096
+      ]
+    },
+    {
+      "name": "gelu_18",
+      "dtype": "FLOAT16",
+      "shape": [
+        1,
+        8,
+        16,
+        4096
+      ]
+    },
+    {
+      "name": "gelu_19",
+      "dtype": "FLOAT16",
+      "shape": [
+        1,
+        8,
+        16,
+        4096
+      ]
+    },
+    {
+      "name": "gelu_2",
+      "dtype": "FLOAT16",
+      "shape": [
+        1,
+        32,
+        64,
+        1024
+      ]
+    },
+    {
+      "name": "gelu_20",
+      "dtype": "FLOAT16",
+      "shape": [
+        1,
+        8,
+        16,
+        4096
+      ]
+    },
+    {
+      "name": "gelu_21",
+      "dtype": "FLOAT16",
+      "shape": [
+        1,
+        8,
+        16,
+        4096
+      ]
+    },
+    {
+      "name": "gelu_22",
+      "dtype": "FLOAT16",
+      "shape": [
+        1,
+        8,
+        16,
+        4096
+      ]
+    },
+    {
+      "name": "gelu_23",
+      "dtype": "FLOAT16",
+      "shape": [
+        1,
+        8,
+        16,
+        4096
+      ]
+    },
+    {
+      "name": "gelu_24",
+      "dtype": "FLOAT16",
+      "shape": [
+        1,
+        8,
+        16,
+        4096
+      ]
+    },
+    {
+      "name": "gelu_25",
+      "dtype": "FLOAT16",
+      "shape": [
+        1,
+        8,
+        16,
+        4096
+      ]
+    },
+    {
+      "name": "gelu_26",
+      "dtype": "FLOAT16",
+      "shape": [
+        1,
+        8,
+        16,
+        4096
+      ]
+    },
+    {
+      "name": "gelu_27",
+      "dtype": "FLOAT16",
+      "shape": [
+        1,
+        8,
+        16,
+        4096
+      ]
+    },
+    {
+      "name": "gelu_28",
+      "dtype": "FLOAT16",
+      "shape": [
+        1,
+        8,
+        16,
+        4096
+      ]
+    },
+    {
+      "name": "gelu_29",
+      "dtype": "FLOAT16",
+      "shape": [
+        1,
+        8,
+        16,
+        4096
+      ]
+    },
+    {
+      "name": "gelu_3",
+      "dtype": "FLOAT16",
+      "shape": [
+        1,
+        16,
+        32,
+        2048
+      ]
+    },
+    {
+      "name": "gelu_30",
+      "dtype": "FLOAT16",
+      "shape": [
+        1,
+        8,
+        16,
+        4096
+      ]
+    },
+    {
+      "name": "gelu_31",
+      "dtype": "FLOAT16",
+      "shape": [
+        1,
+        8,
+        16,
+        4096
+      ]
+    },
+    {
+      "name": "gelu_32",
+      "dtype": "FLOAT16",
+      "shape": [
+        1,
+        8,
+        16,
+        4096
+      ]
+    },
+    {
+      "name": "gelu_33",
+      "dtype": "FLOAT16",
+      "shape": [
+        1,
+        4,
+        8,
+        8192
+      ]
+    },
+    {
+      "name": "gelu_34",
+      "dtype": "FLOAT16",
+      "shape": [
+        1,
+        4,
+        8,
+        8192
+      ]
+    },
+    {
+      "name": "gelu_35",
+      "dtype": "FLOAT16",
+      "shape": [
+        1,
+        4,
+        8,
+        8192
+      ]
+    },
+    {
+      "name": "gelu_4",
+      "dtype": "FLOAT16",
+      "shape": [
+        1,
+        16,
+        32,
+        2048
+      ]
+    },
+    {
+      "name": "gelu_5",
+      "dtype": "FLOAT16",
+      "shape": [
+        1,
+        16,
+        32,
+        2048
+      ]
+    },
+    {
+      "name": "gelu_6",
+      "dtype": "FLOAT16",
+      "shape": [
+        1,
+        8,
+        16,
+        4096
+      ]
+    },
+    {
+      "name": "gelu_7",
+      "dtype": "FLOAT16",
+      "shape": [
+        1,
+        8,
+        16,
+        4096
+      ]
+    },
+    {
+      "name": "gelu_8",
+      "dtype": "FLOAT16",
+      "shape": [
+        1,
+        8,
+        16,
+        4096
+      ]
+    },
+    {
+      "name": "gelu_9",
+      "dtype": "FLOAT16",
+      "shape": [
+        1,
+        8,
+        16,
+        4096
+      ]
+    },
+    {
+      "name": "index",
+      "dtype": "FLOAT16",
+      "shape": [
+        1,
+        9,
+        32,
+        512
+      ]
+    },
+    {
+      "name": "layer_norm",
+      "dtype": "FLOAT16",
+      "shape": [
+        1,
+        32,
+        64,
+        256
+      ]
+    },
+    {
+      "name": "linear",
+      "dtype": "FLOAT16",
+      "shape": [
+        1,
+        32,
+        64,
+        1024
+      ]
+    },
+    {
+      "name": "linear_10",
+      "dtype": "FLOAT16",
+      "shape": [
+        1,
+        16,
+        32,
+        2048
+      ]
+    },
+    {
+      "name": "linear_12",
+      "dtype": "FLOAT16",
+      "shape": [
+        1,
+        8,
+        16,
+        4096
+      ]
+    },
+    {
+      "name": "linear_127",
+      "dtype": "FLOAT16",
+      "shape": [
+        1,
+        9,
+        32,
+        1024
+      ]
+    },
+    {
+      "name": "linear_14",
+      "dtype": "FLOAT16",
+      "shape": [
+        1,
+        8,
+        16,
+        4096
+      ]
+    },
+    {
+      "name": "linear_156",
+      "dtype": "FLOAT16",
+      "shape": [
+        1,
+        9,
+        32,
+        1024
+      ]
+    },
+    {
+      "name": "linear_16",
+      "dtype": "FLOAT16",
+      "shape": [
+        1,
+        8,
+        16,
+        4096
+      ]
+    },
+    {
+      "name": "linear_18",
+      "dtype": "FLOAT16",
+      "shape": [
+        1,
+        8,
+        16,
+        4096
+      ]
+    },
+    {
+      "name": "linear_2",
+      "dtype": "FLOAT16",
+      "shape": [
+        1,
+        32,
+        64,
+        1024
+      ]
+    },
+    {
+      "name": "linear_20",
+      "dtype": "FLOAT16",
+      "shape": [
+        1,
+        8,
+        16,
+        4096
+      ]
+    },
+    {
+      "name": "linear_22",
+      "dtype": "FLOAT16",
+      "shape": [
+        1,
+        8,
+        16,
+        4096
+      ]
+    },
+    {
+      "name": "linear_24",
+      "dtype": "FLOAT16",
+      "shape": [
+        1,
+        8,
+        16,
+        4096
+      ]
+    },
+    {
+      "name": "linear_26",
+      "dtype": "FLOAT16",
+      "shape": [
+        1,
+        8,
+        16,
+        4096
+      ]
+    },
+    {
+      "name": "linear_28",
+      "dtype": "FLOAT16",
+      "shape": [
+        1,
+        8,
+        16,
+        4096
+      ]
+    },
+    {
+      "name": "linear_30",
+      "dtype": "FLOAT16",
+      "shape": [
+        1,
+        8,
+        16,
+        4096
+      ]
+    },
+    {
+      "name": "linear_32",
+      "dtype": "FLOAT16",
+      "shape": [
+        1,
+        8,
+        16,
+        4096
+      ]
+    },
+    {
+      "name": "linear_34",
+      "dtype": "FLOAT16",
+      "shape": [
+        1,
+        8,
+        16,
+        4096
+      ]
+    },
+    {
+      "name": "linear_36",
+      "dtype": "FLOAT16",
+      "shape": [
+        1,
+        8,
+        16,
+        4096
+      ]
+    },
+    {
+      "name": "linear_38",
+      "dtype": "FLOAT16",
+      "shape": [
+        1,
+        8,
+        16,
+        4096
+      ]
+    },
+    {
+      "name": "linear_4",
+      "dtype": "FLOAT16",
+      "shape": [
+        1,
+        32,
+        64,
+        1024
+      ]
+    },
+    {
+      "name": "linear_40",
+      "dtype": "FLOAT16",
+      "shape": [
+        1,
+        8,
+        16,
+        4096
+      ]
+    },
+    {
+      "name": "linear_42",
+      "dtype": "FLOAT16",
+      "shape": [
+        1,
+        8,
+        16,
+        4096
+      ]
+    },
+    {
+      "name": "linear_44",
+      "dtype": "FLOAT16",
+      "shape": [
+        1,
+        8,
+        16,
+        4096
+      ]
+    },
+    {
+      "name": "linear_46",
+      "dtype": "FLOAT16",
+      "shape": [
+        1,
+        8,
+        16,
+        4096
+      ]
+    },
+    {
+      "name": "linear_48",
+      "dtype": "FLOAT16",
+      "shape": [
+        1,
+        8,
+        16,
+        4096
+      ]
+    },
+    {
+      "name": "linear_50",
+      "dtype": "FLOAT16",
+      "shape": [
+        1,
+        8,
+        16,
+        4096
+      ]
+    },
+    {
+      "name": "linear_52",
+      "dtype": "FLOAT16",
+      "shape": [
+        1,
+        8,
+        16,
+        4096
+      ]
+    },
+    {
+      "name": "linear_54",
+      "dtype": "FLOAT16",
+      "shape": [
+        1,
+        8,
+        16,
+        4096
+      ]
+    },
+    {
+      "name": "linear_56",
+      "dtype": "FLOAT16",
+      "shape": [
+        1,
+        8,
+        16,
+        4096
+      ]
+    },
+    {
+      "name": "linear_58",
+      "dtype": "FLOAT16",
+      "shape": [
+        1,
+        8,
+        16,
+        4096
+      ]
+    },
+    {
+      "name": "linear_6",
+      "dtype": "FLOAT16",
+      "shape": [
+        1,
+        16,
+        32,
+        2048
+      ]
+    },
+    {
+      "name": "linear_60",
+      "dtype": "FLOAT16",
+      "shape": [
+        1,
+        8,
+        16,
+        4096
+      ]
+    },
+    {
+      "name": "linear_62",
+      "dtype": "FLOAT16",
+      "shape": [
+        1,
+        8,
+        16,
+        4096
+      ]
+    },
+    {
+      "name": "linear_64",
+      "dtype": "FLOAT16",
+      "shape": [
+        1,
+        8,
+        16,
+        4096
+      ]
+    },
+    {
+      "name": "linear_66",
+      "dtype": "FLOAT16",
+      "shape": [
+        1,
+        4,
+        8,
+        8192
+      ]
+    },
+    {
+      "name": "linear_68",
+      "dtype": "FLOAT16",
+      "shape": [
+        1,
+        4,
+        8,
+        8192
+      ]
+    },
+    {
+      "name": "linear_70",
+      "dtype": "FLOAT16",
+      "shape": [
+        1,
+        4,
+        8,
+        8192
+      ]
+    },
+    {
+      "name": "linear_72",
+      "dtype": "FLOAT16",
+      "shape": [
+        1,
+        1024
+      ]
+    },
+    {
+      "name": "linear_8",
+      "dtype": "FLOAT16",
+      "shape": [
+        1,
+        16,
+        32,
+        2048
+      ]
+    },
+    {
+      "name": "linear_86",
+      "dtype": "FLOAT16",
+      "shape": [
+        1,
+        9,
+        32,
+        1024
+      ]
+    },
+    {
+      "name": "mean",
+      "dtype": "FLOAT16",
+      "shape": [
+        1,
+        512
+      ]
+    },
+    {
+      "name": "node__to_copy_1",
+      "dtype": "FLOAT16",
+      "shape": [
+        32,
+        1,
+        32,
+        512
+      ]
+    },
+    {
+      "name": "node_add",
+      "dtype": "FLOAT16",
+      "shape": [
+        1,
+        32,
+        64,
+        256
+      ]
+    },
+    {
+      "name": "node_add_1",
+      "dtype": "FLOAT16",
+      "shape": [
+        1,
+        32,
+        64,
+        256
+      ]
+    },
+    {
+      "name": "node_add_10",
+      "dtype": "FLOAT16",
+      "shape": [
+        1,
+        8,
+        16,
+        1024
+      ]
+    },
+    {
+      "name": "node_add_11",
+      "dtype": "FLOAT16",
+      "shape": [
+        1,
+        8,
+        16,
+        1024
+      ]
+    },
+    {
+      "name": "node_add_12",
+      "dtype": "FLOAT16",
+      "shape": [
+        1,
+        8,
+        16,
+        1024
+      ]
+    },
+    {
+      "name": "node_add_13",
+      "dtype": "FLOAT16",
+      "shape": [
+        1,
+        8,
+        16,
+        1024
+      ]
+    },
+    {
+      "name": "node_add_14",
+      "dtype": "FLOAT16",
+      "shape": [
+        1,
+        8,
+        16,
+        1024
+      ]
+    },
+    {
+      "name": "node_add_15",
+      "dtype": "FLOAT16",
+      "shape": [
+        1,
+        8,
+        16,
+        1024
+      ]
+    },
+    {
+      "name": "node_add_16",
+      "dtype": "FLOAT16",
+      "shape": [
+        1,
+        8,
+        16,
+        1024
+      ]
+    },
+    {
+      "name": "node_add_17",
+      "dtype": "FLOAT16",
+      "shape": [
+        1,
+        8,
+        16,
+        1024
+      ]
+    },
+    {
+      "name": "node_add_18",
+      "dtype": "FLOAT16",
+      "shape": [
+        1,
+        8,
+        16,
+        1024
+      ]
+    },
+    {
+      "name": "node_add_19",
+      "dtype": "FLOAT16",
+      "shape": [
+        1,
+        8,
+        16,
+        1024
+      ]
+    },
+    {
+      "name": "node_add_20",
+      "dtype": "FLOAT16",
+      "shape": [
+        1,
+        8,
+        16,
+        1024
+      ]
+    },
+    {
+      "name": "node_add_21",
+      "dtype": "FLOAT16",
+      "shape": [
+        1,
+        8,
+        16,
+        1024
+      ]
+    },
+    {
+      "name": "node_add_22",
+      "dtype": "FLOAT16",
+      "shape": [
+        1,
+        8,
+        16,
+        1024
+      ]
+    },
+    {
+      "name": "node_add_23",
+      "dtype": "FLOAT16",
+      "shape": [
+        1,
+        8,
+        16,
+        1024
+      ]
+    },
+    {
+      "name": "node_add_24",
+      "dtype": "FLOAT16",
+      "shape": [
+        1,
+        8,
+        16,
+        1024
+      ]
+    },
+    {
+      "name": "node_add_25",
+      "dtype": "FLOAT16",
+      "shape": [
+        1,
+        8,
+        16,
+        1024
+      ]
+    },
+    {
+      "name": "node_add_26",
+      "dtype": "FLOAT16",
+      "shape": [
+        1,
+        8,
+        16,
+        1024
+      ]
+    },
+    {
+      "name": "node_add_27",
+      "dtype": "FLOAT16",
+      "shape": [
+        1,
+        8,
+        16,
+        1024
+      ]
+    },
+    {
+      "name": "node_add_28",
+      "dtype": "FLOAT16",
+      "shape": [
+        1,
+        8,
+        16,
+        1024
+      ]
+    },
+    {
+      "name": "node_add_29",
+      "dtype": "FLOAT16",
+      "shape": [
+        1,
+        8,
+        16,
+        1024
+      ]
+    },
+    {
+      "name": "node_add_3",
+      "dtype": "FLOAT16",
+      "shape": [
+        1,
+        16,
+        32,
+        512
+      ]
+    },
+    {
+      "name": "node_add_30",
+      "dtype": "FLOAT16",
+      "shape": [
+        1,
+        8,
+        16,
+        1024
+      ]
+    },
+    {
+      "name": "node_add_31",
+      "dtype": "FLOAT16",
+      "shape": [
+        1,
+        8,
+        16,
+        1024
+      ]
+    },
+    {
+      "name": "node_add_33",
+      "dtype": "FLOAT16",
+      "shape": [
+        1,
+        4,
+        8,
+        2048
+      ]
+    },
+    {
+      "name": "node_add_34",
+      "dtype": "FLOAT16",
+      "shape": [
+        1,
+        4,
+        8,
+        2048
+      ]
+    },
+    {
+      "name": "node_add_4",
+      "dtype": "FLOAT16",
+      "shape": [
+        1,
+        16,
+        32,
+        512
+      ]
+    },
+    {
+      "name": "node_add_6",
+      "dtype": "FLOAT16",
+      "shape": [
+        1,
+        8,
+        16,
+        1024
+      ]
+    },
+    {
+      "name": "node_add_7",
+      "dtype": "FLOAT16",
+      "shape": [
+        1,
+        8,
+        16,
+        1024
+      ]
+    },
+    {
+      "name": "node_add_8",
+      "dtype": "FLOAT16",
+      "shape": [
+        1,
+        8,
+        16,
+        1024
+      ]
+    },
+    {
+      "name": "node_add_9",
+      "dtype": "FLOAT16",
+      "shape": [
+        1,
+        8,
+        16,
+        1024
+      ]
+    },
+    {
+      "name": "node_conv2d_36",
+      "dtype": "FLOAT16",
+      "shape": [
+        1,
+        4,
+        8,
+        2048
+      ]
+    },
+    {
+      "name": "node_conv2d_4",
+      "dtype": "FLOAT16",
+      "shape": [
+        1,
+        16,
+        32,
+        512
+      ]
+    },
+    {
+      "name": "node_conv2d_8",
+      "dtype": "FLOAT16",
+      "shape": [
+        1,
+        8,
+        16,
+        1024
+      ]
+    },
+    {
+      "name": "repeat_interleave",
+      "dtype": "FLOAT16",
+      "shape": [
+        1,
+        288,
+        512
+      ]
+    },
+    {
+      "name": "repeat_interleave_1",
+      "dtype": "FLOAT16",
+      "shape": [
+        1,
+        288,
+        512
+      ]
+    },
+    {
+      "name": "repeat_interleave_2",
+      "dtype": "FLOAT16",
+      "shape": [
+        1,
+        288,
+        512
+      ]
+    },
+    {
+      "name": "slice_10",
+      "dtype": "FLOAT",
+      "shape": [
+        127,
+        1,
+        16384
+      ]
+    },
+    {
+      "name": "view_42",
+      "dtype": "FLOAT16",
+      "shape": [
+        1,
+        1,
+        512
+      ]
+    },
+    {
+      "name": "view_43",
+      "dtype": "FLOAT16",
+      "shape": [
+        1,
+        1,
+        512
+      ]
+    },
+    {
+      "name": "view_52",
+      "dtype": "FLOAT16",
+      "shape": [
+        1,
+        1,
+        512
+      ]
+    },
+    {
+      "name": "view_53",
+      "dtype": "FLOAT16",
+      "shape": [
+        1,
+        1,
+        512
+      ]
+    },
+    {
+      "name": "view_62",
+      "dtype": "FLOAT16",
+      "shape": [
+        1,
+        1,
+        512
+      ]
+    },
+    {
+      "name": "view_63",
+      "dtype": "FLOAT16",
+      "shape": [
+        1,
+        1,
+        512
+      ]
+    },
+    {
+      "name": "view_70",
+      "dtype": "FLOAT16",
+      "shape": [
+        1,
+        16384
+      ]
+    }
+  ],
+  "all_legal_prefix_outputs_retained_for_shared_prebinding": true,
+  "feature_bridge": {
+    "source": "view_70",
+    "source_dtype": "FLOAT16",
+    "source_shape": [
+      1,
+      16384
+    ],
+    "policy_input": "view_39",
+    "policy_dtype": "FLOAT",
+    "policy_shape": [
+      1,
+      32,
+      512
+    ],
+    "implementation": "runner reshapes and converts; no bridge operators inserted into this graph"
+  },
+  "state_ownership": {
+    "image": "use prefix next_state_img_q",
+    "desire_and_feature": "use GPU policy next states; both sessions read the same pre-frame states",
+    "prefix_next_state_desire_q": "retained as a legal shared output; duplicate update is not fed into policy in the same frame"
+  },
+  "onnx_checker_in_memory_full_check": "passed",
+  "onnx_checker_path_full_check": "passed",
+  "static_topology_check": "passed",
+  "serialization_node_equality_check": "passed",
+  "device_access": "none",
+  "new_weight_or_context_binary_created": false
+}

@@ -1,0 +1,175 @@
+ORT 1.29.0
+VISION_SESSION_CREATE_BEGIN
+VISION_SESSION_CREATE_END seconds=0.767
+vision in new_img type=10 bytes=786432 shape=2,6,128,256
+vision in desire type=1 bytes=32 shape=8
+vision in traffic_convention type=1 bytes=8 shape=1,2
+vision in action_t type=1 bytes=8 shape=1,2
+vision in state_img_q type=10 bytes=3932160 shape=2,5,6,128,256
+vision in state_desire_q type=1 bytes=4224 shape=132,1,8
+vision in state_feat_q type=1 bytes=8388608 shape=128,1,16384
+vision out next_state_img_q type=10 bytes=3932160 shape=2,5,6,128,256
+vision out next_state_desire_q type=1 bytes=4224 shape=132,1,8
+vision out gelu type=10 bytes=4194304 shape=1,32,64,1024
+vision out gelu_1 type=10 bytes=4194304 shape=1,32,64,1024
+vision out gelu_10 type=10 bytes=1048576 shape=1,8,16,4096
+vision out gelu_11 type=10 bytes=1048576 shape=1,8,16,4096
+vision out gelu_12 type=10 bytes=1048576 shape=1,8,16,4096
+vision out gelu_13 type=10 bytes=1048576 shape=1,8,16,4096
+vision out gelu_14 type=10 bytes=1048576 shape=1,8,16,4096
+vision out gelu_15 type=10 bytes=1048576 shape=1,8,16,4096
+vision out gelu_16 type=10 bytes=1048576 shape=1,8,16,4096
+vision out gelu_17 type=10 bytes=1048576 shape=1,8,16,4096
+vision out gelu_18 type=10 bytes=1048576 shape=1,8,16,4096
+vision out gelu_19 type=10 bytes=1048576 shape=1,8,16,4096
+vision out gelu_2 type=10 bytes=4194304 shape=1,32,64,1024
+vision out gelu_20 type=10 bytes=1048576 shape=1,8,16,4096
+vision out gelu_21 type=10 bytes=1048576 shape=1,8,16,4096
+vision out gelu_22 type=10 bytes=1048576 shape=1,8,16,4096
+vision out gelu_23 type=10 bytes=1048576 shape=1,8,16,4096
+vision out gelu_24 type=10 bytes=1048576 shape=1,8,16,4096
+vision out gelu_25 type=10 bytes=1048576 shape=1,8,16,4096
+vision out gelu_26 type=10 bytes=1048576 shape=1,8,16,4096
+vision out gelu_27 type=10 bytes=1048576 shape=1,8,16,4096
+vision out gelu_28 type=10 bytes=1048576 shape=1,8,16,4096
+vision out gelu_29 type=10 bytes=1048576 shape=1,8,16,4096
+vision out gelu_3 type=10 bytes=2097152 shape=1,16,32,2048
+vision out gelu_30 type=10 bytes=1048576 shape=1,8,16,4096
+vision out gelu_31 type=10 bytes=1048576 shape=1,8,16,4096
+vision out gelu_32 type=10 bytes=1048576 shape=1,8,16,4096
+vision out gelu_33 type=10 bytes=524288 shape=1,4,8,8192
+vision out gelu_34 type=10 bytes=524288 shape=1,4,8,8192
+vision out gelu_35 type=10 bytes=524288 shape=1,4,8,8192
+vision out gelu_4 type=10 bytes=2097152 shape=1,16,32,2048
+vision out gelu_5 type=10 bytes=2097152 shape=1,16,32,2048
+vision out gelu_6 type=10 bytes=1048576 shape=1,8,16,4096
+vision out gelu_7 type=10 bytes=1048576 shape=1,8,16,4096
+vision out gelu_8 type=10 bytes=1048576 shape=1,8,16,4096
+vision out gelu_9 type=10 bytes=1048576 shape=1,8,16,4096
+vision out index type=10 bytes=294912 shape=1,9,32,512
+vision out layer_norm type=10 bytes=1048576 shape=1,32,64,256
+vision out linear type=10 bytes=4194304 shape=1,32,64,1024
+vision out linear_10 type=10 bytes=2097152 shape=1,16,32,2048
+vision out linear_12 type=10 bytes=1048576 shape=1,8,16,4096
+vision out linear_127 type=10 bytes=589824 shape=1,9,32,1024
+vision out linear_14 type=10 bytes=1048576 shape=1,8,16,4096
+vision out linear_156 type=10 bytes=589824 shape=1,9,32,1024
+vision out linear_16 type=10 bytes=1048576 shape=1,8,16,4096
+vision out linear_18 type=10 bytes=1048576 shape=1,8,16,4096
+vision out linear_2 type=10 bytes=4194304 shape=1,32,64,1024
+vision out linear_20 type=10 bytes=1048576 shape=1,8,16,4096
+vision out linear_22 type=10 bytes=1048576 shape=1,8,16,4096
+vision out linear_24 type=10 bytes=1048576 shape=1,8,16,4096
+vision out linear_26 type=10 bytes=1048576 shape=1,8,16,4096
+vision out linear_28 type=10 bytes=1048576 shape=1,8,16,4096
+vision out linear_30 type=10 bytes=1048576 shape=1,8,16,4096
+vision out linear_32 type=10 bytes=1048576 shape=1,8,16,4096
+vision out linear_34 type=10 bytes=1048576 shape=1,8,16,4096
+vision out linear_36 type=10 bytes=1048576 shape=1,8,16,4096
+vision out linear_38 type=10 bytes=1048576 shape=1,8,16,4096
+vision out linear_4 type=10 bytes=4194304 shape=1,32,64,1024
+vision out linear_40 type=10 bytes=1048576 shape=1,8,16,4096
+vision out linear_42 type=10 bytes=1048576 shape=1,8,16,4096
+vision out linear_44 type=10 bytes=1048576 shape=1,8,16,4096
+vision out linear_46 type=10 bytes=1048576 shape=1,8,16,4096
+vision out linear_48 type=10 bytes=1048576 shape=1,8,16,4096
+vision out linear_50 type=10 bytes=1048576 shape=1,8,16,4096
+vision out linear_52 type=10 bytes=1048576 shape=1,8,16,4096
+vision out linear_54 type=10 bytes=1048576 shape=1,8,16,4096
+vision out linear_56 type=10 bytes=1048576 shape=1,8,16,4096
+vision out linear_58 type=10 bytes=1048576 shape=1,8,16,4096
+vision out linear_6 type=10 bytes=2097152 shape=1,16,32,2048
+vision out linear_60 type=10 bytes=1048576 shape=1,8,16,4096
+vision out linear_62 type=10 bytes=1048576 shape=1,8,16,4096
+vision out linear_64 type=10 bytes=1048576 shape=1,8,16,4096
+vision out linear_66 type=10 bytes=524288 shape=1,4,8,8192
+vision out linear_68 type=10 bytes=524288 shape=1,4,8,8192
+vision out linear_70 type=10 bytes=524288 shape=1,4,8,8192
+vision out linear_72 type=10 bytes=2048 shape=1,1024
+vision out linear_8 type=10 bytes=2097152 shape=1,16,32,2048
+vision out linear_86 type=10 bytes=589824 shape=1,9,32,1024
+vision out mean type=10 bytes=1024 shape=1,512
+vision out node__to_copy_1 type=10 bytes=1048576 shape=32,1,32,512
+vision out node_add type=10 bytes=1048576 shape=1,32,64,256
+vision out node_add_1 type=10 bytes=1048576 shape=1,32,64,256
+vision out node_add_10 type=10 bytes=262144 shape=1,8,16,1024
+vision out node_add_11 type=10 bytes=262144 shape=1,8,16,1024
+vision out node_add_12 type=10 bytes=262144 shape=1,8,16,1024
+vision out node_add_13 type=10 bytes=262144 shape=1,8,16,1024
+vision out node_add_14 type=10 bytes=262144 shape=1,8,16,1024
+vision out node_add_15 type=10 bytes=262144 shape=1,8,16,1024
+vision out node_add_16 type=10 bytes=262144 shape=1,8,16,1024
+vision out node_add_17 type=10 bytes=262144 shape=1,8,16,1024
+vision out node_add_18 type=10 bytes=262144 shape=1,8,16,1024
+vision out node_add_19 type=10 bytes=262144 shape=1,8,16,1024
+vision out node_add_20 type=10 bytes=262144 shape=1,8,16,1024
+vision out node_add_21 type=10 bytes=262144 shape=1,8,16,1024
+vision out node_add_22 type=10 bytes=262144 shape=1,8,16,1024
+vision out node_add_23 type=10 bytes=262144 shape=1,8,16,1024
+vision out node_add_24 type=10 bytes=262144 shape=1,8,16,1024
+vision out node_add_25 type=10 bytes=262144 shape=1,8,16,1024
+vision out node_add_26 type=10 bytes=262144 shape=1,8,16,1024
+vision out node_add_27 type=10 bytes=262144 shape=1,8,16,1024
+vision out node_add_28 type=10 bytes=262144 shape=1,8,16,1024
+vision out node_add_29 type=10 bytes=262144 shape=1,8,16,1024
+vision out node_add_3 type=10 bytes=524288 shape=1,16,32,512
+vision out node_add_30 type=10 bytes=262144 shape=1,8,16,1024
+vision out node_add_31 type=10 bytes=262144 shape=1,8,16,1024
+vision out node_add_33 type=10 bytes=131072 shape=1,4,8,2048
+vision out node_add_34 type=10 bytes=131072 shape=1,4,8,2048
+vision out node_add_4 type=10 bytes=524288 shape=1,16,32,512
+vision out node_add_6 type=10 bytes=262144 shape=1,8,16,1024
+vision out node_add_7 type=10 bytes=262144 shape=1,8,16,1024
+vision out node_add_8 type=10 bytes=262144 shape=1,8,16,1024
+vision out node_add_9 type=10 bytes=262144 shape=1,8,16,1024
+vision out node_conv2d_36 type=10 bytes=131072 shape=1,4,8,2048
+vision out node_conv2d_4 type=10 bytes=524288 shape=1,16,32,512
+vision out node_conv2d_8 type=10 bytes=262144 shape=1,8,16,1024
+vision out repeat_interleave type=10 bytes=294912 shape=1,288,512
+vision out repeat_interleave_1 type=10 bytes=294912 shape=1,288,512
+vision out repeat_interleave_2 type=10 bytes=294912 shape=1,288,512
+vision out slice_10 type=1 bytes=8323072 shape=127,1,16384
+vision out view_42 type=10 bytes=1024 shape=1,1,512
+vision out view_43 type=10 bytes=1024 shape=1,1,512
+vision out view_52 type=10 bytes=1024 shape=1,1,512
+vision out view_53 type=10 bytes=1024 shape=1,1,512
+vision out view_62 type=10 bytes=1024 shape=1,1,512
+vision out view_63 type=10 bytes=1024 shape=1,1,512
+vision out view_70 type=10 bytes=32768 shape=1,16384
+GPU_POLICY_SESSION_CREATE_BEGIN
+INFO: Initialized TensorFlow Lite runtime.
+I0000 00:00:1794232492.870675   19559 delegate_opencl.cc:603] options->hint_waiting_for_completion: false
+I0000 00:00:1794232492.870784   19559 delegate_opencl.cc:605] options->kernel_batch_size: -1
+INFO: Loaded OpenCL library with dlopen.
+VERBOSE: Replacing 1644 out of 1644 node(s) with delegate (LITERT_CL) node, yielding 1 partitions for subgraph 0 (main).
+I0000 00:00:1794232493.119789   19559 delegate_kernel.cc:911] Initializing OpenCL-based API from graph.
+GPU_POLICY_SESSION_CREATE_END seconds=0.597
+GPU fully_accelerated=1; managed state pingpong; no GPU state readback
+GPU in view_39 type=1 bytes=65536 shape=1,32,512
+GPU in desire type=1 bytes=32 shape=8
+GPU in traffic_convention type=1 bytes=8 shape=1,2
+GPU in action_t type=1 bytes=8 shape=1,2
+GPU in state_desire_q type=1 bytes=4224 shape=132,1,8
+GPU in state_feat_q type=1 bytes=8388608 shape=128,1,16384
+GPU out outputs type=1 bytes=73808 shape=1,18452
+GPU out next_state_desire_q type=1 bytes=4224 shape=132,1,8
+GPU out next_state_feat_q type=1 bytes=8388608 shape=128,1,16384
+vision state_feat_q/state_desire_q remain zero: feature/image do not depend on the prefix's unused policy branch
+frame=0 total_ms=108.715 vision_ms=79.140 bridge_ms=0.175 policy_ms=29.400 run_ms=8.380 read_ms=21.020 nonfinite=0
+frame=1 total_ms=60.903 vision_ms=38.799 bridge_ms=0.152 policy_ms=21.952 run_ms=1.067 read_ms=20.885 nonfinite=0
+frame=2 total_ms=68.376 vision_ms=46.424 bridge_ms=0.167 policy_ms=21.785 run_ms=1.082 read_ms=20.703 nonfinite=0
+frame=3 total_ms=69.116 vision_ms=46.897 bridge_ms=0.214 policy_ms=22.005 run_ms=1.056 read_ms=20.949 nonfinite=0
+frame=4 total_ms=68.190 vision_ms=46.112 bridge_ms=0.189 policy_ms=21.889 run_ms=1.026 read_ms=20.863 nonfinite=0
+frame=5 total_ms=71.320 vision_ms=49.084 bridge_ms=0.191 policy_ms=22.045 run_ms=1.169 read_ms=20.876 nonfinite=0
+frame=6 total_ms=71.810 vision_ms=50.104 bridge_ms=0.183 policy_ms=21.522 run_ms=0.833 read_ms=20.689 nonfinite=0
+frame=7 total_ms=70.025 vision_ms=47.695 bridge_ms=0.235 policy_ms=22.095 run_ms=1.032 read_ms=21.062 nonfinite=0
+mixed_litert n=8 mean_ms=73.556914 p50_ms=69.116198 p99_ms=71.810052 vision_mean_ms=50.531888 bridge_mean_ms=0.188359 policy_mean_ms=22.836667 fully_accelerated=1
+CLEANUP_BEGIN
+CLEANUP_GPU_BUFFERS_BEGIN
+CLEANUP_GPU_MODEL_BEGIN
+CLEANUP_HTP_BINDINGS_BUFFERS_BEGIN
+CLEANUP_HTP_ALLOCATOR_BEGIN
+CLEANUP_HTP_SESSIONS_BEGIN
+ORT profile: /data/local/tmp/jetlink-mixed-20261109/mixed-vision-profile8/ort-profile_2026-11-09_21-54-52_054.json
+CLEANUP_ORT_ENV_BEGIN
+CLEANUP_END

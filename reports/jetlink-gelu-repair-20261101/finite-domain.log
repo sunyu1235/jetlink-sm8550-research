@@ -1,0 +1,5 @@
+ORT 1.29.0
+in x 126976 bytes
+out outputs 126976 bytes
+output_type=10 nonfinite=0/63488
+shared=0 rpc_us=0 n=1 mean_ms=0.189 p50_ms=0.189 p99_ms=0.189 min_ms=0.189 max_ms=0.189 over50=0

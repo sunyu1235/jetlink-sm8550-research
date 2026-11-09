@@ -1,0 +1,11 @@
+Mon Nov  9 19:25:33 CST 2026
+kernel_panic
+kernel_panic
+643354.15 5105407.05
+total 6
+drwxrwxrwx 2 shell shell 3452 2026-11-02 08:41 .
+drwxrwxrwx 3 shell shell 3452 2026-11-02 08:41 ..
+total 0
+dr-xr-x---  2 system log  0 1970-01-03 01:21 .
+drwxr-xr-x 11 root   root 0 1970-01-01 08:00 ..
+ls: /proc/last_kmsg: No such file or directory

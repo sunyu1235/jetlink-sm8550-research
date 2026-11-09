@@ -1,0 +1,19 @@
+CHILD_STATUS
+Cpus_allowed:	f8
+Cpus_allowed_list:	3-7
+intra_op.num_threads=4
+ORT 1.29.0
+in new_img 786432 bytes
+in desire 32 bytes
+in traffic_convention 8 bytes
+in action_t 8 bytes
+in state_img_q 3932160 bytes
+in state_desire_q 4224 bytes
+in state_feat_q 8388608 bytes
+out outputs 73808 bytes
+out next_state_img_q 3932160 bytes
+out next_state_desire_q 4224 bytes
+out next_state_feat_q 8388608 bytes
+output_type=1 nonfinite=0/18452
+shared=1 rpc_us=0 n=160 mean_ms=61.966 p50_ms=61.605 p99_ms=63.934 min_ms=61.291 max_ms=69.537 over50=160
+RUNNER_EXIT=0

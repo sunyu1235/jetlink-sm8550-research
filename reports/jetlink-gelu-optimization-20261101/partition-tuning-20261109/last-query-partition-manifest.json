@@ -1,0 +1,408 @@
+{
+  "status": "structural_and_shape_check_passed_not_numerically_accepted",
+  "source_partition": "QNNExecutionProvider_QNN_11262752905814198793_131_41",
+  "source_whole": {
+    "path": "C:\\Users\\sunbo\\Documents\\openpilot\\outputs\\jetlink-gelu-repair-20261101\\light-speed-gelu-both.onnx",
+    "sha256": "9268de3ae9c86d55d64265691bc00a7e1ca418bca57cb895848be806995a7721"
+  },
+  "original_partition": {
+    "path": "C:\\Users\\sunbo\\Documents\\openpilot\\outputs\\jetlink-gelu-optimization-20261101\\partition-tuning-20261109\\original-partition-131-41.onnx",
+    "bytes": 13003829,
+    "sha256": "08890bb24317101d81c9dc7bef9d9ce9ac8766803c04cea68682592fe611f011",
+    "nodes": 111
+  },
+  "candidate_partition": {
+    "path": "C:\\Users\\sunbo\\Documents\\openpilot\\outputs\\jetlink-gelu-optimization-20261101\\partition-tuning-20261109\\last-query-partition-131-41.onnx",
+    "bytes": 13632791,
+    "sha256": "2b82ff27aab349dede0638506778fc935870c4c23b953d3343fa78a4c8d74476",
+    "nodes": 120,
+    "op_counts": {
+      "Reshape": 30,
+      "Gemm": 12,
+      "Add": 6,
+      "Mul": 15,
+      "LayerNormalization": 12,
+      "Transpose": 9,
+      "Split": 3,
+      "Squeeze": 9,
+      "Slice": 6,
+      "MatMul": 6,
+      "Identity": 3,
+      "Softmax": 3,
+      "Concat": 6
+    }
+  },
+  "inputs": [
+    {
+      "name": "gelu_43",
+      "elem_type": 10,
+      "shape": [
+        1,
+        288,
+        1024
+      ]
+    },
+    {
+      "name": "gelu_54",
+      "elem_type": 10,
+      "shape": [
+        1,
+        288,
+        1024
+      ]
+    },
+    {
+      "name": "gelu_61",
+      "elem_type": 10,
+      "shape": [
+        1,
+        288,
+        1024
+      ]
+    },
+    {
+      "name": "add_50",
+      "elem_type": 10,
+      "shape": [
+        1,
+        288,
+        512
+      ]
+    },
+    {
+      "name": "add_70",
+      "elem_type": 10,
+      "shape": [
+        1,
+        288,
+        512
+      ]
+    },
+    {
+      "name": "add_86",
+      "elem_type": 10,
+      "shape": [
+        1,
+        288,
+        512
+      ]
+    }
+  ],
+  "outputs": [
+    {
+      "name": "add_52",
+      "elem_type": 10,
+      "shape": [
+        1,
+        288,
+        512
+      ]
+    },
+    {
+      "name": "add_72",
+      "elem_type": 10,
+      "shape": [
+        1,
+        288,
+        512
+      ]
+    },
+    {
+      "name": "add_88",
+      "elem_type": 10,
+      "shape": [
+        1,
+        288,
+        512
+      ]
+    },
+    {
+      "name": "linear_110",
+      "elem_type": 10,
+      "shape": [
+        1,
+        288,
+        1024
+      ]
+    },
+    {
+      "name": "linear_151",
+      "elem_type": 10,
+      "shape": [
+        1,
+        288,
+        1024
+      ]
+    },
+    {
+      "name": "linear_180",
+      "elem_type": 10,
+      "shape": [
+        1,
+        288,
+        1024
+      ]
+    }
+  ],
+  "compact_outputs": [
+    {
+      "name": "add_52__last_query",
+      "elem_type": 10,
+      "shape": [
+        1,
+        1,
+        512
+      ]
+    },
+    {
+      "name": "add_72__last_query",
+      "elem_type": 10,
+      "shape": [
+        1,
+        1,
+        512
+      ]
+    },
+    {
+      "name": "add_88__last_query",
+      "elem_type": 10,
+      "shape": [
+        1,
+        1,
+        512
+      ]
+    },
+    {
+      "name": "linear_110__last_query",
+      "elem_type": 10,
+      "shape": [
+        1,
+        1,
+        1024
+      ]
+    },
+    {
+      "name": "linear_151__last_query",
+      "elem_type": 10,
+      "shape": [
+        1,
+        1,
+        1024
+      ]
+    },
+    {
+      "name": "linear_180__last_query",
+      "elem_type": 10,
+      "shape": [
+        1,
+        1,
+        1024
+      ]
+    }
+  ],
+  "query_slices": [
+    {
+      "source": "squeeze_9",
+      "output": "squeeze_9__last_query",
+      "axis": 2,
+      "start": 287,
+      "end": 288
+    },
+    {
+      "source": "squeeze_21",
+      "output": "squeeze_21__last_query",
+      "axis": 2,
+      "start": 287,
+      "end": 288
+    },
+    {
+      "source": "squeeze_33",
+      "output": "squeeze_33__last_query",
+      "axis": 2,
+      "start": 287,
+      "end": 288
+    }
+  ],
+  "residual_slices": [
+    {
+      "source": "add_51",
+      "output": "add_51__last_query_residual",
+      "axis": 1,
+      "start": 287,
+      "end": 288
+    },
+    {
+      "source": "add_71",
+      "output": "add_71__last_query_residual",
+      "axis": 1,
+      "start": 287,
+      "end": 288
+    },
+    {
+      "source": "add_87",
+      "output": "add_87__last_query_residual",
+      "axis": 1,
+      "start": 287,
+      "end": 288
+    }
+  ],
+  "mask_proofs": [
+    {
+      "node": "node_masked_fill_3",
+      "mask": "model.off_policy.temporal_summarizer.transformer.layers.3.attention._supercombo_mask",
+      "shape": [
+        1,
+        1,
+        288,
+        288
+      ],
+      "last_row_all_true": true
+    },
+    {
+      "node": "node_masked_fill_7",
+      "mask": "model.on_policy.off_policy.temporal_summarizer.transformer.layers.3.attention._supercombo_mask",
+      "shape": [
+        1,
+        1,
+        288,
+        288
+      ],
+      "last_row_all_true": true
+    },
+    {
+      "node": "node_masked_fill_11",
+      "mask": "model.on_policy.temporal_summarizer.transformer.layers.3.attention._supercombo_mask",
+      "shape": [
+        1,
+        1,
+        288,
+        288
+      ],
+      "last_row_all_true": true
+    }
+  ],
+  "reshape_changes": [
+    {
+      "node": "node__unsafe_view_5",
+      "before": [
+        1,
+        288,
+        512
+      ],
+      "after": [
+        1,
+        1,
+        512
+      ]
+    },
+    {
+      "node": "val_729__reshape_out",
+      "before": [
+        1,
+        288,
+        512
+      ],
+      "after": [
+        1,
+        1,
+        512
+      ]
+    },
+    {
+      "node": "val_733__reshape_out",
+      "before": [
+        1,
+        288,
+        1024
+      ],
+      "after": [
+        1,
+        1,
+        1024
+      ]
+    },
+    {
+      "node": "node__unsafe_view_9",
+      "before": [
+        1,
+        288,
+        512
+      ],
+      "after": [
+        1,
+        1,
+        512
+      ]
+    },
+    {
+      "node": "val_917__reshape_out",
+      "before": [
+        1,
+        288,
+        512
+      ],
+      "after": [
+        1,
+        1,
+        512
+      ]
+    },
+    {
+      "node": "val_921__reshape_out",
+      "before": [
+        1,
+        288,
+        1024
+      ],
+      "after": [
+        1,
+        1,
+        1024
+      ]
+    },
+    {
+      "node": "node__unsafe_view_13",
+      "before": [
+        1,
+        288,
+        512
+      ],
+      "after": [
+        1,
+        1,
+        512
+      ]
+    },
+    {
+      "node": "val_1099__reshape_out",
+      "before": [
+        1,
+        288,
+        512
+      ],
+      "after": [
+        1,
+        1,
+        512
+      ]
+    },
+    {
+      "node": "val_1103__reshape_out",
+      "before": [
+        1,
+        288,
+        1024
+      ],
+      "after": [
+        1,
+        1,
+        1024
+      ]
+    }
+  ],
+  "preserved": "Original external I/O names/order/shapes, K/V 288-token path, preceding MLP, retained weights, precision-sensitive GELU implementations outside this partition.",
+  "boundary_prefix_semantics": "Rows 0..286 are explicitly zero-filled. Only row287 retains original mathematical semantics; downstream final Gather selects exactly287 and intervening MLP ops are token independent.",
+  "acceptance_required": "Run the complete recurrent model through the unchanged upstream per-head parity checker. FP16 backend kernels may choose different reductions for new shapes despite mathematical equivalence.",
+  "onnx_checker_full_check": "passed",
+  "onnx_infer_shapes_strict": "passed"
+}

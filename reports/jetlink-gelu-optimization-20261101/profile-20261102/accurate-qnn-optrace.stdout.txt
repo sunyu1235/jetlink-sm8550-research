@@ -1,0 +1,4 @@
+CHILD_STATUS
+Cpus_allowed:	f8
+Cpus_allowed_list:	3-7
+ORT 1.29.0

@@ -1,0 +1,4 @@
+QNN tuning: soc_model=default vtcm_mb=default profile=none
+ORT 1.29.0
+SESSION_CREATE_BEGIN
+session: Failed to finalize QNN graph.

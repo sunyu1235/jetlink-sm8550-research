@@ -1,0 +1,19 @@
+{
+  "compiler": "C:\\Users\\sunbo\\Documents\\moto-x40-root\\android-ndk-r30\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\aarch64-linux-android24-clang.cmd",
+  "gpu_binding_memory": "CPU, selected per session; never QnnHtpShared",
+  "sha256": "c7b37efd065a68d83c0c645cb58f30e7646ccbe7c79260086d0452a72d11e6e7",
+  "binary": "C:\\Users\\sunbo\\Documents\\openpilot\\outputs\\jetlink-gelu-optimization-20261101\\partition-tuning-20261109\\mixed_probe",
+  "target": "aarch64-linux-android24",
+  "vision_unused_feature_history": "zero: no feature/image dependency; actual history owned by GPU policy",
+  "sources": [
+    "C:\\Users\\sunbo\\Documents\\openpilot\\reports\\jetlink-gelu-optimization-20261101\\partition-tuning-20261109\\mixed_probe.c",
+    "C:\\Users\\sunbo\\Documents\\openpilot\\reports\\jetlink-gelu-optimization-20261101\\partition-tuning-20261109\\qnn_jl_mixed.c"
+  ],
+  "flags": [
+    "-O2",
+    "-Wall",
+    "-Wextra",
+    "-Werror",
+    "-DJL_ORT_DLOPEN"
+  ]
+}

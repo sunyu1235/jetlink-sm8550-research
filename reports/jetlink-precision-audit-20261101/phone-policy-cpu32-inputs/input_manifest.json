@@ -1,0 +1,524 @@
+{
+  "model": "policy-fp32.onnx",
+  "frames": 16,
+  "expected_bytes": {
+    "view_39": 65536,
+    "desire": 32,
+    "traffic_convention": 8,
+    "action_t": 8
+  },
+  "files": [
+    {
+      "frame": 0,
+      "input": "view_39",
+      "source": "C:\\Users\\sunbo\\Documents\\openpilot\\reports\\jetlink-precision-audit-20261101\\phone-vision-cpu32-output\\vision-phone-cpu32-audit-20261101\\out_0.bin",
+      "path": "C:\\Users\\sunbo\\Documents\\openpilot\\reports\\jetlink-precision-audit-20261101\\phone-policy-cpu32-inputs\\0_view_39.bin",
+      "bytes": 65536,
+      "sha256": "eca6e50ca74fc97186893f5d234f738d4e2cbfdfc1558126ee968f54425f6f82"
+    },
+    {
+      "frame": 0,
+      "input": "desire",
+      "source": "C:\\Users\\sunbo\\Documents\\moto-x40-root\\parity-varied\\0_desire.bin",
+      "path": "C:\\Users\\sunbo\\Documents\\openpilot\\reports\\jetlink-precision-audit-20261101\\phone-policy-cpu32-inputs\\0_desire.bin",
+      "bytes": 32,
+      "sha256": "da4694421b90756b88d8c88357060e334958d3ccbff159128d6c9c269f75217a"
+    },
+    {
+      "frame": 0,
+      "input": "traffic_convention",
+      "source": "C:\\Users\\sunbo\\Documents\\moto-x40-root\\parity-varied\\0_traffic_convention.bin",
+      "path": "C:\\Users\\sunbo\\Documents\\openpilot\\reports\\jetlink-precision-audit-20261101\\phone-policy-cpu32-inputs\\0_traffic_convention.bin",
+      "bytes": 8,
+      "sha256": "434b26042aff3fb844a4c4c6be0d81a079b0ce84cfb8190679024404e5dc4822"
+    },
+    {
+      "frame": 0,
+      "input": "action_t",
+      "source": "C:\\Users\\sunbo\\Documents\\moto-x40-root\\parity-varied\\0_action_t.bin",
+      "path": "C:\\Users\\sunbo\\Documents\\openpilot\\reports\\jetlink-precision-audit-20261101\\phone-policy-cpu32-inputs\\0_action_t.bin",
+      "bytes": 8,
+      "sha256": "068d7f8115948bea481343100b821115e784e288cdcf5bf97deb60129ff1bd5d"
+    },
+    {
+      "frame": 1,
+      "input": "view_39",
+      "source": "C:\\Users\\sunbo\\Documents\\openpilot\\reports\\jetlink-precision-audit-20261101\\phone-vision-cpu32-output\\vision-phone-cpu32-audit-20261101\\out_1.bin",
+      "path": "C:\\Users\\sunbo\\Documents\\openpilot\\reports\\jetlink-precision-audit-20261101\\phone-policy-cpu32-inputs\\1_view_39.bin",
+      "bytes": 65536,
+      "sha256": "64ef7fb66c0a8265fc62fb61b74bb39f26a8c2c8ad463f855fc83a176dfe4237"
+    },
+    {
+      "frame": 1,
+      "input": "desire",
+      "source": "C:\\Users\\sunbo\\Documents\\moto-x40-root\\parity-varied\\1_desire.bin",
+      "path": "C:\\Users\\sunbo\\Documents\\openpilot\\reports\\jetlink-precision-audit-20261101\\phone-policy-cpu32-inputs\\1_desire.bin",
+      "bytes": 32,
+      "sha256": "66687aadf862bd776c8fc18b8e9f8e20089714856ee233b3902a591d0d5f2925"
+    },
+    {
+      "frame": 1,
+      "input": "traffic_convention",
+      "source": "C:\\Users\\sunbo\\Documents\\moto-x40-root\\parity-varied\\1_traffic_convention.bin",
+      "path": "C:\\Users\\sunbo\\Documents\\openpilot\\reports\\jetlink-precision-audit-20261101\\phone-policy-cpu32-inputs\\1_traffic_convention.bin",
+      "bytes": 8,
+      "sha256": "434b26042aff3fb844a4c4c6be0d81a079b0ce84cfb8190679024404e5dc4822"
+    },
+    {
+      "frame": 1,
+      "input": "action_t",
+      "source": "C:\\Users\\sunbo\\Documents\\moto-x40-root\\parity-varied\\1_action_t.bin",
+      "path": "C:\\Users\\sunbo\\Documents\\openpilot\\reports\\jetlink-precision-audit-20261101\\phone-policy-cpu32-inputs\\1_action_t.bin",
+      "bytes": 8,
+      "sha256": "b399b1776e23310e7981ef6c412f365e1cc1c7d4526da33b3aa095ce1c8b3938"
+    },
+    {
+      "frame": 2,
+      "input": "view_39",
+      "source": "C:\\Users\\sunbo\\Documents\\openpilot\\reports\\jetlink-precision-audit-20261101\\phone-vision-cpu32-output\\vision-phone-cpu32-audit-20261101\\out_2.bin",
+      "path": "C:\\Users\\sunbo\\Documents\\openpilot\\reports\\jetlink-precision-audit-20261101\\phone-policy-cpu32-inputs\\2_view_39.bin",
+      "bytes": 65536,
+      "sha256": "80f1402fcb49e1cabfc91c0e514f8cd9d231ca5eee14ed96220e41481caef24a"
+    },
+    {
+      "frame": 2,
+      "input": "desire",
+      "source": "C:\\Users\\sunbo\\Documents\\moto-x40-root\\parity-varied\\2_desire.bin",
+      "path": "C:\\Users\\sunbo\\Documents\\openpilot\\reports\\jetlink-precision-audit-20261101\\phone-policy-cpu32-inputs\\2_desire.bin",
+      "bytes": 32,
+      "sha256": "66687aadf862bd776c8fc18b8e9f8e20089714856ee233b3902a591d0d5f2925"
+    },
+    {
+      "frame": 2,
+      "input": "traffic_convention",
+      "source": "C:\\Users\\sunbo\\Documents\\moto-x40-root\\parity-varied\\2_traffic_convention.bin",
+      "path": "C:\\Users\\sunbo\\Documents\\openpilot\\reports\\jetlink-precision-audit-20261101\\phone-policy-cpu32-inputs\\2_traffic_convention.bin",
+      "bytes": 8,
+      "sha256": "434b26042aff3fb844a4c4c6be0d81a079b0ce84cfb8190679024404e5dc4822"
+    },
+    {
+      "frame": 2,
+      "input": "action_t",
+      "source": "C:\\Users\\sunbo\\Documents\\moto-x40-root\\parity-varied\\2_action_t.bin",
+      "path": "C:\\Users\\sunbo\\Documents\\openpilot\\reports\\jetlink-precision-audit-20261101\\phone-policy-cpu32-inputs\\2_action_t.bin",
+      "bytes": 8,
+      "sha256": "068b046c53016bbac329786a7b38df98b9a87ab7305b6bb274c838f9746ab4d7"
+    },
+    {
+      "frame": 3,
+      "input": "view_39",
+      "source": "C:\\Users\\sunbo\\Documents\\openpilot\\reports\\jetlink-precision-audit-20261101\\phone-vision-cpu32-output\\vision-phone-cpu32-audit-20261101\\out_3.bin",
+      "path": "C:\\Users\\sunbo\\Documents\\openpilot\\reports\\jetlink-precision-audit-20261101\\phone-policy-cpu32-inputs\\3_view_39.bin",
+      "bytes": 65536,
+      "sha256": "4fd252ea7f166697a1e143c2ef2b147ca535aeebca34b3f14b76e347907565af"
+    },
+    {
+      "frame": 3,
+      "input": "desire",
+      "source": "C:\\Users\\sunbo\\Documents\\moto-x40-root\\parity-varied\\3_desire.bin",
+      "path": "C:\\Users\\sunbo\\Documents\\openpilot\\reports\\jetlink-precision-audit-20261101\\phone-policy-cpu32-inputs\\3_desire.bin",
+      "bytes": 32,
+      "sha256": "66687aadf862bd776c8fc18b8e9f8e20089714856ee233b3902a591d0d5f2925"
+    },
+    {
+      "frame": 3,
+      "input": "traffic_convention",
+      "source": "C:\\Users\\sunbo\\Documents\\moto-x40-root\\parity-varied\\3_traffic_convention.bin",
+      "path": "C:\\Users\\sunbo\\Documents\\openpilot\\reports\\jetlink-precision-audit-20261101\\phone-policy-cpu32-inputs\\3_traffic_convention.bin",
+      "bytes": 8,
+      "sha256": "434b26042aff3fb844a4c4c6be0d81a079b0ce84cfb8190679024404e5dc4822"
+    },
+    {
+      "frame": 3,
+      "input": "action_t",
+      "source": "C:\\Users\\sunbo\\Documents\\moto-x40-root\\parity-varied\\3_action_t.bin",
+      "path": "C:\\Users\\sunbo\\Documents\\openpilot\\reports\\jetlink-precision-audit-20261101\\phone-policy-cpu32-inputs\\3_action_t.bin",
+      "bytes": 8,
+      "sha256": "814c929465c5ace6bd016a30d416d11e5bf3261f7fd9f4222ede3d8920da17b0"
+    },
+    {
+      "frame": 4,
+      "input": "view_39",
+      "source": "C:\\Users\\sunbo\\Documents\\openpilot\\reports\\jetlink-precision-audit-20261101\\phone-vision-cpu32-output\\vision-phone-cpu32-audit-20261101\\out_4.bin",
+      "path": "C:\\Users\\sunbo\\Documents\\openpilot\\reports\\jetlink-precision-audit-20261101\\phone-policy-cpu32-inputs\\4_view_39.bin",
+      "bytes": 65536,
+      "sha256": "850bf268d9a76e160518fb81860bf296a2001f1fb9aec08e48421dd97c42ca19"
+    },
+    {
+      "frame": 4,
+      "input": "desire",
+      "source": "C:\\Users\\sunbo\\Documents\\moto-x40-root\\parity-varied\\4_desire.bin",
+      "path": "C:\\Users\\sunbo\\Documents\\openpilot\\reports\\jetlink-precision-audit-20261101\\phone-policy-cpu32-inputs\\4_desire.bin",
+      "bytes": 32,
+      "sha256": "66687aadf862bd776c8fc18b8e9f8e20089714856ee233b3902a591d0d5f2925"
+    },
+    {
+      "frame": 4,
+      "input": "traffic_convention",
+      "source": "C:\\Users\\sunbo\\Documents\\moto-x40-root\\parity-varied\\4_traffic_convention.bin",
+      "path": "C:\\Users\\sunbo\\Documents\\openpilot\\reports\\jetlink-precision-audit-20261101\\phone-policy-cpu32-inputs\\4_traffic_convention.bin",
+      "bytes": 8,
+      "sha256": "434b26042aff3fb844a4c4c6be0d81a079b0ce84cfb8190679024404e5dc4822"
+    },
+    {
+      "frame": 4,
+      "input": "action_t",
+      "source": "C:\\Users\\sunbo\\Documents\\moto-x40-root\\parity-varied\\4_action_t.bin",
+      "path": "C:\\Users\\sunbo\\Documents\\openpilot\\reports\\jetlink-precision-audit-20261101\\phone-policy-cpu32-inputs\\4_action_t.bin",
+      "bytes": 8,
+      "sha256": "8920845bf56712a84cf442d984624614553c7517670c980f9f0910e22c91da99"
+    },
+    {
+      "frame": 5,
+      "input": "view_39",
+      "source": "C:\\Users\\sunbo\\Documents\\openpilot\\reports\\jetlink-precision-audit-20261101\\phone-vision-cpu32-output\\vision-phone-cpu32-audit-20261101\\out_5.bin",
+      "path": "C:\\Users\\sunbo\\Documents\\openpilot\\reports\\jetlink-precision-audit-20261101\\phone-policy-cpu32-inputs\\5_view_39.bin",
+      "bytes": 65536,
+      "sha256": "97203694a88adaec225e1f6041418ae0c6a679d46461078e450b1b43c2f9e685"
+    },
+    {
+      "frame": 5,
+      "input": "desire",
+      "source": "C:\\Users\\sunbo\\Documents\\moto-x40-root\\parity-varied\\5_desire.bin",
+      "path": "C:\\Users\\sunbo\\Documents\\openpilot\\reports\\jetlink-precision-audit-20261101\\phone-policy-cpu32-inputs\\5_desire.bin",
+      "bytes": 32,
+      "sha256": "66687aadf862bd776c8fc18b8e9f8e20089714856ee233b3902a591d0d5f2925"
+    },
+    {
+      "frame": 5,
+      "input": "traffic_convention",
+      "source": "C:\\Users\\sunbo\\Documents\\moto-x40-root\\parity-varied\\5_traffic_convention.bin",
+      "path": "C:\\Users\\sunbo\\Documents\\openpilot\\reports\\jetlink-precision-audit-20261101\\phone-policy-cpu32-inputs\\5_traffic_convention.bin",
+      "bytes": 8,
+      "sha256": "434b26042aff3fb844a4c4c6be0d81a079b0ce84cfb8190679024404e5dc4822"
+    },
+    {
+      "frame": 5,
+      "input": "action_t",
+      "source": "C:\\Users\\sunbo\\Documents\\moto-x40-root\\parity-varied\\5_action_t.bin",
+      "path": "C:\\Users\\sunbo\\Documents\\openpilot\\reports\\jetlink-precision-audit-20261101\\phone-policy-cpu32-inputs\\5_action_t.bin",
+      "bytes": 8,
+      "sha256": "6874296014d827ba6b245aa0bb17acf5491a23c7e3202b4bce4c65b45d217aa1"
+    },
+    {
+      "frame": 6,
+      "input": "view_39",
+      "source": "C:\\Users\\sunbo\\Documents\\openpilot\\reports\\jetlink-precision-audit-20261101\\phone-vision-cpu32-output\\vision-phone-cpu32-audit-20261101\\out_6.bin",
+      "path": "C:\\Users\\sunbo\\Documents\\openpilot\\reports\\jetlink-precision-audit-20261101\\phone-policy-cpu32-inputs\\6_view_39.bin",
+      "bytes": 65536,
+      "sha256": "0126a030e90dfcda49a2f3e5604801593c7b44ea1ebb5f345759fcabcabbd30a"
+    },
+    {
+      "frame": 6,
+      "input": "desire",
+      "source": "C:\\Users\\sunbo\\Documents\\moto-x40-root\\parity-varied\\6_desire.bin",
+      "path": "C:\\Users\\sunbo\\Documents\\openpilot\\reports\\jetlink-precision-audit-20261101\\phone-policy-cpu32-inputs\\6_desire.bin",
+      "bytes": 32,
+      "sha256": "66687aadf862bd776c8fc18b8e9f8e20089714856ee233b3902a591d0d5f2925"
+    },
+    {
+      "frame": 6,
+      "input": "traffic_convention",
+      "source": "C:\\Users\\sunbo\\Documents\\moto-x40-root\\parity-varied\\6_traffic_convention.bin",
+      "path": "C:\\Users\\sunbo\\Documents\\openpilot\\reports\\jetlink-precision-audit-20261101\\phone-policy-cpu32-inputs\\6_traffic_convention.bin",
+      "bytes": 8,
+      "sha256": "434b26042aff3fb844a4c4c6be0d81a079b0ce84cfb8190679024404e5dc4822"
+    },
+    {
+      "frame": 6,
+      "input": "action_t",
+      "source": "C:\\Users\\sunbo\\Documents\\moto-x40-root\\parity-varied\\6_action_t.bin",
+      "path": "C:\\Users\\sunbo\\Documents\\openpilot\\reports\\jetlink-precision-audit-20261101\\phone-policy-cpu32-inputs\\6_action_t.bin",
+      "bytes": 8,
+      "sha256": "ee821be1ffecceb4f2e73c2f28ca584588aadaa05ef72a439d7407e8982032b2"
+    },
+    {
+      "frame": 7,
+      "input": "view_39",
+      "source": "C:\\Users\\sunbo\\Documents\\openpilot\\reports\\jetlink-precision-audit-20261101\\phone-vision-cpu32-output\\vision-phone-cpu32-audit-20261101\\out_7.bin",
+      "path": "C:\\Users\\sunbo\\Documents\\openpilot\\reports\\jetlink-precision-audit-20261101\\phone-policy-cpu32-inputs\\7_view_39.bin",
+      "bytes": 65536,
+      "sha256": "60cc0496f9558ca2598b7579c95614d70402959302cfdd1f68295be3d0e8e3e1"
+    },
+    {
+      "frame": 7,
+      "input": "desire",
+      "source": "C:\\Users\\sunbo\\Documents\\moto-x40-root\\parity-varied\\7_desire.bin",
+      "path": "C:\\Users\\sunbo\\Documents\\openpilot\\reports\\jetlink-precision-audit-20261101\\phone-policy-cpu32-inputs\\7_desire.bin",
+      "bytes": 32,
+      "sha256": "66687aadf862bd776c8fc18b8e9f8e20089714856ee233b3902a591d0d5f2925"
+    },
+    {
+      "frame": 7,
+      "input": "traffic_convention",
+      "source": "C:\\Users\\sunbo\\Documents\\moto-x40-root\\parity-varied\\7_traffic_convention.bin",
+      "path": "C:\\Users\\sunbo\\Documents\\openpilot\\reports\\jetlink-precision-audit-20261101\\phone-policy-cpu32-inputs\\7_traffic_convention.bin",
+      "bytes": 8,
+      "sha256": "434b26042aff3fb844a4c4c6be0d81a079b0ce84cfb8190679024404e5dc4822"
+    },
+    {
+      "frame": 7,
+      "input": "action_t",
+      "source": "C:\\Users\\sunbo\\Documents\\moto-x40-root\\parity-varied\\7_action_t.bin",
+      "path": "C:\\Users\\sunbo\\Documents\\openpilot\\reports\\jetlink-precision-audit-20261101\\phone-policy-cpu32-inputs\\7_action_t.bin",
+      "bytes": 8,
+      "sha256": "f558d87911bf94d44868424d59cdf040e2bcd289df82f3ddf71daf6c495faf4f"
+    },
+    {
+      "frame": 8,
+      "input": "view_39",
+      "source": "C:\\Users\\sunbo\\Documents\\openpilot\\reports\\jetlink-precision-audit-20261101\\phone-vision-cpu32-output\\vision-phone-cpu32-audit-20261101\\out_8.bin",
+      "path": "C:\\Users\\sunbo\\Documents\\openpilot\\reports\\jetlink-precision-audit-20261101\\phone-policy-cpu32-inputs\\8_view_39.bin",
+      "bytes": 65536,
+      "sha256": "e0b95e22f442ee37c978ddeb2fa4cffd81a0d0df53cfbf23ba1eedd109370553"
+    },
+    {
+      "frame": 8,
+      "input": "desire",
+      "source": "C:\\Users\\sunbo\\Documents\\moto-x40-root\\parity-varied\\8_desire.bin",
+      "path": "C:\\Users\\sunbo\\Documents\\openpilot\\reports\\jetlink-precision-audit-20261101\\phone-policy-cpu32-inputs\\8_desire.bin",
+      "bytes": 32,
+      "sha256": "2e95ca52b653af4a516ae0b368ae89f2b05ae4088842e24a9d58887d7a885e1c"
+    },
+    {
+      "frame": 8,
+      "input": "traffic_convention",
+      "source": "C:\\Users\\sunbo\\Documents\\moto-x40-root\\parity-varied\\8_traffic_convention.bin",
+      "path": "C:\\Users\\sunbo\\Documents\\openpilot\\reports\\jetlink-precision-audit-20261101\\phone-policy-cpu32-inputs\\8_traffic_convention.bin",
+      "bytes": 8,
+      "sha256": "434b26042aff3fb844a4c4c6be0d81a079b0ce84cfb8190679024404e5dc4822"
+    },
+    {
+      "frame": 8,
+      "input": "action_t",
+      "source": "C:\\Users\\sunbo\\Documents\\moto-x40-root\\parity-varied\\8_action_t.bin",
+      "path": "C:\\Users\\sunbo\\Documents\\openpilot\\reports\\jetlink-precision-audit-20261101\\phone-policy-cpu32-inputs\\8_action_t.bin",
+      "bytes": 8,
+      "sha256": "7f7479c4b629ea0424efb957e2ef10d2f8fc3725109dfe673fbb2f3395c01320"
+    },
+    {
+      "frame": 9,
+      "input": "view_39",
+      "source": "C:\\Users\\sunbo\\Documents\\openpilot\\reports\\jetlink-precision-audit-20261101\\phone-vision-cpu32-output\\vision-phone-cpu32-audit-20261101\\out_9.bin",
+      "path": "C:\\Users\\sunbo\\Documents\\openpilot\\reports\\jetlink-precision-audit-20261101\\phone-policy-cpu32-inputs\\9_view_39.bin",
+      "bytes": 65536,
+      "sha256": "c66a6fb883b37d63d27df07b4e76da9b39786cf2736499ccf98748b00b1eb7f0"
+    },
+    {
+      "frame": 9,
+      "input": "desire",
+      "source": "C:\\Users\\sunbo\\Documents\\moto-x40-root\\parity-varied\\9_desire.bin",
+      "path": "C:\\Users\\sunbo\\Documents\\openpilot\\reports\\jetlink-precision-audit-20261101\\phone-policy-cpu32-inputs\\9_desire.bin",
+      "bytes": 32,
+      "sha256": "66687aadf862bd776c8fc18b8e9f8e20089714856ee233b3902a591d0d5f2925"
+    },
+    {
+      "frame": 9,
+      "input": "traffic_convention",
+      "source": "C:\\Users\\sunbo\\Documents\\moto-x40-root\\parity-varied\\9_traffic_convention.bin",
+      "path": "C:\\Users\\sunbo\\Documents\\openpilot\\reports\\jetlink-precision-audit-20261101\\phone-policy-cpu32-inputs\\9_traffic_convention.bin",
+      "bytes": 8,
+      "sha256": "434b26042aff3fb844a4c4c6be0d81a079b0ce84cfb8190679024404e5dc4822"
+    },
+    {
+      "frame": 9,
+      "input": "action_t",
+      "source": "C:\\Users\\sunbo\\Documents\\moto-x40-root\\parity-varied\\9_action_t.bin",
+      "path": "C:\\Users\\sunbo\\Documents\\openpilot\\reports\\jetlink-precision-audit-20261101\\phone-policy-cpu32-inputs\\9_action_t.bin",
+      "bytes": 8,
+      "sha256": "805c754a2175c8d2a831f6692fdc5e2f6b04e05708797ce421099adf366f3452"
+    },
+    {
+      "frame": 10,
+      "input": "view_39",
+      "source": "C:\\Users\\sunbo\\Documents\\openpilot\\reports\\jetlink-precision-audit-20261101\\phone-vision-cpu32-output\\vision-phone-cpu32-audit-20261101\\out_10.bin",
+      "path": "C:\\Users\\sunbo\\Documents\\openpilot\\reports\\jetlink-precision-audit-20261101\\phone-policy-cpu32-inputs\\10_view_39.bin",
+      "bytes": 65536,
+      "sha256": "162b28a9262d2d67cf5b36277dc1ee13985d29af411734b7c581aeb9fb9756e4"
+    },
+    {
+      "frame": 10,
+      "input": "desire",
+      "source": "C:\\Users\\sunbo\\Documents\\moto-x40-root\\parity-varied\\10_desire.bin",
+      "path": "C:\\Users\\sunbo\\Documents\\openpilot\\reports\\jetlink-precision-audit-20261101\\phone-policy-cpu32-inputs\\10_desire.bin",
+      "bytes": 32,
+      "sha256": "66687aadf862bd776c8fc18b8e9f8e20089714856ee233b3902a591d0d5f2925"
+    },
+    {
+      "frame": 10,
+      "input": "traffic_convention",
+      "source": "C:\\Users\\sunbo\\Documents\\moto-x40-root\\parity-varied\\10_traffic_convention.bin",
+      "path": "C:\\Users\\sunbo\\Documents\\openpilot\\reports\\jetlink-precision-audit-20261101\\phone-policy-cpu32-inputs\\10_traffic_convention.bin",
+      "bytes": 8,
+      "sha256": "434b26042aff3fb844a4c4c6be0d81a079b0ce84cfb8190679024404e5dc4822"
+    },
+    {
+      "frame": 10,
+      "input": "action_t",
+      "source": "C:\\Users\\sunbo\\Documents\\moto-x40-root\\parity-varied\\10_action_t.bin",
+      "path": "C:\\Users\\sunbo\\Documents\\openpilot\\reports\\jetlink-precision-audit-20261101\\phone-policy-cpu32-inputs\\10_action_t.bin",
+      "bytes": 8,
+      "sha256": "0af52649f01d5ad70898a9ca74a53c8a2d36e9b530e02799f8645e0811858207"
+    },
+    {
+      "frame": 11,
+      "input": "view_39",
+      "source": "C:\\Users\\sunbo\\Documents\\openpilot\\reports\\jetlink-precision-audit-20261101\\phone-vision-cpu32-output\\vision-phone-cpu32-audit-20261101\\out_11.bin",
+      "path": "C:\\Users\\sunbo\\Documents\\openpilot\\reports\\jetlink-precision-audit-20261101\\phone-policy-cpu32-inputs\\11_view_39.bin",
+      "bytes": 65536,
+      "sha256": "420517d6a725577a3643e25867c0fc87b87238aeff055a60a870636505b0a2bb"
+    },
+    {
+      "frame": 11,
+      "input": "desire",
+      "source": "C:\\Users\\sunbo\\Documents\\moto-x40-root\\parity-varied\\11_desire.bin",
+      "path": "C:\\Users\\sunbo\\Documents\\openpilot\\reports\\jetlink-precision-audit-20261101\\phone-policy-cpu32-inputs\\11_desire.bin",
+      "bytes": 32,
+      "sha256": "66687aadf862bd776c8fc18b8e9f8e20089714856ee233b3902a591d0d5f2925"
+    },
+    {
+      "frame": 11,
+      "input": "traffic_convention",
+      "source": "C:\\Users\\sunbo\\Documents\\moto-x40-root\\parity-varied\\11_traffic_convention.bin",
+      "path": "C:\\Users\\sunbo\\Documents\\openpilot\\reports\\jetlink-precision-audit-20261101\\phone-policy-cpu32-inputs\\11_traffic_convention.bin",
+      "bytes": 8,
+      "sha256": "434b26042aff3fb844a4c4c6be0d81a079b0ce84cfb8190679024404e5dc4822"
+    },
+    {
+      "frame": 11,
+      "input": "action_t",
+      "source": "C:\\Users\\sunbo\\Documents\\moto-x40-root\\parity-varied\\11_action_t.bin",
+      "path": "C:\\Users\\sunbo\\Documents\\openpilot\\reports\\jetlink-precision-audit-20261101\\phone-policy-cpu32-inputs\\11_action_t.bin",
+      "bytes": 8,
+      "sha256": "4fc3c91a07fa1a84b5923c9710cb26688401c283233478d5f7b39fb7883cd03a"
+    },
+    {
+      "frame": 12,
+      "input": "view_39",
+      "source": "C:\\Users\\sunbo\\Documents\\openpilot\\reports\\jetlink-precision-audit-20261101\\phone-vision-cpu32-output\\vision-phone-cpu32-audit-20261101\\out_12.bin",
+      "path": "C:\\Users\\sunbo\\Documents\\openpilot\\reports\\jetlink-precision-audit-20261101\\phone-policy-cpu32-inputs\\12_view_39.bin",
+      "bytes": 65536,
+      "sha256": "d66d28f7d1f70d6a7d75689eea7fae90e621eecf515b7ae1b4325b4bc541ebfc"
+    },
+    {
+      "frame": 12,
+      "input": "desire",
+      "source": "C:\\Users\\sunbo\\Documents\\moto-x40-root\\parity-varied\\12_desire.bin",
+      "path": "C:\\Users\\sunbo\\Documents\\openpilot\\reports\\jetlink-precision-audit-20261101\\phone-policy-cpu32-inputs\\12_desire.bin",
+      "bytes": 32,
+      "sha256": "66687aadf862bd776c8fc18b8e9f8e20089714856ee233b3902a591d0d5f2925"
+    },
+    {
+      "frame": 12,
+      "input": "traffic_convention",
+      "source": "C:\\Users\\sunbo\\Documents\\moto-x40-root\\parity-varied\\12_traffic_convention.bin",
+      "path": "C:\\Users\\sunbo\\Documents\\openpilot\\reports\\jetlink-precision-audit-20261101\\phone-policy-cpu32-inputs\\12_traffic_convention.bin",
+      "bytes": 8,
+      "sha256": "434b26042aff3fb844a4c4c6be0d81a079b0ce84cfb8190679024404e5dc4822"
+    },
+    {
+      "frame": 12,
+      "input": "action_t",
+      "source": "C:\\Users\\sunbo\\Documents\\moto-x40-root\\parity-varied\\12_action_t.bin",
+      "path": "C:\\Users\\sunbo\\Documents\\openpilot\\reports\\jetlink-precision-audit-20261101\\phone-policy-cpu32-inputs\\12_action_t.bin",
+      "bytes": 8,
+      "sha256": "cf7dd85433428cfac38aa1a4642d0b92b714d16debe80e17477c43d034574f90"
+    },
+    {
+      "frame": 13,
+      "input": "view_39",
+      "source": "C:\\Users\\sunbo\\Documents\\openpilot\\reports\\jetlink-precision-audit-20261101\\phone-vision-cpu32-output\\vision-phone-cpu32-audit-20261101\\out_13.bin",
+      "path": "C:\\Users\\sunbo\\Documents\\openpilot\\reports\\jetlink-precision-audit-20261101\\phone-policy-cpu32-inputs\\13_view_39.bin",
+      "bytes": 65536,
+      "sha256": "d877690fc7f50ce3768abf6c9acea217e48c50f31d52714cc6f8fb4df8fc7c36"
+    },
+    {
+      "frame": 13,
+      "input": "desire",
+      "source": "C:\\Users\\sunbo\\Documents\\moto-x40-root\\parity-varied\\13_desire.bin",
+      "path": "C:\\Users\\sunbo\\Documents\\openpilot\\reports\\jetlink-precision-audit-20261101\\phone-policy-cpu32-inputs\\13_desire.bin",
+      "bytes": 32,
+      "sha256": "66687aadf862bd776c8fc18b8e9f8e20089714856ee233b3902a591d0d5f2925"
+    },
+    {
+      "frame": 13,
+      "input": "traffic_convention",
+      "source": "C:\\Users\\sunbo\\Documents\\moto-x40-root\\parity-varied\\13_traffic_convention.bin",
+      "path": "C:\\Users\\sunbo\\Documents\\openpilot\\reports\\jetlink-precision-audit-20261101\\phone-policy-cpu32-inputs\\13_traffic_convention.bin",
+      "bytes": 8,
+      "sha256": "434b26042aff3fb844a4c4c6be0d81a079b0ce84cfb8190679024404e5dc4822"
+    },
+    {
+      "frame": 13,
+      "input": "action_t",
+      "source": "C:\\Users\\sunbo\\Documents\\moto-x40-root\\parity-varied\\13_action_t.bin",
+      "path": "C:\\Users\\sunbo\\Documents\\openpilot\\reports\\jetlink-precision-audit-20261101\\phone-policy-cpu32-inputs\\13_action_t.bin",
+      "bytes": 8,
+      "sha256": "48b8d9f185ec8d094f4555a47626143fa7ab7db441c15abd951303d5ae303e6c"
+    },
+    {
+      "frame": 14,
+      "input": "view_39",
+      "source": "C:\\Users\\sunbo\\Documents\\openpilot\\reports\\jetlink-precision-audit-20261101\\phone-vision-cpu32-output\\vision-phone-cpu32-audit-20261101\\out_14.bin",
+      "path": "C:\\Users\\sunbo\\Documents\\openpilot\\reports\\jetlink-precision-audit-20261101\\phone-policy-cpu32-inputs\\14_view_39.bin",
+      "bytes": 65536,
+      "sha256": "2361561fbec8086000ea078769d8b8a4e8f33f6371886ace7a25ff1fa5b48f9c"
+    },
+    {
+      "frame": 14,
+      "input": "desire",
+      "source": "C:\\Users\\sunbo\\Documents\\moto-x40-root\\parity-varied\\14_desire.bin",
+      "path": "C:\\Users\\sunbo\\Documents\\openpilot\\reports\\jetlink-precision-audit-20261101\\phone-policy-cpu32-inputs\\14_desire.bin",
+      "bytes": 32,
+      "sha256": "66687aadf862bd776c8fc18b8e9f8e20089714856ee233b3902a591d0d5f2925"
+    },
+    {
+      "frame": 14,
+      "input": "traffic_convention",
+      "source": "C:\\Users\\sunbo\\Documents\\moto-x40-root\\parity-varied\\14_traffic_convention.bin",
+      "path": "C:\\Users\\sunbo\\Documents\\openpilot\\reports\\jetlink-precision-audit-20261101\\phone-policy-cpu32-inputs\\14_traffic_convention.bin",
+      "bytes": 8,
+      "sha256": "434b26042aff3fb844a4c4c6be0d81a079b0ce84cfb8190679024404e5dc4822"
+    },
+    {
+      "frame": 14,
+      "input": "action_t",
+      "source": "C:\\Users\\sunbo\\Documents\\moto-x40-root\\parity-varied\\14_action_t.bin",
+      "path": "C:\\Users\\sunbo\\Documents\\openpilot\\reports\\jetlink-precision-audit-20261101\\phone-policy-cpu32-inputs\\14_action_t.bin",
+      "bytes": 8,
+      "sha256": "74fa05a05e338f4a0e50b959b36c057fcc1acb2449e9606d2d073b8266ebe5dc"
+    },
+    {
+      "frame": 15,
+      "input": "view_39",
+      "source": "C:\\Users\\sunbo\\Documents\\openpilot\\reports\\jetlink-precision-audit-20261101\\phone-vision-cpu32-output\\vision-phone-cpu32-audit-20261101\\out_15.bin",
+      "path": "C:\\Users\\sunbo\\Documents\\openpilot\\reports\\jetlink-precision-audit-20261101\\phone-policy-cpu32-inputs\\15_view_39.bin",
+      "bytes": 65536,
+      "sha256": "036f6332b86b318a373bdcc55a29add3cdabbc60e0587f0b74fbcdbd0b3e6dbb"
+    },
+    {
+      "frame": 15,
+      "input": "desire",
+      "source": "C:\\Users\\sunbo\\Documents\\moto-x40-root\\parity-varied\\15_desire.bin",
+      "path": "C:\\Users\\sunbo\\Documents\\openpilot\\reports\\jetlink-precision-audit-20261101\\phone-policy-cpu32-inputs\\15_desire.bin",
+      "bytes": 32,
+      "sha256": "66687aadf862bd776c8fc18b8e9f8e20089714856ee233b3902a591d0d5f2925"
+    },
+    {
+      "frame": 15,
+      "input": "traffic_convention",
+      "source": "C:\\Users\\sunbo\\Documents\\moto-x40-root\\parity-varied\\15_traffic_convention.bin",
+      "path": "C:\\Users\\sunbo\\Documents\\openpilot\\reports\\jetlink-precision-audit-20261101\\phone-policy-cpu32-inputs\\15_traffic_convention.bin",
+      "bytes": 8,
+      "sha256": "434b26042aff3fb844a4c4c6be0d81a079b0ce84cfb8190679024404e5dc4822"
+    },
+    {
+      "frame": 15,
+      "input": "action_t",
+      "source": "C:\\Users\\sunbo\\Documents\\moto-x40-root\\parity-varied\\15_action_t.bin",
+      "path": "C:\\Users\\sunbo\\Documents\\openpilot\\reports\\jetlink-precision-audit-20261101\\phone-policy-cpu32-inputs\\15_action_t.bin",
+      "bytes": 8,
+      "sha256": "5e1b62f82b4347ae16bd6b53d9e2972da9ff2b52f5a83e5d8b8e2a6adea78b55"
+    }
+  ]
+}

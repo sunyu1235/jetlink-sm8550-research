@@ -1,0 +1,143 @@
+{
+  "status": "host_simulation_and_onnx_checker_passed_pending_strict_htp_execution",
+  "model": {
+    "path": "C:\\Users\\sunbo\\Documents\\openpilot\\outputs\\jetlink-gelu-optimization-20261101\\partition-tuning-20261109\\bounded-gelu\\bounded-gelu-finite-domain.onnx",
+    "bytes": 132139,
+    "sha256": "b63322b8c016444572bd06f95b3e338c150a2b2d536d935914b01aec5c27d716"
+  },
+  "input": {
+    "path": "C:\\Users\\sunbo\\Documents\\openpilot\\outputs\\jetlink-gelu-optimization-20261101\\partition-tuning-20261109\\bounded-gelu\\inputs\\0_x.bin",
+    "bytes": 126976,
+    "sha256": "2da4a859a17780f673138e72e4e2e6959131ff59f8f5c34d4f68598e722885fe"
+  },
+  "input_dtype": "FLOAT16",
+  "input_shape": [
+    1,
+    31,
+    32,
+    64
+  ],
+  "finite_fp16_count": 63488,
+  "enumeration": "ascending UINT16 bit patterns with exponent !=31; includes both signed zeros, excludes all NaN/Inf",
+  "identity": "Gelu(x) = Relu(x) + Gelu(-abs(x)); separately preserves erf and tanh definitions",
+  "table": {
+    "samples_per_formula": 32769,
+    "step_reciprocal": 4096,
+    "domain_abs": [
+      0,
+      8
+    ],
+    "dtype": "FLOAT16",
+    "formulas": 2,
+    "total_raw_bytes": 131076,
+    "erf": {
+      "path": "C:\\Users\\sunbo\\Documents\\openpilot\\outputs\\jetlink-gelu-optimization-20261101\\partition-tuning-20261109\\bounded-gelu\\table-erf.bin",
+      "bytes": 65538,
+      "sha256": "9931c06740b0f0ced529b6475586362c4695fa921f26fed782049b5b78c862fb"
+    },
+    "tanh": {
+      "path": "C:\\Users\\sunbo\\Documents\\openpilot\\outputs\\jetlink-gelu-optimization-20261101\\partition-tuning-20261109\\bounded-gelu\\table-tanh.bin",
+      "bytes": 65538,
+      "sha256": "ed6166f5577d6221a798b81d5463c1e97931e20e2acaec4ca7a79d850e645836"
+    }
+  },
+  "index": {
+    "method": "FP16 Abs -> Clip(0,8) -> Mul(4096) -> Cast(INT32 truncation)",
+    "minimum": 0,
+    "maximum": 32768,
+    "table_last_index": 32768,
+    "out_of_bounds_count": 0,
+    "fp16_scaling_matches_double_floor_for_all_finite_inputs": true,
+    "int32_arithmetic_nodes": 0,
+    "gather_indices_rank": 4,
+    "ideal_reference": {
+      "path": "C:\\Users\\sunbo\\Documents\\openpilot\\outputs\\jetlink-gelu-optimization-20261101\\partition-tuning-20261109\\bounded-gelu\\reference\\index.bin",
+      "bytes": 253952,
+      "sha256": "fa2b49ec34c633d51f795f7df90c0c0c71ef8d827a5ece1857c85252a43fec79"
+    }
+  },
+  "implementation": {
+    "nodes": 9,
+    "shared_nodes": [
+      "Abs",
+      "Clip",
+      "Mul",
+      "Cast",
+      "Relu"
+    ],
+    "per_formula_nodes": [
+      "Gather",
+      "Add"
+    ],
+    "floating_intermediates": "all FLOAT16",
+    "integer_intermediates": "index only, INT32",
+    "gather": "Direct rank4 nonnegative INT32 indices; ORT1.29 standard Gather builder has no rank1-only restriction and delegates final shape validation to QNN.",
+    "gather_builder_source": "https://github.com/microsoft/onnxruntime/blob/v1.29.0/onnxruntime/core/providers/qnn/builder/opbuilder/gather_op_builder.cc"
+  },
+  "approximation_scope": {
+    "grid_truncation_correction_bound_before_fp16_rounding": 0.0001220703125,
+    "extra_rounding": "FP16 correction-table storage and final FP16 addition; full measured host errors below include both",
+    "tail": "abs(x)>8 uses correction at8; negligible tail correction rounds to signed zero in FP16",
+    "acceptance": "No model precision thresholds changed. Operator error and full-model recurrent error require device validation."
+  },
+  "host_fp16_simulation": {
+    "erf": {
+      "max_abs": 0.0009765625,
+      "rms": 5.1347339767890684e-05,
+      "mean_abs": 2.396788125136687e-05,
+      "nonfinite_count": 0,
+      "max_error_input": 1.1484375,
+      "max_error_input_bits": "0x3c98",
+      "max_error_actual": 1.00390625,
+      "max_error_reference": 1.0048828125,
+      "value_mismatch_count": 24565,
+      "signed_zero_bit_mismatches": 13895,
+      "pre_add_round_max_abs_vs_fp16_reference": 0.0009765625
+    },
+    "tanh": {
+      "max_abs": 0.001953125,
+      "rms": 5.253324495518328e-05,
+      "mean_abs": 2.40909360018709e-05,
+      "nonfinite_count": 0,
+      "max_error_input": 2.51171875,
+      "max_error_input_bits": "0x4106",
+      "max_error_actual": 2.49609375,
+      "max_error_reference": 2.498046875,
+      "value_mismatch_count": 24584,
+      "signed_zero_bit_mismatches": 14007,
+      "pre_add_round_max_abs_vs_fp16_reference": 0.0009765625
+    }
+  },
+  "double_formula_to_fp16_references": {
+    "erf": {
+      "path": "C:\\Users\\sunbo\\Documents\\openpilot\\outputs\\jetlink-gelu-optimization-20261101\\partition-tuning-20261109\\bounded-gelu\\reference\\erf.bin",
+      "bytes": 126976,
+      "sha256": "8ac73cab7c4de48c4dfcd108d4967d3bb6770f9a6bfb6df07cb65333015bd146"
+    },
+    "tanh": {
+      "path": "C:\\Users\\sunbo\\Documents\\openpilot\\outputs\\jetlink-gelu-optimization-20261101\\partition-tuning-20261109\\bounded-gelu\\reference\\tanh.bin",
+      "bytes": 126976,
+      "sha256": "7bff2507d3ea721f304ccfc658f578c430707ea9ca56b219ead83a56f62e91f8"
+    }
+  },
+  "host_simulated_outputs": {
+    "erf": {
+      "path": "C:\\Users\\sunbo\\Documents\\openpilot\\outputs\\jetlink-gelu-optimization-20261101\\partition-tuning-20261109\\bounded-gelu\\host-fp16-simulation\\erf.bin",
+      "bytes": 126976,
+      "sha256": "93f6b54e0053a43be669001a6ee1a3ceef87259bfb1939498e5210189c4046f3"
+    },
+    "tanh": {
+      "path": "C:\\Users\\sunbo\\Documents\\openpilot\\outputs\\jetlink-gelu-optimization-20261101\\partition-tuning-20261109\\bounded-gelu\\host-fp16-simulation\\tanh.bin",
+      "bytes": 126976,
+      "sha256": "350872e8aff0128fea16b169039097995f5740ab3567a9f86e55a4a43e7e8904"
+    },
+    "index": {
+      "path": "C:\\Users\\sunbo\\Documents\\openpilot\\outputs\\jetlink-gelu-optimization-20261101\\partition-tuning-20261109\\bounded-gelu\\host-fp16-simulation\\index.bin",
+      "bytes": 253952,
+      "sha256": "fa2b49ec34c633d51f795f7df90c0c0c71ef8d827a5ece1857c85252a43fec79"
+    }
+  },
+  "onnx_checker_full_check": "passed",
+  "shape_inference_strict": "passed",
+  "device_execution": "not performed by preparation script"
+}

@@ -1,0 +1,148 @@
+Filesystem       Size Used Avail Use% Mounted on
+/dev/block/dm-50 214G  25G  189G  12% /data/user/0
+total 776146
+drwx------ 2 u0_a343 u0_a343      3452 2026-10-31 15:55 gpu-cache
+-rw------- 1 u0_a343 u0_a343 793980992 2026-10-31 15:55 model.tflite
+drwx------ 2 u0_a343 u0_a343      3452 2026-10-31 15:55 npu-cache
+{
+  "accelerator" : "GPU(fp16)",
+  "artifact_bytes" : 793980992,
+  "backend" : "litert",
+  "build_seconds" : 12.4,
+  "built_at" : "2026-10-31T07:55:36Z",
+  "compile_seconds" : 11.8,
+  "convert_seconds" : 0.6,
+  "device" : "gpu-SM8550",
+  "litert" : "2.2.0",
+  "load_seconds" : 7.7,
+  "onnx" : "6274eb4a3f3eb7ad.onnx",
+  "prepare" : 1,
+  "preparer" : "swift",
+  "spec" : {
+    "checkpoint" : "f22e06e5-3b3f-48d2-a6b9-2f32dc20e707/56320/f22b8b34-0983-4185-a453-a87b73798d61/16384",
+    "frame_skip" : 4,
+    "input_shapes" : {
+      "action_t" : [
+        1,
+        2
+      ],
+      "desire" : [
+        8
+      ],
+      "new_img" : [
+        2,
+        6,
+        128,
+        256
+      ],
+      "state_desire_q" : [
+        132,
+        1,
+        8
+      ],
+      "state_feat_q" : [
+        128,
+        1,
+        16384
+      ],
+      "state_img_q" : [
+        2,
+        5,
+        6,
+        128,
+        256
+      ],
+      "traffic_convention" : [
+        1,
+        2
+      ]
+    },
+    "nbytes" : 792305602,
+    "output_shapes" : {
+      "next_state_desire_q" : [
+        132,
+        1,
+        8
+      ],
+      "next_state_feat_q" : [
+        128,
+        1,
+        16384
+      ],
+      "next_state_img_q" : [
+        2,
+        5,
+        6,
+        128,
+        256
+      ],
+      "outputs" : [
+        1,
+        18452
+      ]
+    },
+    "output_slices" : {
+      "action" : [
+        2062,
+        2066
+      ],
+      "desire_pred" : [
+        855,
+        887
+      ],
+      "desire_state" : [
+        2054,
+        2062
+      ],
+      "hidden_state" : [
+        2066,
+        18450
+      ],
+      "lane_lines" : [
+        0,
+        528
+      ],
+      "lane_lines_prob" : [
+        528,
+        536
+      ],
+      "lead" : [
+        1907,
+        2051
+      ],
+      "lead_prob" : [
+        2051,
+        2054
+      ],
+      "meta" : [
+        800,
+        855
+      ],
+      "pad" : [
+        18450,
+        18452
+      ],
+      "plan" : [
+        917,
+        1907
+      ],
+      "pose" : [
+        887,
+        899
+      ],
+      "road_edges" : [
+        536,
+        800
+      ],
+      "road_transform" : [
+        905,
+        917
+      ],
+      "wide_from_device_euler" : [
+        899,
+        905
+      ]
+    },
+    "sha256" : "6274eb4a3f3eb7ad1ab341d222bbba2ba709b06645dbbd15ac4971d6cb22ab21"
+  }
+}{"sha256": "6274eb4a3f3eb7ad1ab341d222bbba2ba709b06645dbbd15ac4971d6cb22ab21", "frame_skip": 4, "backend": "ort"}{"at":1793433323.5841513,"by":"here","name":"light-speed","nbytes":792305602,"sha256":"6274eb4a3f3eb7ad1ab341d222bbba2ba709b06645dbbd15ac4971d6cb22ab21"}

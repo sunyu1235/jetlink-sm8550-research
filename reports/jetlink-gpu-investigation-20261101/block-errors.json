@@ -1,0 +1,59 @@
+{
+  "purpose": "one captured input, one block; not full-model accuracy",
+  "results": {
+    "gpu32": {
+      "vs_cpu_fp16": {
+        "mae": 0.0012406675727674177,
+        "max_abs": 0.46337890625,
+        "rmse": 0.004645748658006422,
+        "correlation": 0.9999999655183867,
+        "exact_fraction": 0.000152587890625,
+        "elements": 65536
+      },
+      "vs_cpu_fp32": {
+        "mae": 3.1257245844962256e-06,
+        "max_abs": 0.00152587890625,
+        "rmse": 1.4312515793773723e-05,
+        "correlation": 0.9999999999996523,
+        "exact_fraction": 0.23974609375,
+        "elements": 65536
+      }
+    },
+    "gpu16": {
+      "vs_cpu_fp16": {
+        "mae": 0.0032510063219888252,
+        "max_abs": 0.75,
+        "rmse": 0.009994497856719891,
+        "correlation": 0.999999834349342,
+        "exact_fraction": 0.4657135009765625,
+        "elements": 65536
+      },
+      "vs_cpu_fp32": {
+        "mae": 0.0033640535981875885,
+        "max_abs": 0.4637451171875,
+        "rmse": 0.00867363516133646,
+        "correlation": 0.9999998725943859,
+        "exact_fraction": 3.0517578125e-05,
+        "elements": 65536
+      }
+    },
+    "htp16": {
+      "vs_cpu_fp16": {
+        "mae": 0.014173908509292232,
+        "max_abs": 1.4375,
+        "rmse": 0.03715962293546577,
+        "correlation": 0.9999977190627388,
+        "exact_fraction": 0.2716217041015625,
+        "elements": 65536
+      },
+      "vs_cpu_fp32": {
+        "mae": 0.014326906020774466,
+        "max_abs": 1.43597412109375,
+        "rmse": 0.03714323212689227,
+        "correlation": 0.9999977459606603,
+        "exact_fraction": 3.0517578125e-05,
+        "elements": 65536
+      }
+    }
+  }
+}

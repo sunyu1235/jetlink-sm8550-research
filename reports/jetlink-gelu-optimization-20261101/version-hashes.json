@@ -1,0 +1,354 @@
+{
+  "purpose": "offline evidence/version inventory; no phone operations",
+  "root": "C:\\Users\\sunbo\\Documents\\openpilot",
+  "artifacts": {
+    "both63_ctx_model": {
+      "path": "outputs/jetlink-gelu-repair-20261101/light-speed-gelu-both-ctx.onnx",
+      "exists": true,
+      "size_bytes": 34651,
+      "sha256": "2c8b28e972af55ca3592c386b049674f9da946fce2fd6a82b0e5877c98d6d68f"
+    },
+    "both63_inline_shapes_model": {
+      "path": "outputs/jetlink-gelu-repair-20261101/light-speed-gelu-both-inline-shapes.onnx",
+      "exists": true,
+      "size_bytes": 4370514,
+      "sha256": "25fc313b4f51edd3bd23a9a220f6a30476f3ac68e895f4de8c68545174c228e9"
+    },
+    "both63_whole_model": {
+      "path": "outputs/jetlink-gelu-repair-20261101/light-speed-gelu-both.onnx",
+      "exists": true,
+      "size_bytes": 791639181,
+      "sha256": "9268de3ae9c86d55d64265691bc00a7e1ca418bca57cb895848be806995a7721"
+    },
+    "history_runner": {
+      "path": "outputs/jetlink-gelu-repair-20261101/history_probe",
+      "exists": true,
+      "size_bytes": 28168,
+      "sha256": "377147782e0c0c7c923f18dee72d337f6d8a02af402d2f4a1e363d7917b6fbb3"
+    },
+    "original_cpu_gelu_library": {
+      "path": "outputs/jetlink-gelu-repair-20261101/libspecifiedgelu.so",
+      "exists": true,
+      "size_bytes": 12200,
+      "sha256": "3f682906d26ff829cdf8ecda2f32d9bcb05f4450f1c9afc211fcb0991082f700"
+    },
+    "unrolled_cpu_gelu_library": {
+      "path": "outputs/jetlink-gelu-optimization-20261101/cpu/libunrolledgelu.so",
+      "exists": true,
+      "size_bytes": 12368,
+      "sha256": "e584e093a62c2942a380ed560386521e125ef161d02432b716eb201f809f598b"
+    },
+    "spin_probe_source": {
+      "path": "reports/jetlink-gelu-optimization-20261101/spin/spin_probe.c",
+      "exists": true,
+      "size_bytes": 7629,
+      "sha256": "c459ada275db4238b8f489941c3096fee7d53ba50c76f7f29419e82ad643d44d"
+    },
+    "spin_probe_binary": {
+      "path": "outputs/jetlink-gelu-optimization-20261101/spin/spin_probe",
+      "exists": true,
+      "size_bytes": 28376,
+      "sha256": "cca85c2f121ecb6314bd2f328ccaf554339aa6789fe61a4779aad701f224ccb8"
+    },
+    "native_lut_probe_source": {
+      "path": "reports/jetlink-gelu-optimization-20261101/lut/int32_probe.c",
+      "exists": true,
+      "size_bytes": 6172,
+      "sha256": "0deacb77a1a950b9407a70d8a7b65430769f036aa2dd8f611ca7a9230b530a69"
+    },
+    "native_lut_probe_binary": {
+      "path": "outputs/jetlink-gelu-optimization-20261101/lut/int32_probe",
+      "exists": true,
+      "size_bytes": 26704,
+      "sha256": "c8643a581c165c6f366455a7649b785c5cb932893eec82d4782605fe93680d5f"
+    },
+    "unrolled_cpu_source": {
+      "path": "reports/jetlink-gelu-optimization-20261101/cpu/unrolled_gelu.c",
+      "exists": true,
+      "size_bytes": 7103,
+      "sha256": "3f8a210bb8137b5df36a4e933d8b38b9361c1bb1bc9b85a3e32cce184ab3c923"
+    },
+    "unrolled_cpu_unit_proof": {
+      "path": "reports/jetlink-gelu-optimization-20261101/cpu/unit-proof.json",
+      "exists": true,
+      "size_bytes": 244,
+      "sha256": "838823245982b25998136c8f67cbb8c23747fd360b29513b61ae9415a2459e91"
+    },
+    "spin_smoke_proof": {
+      "path": "reports/jetlink-gelu-optimization-20261101/spin/smoke-proof.json",
+      "exists": true,
+      "size_bytes": 59,
+      "sha256": "68b4991939c598559dbf13a2e151a9b4dc56205355e1b0aeb118225d572fd2d0"
+    },
+    "lut_cast_result": {
+      "path": "reports/jetlink-gelu-optimization-20261101/lut/cast-errors.json",
+      "exists": true,
+      "size_bytes": 81,
+      "sha256": "ba1b015462db241722ae5e90c1b403a351a3aba39b13cb46d64ae5d9309b9ee1"
+    },
+    "lut_gather_result": {
+      "path": "reports/jetlink-gelu-optimization-20261101/lut/gather-errors.json",
+      "exists": true,
+      "size_bytes": 117,
+      "sha256": "6e4aab2101d4cefa0c8318b52b61093fa74d06e6e4c58bc655853a377b686851"
+    },
+    "lut_index_result": {
+      "path": "reports/jetlink-gelu-optimization-20261101/lut/index-errors.json",
+      "exists": true,
+      "size_bytes": 1302,
+      "sha256": "333f6780cc91ec94c068ae660250f6a2e63989985ce1f212bf52cf14dd384f61"
+    },
+    "lut_combined_failure_log": {
+      "path": "reports/jetlink-gelu-optimization-20261101/lut/native-erf-domain.log",
+      "exists": true,
+      "size_bytes": 276,
+      "sha256": "7dcbea8d3399338d631d88553759c19dd99ed5bbc6764b7276e706164712e85c"
+    },
+    "shared_ab_summary": {
+      "path": "reports/jetlink-gelu-optimization-20261101/ab/summary.json",
+      "exists": true,
+      "size_bytes": 3764,
+      "sha256": "9847ea61319a22b46c024378df9bad3d32b34cdd4815492b8f6a57556d241c83"
+    },
+    "shared_ab_hash_manifest": {
+      "path": "reports/jetlink-gelu-optimization-20261101/ab/hash-manifest.json",
+      "exists": true,
+      "size_bytes": 99684,
+      "sha256": "1229ca8a31a42da5299e051c9411cc55358ab3949e7c5d7bdbbe027e9b5ecd30"
+    },
+    "affinity_ab_summary": {
+      "path": "reports/jetlink-gelu-optimization-20261101/affinity/summary.json",
+      "exists": true,
+      "size_bytes": 41630,
+      "sha256": "cda3291177ee87892cfb6549ca494c990084edf5ef604d49233d0a64f34370c6"
+    },
+    "affinity_ab_hash_manifest": {
+      "path": "reports/jetlink-gelu-optimization-20261101/affinity/hash-manifest.json",
+      "exists": true,
+      "size_bytes": 47193,
+      "sha256": "264fd7dd471bb8184fc56eaaaad3745c1c1712ffcfa1703475ef210f7e95099a"
+    },
+    "unrolled_ab_summary": {
+      "path": "reports/jetlink-gelu-optimization-20261101/cpu/ab/summary.json",
+      "exists": true,
+      "size_bytes": 42263,
+      "sha256": "70470031004693cf2f853a63f2006734896265590368c40e3454bd20b2c8e915"
+    },
+    "unrolled_ab_hash_manifest": {
+      "path": "reports/jetlink-gelu-optimization-20261101/cpu/ab/hash-manifest.json",
+      "exists": true,
+      "size_bytes": 49604,
+      "sha256": "a290711cd1063cf05b18afd05186479da398fd54485c1325712fcb6d18d12640"
+    },
+    "thread_runner_source": {
+      "path": "reports/jetlink-gelu-optimization-20261101/threads/history_probe_threads.c",
+      "exists": true,
+      "size_bytes": 7940,
+      "sha256": "957d2fa4b9737a412b338f462032c9725d1a396ea6c8ea63a44d05b2baf0fa69"
+    },
+    "thread_runner_binary": {
+      "path": "outputs/jetlink-gelu-optimization-20261101/threads/history_probe_threads",
+      "exists": true,
+      "size_bytes": 28608,
+      "sha256": "57091fba0fb396483fce99881e307ede319c44e36ed2df93b94cd7579195a1ac"
+    },
+    "thread_build_manifest": {
+      "path": "reports/jetlink-gelu-optimization-20261101/threads/build-manifest.json",
+      "exists": true,
+      "size_bytes": 3605,
+      "sha256": "598acdc3a6f6c6ef8b4f25c63815ca2ef7ecca17a257a295dae2a94b72ac0ad0"
+    },
+    "thread_experiment_summary": {
+      "path": "reports/jetlink-gelu-optimization-20261101/threads/summary.json",
+      "exists": true,
+      "size_bytes": 43229,
+      "sha256": "51fa30487962c879eb39626f877c4ac0d6f45043b0cc4711ddd650dabd00e630"
+    },
+    "thread_experiment_checks": {
+      "path": "reports/jetlink-gelu-optimization-20261101/threads/checks.json",
+      "exists": true,
+      "size_bytes": 466,
+      "sha256": "deed2ca2c3d5170186313f829dbb4f69819d91d963130af16b59010f648f0b26"
+    },
+    "thread_experiment_report": {
+      "path": "reports/jetlink-gelu-optimization-20261101/threads/README.md",
+      "exists": true,
+      "size_bytes": 3420,
+      "sha256": "87fef075af50b7ee2f2321f3f200b1c03dd05457fa9b6b19ee9e5429d5323fee"
+    },
+    "input_manifest": {
+      "path": "reports/jetlink-gelu-history-20261101/input-manifest.json",
+      "exists": true,
+      "size_bytes": 229633,
+      "sha256": "7709ab36dadc4f50e1b2cc3d0306f8998e2714092446b2c34319a7ac5256ecbd"
+    },
+    "sdk_research": {
+      "path": "reports/jetlink-gelu-optimization-20261101/sdk/README.md",
+      "exists": true,
+      "size_bytes": 10020,
+      "sha256": "c223f4bfb77cf043f61a409851a7d620a03798cba54d06dcbcab9a4690ce1608"
+    },
+    "optimization_summary": {
+      "path": "reports/jetlink-gelu-optimization-20261101/README.md",
+      "exists": true,
+      "size_bytes": 9307,
+      "sha256": "cb5fc1907f9cbda0938c97999ea44f2722bb62e4fb8afea7f250e7a91dbb152f"
+    },
+    "stress_run_summary": {
+      "path": "reports/jetlink-gelu-optimization-20261101/stress/best-1000-summary.json",
+      "exists": true,
+      "size_bytes": 1340,
+      "sha256": "4bf484789c5db42c1d5bb13f16828474b3155640773cb4c81841157100fe1fdf"
+    },
+    "stress_run_csv": {
+      "path": "reports/jetlink-gelu-optimization-20261101/stress/best-1000.csv",
+      "exists": true,
+      "size_bytes": 45809,
+      "sha256": "4ee63c972908c8182a37ace4c1d971c923d5619c681307c6c07c0a51ca689cc4"
+    },
+    "stress_prefix_parity_summary": {
+      "path": "reports/jetlink-gelu-optimization-20261101/stress/prefix160-verification/summary.json",
+      "exists": true,
+      "size_bytes": 24504,
+      "sha256": "2c870d47746ffba55e6db3c013f8314fbf6cb858343267aacca86f1964c47346"
+    },
+    "stress_prefix_parity_output": {
+      "path": "reports/jetlink-gelu-optimization-20261101/stress/prefix160-verification/verify-parity.stdout.txt",
+      "exists": true,
+      "size_bytes": 228223,
+      "sha256": "018871e4f7121f2991b83b0cd09f5e2a37a0d76f6cc89e127fef9c6b5c2b72ca"
+    },
+    "native_lut_report": {
+      "path": "reports/jetlink-gelu-optimization-20261101/lut/README.md",
+      "exists": true,
+      "size_bytes": 1637,
+      "sha256": "65bf476867fd84efd04f216f2d95ba1612e4ca552f4462ceb19ad6524219e840"
+    },
+    "accurate_ort_profile_summary": {
+      "path": "reports/jetlink-gelu-optimization-20261101/profile-20261102/ort-profile-summary.json",
+      "exists": true,
+      "size_bytes": 32851,
+      "sha256": "076b40ceb2944b53d55ea66a9db77adaabfd87477617b63c0efdc6909111b0f9"
+    },
+    "accurate_ort_profile_report": {
+      "path": "reports/jetlink-gelu-optimization-20261101/profile-20261102/README.md",
+      "exists": true,
+      "size_bytes": 1802,
+      "sha256": "ba91e57cc40550a7a6d15b3c0a58df598b6b01064456520a5fee3b47b1858bb7"
+    },
+    "accurate_qnn_optrace_attempt_log": {
+      "path": "reports/jetlink-gelu-optimization-20261101/profile-20261102/accurate-qnn-optrace.stdout.txt",
+      "exists": true,
+      "size_bytes": 68,
+      "sha256": "77f99b82cb7c44c87f1560e77950595239781992d614fe834057e2e1a81cfc0b"
+    },
+    "native_gelu_all_htp_qnn_optrace_csv": {
+      "path": "outputs/jetlink-gelu-optimization-20261101/profile-optrace/artifacts/jetlink_qnn_optrace_20261102.csv",
+      "exists": true,
+      "size_bytes": 665647,
+      "sha256": "98bf833b12c60589220188efd37899e83056f1c9edc2bbb25b178b53ece859ac"
+    },
+    "runtime_tuning_probe_source": {
+      "path": "reports/jetlink-gelu-optimization-20261101/runtime-tuning-20261102/history_probe_runtime_tuning.c",
+      "exists": true,
+      "size_bytes": 8093,
+      "sha256": "68322e8593114dfff8ca0cc20de5b281319215fc97f1b012b74b53f4f02d0a99"
+    },
+    "runtime_tuning_probe_build_manifest": {
+      "path": "reports/jetlink-gelu-optimization-20261101/runtime-tuning-20261102/build-manifest.json",
+      "exists": true,
+      "size_bytes": 885,
+      "sha256": "8579b28dbe0ab0d48be95de58a078d7c5d53c0f89997edaf2af15e70a25023fe"
+    },
+    "runtime_tuning_probe_build_script": {
+      "path": "reports/jetlink-gelu-optimization-20261101/runtime-tuning-20261102/build_probe.ps1",
+      "exists": true,
+      "size_bytes": 2049,
+      "sha256": "6b9dc6346f0fd5ccfe1217be676e9b4d79a6a17fd769f7e8cdfa67e51855eccd"
+    },
+    "runtime_tuning_probe_report": {
+      "path": "reports/jetlink-gelu-optimization-20261101/runtime-tuning-20261102/README.md",
+      "exists": true,
+      "size_bytes": 5481,
+      "sha256": "da8c3512c7cf3350258bf7f5ef6ba419e2fa68ae0f04f8fbb9228614da7d6214"
+    },
+    "runtime_tuning_probe_binary": {
+      "path": "outputs/jetlink-gelu-optimization-20261101/runtime-tuning-20261102/history_probe_runtime_tuning",
+      "exists": true,
+      "size_bytes": 28504,
+      "sha256": "cdc766826e6eff2001824075c0513b00b73bd3cae2c10fe44def6245d6937210"
+    },
+    "partition_tuning_extractor": {
+      "path": "reports/jetlink-gelu-optimization-20261101/partition-tuning-20261109/extract_partition.py",
+      "exists": true,
+      "size_bytes": 13618,
+      "sha256": "b92a516e7ba36c02ffefcaa946d0f740ce8fa3bc7124a109fa702d10a6657d2f"
+    },
+    "partition_tuning_manifest": {
+      "path": "reports/jetlink-gelu-optimization-20261101/partition-tuning-20261109/extraction-manifest.json",
+      "exists": true,
+      "size_bytes": 34710,
+      "sha256": "75f49ec810abe81c5c41bb4662558256aba79f9f84d7c52f3d781a443b2c1139"
+    },
+    "partition_tuning_probe_source": {
+      "path": "reports/jetlink-gelu-optimization-20261101/partition-tuning-20261109/partition_probe.c",
+      "exists": true,
+      "size_bytes": 9350,
+      "sha256": "7fbd0c219d5129a415f230753940add8a0527775dcac41fc6ddff9f56496e3a7"
+    },
+    "partition_tuning_probe_binary": {
+      "path": "outputs/jetlink-gelu-optimization-20261101/partition-tuning-20261109/partition_probe",
+      "exists": true,
+      "size_bytes": 29848,
+      "sha256": "e4b7ba5ab49c68f9718c30f344fb018bd5f1ffaed3e52de1417f78307c1f0d0f"
+    },
+    "partition_tuning_build_manifest": {
+      "path": "reports/jetlink-gelu-optimization-20261101/partition-tuning-20261109/build-manifest.json",
+      "exists": true,
+      "size_bytes": 863,
+      "sha256": "b8bce99521839b91d420397fbdd044465693ca2e21cc45a67e0530721f5649b1"
+    },
+    "partition_tuning_build_script": {
+      "path": "reports/jetlink-gelu-optimization-20261101/partition-tuning-20261109/build_probe.ps1",
+      "exists": true,
+      "size_bytes": 2034,
+      "sha256": "5cf7af4ec5892219a5d5957b7d10d76d6ce2fc1fcf791e462e79983a2e4a3433"
+    },
+    "partition_tuning_runner": {
+      "path": "reports/jetlink-gelu-optimization-20261101/partition-tuning-20261109/run_partition_aba.ps1",
+      "exists": true,
+      "size_bytes": 7403,
+      "sha256": "b0674e9b7c265b967a65cfa4e6595f9fd5913befd08986cfe31f05cb7cb4887a"
+    },
+    "partition_tuning_analyzer": {
+      "path": "reports/jetlink-gelu-optimization-20261101/partition-tuning-20261109/analyze_partition.py",
+      "exists": true,
+      "size_bytes": 10187,
+      "sha256": "3b3d9223dc208714a5632f182397fa18aa0acac83733a8639191d2628bd19f9e"
+    },
+    "partition_tuning_report": {
+      "path": "reports/jetlink-gelu-optimization-20261101/partition-tuning-20261109/README.md",
+      "exists": true,
+      "size_bytes": 4810,
+      "sha256": "cc7e6ad19d49560f2e6a49cf27ff908c40a7f762ee211aaf3e234108887f31fb"
+    },
+    "partition_tuning_model": {
+      "path": "outputs/jetlink-gelu-optimization-20261101/partition-tuning-20261109/partition-130-40.onnx",
+      "exists": true,
+      "size_bytes": 13002409,
+      "sha256": "6fd17ee6b41bfd9dc7582ffb9baa55546dcd8c415a939b699bae600f8ffa8a57"
+    },
+    "partition_tuning_capture_wrapper": {
+      "path": "outputs/jetlink-gelu-optimization-20261101/partition-tuning-20261109/accepted-context-capture-130-40.onnx",
+      "exists": true,
+      "size_bytes": 35066,
+      "sha256": "9f9817f8aa405a376ef39379f099c9c7804255da87b51c259f495f2d9fd4f474"
+    },
+    "optimization_summary_after_qnn_profile": {
+      "path": "reports/jetlink-gelu-optimization-20261101/README.md",
+      "exists": true,
+      "size_bytes": 9307,
+      "sha256": "cb5fc1907f9cbda0938c97999ea44f2722bb62e4fb8afea7f250e7a91dbb152f"
+    }
+  }
+}

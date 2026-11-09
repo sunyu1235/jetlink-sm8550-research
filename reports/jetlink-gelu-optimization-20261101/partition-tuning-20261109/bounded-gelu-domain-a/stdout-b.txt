@@ -1,0 +1,12 @@
+QNN tuning: soc_model=43 vtcm_mb=default profile=none
+ORT 1.29.0
+SESSION_CREATE_BEGIN
+SESSION_CREATE_END seconds=0.363
+in x 126976 bytes
+out erf 126976 bytes
+out tanh 126976 bytes
+out index 253952 bytes
+shared=0 rpc_us=0 n=8 mean_ms=1.966 p50_ms=1.954 p99_ms=2.096 min_ms=1.689 max_ms=2.366 over50=0
+RUNNER_EXIT=0
+/system/bin/sh: exit: bad number: 0
+

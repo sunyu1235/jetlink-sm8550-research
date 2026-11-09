@@ -1,0 +1,372 @@
+{
+  "device": "192.168.1.49:5555",
+  "backend": "QNN HTP FP16 (enable_htp_fp16_precision=1)",
+  "strict_cpu_fallback_disabled": true,
+  "operators": {
+    "depthwise_conv": {
+      "node_name": "node_conv2d_39",
+      "op_type": "Conv",
+      "attributes": {
+        "group": 2048,
+        "pads": [
+          3,
+          3,
+          3,
+          3
+        ],
+        "auto_pad": "NOTSET",
+        "strides": [
+          1,
+          1
+        ],
+        "dilations": [
+          1,
+          1
+        ]
+      },
+      "input_names_shapes_hashes": [
+        {
+          "name": "add_34",
+          "shape": [
+            1,
+            2048,
+            4,
+            8
+          ],
+          "dtype": "float16",
+          "bytes": 131072,
+          "sha256": "e3edfbf285040fe68ed03fcac1ba63c73b8f90347beafcc8ebf4df60c1e88ce7"
+        }
+      ],
+      "output_shape": [
+        1,
+        2048,
+        4,
+        8
+      ],
+      "output_dtype": "float16",
+      "qnn_output_type_enum": 10,
+      "nonfinite": 0,
+      "element_count": 65536,
+      "htp_output_sha256": "3dae06f3ca7646e39d5a9dd539e65b815e2ddb03950ff121b5072e5ee56832a4",
+      "cpu_fp16_ref_sha256": "e0c4099fca844ffdb1f7075a53792216cc1c06fef4d419e7ca07872dd7c0c1f1",
+      "cpu_fp32_math_ref_sha256": "df5d288afea496bf11def7fe26aaa286a156668b04bc5b7d3b01a785ce886545",
+      "htp_runtime_ms_one_run": {
+        "mean": 0.705,
+        "p50": 0.705,
+        "p99": 0.705
+      },
+      "htp_fp16_vs_cpu_fp16": {
+        "mae": 2.1836422092746943e-07,
+        "max_abs": 0.00390625,
+        "rmse": 2.4761204234657275e-05,
+        "normalized_rmse": 1.8915431258566333e-06,
+        "ref_std": 13.090478295832423,
+        "elements": 65536
+      },
+      "htp_fp16_vs_cpu_fp32_math": {
+        "mae": 0.0009918571531102316,
+        "max_abs": 0.23052978515625,
+        "rmse": 0.0027878960494291715,
+        "normalized_rmse": 0.00021297771868049464,
+        "ref_std": 13.09008316316658,
+        "elements": 65536
+      },
+      "cpu_fp16_vs_cpu_fp32_math": {
+        "mae": 0.0009918570730746978,
+        "max_abs": 0.23052978515625,
+        "rmse": 0.002787896037841737,
+        "normalized_rmse": 0.00021297771779528755,
+        "ref_std": 13.09008316316658,
+        "elements": 65536
+      },
+      "status": "PASS"
+    },
+    "layer_normalization": {
+      "node_name": "node_layer_norm_39",
+      "op_type": "LayerNormalization",
+      "attributes": {
+        "stash_type": 1,
+        "epsilon": 9.999999747378752e-06,
+        "axis": -1
+      },
+      "input_names_shapes_hashes": [
+        {
+          "name": "permute_78",
+          "shape": [
+            1,
+            4,
+            8,
+            2048
+          ],
+          "dtype": "float16",
+          "bytes": 131072,
+          "sha256": "88d789e60115814eed5763ba3dab28f4ede9b12178dcb509a56c932a7ff242bc"
+        }
+      ],
+      "output_shape": [
+        1,
+        4,
+        8,
+        2048
+      ],
+      "output_dtype": "float16",
+      "qnn_output_type_enum": 10,
+      "nonfinite": 0,
+      "element_count": 65536,
+      "htp_output_sha256": "f37660a9dadd9a19bd73456c8a4c6d7613d57b2172d0629791989f037abdddb8",
+      "cpu_fp16_ref_sha256": "3cbff4ae91644c80f43c022597b003d65c1462117f0a476ef0f3f0d801711e45",
+      "cpu_fp32_math_ref_sha256": "86119502566909f6e1007b90d769e8430786e4f42ef0e3aba0defe995c8de9a4",
+      "htp_runtime_ms_one_run": {
+        "mean": 0.529,
+        "p50": 0.529,
+        "p99": 0.529
+      },
+      "htp_fp16_vs_cpu_fp16": {
+        "mae": 3.883269528159872e-08,
+        "max_abs": 0.00048828125,
+        "rmse": 2.6223525830257025e-06,
+        "normalized_rmse": 1.2596540167768655e-05,
+        "ref_std": 0.2081803850977776,
+        "elements": 65536
+      },
+      "htp_fp16_vs_cpu_fp32_math": {
+        "mae": 1.914924398749296e-05,
+        "max_abs": 0.0018301010131835938,
+        "rmse": 4.102357702165652e-05,
+        "normalized_rmse": 0.00019705919986840717,
+        "ref_std": 0.2081789485040606,
+        "elements": 65536
+      },
+      "cpu_fp16_vs_cpu_fp32_math": {
+        "mae": 1.9149114171335135e-05,
+        "max_abs": 0.0018301010131835938,
+        "rmse": 4.1023551343101114e-05,
+        "normalized_rmse": 0.00019705907651993419,
+        "ref_std": 0.2081789485040606,
+        "elements": 65536
+      },
+      "status": "PASS"
+    },
+    "matmul_1": {
+      "node_name": "val_521__gemm__matmul",
+      "op_type": "MatMul",
+      "attributes": {},
+      "input_names_shapes_hashes": [
+        {
+          "name": "val_521__flat",
+          "shape": [
+            32,
+            2048
+          ],
+          "dtype": "float16",
+          "bytes": 131072,
+          "sha256": "3cbff4ae91644c80f43c022597b003d65c1462117f0a476ef0f3f0d801711e45"
+        }
+      ],
+      "output_shape": [
+        32,
+        8192
+      ],
+      "output_dtype": "float16",
+      "qnn_output_type_enum": 10,
+      "nonfinite": 0,
+      "element_count": 262144,
+      "htp_output_sha256": "e36ac16181fa5cb6e6ef0b4f697428cd62120ceb18f63a648bb8b07a98ea3646",
+      "cpu_fp16_ref_sha256": "c617e86760a30d5aeb1232052ab982d6ded0c5e00115894c5e83b441c2b1b41c",
+      "cpu_fp32_math_ref_sha256": "608b04ef82bfbe0a99edf05980665178d8403a824ff29ef2d3192b7d4712398d",
+      "htp_runtime_ms_one_run": {
+        "mean": 1.704,
+        "p50": 1.704,
+        "p99": 1.704
+      },
+      "htp_fp16_vs_cpu_fp16": {
+        "mae": 3.2837101571203675e-07,
+        "max_abs": 0.00390625,
+        "rmse": 2.0881414905035383e-05,
+        "normalized_rmse": 1.3835508893037433e-05,
+        "ref_std": 1.509262511879395,
+        "elements": 262144
+      },
+      "htp_fp16_vs_cpu_fp32_math": {
+        "mae": 0.00024485924428373175,
+        "max_abs": 0.0032100677490234375,
+        "rmse": 0.0003713599981685932,
+        "normalized_rmse": 0.00024605371032613156,
+        "ref_std": 1.5092639638572187,
+        "elements": 262144
+      },
+      "cpu_fp16_vs_cpu_fp32_math": {
+        "mae": 0.0002448587793728442,
+        "max_abs": 0.0032100677490234375,
+        "rmse": 0.0003713597855683344,
+        "normalized_rmse": 0.0002460535694625955,
+        "ref_std": 1.5092639638572187,
+        "elements": 262144
+      },
+      "status": "PASS"
+    },
+    "matmul_2": {
+      "node_name": "val_523__gemm__matmul",
+      "op_type": "MatMul",
+      "attributes": {},
+      "input_names_shapes_hashes": [
+        {
+          "name": "val_523__flat",
+          "shape": [
+            32,
+            8192
+          ],
+          "dtype": "float16",
+          "bytes": 524288,
+          "sha256": "0d6a7fb69db5006c254fdb3e2883c535ba3dcbd42660b2d4b95464b375f04c56"
+        }
+      ],
+      "output_shape": [
+        32,
+        2048
+      ],
+      "output_dtype": "float16",
+      "qnn_output_type_enum": 10,
+      "nonfinite": 0,
+      "element_count": 65536,
+      "htp_output_sha256": "866deab5cca1a2066289c0a72f83c523bfd60e4f290855b1801b4245f524495b",
+      "cpu_fp16_ref_sha256": "1a028cc26bc612e8abd9ce576d35feaaca2d0729286f5f03568530aff9899038",
+      "cpu_fp32_math_ref_sha256": "d616dda748222218a9c7fb750e1235ad4e7d766058f12f989bf644350ea989cc",
+      "htp_runtime_ms_one_run": {
+        "mean": 1.548,
+        "p50": 1.548,
+        "p99": 1.548
+      },
+      "htp_fp16_vs_cpu_fp16": {
+        "mae": 1.6054764273576438e-07,
+        "max_abs": 0.0009765625,
+        "rmse": 9.795986239245693e-06,
+        "normalized_rmse": 7.687960943552838e-06,
+        "ref_std": 1.2741982316469305,
+        "elements": 65536
+      },
+      "htp_fp16_vs_cpu_fp32_math": {
+        "mae": 0.00012144327409480127,
+        "max_abs": 0.012027740478515625,
+        "rmse": 0.00026968147288615886,
+        "normalized_rmse": 0.00021164543586783683,
+        "ref_std": 1.2742135060949906,
+        "elements": 65536
+      },
+      "cpu_fp16_vs_cpu_fp32_math": {
+        "mae": 0.00012144299831184924,
+        "max_abs": 0.012027740478515625,
+        "rmse": 0.00026968140241267796,
+        "normalized_rmse": 0.00021164538056040166,
+        "ref_std": 1.2742135060949906,
+        "elements": 65536
+      },
+      "status": "PASS"
+    },
+    "gelu": {
+      "node_name": "node_gelu_35",
+      "op_type": "Gelu",
+      "attributes": {
+        "approximate": "none"
+      },
+      "input_names_shapes_hashes": [
+        {
+          "name": "linear_70",
+          "shape": [
+            1,
+            4,
+            8,
+            8192
+          ],
+          "dtype": "float16",
+          "bytes": 524288,
+          "sha256": "0570d5b8b46b1dd189eb2eb422f8fed04e22ea50c676b56e5927048b456e0a68"
+        }
+      ],
+      "output_shape": [
+        1,
+        4,
+        8,
+        8192
+      ],
+      "output_dtype": "float16",
+      "qnn_output_type_enum": 10,
+      "nonfinite": 0,
+      "element_count": 262144,
+      "htp_output_sha256": "568ef93943cfdad17bd79bc0b2e0536c75963ae4918cbdb4ea72554e6db6f128",
+      "cpu_fp16_ref_sha256": "0d6a7fb69db5006c254fdb3e2883c535ba3dcbd42660b2d4b95464b375f04c56",
+      "cpu_fp32_math_ref_sha256": "a70278eca83ee99296e5c41898622c7b37690c2a3a2c1db79616240f559942eb",
+      "htp_runtime_ms_one_run": {
+        "mean": 1.025,
+        "p50": 1.025,
+        "p99": 1.025
+      },
+      "htp_fp16_vs_cpu_fp16": {
+        "mae": 0.0002215930940110411,
+        "max_abs": 0.0078125,
+        "rmse": 0.00040653508572277564,
+        "normalized_rmse": 0.003908968203527413,
+        "ref_std": 0.10400061206840273,
+        "elements": 262144
+      },
+      "htp_fp16_vs_cpu_fp32_math": {
+        "mae": 0.00022175873884211494,
+        "max_abs": 0.0078125,
+        "rmse": 0.0004062642623051674,
+        "normalized_rmse": 0.003906388766580409,
+        "ref_std": 0.10399995663022674,
+        "elements": 262144
+      },
+      "cpu_fp16_vs_cpu_fp32_math": {
+        "mae": 1.8619414315912408e-06,
+        "max_abs": 0.0009739398956298828,
+        "rmse": 1.779727482076158e-05,
+        "normalized_rmse": 0.0001711277138704974,
+        "ref_std": 0.10399995663022674,
+        "elements": 262144
+      },
+      "status": "PASS"
+    }
+  },
+  "gelu_positive_output_overshoot": {
+    "node_name": "node_gelu_35",
+    "attribute_approximate": "none",
+    "input_shape": [
+      1,
+      4,
+      8,
+      8192
+    ],
+    "input_dtype": "float16",
+    "total_elements": 262144,
+    "positive_input_count": 1407,
+    "metric": "count/fraction with output > positive input",
+    "variants": {
+      "htp_fp16": {
+        "positive_output_gt_input_count": 48,
+        "positive_output_gt_input_fraction": 0.03411513859275053,
+        "max_positive_overshoot": 0.0078125,
+        "max_index_flat": 142666,
+        "max_case_input": 7.24609375,
+        "max_case_output": 7.25390625
+      },
+      "cpu_fp16": {
+        "positive_output_gt_input_count": 0,
+        "positive_output_gt_input_fraction": 0.0,
+        "max_positive_overshoot": 0.0,
+        "max_index_flat": null,
+        "max_case_input": null,
+        "max_case_output": null
+      },
+      "cpu_fp32_math": {
+        "positive_output_gt_input_count": 0,
+        "positive_output_gt_input_fraction": 0.0,
+        "max_positive_overshoot": 0.0,
+        "max_index_flat": null,
+        "max_case_input": null,
+        "max_case_output": null
+      }
+    }
+  }
+}

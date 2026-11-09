@@ -1,0 +1,326 @@
+ORT 1.29.0
+VISION_SESSION_CREATE_BEGIN
+VISION_SESSION_CREATE_END seconds=0.959
+vision in new_img type=10 bytes=786432 shape=2,6,128,256
+vision in desire type=1 bytes=32 shape=8
+vision in traffic_convention type=1 bytes=8 shape=1,2
+vision in action_t type=1 bytes=8 shape=1,2
+vision in state_img_q type=10 bytes=3932160 shape=2,5,6,128,256
+vision in state_desire_q type=1 bytes=4224 shape=132,1,8
+vision in state_feat_q type=1 bytes=8388608 shape=128,1,16384
+vision out next_state_img_q type=10 bytes=3932160 shape=2,5,6,128,256
+vision out next_state_desire_q type=1 bytes=4224 shape=132,1,8
+vision out gelu type=10 bytes=4194304 shape=1,32,64,1024
+vision out gelu_1 type=10 bytes=4194304 shape=1,32,64,1024
+vision out gelu_10 type=10 bytes=1048576 shape=1,8,16,4096
+vision out gelu_11 type=10 bytes=1048576 shape=1,8,16,4096
+vision out gelu_12 type=10 bytes=1048576 shape=1,8,16,4096
+vision out gelu_13 type=10 bytes=1048576 shape=1,8,16,4096
+vision out gelu_14 type=10 bytes=1048576 shape=1,8,16,4096
+vision out gelu_15 type=10 bytes=1048576 shape=1,8,16,4096
+vision out gelu_16 type=10 bytes=1048576 shape=1,8,16,4096
+vision out gelu_17 type=10 bytes=1048576 shape=1,8,16,4096
+vision out gelu_18 type=10 bytes=1048576 shape=1,8,16,4096
+vision out gelu_19 type=10 bytes=1048576 shape=1,8,16,4096
+vision out gelu_2 type=10 bytes=4194304 shape=1,32,64,1024
+vision out gelu_20 type=10 bytes=1048576 shape=1,8,16,4096
+vision out gelu_21 type=10 bytes=1048576 shape=1,8,16,4096
+vision out gelu_22 type=10 bytes=1048576 shape=1,8,16,4096
+vision out gelu_23 type=10 bytes=1048576 shape=1,8,16,4096
+vision out gelu_24 type=10 bytes=1048576 shape=1,8,16,4096
+vision out gelu_25 type=10 bytes=1048576 shape=1,8,16,4096
+vision out gelu_26 type=10 bytes=1048576 shape=1,8,16,4096
+vision out gelu_27 type=10 bytes=1048576 shape=1,8,16,4096
+vision out gelu_28 type=10 bytes=1048576 shape=1,8,16,4096
+vision out gelu_29 type=10 bytes=1048576 shape=1,8,16,4096
+vision out gelu_3 type=10 bytes=2097152 shape=1,16,32,2048
+vision out gelu_30 type=10 bytes=1048576 shape=1,8,16,4096
+vision out gelu_31 type=10 bytes=1048576 shape=1,8,16,4096
+vision out gelu_32 type=10 bytes=1048576 shape=1,8,16,4096
+vision out gelu_33 type=10 bytes=524288 shape=1,4,8,8192
+vision out gelu_34 type=10 bytes=524288 shape=1,4,8,8192
+vision out gelu_35 type=10 bytes=524288 shape=1,4,8,8192
+vision out gelu_4 type=10 bytes=2097152 shape=1,16,32,2048
+vision out gelu_5 type=10 bytes=2097152 shape=1,16,32,2048
+vision out gelu_6 type=10 bytes=1048576 shape=1,8,16,4096
+vision out gelu_7 type=10 bytes=1048576 shape=1,8,16,4096
+vision out gelu_8 type=10 bytes=1048576 shape=1,8,16,4096
+vision out gelu_9 type=10 bytes=1048576 shape=1,8,16,4096
+vision out index type=10 bytes=294912 shape=1,9,32,512
+vision out layer_norm type=10 bytes=1048576 shape=1,32,64,256
+vision out linear type=10 bytes=4194304 shape=1,32,64,1024
+vision out linear_10 type=10 bytes=2097152 shape=1,16,32,2048
+vision out linear_12 type=10 bytes=1048576 shape=1,8,16,4096
+vision out linear_127 type=10 bytes=589824 shape=1,9,32,1024
+vision out linear_14 type=10 bytes=1048576 shape=1,8,16,4096
+vision out linear_156 type=10 bytes=589824 shape=1,9,32,1024
+vision out linear_16 type=10 bytes=1048576 shape=1,8,16,4096
+vision out linear_18 type=10 bytes=1048576 shape=1,8,16,4096
+vision out linear_2 type=10 bytes=4194304 shape=1,32,64,1024
+vision out linear_20 type=10 bytes=1048576 shape=1,8,16,4096
+vision out linear_22 type=10 bytes=1048576 shape=1,8,16,4096
+vision out linear_24 type=10 bytes=1048576 shape=1,8,16,4096
+vision out linear_26 type=10 bytes=1048576 shape=1,8,16,4096
+vision out linear_28 type=10 bytes=1048576 shape=1,8,16,4096
+vision out linear_30 type=10 bytes=1048576 shape=1,8,16,4096
+vision out linear_32 type=10 bytes=1048576 shape=1,8,16,4096
+vision out linear_34 type=10 bytes=1048576 shape=1,8,16,4096
+vision out linear_36 type=10 bytes=1048576 shape=1,8,16,4096
+vision out linear_38 type=10 bytes=1048576 shape=1,8,16,4096
+vision out linear_4 type=10 bytes=4194304 shape=1,32,64,1024
+vision out linear_40 type=10 bytes=1048576 shape=1,8,16,4096
+vision out linear_42 type=10 bytes=1048576 shape=1,8,16,4096
+vision out linear_44 type=10 bytes=1048576 shape=1,8,16,4096
+vision out linear_46 type=10 bytes=1048576 shape=1,8,16,4096
+vision out linear_48 type=10 bytes=1048576 shape=1,8,16,4096
+vision out linear_50 type=10 bytes=1048576 shape=1,8,16,4096
+vision out linear_52 type=10 bytes=1048576 shape=1,8,16,4096
+vision out linear_54 type=10 bytes=1048576 shape=1,8,16,4096
+vision out linear_56 type=10 bytes=1048576 shape=1,8,16,4096
+vision out linear_58 type=10 bytes=1048576 shape=1,8,16,4096
+vision out linear_6 type=10 bytes=2097152 shape=1,16,32,2048
+vision out linear_60 type=10 bytes=1048576 shape=1,8,16,4096
+vision out linear_62 type=10 bytes=1048576 shape=1,8,16,4096
+vision out linear_64 type=10 bytes=1048576 shape=1,8,16,4096
+vision out linear_66 type=10 bytes=524288 shape=1,4,8,8192
+vision out linear_68 type=10 bytes=524288 shape=1,4,8,8192
+vision out linear_70 type=10 bytes=524288 shape=1,4,8,8192
+vision out linear_72 type=10 bytes=2048 shape=1,1024
+vision out linear_8 type=10 bytes=2097152 shape=1,16,32,2048
+vision out linear_86 type=10 bytes=589824 shape=1,9,32,1024
+vision out mean type=10 bytes=1024 shape=1,512
+vision out node__to_copy_1 type=10 bytes=1048576 shape=32,1,32,512
+vision out node_add type=10 bytes=1048576 shape=1,32,64,256
+vision out node_add_1 type=10 bytes=1048576 shape=1,32,64,256
+vision out node_add_10 type=10 bytes=262144 shape=1,8,16,1024
+vision out node_add_11 type=10 bytes=262144 shape=1,8,16,1024
+vision out node_add_12 type=10 bytes=262144 shape=1,8,16,1024
+vision out node_add_13 type=10 bytes=262144 shape=1,8,16,1024
+vision out node_add_14 type=10 bytes=262144 shape=1,8,16,1024
+vision out node_add_15 type=10 bytes=262144 shape=1,8,16,1024
+vision out node_add_16 type=10 bytes=262144 shape=1,8,16,1024
+vision out node_add_17 type=10 bytes=262144 shape=1,8,16,1024
+vision out node_add_18 type=10 bytes=262144 shape=1,8,16,1024
+vision out node_add_19 type=10 bytes=262144 shape=1,8,16,1024
+vision out node_add_20 type=10 bytes=262144 shape=1,8,16,1024
+vision out node_add_21 type=10 bytes=262144 shape=1,8,16,1024
+vision out node_add_22 type=10 bytes=262144 shape=1,8,16,1024
+vision out node_add_23 type=10 bytes=262144 shape=1,8,16,1024
+vision out node_add_24 type=10 bytes=262144 shape=1,8,16,1024
+vision out node_add_25 type=10 bytes=262144 shape=1,8,16,1024
+vision out node_add_26 type=10 bytes=262144 shape=1,8,16,1024
+vision out node_add_27 type=10 bytes=262144 shape=1,8,16,1024
+vision out node_add_28 type=10 bytes=262144 shape=1,8,16,1024
+vision out node_add_29 type=10 bytes=262144 shape=1,8,16,1024
+vision out node_add_3 type=10 bytes=524288 shape=1,16,32,512
+vision out node_add_30 type=10 bytes=262144 shape=1,8,16,1024
+vision out node_add_31 type=10 bytes=262144 shape=1,8,16,1024
+vision out node_add_33 type=10 bytes=131072 shape=1,4,8,2048
+vision out node_add_34 type=10 bytes=131072 shape=1,4,8,2048
+vision out node_add_4 type=10 bytes=524288 shape=1,16,32,512
+vision out node_add_6 type=10 bytes=262144 shape=1,8,16,1024
+vision out node_add_7 type=10 bytes=262144 shape=1,8,16,1024
+vision out node_add_8 type=10 bytes=262144 shape=1,8,16,1024
+vision out node_add_9 type=10 bytes=262144 shape=1,8,16,1024
+vision out node_conv2d_36 type=10 bytes=131072 shape=1,4,8,2048
+vision out node_conv2d_4 type=10 bytes=524288 shape=1,16,32,512
+vision out node_conv2d_8 type=10 bytes=262144 shape=1,8,16,1024
+vision out repeat_interleave type=10 bytes=294912 shape=1,288,512
+vision out repeat_interleave_1 type=10 bytes=294912 shape=1,288,512
+vision out repeat_interleave_2 type=10 bytes=294912 shape=1,288,512
+vision out slice_10 type=1 bytes=8323072 shape=127,1,16384
+vision out view_42 type=10 bytes=1024 shape=1,1,512
+vision out view_43 type=10 bytes=1024 shape=1,1,512
+vision out view_52 type=10 bytes=1024 shape=1,1,512
+vision out view_53 type=10 bytes=1024 shape=1,1,512
+vision out view_62 type=10 bytes=1024 shape=1,1,512
+vision out view_63 type=10 bytes=1024 shape=1,1,512
+vision out view_70 type=10 bytes=32768 shape=1,16384
+GPU_POLICY_SESSION_CREATE_BEGIN
+INFO: Initialized TensorFlow Lite runtime.
+I0000 00:00:1794232337.807091   19456 delegate_opencl.cc:603] options->hint_waiting_for_completion: false
+I0000 00:00:1794232337.807170   19456 delegate_opencl.cc:605] options->kernel_batch_size: -1
+INFO: Loaded OpenCL library with dlopen.
+VERBOSE: Replacing 1644 out of 1644 node(s) with delegate (LITERT_CL) node, yielding 1 partitions for subgraph 0 (main).
+I0000 00:00:1794232338.053810   19456 delegate_kernel.cc:911] Initializing OpenCL-based API from graph.
+GPU_POLICY_SESSION_CREATE_END seconds=0.591
+GPU fully_accelerated=1; managed state pingpong; no GPU state readback
+GPU in view_39 type=1 bytes=65536 shape=1,32,512
+GPU in desire type=1 bytes=32 shape=8
+GPU in traffic_convention type=1 bytes=8 shape=1,2
+GPU in action_t type=1 bytes=8 shape=1,2
+GPU in state_desire_q type=1 bytes=4224 shape=132,1,8
+GPU in state_feat_q type=1 bytes=8388608 shape=128,1,16384
+GPU out outputs type=1 bytes=73808 shape=1,18452
+GPU out next_state_desire_q type=1 bytes=4224 shape=132,1,8
+GPU out next_state_feat_q type=1 bytes=8388608 shape=128,1,16384
+vision state_feat_q/state_desire_q remain zero: feature/image do not depend on the prefix's unused policy branch
+frame=0 total_ms=106.133 vision_ms=76.826 bridge_ms=0.187 policy_ms=29.120 run_ms=8.331 read_ms=20.789 nonfinite=0
+frame=1 total_ms=61.332 vision_ms=39.052 bridge_ms=0.208 policy_ms=22.072 run_ms=1.025 read_ms=21.048 nonfinite=0
+frame=2 total_ms=65.537 vision_ms=43.361 bridge_ms=0.171 policy_ms=22.005 run_ms=1.085 read_ms=20.919 nonfinite=0
+frame=3 total_ms=66.124 vision_ms=44.111 bridge_ms=0.185 policy_ms=21.828 run_ms=1.126 read_ms=20.702 nonfinite=0
+frame=4 total_ms=66.566 vision_ms=44.341 bridge_ms=0.178 policy_ms=22.047 run_ms=1.096 read_ms=20.950 nonfinite=0
+frame=5 total_ms=65.474 vision_ms=43.162 bridge_ms=0.217 policy_ms=22.095 run_ms=1.116 read_ms=20.979 nonfinite=0
+frame=6 total_ms=66.588 vision_ms=44.452 bridge_ms=0.192 policy_ms=21.944 run_ms=1.121 read_ms=20.823 nonfinite=0
+frame=7 total_ms=66.602 vision_ms=44.539 bridge_ms=0.202 policy_ms=21.861 run_ms=1.041 read_ms=20.820 nonfinite=0
+frame=8 total_ms=69.315 vision_ms=47.285 bridge_ms=0.215 policy_ms=21.814 run_ms=0.730 read_ms=21.084 nonfinite=0
+frame=9 total_ms=69.491 vision_ms=47.199 bridge_ms=0.250 policy_ms=22.042 run_ms=1.375 read_ms=20.666 nonfinite=0
+frame=10 total_ms=66.850 vision_ms=44.094 bridge_ms=0.248 policy_ms=22.508 run_ms=1.151 read_ms=21.357 nonfinite=0
+frame=11 total_ms=70.522 vision_ms=48.222 bridge_ms=0.220 policy_ms=22.081 run_ms=1.333 read_ms=20.748 nonfinite=0
+frame=12 total_ms=72.378 vision_ms=48.247 bridge_ms=0.222 policy_ms=23.909 run_ms=1.263 read_ms=22.647 nonfinite=0
+frame=13 total_ms=71.339 vision_ms=49.121 bridge_ms=0.216 policy_ms=22.003 run_ms=0.775 read_ms=21.228 nonfinite=0
+frame=14 total_ms=67.809 vision_ms=45.316 bridge_ms=0.218 policy_ms=22.276 run_ms=1.187 read_ms=21.089 nonfinite=0
+frame=15 total_ms=70.737 vision_ms=48.468 bridge_ms=0.230 policy_ms=22.040 run_ms=1.149 read_ms=20.891 nonfinite=0
+frame=16 total_ms=63.773 vision_ms=41.985 bridge_ms=0.215 policy_ms=21.573 run_ms=0.720 read_ms=20.853 nonfinite=0
+frame=17 total_ms=66.190 vision_ms=43.807 bridge_ms=0.173 policy_ms=22.209 run_ms=1.130 read_ms=21.079 nonfinite=0
+frame=18 total_ms=63.664 vision_ms=41.209 bridge_ms=0.218 policy_ms=22.237 run_ms=1.063 read_ms=21.174 nonfinite=0
+frame=19 total_ms=67.593 vision_ms=45.235 bridge_ms=0.199 policy_ms=22.158 run_ms=1.073 read_ms=21.085 nonfinite=0
+frame=20 total_ms=69.298 vision_ms=44.739 bridge_ms=0.197 policy_ms=24.362 run_ms=1.190 read_ms=23.171 nonfinite=0
+frame=21 total_ms=64.847 vision_ms=42.453 bridge_ms=0.194 policy_ms=22.200 run_ms=1.081 read_ms=21.119 nonfinite=0
+frame=22 total_ms=65.492 vision_ms=43.045 bridge_ms=0.180 policy_ms=22.266 run_ms=1.053 read_ms=21.213 nonfinite=0
+frame=23 total_ms=65.742 vision_ms=43.116 bridge_ms=0.206 policy_ms=22.420 run_ms=1.169 read_ms=21.251 nonfinite=0
+frame=24 total_ms=66.827 vision_ms=44.937 bridge_ms=0.177 policy_ms=21.713 run_ms=0.723 read_ms=20.990 nonfinite=0
+frame=25 total_ms=64.269 vision_ms=42.045 bridge_ms=0.189 policy_ms=22.034 run_ms=1.163 read_ms=20.871 nonfinite=0
+frame=26 total_ms=66.434 vision_ms=44.096 bridge_ms=0.205 policy_ms=22.133 run_ms=1.065 read_ms=21.068 nonfinite=0
+frame=27 total_ms=64.108 vision_ms=41.373 bridge_ms=0.179 policy_ms=22.555 run_ms=1.144 read_ms=21.411 nonfinite=0
+frame=28 total_ms=66.755 vision_ms=44.442 bridge_ms=0.188 policy_ms=22.125 run_ms=1.198 read_ms=20.927 nonfinite=0
+frame=29 total_ms=67.450 vision_ms=45.224 bridge_ms=0.180 policy_ms=22.046 run_ms=1.220 read_ms=20.826 nonfinite=0
+frame=30 total_ms=64.244 vision_ms=42.194 bridge_ms=0.196 policy_ms=21.855 run_ms=1.081 read_ms=20.773 nonfinite=0
+frame=31 total_ms=58.451 vision_ms=36.204 bridge_ms=0.179 policy_ms=22.068 run_ms=1.028 read_ms=21.040 nonfinite=0
+frame=32 total_ms=65.300 vision_ms=43.108 bridge_ms=0.161 policy_ms=22.031 run_ms=1.033 read_ms=20.998 nonfinite=0
+frame=33 total_ms=65.977 vision_ms=43.621 bridge_ms=0.185 policy_ms=22.171 run_ms=1.006 read_ms=21.165 nonfinite=0
+frame=34 total_ms=65.319 vision_ms=43.538 bridge_ms=0.165 policy_ms=21.616 run_ms=0.813 read_ms=20.803 nonfinite=0
+frame=35 total_ms=58.683 vision_ms=36.394 bridge_ms=0.191 policy_ms=22.097 run_ms=1.058 read_ms=21.039 nonfinite=0
+frame=36 total_ms=62.859 vision_ms=40.736 bridge_ms=0.136 policy_ms=21.986 run_ms=0.810 read_ms=21.176 nonfinite=0
+frame=37 total_ms=64.976 vision_ms=42.481 bridge_ms=0.165 policy_ms=22.329 run_ms=1.133 read_ms=21.196 nonfinite=0
+frame=38 total_ms=64.452 vision_ms=41.666 bridge_ms=0.192 policy_ms=22.594 run_ms=1.023 read_ms=21.571 nonfinite=0
+frame=39 total_ms=63.641 vision_ms=41.668 bridge_ms=0.167 policy_ms=21.805 run_ms=1.088 read_ms=20.717 nonfinite=0
+frame=40 total_ms=66.501 vision_ms=44.720 bridge_ms=0.167 policy_ms=21.614 run_ms=0.813 read_ms=20.801 nonfinite=0
+frame=41 total_ms=58.174 vision_ms=35.979 bridge_ms=0.176 policy_ms=22.018 run_ms=1.026 read_ms=20.993 nonfinite=0
+frame=42 total_ms=62.737 vision_ms=41.039 bridge_ms=0.155 policy_ms=21.543 run_ms=0.910 read_ms=20.633 nonfinite=0
+frame=43 total_ms=62.843 vision_ms=40.813 bridge_ms=0.166 policy_ms=21.865 run_ms=0.992 read_ms=20.873 nonfinite=0
+frame=44 total_ms=65.417 vision_ms=42.965 bridge_ms=0.168 policy_ms=22.284 run_ms=1.065 read_ms=21.219 nonfinite=0
+frame=45 total_ms=65.014 vision_ms=42.275 bridge_ms=0.183 policy_ms=22.556 run_ms=0.996 read_ms=21.560 nonfinite=0
+frame=46 total_ms=65.393 vision_ms=42.739 bridge_ms=0.167 policy_ms=22.487 run_ms=1.068 read_ms=21.419 nonfinite=0
+frame=47 total_ms=65.262 vision_ms=43.271 bridge_ms=0.178 policy_ms=21.813 run_ms=1.039 read_ms=20.773 nonfinite=0
+frame=48 total_ms=62.799 vision_ms=41.005 bridge_ms=0.176 policy_ms=21.618 run_ms=0.709 read_ms=20.909 nonfinite=0
+frame=49 total_ms=65.397 vision_ms=43.045 bridge_ms=0.175 policy_ms=22.178 run_ms=1.064 read_ms=21.114 nonfinite=0
+frame=50 total_ms=65.578 vision_ms=43.321 bridge_ms=0.179 policy_ms=22.078 run_ms=1.010 read_ms=21.068 nonfinite=0
+frame=51 total_ms=66.012 vision_ms=44.012 bridge_ms=0.168 policy_ms=21.833 run_ms=1.057 read_ms=20.776 nonfinite=0
+frame=52 total_ms=64.698 vision_ms=43.046 bridge_ms=0.177 policy_ms=21.475 run_ms=0.675 read_ms=20.800 nonfinite=0
+frame=53 total_ms=64.412 vision_ms=41.623 bridge_ms=0.183 policy_ms=22.606 run_ms=1.054 read_ms=21.552 nonfinite=0
+frame=54 total_ms=67.028 vision_ms=44.432 bridge_ms=0.173 policy_ms=22.422 run_ms=1.032 read_ms=21.391 nonfinite=0
+frame=55 total_ms=64.168 vision_ms=41.914 bridge_ms=0.158 policy_ms=22.096 run_ms=1.054 read_ms=21.042 nonfinite=0
+frame=56 total_ms=67.748 vision_ms=45.622 bridge_ms=0.177 policy_ms=21.948 run_ms=1.066 read_ms=20.882 nonfinite=0
+frame=57 total_ms=68.294 vision_ms=46.203 bridge_ms=0.169 policy_ms=21.922 run_ms=1.078 read_ms=20.845 nonfinite=0
+frame=58 total_ms=65.178 vision_ms=43.092 bridge_ms=0.188 policy_ms=21.897 run_ms=0.981 read_ms=20.916 nonfinite=0
+frame=59 total_ms=58.623 vision_ms=36.387 bridge_ms=0.170 policy_ms=22.066 run_ms=0.989 read_ms=21.077 nonfinite=0
+frame=60 total_ms=66.438 vision_ms=44.184 bridge_ms=0.146 policy_ms=22.108 run_ms=0.800 read_ms=21.308 nonfinite=0
+frame=61 total_ms=65.025 vision_ms=43.294 bridge_ms=0.139 policy_ms=21.591 run_ms=0.861 read_ms=20.731 nonfinite=0
+frame=62 total_ms=64.828 vision_ms=40.942 bridge_ms=0.168 policy_ms=23.719 run_ms=0.994 read_ms=22.724 nonfinite=0
+frame=63 total_ms=59.824 vision_ms=37.876 bridge_ms=0.179 policy_ms=21.769 run_ms=0.602 read_ms=21.167 nonfinite=0
+frame=64 total_ms=67.604 vision_ms=45.079 bridge_ms=0.173 policy_ms=22.352 run_ms=1.046 read_ms=21.306 nonfinite=0
+frame=65 total_ms=65.683 vision_ms=43.771 bridge_ms=0.178 policy_ms=21.734 run_ms=0.955 read_ms=20.778 nonfinite=0
+frame=66 total_ms=59.420 vision_ms=36.735 bridge_ms=0.182 policy_ms=22.503 run_ms=1.166 read_ms=21.337 nonfinite=0
+frame=67 total_ms=62.571 vision_ms=40.567 bridge_ms=0.161 policy_ms=21.843 run_ms=1.013 read_ms=20.830 nonfinite=0
+frame=68 total_ms=61.807 vision_ms=39.929 bridge_ms=0.149 policy_ms=21.729 run_ms=0.596 read_ms=21.133 nonfinite=0
+frame=69 total_ms=61.682 vision_ms=38.855 bridge_ms=0.174 policy_ms=22.653 run_ms=1.035 read_ms=21.618 nonfinite=0
+frame=70 total_ms=66.294 vision_ms=43.630 bridge_ms=0.181 policy_ms=22.482 run_ms=1.103 read_ms=21.380 nonfinite=0
+frame=71 total_ms=63.347 vision_ms=41.319 bridge_ms=0.167 policy_ms=21.861 run_ms=0.969 read_ms=20.892 nonfinite=0
+frame=72 total_ms=64.103 vision_ms=41.843 bridge_ms=0.167 policy_ms=22.093 run_ms=1.029 read_ms=21.064 nonfinite=0
+frame=73 total_ms=64.586 vision_ms=42.299 bridge_ms=0.167 policy_ms=22.120 run_ms=0.987 read_ms=21.133 nonfinite=0
+frame=74 total_ms=65.649 vision_ms=43.229 bridge_ms=0.161 policy_ms=22.260 run_ms=1.075 read_ms=21.185 nonfinite=0
+frame=75 total_ms=62.377 vision_ms=40.072 bridge_ms=0.176 policy_ms=22.129 run_ms=1.008 read_ms=21.121 nonfinite=0
+frame=76 total_ms=65.105 vision_ms=42.834 bridge_ms=0.178 policy_ms=22.092 run_ms=1.044 read_ms=21.049 nonfinite=0
+frame=77 total_ms=67.877 vision_ms=45.787 bridge_ms=0.164 policy_ms=21.925 run_ms=0.969 read_ms=20.957 nonfinite=0
+frame=78 total_ms=66.052 vision_ms=43.794 bridge_ms=0.180 policy_ms=22.078 run_ms=1.054 read_ms=21.024 nonfinite=0
+frame=79 total_ms=66.198 vision_ms=43.705 bridge_ms=0.176 policy_ms=22.316 run_ms=1.037 read_ms=21.280 nonfinite=0
+frame=80 total_ms=66.104 vision_ms=43.792 bridge_ms=0.176 policy_ms=22.136 run_ms=0.991 read_ms=21.145 nonfinite=0
+frame=81 total_ms=68.250 vision_ms=45.950 bridge_ms=0.201 policy_ms=22.099 run_ms=1.062 read_ms=21.037 nonfinite=0
+frame=82 total_ms=67.818 vision_ms=45.801 bridge_ms=0.169 policy_ms=21.848 run_ms=1.066 read_ms=20.782 nonfinite=0
+frame=83 total_ms=58.579 vision_ms=36.567 bridge_ms=0.171 policy_ms=21.841 run_ms=1.025 read_ms=20.816 nonfinite=0
+frame=84 total_ms=64.540 vision_ms=42.550 bridge_ms=0.142 policy_ms=21.848 run_ms=0.793 read_ms=21.054 nonfinite=0
+frame=85 total_ms=65.115 vision_ms=43.179 bridge_ms=0.186 policy_ms=21.751 run_ms=0.959 read_ms=20.791 nonfinite=0
+frame=86 total_ms=58.532 vision_ms=36.101 bridge_ms=0.178 policy_ms=22.253 run_ms=1.028 read_ms=21.225 nonfinite=0
+frame=87 total_ms=65.985 vision_ms=43.351 bridge_ms=0.142 policy_ms=22.492 run_ms=0.792 read_ms=21.700 nonfinite=0
+frame=88 total_ms=64.040 vision_ms=41.860 bridge_ms=0.173 policy_ms=22.007 run_ms=0.967 read_ms=21.040 nonfinite=0
+frame=89 total_ms=64.890 vision_ms=42.761 bridge_ms=0.187 policy_ms=21.942 run_ms=1.041 read_ms=20.902 nonfinite=0
+frame=90 total_ms=65.565 vision_ms=42.939 bridge_ms=0.179 policy_ms=22.446 run_ms=1.042 read_ms=21.404 nonfinite=0
+frame=91 total_ms=64.974 vision_ms=42.160 bridge_ms=0.178 policy_ms=22.636 run_ms=1.058 read_ms=21.579 nonfinite=0
+frame=92 total_ms=64.005 vision_ms=41.725 bridge_ms=0.171 policy_ms=22.108 run_ms=1.053 read_ms=21.056 nonfinite=0
+frame=93 total_ms=65.873 vision_ms=44.128 bridge_ms=0.166 policy_ms=21.578 run_ms=1.035 read_ms=20.543 nonfinite=0
+frame=94 total_ms=63.170 vision_ms=40.875 bridge_ms=0.153 policy_ms=22.142 run_ms=1.006 read_ms=21.136 nonfinite=0
+frame=95 total_ms=61.765 vision_ms=39.279 bridge_ms=0.207 policy_ms=22.280 run_ms=1.027 read_ms=21.253 nonfinite=0
+frame=96 total_ms=67.472 vision_ms=45.481 bridge_ms=0.186 policy_ms=21.806 run_ms=1.024 read_ms=20.781 nonfinite=0
+frame=97 total_ms=58.405 vision_ms=36.073 bridge_ms=0.189 policy_ms=22.143 run_ms=0.998 read_ms=21.145 nonfinite=0
+frame=98 total_ms=65.934 vision_ms=44.029 bridge_ms=0.144 policy_ms=21.761 run_ms=0.781 read_ms=20.980 nonfinite=0
+frame=99 total_ms=64.760 vision_ms=42.522 bridge_ms=0.132 policy_ms=22.106 run_ms=0.783 read_ms=21.323 nonfinite=0
+frame=100 total_ms=64.482 vision_ms=42.065 bridge_ms=0.186 policy_ms=22.232 run_ms=0.999 read_ms=21.233 nonfinite=0
+frame=101 total_ms=65.993 vision_ms=43.610 bridge_ms=0.166 policy_ms=22.217 run_ms=1.051 read_ms=21.165 nonfinite=0
+frame=102 total_ms=68.037 vision_ms=46.236 bridge_ms=0.165 policy_ms=21.635 run_ms=0.791 read_ms=20.845 nonfinite=0
+frame=103 total_ms=65.004 vision_ms=42.739 bridge_ms=0.175 policy_ms=22.091 run_ms=0.979 read_ms=21.112 nonfinite=0
+frame=104 total_ms=69.325 vision_ms=45.031 bridge_ms=0.176 policy_ms=24.118 run_ms=1.026 read_ms=23.092 nonfinite=0
+frame=105 total_ms=66.814 vision_ms=44.064 bridge_ms=0.182 policy_ms=22.567 run_ms=1.019 read_ms=21.548 nonfinite=0
+frame=106 total_ms=67.096 vision_ms=44.795 bridge_ms=0.156 policy_ms=22.146 run_ms=1.023 read_ms=21.123 nonfinite=0
+frame=107 total_ms=68.160 vision_ms=45.492 bridge_ms=0.159 policy_ms=22.509 run_ms=1.053 read_ms=21.456 nonfinite=0
+frame=108 total_ms=65.339 vision_ms=43.235 bridge_ms=0.172 policy_ms=21.932 run_ms=0.972 read_ms=20.960 nonfinite=0
+frame=109 total_ms=64.170 vision_ms=41.971 bridge_ms=0.173 policy_ms=22.026 run_ms=0.992 read_ms=21.033 nonfinite=0
+frame=110 total_ms=64.947 vision_ms=42.630 bridge_ms=0.177 policy_ms=22.139 run_ms=0.984 read_ms=21.155 nonfinite=0
+frame=111 total_ms=65.091 vision_ms=42.790 bridge_ms=0.170 policy_ms=22.131 run_ms=1.082 read_ms=21.049 nonfinite=0
+frame=112 total_ms=63.535 vision_ms=41.537 bridge_ms=0.173 policy_ms=21.826 run_ms=0.969 read_ms=20.856 nonfinite=0
+frame=113 total_ms=63.808 vision_ms=41.898 bridge_ms=0.161 policy_ms=21.750 run_ms=0.686 read_ms=21.063 nonfinite=0
+frame=114 total_ms=64.223 vision_ms=42.259 bridge_ms=0.185 policy_ms=21.778 run_ms=0.658 read_ms=21.120 nonfinite=0
+frame=115 total_ms=65.292 vision_ms=43.042 bridge_ms=0.180 policy_ms=22.070 run_ms=1.027 read_ms=21.043 nonfinite=0
+frame=116 total_ms=63.793 vision_ms=41.906 bridge_ms=0.166 policy_ms=21.720 run_ms=0.960 read_ms=20.760 nonfinite=0
+frame=117 total_ms=64.569 vision_ms=42.519 bridge_ms=0.169 policy_ms=21.880 run_ms=1.026 read_ms=20.854 nonfinite=0
+frame=118 total_ms=65.055 vision_ms=42.839 bridge_ms=0.174 policy_ms=22.042 run_ms=0.953 read_ms=21.088 nonfinite=0
+frame=119 total_ms=65.510 vision_ms=43.194 bridge_ms=0.163 policy_ms=22.152 run_ms=1.034 read_ms=21.119 nonfinite=0
+frame=120 total_ms=66.144 vision_ms=44.000 bridge_ms=0.173 policy_ms=21.971 run_ms=1.061 read_ms=20.910 nonfinite=0
+frame=121 total_ms=58.963 vision_ms=36.709 bridge_ms=0.177 policy_ms=22.077 run_ms=0.995 read_ms=21.082 nonfinite=0
+frame=122 total_ms=62.822 vision_ms=41.128 bridge_ms=0.132 policy_ms=21.562 run_ms=0.847 read_ms=20.715 nonfinite=0
+frame=123 total_ms=62.993 vision_ms=40.987 bridge_ms=0.159 policy_ms=21.847 run_ms=0.957 read_ms=20.891 nonfinite=0
+frame=124 total_ms=65.280 vision_ms=43.024 bridge_ms=0.179 policy_ms=22.078 run_ms=1.036 read_ms=21.041 nonfinite=0
+frame=125 total_ms=65.310 vision_ms=42.550 bridge_ms=0.184 policy_ms=22.575 run_ms=0.974 read_ms=21.602 nonfinite=0
+frame=126 total_ms=65.367 vision_ms=43.358 bridge_ms=0.171 policy_ms=21.838 run_ms=1.078 read_ms=20.760 nonfinite=0
+frame=127 total_ms=63.030 vision_ms=40.842 bridge_ms=0.168 policy_ms=22.020 run_ms=0.972 read_ms=21.049 nonfinite=0
+frame=128 total_ms=64.655 vision_ms=42.476 bridge_ms=0.167 policy_ms=22.012 run_ms=1.029 read_ms=20.982 nonfinite=0
+frame=129 total_ms=65.947 vision_ms=43.473 bridge_ms=0.182 policy_ms=22.292 run_ms=0.977 read_ms=21.315 nonfinite=0
+frame=130 total_ms=67.034 vision_ms=44.195 bridge_ms=0.171 policy_ms=22.667 run_ms=0.970 read_ms=21.697 nonfinite=0
+frame=131 total_ms=68.081 vision_ms=45.902 bridge_ms=0.185 policy_ms=21.995 run_ms=1.060 read_ms=20.935 nonfinite=0
+frame=132 total_ms=68.467 vision_ms=45.511 bridge_ms=0.173 policy_ms=22.784 run_ms=0.998 read_ms=21.786 nonfinite=0
+frame=133 total_ms=65.132 vision_ms=42.998 bridge_ms=0.199 policy_ms=21.935 run_ms=1.065 read_ms=20.870 nonfinite=0
+frame=134 total_ms=67.540 vision_ms=44.911 bridge_ms=0.172 policy_ms=22.458 run_ms=0.983 read_ms=21.474 nonfinite=0
+frame=135 total_ms=66.419 vision_ms=44.793 bridge_ms=0.173 policy_ms=21.453 run_ms=0.607 read_ms=20.846 nonfinite=0
+frame=136 total_ms=64.278 vision_ms=42.561 bridge_ms=0.156 policy_ms=21.560 run_ms=0.632 read_ms=20.928 nonfinite=0
+frame=137 total_ms=63.072 vision_ms=41.123 bridge_ms=0.176 policy_ms=21.774 run_ms=1.038 read_ms=20.736 nonfinite=0
+frame=138 total_ms=67.048 vision_ms=45.019 bridge_ms=0.174 policy_ms=21.855 run_ms=1.040 read_ms=20.816 nonfinite=0
+frame=139 total_ms=64.175 vision_ms=42.051 bridge_ms=0.171 policy_ms=21.953 run_ms=1.047 read_ms=20.907 nonfinite=0
+frame=140 total_ms=65.124 vision_ms=42.863 bridge_ms=0.167 policy_ms=22.094 run_ms=1.043 read_ms=21.052 nonfinite=0
+frame=141 total_ms=65.304 vision_ms=43.127 bridge_ms=0.176 policy_ms=22.001 run_ms=0.966 read_ms=21.036 nonfinite=0
+frame=142 total_ms=66.066 vision_ms=43.812 bridge_ms=0.173 policy_ms=22.081 run_ms=1.055 read_ms=21.026 nonfinite=0
+frame=143 total_ms=58.592 vision_ms=36.143 bridge_ms=0.176 policy_ms=22.273 run_ms=1.020 read_ms=21.253 nonfinite=0
+frame=144 total_ms=63.967 vision_ms=41.736 bridge_ms=0.132 policy_ms=22.099 run_ms=0.851 read_ms=21.248 nonfinite=0
+frame=145 total_ms=62.759 vision_ms=40.134 bridge_ms=0.179 policy_ms=22.446 run_ms=0.997 read_ms=21.449 nonfinite=0
+frame=146 total_ms=65.754 vision_ms=41.637 bridge_ms=0.178 policy_ms=23.939 run_ms=0.982 read_ms=22.957 nonfinite=0
+frame=147 total_ms=64.465 vision_ms=42.167 bridge_ms=0.176 policy_ms=22.121 run_ms=1.077 read_ms=21.044 nonfinite=0
+frame=148 total_ms=66.153 vision_ms=43.648 bridge_ms=0.174 policy_ms=22.332 run_ms=1.044 read_ms=21.288 nonfinite=0
+frame=149 total_ms=65.938 vision_ms=43.859 bridge_ms=0.173 policy_ms=21.907 run_ms=1.092 read_ms=20.814 nonfinite=0
+frame=150 total_ms=62.762 vision_ms=40.742 bridge_ms=0.163 policy_ms=21.857 run_ms=0.966 read_ms=20.891 nonfinite=0
+frame=151 total_ms=65.288 vision_ms=42.931 bridge_ms=0.166 policy_ms=22.191 run_ms=1.030 read_ms=21.160 nonfinite=0
+frame=152 total_ms=67.455 vision_ms=44.686 bridge_ms=0.169 policy_ms=22.601 run_ms=1.034 read_ms=21.567 nonfinite=0
+frame=153 total_ms=67.708 vision_ms=45.443 bridge_ms=0.168 policy_ms=22.097 run_ms=1.038 read_ms=21.058 nonfinite=0
+frame=154 total_ms=62.874 vision_ms=40.504 bridge_ms=0.166 policy_ms=22.204 run_ms=0.984 read_ms=21.220 nonfinite=0
+frame=155 total_ms=63.362 vision_ms=40.710 bridge_ms=0.176 policy_ms=22.475 run_ms=0.956 read_ms=21.519 nonfinite=0
+frame=156 total_ms=66.431 vision_ms=44.411 bridge_ms=0.170 policy_ms=21.850 run_ms=1.103 read_ms=20.746 nonfinite=0
+frame=157 total_ms=66.340 vision_ms=44.368 bridge_ms=0.169 policy_ms=21.803 run_ms=0.979 read_ms=20.824 nonfinite=0
+frame=158 total_ms=63.270 vision_ms=41.424 bridge_ms=0.166 policy_ms=21.680 run_ms=0.752 read_ms=20.928 nonfinite=0
+frame=159 total_ms=61.134 vision_ms=38.936 bridge_ms=0.171 policy_ms=22.026 run_ms=1.007 read_ms=21.020 nonfinite=0
+CLEANUP_BEGIN
+CLEANUP_GPU_BUFFERS_BEGIN
+mixed_litert n=160 mean_ms=65.283796 p50_ms=65.287917 p99_ms=71.339166 vision_mean_ms=42.938910 bridge_mean_ms=0.176930 policy_mean_ms=22.167956 fully_accelerated=1
+CLEANUP_GPU_MODEL_BEGIN
+CLEANUP_HTP_BINDINGS_BUFFERS_BEGIN
+CLEANUP_HTP_ALLOCATOR_BEGIN
+CLEANUP_HTP_SESSIONS_BEGIN
+CLEANUP_ORT_ENV_BEGIN
+CLEANUP_END

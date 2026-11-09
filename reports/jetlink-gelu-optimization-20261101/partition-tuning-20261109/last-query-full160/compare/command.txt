@@ -1,0 +1,2 @@
+C:\Users\sunbo\AppData\Local\Programs\Python\Python313\python.exe C:\Users\sunbo\Documents\openpilot\outputs\jetlink-gelu-optimization-20261101\partition-tuning-20261109\upstream-pinned-source\scripts\verify_parity.py compare --dir C:\Users\sunbo\Documents\openpilot\reports\jetlink-gelu-optimization-20261101\partition-tuning-20261109\last-query-full160\compare
+PYTHONPATH=C:\Users\sunbo\Documents\openpilot\outputs\jetlink-gelu-optimization-20261101\partition-tuning-20261109\upstream-pinned-source;

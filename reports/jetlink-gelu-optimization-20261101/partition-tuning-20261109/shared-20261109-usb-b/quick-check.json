@@ -1,0 +1,26 @@
+{
+  "baseline": {
+    "frames": 16,
+    "baseline_byte_matches": 16,
+    "finite": true,
+    "correct_size": true,
+    "timing_ms": {
+      "mean": 62.2939875,
+      "median": 61.287057000000004,
+      "mean_after_first": 61.618034599999994,
+      "max": 72.433281
+    }
+  },
+  "shared-boundaries": {
+    "frames": 16,
+    "baseline_byte_matches": 16,
+    "finite": true,
+    "correct_size": true,
+    "timing_ms": {
+      "mean": 59.134606187500005,
+      "median": 56.053957999999994,
+      "mean_after_first": 56.38996186666667,
+      "max": 100.304271
+    }
+  }
+}

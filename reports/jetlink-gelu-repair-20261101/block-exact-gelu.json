@@ -1,0 +1,64 @@
+{
+  "source": "C:\\Users\\sunbo\\Documents\\openpilot\\outputs\\jetlink-block-case-20261101\\block-fp16.onnx",
+  "source_sha256": "6256b95a2711c8b8c48dc2a90155087df855a876e25eac0f6a74c784f8d2018f",
+  "output": "C:\\Users\\sunbo\\Documents\\openpilot\\outputs\\jetlink-gelu-repair-20261101\\block-exact-gelu.onnx",
+  "output_sha256": "57c6647f0214a1c0aa7ce3820cd155533180ec165239446195d3a52fce3ccb7b",
+  "output_bytes": 67369260,
+  "scope": "all",
+  "custom_domain": "jetlink.precision",
+  "custom_opset": 1,
+  "upstream_image_inputs": [
+    "img",
+    "big_img",
+    "new_img",
+    "state_img_q"
+  ],
+  "image_dependency_seeded_inputs_present_in_graph": [],
+  "image_dependent_value_count": 0,
+  "image_dependent_node_count": 0,
+  "image_dependency_mask_note": "topological forward propagation from upstream imageInputs; Gelu is selected by node index in this mask",
+  "replacements": [
+    {
+      "index": 7,
+      "name": "node_gelu_35",
+      "input": "linear_70",
+      "input_elem_type": "FLOAT16",
+      "input_shape": [
+        1,
+        4,
+        8,
+        8192
+      ],
+      "outputs": [
+        "gelu_35"
+      ],
+      "old_domain": "",
+      "old_op_type": "Gelu",
+      "old_approximate": "none",
+      "new_domain": "jetlink.precision",
+      "new_op_type": "ExactGelu",
+      "attribute_removed": true,
+      "image_dependent": false
+    }
+  ],
+  "replacement_count": 1,
+  "skipped_gelu_nodes": [],
+  "custom_opset_change": {
+    "action": "added",
+    "version": 1
+  },
+  "onnx_checker": {
+    "status": "passed",
+    "message": "ONNX structural/schema check passed"
+  },
+  "structural_invariants": {
+    "graph_inputs_and_metadata_unchanged": true,
+    "graph_outputs_and_metadata_unchanged": true,
+    "graph_value_info_unchanged": true,
+    "node_count_unchanged": true,
+    "replacement_edges_preserved": true,
+    "custom_opset_import_present": true,
+    "no_approximate_attr_on_replacements": true
+  },
+  "semantic_check_note": "ONNX checker cannot validate custom Jetlink operator semantics or the CPU ExactGelu/ExactGelu32 implementation."
+}
