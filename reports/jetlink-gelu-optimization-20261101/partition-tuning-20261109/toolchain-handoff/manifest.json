@@ -1,0 +1,91 @@
+{
+  "checked_on": "2026-11-09",
+  "purpose": "Public, independently authored toolchain handoff; no SDK binaries or proprietary source mirrored",
+  "network_probe": {
+    "authentication": "none",
+    "proxy": "direct; urllib ProxyHandler({})",
+    "method": "GET",
+    "range": "bytes=0-7",
+    "full_archives_downloaded": false,
+    "full_archive_hashes_computed": false
+  },
+  "official_archives": [
+    {
+      "name": "Qualcomm AI Runtime Community Edition",
+      "version": "2.42.0.251225",
+      "url": "https://softwarecenter.qualcomm.com/api/download/software/sdks/Qualcomm_AI_Runtime_Community/All/2.42.0.251225/v2.42.0.251225.zip",
+      "bytes": 1543955191,
+      "status": 206,
+      "content_range": "bytes 0-7/1543955191",
+      "first_eight_bytes_hex": "504b03040a000000",
+      "sha256": null,
+      "role": "Exact QNN SDK version; archive contents inspected through range requests"
+    },
+    {
+      "name": "Hexagon SDK",
+      "version": "6.4.0.2",
+      "url": "https://softwarecenter.qualcomm.com/api/download/software/sdks/Hexagon_SDK/Linux/Debian/6.4.0.2/Hexagon_SDK_lnx.zip",
+      "bytes": 3090279353,
+      "status": 206,
+      "content_range": "bytes 0-7/3090279353",
+      "first_eight_bytes_hex": "504b03040a000000",
+      "sha256": null,
+      "role": "Accessible newer SDK; not the v73 pairing specified by QNN 2.42 example Makefile; compatibility unverified"
+    },
+    {
+      "name": "Hexagon Tools open access",
+      "version": "19.0.02",
+      "url": "https://softwarecenter.qualcomm.com/api/download/software/tools/Hexagon_open_access/Linux/Debian/19.0.02/Hexagon_open_access.Core.19.0.02.Linux-Any.tar.gz",
+      "bytes": 1134735943,
+      "status": 206,
+      "content_range": "bytes 0-7/1134735943",
+      "first_eight_bytes_hex": "1f8b080000000000",
+      "sha256": null,
+      "role": "Accessible newer compiler; not the v73 pairing specified by QNN 2.42 example Makefile; compatibility unverified"
+    }
+  ],
+  "qnn242_v73_pairing_from_bundled_makefile": {
+    "hexagon_sdk": "5.5.5",
+    "hexagon_tools": "8.7.06",
+    "target": "htp_v73",
+    "target_flags": ["-mv73", "-mhvx", "-mhvx-length=128B", "-mhmx", "-DPREPARE_DISABLED"],
+    "validated_anonymous_download_urls_for_this_pair": [],
+    "build_verified": false,
+    "device_load_verified": false
+  },
+  "archive_evidence": [
+    {
+      "path_in_qnn_zip": "qairt/2.42.0.251225/examples/QNN/OpPackage/HTP/Makefile",
+      "bytes": 14185,
+      "sha256": "6abad9a9aef7200a187e3c8a7128dc4316ddba271e2a25e7be7b9f79610c98b6",
+      "included_in_public_repository": false
+    },
+    {
+      "path_in_qnn_zip": "qairt/2.42.0.251225/docs/QAIRT-Docs/QNN/general/setup/linux_setup.html",
+      "bytes": 40458,
+      "sha256": "79f24b62533559c0346a6d81302f7ae7431850ef18ceb036a9c984a7619ef070",
+      "included_in_public_repository": false
+    },
+    {
+      "path_in_qnn_zip": "qairt/2.42.0.251225/LICENSE.pdf",
+      "bytes": 147577,
+      "sha256": "ec1dccfdcba5c6e64126e84199b8362bf4999107bfa567ebe831dbb4c461692b",
+      "included_in_public_repository": false
+    },
+    {
+      "path_in_qnn_zip": "qairt/2.42.0.251225/QAIRT_ReleaseNotes.txt",
+      "bytes": 238150,
+      "sha256": "482f51b0d9a915cb66371cbeb58af490b0c15b82baeff7ce8cc74e1df704d770",
+      "included_in_public_repository": false
+    },
+    {
+      "path_in_qnn_zip": "qairt/2.42.0.251225/QNN_README.txt",
+      "bytes": 1346,
+      "sha256": "de04c22b9ae9df70ebdbad878e6004abf249e84772bf4ef90681adc7545b739b",
+      "included_in_public_repository": false
+    }
+  ],
+  "standalone_sdk_public_mirror": "Not permitted by the inspected LICENSE.pdf standalone-distribution clause",
+  "next_step": "Official downloads into an ephemeral Linux build environment; validate minimal FP16 package before GELU work",
+  "new_performance_result": null
+}

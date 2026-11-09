@@ -2,9 +2,14 @@
 
 这是代码与数学审查任务，先阅读已有证据，避免重复失败实验。先不要运行手机负载、刷机或调整频率。前一轮没有找到能保住 32 ms 的精度修复，但这不是硬件不可能的证明；请独立判断。
 
+2026-11-09 交接补充
+- 接收方已自行取得原始 ONNX 并恢复 160 帧合成输入，这两项无需重复上传或等待。
+- 工具链新证据见同目录 toolchain-handoff/README.md 和 manifest.json。QNN 2.42 包内 v73 Makefile 指定 Hexagon SDK 5.5.5 + Tools 8.7.06；只拿到 QAIRT/QNN 包不等于编译器已就绪。
+- 优先验证最小 FP16 算子包的 Linux 编译和设备加载。真实双摄道路回放在本地盘点范围未找到，不能用合成输入替代真实道路验证；但它不阻碍先验证编译链。
+
 远端阅读范围与数据可用性
 - 本文所有文件路径均相对于当前 Git 仓库根目录；请只读取远端检出的仓库文件和明确给出的公开上游链接，不访问原机器的本地磁盘路径或手机。
-- 研究 snapshot 位于私有仓库 sunyu1235/jetlink-sm8550-research。可用证据包括 reports/jetlink* 下已提交的脚本、报告、汇总 JSON、比较日志、计时记录，以及 comparison/compare 目录中的 5536 个 .npy 文件（包含重复对照）。现成 compare 目录中的参考/实测数组可在远端重新运行原数值检查。旧 32 ms 报告及探针统一见 reports/jetlink-gelu-optimization-20261101/partition-tuning-20261109/legacy-32ms/。
+- 研究 snapshot 位于公开仓库 sunyu1235/jetlink-sm8550-research。可用证据包括 reports/jetlink* 下已提交的脚本、报告、汇总 JSON、比较日志、计时记录，以及 comparison/compare 目录中的 5536 个 .npy 文件（包含重复对照）。现成 compare 目录中的参考/实测数组可在远端重新运行原数值检查。旧 32 ms 报告及探针统一见 reports/jetlink-gelu-optimization-20261101/partition-tuning-20261109/legacy-32ms/。
 - 固定上游源码已附于 vendor/jetlink/，包含代码与完整 MIT LICENSE；排除 .git、__pycache__ 和 docs/images 下视频媒体。请使用 vendor/jetlink/scripts/verify_parity.py 验证已有 compare 目录。
 - outputs/ 未上传 Git；原始输入 captures、大型原始/派生 ONNX、QNN context binary、TFLite、运行库及可执行文件等也未随 snapshot 提供。报告或 manifest 中出现的旧绝对路径与 outputs/ 路径仅是产物来源记录，不能视为远端可读文件；上游源码请改读 vendor/jetlink/。
 - 可以依靠已提交的 compare 数组重跑数值判定，并审计摘要、哈希与日志；重新执行模型以生成新输出仍需要未上传的原始输入、模型产物及相应设备/运行环境。需要重现实验时，应明确区分这两种任务并列出缺失项，不把不可用数据当作已经读取。

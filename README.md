@@ -4,6 +4,8 @@
 
 先读 [独立研究任务](reports/jetlink-gelu-optimization-20261101/partition-tuning-20261109/dot-review-request.txt)，再读 [当前结果及证据](reports/jetlink-gelu-optimization-20261101/partition-tuning-20261109/README.md)。
 
+新增：[QNN 2.42 / v73 工具链核实与下一步](reports/jetlink-gelu-optimization-20261101/partition-tuning-20261109/toolchain-handoff/README.md)。接收方已取得原始模型和 160 帧合成输入，无需重复提供；当前先核对 Hexagon SDK 5.5.5 / Tools 8.7.06 并验证最小算子编译与加载。
+
 关键数据：旧全 NPU 方案约 32.48ms，但数值对照失败；准确修复目前最好 52.41ms，160 帧通过原始检查。混合 NPU/GPU 方案约 65.28ms，160 帧的两个 quiet plan 列未通过。此前没有找到兼顾约 30ms 和精度的实现，但这不证明硬件不可能；请独立审查，寻找有具体依据的新修复。
 
 ## 内容与边界

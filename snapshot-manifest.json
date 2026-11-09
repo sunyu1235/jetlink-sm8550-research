@@ -20566,9 +20566,9 @@
     },
     {
       "path": "reports/jetlink-gelu-optimization-20261101/partition-tuning-20261109/dot-review-request.txt",
-      "bytes": 8563,
-      "sha256": "3a8dfa9137271ae0e0512f1e8df6e5a5b160a73f2012e8e8b10265b6eea6cf49",
-      "provenance": "local Jetlink research evidence"
+      "bytes": 9174,
+      "sha256": "1fa94d0f26d4f140af4ac5d4f0156baa0f9ef15f77934270c0412578a6e2eeaa",
+      "provenance": "local Jetlink research evidence; 2026-11-09 handoff addendum"
     },
     {
       "path": "reports/jetlink-gelu-optimization-20261101/partition-tuning-20261109/export_for_review.py",
@@ -36963,7 +36963,7 @@
       "provenance": "local Jetlink research evidence"
     },
     {
-      "path": "reports/jetlink-gelu-repair-20261101/结果.md",
+      "path": "reports/jetlink-gelu-repair-20261101/\u7ed3\u679c.md",
       "bytes": 3181,
       "sha256": "e9a468f9b063f3f0e5c2bdbdf9aceb96e2739cf6b98b25a4f768789b427232ec",
       "provenance": "local Jetlink research evidence"
@@ -41881,8 +41881,20 @@
       "bytes": 12115,
       "sha256": "114e87ec38961ac601a8bcd53548a911317cb94e39a1d7dee7f21a6a67f58870",
       "provenance": "zoompilot/jetlink@a863c3801da6fd925d14eb1f5b1e250f8efcc649"
+    },
+    {
+      "path": "reports/jetlink-gelu-optimization-20261101/partition-tuning-20261109/toolchain-handoff/README.md",
+      "bytes": 3845,
+      "sha256": "ddff47836f7ea776a8679a2338afda2eeab07b34a781ad67274d482a18628be7",
+      "provenance": "local Jetlink research evidence; 2026-11-09 handoff addendum"
+    },
+    {
+      "path": "reports/jetlink-gelu-optimization-20261101/partition-tuning-20261109/toolchain-handoff/manifest.json",
+      "bytes": 3805,
+      "sha256": "681ca2bda970db96c76c656719ae0063149142e05eb95c408d03575e1692f95e",
+      "provenance": "local Jetlink research evidence; 2026-11-09 handoff addendum"
     }
   ],
-  "file_count": 6980,
-  "bytes": 428793398
+  "file_count": 6982,
+  "bytes": 428801659
 }
