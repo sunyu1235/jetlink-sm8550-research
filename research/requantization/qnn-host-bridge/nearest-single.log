@@ -1,0 +1,16 @@
+ <W> Initializing HtpProvider
+ <W> HTP arch will be deprecated, please set SoC id instead.
+ <W> Performance Estimates unsupported on soc SM8550
+ <W> Sanitizing the value for hvx_threads and setting to default
+[2] op_registry_prepare.cc:75:WARNING:Selecting disabled op for 0x137e00000003 q::crouton_to_vtcm
+
+====== DDR bandwidth summary ======
+spill_bytes=4718592
+fill_bytes=4718592
+write_total_bytes=9437184
+read_total_bytes=5570560
+
+QnnFirstProjection: input scale=7.6622942287940532e-05 offset=-38745 output scale=0.00043916353024542332 offset=-33554; x86 HTP SoC43 v73 O3
+{'i': 0, 'fp16_bit_mismatches': 634, 'max_abs_vs_ref16': 0.00390625, 'rmse_vs_ref16': 2.5707367967697792e-05}
+TOTAL 634
+[ INFO ] Freeing graph in freeGraphInfo

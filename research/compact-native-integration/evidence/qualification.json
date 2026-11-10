@@ -1,0 +1,199 @@
+{
+  "status": "PASS_NATIVE_COMPACT_CONTEXTS_CPU_REMAINDER_SYNTHETIC160",
+  "frames": 160,
+  "independent_recurrence": true,
+  "checker_modified": false,
+  "model_sha256": "ee3b0afa5b39b36f444a253626db498259161c714719eebae88655b28b33122b",
+  "ordered_outputs_sha256": "1d80318d97c135ba0948cceb17e9832ed61c7865d32b1641b8650aad9d7e70b4",
+  "views": {
+    "all_frames": {
+      "first_original_frame": 0,
+      "frames": 160,
+      "checker_exit": 0,
+      "last_line": "OK: every slice and every column at or above corr 0.999, or within 10% of its largest value where too small or too quiet to correlate, per frame and pooled over all 160 frames"
+    },
+    "after_warmup": {
+      "first_original_frame": 80,
+      "frames": 80,
+      "checker_exit": 0,
+      "last_line": "OK: every slice and every column at or above corr 0.999, or within 10% of its largest value where too small or too quiet to correlate, per frame and pooled over all 80 frames"
+    }
+  },
+  "native_contexts": 2,
+  "compact_shared_fp16_boundary_bytes": 9216,
+  "bridge_official_netrun_bitwise_parity": {
+    "scope": "saved-context native host bridge versus official net-run; not phone accuracy or speed",
+    "samples": 8,
+    "values": 12288,
+    "bit_mismatches": 0,
+    "rows": [
+      {
+        "sample": 0,
+        "output": "select_4",
+        "bit_mismatches": 0,
+        "max_abs": 0.0
+      },
+      {
+        "sample": 0,
+        "output": "select_7",
+        "bit_mismatches": 0,
+        "max_abs": 0.0
+      },
+      {
+        "sample": 0,
+        "output": "select_10",
+        "bit_mismatches": 0,
+        "max_abs": 0.0
+      },
+      {
+        "sample": 1,
+        "output": "select_4",
+        "bit_mismatches": 0,
+        "max_abs": 0.0
+      },
+      {
+        "sample": 1,
+        "output": "select_7",
+        "bit_mismatches": 0,
+        "max_abs": 0.0
+      },
+      {
+        "sample": 1,
+        "output": "select_10",
+        "bit_mismatches": 0,
+        "max_abs": 0.0
+      },
+      {
+        "sample": 2,
+        "output": "select_4",
+        "bit_mismatches": 0,
+        "max_abs": 0.0
+      },
+      {
+        "sample": 2,
+        "output": "select_7",
+        "bit_mismatches": 0,
+        "max_abs": 0.0
+      },
+      {
+        "sample": 2,
+        "output": "select_10",
+        "bit_mismatches": 0,
+        "max_abs": 0.0
+      },
+      {
+        "sample": 3,
+        "output": "select_4",
+        "bit_mismatches": 0,
+        "max_abs": 0.0
+      },
+      {
+        "sample": 3,
+        "output": "select_7",
+        "bit_mismatches": 0,
+        "max_abs": 0.0
+      },
+      {
+        "sample": 3,
+        "output": "select_10",
+        "bit_mismatches": 0,
+        "max_abs": 0.0
+      },
+      {
+        "sample": 4,
+        "output": "select_4",
+        "bit_mismatches": 0,
+        "max_abs": 0.0
+      },
+      {
+        "sample": 4,
+        "output": "select_7",
+        "bit_mismatches": 0,
+        "max_abs": 0.0
+      },
+      {
+        "sample": 4,
+        "output": "select_10",
+        "bit_mismatches": 0,
+        "max_abs": 0.0
+      },
+      {
+        "sample": 5,
+        "output": "select_4",
+        "bit_mismatches": 0,
+        "max_abs": 0.0
+      },
+      {
+        "sample": 5,
+        "output": "select_7",
+        "bit_mismatches": 0,
+        "max_abs": 0.0
+      },
+      {
+        "sample": 5,
+        "output": "select_10",
+        "bit_mismatches": 0,
+        "max_abs": 0.0
+      },
+      {
+        "sample": 6,
+        "output": "select_4",
+        "bit_mismatches": 0,
+        "max_abs": 0.0
+      },
+      {
+        "sample": 6,
+        "output": "select_7",
+        "bit_mismatches": 0,
+        "max_abs": 0.0
+      },
+      {
+        "sample": 6,
+        "output": "select_10",
+        "bit_mismatches": 0,
+        "max_abs": 0.0
+      },
+      {
+        "sample": 7,
+        "output": "select_4",
+        "bit_mismatches": 0,
+        "max_abs": 0.0
+      },
+      {
+        "sample": 7,
+        "output": "select_7",
+        "bit_mismatches": 0,
+        "max_abs": 0.0
+      },
+      {
+        "sample": 7,
+        "output": "select_10",
+        "bit_mismatches": 0,
+        "max_abs": 0.0
+      }
+    ],
+    "negative_tests": [
+      {
+        "case": "shape",
+        "rejected": true,
+        "reason": "[ONNXRuntimeError] : 2 : INVALID_ARGUMENT : Got invalid dimensions for input: gelu_43 for the following indices\n index: 1 Got: 287 Expected: 288\n Please fix either the inputs/outputs or the model."
+      },
+      {
+        "case": "dtype",
+        "rejected": true,
+        "reason": "[ONNXRuntimeError] : 2 : INVALID_ARGUMENT : Unexpected input data type. Actual: (tensor(float)) , expected: (tensor(float16))"
+      },
+      {
+        "case": "nonfinite",
+        "rejected": true,
+        "reason": "[ONNXRuntimeError] : 1 : FAIL : Non-zero status code returned while running QnnCompactPipeline node. Name:'' Status Message: nonfinite input"
+      }
+    ],
+    "recovery_after_rejection": true
+  },
+  "all_runtime_artifact_hashes_unchanged": true,
+  "native_recorded_road_replay": false,
+  "device_execution": false,
+  "device_latency_measured": false,
+  "scope": "Actual saved native QNN compact upstream and three-tail execution inside full recurrent model; remaining nodes on CPU; synthetic acceptance, not road safety"
+}

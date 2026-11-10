@@ -1,0 +1,170 @@
+[
+  {
+    "name": "gelu_41",
+    "gelu_node": "node_gelu_41",
+    "x": "layer_norm_49",
+    "y": "linear_99",
+    "weights": {
+      "w1": "val_645",
+      "b1": "model.off_policy.temporal_summarizer.transformer.layers.0.mlp.c_fc.bias",
+      "w2": "val_647",
+      "b2": "model.off_policy.temporal_summarizer.transformer.layers.0.mlp.c_proj.bias"
+    },
+    "source_bias": "model.off_policy.temporal_summarizer.transformer.layers.0.mlp.c_fc.bias",
+    "dtype": "float16"
+  },
+  {
+    "name": "gelu_42",
+    "gelu_node": "node_gelu_42",
+    "x": "layer_norm_53",
+    "y": "linear_103",
+    "weights": {
+      "w1": "val_674",
+      "b1": "model.off_policy.temporal_summarizer.transformer.layers.1.mlp.c_fc.bias",
+      "w2": "val_676",
+      "b2": "model.off_policy.temporal_summarizer.transformer.layers.1.mlp.c_proj.bias"
+    },
+    "source_bias": "model.off_policy.temporal_summarizer.transformer.layers.1.mlp.c_fc.bias",
+    "dtype": "float16"
+  },
+  {
+    "name": "gelu_43",
+    "gelu_node": "node_gelu_43",
+    "x": "layer_norm_57",
+    "y": "linear_107",
+    "weights": {
+      "w1": "val_703",
+      "b1": "model.off_policy.temporal_summarizer.transformer.layers.2.mlp.c_fc.bias",
+      "w2": "val_705",
+      "b2": "model.off_policy.temporal_summarizer.transformer.layers.2.mlp.c_proj.bias"
+    },
+    "source_bias": "model.off_policy.temporal_summarizer.transformer.layers.2.mlp.c_fc.bias",
+    "dtype": "float16"
+  },
+  {
+    "name": "gelu_44",
+    "gelu_node": "node_gelu_44",
+    "x": "layer_norm_61",
+    "y": "linear_111",
+    "weights": {
+      "w1": "val_732",
+      "b1": "model.off_policy.temporal_summarizer.transformer.layers.3.mlp.c_fc.bias",
+      "w2": "val_734",
+      "b2": "model.off_policy.temporal_summarizer.transformer.layers.3.mlp.c_proj.bias"
+    },
+    "source_bias": "model.off_policy.temporal_summarizer.transformer.layers.3.mlp.c_fc.bias",
+    "dtype": "float16"
+  },
+  {
+    "name": "gelu_52",
+    "gelu_node": "node_gelu_52",
+    "x": "layer_norm_72",
+    "y": "linear_140",
+    "weights": {
+      "w1": "val_833",
+      "b1": "model.off_policy.temporal_summarizer.transformer.layers.0.mlp.c_fc.bias",
+      "w2": "val_835",
+      "b2": "model.off_policy.temporal_summarizer.transformer.layers.0.mlp.c_proj.bias"
+    },
+    "source_bias": "model.off_policy.temporal_summarizer.transformer.layers.0.mlp.c_fc.bias",
+    "dtype": "float16"
+  },
+  {
+    "name": "gelu_53",
+    "gelu_node": "node_gelu_53",
+    "x": "layer_norm_76",
+    "y": "linear_144",
+    "weights": {
+      "w1": "val_862",
+      "b1": "model.off_policy.temporal_summarizer.transformer.layers.1.mlp.c_fc.bias",
+      "w2": "val_864",
+      "b2": "model.off_policy.temporal_summarizer.transformer.layers.1.mlp.c_proj.bias"
+    },
+    "source_bias": "model.off_policy.temporal_summarizer.transformer.layers.1.mlp.c_fc.bias",
+    "dtype": "float16"
+  },
+  {
+    "name": "gelu_54",
+    "gelu_node": "node_gelu_54",
+    "x": "layer_norm_80",
+    "y": "linear_148",
+    "weights": {
+      "w1": "val_891",
+      "b1": "model.off_policy.temporal_summarizer.transformer.layers.2.mlp.c_fc.bias",
+      "w2": "val_893",
+      "b2": "model.off_policy.temporal_summarizer.transformer.layers.2.mlp.c_proj.bias"
+    },
+    "source_bias": "model.off_policy.temporal_summarizer.transformer.layers.2.mlp.c_fc.bias",
+    "dtype": "float16"
+  },
+  {
+    "name": "gelu_55",
+    "gelu_node": "node_gelu_55",
+    "x": "layer_norm_84",
+    "y": "linear_152",
+    "weights": {
+      "w1": "val_920",
+      "b1": "model.off_policy.temporal_summarizer.transformer.layers.3.mlp.c_fc.bias",
+      "w2": "val_922",
+      "b2": "model.off_policy.temporal_summarizer.transformer.layers.3.mlp.c_proj.bias"
+    },
+    "source_bias": "model.off_policy.temporal_summarizer.transformer.layers.3.mlp.c_fc.bias",
+    "dtype": "float16"
+  },
+  {
+    "name": "gelu_59",
+    "gelu_node": "node_gelu_59",
+    "x": "layer_norm_91",
+    "y": "linear_169",
+    "weights": {
+      "w1": "val_1015",
+      "b1": "model.on_policy.temporal_summarizer.transformer.layers.0.mlp.c_fc.bias",
+      "w2": "val_1017",
+      "b2": "model.on_policy.temporal_summarizer.transformer.layers.0.mlp.c_proj.bias"
+    },
+    "source_bias": "model.on_policy.temporal_summarizer.transformer.layers.0.mlp.c_fc.bias",
+    "dtype": "float16"
+  },
+  {
+    "name": "gelu_60",
+    "gelu_node": "node_gelu_60",
+    "x": "layer_norm_95",
+    "y": "linear_173",
+    "weights": {
+      "w1": "val_1044",
+      "b1": "model.on_policy.temporal_summarizer.transformer.layers.1.mlp.c_fc.bias",
+      "w2": "val_1046",
+      "b2": "model.on_policy.temporal_summarizer.transformer.layers.1.mlp.c_proj.bias"
+    },
+    "source_bias": "model.on_policy.temporal_summarizer.transformer.layers.1.mlp.c_fc.bias",
+    "dtype": "float16"
+  },
+  {
+    "name": "gelu_61",
+    "gelu_node": "node_gelu_61",
+    "x": "layer_norm_99",
+    "y": "linear_177",
+    "weights": {
+      "w1": "val_1073",
+      "b1": "model.on_policy.temporal_summarizer.transformer.layers.2.mlp.c_fc.bias",
+      "w2": "val_1075",
+      "b2": "model.on_policy.temporal_summarizer.transformer.layers.2.mlp.c_proj.bias"
+    },
+    "source_bias": "model.on_policy.temporal_summarizer.transformer.layers.2.mlp.c_fc.bias",
+    "dtype": "float16"
+  },
+  {
+    "name": "gelu_62",
+    "gelu_node": "node_gelu_62",
+    "x": "layer_norm_103",
+    "y": "linear_181",
+    "weights": {
+      "w1": "val_1102",
+      "b1": "model.on_policy.temporal_summarizer.transformer.layers.3.mlp.c_fc.bias",
+      "w2": "val_1104",
+      "b2": "model.on_policy.temporal_summarizer.transformer.layers.3.mlp.c_proj.bias"
+    },
+    "source_bias": "model.on_policy.temporal_summarizer.transformer.layers.3.mlp.c_fc.bias",
+    "dtype": "float16"
+  }
+]

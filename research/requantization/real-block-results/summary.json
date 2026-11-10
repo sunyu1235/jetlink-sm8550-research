@@ -1,0 +1,122 @@
+{
+  "status": "REAL_BLOCK_QDQ_CPU_ONLY_NOT_WHOLE_MODEL_OR_HTP",
+  "source_model_sha256": "01fcec2ee6a335ba6688fecf28bab768d3707af067ae17815cf999ff65d8ccc5",
+  "data_sha256": "e04f14b5868e9502c96140f09ce19f1183c38064d032f1eda17ec184430e63e1",
+  "onnx_version": "1.20.1",
+  "ort_version": "1.23.2",
+  "calibration_frames": 8,
+  "validation_frames": 4,
+  "fp32_conversion_vs_original": {
+    "finite": true,
+    "max_abs": 0.04339599609375,
+    "rmse": 0.0004388230483097059,
+    "normalized_rmse": 0.00020963643082031478,
+    "correlation": 0.9999999780317307
+  },
+  "cases": [
+    {
+      "name": "QUInt16-w8-pc0",
+      "weight_encoding_scale_shapes": {
+        "val_645_scale": [],
+        "val_647_scale": []
+      },
+      "per_channel_requested": false,
+      "per_channel_note": "QNN MatMul forces per-tensor in this ORT version; see actual scale shapes.",
+      "vs_original": {
+        "finite": true,
+        "max_abs": 0.440460205078125,
+        "rmse": 0.04857080269910534,
+        "normalized_rmse": 0.02320345241467788,
+        "correlation": 0.9997308600120579
+      },
+      "vs_fp32": {
+        "finite": true,
+        "max_abs": 0.4291114807128906,
+        "rmse": 0.048568024915689734,
+        "normalized_rmse": 0.023202049337693053,
+        "correlation": 0.9997308916947563
+      },
+      "bytes": 1069837,
+      "sha256": "9b8bb42163d2a102884ddf53fcee2bfec0203ac765244a4e53908991ea9b39c0",
+      "executed": true
+    },
+    {
+      "name": "QUInt16-w8-pc1",
+      "weight_encoding_scale_shapes": {
+        "val_645_scale": [],
+        "val_647_scale": []
+      },
+      "per_channel_requested": true,
+      "per_channel_note": "QNN MatMul forces per-tensor in this ORT version; see actual scale shapes.",
+      "vs_original": {
+        "finite": true,
+        "max_abs": 0.440460205078125,
+        "rmse": 0.04857080269910534,
+        "normalized_rmse": 0.02320345241467788,
+        "correlation": 0.9997308600120579
+      },
+      "vs_fp32": {
+        "finite": true,
+        "max_abs": 0.4291114807128906,
+        "rmse": 0.048568024915689734,
+        "normalized_rmse": 0.023202049337693053,
+        "correlation": 0.9997308916947563
+      },
+      "bytes": 1069837,
+      "sha256": "9b8bb42163d2a102884ddf53fcee2bfec0203ac765244a4e53908991ea9b39c0",
+      "executed": true
+    },
+    {
+      "name": "QUInt8-w8-pc0",
+      "weight_encoding_scale_shapes": {
+        "val_645_scale": [],
+        "val_647_scale": []
+      },
+      "per_channel_requested": false,
+      "per_channel_note": "QNN MatMul forces per-tensor in this ORT version; see actual scale shapes.",
+      "vs_original": {
+        "finite": true,
+        "max_abs": 1.6641998291015625,
+        "rmse": 0.28963693902608345,
+        "normalized_rmse": 0.13836660213047042,
+        "correlation": 0.9905174182169137
+      },
+      "vs_fp32": {
+        "finite": true,
+        "max_abs": 1.6887283325195312,
+        "rmse": 0.2896364174287571,
+        "normalized_rmse": 0.13836589935127788,
+        "correlation": 0.9905174609820144
+      },
+      "bytes": 1069660,
+      "sha256": "44cace163d54d747adfae0b36ffc9332f098cf4158b78077e48d7b02032d3537",
+      "executed": true
+    },
+    {
+      "name": "QUInt8-w8-pc1",
+      "weight_encoding_scale_shapes": {
+        "val_645_scale": [],
+        "val_647_scale": []
+      },
+      "per_channel_requested": true,
+      "per_channel_note": "QNN MatMul forces per-tensor in this ORT version; see actual scale shapes.",
+      "vs_original": {
+        "finite": true,
+        "max_abs": 1.6641998291015625,
+        "rmse": 0.28963693902608345,
+        "normalized_rmse": 0.13836660213047042,
+        "correlation": 0.9905174182169137
+      },
+      "vs_fp32": {
+        "finite": true,
+        "max_abs": 1.6887283325195312,
+        "rmse": 0.2896364174287571,
+        "normalized_rmse": 0.13836589935127788,
+        "correlation": 0.9905174609820144
+      },
+      "bytes": 1069660,
+      "sha256": "44cace163d54d747adfae0b36ffc9332f098cf4158b78077e48d7b02032d3537",
+      "executed": true
+    }
+  ]
+}

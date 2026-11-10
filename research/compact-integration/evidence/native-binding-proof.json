@@ -1,0 +1,47 @@
+{
+  "scope": "serialized QNN host file handoff; not Android shared-allocation proof",
+  "samples": [
+    {
+      "sample": 0,
+      "boundary_bytes": 9216,
+      "raw_files_borrowed_no_copy": true
+    },
+    {
+      "sample": 1,
+      "boundary_bytes": 9216,
+      "raw_files_borrowed_no_copy": true
+    },
+    {
+      "sample": 2,
+      "boundary_bytes": 9216,
+      "raw_files_borrowed_no_copy": true
+    },
+    {
+      "sample": 3,
+      "boundary_bytes": 9216,
+      "raw_files_borrowed_no_copy": true
+    },
+    {
+      "sample": 4,
+      "boundary_bytes": 9216,
+      "raw_files_borrowed_no_copy": true
+    },
+    {
+      "sample": 5,
+      "boundary_bytes": 9216,
+      "raw_files_borrowed_no_copy": true
+    },
+    {
+      "sample": 6,
+      "boundary_bytes": 9216,
+      "raw_files_borrowed_no_copy": true
+    },
+    {
+      "sample": 7,
+      "boundary_bytes": 9216,
+      "raw_files_borrowed_no_copy": true
+    }
+  ],
+  "padding_bytes": 0,
+  "dtype_casts": 0
+}

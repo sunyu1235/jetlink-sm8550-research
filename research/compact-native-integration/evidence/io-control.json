@@ -1,0 +1,6 @@
+{
+  "inputs_byte_identical_to_passing_cpu_model": true,
+  "outputs_byte_identical_to_passing_cpu_model": true,
+  "custom_pipeline_nodes": 1,
+  "phone_test": false
+}

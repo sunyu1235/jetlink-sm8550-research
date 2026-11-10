@@ -1,0 +1,61 @@
+{
+  "scope": "Local publication checks; no full-model replay or SDK-dependent runtime rerun",
+  "unit_tests": {
+    "requantization_boundary": {
+      "passed": 7
+    },
+    "compact_bindings": {
+      "passed": 7
+    },
+    "compact_partition_structure": {
+      "passed": 10,
+      "dependency": "Existing teacher model and contract read-only"
+    },
+    "distillation_initializer": {
+      "passed": 4
+    }
+  },
+  "synthetic_converter_helper_checks": 6,
+  "compact_gelu": {
+    "generated_table_and_report_byte_identical": true,
+    "release": "PASS 131072 bit-pattern comparisons, two full in-place passes, 520 tail/canary cases, invalid arguments",
+    "asan_ubsan": "PASS same suite",
+    "leak_sanitizer": "disabled; not checked"
+  },
+  "static_checks": {
+    "python_syntax_files": 78,
+    "json_parsed_files": 134,
+    "bash_syntax_files": 12,
+    "credential_pattern_matches": 0,
+    "all_added_files_utf8_without_NUL": true,
+    "git_diff_whitespace": "Five trailing-whitespace diagnostics in preserved historical converter logs/command text. Source-only diff check passes. Evidence bytes intentionally unchanged."
+  },
+  "runtime_versions": {
+    "python": "3.12.14",
+    "numpy": "2.5.4",
+    "onnx": "1.20.1",
+    "onnxruntime": "1.23.2",
+    "gcc": "14.2.0"
+  },
+  "not_rerun": [
+    "Full-model synthetic and road replays",
+    "SDK-dependent native bridge/context tests",
+    "Device tests; no target connected"
+  ],
+  "limitations": [
+    "Saved logs substantiate historical completed gates; raw tensors/weights are excluded.",
+    "LeakSanitizer is not a successful leak test.",
+    "Secret-pattern scan is not a security certification."
+  ],
+  "followup_20261110": {
+    "night_completed_checker_files_verified": true,
+    "night_views": {
+      "all_frames": 320,
+      "after_warmup": 160
+    },
+    "source_code_changed": false,
+    "full_model_rerun_for_publication": false,
+    "day320": "pending",
+    "prior_test_runs": "unchanged code; earlier results retained, not claimed as rerun"
+  }
+}

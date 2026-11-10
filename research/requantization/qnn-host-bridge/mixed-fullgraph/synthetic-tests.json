@@ -1,0 +1,8 @@
+{
+  "synthetic_splice_checker_and_preservation": true,
+  "repair_count_0": true,
+  "repair_count_1": true,
+  "repair_count_2": true,
+  "reject_nonrepresentable_before_writes": true,
+  "reject_shared_consumer_before_writes": true
+}

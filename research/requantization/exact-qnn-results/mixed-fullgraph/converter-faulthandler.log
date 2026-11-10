@@ -1,0 +1,26 @@
+bash /workspace/shared/htp-gelu/integration/run_preserve_converter.sh --input_network /workspace/shared/jetlink-mixed-first-full/mixed-first-projection.onnx --output_path /workspace/shared/jetlink-mixed-first-full/qnn/mixed_first.cpp --op_package_config /workspace/shared/htp-gelu/integration/Gelu.xml --float_fallback --float_bitwidth 16 --float_bias_bitwidth 16 --act_bitwidth 16 --weights_bitwidth 8 --no_simplification --preserve_io layout 
+2026-11-09 11:18:05,350 - 278 - INFO - Input shape info 
+Fatal Python error: Segmentation fault
+
+Current thread 0x00007f6bcb626b80 (most recent call first):
+  File "/workspace/shared/jetlink-converter-python/onnx/shape_inference.py", line 46 in infer_shapes
+  File "/workspace/shared/htp-dependencies/build-subset/qairt/2.42.0.251225/lib/python/qti/aisw/converters/onnx/custom_op_definition.py", line 287 in up_convert_infer_shapes
+  File "/workspace/shared/htp-dependencies/build-subset/qairt/2.42.0.251225/lib/python/qti/aisw/converters/onnx/custom_op_definition.py", line 152 in infer_output_shapes
+  File "/workspace/shared/htp-dependencies/build-subset/qairt/2.42.0.251225/lib/python/qti/aisw/converters/common/custom_ops/core.py", line 276 in set_output_dims
+  File "/workspace/shared/htp-dependencies/build-subset/qairt/2.42.0.251225/lib/python/qti/aisw/converters/onnx/custom_op_definition.py", line 38 in __init__
+  File "/workspace/shared/htp-dependencies/build-subset/qairt/2.42.0.251225/lib/python/qti/aisw/converters/common/custom_ops/op_factory.py", line 172 in __create_onnx_op
+  File "/workspace/shared/htp-dependencies/build-subset/qairt/2.42.0.251225/lib/python/qti/aisw/converters/common/custom_ops/op_factory.py", line 86 in create_op_from_operator
+  File "/workspace/shared/htp-dependencies/build-subset/qairt/2.42.0.251225/lib/python/qti/aisw/converters/common/custom_ops/op_factory.py", line 58 in create_ops_from_operator
+  File "/workspace/shared/htp-dependencies/build-subset/qairt/2.42.0.251225/lib/python/qti/aisw/converters/qnn_backend/custom_ops/op_factory.py", line 69 in parse_config
+  File "/workspace/shared/htp-dependencies/build-subset/qairt/2.42.0.251225/lib/python/qti/aisw/converters/common/custom_ops/utils/custom_op_helpers.py", line 39 in populate_custom_op_collection
+  File "/workspace/shared/htp-dependencies/build-subset/qairt/2.42.0.251225/lib/python/qti/aisw/converters/common/loader_base.py", line 35 in __init__
+  File "/workspace/shared/htp-dependencies/build-subset/qairt/2.42.0.251225/lib/python/qti/aisw/converters/onnx/onnx_loader.py", line 43 in __init__
+  File "/workspace/shared/htp-dependencies/build-subset/qairt/2.42.0.251225/lib/python/qti/aisw/converters/onnx/onnx_to_ir.py", line 259 in __init__
+  File "/workspace/shared/htp-dependencies/build-subset/qairt/2.42.0.251225/bin/x86_64-linux-clang/qnn-onnx-converter", line 58 in main
+  File "/workspace/shared/htp-dependencies/build-subset/qairt/2.42.0.251225/bin/x86_64-linux-clang/qnn-onnx-converter", line 110 in <module>
+  File "/workspace/shared/jetlink-python310/cpython-3.10.22-linux-x86_64-gnu/lib/python3.10/runpy.py", line 86 in _run_code
+  File "/workspace/shared/jetlink-python310/cpython-3.10.22-linux-x86_64-gnu/lib/python3.10/runpy.py", line 96 in _run_module_code
+  File "/workspace/shared/jetlink-python310/cpython-3.10.22-linux-x86_64-gnu/lib/python3.10/runpy.py", line 289 in run_path
+  File "/workspace/shared/htp-gelu/integration/convert_preserve_arithmetic.py", line 11 in <module>
+
+Extension modules: numpy.core._multiarray_umath, numpy.core._multiarray_tests, numpy.linalg._umath_linalg, numpy.fft._pocketfft_internal, numpy.random._common, numpy.random.bit_generator, numpy.random._bounded_integers, numpy.random._mt19937, numpy.random.mtrand, numpy.random._philox, numpy.random._pcg64, numpy.random._sfc64, numpy.random._generator, yaml._yaml, google._upb._message, pandas._libs.tslibs.ccalendar, pandas._libs.tslibs.np_datetime, pandas._libs.tslibs.dtypes, pandas._libs.tslibs.base, pandas._libs.tslibs.nattype, pandas._libs.tslibs.timezones, pandas._libs.tslibs.fields, pandas._libs.tslibs.timedeltas, pandas._libs.tslibs.tzconversion, pandas._libs.tslibs.timestamps, pandas._libs.properties, pandas._libs.tslibs.offsets, pandas._libs.tslibs.strptime, pandas._libs.tslibs.parsing, pandas._libs.tslibs.conversion, pandas._libs.tslibs.period, pandas._libs.tslibs.vectorized, pandas._libs.ops_dispatch, pandas._libs.missing, pandas._libs.hashtable, pandas._libs.algos, pandas._libs.interval, pandas._libs.lib, pandas._libs.ops, pandas._libs.hashing, pandas._libs.arrays, pandas._libs.tslib, pandas._libs.sparse, pandas._libs.internals, pandas._libs.indexing, pandas._libs.index, pandas._libs.writers, pandas._libs.join, pandas._libs.window.aggregations, pandas._libs.window.indexers, pandas._libs.reshape, pandas._libs.groupby, pandas._libs.json, pandas._libs.parsers, pandas._libs.testing, lxml._elementpath, lxml.etree (total: 57)

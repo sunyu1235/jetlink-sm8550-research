@@ -28,3 +28,10 @@ PYTHONPATH=vendor/jetlink python vendor/jetlink/scripts/verify_parity.py compare
 预期通过。将目录改为 `reports/jetlink-gelu-optimization-20261101/partition-tuning-20261109/mixed-litert-160-confirm/compare`，预期失败，原因是两个 quiet plan 列。检查器及阈值保持上游原版。这能复核已保存数组的比较结论，不能重新生成手机输出或完成真实道路精度验证。
 
 旧脚本中可能有本地 Windows/Android 路径。先审查依赖，勿直接执行设备脚本；需要新实验时应先明确新的可证伪假设、缺失工具和数据。
+
+
+## 2026-11-09 新研究源码与证据
+
+新增 compact CPU/native integration、重量化、蒸馏、紧凑 GELU 原型及公开道路输入重建脚本。请从 [研究总览](research/README.md) 查看当前通过项、失败项、未完成项及复现边界。已有历史证据与上游源码保持原样。
+
+注意：10.8 MB 只是两个局部分区的 QNN context，不是完整模型。compact CPU 图连同必需权重约 792.134 MB；完整大小核算见 [审计](research/model-size-audit-20261109.json)。原生夜间完整 320 帧及最后 160 帧检查现已通过；白天完整 320 帧仍待完成。未声称手机速度、32 ms 或部署成功。

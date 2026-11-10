@@ -1,0 +1,9 @@
+{
+  "sdk_methods_extracted_directly_from_installed_source": true,
+  "up_convert_returned_same_model": true,
+  "shape_inference_calls": 0,
+  "sdk_get_all_tensors_count": 1784,
+  "missing_referenced_names": [],
+  "external_payloads_loaded": false,
+  "full_converter_retested": false
+}

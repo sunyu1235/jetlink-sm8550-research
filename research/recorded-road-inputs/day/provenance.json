@@ -1,0 +1,325 @@
+{
+  "teacher_sha256": "6274eb4a3f3eb7ad1ab341d222bbba2ba709b06645dbbd15ac4971d6cb22ab21",
+  "openpilot_model_era_ref": "c1d94adad4facfce493db6b58e0e3d5e4e09ae4c",
+  "tinygrad_ref": "d39227beebd0c3a340dc42b2cdc1e3db1c36aed9",
+  "jetlink_ref": "a863c3801da6fd925d14eb1f5b1e250f8efcc649",
+  "schema_openpilot_ref": "f5dfddb72afdc5182cb28b63b3c692a9f00535fe",
+  "schema_car_source": "https://raw.githubusercontent.com/commaai/opendbc/master/opendbc/car/car.capnp (exact bytes hashed below)",
+  "route": "5beb9b58bd12b691/0000010a--a51155e496/0",
+  "purpose": "Independent daytime held-out numeric validation inputs; no model inference or training in this preparation task.",
+  "official_route_ref": "https://github.com/commaai/openpilot/blob/f5dfddb72afdc5182cb28b63b3c692a9f00535fe/openpilot/tools/replay/replay.h",
+  "source_files": {
+    "source/LICENSE": {
+      "bytes": 1059,
+      "sha256": "716ce815a0467219c59ec2433e6bce7f32efc45240725c6d3141a52b111d2558"
+    },
+    "source/jetlink/LICENSE": {
+      "bytes": 1069,
+      "sha256": "587c49ca798146142b98f5aacf2ebfd890640177823ff8623e1b80524b5fe4de"
+    },
+    "source/jetlink/jetlink/openpilot/model_state.py": {
+      "bytes": 18609,
+      "sha256": "0a76196d957085ca539c525425abda4e24bcd627ac440ce8d61dac16d7b27aa2"
+    },
+    "source/jetlink/jetlink/openpilot/stock.py": {
+      "bytes": 12285,
+      "sha256": "8af2cf5d0b19c32672f011d0817c6f3b73a7bd32cdf565b2744ef4885f8dcd45"
+    },
+    "source/jetlink/jetlink/openpilot/warp.py": {
+      "bytes": 12858,
+      "sha256": "8772b1e0c3e045dd36dd322e12f58c1322a364c492857e9e3a78ef8a66b68613"
+    },
+    "source/jetlink/jetlink/spec.py": {
+      "bytes": 9204,
+      "sha256": "a8b9323ba86d28b32c40353f4730efd67b2e61293049524c4bebe4dd3880a9f9"
+    },
+    "source/openpilot/common/transformations/camera.py": {
+      "bytes": 6209,
+      "sha256": "1de3f9e6147f28195c71673ae5c8ec38e65ede997ac98d2e1e3b114eda873ec4"
+    },
+    "source/openpilot/common/transformations/model.py": {
+      "bytes": 2766,
+      "sha256": "c87aad27074362fe9fe361a71da92c1fc90daf63bcfd4d8c47d65d3a936ec15e"
+    },
+    "source/openpilot/common/transformations/orientation.py": {
+      "bytes": 1978,
+      "sha256": "fbc8f802474e87c87db242b0dc916f2469439247fd67cd058b69b61605c0e139"
+    },
+    "source/openpilot/common/transformations/transformations.py": {
+      "bytes": 9592,
+      "sha256": "5c2e2b43c0ea5ce07550a37b0594edc2b680f042ecd88824e9134e63c30efbd8"
+    },
+    "source/openpilot/selfdrive/controls/lib/desire_helper.py": {
+      "bytes": 3569,
+      "sha256": "d9df29acc2c4185e7fea17047cb3fcc37489e777fb20b288b2b91c30d076f323"
+    },
+    "source/openpilot/selfdrive/modeld/SConscript": {
+      "bytes": 3579,
+      "sha256": "9835f4c053316078ed61f74fa2d900a5f9182d03168cbdca96261539ebbd501d"
+    },
+    "source/openpilot/selfdrive/modeld/modeld.py": {
+      "bytes": 22712,
+      "sha256": "5f6e091fbc13962503fc820665035093002f22caeed9550960e56d3031ca7703"
+    },
+    "source/openpilot/selfdrive/test/process_replay/model_replay.py": {
+      "bytes": 13256,
+      "sha256": "071f23bd3102110869085a09b62ca2f0f80f7a6d7e0c027873c2dd67d3450a3e"
+    },
+    "source/submodules.json": {
+      "bytes": 367,
+      "sha256": "664f698a11205019cf791bacbb6b8d5e498c09066faf1172d7c59da3b634932a"
+    },
+    "source/tinygrad_repo/examples/openpilot/compile_warp.py": {
+      "bytes": 6870,
+      "sha256": "97a6814fde7f16e1ce265c6b6388cd5799c8e2f8969ac78cfc4fd5a929b1921d"
+    },
+    "schema/car.capnp": {
+      "bytes": 21267,
+      "sha256": "ef3454f5add03a98f31b08c2c89473e28ddaf1bfd4d787f1c71cfbe4093abdac"
+    },
+    "schema/custom.capnp": {
+      "bytes": 1344,
+      "sha256": "6b06a0d2d5ac6b902ca2f433c1663ed83ea4b41ba4c16cddfc7acd8a630be82d"
+    },
+    "schema/deprecated.capnp": {
+      "bytes": 17593,
+      "sha256": "b3aa5c13de40001ed7376cef858500fb003f7698f96131cd0db18d878fa1af0d"
+    },
+    "schema/include/c++.capnp": {
+      "bytes": 1354,
+      "sha256": "fb306076cd38c27af1aed20fac6395e9a46fbe5b5df6a248b5f1b6845a079c44"
+    },
+    "schema/log.capnp": {
+      "bytes": 66691,
+      "sha256": "0afd8028a83acd3a1decb74a8fd50c0cd7799dd1139453e95c015fd84b607478"
+    },
+    "source/official_demo_replay.h": {
+      "bytes": 5412,
+      "sha256": "1393e88c1817a25d29709ae7093bc047400e853dd597f4afccebdb46204ee7b9"
+    }
+  },
+  "raw_sources": {
+    "fcamera.hevc": {
+      "url": "https://commadataci.blob.core.windows.net/openpilotci/5beb9b58bd12b691/0000010a--a51155e496/0/fcamera.hevc",
+      "http_status": 200,
+      "content_length": "37463690",
+      "etag": "0x8DF095491DC4CC2",
+      "last_modified": "Thu, 03 Sep 2026 00:44:53 GMT",
+      "bytes": 37463690,
+      "sha256": "03c86cd00aba7fe627b224f463cfac4836d3ab385c628224f137d916c597e338"
+    },
+    "ecamera.hevc": {
+      "url": "https://commadataci.blob.core.windows.net/openpilotci/5beb9b58bd12b691/0000010a--a51155e496/0/ecamera.hevc",
+      "http_status": 200,
+      "content_length": "37558900",
+      "etag": "0x8DF095491CC590D",
+      "last_modified": "Thu, 03 Sep 2026 00:44:53 GMT",
+      "bytes": 37558900,
+      "sha256": "9b377fb1d9fa2e4c33f95af7c8b829fe0c9cbaae0176cc2ef1c93cc8980dd012"
+    },
+    "rlog.zst": {
+      "url": "https://commadataci.blob.core.windows.net/openpilotci/5beb9b58bd12b691/0000010a--a51155e496/0/rlog.zst",
+      "http_status": 200,
+      "content_length": "10742090",
+      "etag": "0x8DF095491A72051",
+      "last_modified": "Thu, 03 Sep 2026 00:44:53 GMT",
+      "bytes": 10742090,
+      "sha256": "0d4eb61a36e83cf0b626060169cfe77e78f65c8a25daf19bfdaaa4887ea45c82"
+    }
+  },
+  "tinygrad_archive": {
+    "url": "https://codeload.github.com/tinygrad/tinygrad/tar.gz/d39227beebd0c3a340dc42b2cdc1e3db1c36aed9",
+    "bytes": 12196809,
+    "sha256": "09ef44a6765e000e0f884a787ec38410664b8a4eabbb58cd13f7c7d863176384"
+  },
+  "validation": {
+    "tinygrad_ref": "d39227beebd0c3a340dc42b2cdc1e3db1c36aed9",
+    "implementation": "examples/openpilot/compile_warp.py make_frame_prepare",
+    "runtime": "CPU:LLVM",
+    "samples": [
+      {
+        "sequence_index": 0,
+        "camera": "fcamera.hevc",
+        "shape": [
+          6,
+          128,
+          256
+        ],
+        "dtype": "uint8",
+        "different_pixels": 1,
+        "total_pixels": 196608,
+        "max_abs_difference": 1,
+        "mean_abs_difference": 5.086263020833333e-06,
+        "saved_input_matches_numpy": true,
+        "difference_examples_ch_y_x": [
+          {
+            "index": [
+              4,
+              30,
+              68
+            ],
+            "tinygrad": 123,
+            "numpy": 124
+          }
+        ]
+      },
+      {
+        "sequence_index": 0,
+        "camera": "ecamera.hevc",
+        "shape": [
+          6,
+          128,
+          256
+        ],
+        "dtype": "uint8",
+        "different_pixels": 0,
+        "total_pixels": 196608,
+        "max_abs_difference": 0,
+        "mean_abs_difference": 0.0,
+        "saved_input_matches_numpy": true,
+        "difference_examples_ch_y_x": []
+      },
+      {
+        "sequence_index": 159,
+        "camera": "fcamera.hevc",
+        "shape": [
+          6,
+          128,
+          256
+        ],
+        "dtype": "uint8",
+        "different_pixels": 0,
+        "total_pixels": 196608,
+        "max_abs_difference": 0,
+        "mean_abs_difference": 0.0,
+        "saved_input_matches_numpy": true,
+        "difference_examples_ch_y_x": []
+      },
+      {
+        "sequence_index": 159,
+        "camera": "ecamera.hevc",
+        "shape": [
+          6,
+          128,
+          256
+        ],
+        "dtype": "uint8",
+        "different_pixels": 0,
+        "total_pixels": 196608,
+        "max_abs_difference": 0,
+        "mean_abs_difference": 0.0,
+        "saved_input_matches_numpy": true,
+        "difference_examples_ch_y_x": []
+      },
+      {
+        "sequence_index": 319,
+        "camera": "fcamera.hevc",
+        "shape": [
+          6,
+          128,
+          256
+        ],
+        "dtype": "uint8",
+        "different_pixels": 2,
+        "total_pixels": 196608,
+        "max_abs_difference": 1,
+        "mean_abs_difference": 1.0172526041666666e-05,
+        "saved_input_matches_numpy": true,
+        "difference_examples_ch_y_x": [
+          {
+            "index": [
+              4,
+              30,
+              68
+            ],
+            "tinygrad": 121,
+            "numpy": 122
+          },
+          {
+            "index": [
+              5,
+              30,
+              68
+            ],
+            "tinygrad": 134,
+            "numpy": 133
+          }
+        ]
+      },
+      {
+        "sequence_index": 319,
+        "camera": "ecamera.hevc",
+        "shape": [
+          6,
+          128,
+          256
+        ],
+        "dtype": "uint8",
+        "different_pixels": 0,
+        "total_pixels": 196608,
+        "max_abs_difference": 0,
+        "mean_abs_difference": 0.0,
+        "saved_input_matches_numpy": true,
+        "difference_examples_ch_y_x": []
+      }
+    ],
+    "cachelevel": "0",
+    "all_exact": false,
+    "limitation": "CPU source-function comparison; not QCOM GPU runtime/ISP parity."
+  },
+  "rounding_diagnostic": {
+    "runtime": "CPU:LLVM",
+    "method": "Same pinned warp, source int32 linear-index ramp; independent coordinate diagnostic, inputs unchanged.",
+    "different_sample_coordinates": 1,
+    "differences": [
+      {
+        "dst_uv_x_y": [
+          68,
+          30
+        ],
+        "numpy_src_x_y": [
+          262,
+          103
+        ],
+        "tinygrad_src_x_y": [
+          263,
+          103
+        ],
+        "numpy_float32_src_x_before_round": 262.5
+      }
+    ],
+    "limit": "The diagnostic identifies a CPU coordinate-rounding boundary difference, not QCOM parity or the compiler-level arithmetic cause."
+  },
+  "license_note": "Public official CI replay fixture. No separate explicit training or redistribution license located for blob recordings. Software MIT license is not asserted to cover them. Raw data local only.",
+  "heldout_limit": "Not used in the local student fitting experiment; no claim that original teacher training excluded this route.",
+  "scripts": {
+    "audit_inputs.py": {
+      "bytes": 6333,
+      "sha256": "8f06db7bbb9837c092842d261bf68e3af57088f077d5fd77ac2fa3d95f46597e"
+    },
+    "check_rounding.py": {
+      "bytes": 1793,
+      "sha256": "3496a3a3ab84bde1be0a6c55c49c0111324a1b77aa15f1d0a044ed776dbfed14"
+    },
+    "export_flat_inputs.py": {
+      "bytes": 1889,
+      "sha256": "75c3df22c07e9d10ac1720d423c7a37bf46cbc55c7ef7b5cdd5ceb5f2bf75d03"
+    },
+    "extract_metadata.py": {
+      "bytes": 2220,
+      "sha256": "1d5eb5a59f6042b052958b11d59e36340a33043cdb9176f24410f8790a067eef"
+    },
+    "preprocess_road.py": {
+      "bytes": 13839,
+      "sha256": "c10ecb1dec83fda994b829fef2d95e51a466f7ee340371e1252704ee3ea326f8"
+    },
+    "test_preprocessing.py": {
+      "bytes": 2448,
+      "sha256": "89bc460395a8fb8d25f354315ec764fe6723587bf0172fa62ff1c3ef2346f4a9"
+    },
+    "validate_warp.py": {
+      "bytes": 3675,
+      "sha256": "da3485f237961e1d157f2e554bdb17b9e766a4a05edac706c65334f0bb4f0b28"
+    }
+  }
+}

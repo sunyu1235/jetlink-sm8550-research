@@ -1,0 +1,302 @@
+{
+  "scope": "post-float-fallback converter inspection, not successful backend validation or model accuracy yet",
+  "dtype_counts": {
+    "534": 1764,
+    "1288": 12,
+    "1046": 5,
+    "1032": 1,
+    "562": 1,
+    "50": 6,
+    "306": 1
+  },
+  "selected_nodes": {
+    "first_projection_qdq__node_MatMul_546_pre_reshape": {
+      "package": "qti.aisw",
+      "type": "Reshape",
+      "tensor_params": {},
+      "scalar_params": {
+        "packageName": {
+          "1544": "qti.aisw"
+        }
+      },
+      "param_map": {
+        "packageName": 2
+      },
+      "input_names": [
+        "layer_norm_49_converted_QNN_DATATYPE_UFIXED_POINT_16"
+      ],
+      "output_names": [
+        "first_projection_qdq__node_MatMul_546_pre_reshape"
+      ],
+      "macs_per_inference": "0"
+    },
+    "first_projection_qdq__node_MatMul_546": {
+      "package": "qti.aisw",
+      "type": "FullyConnected",
+      "tensor_params": {},
+      "scalar_params": {
+        "packageName": {
+          "1544": "qti.aisw"
+        }
+      },
+      "param_map": {
+        "packageName": 2
+      },
+      "input_names": [
+        "first_projection_qdq__node_MatMul_546_pre_reshape",
+        "first_projection_qdq__val_645_DequantizeLinear_Output"
+      ],
+      "output_names": [
+        "first_projection_qdq__val_646_DequantizeLinear_Output_fc"
+      ],
+      "macs_per_inference": "0"
+    },
+    "first_projection_qdq__node_MatMul_546_post_reshape": {
+      "package": "qti.aisw",
+      "type": "Reshape",
+      "tensor_params": {},
+      "scalar_params": {
+        "packageName": {
+          "1544": "qti.aisw"
+        }
+      },
+      "param_map": {
+        "packageName": 2
+      },
+      "input_names": [
+        "first_projection_qdq__val_646_DequantizeLinear_Output_fc"
+      ],
+      "output_names": [
+        "first_projection_qdq__val_646_DequantizeLinear_Output"
+      ],
+      "macs_per_inference": "0"
+    },
+    "first_projection_qdq__val_646_DequantizeLinear_Output_dequantized_FLOAT_32": {
+      "package": "qti.aisw",
+      "type": "Dequantize",
+      "tensor_params": {},
+      "scalar_params": {},
+      "param_map": {},
+      "input_names": [
+        "first_projection_qdq__val_646_DequantizeLinear_Output"
+      ],
+      "output_names": [
+        "first_projection_qdq__val_646_DequantizeLinear_Output_dequantized_FLOAT_32"
+      ],
+      "macs_per_inference": "0"
+    },
+    "first_projection_qdq__CastOutputToFloat16": {
+      "package": "qti.aisw",
+      "type": "Cast",
+      "tensor_params": {},
+      "scalar_params": {
+        "packageName": {
+          "1544": "qti.aisw"
+        }
+      },
+      "param_map": {
+        "packageName": 2
+      },
+      "input_names": [
+        "first_projection_qdq__val_646_DequantizeLinear_Output_dequantized_FLOAT_32"
+      ],
+      "output_names": [
+        "val_646"
+      ],
+      "macs_per_inference": "0"
+    }
+  },
+  "quantized_tensors": {
+    "first_projection_qdq__node_MatMul_546_pre_reshape": {
+      "id": 1329,
+      "type": 3,
+      "dataFormat": 0,
+      "data_type": 1046,
+      "unquantized_data_type": 562,
+      "permute_order_to_src": [
+        0,
+        1
+      ],
+      "quant_params": {
+        "definition": 1,
+        "encoding": 0,
+        "is_overridden": true,
+        "scale_offset": {
+          "bitwidth": 16,
+          "minimum": -2.9687559604644775,
+          "maximum": 2.0527286529541016,
+          "scale": 7.662294228794053e-05,
+          "offset": -38745,
+          "is_symmetric": false,
+          "is_fixed_point": true
+        }
+      },
+      "dims": [
+        288,
+        512
+      ],
+      "is_dynamic_dims": [],
+      "is_quantizable": true,
+      "is_updateable": false
+    },
+    "first_projection_qdq__val_645_DequantizeLinear_Output": {
+      "id": 3,
+      "type": 4,
+      "dataFormat": 0,
+      "data_type": 1032,
+      "unquantized_data_type": 562,
+      "permute_order_to_src": [],
+      "quant_params": {
+        "definition": 1,
+        "encoding": 0,
+        "is_overridden": true,
+        "scale_offset": {
+          "bitwidth": 8,
+          "minimum": -1.2348345518112183,
+          "maximum": 1.3891888856887817,
+          "scale": 0.010290288366377354,
+          "offset": -120,
+          "is_symmetric": false,
+          "is_fixed_point": true
+        }
+      },
+      "dims": [
+        1024,
+        512
+      ],
+      "is_dynamic_dims": [],
+      "is_quantizable": true,
+      "is_updateable": false,
+      "params_count": "1 (0.00%)"
+    },
+    "first_projection_qdq__val_646_DequantizeLinear_Output": {
+      "id": 1332,
+      "type": 3,
+      "dataFormat": 0,
+      "data_type": 1046,
+      "unquantized_data_type": 562,
+      "permute_order_to_src": [
+        0,
+        1,
+        2
+      ],
+      "quant_params": {
+        "definition": 1,
+        "encoding": 0,
+        "is_overridden": true,
+        "scale_offset": {
+          "bitwidth": 16,
+          "minimum": -14.735692977905273,
+          "maximum": 14.044888496398926,
+          "scale": 0.0004391635302454233,
+          "offset": -33554,
+          "is_symmetric": false,
+          "is_fixed_point": true
+        }
+      },
+      "dims": [
+        1,
+        288,
+        1024
+      ],
+      "is_dynamic_dims": [],
+      "is_quantizable": true,
+      "is_updateable": false
+    },
+    "first_projection_qdq__val_646_DequantizeLinear_Output_fc": {
+      "id": 1331,
+      "type": 3,
+      "dataFormat": 0,
+      "data_type": 1046,
+      "unquantized_data_type": 562,
+      "permute_order_to_src": [
+        0,
+        1
+      ],
+      "quant_params": {
+        "definition": 1,
+        "encoding": 0,
+        "is_overridden": true,
+        "scale_offset": {
+          "bitwidth": 16,
+          "minimum": -14.735692977905273,
+          "maximum": 14.044888496398926,
+          "scale": 0.0004391635302454233,
+          "offset": -33554,
+          "is_symmetric": false,
+          "is_fixed_point": true
+        }
+      },
+      "dims": [
+        288,
+        1024
+      ],
+      "is_dynamic_dims": [],
+      "is_quantizable": true,
+      "is_updateable": false
+    },
+    "layer_norm_49_converted_QNN_DATATYPE_UFIXED_POINT_16": {
+      "id": 5,
+      "type": 3,
+      "dataFormat": 0,
+      "data_type": 1046,
+      "unquantized_data_type": 562,
+      "permute_order_to_src": [],
+      "quant_params": {
+        "definition": 1,
+        "encoding": 0,
+        "is_overridden": true,
+        "scale_offset": {
+          "bitwidth": 16,
+          "minimum": -2.9687559604644775,
+          "maximum": 2.0527286529541016,
+          "scale": 7.662294228794053e-05,
+          "offset": -38745,
+          "is_symmetric": false,
+          "is_fixed_point": true
+        }
+      },
+      "dims": [
+        1,
+        288,
+        512
+      ],
+      "is_dynamic_dims": [],
+      "is_quantizable": true,
+      "is_updateable": false
+    },
+    "val_635": {
+      "id": 2,
+      "type": 4,
+      "dataFormat": 0,
+      "data_type": 1046,
+      "unquantized_data_type": 562,
+      "permute_order_to_src": [],
+      "quant_params": {
+        "definition": 1,
+        "encoding": 0,
+        "is_overridden": false,
+        "scale_offset": {
+          "bitwidth": 16,
+          "minimum": -3.4028234663852886e+38,
+          "maximum": 0.0,
+          "scale": 5.192376086697342e+33,
+          "offset": -65535,
+          "is_symmetric": false,
+          "is_fixed_point": true
+        }
+      },
+      "dims": [
+        1
+      ],
+      "is_dynamic_dims": [],
+      "is_quantizable": true,
+      "is_updateable": false,
+      "params_count": "1 (0.00%)"
+    }
+  },
+  "all_63_custom_gelu_io_float16": true,
+  "early_converter_validation_disabled_to_inspect_post_fallback_graph": true,
+  "generated_cpp_node_validation_restored": true,
+  "numerical_scope": "same QDQ scale/offset values verified; full mixed graph execution untested"
+}

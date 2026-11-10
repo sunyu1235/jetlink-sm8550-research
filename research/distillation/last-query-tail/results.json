@@ -1,0 +1,60 @@
+{
+  "status": "CPU_PARITY_PASSED_NATIVE_TAIL_FEASIBLE_NO_DEVICE_TIMING",
+  "synthetic160_pass": true,
+  "night320": {
+    "status": "RECORDED_IMAGE_NUMERICAL_CHECK_NOT_DRIVING_SAFETY_OR_TARGET_SPEED",
+    "checker_modified": false,
+    "views": {
+      "all_frames": {
+        "first_original_frame": 0,
+        "frames": 320,
+        "checker_exit": 0,
+        "last_line": "OK: every slice and every column at or above corr 0.999, or within 10% of its largest value where too small or too quiet to correlate, per frame and pooled over all 320 frames"
+      },
+      "after_warmup": {
+        "first_original_frame": 160,
+        "frames": 160,
+        "checker_exit": 0,
+        "last_line": "OK: every slice and every column at or above corr 0.999, or within 10% of its largest value where too small or too quiet to correlate, per frame and pooled over all 160 frames"
+      }
+    }
+  },
+  "day320": {
+    "status": "RECORDED_IMAGE_NUMERICAL_CHECK_NOT_DRIVING_SAFETY_OR_TARGET_SPEED",
+    "checker_modified": false,
+    "views": {
+      "all_frames": {
+        "first_original_frame": 0,
+        "frames": 320,
+        "checker_exit": 0,
+        "last_line": "OK: every slice and every column at or above corr 0.999, or within 10% of its largest value where too small or too quiet to correlate, per frame and pooled over all 320 frames"
+      },
+      "after_warmup": {
+        "first_original_frame": 160,
+        "frames": 160,
+        "checker_exit": 0,
+        "last_line": "OK: every slice and every column at or above corr 0.999, or within 10% of its largest value where too small or too quiet to correlate, per frame and pooled over all 160 frames"
+      }
+    }
+  },
+  "native_small_tail": {
+    "contexts": {
+      "gather": {
+        "bytes": 1101824,
+        "sha256": "a814da5ddc40eb99e2dd3b10bcbe949d2f3052b268320e1aac5e5b6b2be1db76",
+        "converted_nodes": 9
+      },
+      "selected": {
+        "bytes": 1101824,
+        "sha256": "06b9b0c4258f457d902a24581d952f9c4b0cc1d454d9b7674dca4be5c6dfab79",
+        "converted_nodes": 4
+      }
+    },
+    "samples": 8,
+    "compared_values": 4096,
+    "mismatches": 0,
+    "nonfinite": 0,
+    "device_execution": false
+  },
+  "first_projection_or_attention_pruning_repeated": false
+}

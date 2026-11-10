@@ -1,0 +1,18 @@
+qnn-net-run pid:5
+qnn-net-run build version: v2.42.0.251225135753_193295
+qnn-net-run log level is : QNN_LOG_LEVEL_ERROR
+ <W> Initializing HtpProvider
+Processing inference input(s):
+/workspace/shared/jetlink-qnn-bridge/input-nearest.raw
+ <W> Power config id [0] is either invalid or already destroyed
+Composing Graphs
+Finalizing Graphs
+
+====== DDR bandwidth summary ======
+spill_bytes=4718592
+fill_bytes=4718592
+write_total_bytes=9437184
+read_total_bytes=5570560
+
+Executing Graphs
+Finished Executing Graphs

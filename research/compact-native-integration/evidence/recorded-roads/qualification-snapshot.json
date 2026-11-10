@@ -1,0 +1,29 @@
+{
+  "status": "PASS_NATIVE_NIGHT320_AND_FINAL160_DAY320_PENDING",
+  "scope": "Host execution of two saved compact QNN contexts inside independent full-model recurrence; remainder on CPU. Not phone speed or driving safety.",
+  "source_model_sha256": "ee3b0afa5b39b36f444a253626db498259161c714719eebae88655b28b33122b",
+  "night_ordered_outputs_sha256": "a4dc1a644e55edd642ef2f5ee19e5c826b764b089f8d278f82fa1b300d97ef45",
+  "night320": {
+    "status": "RECORDED_IMAGE_NUMERICAL_CHECK_NOT_DRIVING_SAFETY_OR_TARGET_SPEED",
+    "checker_modified": false,
+    "views": {
+      "all_frames": {
+        "first_original_frame": 0,
+        "frames": 320,
+        "checker_exit": 0,
+        "last_line": "OK: every slice and every column at or above corr 0.999, or within 10% of its largest value where too small or too quiet to correlate, per frame and pooled over all 320 frames"
+      },
+      "after_warmup": {
+        "first_original_frame": 160,
+        "frames": 160,
+        "checker_exit": 0,
+        "last_line": "OK: every slice and every column at or above corr 0.999, or within 10% of its largest value where too small or too quiet to correlate, per frame and pooled over all 160 frames"
+      }
+    }
+  },
+  "night_independent_recurrence": true,
+  "day320": "pending; only completed day32 checker evidence is included",
+  "phone_execution": false,
+  "phone_latency_measured": false,
+  "source_note": "Completed night checker files copied byte-identically. Aggregate live road-qualification.json and active replay directories were not copied."
+}

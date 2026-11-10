@@ -1,0 +1,37 @@
+[
+  {
+    "a": "layer_norm_49",
+    "b": "layer_norm_72",
+    "same_value_graph": true,
+    "a_signature": "fb447aaa9c6ce7102f03d9855ca9d4e312b88e8989077b6ebd8e73677aba5e9a",
+    "b_signature": "fb447aaa9c6ce7102f03d9855ca9d4e312b88e8989077b6ebd8e73677aba5e9a"
+  },
+  {
+    "a": "linear_99",
+    "b": "linear_140",
+    "same_value_graph": true,
+    "a_signature": "92557674789274d7a983e9f3e592230715d1dd864d488869ef1df6bf1c30de32",
+    "b_signature": "92557674789274d7a983e9f3e592230715d1dd864d488869ef1df6bf1c30de32"
+  },
+  {
+    "a": "layer_norm_53",
+    "b": "layer_norm_76",
+    "same_value_graph": true,
+    "a_signature": "c83db96ed5a82be06cf7654faef95519091256df878235b3b055fe4de5dfc3ce",
+    "b_signature": "c83db96ed5a82be06cf7654faef95519091256df878235b3b055fe4de5dfc3ce"
+  },
+  {
+    "a": "layer_norm_57",
+    "b": "layer_norm_80",
+    "same_value_graph": true,
+    "a_signature": "ef69c0a9a3590804f78f55a649ea5c7fcb9cf8036d6f6bf11e2c0ea1003546f2",
+    "b_signature": "ef69c0a9a3590804f78f55a649ea5c7fcb9cf8036d6f6bf11e2c0ea1003546f2"
+  },
+  {
+    "a": "layer_norm_61",
+    "b": "layer_norm_84",
+    "same_value_graph": true,
+    "a_signature": "ff509ca51329a7daedba58b6a58ac2979b84fde6ce736ed5078552b08df50c54",
+    "b_signature": "ff509ca51329a7daedba58b6a58ac2979b84fde6ce736ed5078552b08df50c54"
+  }
+]

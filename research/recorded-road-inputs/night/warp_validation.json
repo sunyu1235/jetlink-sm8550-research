@@ -1,0 +1,95 @@
+{
+  "tinygrad_ref": "d39227beebd0c3a340dc42b2cdc1e3db1c36aed9",
+  "implementation": "examples/openpilot/compile_warp.py make_frame_prepare",
+  "runtime": "CPU:LLVM",
+  "samples": [
+    {
+      "sequence_index": 0,
+      "camera": "fcamera.hevc",
+      "shape": [
+        6,
+        128,
+        256
+      ],
+      "dtype": "uint8",
+      "different_pixels": 0,
+      "total_pixels": 196608,
+      "max_abs_difference": 0,
+      "mean_abs_difference": 0.0
+    },
+    {
+      "sequence_index": 0,
+      "camera": "ecamera.hevc",
+      "shape": [
+        6,
+        128,
+        256
+      ],
+      "dtype": "uint8",
+      "different_pixels": 0,
+      "total_pixels": 196608,
+      "max_abs_difference": 0,
+      "mean_abs_difference": 0.0
+    },
+    {
+      "sequence_index": 35,
+      "camera": "fcamera.hevc",
+      "shape": [
+        6,
+        128,
+        256
+      ],
+      "dtype": "uint8",
+      "different_pixels": 0,
+      "total_pixels": 196608,
+      "max_abs_difference": 0,
+      "mean_abs_difference": 0.0
+    },
+    {
+      "sequence_index": 35,
+      "camera": "ecamera.hevc",
+      "shape": [
+        6,
+        128,
+        256
+      ],
+      "dtype": "uint8",
+      "different_pixels": 0,
+      "total_pixels": 196608,
+      "max_abs_difference": 0,
+      "mean_abs_difference": 0.0
+    },
+    {
+      "sequence_index": 315,
+      "camera": "fcamera.hevc",
+      "shape": [
+        6,
+        128,
+        256
+      ],
+      "dtype": "uint8",
+      "different_pixels": 0,
+      "total_pixels": 196608,
+      "max_abs_difference": 0,
+      "mean_abs_difference": 0.0
+    },
+    {
+      "sequence_index": 315,
+      "camera": "ecamera.hevc",
+      "shape": [
+        6,
+        128,
+        256
+      ],
+      "dtype": "uint8",
+      "different_pixels": 2,
+      "total_pixels": 196608,
+      "max_abs_difference": 1,
+      "mean_abs_difference": 1.0172526041666666e-05
+    }
+  ],
+  "all_exact": false,
+  "limitation": "CPU source-function comparison; not QCOM GPU runtime/ISP parity.",
+  "earlier_failed_attempt": "CPU:CLANG failed before execution because clang executable was not installed",
+  "possible_difference_cause": "Float32 coordinate evaluation near nearest-neighbor rounding boundaries is plausible but not proven; no QCOM comparison performed"
+}

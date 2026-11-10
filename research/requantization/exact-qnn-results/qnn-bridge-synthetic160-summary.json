@@ -1,0 +1,8 @@
+{
+  "scope": "Actual native QNN HTP host first projection with exact CPU GELUs and CPU remainder; not device speed or fully accelerated execution",
+  "frames": 160,
+  "independent_recurrence": true,
+  "checker_modified": false,
+  "checker_exit": 0,
+  "verdict": "OK: every slice and every column at or above corr 0.999, or within 10% of its largest value where too small or too quiet to correlate, per frame and pooled over all 160 frames"
+}

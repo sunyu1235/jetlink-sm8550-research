@@ -1,0 +1,51 @@
+{
+  "status": "REAL_BLOCK_TWO_LAYER_TRAINING_SYNTHETIC_LONG_HISTORY",
+  "train_seed": 713,
+  "validation_seed": 1777,
+  "frames_each": 160,
+  "steps": 1000,
+  "batch": 512,
+  "hidden_width": 1024,
+  "activation": "x*sigmoid(1.7021484375*x)",
+  "original_acceptance_data_used": false,
+  "metric": "FP16 stored weights FP32 CPU operations, not device",
+  "history": [
+    {
+      "step": 0,
+      "scaled_mse": 2.4015659496779886e-05,
+      "rmse": 0.006646172583678952,
+      "max_abs": 0.23924541473388672
+    },
+    {
+      "step": 200,
+      "scaled_mse": 2.1296966715316674e-05,
+      "rmse": 0.0064168167248340145,
+      "max_abs": 0.27661895751953125
+    },
+    {
+      "step": 400,
+      "scaled_mse": 2.0045861907957416e-05,
+      "rmse": 0.006289976003970369,
+      "max_abs": 0.2866668701171875
+    },
+    {
+      "step": 600,
+      "scaled_mse": 1.942777185367131e-05,
+      "rmse": 0.006221901818643829,
+      "max_abs": 0.29354095458984375
+    },
+    {
+      "step": 800,
+      "scaled_mse": 1.9022728232796868e-05,
+      "rmse": 0.006177898294082763,
+      "max_abs": 0.2908782958984375
+    },
+    {
+      "step": 1000,
+      "scaled_mse": 1.886628712474968e-05,
+      "rmse": 0.006159288954697817,
+      "max_abs": 0.288848876953125
+    }
+  ],
+  "total_seconds": 60.30376374499974
+}

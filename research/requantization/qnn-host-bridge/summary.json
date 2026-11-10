@@ -1,0 +1,40 @@
+{
+  "scope": "Linux x86 QNN HTP host-functional diagnostic only; no phone/device latency evidence",
+  "final_quantization": "FP32 divide, nearest-even under FE_TONEAREST, add zero point, saturate U16",
+  "runtime_input_scale": 7.662294228794053e-05,
+  "runtime_input_offset": -38745,
+  "runtime_output_scale": 0.0004391635302454233,
+  "runtime_output_offset": -33554,
+  "native_same_input_parity": {
+    "elements": 294912,
+    "native_u16_mismatches": 0
+  },
+  "boundary_contract_tests": {
+    "all_finite_fp16_patterns": 63488,
+    "quantized_elements": 147456,
+    "quantization_mismatches": 0,
+    "rejected": [
+      "shape",
+      "type",
+      "nan",
+      "inf"
+    ],
+    "concurrent_same_session_native_repeat": true,
+    "destroy_recreate_same_result": true
+  },
+  "historical_float_netrun_comparison": {
+    "frames": 160,
+    "elements": 47185920,
+    "fp16_bit_mismatches": 95857,
+    "mismatch_percent": 0.20314746432834202,
+    "max_abs": 0.0078125,
+    "rmse": 2.7583862446743023e-05,
+    "interpretation": "Different float-to-U16 input quantization convention; not an execution parity failure and not a full-model accuracy metric"
+  },
+  "observed_host_throughput": {
+    "elapsed_seconds": 336.377506443,
+    "frames": 160,
+    "seconds_per_frame": 2.10235941526875,
+    "measurement": "nearest160.log creation to final write; includes initialization, input/output file reads, comparisons and competing host work; not per-kernel instrumentation or device timing"
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "model": "/workspace/shared/jetlink-distillation/real-block/teacher-last-query-tail.onnx",
+  "source": "teacher-capture.onnx",
+  "branches": [
+    {
+      "gelu": "node_gelu_44",
+      "source": "linear_110",
+      "projection": "node_MatMul_611",
+      "tail": [
+        "node_MatMul_611",
+        "node_linear_111",
+        "node_add_53",
+        "node_select_4"
+      ],
+      "index_initializer": "val_553",
+      "residual_source": "add_52",
+      "sole_consumer_chain": true
+    },
+    {
+      "gelu": "node_gelu_55",
+      "source": "linear_151",
+      "projection": "node_MatMul_755",
+      "tail": [
+        "node_MatMul_755",
+        "node_linear_152",
+        "node_add_73",
+        "node_select_7"
+      ],
+      "index_initializer": "val_553",
+      "residual_source": "add_72",
+      "sole_consumer_chain": true
+    },
+    {
+      "gelu": "node_gelu_62",
+      "source": "linear_180",
+      "projection": "node_MatMul_899",
+      "tail": [
+        "node_MatMul_899",
+        "node_linear_181",
+        "node_add_89",
+        "node_select_10"
+      ],
+      "index_initializer": "val_553",
+      "residual_source": "add_88",
+      "sole_consumer_chain": true
+    }
+  ],
+  "weights_modified": false,
+  "activation_modified": false,
+  "first_projection_pruned": false,
+  "attention_pruned": false,
+  "per_branch_second_projection_macs_before": 150994944,
+  "per_branch_second_projection_macs_after": 524288,
+  "status": "STRUCTURAL_PROOF_PENDING_NUMERICAL_PARITY",
+  "gather_index_verified": -1,
+  "gather_index_shape": []
+}

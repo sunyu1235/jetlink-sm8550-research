@@ -1,0 +1,170 @@
+{
+  "scope": "saved-context native host bridge versus official net-run; not phone accuracy or speed",
+  "samples": 8,
+  "values": 12288,
+  "bit_mismatches": 0,
+  "rows": [
+    {
+      "sample": 0,
+      "output": "select_4",
+      "bit_mismatches": 0,
+      "max_abs": 0.0
+    },
+    {
+      "sample": 0,
+      "output": "select_7",
+      "bit_mismatches": 0,
+      "max_abs": 0.0
+    },
+    {
+      "sample": 0,
+      "output": "select_10",
+      "bit_mismatches": 0,
+      "max_abs": 0.0
+    },
+    {
+      "sample": 1,
+      "output": "select_4",
+      "bit_mismatches": 0,
+      "max_abs": 0.0
+    },
+    {
+      "sample": 1,
+      "output": "select_7",
+      "bit_mismatches": 0,
+      "max_abs": 0.0
+    },
+    {
+      "sample": 1,
+      "output": "select_10",
+      "bit_mismatches": 0,
+      "max_abs": 0.0
+    },
+    {
+      "sample": 2,
+      "output": "select_4",
+      "bit_mismatches": 0,
+      "max_abs": 0.0
+    },
+    {
+      "sample": 2,
+      "output": "select_7",
+      "bit_mismatches": 0,
+      "max_abs": 0.0
+    },
+    {
+      "sample": 2,
+      "output": "select_10",
+      "bit_mismatches": 0,
+      "max_abs": 0.0
+    },
+    {
+      "sample": 3,
+      "output": "select_4",
+      "bit_mismatches": 0,
+      "max_abs": 0.0
+    },
+    {
+      "sample": 3,
+      "output": "select_7",
+      "bit_mismatches": 0,
+      "max_abs": 0.0
+    },
+    {
+      "sample": 3,
+      "output": "select_10",
+      "bit_mismatches": 0,
+      "max_abs": 0.0
+    },
+    {
+      "sample": 4,
+      "output": "select_4",
+      "bit_mismatches": 0,
+      "max_abs": 0.0
+    },
+    {
+      "sample": 4,
+      "output": "select_7",
+      "bit_mismatches": 0,
+      "max_abs": 0.0
+    },
+    {
+      "sample": 4,
+      "output": "select_10",
+      "bit_mismatches": 0,
+      "max_abs": 0.0
+    },
+    {
+      "sample": 5,
+      "output": "select_4",
+      "bit_mismatches": 0,
+      "max_abs": 0.0
+    },
+    {
+      "sample": 5,
+      "output": "select_7",
+      "bit_mismatches": 0,
+      "max_abs": 0.0
+    },
+    {
+      "sample": 5,
+      "output": "select_10",
+      "bit_mismatches": 0,
+      "max_abs": 0.0
+    },
+    {
+      "sample": 6,
+      "output": "select_4",
+      "bit_mismatches": 0,
+      "max_abs": 0.0
+    },
+    {
+      "sample": 6,
+      "output": "select_7",
+      "bit_mismatches": 0,
+      "max_abs": 0.0
+    },
+    {
+      "sample": 6,
+      "output": "select_10",
+      "bit_mismatches": 0,
+      "max_abs": 0.0
+    },
+    {
+      "sample": 7,
+      "output": "select_4",
+      "bit_mismatches": 0,
+      "max_abs": 0.0
+    },
+    {
+      "sample": 7,
+      "output": "select_7",
+      "bit_mismatches": 0,
+      "max_abs": 0.0
+    },
+    {
+      "sample": 7,
+      "output": "select_10",
+      "bit_mismatches": 0,
+      "max_abs": 0.0
+    }
+  ],
+  "negative_tests": [
+    {
+      "case": "shape",
+      "rejected": true,
+      "reason": "[ONNXRuntimeError] : 2 : INVALID_ARGUMENT : Got invalid dimensions for input: gelu_43 for the following indices\n index: 1 Got: 287 Expected: 288\n Please fix either the inputs/outputs or the model."
+    },
+    {
+      "case": "dtype",
+      "rejected": true,
+      "reason": "[ONNXRuntimeError] : 2 : INVALID_ARGUMENT : Unexpected input data type. Actual: (tensor(float)) , expected: (tensor(float16))"
+    },
+    {
+      "case": "nonfinite",
+      "rejected": true,
+      "reason": "[ONNXRuntimeError] : 1 : FAIL : Non-zero status code returned while running QnnCompactPipeline node. Name:'' Status Message: nonfinite input"
+    }
+  ],
+  "recovery_after_rejection": true
+}

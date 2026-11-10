@@ -1,0 +1,15 @@
+test_concrete_shapes_no_restoration (test_compact_partition.CompactPartitionTests.test_concrete_shapes_no_restoration) ... ok
+test_cut_has_only_six_declared_consumer_edges (test_compact_partition.CompactPartitionTests.test_cut_has_only_six_declared_consumer_edges) ... ok
+test_deterministic_rewrite (test_compact_partition.CompactPartitionTests.test_deterministic_rewrite) ... ok
+test_exact_external_contract (test_compact_partition.CompactPartitionTests.test_exact_external_contract) ... ok
+test_reject_contract_input_reordering (test_compact_partition.CompactPartitionTests.test_reject_contract_input_reordering) ... ok
+test_reject_contract_shape_drift (test_compact_partition.CompactPartitionTests.test_reject_contract_shape_drift) ... ok
+test_reject_extra_query_consumer (test_compact_partition.CompactPartitionTests.test_reject_extra_query_consumer) ... ok
+test_reject_masked_last_query (test_compact_partition.CompactPartitionTests.test_reject_masked_last_query) ... ok
+test_reject_nonlocal_query_normalization (test_compact_partition.CompactPartitionTests.test_reject_nonlocal_query_normalization) ... ok
+test_unchanged_kv_and_weights (test_compact_partition.CompactPartitionTests.test_unchanged_kv_and_weights) ... ok
+
+----------------------------------------------------------------------
+Ran 10 tests in 0.812s
+
+OK

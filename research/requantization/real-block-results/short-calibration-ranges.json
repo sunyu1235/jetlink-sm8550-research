@@ -1,0 +1,26 @@
+{
+  "layer_norm_49": {
+    "scale": 6.967889203224331e-05,
+    "zero_point": 41793,
+    "min_representable": -2.9120899347035447,
+    "max_representable": 1.6543162546295207
+  },
+  "val_646": {
+    "scale": 0.00023470394080504775,
+    "zero_point": 29919,
+    "min_representable": -7.022107204946224,
+    "max_representable": 8.35921555571258
+  },
+  "gelu_41": {
+    "scale": 0.00012625809176824987,
+    "zero_point": 1347,
+    "min_representable": -0.17006964961183257,
+    "max_representable": 8.104254394420423
+  },
+  "val_648": {
+    "scale": 0.0038354292046278715,
+    "zero_point": 36356,
+    "min_representable": -139.4408641634509,
+    "max_representable": 111.91398876183666
+  }
+}

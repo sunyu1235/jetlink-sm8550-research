@@ -1,0 +1,120 @@
+{
+  "scope": "QNN 2.42 x86 HTP host functional standalone FP16 SiLU student block vs ORT CPU; not hardware or whole-model validation",
+  "frames": 16,
+  "rmse": 0.0014307512207406986,
+  "max_abs": 0.125,
+  "frames_detail": [
+    {
+      "frame": 0,
+      "rmse": 0.0009884617004170643,
+      "max_abs": 0.0625,
+      "correlation": 0.9999998903148721,
+      "finite": true
+    },
+    {
+      "frame": 1,
+      "rmse": 0.000968778035614609,
+      "max_abs": 0.0625,
+      "correlation": 0.9999998926877431,
+      "finite": true
+    },
+    {
+      "frame": 2,
+      "rmse": 0.0009770250128972489,
+      "max_abs": 0.125,
+      "correlation": 0.9999998927180102,
+      "finite": true
+    },
+    {
+      "frame": 3,
+      "rmse": 0.0009472211683123435,
+      "max_abs": 0.0625,
+      "correlation": 0.9999998980605036,
+      "finite": true
+    },
+    {
+      "frame": 32,
+      "rmse": 0.0012033502892730872,
+      "max_abs": 0.0625,
+      "correlation": 0.9999998838630438,
+      "finite": true
+    },
+    {
+      "frame": 48,
+      "rmse": 0.0012931407135005296,
+      "max_abs": 0.03125,
+      "correlation": 0.9999998925416388,
+      "finite": true
+    },
+    {
+      "frame": 64,
+      "rmse": 0.0014308661417645413,
+      "max_abs": 0.0625,
+      "correlation": 0.99999990269773,
+      "finite": true
+    },
+    {
+      "frame": 80,
+      "rmse": 0.0015727397762519714,
+      "max_abs": 0.0625,
+      "correlation": 0.9999999014523412,
+      "finite": true
+    },
+    {
+      "frame": 96,
+      "rmse": 0.0016283656775172024,
+      "max_abs": 0.0625,
+      "correlation": 0.9999999017908594,
+      "finite": true
+    },
+    {
+      "frame": 112,
+      "rmse": 0.0015681860868840976,
+      "max_abs": 0.03125,
+      "correlation": 0.9999999032528963,
+      "finite": true
+    },
+    {
+      "frame": 128,
+      "rmse": 0.0016201371102920598,
+      "max_abs": 0.0625,
+      "correlation": 0.9999999076691637,
+      "finite": true
+    },
+    {
+      "frame": 144,
+      "rmse": 0.0016215395255151923,
+      "max_abs": 0.0625,
+      "correlation": 0.9999999107432161,
+      "finite": true
+    },
+    {
+      "frame": 156,
+      "rmse": 0.001634754165170528,
+      "max_abs": 0.0625,
+      "correlation": 0.9999999126118928,
+      "finite": true
+    },
+    {
+      "frame": 157,
+      "rmse": 0.0016648168289663296,
+      "max_abs": 0.0625,
+      "correlation": 0.9999999082561767,
+      "finite": true
+    },
+    {
+      "frame": 158,
+      "rmse": 0.0016450420680326685,
+      "max_abs": 0.0625,
+      "correlation": 0.9999999097654378,
+      "finite": true
+    },
+    {
+      "frame": 159,
+      "rmse": 0.00168196961400447,
+      "max_abs": 0.0625,
+      "correlation": 0.9999999056936582,
+      "finite": true
+    }
+  ]
+}

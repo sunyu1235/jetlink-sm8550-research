@@ -1,0 +1,63 @@
+{
+  "frames": 8,
+  "train_seed": 713,
+  "limitation": "Short control only; CPU required FP16 transformations may depend on exposed intermediate outputs",
+  "rows": [
+    {
+      "frame": 0,
+      "uncse_all12_observed_vs_cse_unique8_max_abs": 0.0,
+      "uncse_all12_observed_vs_old_single_observed_max_abs": 0.125,
+      "duplicate_block_x_equal": true,
+      "duplicate_block_y_equal": true
+    },
+    {
+      "frame": 1,
+      "uncse_all12_observed_vs_cse_unique8_max_abs": 0.0,
+      "uncse_all12_observed_vs_old_single_observed_max_abs": 0.03125,
+      "duplicate_block_x_equal": true,
+      "duplicate_block_y_equal": true
+    },
+    {
+      "frame": 2,
+      "uncse_all12_observed_vs_cse_unique8_max_abs": 0.0,
+      "uncse_all12_observed_vs_old_single_observed_max_abs": 0.0625,
+      "duplicate_block_x_equal": true,
+      "duplicate_block_y_equal": true
+    },
+    {
+      "frame": 3,
+      "uncse_all12_observed_vs_cse_unique8_max_abs": 0.0,
+      "uncse_all12_observed_vs_old_single_observed_max_abs": 0.0625,
+      "duplicate_block_x_equal": true,
+      "duplicate_block_y_equal": true
+    },
+    {
+      "frame": 4,
+      "uncse_all12_observed_vs_cse_unique8_max_abs": 0.0,
+      "uncse_all12_observed_vs_old_single_observed_max_abs": 0.0625,
+      "duplicate_block_x_equal": true,
+      "duplicate_block_y_equal": true
+    },
+    {
+      "frame": 5,
+      "uncse_all12_observed_vs_cse_unique8_max_abs": 0.0,
+      "uncse_all12_observed_vs_old_single_observed_max_abs": 0.125,
+      "duplicate_block_x_equal": true,
+      "duplicate_block_y_equal": true
+    },
+    {
+      "frame": 6,
+      "uncse_all12_observed_vs_cse_unique8_max_abs": 0.0,
+      "uncse_all12_observed_vs_old_single_observed_max_abs": 0.0625,
+      "duplicate_block_x_equal": true,
+      "duplicate_block_y_equal": true
+    },
+    {
+      "frame": 7,
+      "uncse_all12_observed_vs_cse_unique8_max_abs": 0.0,
+      "uncse_all12_observed_vs_old_single_observed_max_abs": 0.0625,
+      "duplicate_block_x_equal": true,
+      "duplicate_block_y_equal": true
+    }
+  ]
+}

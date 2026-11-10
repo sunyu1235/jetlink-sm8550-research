@@ -1,0 +1,70 @@
+{
+  "full": {
+    "median_ms": 3.6016784997627838,
+    "min_ms": 2.1239730012894142,
+    "runs": 50,
+    "nodes": [
+      [
+        "node_gelu_44",
+        "Gelu"
+      ],
+      [
+        "node_MatMul_611",
+        "MatMul"
+      ],
+      [
+        "node_linear_111",
+        "Add"
+      ],
+      [
+        "node_add_53",
+        "Add"
+      ],
+      [
+        "node_select_4",
+        "Gather"
+      ]
+    ]
+  },
+  "compact": {
+    "median_ms": 0.1556784991407767,
+    "min_ms": 0.09439199857297353,
+    "runs": 50,
+    "nodes": [
+      [
+        "node_gelu_44__select_input",
+        "Gather"
+      ],
+      [
+        "node_gelu_44__select_residual",
+        "Gather"
+      ],
+      [
+        "node_gelu_44",
+        "Gelu"
+      ],
+      [
+        "node_MatMul_611",
+        "MatMul"
+      ],
+      [
+        "node_linear_111",
+        "Add"
+      ],
+      [
+        "node_add_53",
+        "Add"
+      ],
+      [
+        "node_select_4",
+        "Identity"
+      ]
+    ]
+  },
+  "comparison": {
+    "max_abs": 0.0,
+    "bit_identical": true
+  },
+  "status": "CPU_MICROBENCHMARK_NOT_TARGET_DEVICE_OR_END_TO_END_LATENCY",
+  "random_input_seed": 2861
+}

@@ -1,0 +1,20 @@
+{
+  "scope": "Full mixed graph offline HTP preparation only; whole-context execution and target speed UNTESTED",
+  "soc": 43,
+  "dsp": "v73",
+  "qnn": "2.42.0.251225",
+  "context_bytes": 785444864,
+  "context_sha256": "ad68ed8c4bc9a32b9a6e692abfcff689a987494098e71cac128f79781973fc6f",
+  "finalize_status": 0,
+  "process_exit": 0,
+  "generated_cpp_node_validation": 1,
+  "custom_fp16_gelu_count": 63,
+  "quantized_matmul_count": 1,
+  "quantized_precision": "A16/W8",
+  "early_converter_validation_disabled": true,
+  "early_validation_reason": "Pre-fallback graph had transient FP32/FP16 Add mismatch, final fallback tensors matched; restored C++ node validation and required backend graph finalize.",
+  "baseline_full_context_bytes": 784543744,
+  "device_speed_tested": false,
+  "full_context_numerical_execution_passed": false,
+  "known_related_blocker": "Sibling FP16 full-context host execution SIGSEGV after all 36 erf GELUs and before any tanh GELU; this mixed full context was not blindly run."
+}

@@ -1,0 +1,27 @@
+{
+  "status": "SINGLE_BLOCK_SYNTHETIC160_AND_RECORDED_IMAGE320_PARITY_PASS_NOT_DEVICE_ACCEPTANCE",
+  "train_seed": 713,
+  "validation_seed": 1777,
+  "acceptance_seed": 1,
+  "frames": 160,
+  "checker_modified": false,
+  "independent_recurrence": true,
+  "replaced_blocks": 1,
+  "remaining_teacher_gelu_count": 62,
+  "htp_speed": "not measured",
+  "road_accuracy": "numerical agreement with original teacher on one reconstructed recorded-image sequence; not ground-truth or road-safety validation",
+  "weight_sha256": "6c98bdd7fd245b44ca258b2852b085e4d9193b5712b53bb2a1d31b9ab8265451",
+  "recorded_image_test": {
+    "route": "98395b7c5b27882e/0000002b--2686b5a2d0/1",
+    "frames": 320,
+    "all320_checker_exit": 0,
+    "warmup": 160,
+    "post_warmup160_checker_exit": 0,
+    "used_for_training_or_weight_selection": false,
+    "independent_teacher_student_recurrence": true,
+    "same_runtime_teacher": true,
+    "road_safety_validated": false
+  },
+  "htp_compilation": "QNN2.42 SoC43/v73 standalone block finalize passed",
+  "htp_host_function": "16 long-validation inputs finite; min correlation0.9999998838 vs ORT student; no device claim"
+}

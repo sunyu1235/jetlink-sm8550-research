@@ -1,0 +1,461 @@
+
+frame 0: corr 0.999998  max abs 0.5000
+    action                   corr 0.998645  max abs   0.2057  mean abs 0.07314   (by error, pooled)
+    desire_pred              corr 1.000000  max abs   0.0020  mean abs 0.00047
+    desire_state             corr 0.999979  max abs   0.2773  mean abs 0.14966   (by error, pooled)
+    hidden_state             corr 1.000000  max abs   0.0078  mean abs 0.00057
+    lane_lines               corr 1.000000  max abs   0.0020  mean abs 0.00020
+    lane_lines_prob          corr 1.000000  max abs   0.0020  mean abs 0.00065   (by error, pooled)
+    lead                     corr 1.000000  max abs   0.5000  mean abs 0.06404
+    lead_prob                corr 1.000000  max abs   0.0703  mean abs 0.06315   (by error, pooled)
+    meta                     corr 1.000000  max abs   0.0024  mean abs 0.00079
+    pad                      corr 1.000000  max abs   0.0000  mean abs 0.00000   (by error, pooled)
+    plan                     corr 1.000000  max abs   0.0625  mean abs 0.00324
+    pose                     corr 1.000000  max abs   0.0039  mean abs 0.00041   (by error, pooled)
+    road_edges               corr 1.000000  max abs   0.0039  mean abs 0.00018
+    road_transform           corr 1.000000  max abs   0.0000  mean abs 0.00000   (by error, pooled)
+    wide_from_device_euler   corr 1.000000  max abs   0.0020  mean abs 0.00033   (by error, pooled)
+
+frame 1: corr 0.999999  max abs 0.3750
+    action                   corr 0.999252  max abs   0.1503  mean abs 0.06297   (by error, pooled)
+    desire_pred              corr 1.000000  max abs   0.0078  mean abs 0.00116
+    desire_state             corr 0.999955  max abs   0.2617  mean abs 0.11694   (by error, pooled)
+    hidden_state             corr 1.000000  max abs   0.0078  mean abs 0.00055
+    lane_lines               corr 1.000000  max abs   0.0039  mean abs 0.00042
+    lane_lines_prob          corr 1.000000  max abs   0.0078  mean abs 0.00226   (by error, pooled)
+    lead                     corr 0.999999  max abs   0.3750  mean abs 0.03499
+    lead_prob                corr 0.999999  max abs   0.0273  mean abs 0.01953   (by error, pooled)
+    meta                     corr 1.000000  max abs   0.0039  mean abs 0.00054
+    pad                      corr 1.000000  max abs   0.0000  mean abs 0.00000   (by error, pooled)
+    plan                     corr 0.999996  max abs   0.2891  mean abs 0.00693
+    pose                     corr 1.000000  max abs   0.0039  mean abs 0.00033   (by error, pooled)
+    road_edges               corr 1.000000  max abs   0.0039  mean abs 0.00059
+    road_transform           corr 1.000000  max abs   0.0000  mean abs 0.00000   (by error, pooled)
+    wide_from_device_euler   corr 1.000000  max abs   0.0000  mean abs 0.00000   (by error, pooled)
+
+frame 2: corr 0.999996  max abs 0.3750
+    action                   corr 0.999483  max abs   0.2070  mean abs 0.11656   (by error, pooled)
+    desire_pred              corr 1.000000  max abs   0.0078  mean abs 0.00053
+    desire_state             corr 0.999978  max abs   0.2500  mean abs 0.12503   (by error, pooled)
+    hidden_state             corr 1.000000  max abs   0.0078  mean abs 0.00054
+    lane_lines               corr 1.000000  max abs   0.0039  mean abs 0.00040
+    lane_lines_prob          corr 1.000000  max abs   0.0039  mean abs 0.00122   (by error, pooled)
+    lead                     corr 0.999997  max abs   0.3750  mean abs 0.03675
+    lead_prob                corr 0.999999  max abs   0.0664  mean abs 0.05664   (by error, pooled)
+    meta                     corr 1.000000  max abs   0.0039  mean abs 0.00082
+    pad                      corr 1.000000  max abs   0.0000  mean abs 0.00000   (by error, pooled)
+    plan                     corr 0.999988  max abs   0.3438  mean abs 0.00998
+    pose                     corr 1.000000  max abs   0.0039  mean abs 0.00054   (by error, pooled)
+    road_edges               corr 1.000000  max abs   0.0039  mean abs 0.00056
+    road_transform           corr 1.000000  max abs   0.0000  mean abs 0.00000   (by error, pooled)
+    wide_from_device_euler   corr 1.000000  max abs   0.0000  mean abs 0.00000   (by error, pooled)
+
+frame 3: corr 0.999995  max abs 0.4688
+    action                   corr 0.999106  max abs   0.3066  mean abs 0.14518   (by error, pooled)
+    desire_pred              corr 1.000000  max abs   0.0039  mean abs 0.00066
+    desire_state             corr 0.999995  max abs   0.1094  mean abs 0.03616   (by error, pooled)
+    hidden_state             corr 1.000000  max abs   0.0078  mean abs 0.00039
+    lane_lines               corr 1.000000  max abs   0.0039  mean abs 0.00014
+    lane_lines_prob          corr 1.000000  max abs   0.0039  mean abs 0.00104   (by error, pooled)
+    lead                     corr 0.999997  max abs   0.4688  mean abs 0.06441
+    lead_prob                corr 1.000000  max abs   0.1045  mean abs 0.09603   (by error, pooled)
+    meta                     corr 1.000000  max abs   0.0039  mean abs 0.00044
+    pad                      corr 1.000000  max abs   0.0000  mean abs 0.00000   (by error, pooled)
+    plan                     corr 0.999997  max abs   0.0703  mean abs 0.00488
+    pose                     corr 1.000000  max abs   0.0000  mean abs 0.00000   (by error, pooled)
+    road_edges               corr 1.000000  max abs   0.0039  mean abs 0.00021
+    road_transform           corr 1.000000  max abs   0.0000  mean abs 0.00000   (by error, pooled)
+    wide_from_device_euler   corr 1.000000  max abs   0.0000  mean abs 0.00000   (by error, pooled)
+
+frame 4: corr 0.999997  max abs 0.3750
+    action                   corr 0.999858  max abs   0.0801  mean abs 0.05023   (by error, pooled)
+    desire_pred              corr 1.000000  max abs   0.0078  mean abs 0.00080
+    desire_state             corr 0.999993  max abs   0.0918  mean abs 0.05048   (by error, pooled)
+    hidden_state             corr 1.000000  max abs   0.0156  mean abs 0.00050
+    lane_lines               corr 1.000000  max abs   0.0039  mean abs 0.00031
+    lane_lines_prob          corr 1.000000  max abs   0.0078  mean abs 0.00183   (by error, pooled)
+    lead                     corr 0.999998  max abs   0.3750  mean abs 0.03974
+    lead_prob                corr 0.999999  max abs   0.0664  mean abs 0.06380   (by error, pooled)
+    meta                     corr 1.000000  max abs   0.0039  mean abs 0.00081
+    pad                      corr 1.000000  max abs   0.0000  mean abs 0.00000   (by error, pooled)
+    plan                     corr 0.999986  max abs   0.3750  mean abs 0.00931
+    pose                     corr 1.000000  max abs   0.0005  mean abs 0.00008   (by error, pooled)
+    road_edges               corr 1.000000  max abs   0.0020  mean abs 0.00044
+    road_transform           corr 1.000000  max abs   0.0000  mean abs 0.00000   (by error, pooled)
+    wide_from_device_euler   corr 1.000000  max abs   0.0000  mean abs 0.00000   (by error, pooled)
+
+frame 5: corr 0.999996  max abs 0.5000
+    action                   corr 0.999498  max abs   0.1036  mean abs 0.05697   (by error, pooled)
+    desire_pred              corr 1.000000  max abs   0.0039  mean abs 0.00057
+    desire_state             corr 0.999955  max abs   0.3203  mean abs 0.09155   (by error, pooled)
+    hidden_state             corr 1.000000  max abs   0.0078  mean abs 0.00057
+    lane_lines               corr 1.000000  max abs   0.0039  mean abs 0.00023
+    lane_lines_prob          corr 1.000000  max abs   0.0078  mean abs 0.00256   (by error, pooled)
+    lead                     corr 0.999994  max abs   0.5000  mean abs 0.06690
+    lead_prob                corr 0.999994  max abs   0.0234  mean abs 0.01628   (by error, pooled)
+    meta                     corr 1.000000  max abs   0.0039  mean abs 0.00097
+    pad                      corr 1.000000  max abs   0.0000  mean abs 0.00000   (by error, pooled)
+    plan                     corr 0.999995  max abs   0.2656  mean abs 0.00678
+    pose                     corr 1.000000  max abs   0.0000  mean abs 0.00000   (by error, pooled)
+    road_edges               corr 1.000000  max abs   0.0039  mean abs 0.00030
+    road_transform           corr 1.000000  max abs   0.0000  mean abs 0.00000   (by error, pooled)
+    wide_from_device_euler   corr 1.000000  max abs   0.0000  mean abs 0.00000   (by error, pooled)
+
+frame 6: corr 0.999998  max abs 0.5000
+    action                   corr 0.999640  max abs   0.0918  mean abs 0.05529   (by error, pooled)
+    desire_pred              corr 1.000000  max abs   0.0020  mean abs 0.00032
+    desire_state             corr 0.999960  max abs   0.2676  mean abs 0.12085   (by error, pooled)
+    hidden_state             corr 1.000000  max abs   0.0078  mean abs 0.00059
+    lane_lines               corr 1.000000  max abs   0.0039  mean abs 0.00029
+    lane_lines_prob          corr 1.000000  max abs   0.0044  mean abs 0.00198   (by error, pooled)
+    lead                     corr 0.999998  max abs   0.5000  mean abs 0.05155
+    lead_prob                corr 1.000000  max abs   0.0264  mean abs 0.01270   (by error, pooled)
+    meta                     corr 1.000000  max abs   0.0039  mean abs 0.00057
+    pad                      corr 1.000000  max abs   0.0000  mean abs 0.00000   (by error, pooled)
+    plan                     corr 0.999998  max abs   0.2500  mean abs 0.00557
+    pose                     corr 1.000000  max abs   0.0078  mean abs 0.00090   (by error, pooled)
+    road_edges               corr 1.000000  max abs   0.0039  mean abs 0.00039
+    road_transform           corr 1.000000  max abs   0.0000  mean abs 0.00000   (by error, pooled)
+    wide_from_device_euler   corr 1.000000  max abs   0.0020  mean abs 0.00033   (by error, pooled)
+
+frame 7: corr 0.999998  max abs 0.4375
+    action                   corr 0.999581  max abs   0.0923  mean abs 0.06120   (by error, pooled)
+    desire_pred              corr 1.000000  max abs   0.0020  mean abs 0.00038
+    desire_state             corr 0.999961  max abs   0.3672  mean abs 0.11670   (by error, pooled)
+    hidden_state             corr 1.000000  max abs   0.0078  mean abs 0.00063
+    lane_lines               corr 1.000000  max abs   0.0039  mean abs 0.00041
+    lane_lines_prob          corr 1.000000  max abs   0.0039  mean abs 0.00207   (by error, pooled)
+    lead                     corr 0.999998  max abs   0.4375  mean abs 0.04269
+    lead_prob                corr 0.999952  max abs   0.0703  mean abs 0.05697   (by error, pooled)
+    meta                     corr 1.000000  max abs   0.0039  mean abs 0.00119
+    pad                      corr 1.000000  max abs   0.0000  mean abs 0.00000   (by error, pooled)
+    plan                     corr 0.999998  max abs   0.2188  mean abs 0.00471
+    pose                     corr 1.000000  max abs   0.0000  mean abs 0.00000   (by error, pooled)
+    road_edges               corr 1.000000  max abs   0.0078  mean abs 0.00064
+    road_transform           corr 1.000000  max abs   0.0000  mean abs 0.00000   (by error, pooled)
+    wide_from_device_euler   corr 1.000000  max abs   0.0000  mean abs 0.00000   (by error, pooled)
+
+frame 8: corr 0.996554  max abs 9.6250
+    action                   corr 0.999853  max abs   0.1035  mean abs 0.06776   (by error, pooled)
+    desire_pred              corr 1.000000  max abs   0.0078  mean abs 0.00072
+    desire_state             corr 0.998236  max abs   4.7969  mean abs 2.36105   (by error, pooled)
+    hidden_state             corr 1.000000  max abs   0.0078  mean abs 0.00046
+    lane_lines               corr 1.000000  max abs   0.0039  mean abs 0.00031
+    lane_lines_prob          corr 1.000000  max abs   0.0039  mean abs 0.00092   (by error, pooled)
+    lead                     corr 0.999100  max abs   9.6250  mean abs 1.53755
+    lead_prob                corr 0.999646  max abs   1.2656  mean abs 0.97656   (by error, pooled)
+    meta                     corr 1.000000  max abs   0.0039  mean abs 0.00077
+    pad                      corr 1.000000  max abs   0.0000  mean abs 0.00000   (by error, pooled)
+    plan                     corr 0.994957  max abs   9.0625  mean abs 0.21217   <-- FAIL
+    pose                     corr 1.000000  max abs   0.0020  mean abs 0.00029   (by error, pooled)
+    road_edges               corr 1.000000  max abs   0.0039  mean abs 0.00055
+    road_transform           corr 1.000000  max abs   0.0000  mean abs 0.00000   (by error, pooled)
+    wide_from_device_euler   corr 1.000000  max abs   0.0000  mean abs 0.00000   (by error, pooled)
+
+frame 9: corr 0.996364  max abs 10.8125
+    action                   corr 0.999841  max abs   0.1094  mean abs 0.06582   (by error, pooled)
+    desire_pred              corr 1.000000  max abs   0.0039  mean abs 0.00056
+    desire_state             corr 0.998361  max abs   3.7500  mean abs 2.09981   (by error, pooled)
+    hidden_state             corr 1.000000  max abs   0.0078  mean abs 0.00054
+    lane_lines               corr 1.000000  max abs   0.0039  mean abs 0.00022
+    lane_lines_prob          corr 1.000000  max abs   0.0005  mean abs 0.00006   (by error, pooled)
+    lead                     corr 0.998845  max abs  10.8125  mean abs 1.64464   <-- FAIL
+    lead_prob                corr 0.999705  max abs   1.3281  mean abs 0.92904   (by error, pooled)
+    meta                     corr 1.000000  max abs   0.0039  mean abs 0.00082
+    pad                      corr 1.000000  max abs   0.0000  mean abs 0.00000   (by error, pooled)
+    plan                     corr 0.995410  max abs   9.0312  mean abs 0.21278   <-- FAIL
+    pose                     corr 1.000000  max abs   0.0039  mean abs 0.00049   (by error, pooled)
+    road_edges               corr 1.000000  max abs   0.0039  mean abs 0.00053
+    road_transform           corr 1.000000  max abs   0.0039  mean abs 0.00033   (by error, pooled)
+    wide_from_device_euler   corr 1.000000  max abs   0.0000  mean abs 0.00000   (by error, pooled)
+
+frame 10: corr 0.999259  max abs 7.0000
+    action                   corr 0.999452  max abs   0.1162  mean abs 0.05853   (by error, pooled)
+    desire_pred              corr 1.000000  max abs   0.0078  mean abs 0.00058
+    desire_state             corr 0.997938  max abs   5.3281  mean abs 2.01573   (by error, pooled)
+    hidden_state             corr 1.000000  max abs   0.0078  mean abs 0.00051
+    lane_lines               corr 1.000000  max abs   0.0039  mean abs 0.00024
+    lane_lines_prob          corr 1.000000  max abs   0.0039  mean abs 0.00165   (by error, pooled)
+    lead                     corr 0.999924  max abs   4.6875  mean abs 0.71812
+    lead_prob                corr 0.999765  max abs   0.4922  mean abs 0.26302   (by error, pooled)
+    meta                     corr 1.000000  max abs   0.0039  mean abs 0.00076
+    pad                      corr 1.000000  max abs   0.0000  mean abs 0.00000   (by error, pooled)
+    plan                     corr 0.999378  max abs   7.0000  mean abs 0.16309
+    pose                     corr 1.000000  max abs   0.0039  mean abs 0.00090   (by error, pooled)
+    road_edges               corr 1.000000  max abs   0.0039  mean abs 0.00049
+    road_transform           corr 1.000000  max abs   0.0039  mean abs 0.00033   (by error, pooled)
+    wide_from_device_euler   corr 1.000000  max abs   0.0020  mean abs 0.00033   (by error, pooled)
+
+frame 11: corr 0.989432  max abs 23.0625
+    action                   corr 0.999798  max abs   0.1621  mean abs 0.08558   (by error, pooled)
+    desire_pred              corr 1.000000  max abs   0.0039  mean abs 0.00045
+    desire_state             corr 0.998914  max abs   3.9844  mean abs 2.46301   (by error, pooled)
+    hidden_state             corr 1.000000  max abs   0.0156  mean abs 0.00055
+    lane_lines               corr 1.000000  max abs   0.0039  mean abs 0.00029
+    lane_lines_prob          corr 1.000000  max abs   0.0039  mean abs 0.00104   (by error, pooled)
+    lead                     corr 0.998558  max abs  23.0625  mean abs 2.56639   <-- FAIL
+    lead_prob                corr 0.998862  max abs   1.4922  mean abs 0.81315   (by error, pooled)
+    meta                     corr 1.000000  max abs   0.0039  mean abs 0.00042
+    pad                      corr 1.000000  max abs   0.0000  mean abs 0.00000   (by error, pooled)
+    plan                     corr 0.995081  max abs   6.5938  mean abs 0.21213   <-- FAIL
+    pose                     corr 1.000000  max abs   0.0039  mean abs 0.00083   (by error, pooled)
+    road_edges               corr 1.000000  max abs   0.0039  mean abs 0.00035
+    road_transform           corr 1.000000  max abs   0.0000  mean abs 0.00000   (by error, pooled)
+    wide_from_device_euler   corr 1.000000  max abs   0.0020  mean abs 0.00033   (by error, pooled)
+
+frame 12: corr 0.991664  max abs 14.5625
+    action                   corr 0.999903  max abs   0.1992  mean abs 0.08293   (by error, pooled)
+    desire_pred              corr 1.000000  max abs   0.0020  mean abs 0.00032
+    desire_state             corr 0.989883  max abs   9.9844  mean abs 5.37048   (by error, pooled)
+    hidden_state             corr 1.000000  max abs   0.0078  mean abs 0.00040
+    lane_lines               corr 1.000000  max abs   0.0039  mean abs 0.00016
+    lane_lines_prob          corr 1.000000  max abs   0.0039  mean abs 0.00073   (by error, pooled)
+    lead                     corr 0.998973  max abs  14.5625  mean abs 1.30003   <-- FAIL
+    lead_prob                corr 0.999792  max abs   1.3008  mean abs 0.75521   (by error, pooled)
+    meta                     corr 1.000000  max abs   0.0039  mean abs 0.00042
+    pad                      corr 1.000000  max abs   0.0000  mean abs 0.00000   (by error, pooled)
+    plan                     corr 0.982112  max abs  11.1250  mean abs 0.34535   <-- FAIL
+    pose                     corr 1.000000  max abs   0.0000  mean abs 0.00000   (by error, pooled)
+    road_edges               corr 1.000000  max abs   0.0039  mean abs 0.00037
+    road_transform           corr 1.000000  max abs   0.0000  mean abs 0.00000   (by error, pooled)
+    wide_from_device_euler   corr 1.000000  max abs   0.0000  mean abs 0.00000   (by error, pooled)
+
+frame 13: corr 0.999495  max abs 4.6250
+    action                   corr 0.999917  max abs   0.0781  mean abs 0.04939   (by error, pooled)
+    desire_pred              corr 1.000000  max abs   0.0039  mean abs 0.00070
+    desire_state             corr 0.998964  max abs   3.1719  mean abs 2.01105   (by error, pooled)
+    hidden_state             corr 1.000000  max abs   0.0078  mean abs 0.00052
+    lane_lines               corr 1.000000  max abs   0.0039  mean abs 0.00036
+    lane_lines_prob          corr 1.000000  max abs   0.0039  mean abs 0.00208   (by error, pooled)
+    lead                     corr 0.999787  max abs   4.6250  mean abs 0.53370
+    lead_prob                corr 0.999817  max abs   0.7031  mean abs 0.42122   (by error, pooled)
+    meta                     corr 1.000000  max abs   0.0020  mean abs 0.00052
+    pad                      corr 1.000000  max abs   0.0000  mean abs 0.00000   (by error, pooled)
+    plan                     corr 0.998394  max abs   2.2344  mean abs 0.12091   <-- FAIL
+    pose                     corr 1.000000  max abs   0.0005  mean abs 0.00004   (by error, pooled)
+    road_edges               corr 1.000000  max abs   0.0039  mean abs 0.00063
+    road_transform           corr 1.000000  max abs   0.0020  mean abs 0.00016   (by error, pooled)
+    wide_from_device_euler   corr 1.000000  max abs   0.0039  mean abs 0.00065   (by error, pooled)
+
+frame 14: corr 0.999570  max abs 5.6250
+    action                   corr 0.999641  max abs   0.0928  mean abs 0.04990   (by error, pooled)
+    desire_pred              corr 1.000000  max abs   0.0039  mean abs 0.00064
+    desire_state             corr 0.997081  max abs   2.9688  mean abs 1.75177   (by error, pooled)
+    hidden_state             corr 1.000000  max abs   0.0078  mean abs 0.00054
+    lane_lines               corr 1.000000  max abs   0.0039  mean abs 0.00046
+    lane_lines_prob          corr 1.000000  max abs   0.0039  mean abs 0.00110   (by error, pooled)
+    lead                     corr 0.999915  max abs   5.6250  mean abs 0.71847
+    lead_prob                corr 0.999630  max abs   0.6680  mean abs 0.51367   (by error, pooled)
+    meta                     corr 1.000000  max abs   0.0039  mean abs 0.00070
+    pad                      corr 1.000000  max abs   0.0000  mean abs 0.00000   (by error, pooled)
+    plan                     corr 0.999359  max abs   3.7500  mean abs 0.08996
+    pose                     corr 1.000000  max abs   0.0039  mean abs 0.00065   (by error, pooled)
+    road_edges               corr 1.000000  max abs   0.0039  mean abs 0.00063
+    road_transform           corr 1.000000  max abs   0.0039  mean abs 0.00033   (by error, pooled)
+    wide_from_device_euler   corr 1.000000  max abs   0.0020  mean abs 0.00033   (by error, pooled)
+
+frame 15: corr 0.999305  max abs 11.8750
+    action                   corr 0.999877  max abs   0.0879  mean abs 0.05035   (by error, pooled)
+    desire_pred              corr 1.000000  max abs   0.0039  mean abs 0.00104
+    desire_state             corr 0.995350  max abs   4.0088  mean abs 2.07425   (by error, pooled)
+    hidden_state             corr 1.000000  max abs   0.0078  mean abs 0.00061
+    lane_lines               corr 1.000000  max abs   0.0078  mean abs 0.00034
+    lane_lines_prob          corr 1.000000  max abs   0.0078  mean abs 0.00266   (by error, pooled)
+    lead                     corr 0.999955  max abs  11.8750  mean abs 1.32994
+    lead_prob                corr 0.998780  max abs   0.7227  mean abs 0.62028   (by error, pooled)
+    meta                     corr 1.000000  max abs   0.0039  mean abs 0.00085
+    pad                      corr 1.000000  max abs   0.0000  mean abs 0.00000   (by error, pooled)
+    plan                     corr 0.999858  max abs   1.2344  mean abs 0.07248
+    pose                     corr 1.000000  max abs   0.0078  mean abs 0.00065   (by error, pooled)
+    road_edges               corr 1.000000  max abs   0.0020  mean abs 0.00031
+    road_transform           corr 1.000000  max abs   0.0000  mean abs 0.00000   (by error, pooled)
+    wide_from_device_euler   corr 1.000000  max abs   0.0020  mean abs 0.00033   (by error, pooled)
+
+frame 16: corr 0.998505  max abs 11.5000
+    action                   corr 0.998525  max abs   0.1475  mean abs 0.04440   (by error, pooled)
+    desire_pred              corr 1.000000  max abs   0.0039  mean abs 0.00073
+    desire_state             corr 0.971581  max abs   4.8516  mean abs 2.28345   (by error, pooled)
+    hidden_state             corr 1.000000  max abs   0.0234  mean abs 0.00077
+    lane_lines               corr 1.000000  max abs   0.0078  mean abs 0.00044
+    lane_lines_prob          corr 1.000000  max abs   0.0078  mean abs 0.00249   (by error, pooled)
+    lead                     corr 0.999665  max abs  11.5000  mean abs 1.33930
+    lead_prob                corr 0.999501  max abs   0.1836  mean abs 0.14535   (by error, pooled)
+    meta                     corr 1.000000  max abs   0.0039  mean abs 0.00079
+    pad                      corr 1.000000  max abs   0.0000  mean abs 0.00000   (by error, pooled)
+    plan                     corr 0.998503  max abs   6.7969  mean abs 0.10857   <-- FAIL
+    pose                     corr 1.000000  max abs   0.0078  mean abs 0.00065   (by error, pooled)
+    road_edges               corr 1.000000  max abs   0.0039  mean abs 0.00074
+    road_transform           corr 1.000000  max abs   0.0039  mean abs 0.00049   (by error, pooled)
+    wide_from_device_euler   corr 1.000000  max abs   0.0039  mean abs 0.00065   (by error, pooled)
+
+frame 17: corr 0.998000  max abs 8.0000
+    action                   corr 0.999837  max abs   0.0469  mean abs 0.02236   (by error, pooled)
+    desire_pred              corr 1.000000  max abs   0.0020  mean abs 0.00024
+    desire_state             corr 0.984496  max abs   6.4531  mean abs 3.41553   (by error, pooled)
+    hidden_state             corr 1.000000  max abs   0.0078  mean abs 0.00051
+    lane_lines               corr 1.000000  max abs   0.0039  mean abs 0.00025
+    lane_lines_prob          corr 1.000000  max abs   0.0020  mean abs 0.00037   (by error, pooled)
+    lead                     corr 0.999351  max abs   8.0000  mean abs 1.19999
+    lead_prob                corr 0.998508  max abs   1.2246  mean abs 1.06315   (by error, pooled)
+    meta                     corr 1.000000  max abs   0.0039  mean abs 0.00047
+    pad                      corr 1.000000  max abs   0.0000  mean abs 0.00000   (by error, pooled)
+    plan                     corr 0.992159  max abs   5.7500  mean abs 0.19764   <-- FAIL
+    pose                     corr 1.000000  max abs   0.0010  mean abs 0.00008   (by error, pooled)
+    road_edges               corr 1.000000  max abs   0.0039  mean abs 0.00037
+    road_transform           corr 1.000000  max abs   0.0000  mean abs 0.00000   (by error, pooled)
+    wide_from_device_euler   corr 1.000000  max abs   0.0000  mean abs 0.00000   (by error, pooled)
+
+frame 18: corr 0.998451  max abs 8.0000
+    action                   corr 0.999613  max abs   0.0449  mean abs 0.02904   (by error, pooled)
+    desire_pred              corr 1.000000  max abs   0.0039  mean abs 0.00056
+    desire_state             corr 0.990297  max abs   5.1328  mean abs 2.60364   (by error, pooled)
+    hidden_state             corr 1.000000  max abs   0.0078  mean abs 0.00048
+    lane_lines               corr 1.000000  max abs   0.0039  mean abs 0.00020
+    lane_lines_prob          corr 1.000000  max abs   0.0020  mean abs 0.00092   (by error, pooled)
+    lead                     corr 0.999383  max abs   8.0000  mean abs 1.18364
+    lead_prob                corr 0.999489  max abs   1.4736  mean abs 1.40267   (by error, pooled)
+    meta                     corr 1.000000  max abs   0.0039  mean abs 0.00045
+    pad                      corr 1.000000  max abs   0.0000  mean abs 0.00000   (by error, pooled)
+    plan                     corr 0.995308  max abs   3.4688  mean abs 0.17361   <-- FAIL
+    pose                     corr 1.000000  max abs   0.0005  mean abs 0.00008   (by error, pooled)
+    road_edges               corr 1.000000  max abs   0.0039  mean abs 0.00027
+    road_transform           corr 1.000000  max abs   0.0039  mean abs 0.00041   (by error, pooled)
+    wide_from_device_euler   corr 1.000000  max abs   0.0000  mean abs 0.00000   (by error, pooled)
+
+frame 19: corr 0.998690  max abs 7.5000
+    action                   corr 0.999577  max abs   0.0977  mean abs 0.04305   (by error, pooled)
+    desire_pred              corr 1.000000  max abs   0.0039  mean abs 0.00067
+    desire_state             corr 0.978900  max abs   4.5000  mean abs 1.79297   (by error, pooled)
+    hidden_state             corr 1.000000  max abs   0.0078  mean abs 0.00052
+    lane_lines               corr 1.000000  max abs   0.0039  mean abs 0.00032
+    lane_lines_prob          corr 1.000000  max abs   0.0029  mean abs 0.00067   (by error, pooled)
+    lead                     corr 0.998384  max abs   7.5000  mean abs 0.82794   <-- FAIL
+    lead_prob                corr 0.990718  max abs   0.7272  mean abs 0.32768   (by error, pooled)
+    meta                     corr 1.000000  max abs   0.0039  mean abs 0.00041
+    pad                      corr 1.000000  max abs   0.0000  mean abs 0.00000   (by error, pooled)
+    plan                     corr 0.997118  max abs   6.4375  mean abs 0.12311   <-- FAIL
+    pose                     corr 1.000000  max abs   0.0000  mean abs 0.00000   (by error, pooled)
+    road_edges               corr 1.000000  max abs   0.0039  mean abs 0.00036
+    road_transform           corr 1.000000  max abs   0.0010  mean abs 0.00008   (by error, pooled)
+    wide_from_device_euler   corr 1.000000  max abs   0.0000  mean abs 0.00000   (by error, pooled)
+
+frame 20: corr 0.996291  max abs 15.9375
+    action                   corr 0.999667  max abs   0.1016  mean abs 0.03641   (by error, pooled)
+    desire_pred              corr 1.000000  max abs   0.0039  mean abs 0.00088
+    desire_state             corr 0.980035  max abs   8.2266  mean abs 4.47662   (by error, pooled)
+    hidden_state             corr 1.000000  max abs   0.0156  mean abs 0.00044
+    lane_lines               corr 1.000000  max abs   0.0039  mean abs 0.00032
+    lane_lines_prob          corr 1.000000  max abs   0.0039  mean abs 0.00168   (by error, pooled)
+    lead                     corr 0.999445  max abs  15.9375  mean abs 1.49815
+    lead_prob                corr 0.895968  max abs   0.9785  mean abs 0.77962   (by error, pooled)
+    meta                     corr 1.000000  max abs   0.0039  mean abs 0.00056
+    pad                      corr 1.000000  max abs   0.0000  mean abs 0.00000   (by error, pooled)
+    plan                     corr 0.981940  max abs  11.6562  mean abs 0.28368   <-- FAIL
+    pose                     corr 1.000000  max abs   0.0005  mean abs 0.00009   (by error, pooled)
+    road_edges               corr 1.000000  max abs   0.0039  mean abs 0.00032
+    road_transform           corr 1.000000  max abs   0.0000  mean abs 0.00000   (by error, pooled)
+    wide_from_device_euler   corr 1.000000  max abs   0.0000  mean abs 0.00000   (by error, pooled)
+
+frame 21: corr 0.996046  max abs 12.0938
+    action                   corr 0.999872  max abs   0.1270  mean abs 0.05015   (by error, pooled)
+    desire_pred              corr 1.000000  max abs   0.0039  mean abs 0.00056
+    desire_state             corr 0.967066  max abs   8.2031  mean abs 4.18393   (by error, pooled)
+    hidden_state             corr 1.000000  max abs   0.0078  mean abs 0.00046
+    lane_lines               corr 1.000000  max abs   0.0039  mean abs 0.00030
+    lane_lines_prob          corr 1.000000  max abs   0.0020  mean abs 0.00110   (by error, pooled)
+    lead                     corr 0.999059  max abs  10.5000  mean abs 1.25365
+    lead_prob                corr 0.955671  max abs   1.1582  mean abs 1.00553   (by error, pooled)
+    meta                     corr 1.000000  max abs   0.0039  mean abs 0.00024
+    pad                      corr 1.000000  max abs   0.0000  mean abs 0.00000   (by error, pooled)
+    plan                     corr 0.973172  max abs  12.0938  mean abs 0.28483   <-- FAIL
+    pose                     corr 1.000000  max abs   0.0010  mean abs 0.00009   (by error, pooled)
+    road_edges               corr 1.000000  max abs   0.0039  mean abs 0.00062
+    road_transform           corr 1.000000  max abs   0.0000  mean abs 0.00000   (by error, pooled)
+    wide_from_device_euler   corr 1.000000  max abs   0.0000  mean abs 0.00000   (by error, pooled)
+
+frame 22: corr 0.998886  max abs 6.2188
+    action                   corr 0.999964  max abs   0.1191  mean abs 0.05816   (by error, pooled)
+    desire_pred              corr 1.000000  max abs   0.0039  mean abs 0.00074
+    desire_state             corr 0.990702  max abs   2.1797  mean abs 1.16980   (by error, pooled)
+    hidden_state             corr 1.000000  max abs   0.0078  mean abs 0.00047
+    lane_lines               corr 1.000000  max abs   0.0020  mean abs 0.00013
+    lane_lines_prob          corr 1.000000  max abs   0.0078  mean abs 0.00232   (by error, pooled)
+    lead                     corr 0.998721  max abs   6.2188  mean abs 0.72390   <-- FAIL
+    lead_prob                corr 0.973560  max abs   1.0962  mean abs 0.92887   (by error, pooled)
+    meta                     corr 1.000000  max abs   0.0039  mean abs 0.00083
+    pad                      corr 1.000000  max abs   0.0000  mean abs 0.00000   (by error, pooled)
+    plan                     corr 0.995537  max abs   4.2734  mean abs 0.12399   <-- FAIL
+    pose                     corr 1.000000  max abs   0.0039  mean abs 0.00061   (by error, pooled)
+    road_edges               corr 1.000000  max abs   0.0020  mean abs 0.00045
+    road_transform           corr 1.000000  max abs   0.0000  mean abs 0.00000   (by error, pooled)
+    wide_from_device_euler   corr 1.000000  max abs   0.0020  mean abs 0.00033   (by error, pooled)
+
+frame 23: corr 0.998574  max abs 8.6172
+    action                   corr 0.999454  max abs   0.1875  mean abs 0.07119   (by error, pooled)
+    desire_pred              corr 1.000000  max abs   0.0078  mean abs 0.00084
+    desire_state             corr 0.981745  max abs   3.8242  mean abs 1.83887   (by error, pooled)
+    hidden_state             corr 1.000000  max abs   0.0078  mean abs 0.00056
+    lane_lines               corr 1.000000  max abs   0.0039  mean abs 0.00038
+    lane_lines_prob          corr 1.000000  max abs   0.0078  mean abs 0.00494   (by error, pooled)
+    lead                     corr 0.998690  max abs   5.3750  mean abs 0.57684   <-- FAIL
+    lead_prob                corr 0.995711  max abs   0.4817  mean abs 0.30509   (by error, pooled)
+    meta                     corr 1.000000  max abs   0.0039  mean abs 0.00049
+    pad                      corr 1.000000  max abs   0.0000  mean abs 0.00000   (by error, pooled)
+    plan                     corr 0.993210  max abs   8.6172  mean abs 0.12449   <-- FAIL
+    pose                     corr 1.000000  max abs   0.0039  mean abs 0.00049   (by error, pooled)
+    road_edges               corr 1.000000  max abs   0.0039  mean abs 0.00030
+    road_transform           corr 1.000000  max abs   0.0039  mean abs 0.00033   (by error, pooled)
+    wide_from_device_euler   corr 1.000000  max abs   0.0000  mean abs 0.00000   (by error, pooled)
+
+frame 24: corr 0.997902  max abs 13.8965
+    action                   corr 0.999268  max abs   0.2148  mean abs 0.06100   (by error, pooled)
+    desire_pred              corr 1.000000  max abs   0.0020  mean abs 0.00025
+    desire_state             corr 0.949031  max abs  13.8965  mean abs 6.96118   (by error, pooled)
+    hidden_state             corr 1.000000  max abs   0.0117  mean abs 0.00061
+    lane_lines               corr 1.000000  max abs   0.0078  mean abs 0.00043
+    lane_lines_prob          corr 1.000000  max abs   0.0039  mean abs 0.00085   (by error, pooled)
+    lead                     corr 0.999918  max abs   7.5000  mean abs 0.83172
+    lead_prob                corr 0.999846  max abs   1.2109  mean abs 0.87467   (by error, pooled)
+    meta                     corr 1.000000  max abs   0.0039  mean abs 0.00126
+    pad                      corr 1.000000  max abs   0.0000  mean abs 0.00000   (by error, pooled)
+    plan                     corr 0.999436  max abs   2.3906  mean abs 0.11158
+    pose                     corr 1.000000  max abs   0.0020  mean abs 0.00033   (by error, pooled)
+    road_edges               corr 1.000000  max abs   0.0078  mean abs 0.00058
+    road_transform           corr 1.000000  max abs   0.0039  mean abs 0.00065   (by error, pooled)
+    wide_from_device_euler   corr 1.000000  max abs   0.0000  mean abs 0.00000   (by error, pooled)
+
+frame 25: corr 0.997601  max abs 15.1484
+    action                   corr 0.999109  max abs   0.2090  mean abs 0.05905   (by error, pooled)
+    desire_pred              corr 1.000000  max abs   0.0020  mean abs 0.00050
+    desire_state             corr 0.937825  max abs  15.1484  mean abs 7.56995   (by error, pooled)
+    hidden_state             corr 1.000000  max abs   0.0078  mean abs 0.00057
+    lane_lines               corr 1.000000  max abs   0.0078  mean abs 0.00028
+    lane_lines_prob          corr 1.000000  max abs   0.0020  mean abs 0.00056   (by error, pooled)
+    lead                     corr 0.999932  max abs   9.2500  mean abs 0.96306
+    lead_prob                corr 0.999999  max abs   1.4170  mean abs 1.14624   (by error, pooled)
+    meta                     corr 1.000000  max abs   0.0039  mean abs 0.00103
+    pad                      corr 1.000000  max abs   0.0000  mean abs 0.00000   (by error, pooled)
+    plan                     corr 0.999304  max abs   3.1250  mean abs 0.11818
+    pose                     corr 1.000000  max abs   0.0010  mean abs 0.00009   (by error, pooled)
+    road_edges               corr 1.000000  max abs   0.0078  mean abs 0.00030
+    road_transform           corr 1.000000  max abs   0.0000  mean abs 0.00000   (by error, pooled)
+    wide_from_device_euler   corr 1.000000  max abs   0.0000  mean abs 0.00000   (by error, pooled)
+
+pooled over 26 frames, per slice and per column:
+    action                   corr 0.999204  by error, max abs 0.3066 <= 0.4707      max abs   0.3066  mean abs 0.06179
+    desire_pred              corr 1.000000  (compared whole)                        max abs   0.0078  mean abs 0.00061
+    desire_state             corr 0.981089  by error, max abs 15.15 > 3.359         max abs  15.1484  mean abs 2.20194   <-- FAIL
+    hidden_state             corr 1.000000  (compared whole)                        max abs   0.0234  mean abs 0.00053
+    lane_lines               corr 1.000000  worst col 1.000000 mu[0]                    max abs   0.0078  mean abs 0.00030
+    lane_lines_prob          corr 1.000000  by error, max abs 0.007812 <= 1.045     max abs   0.0078  mean abs 0.00153
+    lead                     corr 0.997930  worst col 0.963213 mu[2]    (4 by error)    cols: mu[0] 0.988314, mu[1] 0.972919, mu[2] 0.963213, mu[3] by error, max abs 0.5125 > 0.06577, std[0] by error, max abs 1.668 > 0.6523, std[1] 0.976688, std[2] by error, max abs 0.9922 > 0.5902, std[3] by error, max abs 0.9321 > 0.3371  max abs  23.0625  mean abs 0.81339   <-- FAIL
+    lead_prob                corr 0.965306  by error, max abs 1.492 > 1.058         max abs   1.4922  mean abs 0.52524   <-- FAIL
+    meta                     corr 1.000000  (compared whole)                        max abs   0.0039  mean abs 0.00069
+    pad                      corr 1.000000  by error, max abs 0 <= 0                max abs   0.0000  mean abs 0.00000
+    plan                     corr 0.996247  worst col 0.892075 mu[7]    (10 by error)   cols: mu[0] 0.994169, mu[1] 0.956644, mu[2] by error, max abs 0.1973 > 0.09976, mu[3] 0.980248, mu[4] by error, max abs 0.1847 > 0.04424, mu[5] by error, max abs 0.02097 > 0.005112, mu[6] 0.941202, mu[7] 0.892075, mu[8] by error, max abs 0.03363 > 0.009332, mu[9] by error, max abs 0.006658 > 0.005112, mu[10] by error, max abs 0.00597 > 0.005112, mu[11] by error, max abs 0.3572 > 0.08652, mu[14] by error, max abs 0.101 > 0.02167, std[0] 0.998551, std[1] 0.996831, std[3] 0.984212, std[4] 0.963884, std[5] 0.975894, std[6] 0.979159, std[7] 0.974378, std[8] 0.986564, std[9] 0.993992, std[10] 0.991736, std[11] 0.989438, std[12] 0.978611, std[13] 0.982603, std[14] 0.968265  max abs  12.0938  mean abs 0.12038   <-- FAIL
+    pose                     corr 1.000000  no column correlated        (12 by error)   max abs   0.0078  mean abs 0.00033
+    road_edges               corr 1.000000  worst col 0.999999 std[0]                   max abs   0.0078  mean abs 0.00044
+    road_transform           corr 1.000000  no column correlated        (12 by error)   max abs   0.0039  mean abs 0.00012
+    wide_from_device_euler   corr 1.000000  no column correlated        (6 by error)    max abs   0.0039  mean abs 0.00014
+
+FAIL: 4 slice(s) below corr 0.999 or past their error bound, whole or in a column: plan 0.973172 on one frame, lead 0.998384 on one frame, desire_state pooled, lead_prob pooled

@@ -1,0 +1,470 @@
+{
+  "added_metadata": [
+    {
+      "name": "htp_gelu/36/shape4",
+      "dtype": 7,
+      "shape": [
+        4
+      ],
+      "evidence": "initializer TensorProto dtype/dims"
+    },
+    {
+      "name": "htp_gelu/36/shapeOriginal",
+      "dtype": 7,
+      "shape": [
+        2
+      ],
+      "evidence": "initializer TensorProto dtype/dims"
+    },
+    {
+      "name": "htp_gelu/37/shape4",
+      "dtype": 7,
+      "shape": [
+        4
+      ],
+      "evidence": "initializer TensorProto dtype/dims"
+    },
+    {
+      "name": "htp_gelu/37/shapeOriginal",
+      "dtype": 7,
+      "shape": [
+        2
+      ],
+      "evidence": "initializer TensorProto dtype/dims"
+    },
+    {
+      "name": "htp_gelu/38/shape4",
+      "dtype": 7,
+      "shape": [
+        4
+      ],
+      "evidence": "initializer TensorProto dtype/dims"
+    },
+    {
+      "name": "htp_gelu/38/shapeOriginal",
+      "dtype": 7,
+      "shape": [
+        2
+      ],
+      "evidence": "initializer TensorProto dtype/dims"
+    },
+    {
+      "name": "htp_gelu/41/shape4",
+      "dtype": 7,
+      "shape": [
+        4
+      ],
+      "evidence": "initializer TensorProto dtype/dims"
+    },
+    {
+      "name": "htp_gelu/41/shapeOriginal",
+      "dtype": 7,
+      "shape": [
+        3
+      ],
+      "evidence": "initializer TensorProto dtype/dims"
+    },
+    {
+      "name": "htp_gelu/42/shape4",
+      "dtype": 7,
+      "shape": [
+        4
+      ],
+      "evidence": "initializer TensorProto dtype/dims"
+    },
+    {
+      "name": "htp_gelu/42/shapeOriginal",
+      "dtype": 7,
+      "shape": [
+        3
+      ],
+      "evidence": "initializer TensorProto dtype/dims"
+    },
+    {
+      "name": "htp_gelu/43/shape4",
+      "dtype": 7,
+      "shape": [
+        4
+      ],
+      "evidence": "initializer TensorProto dtype/dims"
+    },
+    {
+      "name": "htp_gelu/43/shapeOriginal",
+      "dtype": 7,
+      "shape": [
+        3
+      ],
+      "evidence": "initializer TensorProto dtype/dims"
+    },
+    {
+      "name": "htp_gelu/44/shape4",
+      "dtype": 7,
+      "shape": [
+        4
+      ],
+      "evidence": "initializer TensorProto dtype/dims"
+    },
+    {
+      "name": "htp_gelu/44/shapeOriginal",
+      "dtype": 7,
+      "shape": [
+        3
+      ],
+      "evidence": "initializer TensorProto dtype/dims"
+    },
+    {
+      "name": "htp_gelu/45/shape4",
+      "dtype": 7,
+      "shape": [
+        4
+      ],
+      "evidence": "initializer TensorProto dtype/dims"
+    },
+    {
+      "name": "htp_gelu/45/shapeOriginal",
+      "dtype": 7,
+      "shape": [
+        2
+      ],
+      "evidence": "initializer TensorProto dtype/dims"
+    },
+    {
+      "name": "htp_gelu/46/shape4",
+      "dtype": 7,
+      "shape": [
+        4
+      ],
+      "evidence": "initializer TensorProto dtype/dims"
+    },
+    {
+      "name": "htp_gelu/46/shapeOriginal",
+      "dtype": 7,
+      "shape": [
+        2
+      ],
+      "evidence": "initializer TensorProto dtype/dims"
+    },
+    {
+      "name": "htp_gelu/47/shape4",
+      "dtype": 7,
+      "shape": [
+        4
+      ],
+      "evidence": "initializer TensorProto dtype/dims"
+    },
+    {
+      "name": "htp_gelu/47/shapeOriginal",
+      "dtype": 7,
+      "shape": [
+        2
+      ],
+      "evidence": "initializer TensorProto dtype/dims"
+    },
+    {
+      "name": "htp_gelu/48/shape4",
+      "dtype": 7,
+      "shape": [
+        4
+      ],
+      "evidence": "initializer TensorProto dtype/dims"
+    },
+    {
+      "name": "htp_gelu/48/shapeOriginal",
+      "dtype": 7,
+      "shape": [
+        2
+      ],
+      "evidence": "initializer TensorProto dtype/dims"
+    },
+    {
+      "name": "htp_gelu/51/shape4",
+      "dtype": 7,
+      "shape": [
+        4
+      ],
+      "evidence": "initializer TensorProto dtype/dims"
+    },
+    {
+      "name": "htp_gelu/51/shapeOriginal",
+      "dtype": 7,
+      "shape": [
+        3
+      ],
+      "evidence": "initializer TensorProto dtype/dims"
+    },
+    {
+      "name": "htp_gelu/52/shape4",
+      "dtype": 7,
+      "shape": [
+        4
+      ],
+      "evidence": "initializer TensorProto dtype/dims"
+    },
+    {
+      "name": "htp_gelu/52/shapeOriginal",
+      "dtype": 7,
+      "shape": [
+        3
+      ],
+      "evidence": "initializer TensorProto dtype/dims"
+    },
+    {
+      "name": "htp_gelu/53/shape4",
+      "dtype": 7,
+      "shape": [
+        4
+      ],
+      "evidence": "initializer TensorProto dtype/dims"
+    },
+    {
+      "name": "htp_gelu/53/shapeOriginal",
+      "dtype": 7,
+      "shape": [
+        3
+      ],
+      "evidence": "initializer TensorProto dtype/dims"
+    },
+    {
+      "name": "htp_gelu/54/shape4",
+      "dtype": 7,
+      "shape": [
+        4
+      ],
+      "evidence": "initializer TensorProto dtype/dims"
+    },
+    {
+      "name": "htp_gelu/54/shapeOriginal",
+      "dtype": 7,
+      "shape": [
+        3
+      ],
+      "evidence": "initializer TensorProto dtype/dims"
+    },
+    {
+      "name": "htp_gelu/55/shape4",
+      "dtype": 7,
+      "shape": [
+        4
+      ],
+      "evidence": "initializer TensorProto dtype/dims"
+    },
+    {
+      "name": "htp_gelu/55/shapeOriginal",
+      "dtype": 7,
+      "shape": [
+        2
+      ],
+      "evidence": "initializer TensorProto dtype/dims"
+    },
+    {
+      "name": "htp_gelu/58/shape4",
+      "dtype": 7,
+      "shape": [
+        4
+      ],
+      "evidence": "initializer TensorProto dtype/dims"
+    },
+    {
+      "name": "htp_gelu/58/shapeOriginal",
+      "dtype": 7,
+      "shape": [
+        3
+      ],
+      "evidence": "initializer TensorProto dtype/dims"
+    },
+    {
+      "name": "htp_gelu/59/shape4",
+      "dtype": 7,
+      "shape": [
+        4
+      ],
+      "evidence": "initializer TensorProto dtype/dims"
+    },
+    {
+      "name": "htp_gelu/59/shapeOriginal",
+      "dtype": 7,
+      "shape": [
+        3
+      ],
+      "evidence": "initializer TensorProto dtype/dims"
+    },
+    {
+      "name": "htp_gelu/60/shape4",
+      "dtype": 7,
+      "shape": [
+        4
+      ],
+      "evidence": "initializer TensorProto dtype/dims"
+    },
+    {
+      "name": "htp_gelu/60/shapeOriginal",
+      "dtype": 7,
+      "shape": [
+        3
+      ],
+      "evidence": "initializer TensorProto dtype/dims"
+    },
+    {
+      "name": "htp_gelu/61/shape4",
+      "dtype": 7,
+      "shape": [
+        4
+      ],
+      "evidence": "initializer TensorProto dtype/dims"
+    },
+    {
+      "name": "htp_gelu/61/shapeOriginal",
+      "dtype": 7,
+      "shape": [
+        3
+      ],
+      "evidence": "initializer TensorProto dtype/dims"
+    },
+    {
+      "name": "htp_gelu/62/shape4",
+      "dtype": 7,
+      "shape": [
+        4
+      ],
+      "evidence": "initializer TensorProto dtype/dims"
+    },
+    {
+      "name": "htp_gelu/62/shapeOriginal",
+      "dtype": 7,
+      "shape": [
+        2
+      ],
+      "evidence": "initializer TensorProto dtype/dims"
+    },
+    {
+      "name": "first_projection_qdq__layer_norm_49_scale",
+      "dtype": 1,
+      "shape": [],
+      "evidence": "initializer TensorProto dtype/dims"
+    },
+    {
+      "name": "first_projection_qdq__layer_norm_49_zero_point",
+      "dtype": 4,
+      "shape": [],
+      "evidence": "initializer TensorProto dtype/dims"
+    },
+    {
+      "name": "first_projection_qdq__val_645_quantized",
+      "dtype": 2,
+      "shape": [
+        512,
+        1024
+      ],
+      "evidence": "initializer TensorProto dtype/dims"
+    },
+    {
+      "name": "first_projection_qdq__val_645_scale",
+      "dtype": 1,
+      "shape": [],
+      "evidence": "initializer TensorProto dtype/dims"
+    },
+    {
+      "name": "first_projection_qdq__val_645_zero_point",
+      "dtype": 2,
+      "shape": [],
+      "evidence": "initializer TensorProto dtype/dims"
+    },
+    {
+      "name": "first_projection_qdq__val_646_scale",
+      "dtype": 1,
+      "shape": [],
+      "evidence": "initializer TensorProto dtype/dims"
+    },
+    {
+      "name": "first_projection_qdq__val_646_zero_point",
+      "dtype": 4,
+      "shape": [],
+      "evidence": "initializer TensorProto dtype/dims"
+    },
+    {
+      "name": "first_projection_qdq__input_f32",
+      "dtype": 1,
+      "shape": [
+        1,
+        288,
+        512
+      ],
+      "evidence": "Cast static semantics with declared input shapes"
+    },
+    {
+      "name": "first_projection_qdq__layer_norm_49_QuantizeLinear_Output",
+      "dtype": 4,
+      "shape": [
+        1,
+        288,
+        512
+      ],
+      "evidence": "QuantizeLinear static semantics with declared input shapes"
+    },
+    {
+      "name": "first_projection_qdq__val_645_DequantizeLinear_Output",
+      "dtype": 1,
+      "shape": [
+        512,
+        1024
+      ],
+      "evidence": "DequantizeLinear static semantics with declared input shapes"
+    },
+    {
+      "name": "first_projection_qdq__layer_norm_49_DequantizeLinear_Output",
+      "dtype": 1,
+      "shape": [
+        1,
+        288,
+        512
+      ],
+      "evidence": "DequantizeLinear static semantics with declared input shapes"
+    },
+    {
+      "name": "first_projection_qdq__val_646",
+      "dtype": 1,
+      "shape": [
+        1,
+        288,
+        1024
+      ],
+      "evidence": "MatMul static semantics with declared input shapes"
+    },
+    {
+      "name": "first_projection_qdq__val_646_QuantizeLinear_Output",
+      "dtype": 4,
+      "shape": [
+        1,
+        288,
+        1024
+      ],
+      "evidence": "QuantizeLinear static semantics with declared input shapes"
+    },
+    {
+      "name": "first_projection_qdq__val_646_DequantizeLinear_Output",
+      "dtype": 1,
+      "shape": [
+        1,
+        288,
+        1024
+      ],
+      "evidence": "DequantizeLinear static semantics with declared input shapes"
+    }
+  ],
+  "added_count": 56,
+  "referenced_tensor_names": 1784,
+  "unique_declared_names": 1786,
+  "declaration_count_for_sdk_predicate": 1786,
+  "missing_referenced_names": [],
+  "all_referenced_types_and_shapes_static": true,
+  "sdk_up_convert_infer_shapes_would_skip_inference": true,
+  "shape_inference_executed": false,
+  "external_tensor_payloads_loaded": false,
+  "source": "/workspace/shared/jetlink-mixed-first-full/mixed-first-projection.onnx",
+  "output": "/workspace/shared/jetlink-mixed-first-full/mixed-first-projection-shapes.onnx",
+  "nodes_byte_identical": true,
+  "initializers_byte_identical": true,
+  "external_data_shared_unchanged": true,
+  "checker_passed": true,
+  "converter_retested": false
+}

@@ -1,0 +1,46 @@
+{
+  "status": "REAL_BLOCK_QDQ_CPU_ONLY_NOT_WHOLE_MODEL_OR_HTP",
+  "source_model_sha256": "01fcec2ee6a335ba6688fecf28bab768d3707af067ae17815cf999ff65d8ccc5",
+  "data_sha256": "4cc08fa3099f11b7b1e72a8081d44c566e58c88450a939e1b536c4156bc59668",
+  "onnx_version": "1.20.1",
+  "ort_version": "1.23.2",
+  "excluded_nodes": [
+    "node_MatMul_548"
+  ],
+  "calibration_frames": 160,
+  "validation_frames": 4,
+  "fp32_conversion_vs_original": {
+    "finite": true,
+    "max_abs": 0.04339599609375,
+    "rmse": 0.0004388230483097059,
+    "normalized_rmse": 0.00020963643082031478,
+    "correlation": 0.9999999780317307
+  },
+  "cases": [
+    {
+      "name": "QUInt16-w8-pc0",
+      "weight_encoding_scale_shapes": {
+        "val_645_scale": []
+      },
+      "per_channel_requested": false,
+      "per_channel_note": "QNN MatMul forces per-tensor in this ORT version; see actual scale shapes.",
+      "vs_original": {
+        "finite": true,
+        "max_abs": 0.3601341247558594,
+        "rmse": 0.018788970542342298,
+        "normalized_rmse": 0.008975947682002267,
+        "correlation": 0.9999597181073558
+      },
+      "vs_fp32": {
+        "finite": true,
+        "max_abs": 0.348785400390625,
+        "rmse": 0.01878120041910069,
+        "normalized_rmse": 0.008972206292134069,
+        "correlation": 0.9999597517422238
+      },
+      "bytes": 2641725,
+      "sha256": "bd111c7b5fbda171f7b793a1483b3018d6809c275d3a5816f3f43e77ecf45967",
+      "executed": true
+    }
+  ]
+}

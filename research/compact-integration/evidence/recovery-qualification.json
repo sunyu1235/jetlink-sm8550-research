@@ -1,0 +1,59 @@
+{
+  "scope": "Source-level CPU whole-model compact-boundary integration; not complete HTP execution or driving safety",
+  "model_sha256": "3c80a2e4ede9781a1e5aec41c503e12e2f2c739e987e168046de8ed87325800a",
+  "checker_sha256": "89a4c8b5c96904a091c713a9d82ce753149e4c5af80c13eaf7ecb306d4b6ff84",
+  "roads": {
+    "night": {
+      "ordered_outputs_sha256": "0eb8614d04dc42ad622d2a6063e74a92793643d7cd9c87b18d69f80f21868fa7",
+      "views": {
+        "all_frames": {
+          "first_original_frame": 0,
+          "frames": 320,
+          "checker_exit": 0,
+          "last_line": "OK: every slice and every column at or above corr 0.999, or within 10% of its largest value where too small or too quiet to correlate, per frame and pooled over all 320 frames"
+        },
+        "after_warmup": {
+          "first_original_frame": 160,
+          "frames": 160,
+          "checker_exit": 0,
+          "last_line": "OK: every slice and every column at or above corr 0.999, or within 10% of its largest value where too small or too quiet to correlate, per frame and pooled over all 160 frames"
+        }
+      },
+      "all_views_pass": true
+    },
+    "day": {
+      "ordered_outputs_sha256": "a774df3ae19d7254589600fa79bb060fc03ccff92221332161075e70988b4f55",
+      "views": {
+        "all_frames": {
+          "first_original_frame": 0,
+          "frames": 320,
+          "checker_exit": 0,
+          "last_line": "OK: every slice and every column at or above corr 0.999, or within 10% of its largest value where too small or too quiet to correlate, per frame and pooled over all 320 frames"
+        },
+        "after_warmup": {
+          "first_original_frame": 160,
+          "frames": 160,
+          "checker_exit": 0,
+          "last_line": "OK: every slice and every column at or above corr 0.999, or within 10% of its largest value where too small or too quiet to correlate, per frame and pooled over all 160 frames"
+        }
+      },
+      "all_views_pass": true
+    }
+  },
+  "road_numerical_gate_pass": true,
+  "synthetic160": {
+    "scope": "Reconstructed compact upstream plus all3 compact tails source-level CPU fullmodel; not target execution",
+    "frames": 160,
+    "independent_recurrence": true,
+    "checker_modified": false,
+    "checker_exit": 0,
+    "verdict": "OK: every slice and every column at or above corr 0.999, or within 10% of its largest value where too small or too quiet to correlate, per frame and pooled over all 160 frames"
+  },
+  "compact_boundary_bytes": 9216,
+  "baseline_boundary_bytes": 2654208,
+  "boundary_byte_reduction_factor": 288,
+  "device_execution": false,
+  "device_latency_measured": false,
+  "context": "Reconstructed source partition, not byte-identical recovery of accepted phone cached context",
+  "recovery": "Night outputs through 306 existed; recurrent checkpoint resumed at 288, then replayed through 319. Day replay ran fresh."
+}

@@ -1,0 +1,1988 @@
+[
+  {
+    "gelu": "node_gelu",
+    "tensor": "gelu",
+    "shape": [
+      1,
+      32,
+      64,
+      1024
+    ],
+    "approximate": "none",
+    "before": {
+      "name": "node_linear",
+      "op": "Add",
+      "inputs": [
+        "val_95",
+        "model.vision.encoder.stages.0.blocks.0.mlp.fc1.bias"
+      ]
+    },
+    "after": [
+      {
+        "name": "node_MatMul_93",
+        "op": "MatMul",
+        "inputs": [
+          "gelu",
+          "val_96"
+        ],
+        "outputs": [
+          "val_97"
+        ]
+      }
+    ]
+  },
+  {
+    "gelu": "node_gelu_1",
+    "tensor": "gelu_1",
+    "shape": [
+      1,
+      32,
+      64,
+      1024
+    ],
+    "approximate": "none",
+    "before": {
+      "name": "node_linear_2",
+      "op": "Add",
+      "inputs": [
+        "val_107",
+        "model.vision.encoder.stages.0.blocks.1.mlp.fc1.bias"
+      ]
+    },
+    "after": [
+      {
+        "name": "node_MatMul_103",
+        "op": "MatMul",
+        "inputs": [
+          "gelu_1",
+          "val_108"
+        ],
+        "outputs": [
+          "val_109"
+        ]
+      }
+    ]
+  },
+  {
+    "gelu": "node_gelu_2",
+    "tensor": "gelu_2",
+    "shape": [
+      1,
+      32,
+      64,
+      1024
+    ],
+    "approximate": "none",
+    "before": {
+      "name": "node_linear_4",
+      "op": "Add",
+      "inputs": [
+        "val_119",
+        "model.vision.encoder.stages.0.blocks.2.mlp.fc1.bias"
+      ]
+    },
+    "after": [
+      {
+        "name": "node_MatMul_113",
+        "op": "MatMul",
+        "inputs": [
+          "gelu_2",
+          "val_120"
+        ],
+        "outputs": [
+          "val_121"
+        ]
+      }
+    ]
+  },
+  {
+    "gelu": "node_gelu_3",
+    "tensor": "gelu_3",
+    "shape": [
+      1,
+      16,
+      32,
+      2048
+    ],
+    "approximate": "none",
+    "before": {
+      "name": "node_linear_6",
+      "op": "Add",
+      "inputs": [
+        "val_133",
+        "model.vision.encoder.stages.1.blocks.0.mlp.fc1.bias"
+      ]
+    },
+    "after": [
+      {
+        "name": "node_MatMul_123",
+        "op": "MatMul",
+        "inputs": [
+          "gelu_3",
+          "val_134"
+        ],
+        "outputs": [
+          "val_135"
+        ]
+      }
+    ]
+  },
+  {
+    "gelu": "node_gelu_4",
+    "tensor": "gelu_4",
+    "shape": [
+      1,
+      16,
+      32,
+      2048
+    ],
+    "approximate": "none",
+    "before": {
+      "name": "node_linear_8",
+      "op": "Add",
+      "inputs": [
+        "val_145",
+        "model.vision.encoder.stages.1.blocks.1.mlp.fc1.bias"
+      ]
+    },
+    "after": [
+      {
+        "name": "node_MatMul_133",
+        "op": "MatMul",
+        "inputs": [
+          "gelu_4",
+          "val_146"
+        ],
+        "outputs": [
+          "val_147"
+        ]
+      }
+    ]
+  },
+  {
+    "gelu": "node_gelu_5",
+    "tensor": "gelu_5",
+    "shape": [
+      1,
+      16,
+      32,
+      2048
+    ],
+    "approximate": "none",
+    "before": {
+      "name": "node_linear_10",
+      "op": "Add",
+      "inputs": [
+        "val_157",
+        "model.vision.encoder.stages.1.blocks.2.mlp.fc1.bias"
+      ]
+    },
+    "after": [
+      {
+        "name": "node_MatMul_143",
+        "op": "MatMul",
+        "inputs": [
+          "gelu_5",
+          "val_158"
+        ],
+        "outputs": [
+          "val_159"
+        ]
+      }
+    ]
+  },
+  {
+    "gelu": "node_gelu_6",
+    "tensor": "gelu_6",
+    "shape": [
+      1,
+      8,
+      16,
+      4096
+    ],
+    "approximate": "none",
+    "before": {
+      "name": "node_linear_12",
+      "op": "Add",
+      "inputs": [
+        "val_171",
+        "model.vision.encoder.stages.2.blocks.0.mlp.fc1.bias"
+      ]
+    },
+    "after": [
+      {
+        "name": "node_MatMul_153",
+        "op": "MatMul",
+        "inputs": [
+          "gelu_6",
+          "val_172"
+        ],
+        "outputs": [
+          "val_173"
+        ]
+      }
+    ]
+  },
+  {
+    "gelu": "node_gelu_7",
+    "tensor": "gelu_7",
+    "shape": [
+      1,
+      8,
+      16,
+      4096
+    ],
+    "approximate": "none",
+    "before": {
+      "name": "node_linear_14",
+      "op": "Add",
+      "inputs": [
+        "val_183",
+        "model.vision.encoder.stages.2.blocks.1.mlp.fc1.bias"
+      ]
+    },
+    "after": [
+      {
+        "name": "node_MatMul_163",
+        "op": "MatMul",
+        "inputs": [
+          "gelu_7",
+          "val_184"
+        ],
+        "outputs": [
+          "val_185"
+        ]
+      }
+    ]
+  },
+  {
+    "gelu": "node_gelu_8",
+    "tensor": "gelu_8",
+    "shape": [
+      1,
+      8,
+      16,
+      4096
+    ],
+    "approximate": "none",
+    "before": {
+      "name": "node_linear_16",
+      "op": "Add",
+      "inputs": [
+        "val_195",
+        "model.vision.encoder.stages.2.blocks.2.mlp.fc1.bias"
+      ]
+    },
+    "after": [
+      {
+        "name": "node_MatMul_173",
+        "op": "MatMul",
+        "inputs": [
+          "gelu_8",
+          "val_196"
+        ],
+        "outputs": [
+          "val_197"
+        ]
+      }
+    ]
+  },
+  {
+    "gelu": "node_gelu_9",
+    "tensor": "gelu_9",
+    "shape": [
+      1,
+      8,
+      16,
+      4096
+    ],
+    "approximate": "none",
+    "before": {
+      "name": "node_linear_18",
+      "op": "Add",
+      "inputs": [
+        "val_207",
+        "model.vision.encoder.stages.2.blocks.3.mlp.fc1.bias"
+      ]
+    },
+    "after": [
+      {
+        "name": "node_MatMul_183",
+        "op": "MatMul",
+        "inputs": [
+          "gelu_9",
+          "val_208"
+        ],
+        "outputs": [
+          "val_209"
+        ]
+      }
+    ]
+  },
+  {
+    "gelu": "node_gelu_10",
+    "tensor": "gelu_10",
+    "shape": [
+      1,
+      8,
+      16,
+      4096
+    ],
+    "approximate": "none",
+    "before": {
+      "name": "node_linear_20",
+      "op": "Add",
+      "inputs": [
+        "val_219",
+        "model.vision.encoder.stages.2.blocks.4.mlp.fc1.bias"
+      ]
+    },
+    "after": [
+      {
+        "name": "node_MatMul_193",
+        "op": "MatMul",
+        "inputs": [
+          "gelu_10",
+          "val_220"
+        ],
+        "outputs": [
+          "val_221"
+        ]
+      }
+    ]
+  },
+  {
+    "gelu": "node_gelu_11",
+    "tensor": "gelu_11",
+    "shape": [
+      1,
+      8,
+      16,
+      4096
+    ],
+    "approximate": "none",
+    "before": {
+      "name": "node_linear_22",
+      "op": "Add",
+      "inputs": [
+        "val_231",
+        "model.vision.encoder.stages.2.blocks.5.mlp.fc1.bias"
+      ]
+    },
+    "after": [
+      {
+        "name": "node_MatMul_203",
+        "op": "MatMul",
+        "inputs": [
+          "gelu_11",
+          "val_232"
+        ],
+        "outputs": [
+          "val_233"
+        ]
+      }
+    ]
+  },
+  {
+    "gelu": "node_gelu_12",
+    "tensor": "gelu_12",
+    "shape": [
+      1,
+      8,
+      16,
+      4096
+    ],
+    "approximate": "none",
+    "before": {
+      "name": "node_linear_24",
+      "op": "Add",
+      "inputs": [
+        "val_243",
+        "model.vision.encoder.stages.2.blocks.6.mlp.fc1.bias"
+      ]
+    },
+    "after": [
+      {
+        "name": "node_MatMul_213",
+        "op": "MatMul",
+        "inputs": [
+          "gelu_12",
+          "val_244"
+        ],
+        "outputs": [
+          "val_245"
+        ]
+      }
+    ]
+  },
+  {
+    "gelu": "node_gelu_13",
+    "tensor": "gelu_13",
+    "shape": [
+      1,
+      8,
+      16,
+      4096
+    ],
+    "approximate": "none",
+    "before": {
+      "name": "node_linear_26",
+      "op": "Add",
+      "inputs": [
+        "val_255",
+        "model.vision.encoder.stages.2.blocks.7.mlp.fc1.bias"
+      ]
+    },
+    "after": [
+      {
+        "name": "node_MatMul_223",
+        "op": "MatMul",
+        "inputs": [
+          "gelu_13",
+          "val_256"
+        ],
+        "outputs": [
+          "val_257"
+        ]
+      }
+    ]
+  },
+  {
+    "gelu": "node_gelu_14",
+    "tensor": "gelu_14",
+    "shape": [
+      1,
+      8,
+      16,
+      4096
+    ],
+    "approximate": "none",
+    "before": {
+      "name": "node_linear_28",
+      "op": "Add",
+      "inputs": [
+        "val_267",
+        "model.vision.encoder.stages.2.blocks.8.mlp.fc1.bias"
+      ]
+    },
+    "after": [
+      {
+        "name": "node_MatMul_233",
+        "op": "MatMul",
+        "inputs": [
+          "gelu_14",
+          "val_268"
+        ],
+        "outputs": [
+          "val_269"
+        ]
+      }
+    ]
+  },
+  {
+    "gelu": "node_gelu_15",
+    "tensor": "gelu_15",
+    "shape": [
+      1,
+      8,
+      16,
+      4096
+    ],
+    "approximate": "none",
+    "before": {
+      "name": "node_linear_30",
+      "op": "Add",
+      "inputs": [
+        "val_279",
+        "model.vision.encoder.stages.2.blocks.9.mlp.fc1.bias"
+      ]
+    },
+    "after": [
+      {
+        "name": "node_MatMul_243",
+        "op": "MatMul",
+        "inputs": [
+          "gelu_15",
+          "val_280"
+        ],
+        "outputs": [
+          "val_281"
+        ]
+      }
+    ]
+  },
+  {
+    "gelu": "node_gelu_16",
+    "tensor": "gelu_16",
+    "shape": [
+      1,
+      8,
+      16,
+      4096
+    ],
+    "approximate": "none",
+    "before": {
+      "name": "node_linear_32",
+      "op": "Add",
+      "inputs": [
+        "val_291",
+        "model.vision.encoder.stages.2.blocks.10.mlp.fc1.bias"
+      ]
+    },
+    "after": [
+      {
+        "name": "node_MatMul_253",
+        "op": "MatMul",
+        "inputs": [
+          "gelu_16",
+          "val_292"
+        ],
+        "outputs": [
+          "val_293"
+        ]
+      }
+    ]
+  },
+  {
+    "gelu": "node_gelu_17",
+    "tensor": "gelu_17",
+    "shape": [
+      1,
+      8,
+      16,
+      4096
+    ],
+    "approximate": "none",
+    "before": {
+      "name": "node_linear_34",
+      "op": "Add",
+      "inputs": [
+        "val_303",
+        "model.vision.encoder.stages.2.blocks.11.mlp.fc1.bias"
+      ]
+    },
+    "after": [
+      {
+        "name": "node_MatMul_263",
+        "op": "MatMul",
+        "inputs": [
+          "gelu_17",
+          "val_304"
+        ],
+        "outputs": [
+          "val_305"
+        ]
+      }
+    ]
+  },
+  {
+    "gelu": "node_gelu_18",
+    "tensor": "gelu_18",
+    "shape": [
+      1,
+      8,
+      16,
+      4096
+    ],
+    "approximate": "none",
+    "before": {
+      "name": "node_linear_36",
+      "op": "Add",
+      "inputs": [
+        "val_315",
+        "model.vision.encoder.stages.2.blocks.12.mlp.fc1.bias"
+      ]
+    },
+    "after": [
+      {
+        "name": "node_MatMul_273",
+        "op": "MatMul",
+        "inputs": [
+          "gelu_18",
+          "val_316"
+        ],
+        "outputs": [
+          "val_317"
+        ]
+      }
+    ]
+  },
+  {
+    "gelu": "node_gelu_19",
+    "tensor": "gelu_19",
+    "shape": [
+      1,
+      8,
+      16,
+      4096
+    ],
+    "approximate": "none",
+    "before": {
+      "name": "node_linear_38",
+      "op": "Add",
+      "inputs": [
+        "val_327",
+        "model.vision.encoder.stages.2.blocks.13.mlp.fc1.bias"
+      ]
+    },
+    "after": [
+      {
+        "name": "node_MatMul_283",
+        "op": "MatMul",
+        "inputs": [
+          "gelu_19",
+          "val_328"
+        ],
+        "outputs": [
+          "val_329"
+        ]
+      }
+    ]
+  },
+  {
+    "gelu": "node_gelu_20",
+    "tensor": "gelu_20",
+    "shape": [
+      1,
+      8,
+      16,
+      4096
+    ],
+    "approximate": "none",
+    "before": {
+      "name": "node_linear_40",
+      "op": "Add",
+      "inputs": [
+        "val_339",
+        "model.vision.encoder.stages.2.blocks.14.mlp.fc1.bias"
+      ]
+    },
+    "after": [
+      {
+        "name": "node_MatMul_293",
+        "op": "MatMul",
+        "inputs": [
+          "gelu_20",
+          "val_340"
+        ],
+        "outputs": [
+          "val_341"
+        ]
+      }
+    ]
+  },
+  {
+    "gelu": "node_gelu_21",
+    "tensor": "gelu_21",
+    "shape": [
+      1,
+      8,
+      16,
+      4096
+    ],
+    "approximate": "none",
+    "before": {
+      "name": "node_linear_42",
+      "op": "Add",
+      "inputs": [
+        "val_351",
+        "model.vision.encoder.stages.2.blocks.15.mlp.fc1.bias"
+      ]
+    },
+    "after": [
+      {
+        "name": "node_MatMul_303",
+        "op": "MatMul",
+        "inputs": [
+          "gelu_21",
+          "val_352"
+        ],
+        "outputs": [
+          "val_353"
+        ]
+      }
+    ]
+  },
+  {
+    "gelu": "node_gelu_22",
+    "tensor": "gelu_22",
+    "shape": [
+      1,
+      8,
+      16,
+      4096
+    ],
+    "approximate": "none",
+    "before": {
+      "name": "node_linear_44",
+      "op": "Add",
+      "inputs": [
+        "val_363",
+        "model.vision.encoder.stages.2.blocks.16.mlp.fc1.bias"
+      ]
+    },
+    "after": [
+      {
+        "name": "node_MatMul_313",
+        "op": "MatMul",
+        "inputs": [
+          "gelu_22",
+          "val_364"
+        ],
+        "outputs": [
+          "val_365"
+        ]
+      }
+    ]
+  },
+  {
+    "gelu": "node_gelu_23",
+    "tensor": "gelu_23",
+    "shape": [
+      1,
+      8,
+      16,
+      4096
+    ],
+    "approximate": "none",
+    "before": {
+      "name": "node_linear_46",
+      "op": "Add",
+      "inputs": [
+        "val_375",
+        "model.vision.encoder.stages.2.blocks.17.mlp.fc1.bias"
+      ]
+    },
+    "after": [
+      {
+        "name": "node_MatMul_323",
+        "op": "MatMul",
+        "inputs": [
+          "gelu_23",
+          "val_376"
+        ],
+        "outputs": [
+          "val_377"
+        ]
+      }
+    ]
+  },
+  {
+    "gelu": "node_gelu_24",
+    "tensor": "gelu_24",
+    "shape": [
+      1,
+      8,
+      16,
+      4096
+    ],
+    "approximate": "none",
+    "before": {
+      "name": "node_linear_48",
+      "op": "Add",
+      "inputs": [
+        "val_387",
+        "model.vision.encoder.stages.2.blocks.18.mlp.fc1.bias"
+      ]
+    },
+    "after": [
+      {
+        "name": "node_MatMul_333",
+        "op": "MatMul",
+        "inputs": [
+          "gelu_24",
+          "val_388"
+        ],
+        "outputs": [
+          "val_389"
+        ]
+      }
+    ]
+  },
+  {
+    "gelu": "node_gelu_25",
+    "tensor": "gelu_25",
+    "shape": [
+      1,
+      8,
+      16,
+      4096
+    ],
+    "approximate": "none",
+    "before": {
+      "name": "node_linear_50",
+      "op": "Add",
+      "inputs": [
+        "val_399",
+        "model.vision.encoder.stages.2.blocks.19.mlp.fc1.bias"
+      ]
+    },
+    "after": [
+      {
+        "name": "node_MatMul_343",
+        "op": "MatMul",
+        "inputs": [
+          "gelu_25",
+          "val_400"
+        ],
+        "outputs": [
+          "val_401"
+        ]
+      }
+    ]
+  },
+  {
+    "gelu": "node_gelu_26",
+    "tensor": "gelu_26",
+    "shape": [
+      1,
+      8,
+      16,
+      4096
+    ],
+    "approximate": "none",
+    "before": {
+      "name": "node_linear_52",
+      "op": "Add",
+      "inputs": [
+        "val_411",
+        "model.vision.encoder.stages.2.blocks.20.mlp.fc1.bias"
+      ]
+    },
+    "after": [
+      {
+        "name": "node_MatMul_353",
+        "op": "MatMul",
+        "inputs": [
+          "gelu_26",
+          "val_412"
+        ],
+        "outputs": [
+          "val_413"
+        ]
+      }
+    ]
+  },
+  {
+    "gelu": "node_gelu_27",
+    "tensor": "gelu_27",
+    "shape": [
+      1,
+      8,
+      16,
+      4096
+    ],
+    "approximate": "none",
+    "before": {
+      "name": "node_linear_54",
+      "op": "Add",
+      "inputs": [
+        "val_423",
+        "model.vision.encoder.stages.2.blocks.21.mlp.fc1.bias"
+      ]
+    },
+    "after": [
+      {
+        "name": "node_MatMul_363",
+        "op": "MatMul",
+        "inputs": [
+          "gelu_27",
+          "val_424"
+        ],
+        "outputs": [
+          "val_425"
+        ]
+      }
+    ]
+  },
+  {
+    "gelu": "node_gelu_28",
+    "tensor": "gelu_28",
+    "shape": [
+      1,
+      8,
+      16,
+      4096
+    ],
+    "approximate": "none",
+    "before": {
+      "name": "node_linear_56",
+      "op": "Add",
+      "inputs": [
+        "val_435",
+        "model.vision.encoder.stages.2.blocks.22.mlp.fc1.bias"
+      ]
+    },
+    "after": [
+      {
+        "name": "node_MatMul_373",
+        "op": "MatMul",
+        "inputs": [
+          "gelu_28",
+          "val_436"
+        ],
+        "outputs": [
+          "val_437"
+        ]
+      }
+    ]
+  },
+  {
+    "gelu": "node_gelu_29",
+    "tensor": "gelu_29",
+    "shape": [
+      1,
+      8,
+      16,
+      4096
+    ],
+    "approximate": "none",
+    "before": {
+      "name": "node_linear_58",
+      "op": "Add",
+      "inputs": [
+        "val_447",
+        "model.vision.encoder.stages.2.blocks.23.mlp.fc1.bias"
+      ]
+    },
+    "after": [
+      {
+        "name": "node_MatMul_383",
+        "op": "MatMul",
+        "inputs": [
+          "gelu_29",
+          "val_448"
+        ],
+        "outputs": [
+          "val_449"
+        ]
+      }
+    ]
+  },
+  {
+    "gelu": "node_gelu_30",
+    "tensor": "gelu_30",
+    "shape": [
+      1,
+      8,
+      16,
+      4096
+    ],
+    "approximate": "none",
+    "before": {
+      "name": "node_linear_60",
+      "op": "Add",
+      "inputs": [
+        "val_459",
+        "model.vision.encoder.stages.2.blocks.24.mlp.fc1.bias"
+      ]
+    },
+    "after": [
+      {
+        "name": "node_MatMul_393",
+        "op": "MatMul",
+        "inputs": [
+          "gelu_30",
+          "val_460"
+        ],
+        "outputs": [
+          "val_461"
+        ]
+      }
+    ]
+  },
+  {
+    "gelu": "node_gelu_31",
+    "tensor": "gelu_31",
+    "shape": [
+      1,
+      8,
+      16,
+      4096
+    ],
+    "approximate": "none",
+    "before": {
+      "name": "node_linear_62",
+      "op": "Add",
+      "inputs": [
+        "val_471",
+        "model.vision.encoder.stages.2.blocks.25.mlp.fc1.bias"
+      ]
+    },
+    "after": [
+      {
+        "name": "node_MatMul_403",
+        "op": "MatMul",
+        "inputs": [
+          "gelu_31",
+          "val_472"
+        ],
+        "outputs": [
+          "val_473"
+        ]
+      }
+    ]
+  },
+  {
+    "gelu": "node_gelu_32",
+    "tensor": "gelu_32",
+    "shape": [
+      1,
+      8,
+      16,
+      4096
+    ],
+    "approximate": "none",
+    "before": {
+      "name": "node_linear_64",
+      "op": "Add",
+      "inputs": [
+        "val_483",
+        "model.vision.encoder.stages.2.blocks.26.mlp.fc1.bias"
+      ]
+    },
+    "after": [
+      {
+        "name": "node_MatMul_413",
+        "op": "MatMul",
+        "inputs": [
+          "gelu_32",
+          "val_484"
+        ],
+        "outputs": [
+          "val_485"
+        ]
+      }
+    ]
+  },
+  {
+    "gelu": "node_gelu_33",
+    "tensor": "gelu_33",
+    "shape": [
+      1,
+      4,
+      8,
+      8192
+    ],
+    "approximate": "none",
+    "before": {
+      "name": "node_linear_66",
+      "op": "Add",
+      "inputs": [
+        "val_497",
+        "model.vision.encoder.stages.3.blocks.0.mlp.fc1.bias"
+      ]
+    },
+    "after": [
+      {
+        "name": "node_MatMul_423",
+        "op": "MatMul",
+        "inputs": [
+          "gelu_33",
+          "val_498"
+        ],
+        "outputs": [
+          "val_499"
+        ]
+      }
+    ]
+  },
+  {
+    "gelu": "node_gelu_34",
+    "tensor": "gelu_34",
+    "shape": [
+      1,
+      4,
+      8,
+      8192
+    ],
+    "approximate": "none",
+    "before": {
+      "name": "node_linear_68",
+      "op": "Add",
+      "inputs": [
+        "val_509",
+        "model.vision.encoder.stages.3.blocks.1.mlp.fc1.bias"
+      ]
+    },
+    "after": [
+      {
+        "name": "node_MatMul_433",
+        "op": "MatMul",
+        "inputs": [
+          "gelu_34",
+          "val_510"
+        ],
+        "outputs": [
+          "val_511"
+        ]
+      }
+    ]
+  },
+  {
+    "gelu": "node_gelu_35",
+    "tensor": "gelu_35",
+    "shape": [
+      1,
+      4,
+      8,
+      8192
+    ],
+    "approximate": "none",
+    "before": {
+      "name": "node_linear_70",
+      "op": "Add",
+      "inputs": [
+        "val_521",
+        "model.vision.encoder.stages.3.blocks.2.mlp.fc1.bias"
+      ]
+    },
+    "after": [
+      {
+        "name": "node_MatMul_443",
+        "op": "MatMul",
+        "inputs": [
+          "gelu_35",
+          "val_522"
+        ],
+        "outputs": [
+          "val_523"
+        ]
+      }
+    ]
+  },
+  {
+    "gelu": "node_gelu_36",
+    "tensor": "gelu_36",
+    "shape": [
+      1,
+      1024
+    ],
+    "approximate": "tanh",
+    "before": {
+      "name": "node_linear_72",
+      "op": "Gemm",
+      "inputs": [
+        "layer_norm_41",
+        "model.point_policy.summarizer.mlp1.c_fc.weight"
+      ]
+    },
+    "after": [
+      {
+        "name": "node_linear_73",
+        "op": "Gemm",
+        "inputs": [
+          "gelu_36",
+          "model.point_policy.summarizer.mlp1.c_proj.weight"
+        ],
+        "outputs": [
+          "linear_73"
+        ]
+      }
+    ]
+  },
+  {
+    "gelu": "node_gelu_37",
+    "tensor": "gelu_37",
+    "shape": [
+      1,
+      1024
+    ],
+    "approximate": "tanh",
+    "before": {
+      "name": "node_linear_74",
+      "op": "Gemm",
+      "inputs": [
+        "layer_norm_42",
+        "model.point_policy.summarizer.mlp2.c_fc.weight"
+      ]
+    },
+    "after": [
+      {
+        "name": "node_linear_75",
+        "op": "Gemm",
+        "inputs": [
+          "gelu_37",
+          "model.point_policy.summarizer.mlp2.c_proj.weight"
+        ],
+        "outputs": [
+          "linear_75"
+        ]
+      }
+    ]
+  },
+  {
+    "gelu": "node_gelu_38",
+    "tensor": "gelu_38",
+    "shape": [
+      1,
+      1024
+    ],
+    "approximate": "tanh",
+    "before": {
+      "name": "node_linear_83",
+      "op": "Gemm",
+      "inputs": [
+        "layer_norm_43",
+        "model.point_policy.hydra.head_mlp.pose.c_fc.weight"
+      ]
+    },
+    "after": [
+      {
+        "name": "node_linear_84",
+        "op": "Gemm",
+        "inputs": [
+          "gelu_38",
+          "model.point_policy.hydra.head_mlp.pose.c_proj.weight"
+        ],
+        "outputs": [
+          "linear_84"
+        ]
+      }
+    ]
+  },
+  {
+    "gelu": "node_gelu_39",
+    "tensor": "gelu_39",
+    "shape": [
+      1,
+      9,
+      32,
+      1024
+    ],
+    "approximate": "tanh",
+    "before": {
+      "name": "node_linear_86",
+      "op": "MatMul",
+      "inputs": [
+        "layer_norm_44",
+        "val_556"
+      ]
+    },
+    "after": [
+      {
+        "name": "node_linear_87",
+        "op": "MatMul",
+        "inputs": [
+          "gelu_39",
+          "val_557"
+        ],
+        "outputs": [
+          "linear_87"
+        ]
+      }
+    ]
+  },
+  {
+    "gelu": "node_gelu_40",
+    "tensor": "gelu_40",
+    "shape": [
+      1,
+      9,
+      32,
+      1024
+    ],
+    "approximate": "tanh",
+    "before": {
+      "name": "node_linear_88",
+      "op": "MatMul",
+      "inputs": [
+        "layer_norm_45",
+        "val_560"
+      ]
+    },
+    "after": [
+      {
+        "name": "node_linear_89",
+        "op": "MatMul",
+        "inputs": [
+          "gelu_40",
+          "val_561"
+        ],
+        "outputs": [
+          "linear_89"
+        ]
+      }
+    ]
+  },
+  {
+    "gelu": "node_gelu_41",
+    "tensor": "gelu_41",
+    "shape": [
+      1,
+      288,
+      1024
+    ],
+    "approximate": "tanh",
+    "before": {
+      "name": "node_linear_98",
+      "op": "Add",
+      "inputs": [
+        "val_646",
+        "model.off_policy.temporal_summarizer.transformer.layers.0.mlp.c_fc.bias"
+      ]
+    },
+    "after": [
+      {
+        "name": "node_MatMul_548",
+        "op": "MatMul",
+        "inputs": [
+          "gelu_41",
+          "val_647"
+        ],
+        "outputs": [
+          "val_648"
+        ]
+      }
+    ]
+  },
+  {
+    "gelu": "node_gelu_42",
+    "tensor": "gelu_42",
+    "shape": [
+      1,
+      288,
+      1024
+    ],
+    "approximate": "tanh",
+    "before": {
+      "name": "node_linear_102",
+      "op": "Add",
+      "inputs": [
+        "val_675",
+        "model.off_policy.temporal_summarizer.transformer.layers.1.mlp.c_fc.bias"
+      ]
+    },
+    "after": [
+      {
+        "name": "node_MatMul_569",
+        "op": "MatMul",
+        "inputs": [
+          "gelu_42",
+          "val_676"
+        ],
+        "outputs": [
+          "val_677"
+        ]
+      }
+    ]
+  },
+  {
+    "gelu": "node_gelu_43",
+    "tensor": "gelu_43",
+    "shape": [
+      1,
+      288,
+      1024
+    ],
+    "approximate": "tanh",
+    "before": {
+      "name": "node_linear_106",
+      "op": "Add",
+      "inputs": [
+        "val_704",
+        "model.off_policy.temporal_summarizer.transformer.layers.2.mlp.c_fc.bias"
+      ]
+    },
+    "after": [
+      {
+        "name": "node_MatMul_590",
+        "op": "MatMul",
+        "inputs": [
+          "gelu_43",
+          "val_705"
+        ],
+        "outputs": [
+          "val_706"
+        ]
+      }
+    ]
+  },
+  {
+    "gelu": "node_gelu_44",
+    "tensor": "gelu_44",
+    "shape": [
+      1,
+      288,
+      1024
+    ],
+    "approximate": "tanh",
+    "before": {
+      "name": "node_linear_110",
+      "op": "Add",
+      "inputs": [
+        "val_733",
+        "model.off_policy.temporal_summarizer.transformer.layers.3.mlp.c_fc.bias"
+      ]
+    },
+    "after": [
+      {
+        "name": "node_MatMul_611",
+        "op": "MatMul",
+        "inputs": [
+          "gelu_44",
+          "val_734"
+        ],
+        "outputs": [
+          "val_735"
+        ]
+      }
+    ]
+  },
+  {
+    "gelu": "node_gelu_45",
+    "tensor": "gelu_45",
+    "shape": [
+      1,
+      1024
+    ],
+    "approximate": "tanh",
+    "before": {
+      "name": "node_linear_112",
+      "op": "Gemm",
+      "inputs": [
+        "layer_norm_62",
+        "model.off_policy.temporal_hydra.head_mlp.plan.c_fc.weight"
+      ]
+    },
+    "after": [
+      {
+        "name": "node_linear_113",
+        "op": "Gemm",
+        "inputs": [
+          "gelu_45",
+          "model.off_policy.temporal_hydra.head_mlp.plan.c_proj.weight"
+        ],
+        "outputs": [
+          "linear_113"
+        ]
+      }
+    ]
+  },
+  {
+    "gelu": "node_gelu_46",
+    "tensor": "gelu_46",
+    "shape": [
+      1,
+      1024
+    ],
+    "approximate": "tanh",
+    "before": {
+      "name": "node_linear_115",
+      "op": "Gemm",
+      "inputs": [
+        "layer_norm_63",
+        "model.off_policy.temporal_hydra.head_mlp.lead.c_fc.weight"
+      ]
+    },
+    "after": [
+      {
+        "name": "node_linear_116",
+        "op": "Gemm",
+        "inputs": [
+          "gelu_46",
+          "model.off_policy.temporal_hydra.head_mlp.lead.c_proj.weight"
+        ],
+        "outputs": [
+          "linear_116"
+        ]
+      }
+    ]
+  },
+  {
+    "gelu": "node_gelu_47",
+    "tensor": "gelu_47",
+    "shape": [
+      1,
+      1024
+    ],
+    "approximate": "tanh",
+    "before": {
+      "name": "node_linear_118",
+      "op": "Gemm",
+      "inputs": [
+        "layer_norm_64",
+        "model.off_policy.temporal_hydra.head_mlp.lead_prob.c_fc.weight"
+      ]
+    },
+    "after": [
+      {
+        "name": "node_linear_119",
+        "op": "Gemm",
+        "inputs": [
+          "gelu_47",
+          "model.off_policy.temporal_hydra.head_mlp.lead_prob.c_proj.weight"
+        ],
+        "outputs": [
+          "linear_119"
+        ]
+      }
+    ]
+  },
+  {
+    "gelu": "node_gelu_49",
+    "tensor": "gelu_49",
+    "shape": [
+      1,
+      1024
+    ],
+    "approximate": "tanh",
+    "before": {
+      "name": "node_linear_124",
+      "op": "Gemm",
+      "inputs": [
+        "layer_norm_66",
+        "model.off_policy.temporal_hydra.head_mlp.desire_state.c_fc.weight"
+      ]
+    },
+    "after": [
+      {
+        "name": "node_linear_125",
+        "op": "Gemm",
+        "inputs": [
+          "gelu_49",
+          "model.off_policy.temporal_hydra.head_mlp.desire_state.c_proj.weight"
+        ],
+        "outputs": [
+          "linear_125"
+        ]
+      }
+    ]
+  },
+  {
+    "gelu": "node_gelu_50",
+    "tensor": "gelu_50",
+    "shape": [
+      1,
+      9,
+      32,
+      1024
+    ],
+    "approximate": "tanh",
+    "before": {
+      "name": "node_linear_127",
+      "op": "MatMul",
+      "inputs": [
+        "layer_norm_44",
+        "val_753"
+      ]
+    },
+    "after": [
+      {
+        "name": "node_linear_128",
+        "op": "MatMul",
+        "inputs": [
+          "gelu_50",
+          "val_754"
+        ],
+        "outputs": [
+          "linear_128"
+        ]
+      }
+    ]
+  },
+  {
+    "gelu": "node_gelu_51",
+    "tensor": "gelu_51",
+    "shape": [
+      1,
+      9,
+      32,
+      1024
+    ],
+    "approximate": "tanh",
+    "before": {
+      "name": "node_linear_129",
+      "op": "MatMul",
+      "inputs": [
+        "layer_norm_68",
+        "val_757"
+      ]
+    },
+    "after": [
+      {
+        "name": "node_linear_130",
+        "op": "MatMul",
+        "inputs": [
+          "gelu_51",
+          "val_758"
+        ],
+        "outputs": [
+          "linear_130"
+        ]
+      }
+    ]
+  },
+  {
+    "gelu": "node_gelu_52",
+    "tensor": "gelu_52",
+    "shape": [
+      1,
+      288,
+      1024
+    ],
+    "approximate": "tanh",
+    "before": {
+      "name": "node_linear_139",
+      "op": "Add",
+      "inputs": [
+        "val_834",
+        "model.off_policy.temporal_summarizer.transformer.layers.0.mlp.c_fc.bias"
+      ]
+    },
+    "after": [
+      {
+        "name": "node_MatMul_692",
+        "op": "MatMul",
+        "inputs": [
+          "gelu_52",
+          "val_835"
+        ],
+        "outputs": [
+          "val_836"
+        ]
+      }
+    ]
+  },
+  {
+    "gelu": "node_gelu_53",
+    "tensor": "gelu_53",
+    "shape": [
+      1,
+      288,
+      1024
+    ],
+    "approximate": "tanh",
+    "before": {
+      "name": "node_linear_143",
+      "op": "Add",
+      "inputs": [
+        "val_863",
+        "model.off_policy.temporal_summarizer.transformer.layers.1.mlp.c_fc.bias"
+      ]
+    },
+    "after": [
+      {
+        "name": "node_MatMul_713",
+        "op": "MatMul",
+        "inputs": [
+          "gelu_53",
+          "val_864"
+        ],
+        "outputs": [
+          "val_865"
+        ]
+      }
+    ]
+  },
+  {
+    "gelu": "node_gelu_54",
+    "tensor": "gelu_54",
+    "shape": [
+      1,
+      288,
+      1024
+    ],
+    "approximate": "tanh",
+    "before": {
+      "name": "node_linear_147",
+      "op": "Add",
+      "inputs": [
+        "val_892",
+        "model.off_policy.temporal_summarizer.transformer.layers.2.mlp.c_fc.bias"
+      ]
+    },
+    "after": [
+      {
+        "name": "node_MatMul_734",
+        "op": "MatMul",
+        "inputs": [
+          "gelu_54",
+          "val_893"
+        ],
+        "outputs": [
+          "val_894"
+        ]
+      }
+    ]
+  },
+  {
+    "gelu": "node_gelu_55",
+    "tensor": "gelu_55",
+    "shape": [
+      1,
+      288,
+      1024
+    ],
+    "approximate": "tanh",
+    "before": {
+      "name": "node_linear_151",
+      "op": "Add",
+      "inputs": [
+        "val_921",
+        "model.off_policy.temporal_summarizer.transformer.layers.3.mlp.c_fc.bias"
+      ]
+    },
+    "after": [
+      {
+        "name": "node_MatMul_755",
+        "op": "MatMul",
+        "inputs": [
+          "gelu_55",
+          "val_922"
+        ],
+        "outputs": [
+          "val_923"
+        ]
+      }
+    ]
+  },
+  {
+    "gelu": "node_gelu_56",
+    "tensor": "gelu_56",
+    "shape": [
+      1,
+      1024
+    ],
+    "approximate": "tanh",
+    "before": {
+      "name": "node_linear_153",
+      "op": "Gemm",
+      "inputs": [
+        "layer_norm_85",
+        "model.on_policy.off_policy.temporal_hydra.head_mlp.action.c_fc.weight"
+      ]
+    },
+    "after": [
+      {
+        "name": "node_linear_154",
+        "op": "Gemm",
+        "inputs": [
+          "gelu_56",
+          "model.on_policy.off_policy.temporal_hydra.head_mlp.action.c_proj.weight"
+        ],
+        "outputs": [
+          "linear_154"
+        ]
+      }
+    ]
+  },
+  {
+    "gelu": "node_gelu_57",
+    "tensor": "gelu_57",
+    "shape": [
+      1,
+      9,
+      32,
+      1024
+    ],
+    "approximate": "tanh",
+    "before": {
+      "name": "node_linear_156",
+      "op": "MatMul",
+      "inputs": [
+        "layer_norm_86",
+        "val_935"
+      ]
+    },
+    "after": [
+      {
+        "name": "node_linear_157",
+        "op": "MatMul",
+        "inputs": [
+          "gelu_57",
+          "val_936"
+        ],
+        "outputs": [
+          "linear_157"
+        ]
+      }
+    ]
+  },
+  {
+    "gelu": "node_gelu_58",
+    "tensor": "gelu_58",
+    "shape": [
+      1,
+      9,
+      32,
+      1024
+    ],
+    "approximate": "tanh",
+    "before": {
+      "name": "node_linear_158",
+      "op": "MatMul",
+      "inputs": [
+        "layer_norm_87",
+        "val_939"
+      ]
+    },
+    "after": [
+      {
+        "name": "node_linear_159",
+        "op": "MatMul",
+        "inputs": [
+          "gelu_58",
+          "val_940"
+        ],
+        "outputs": [
+          "linear_159"
+        ]
+      }
+    ]
+  },
+  {
+    "gelu": "node_gelu_59",
+    "tensor": "gelu_59",
+    "shape": [
+      1,
+      288,
+      1024
+    ],
+    "approximate": "tanh",
+    "before": {
+      "name": "node_linear_168",
+      "op": "Add",
+      "inputs": [
+        "val_1016",
+        "model.on_policy.temporal_summarizer.transformer.layers.0.mlp.c_fc.bias"
+      ]
+    },
+    "after": [
+      {
+        "name": "node_MatMul_836",
+        "op": "MatMul",
+        "inputs": [
+          "gelu_59",
+          "val_1017"
+        ],
+        "outputs": [
+          "val_1018"
+        ]
+      }
+    ]
+  },
+  {
+    "gelu": "node_gelu_60",
+    "tensor": "gelu_60",
+    "shape": [
+      1,
+      288,
+      1024
+    ],
+    "approximate": "tanh",
+    "before": {
+      "name": "node_linear_172",
+      "op": "Add",
+      "inputs": [
+        "val_1045",
+        "model.on_policy.temporal_summarizer.transformer.layers.1.mlp.c_fc.bias"
+      ]
+    },
+    "after": [
+      {
+        "name": "node_MatMul_857",
+        "op": "MatMul",
+        "inputs": [
+          "gelu_60",
+          "val_1046"
+        ],
+        "outputs": [
+          "val_1047"
+        ]
+      }
+    ]
+  },
+  {
+    "gelu": "node_gelu_61",
+    "tensor": "gelu_61",
+    "shape": [
+      1,
+      288,
+      1024
+    ],
+    "approximate": "tanh",
+    "before": {
+      "name": "node_linear_176",
+      "op": "Add",
+      "inputs": [
+        "val_1074",
+        "model.on_policy.temporal_summarizer.transformer.layers.2.mlp.c_fc.bias"
+      ]
+    },
+    "after": [
+      {
+        "name": "node_MatMul_878",
+        "op": "MatMul",
+        "inputs": [
+          "gelu_61",
+          "val_1075"
+        ],
+        "outputs": [
+          "val_1076"
+        ]
+      }
+    ]
+  },
+  {
+    "gelu": "node_gelu_62",
+    "tensor": "gelu_62",
+    "shape": [
+      1,
+      288,
+      1024
+    ],
+    "approximate": "tanh",
+    "before": {
+      "name": "node_linear_180",
+      "op": "Add",
+      "inputs": [
+        "val_1103",
+        "model.on_policy.temporal_summarizer.transformer.layers.3.mlp.c_fc.bias"
+      ]
+    },
+    "after": [
+      {
+        "name": "node_MatMul_899",
+        "op": "MatMul",
+        "inputs": [
+          "gelu_62",
+          "val_1104"
+        ],
+        "outputs": [
+          "val_1105"
+        ]
+      }
+    ]
+  },
+  {
+    "gelu": "node_gelu_63",
+    "tensor": "gelu_63",
+    "shape": [
+      1,
+      1024
+    ],
+    "approximate": "tanh",
+    "before": {
+      "name": "node_linear_184",
+      "op": "Gemm",
+      "inputs": [
+        "layer_norm_104",
+        "model.on_policy.residual_hydra.head_mlp.residual_action.c_fc.weight"
+      ]
+    },
+    "after": [
+      {
+        "name": "node_linear_185",
+        "op": "Gemm",
+        "inputs": [
+          "gelu_63",
+          "model.on_policy.residual_hydra.head_mlp.residual_action.c_proj.weight"
+        ],
+        "outputs": [
+          "linear_185"
+        ]
+      }
+    ]
+  }
+]

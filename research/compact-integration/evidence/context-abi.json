@@ -1,0 +1,234 @@
+{
+  "upstream": [
+    {
+      "name": "gelu_43",
+      "role": "input",
+      "dtype": 534,
+      "shape": [
+        1,
+        288,
+        1024
+      ],
+      "bytes": 589824
+    },
+    {
+      "name": "gelu_54",
+      "role": "input",
+      "dtype": 534,
+      "shape": [
+        1,
+        288,
+        1024
+      ],
+      "bytes": 589824
+    },
+    {
+      "name": "gelu_61",
+      "role": "input",
+      "dtype": 534,
+      "shape": [
+        1,
+        288,
+        1024
+      ],
+      "bytes": 589824
+    },
+    {
+      "name": "add_50",
+      "role": "input",
+      "dtype": 534,
+      "shape": [
+        1,
+        288,
+        512
+      ],
+      "bytes": 294912
+    },
+    {
+      "name": "add_70",
+      "role": "input",
+      "dtype": 534,
+      "shape": [
+        1,
+        288,
+        512
+      ],
+      "bytes": 294912
+    },
+    {
+      "name": "add_86",
+      "role": "input",
+      "dtype": 534,
+      "shape": [
+        1,
+        288,
+        512
+      ],
+      "bytes": 294912
+    },
+    {
+      "name": "add_52__last_query",
+      "role": "output",
+      "dtype": 534,
+      "shape": [
+        1,
+        1,
+        512
+      ],
+      "bytes": 1024
+    },
+    {
+      "name": "linear_110__last_query",
+      "role": "output",
+      "dtype": 534,
+      "shape": [
+        1,
+        1,
+        1024
+      ],
+      "bytes": 2048
+    },
+    {
+      "name": "add_72__last_query",
+      "role": "output",
+      "dtype": 534,
+      "shape": [
+        1,
+        1,
+        512
+      ],
+      "bytes": 1024
+    },
+    {
+      "name": "linear_151__last_query",
+      "role": "output",
+      "dtype": 534,
+      "shape": [
+        1,
+        1,
+        1024
+      ],
+      "bytes": 2048
+    },
+    {
+      "name": "add_88__last_query",
+      "role": "output",
+      "dtype": 534,
+      "shape": [
+        1,
+        1,
+        512
+      ],
+      "bytes": 1024
+    },
+    {
+      "name": "linear_180__last_query",
+      "role": "output",
+      "dtype": 534,
+      "shape": [
+        1,
+        1,
+        1024
+      ],
+      "bytes": 2048
+    }
+  ],
+  "tails": [
+    {
+      "name": "add_52",
+      "role": "input",
+      "dtype": 534,
+      "shape": [
+        1,
+        1,
+        512
+      ],
+      "bytes": 1024
+    },
+    {
+      "name": "add_72",
+      "role": "input",
+      "dtype": 534,
+      "shape": [
+        1,
+        1,
+        512
+      ],
+      "bytes": 1024
+    },
+    {
+      "name": "add_88",
+      "role": "input",
+      "dtype": 534,
+      "shape": [
+        1,
+        1,
+        512
+      ],
+      "bytes": 1024
+    },
+    {
+      "name": "linear_110",
+      "role": "input",
+      "dtype": 534,
+      "shape": [
+        1,
+        1,
+        1024
+      ],
+      "bytes": 2048
+    },
+    {
+      "name": "linear_151",
+      "role": "input",
+      "dtype": 534,
+      "shape": [
+        1,
+        1,
+        1024
+      ],
+      "bytes": 2048
+    },
+    {
+      "name": "linear_180",
+      "role": "input",
+      "dtype": 534,
+      "shape": [
+        1,
+        1,
+        1024
+      ],
+      "bytes": 2048
+    },
+    {
+      "name": "select_4",
+      "role": "output",
+      "dtype": 534,
+      "shape": [
+        1,
+        512
+      ],
+      "bytes": 1024
+    },
+    {
+      "name": "select_7",
+      "role": "output",
+      "dtype": 534,
+      "shape": [
+        1,
+        512
+      ],
+      "bytes": 1024
+    },
+    {
+      "name": "select_10",
+      "role": "output",
+      "dtype": 534,
+      "shape": [
+        1,
+        512
+      ],
+      "bytes": 1024
+    }
+  ]
+}

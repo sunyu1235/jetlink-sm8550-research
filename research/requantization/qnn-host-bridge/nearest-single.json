@@ -1,0 +1,12 @@
+{
+  "rows": [
+    {
+      "i": 0,
+      "fp16_bit_mismatches": 634,
+      "max_abs_vs_ref16": 0.00390625,
+      "rmse_vs_ref16": 2.5707367967697792e-05
+    }
+  ],
+  "total_fp16_bit_mismatches": 634,
+  "elements": 294912
+}

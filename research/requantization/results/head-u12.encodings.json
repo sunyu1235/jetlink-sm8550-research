@@ -1,0 +1,77 @@
+{
+  "desire_pred": {
+    "scale": 0.003654180341587835,
+    "zero_point": 2977,
+    "bits": 12
+  },
+  "meta": {
+    "scale": 0.0033923804454314404,
+    "zero_point": 2503,
+    "bits": 12
+  },
+  "plan": {
+    "scale": 0.027080283135867095,
+    "zero_point": 584,
+    "bits": 12
+  },
+  "wide_from_device_euler": {
+    "scale": 0.001989223064356671,
+    "zero_point": 4065,
+    "bits": 12
+  },
+  "lead": {
+    "scale": 0.056957994153648064,
+    "zero_point": 114,
+    "bits": 12
+  },
+  "lane_lines_prob": {
+    "scale": 0.003164420503399748,
+    "zero_point": 3631,
+    "bits": 12
+  },
+  "road_transform": {
+    "scale": 0.002323408088986836,
+    "zero_point": 3479,
+    "bits": 12
+  },
+  "action": {
+    "scale": 0.0012902102996942034,
+    "zero_point": 4013,
+    "bits": 12
+  },
+  "road_edges": {
+    "scale": 0.004302121873885866,
+    "zero_point": 1516,
+    "bits": 12
+  },
+  "lane_lines": {
+    "scale": 0.0039054872585012512,
+    "zero_point": 1399,
+    "bits": 12
+  },
+  "pad": {
+    "scale": 1.0,
+    "zero_point": 0,
+    "bits": 12
+  },
+  "desire_state": {
+    "scale": 0.017926207275763245,
+    "zero_point": 1936,
+    "bits": 12
+  },
+  "pose": {
+    "scale": 0.004701904383043376,
+    "zero_point": 1514,
+    "bits": 12
+  },
+  "lead_prob": {
+    "scale": 0.00400202266753666,
+    "zero_point": 2899,
+    "bits": 12
+  },
+  "hidden_state": {
+    "scale": 0.011072192721896704,
+    "zero_point": 2502,
+    "bits": 12
+  }
+}

@@ -1,0 +1,158 @@
+{
+  "scope": "reconstructed three-tail compact ABI, not cached phone contexts",
+  "inputs": [
+    {
+      "name": "add_52",
+      "dtype": "float16",
+      "shape": [
+        1,
+        1,
+        512
+      ],
+      "bytes": 1024
+    },
+    {
+      "name": "add_72",
+      "dtype": "float16",
+      "shape": [
+        1,
+        1,
+        512
+      ],
+      "bytes": 1024
+    },
+    {
+      "name": "add_88",
+      "dtype": "float16",
+      "shape": [
+        1,
+        1,
+        512
+      ],
+      "bytes": 1024
+    },
+    {
+      "name": "linear_110",
+      "dtype": "float16",
+      "shape": [
+        1,
+        1,
+        1024
+      ],
+      "bytes": 2048
+    },
+    {
+      "name": "linear_151",
+      "dtype": "float16",
+      "shape": [
+        1,
+        1,
+        1024
+      ],
+      "bytes": 2048
+    },
+    {
+      "name": "linear_180",
+      "dtype": "float16",
+      "shape": [
+        1,
+        1,
+        1024
+      ],
+      "bytes": 2048
+    }
+  ],
+  "outputs": [
+    {
+      "name": "select_4",
+      "dtype": "float16",
+      "shape": [
+        1,
+        512
+      ],
+      "bytes": 1024
+    },
+    {
+      "name": "select_7",
+      "dtype": "float16",
+      "shape": [
+        1,
+        512
+      ],
+      "bytes": 1024
+    },
+    {
+      "name": "select_10",
+      "dtype": "float16",
+      "shape": [
+        1,
+        512
+      ],
+      "bytes": 1024
+    }
+  ],
+  "branches": [
+    {
+      "preactivation": "linear_110",
+      "residual": "add_52",
+      "output": "select_4",
+      "preactivation_shape": [
+        1,
+        1,
+        1024
+      ],
+      "residual_shape": [
+        1,
+        1,
+        512
+      ],
+      "output_shape": [
+        1,
+        512
+      ]
+    },
+    {
+      "preactivation": "linear_151",
+      "residual": "add_72",
+      "output": "select_7",
+      "preactivation_shape": [
+        1,
+        1,
+        1024
+      ],
+      "residual_shape": [
+        1,
+        1,
+        512
+      ],
+      "output_shape": [
+        1,
+        512
+      ]
+    },
+    {
+      "preactivation": "linear_180",
+      "residual": "add_88",
+      "output": "select_10",
+      "preactivation_shape": [
+        1,
+        1,
+        1024
+      ],
+      "residual_shape": [
+        1,
+        1,
+        512
+      ],
+      "output_shape": [
+        1,
+        512
+      ]
+    }
+  ],
+  "original_boundary_bytes": 2654208,
+  "compact_boundary_bytes": 9216,
+  "zero_prefix_restoration": false,
+  "weights_changed": false,
+  "gelu_changed": false
+}

@@ -1,0 +1,24 @@
+{
+  "status": "CPU_RECURRENT_SYNTHETIC_REPLAY_NOT_DEVICE_SPEED",
+  "frames": 16,
+  "checker_exit": 0,
+  "verdict": "OK: every slice and every column at or above corr 0.999, or within 10% of its largest value where too small or too quiet to correlate, per frame and pooled over all 16 frames",
+  "seconds": [
+    1.9334769779998169,
+    2.1396214670003246,
+    1.8223940690004383,
+    1.8397313369996482,
+    1.793236500000603,
+    1.7562940660000095,
+    1.8224430370000846,
+    2.0047556110002915,
+    1.81048587100031,
+    1.8768952840000566,
+    1.893838780999431,
+    1.8485270749997653,
+    1.8296369549998417,
+    1.7560717830001522,
+    1.9594461140004569,
+    1.8830393500002174
+  ]
+}

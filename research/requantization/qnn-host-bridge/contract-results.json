@@ -1,0 +1,13 @@
+{
+  "all_finite_fp16_patterns": 63488,
+  "quantized_elements": 147456,
+  "quantization_mismatches": 0,
+  "rejected": [
+    "shape",
+    "type",
+    "nan",
+    "inf"
+  ],
+  "concurrent_same_session_native_repeat": true,
+  "destroy_recreate_same_result": true
+}

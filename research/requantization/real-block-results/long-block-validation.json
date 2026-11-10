@@ -1,0 +1,275 @@
+{
+  "scope": "held-out synthetic block only, not whole-model parity",
+  "seed": 1777,
+  "frames": 160,
+  "cases": [
+    {
+      "candidate": "/workspace/shared/jetlink-qdq-long-calibration/QUInt16-w8-pc0.onnx",
+      "overall": {
+        "finite": true,
+        "max_abs": 0.6048111915588379,
+        "rmse": 0.09206979984353708,
+        "normalized_rmse": 0.028501605729763617,
+        "correlation": 0.9995955163542821
+      },
+      "bins": [
+        {
+          "frames": [
+            0,
+            31
+          ],
+          "finite": true,
+          "max_abs": 0.45700955390930176,
+          "rmse": 0.05555036940149131,
+          "normalized_rmse": 0.02410445348003055,
+          "correlation": 0.9997095359815796
+        },
+        {
+          "frames": [
+            32,
+            63
+          ],
+          "finite": true,
+          "max_abs": 0.5808186531066895,
+          "rmse": 0.07239410549780173,
+          "normalized_rmse": 0.026184261577439152,
+          "correlation": 0.9996579792851942
+        },
+        {
+          "frames": [
+            64,
+            95
+          ],
+          "finite": true,
+          "max_abs": 0.6011176109313965,
+          "rmse": 0.09821911684982496,
+          "normalized_rmse": 0.028284321436248445,
+          "correlation": 0.9996021554866961
+        },
+        {
+          "frames": [
+            96,
+            127
+          ],
+          "finite": true,
+          "max_abs": 0.6011166572570801,
+          "rmse": 0.10796748167341177,
+          "normalized_rmse": 0.030123170608452116,
+          "correlation": 0.999548782772407
+        },
+        {
+          "frames": [
+            128,
+            159
+          ],
+          "finite": true,
+          "max_abs": 0.6048111915588379,
+          "rmse": 0.11293147546639885,
+          "normalized_rmse": 0.02984825718884299,
+          "correlation": 0.9995571673603928
+        }
+      ]
+    },
+    {
+      "candidate": "/workspace/shared/jetlink-qdq-long-bias/bias-corrected.onnx",
+      "overall": {
+        "finite": true,
+        "max_abs": 0.4182748794555664,
+        "rmse": 0.06017190440494114,
+        "normalized_rmse": 0.018627127443234522,
+        "correlation": 0.9998265990069521
+      },
+      "bins": [
+        {
+          "frames": [
+            0,
+            31
+          ],
+          "finite": true,
+          "max_abs": 0.3784823417663574,
+          "rmse": 0.07593955761647599,
+          "normalized_rmse": 0.032951743680237414,
+          "correlation": 0.9994577226096225
+        },
+        {
+          "frames": [
+            32,
+            63
+          ],
+          "finite": true,
+          "max_abs": 0.39428234100341797,
+          "rmse": 0.052666750185676674,
+          "normalized_rmse": 0.019049064199533138,
+          "correlation": 0.999818611621788
+        },
+        {
+          "frames": [
+            64,
+            95
+          ],
+          "finite": true,
+          "max_abs": 0.414581298828125,
+          "rmse": 0.051483326657838654,
+          "normalized_rmse": 0.014825738680018298,
+          "correlation": 0.9998902596380499
+        },
+        {
+          "frames": [
+            96,
+            127
+          ],
+          "finite": true,
+          "max_abs": 0.4145803451538086,
+          "rmse": 0.057405429845384014,
+          "normalized_rmse": 0.016016244245788267,
+          "correlation": 0.9998720097825137
+        },
+        {
+          "frames": [
+            128,
+            159
+          ],
+          "finite": true,
+          "max_abs": 0.4182748794555664,
+          "rmse": 0.06013959688083472,
+          "normalized_rmse": 0.015895144799260057,
+          "correlation": 0.9998740267047527
+        }
+      ]
+    },
+    {
+      "candidate": "/workspace/shared/jetlink-qdq-first-only/QUInt16-w8-pc0.onnx",
+      "overall": {
+        "finite": true,
+        "max_abs": 0.328765869140625,
+        "rmse": 0.018990068083018702,
+        "normalized_rmse": 0.005878664167874374,
+        "correlation": 0.9999827212144863
+      },
+      "bins": [
+        {
+          "frames": [
+            0,
+            31
+          ],
+          "finite": true,
+          "max_abs": 0.328765869140625,
+          "rmse": 0.01917893781844316,
+          "normalized_rmse": 0.00832213753791259,
+          "correlation": 0.9999653898349125
+        },
+        {
+          "frames": [
+            32,
+            63
+          ],
+          "finite": true,
+          "max_abs": 0.29180145263671875,
+          "rmse": 0.01805118693826491,
+          "normalized_rmse": 0.0065289431691249195,
+          "correlation": 0.9999787850161447
+        },
+        {
+          "frames": [
+            64,
+            95
+          ],
+          "finite": true,
+          "max_abs": 0.2652416229248047,
+          "rmse": 0.01876340231810671,
+          "normalized_rmse": 0.005403327981602852,
+          "correlation": 0.9999854036297416
+        },
+        {
+          "frames": [
+            96,
+            127
+          ],
+          "finite": true,
+          "max_abs": 0.3274136781692505,
+          "rmse": 0.019412417404456615,
+          "normalized_rmse": 0.005416108186775802,
+          "correlation": 0.9999853656189024
+        },
+        {
+          "frames": [
+            128,
+            159
+          ],
+          "finite": true,
+          "max_abs": 0.2825436592102051,
+          "rmse": 0.01950715784599465,
+          "normalized_rmse": 0.0051558226969579115,
+          "correlation": 0.9999867311873051
+        }
+      ]
+    },
+    {
+      "candidate": "/workspace/shared/jetlink-qdq-second-only/QUInt16-w8-pc0.onnx",
+      "overall": {
+        "finite": true,
+        "max_abs": 0.6136817932128906,
+        "rmse": 0.08997466692049416,
+        "normalized_rmse": 0.027853025493622178,
+        "correlation": 0.9996138037326399
+      },
+      "bins": [
+        {
+          "frames": [
+            0,
+            31
+          ],
+          "finite": true,
+          "max_abs": 0.48677027225494385,
+          "rmse": 0.051907066882932215,
+          "normalized_rmse": 0.022523549212093708,
+          "correlation": 0.9997464941367458
+        },
+        {
+          "frames": [
+            32,
+            63
+          ],
+          "finite": true,
+          "max_abs": 0.5501270294189453,
+          "rmse": 0.06986866453691454,
+          "normalized_rmse": 0.025270833526031603,
+          "correlation": 0.999682065260475
+        },
+        {
+          "frames": [
+            64,
+            95
+          ],
+          "finite": true,
+          "max_abs": 0.5848293304443359,
+          "rmse": 0.09627998901891933,
+          "normalized_rmse": 0.027725907589388372,
+          "correlation": 0.9996179477701084
+        },
+        {
+          "frames": [
+            96,
+            127
+          ],
+          "finite": true,
+          "max_abs": 0.596379280090332,
+          "rmse": 0.1061579981399149,
+          "normalized_rmse": 0.029618320626328895,
+          "correlation": 0.999563500246985
+        },
+        {
+          "frames": [
+            128,
+            159
+          ],
+          "finite": true,
+          "max_abs": 0.6136817932128906,
+          "rmse": 0.11118395885266376,
+          "normalized_rmse": 0.029386381302486924,
+          "correlation": 0.9995705596674163
+        }
+      ]
+    }
+  ]
+}

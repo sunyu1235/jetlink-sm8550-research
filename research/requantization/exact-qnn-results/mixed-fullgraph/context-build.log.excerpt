@@ -1,0 +1,21 @@
+269:    198.5ms [VERBOSE]  <V> Set opvalidator socModel 43
+411:    198.7ms [VERBOSE]  <V> Set opvalidator socModel 43
+553:    198.8ms [VERBOSE]  <V> Set opvalidator socModel 43
+691:    198.8ms [VERBOSE]  <V> Set opvalidator socModel 43
+847:    204.2ms [VERBOSE]  <V> Set opvalidator socModel 43
+[Repeated SoC validation lines omitted; this is an excerpt.]
+147827:   1215.3ms [VERBOSE]  <V> Set opvalidator socModel 43
+147967:   1215.4ms [VERBOSE]  <V> Set opvalidator socModel 43
+148123:   1215.5ms [VERBOSE]  <V> Set opvalidator socModel 43
+148245:   1215.6ms [VERBOSE]  <V> Set opvalidator socModel 43
+148431:   1216.3ms [VERBOSE]  <V> Set opvalidator socModel 43
+148557:   1216.6ms [VERBOSE]  <V> Set opvalidator socModel 43
+148713:   1216.7ms [VERBOSE]  <V> Set opvalidator socModel 43
+148839:   1216.7ms [VERBOSE]  <V> Set opvalidator socModel 43
+148977:   1216.8ms [VERBOSE]  <V> Set opvalidator socModel 43
+149133:   1217.0ms [VERBOSE]  <V> Set opvalidator socModel 43
+149283:   1217.0ms [VERBOSE]  <V> Set opvalidator socModel 43
+149387:   1220.6ms [  INFO ]  <I> QnnGraph_finalize started, graph = 0x1
+149425:   1224.0ms [  INFO ] prepare_options.cc:337:STAT: soc_type=SM8550
+167449:  54912.2ms [  INFO ]  <I> QnnGraph_finalize done. status 0x0
+167542:  58456.1ms [  INFO ] Successfully saved the context binary file.

@@ -1,0 +1,422 @@
+{
+  "desire_pred": {
+    "scale": 0.003654180341587835,
+    "zero_point": 2977,
+    "bits": 12
+  },
+  "meta": {
+    "scale": 0.0033923804454314404,
+    "zero_point": 2503,
+    "bits": 12
+  },
+  "plan/mu[0]": {
+    "scale": 0.02321886651827448,
+    "zero_point": 0,
+    "bits": 12
+  },
+  "plan/mu[1]": {
+    "scale": 0.00854548306401105,
+    "zero_point": 1850,
+    "bits": 12
+  },
+  "plan/mu[2]": {
+    "scale": 0.00029906632171736825,
+    "zero_point": 429,
+    "bits": 12
+  },
+  "plan/mu[3]": {
+    "scale": 0.0034773735772995725,
+    "zero_point": 0,
+    "bits": 12
+  },
+  "plan/mu[4]": {
+    "scale": 0.00017562625208762686,
+    "zero_point": 2772,
+    "bits": 12
+  },
+  "plan/mu[5]": {
+    "scale": 2.0772821346118194e-05,
+    "zero_point": 1490,
+    "bits": 12
+  },
+  "plan/mu[6]": {
+    "scale": 0.0006446624602735844,
+    "zero_point": 1617,
+    "bits": 12
+  },
+  "plan/mu[7]": {
+    "scale": 0.0004994658599988592,
+    "zero_point": 2744,
+    "bits": 12
+  },
+  "plan/mu[8]": {
+    "scale": 4.944816868529361e-05,
+    "zero_point": 2084,
+    "bits": 12
+  },
+  "plan/mu[9]": {
+    "scale": 1.1169285546437872e-05,
+    "zero_point": 2167,
+    "bits": 12
+  },
+  "plan/mu[10]": {
+    "scale": 5.941240114679558e-06,
+    "zero_point": 2024,
+    "bits": 12
+  },
+  "plan/mu[11]": {
+    "scale": 0.0003364967521148142,
+    "zero_point": 2828,
+    "bits": 12
+  },
+  "plan/mu[12]": {
+    "scale": 4.943177440591493e-06,
+    "zero_point": 2027,
+    "bits": 12
+  },
+  "plan/mu[13]": {
+    "scale": 4.193093252433089e-06,
+    "zero_point": 1735,
+    "bits": 12
+  },
+  "plan/mu[14]": {
+    "scale": 8.615720275703076e-05,
+    "zero_point": 2765,
+    "bits": 12
+  },
+  "plan/std[0]": {
+    "scale": 0.0031646827958587906,
+    "zero_point": 2671,
+    "bits": 12
+  },
+  "plan/std[1]": {
+    "scale": 0.002861960280654777,
+    "zero_point": 2911,
+    "bits": 12
+  },
+  "plan/std[2]": {
+    "scale": 0.002367216277326274,
+    "zero_point": 3561,
+    "bits": 12
+  },
+  "plan/std[3]": {
+    "scale": 0.0012916858728988705,
+    "zero_point": 1726,
+    "bits": 12
+  },
+  "plan/std[4]": {
+    "scale": 0.0012360730829110804,
+    "zero_point": 4095,
+    "bits": 12
+  },
+  "plan/std[5]": {
+    "scale": 0.0010576923717363705,
+    "zero_point": 4095,
+    "bits": 12
+  },
+  "plan/std[6]": {
+    "scale": 0.0009798106928475393,
+    "zero_point": 4085,
+    "bits": 12
+  },
+  "plan/std[7]": {
+    "scale": 0.0014099942458854927,
+    "zero_point": 3294,
+    "bits": 12
+  },
+  "plan/std[8]": {
+    "scale": 0.0013063760438390415,
+    "zero_point": 4095,
+    "bits": 12
+  },
+  "plan/std[9]": {
+    "scale": 0.00204508178254478,
+    "zero_point": 4095,
+    "bits": 12
+  },
+  "plan/std[10]": {
+    "scale": 0.0018436165810795787,
+    "zero_point": 4095,
+    "bits": 12
+  },
+  "plan/std[11]": {
+    "scale": 0.002025145137994135,
+    "zero_point": 3777,
+    "bits": 12
+  },
+  "plan/std[12]": {
+    "scale": 0.0017806587056217033,
+    "zero_point": 4095,
+    "bits": 12
+  },
+  "plan/std[13]": {
+    "scale": 0.0018373207935337911,
+    "zero_point": 4095,
+    "bits": 12
+  },
+  "plan/std[14]": {
+    "scale": 0.0015928343771723747,
+    "zero_point": 4095,
+    "bits": 12
+  },
+  "wide_from_device_euler/mu[0]": {
+    "scale": 2.2735681370018967e-09,
+    "zero_point": 2278,
+    "bits": 12
+  },
+  "wide_from_device_euler/mu[1]": {
+    "scale": 1.936282726034286e-05,
+    "zero_point": 1040,
+    "bits": 12
+  },
+  "wide_from_device_euler/mu[2]": {
+    "scale": 1.3817123777627655e-05,
+    "zero_point": 2765,
+    "bits": 12
+  },
+  "wide_from_device_euler/std[0]": {
+    "scale": 0.0019747788216168192,
+    "zero_point": 4095,
+    "bits": 12
+  },
+  "wide_from_device_euler/std[1]": {
+    "scale": 0.0012486646580026556,
+    "zero_point": 4095,
+    "bits": 12
+  },
+  "wide_from_device_euler/std[2]": {
+    "scale": 0.0012108899327279302,
+    "zero_point": 4095,
+    "bits": 12
+  },
+  "lead/mu[0]": {
+    "scale": 0.05536935696817289,
+    "zero_point": 0,
+    "bits": 12
+  },
+  "lead/mu[1]": {
+    "scale": 0.002589667533343528,
+    "zero_point": 2263,
+    "bits": 12
+  },
+  "lead/mu[2]": {
+    "scale": 0.003617979499155494,
+    "zero_point": 0,
+    "bits": 12
+  },
+  "lead/mu[3]": {
+    "scale": 0.00035899108437245875,
+    "zero_point": 2087,
+    "bits": 12
+  },
+  "lead/std[0]": {
+    "scale": 0.0017491797678927654,
+    "zero_point": 0,
+    "bits": 12
+  },
+  "lead/std[1]": {
+    "scale": 0.0027512594136854087,
+    "zero_point": 2365,
+    "bits": 12
+  },
+  "lead/std[2]": {
+    "scale": 0.0021494869900564864,
+    "zero_point": 1084,
+    "bits": 12
+  },
+  "lead/std[3]": {
+    "scale": 0.0012869640002174984,
+    "zero_point": 2871,
+    "bits": 12
+  },
+  "lane_lines_prob": {
+    "scale": 0.003164420503399748,
+    "zero_point": 3631,
+    "bits": 12
+  },
+  "road_transform/mu[0]": {
+    "scale": 1.119170387665558e-08,
+    "zero_point": 1681,
+    "bits": 12
+  },
+  "road_transform/mu[1]": {
+    "scale": 1.2968942254067596e-09,
+    "zero_point": 4095,
+    "bits": 12
+  },
+  "road_transform/mu[2]": {
+    "scale": 0.0003496785652943147,
+    "zero_point": 0,
+    "bits": 12
+  },
+  "road_transform/mu[3]": {
+    "scale": 2.3096852670895607e-06,
+    "zero_point": 1522,
+    "bits": 12
+  },
+  "road_transform/mu[4]": {
+    "scale": 1.1062972183351806e-06,
+    "zero_point": 3550,
+    "bits": 12
+  },
+  "road_transform/mu[5]": {
+    "scale": 1.3690060106935084e-06,
+    "zero_point": 4095,
+    "bits": 12
+  },
+  "road_transform/std[0]": {
+    "scale": 0.0019726802257682232,
+    "zero_point": 4095,
+    "bits": 12
+  },
+  "road_transform/std[1]": {
+    "scale": 0.0019737295236925212,
+    "zero_point": 4095,
+    "bits": 12
+  },
+  "road_transform/std[2]": {
+    "scale": 0.0007853995603810593,
+    "zero_point": 4095,
+    "bits": 12
+  },
+  "road_transform/std[3]": {
+    "scale": 0.0014050100487230462,
+    "zero_point": 4095,
+    "bits": 12
+  },
+  "road_transform/std[4]": {
+    "scale": 0.0013588409400539377,
+    "zero_point": 4095,
+    "bits": 12
+  },
+  "road_transform/std[5]": {
+    "scale": 0.0014008128570258546,
+    "zero_point": 4095,
+    "bits": 12
+  },
+  "action": {
+    "scale": 0.0012902102996942034,
+    "zero_point": 4013,
+    "bits": 12
+  },
+  "road_edges/mu[0]": {
+    "scale": 0.004302121873885866,
+    "zero_point": 1516,
+    "bits": 12
+  },
+  "road_edges/mu[1]": {
+    "scale": 0.0010073261033921015,
+    "zero_point": 1098,
+    "bits": 12
+  },
+  "road_edges/std[0]": {
+    "scale": 0.0012035448472578448,
+    "zero_point": 0,
+    "bits": 12
+  },
+  "road_edges/std[1]": {
+    "scale": 0.0010209669764079745,
+    "zero_point": 1313,
+    "bits": 12
+  },
+  "lane_lines/mu[0]": {
+    "scale": 0.0039054872585012512,
+    "zero_point": 1399,
+    "bits": 12
+  },
+  "lane_lines/mu[1]": {
+    "scale": 0.0009532872602907585,
+    "zero_point": 1161,
+    "bits": 12
+  },
+  "lane_lines/std[0]": {
+    "scale": 0.0010819574022467757,
+    "zero_point": 634,
+    "bits": 12
+  },
+  "lane_lines/std[1]": {
+    "scale": 0.00108392485186585,
+    "zero_point": 2281,
+    "bits": 12
+  },
+  "pad": {
+    "scale": 1.0,
+    "zero_point": 0,
+    "bits": 12
+  },
+  "desire_state": {
+    "scale": 0.017926207275763245,
+    "zero_point": 1936,
+    "bits": 12
+  },
+  "pose/mu[0]": {
+    "scale": 0.0029633643834010765,
+    "zero_point": 0,
+    "bits": 12
+  },
+  "pose/mu[1]": {
+    "scale": 8.105417333716148e-06,
+    "zero_point": 2719,
+    "bits": 12
+  },
+  "pose/mu[2]": {
+    "scale": 1.1284052506907956e-05,
+    "zero_point": 2374,
+    "bits": 12
+  },
+  "pose/mu[3]": {
+    "scale": 9.550251577263278e-07,
+    "zero_point": 1703,
+    "bits": 12
+  },
+  "pose/mu[4]": {
+    "scale": 1.7947710024804716e-06,
+    "zero_point": 2429,
+    "bits": 12
+  },
+  "pose/mu[5]": {
+    "scale": 2.995212977440512e-06,
+    "zero_point": 1697,
+    "bits": 12
+  },
+  "pose/std[0]": {
+    "scale": 0.0010590040261637744,
+    "zero_point": 1559,
+    "bits": 12
+  },
+  "pose/std[1]": {
+    "scale": 0.0010477240414555403,
+    "zero_point": 4095,
+    "bits": 12
+  },
+  "pose/std[2]": {
+    "scale": 0.001024639487120986,
+    "zero_point": 4095,
+    "bits": 12
+  },
+  "pose/std[3]": {
+    "scale": 0.0017386867886497862,
+    "zero_point": 4095,
+    "bits": 12
+  },
+  "pose/std[4]": {
+    "scale": 0.0016463485713115688,
+    "zero_point": 4095,
+    "bits": 12
+  },
+  "pose/std[5]": {
+    "scale": 0.001436488986451984,
+    "zero_point": 4095,
+    "bits": 12
+  },
+  "lead_prob": {
+    "scale": 0.00400202266753666,
+    "zero_point": 2899,
+    "bits": 12
+  },
+  "hidden_state": {
+    "scale": 0.011072192721896704,
+    "zero_point": 2502,
+    "bits": 12
+  }
+}

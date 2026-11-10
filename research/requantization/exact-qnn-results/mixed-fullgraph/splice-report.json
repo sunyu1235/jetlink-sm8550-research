@@ -1,0 +1,24 @@
+{
+  "base": "/workspace/shared/jetlink-models/light-speed-htp-gelu-images16.onnx",
+  "qdq_source": "/workspace/shared/jetlink-qdq-first-only-final-data/QUInt16-w8-pc0.onnx",
+  "output": "/workspace/shared/jetlink-mixed-first-full/mixed-first-projection.onnx",
+  "replaced_node": "node_MatMul_546",
+  "inserted_nodes": 8,
+  "all_other_nodes_byte_identical": true,
+  "original_image_promotion_and_gelu_nodes_unchanged": true,
+  "removed_unconsumed_initializers": [
+    "val_645"
+  ],
+  "imported_initializer_sha256_before_rename": {
+    "layer_norm_49_scale": "d7fc0db88c846a658b551563e954834bb24f3f37f2812c9842a313ef91bc7cba",
+    "layer_norm_49_zero_point": "fd60a25c853b1573721d86e55e6e7be015632a1942c418fd72eb8d1c1acd914f",
+    "val_645_quantized": "4a164d7735a12bd53af0deba4b34bdc70e97443ce33b360a290617a8feb37f5c",
+    "val_645_scale": "0622f8f7006726e6662e49c09e2df419cae6c11ed7f7114212f6136409e620a9",
+    "val_645_zero_point": "8a340e03cf227998128bcf71deb6ae1505c1cffcb65734f24270e4ed5bc8da3c",
+    "val_646_scale": "9fdaf61e6892993d83d8f80e2c69f128f2577cd3eae5a77ee9fcc727b929baff",
+    "val_646_zero_point": "07fea00b6893ebede6cd8cc80b0556a6c77634f2b18776e9702272cbd6bee7be"
+  },
+  "checker_passed": true,
+  "numerical_parity_tested": false,
+  "converter_run": false
+}

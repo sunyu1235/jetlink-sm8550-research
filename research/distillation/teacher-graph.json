@@ -1,0 +1,769 @@
+{
+  "sha256": "6274eb4a3f3eb7ad1ab341d222bbba2ba709b06645dbbd15ac4971d6cb22ab21",
+  "inputs": [
+    {
+      "name": "new_img",
+      "dtype": 2,
+      "shape": [
+        2,
+        6,
+        128,
+        256
+      ]
+    },
+    {
+      "name": "desire",
+      "dtype": 1,
+      "shape": [
+        8
+      ]
+    },
+    {
+      "name": "traffic_convention",
+      "dtype": 1,
+      "shape": [
+        1,
+        2
+      ]
+    },
+    {
+      "name": "action_t",
+      "dtype": 1,
+      "shape": [
+        1,
+        2
+      ]
+    },
+    {
+      "name": "state_img_q",
+      "dtype": 2,
+      "shape": [
+        2,
+        5,
+        6,
+        128,
+        256
+      ]
+    },
+    {
+      "name": "state_desire_q",
+      "dtype": 1,
+      "shape": [
+        132,
+        1,
+        8
+      ]
+    },
+    {
+      "name": "state_feat_q",
+      "dtype": 1,
+      "shape": [
+        128,
+        1,
+        16384
+      ]
+    }
+  ],
+  "outputs": [
+    {
+      "name": "outputs",
+      "dtype": 1,
+      "shape": [
+        1,
+        18452
+      ]
+    },
+    {
+      "name": "next_state_img_q",
+      "dtype": 2,
+      "shape": [
+        2,
+        5,
+        6,
+        128,
+        256
+      ]
+    },
+    {
+      "name": "next_state_desire_q",
+      "dtype": 1,
+      "shape": [
+        132,
+        1,
+        8
+      ]
+    },
+    {
+      "name": "next_state_feat_q",
+      "dtype": 1,
+      "shape": [
+        128,
+        1,
+        16384
+      ]
+    }
+  ],
+  "ops": {
+    "Slice": 9,
+    "Unsqueeze": 11,
+    "Concat": 7,
+    "Reshape": 47,
+    "Gather": 11,
+    "ReduceMax": 1,
+    "Transpose": 123,
+    "Cast": 6,
+    "Sub": 1,
+    "Div": 1,
+    "Conv": 41,
+    "LayerNormalization": 103,
+    "MatMul": 162,
+    "Add": 215,
+    "Gelu": 63,
+    "Mul": 60,
+    "Contiguous": 1,
+    "ReduceMean": 1,
+    "Gemm": 44,
+    "GatherND": 1,
+    "Sigmoid": 8,
+    "Expand": 3,
+    "Split": 12,
+    "Squeeze": 36,
+    "Not": 12,
+    "Where": 12,
+    "Softmax": 12,
+    "Tanh": 1
+  },
+  "gelu": [
+    {
+      "name": "node_gelu",
+      "input": [
+        "linear"
+      ],
+      "output": [
+        "gelu"
+      ],
+      "attributes": "[name: \"approximate\"\ns: \"none\"\ntype: STRING\n]"
+    },
+    {
+      "name": "node_gelu_1",
+      "input": [
+        "linear_2"
+      ],
+      "output": [
+        "gelu_1"
+      ],
+      "attributes": "[name: \"approximate\"\ns: \"none\"\ntype: STRING\n]"
+    },
+    {
+      "name": "node_gelu_2",
+      "input": [
+        "linear_4"
+      ],
+      "output": [
+        "gelu_2"
+      ],
+      "attributes": "[name: \"approximate\"\ns: \"none\"\ntype: STRING\n]"
+    },
+    {
+      "name": "node_gelu_3",
+      "input": [
+        "linear_6"
+      ],
+      "output": [
+        "gelu_3"
+      ],
+      "attributes": "[name: \"approximate\"\ns: \"none\"\ntype: STRING\n]"
+    },
+    {
+      "name": "node_gelu_4",
+      "input": [
+        "linear_8"
+      ],
+      "output": [
+        "gelu_4"
+      ],
+      "attributes": "[name: \"approximate\"\ns: \"none\"\ntype: STRING\n]"
+    },
+    {
+      "name": "node_gelu_5",
+      "input": [
+        "linear_10"
+      ],
+      "output": [
+        "gelu_5"
+      ],
+      "attributes": "[name: \"approximate\"\ns: \"none\"\ntype: STRING\n]"
+    },
+    {
+      "name": "node_gelu_6",
+      "input": [
+        "linear_12"
+      ],
+      "output": [
+        "gelu_6"
+      ],
+      "attributes": "[name: \"approximate\"\ns: \"none\"\ntype: STRING\n]"
+    },
+    {
+      "name": "node_gelu_7",
+      "input": [
+        "linear_14"
+      ],
+      "output": [
+        "gelu_7"
+      ],
+      "attributes": "[name: \"approximate\"\ns: \"none\"\ntype: STRING\n]"
+    },
+    {
+      "name": "node_gelu_8",
+      "input": [
+        "linear_16"
+      ],
+      "output": [
+        "gelu_8"
+      ],
+      "attributes": "[name: \"approximate\"\ns: \"none\"\ntype: STRING\n]"
+    },
+    {
+      "name": "node_gelu_9",
+      "input": [
+        "linear_18"
+      ],
+      "output": [
+        "gelu_9"
+      ],
+      "attributes": "[name: \"approximate\"\ns: \"none\"\ntype: STRING\n]"
+    },
+    {
+      "name": "node_gelu_10",
+      "input": [
+        "linear_20"
+      ],
+      "output": [
+        "gelu_10"
+      ],
+      "attributes": "[name: \"approximate\"\ns: \"none\"\ntype: STRING\n]"
+    },
+    {
+      "name": "node_gelu_11",
+      "input": [
+        "linear_22"
+      ],
+      "output": [
+        "gelu_11"
+      ],
+      "attributes": "[name: \"approximate\"\ns: \"none\"\ntype: STRING\n]"
+    },
+    {
+      "name": "node_gelu_12",
+      "input": [
+        "linear_24"
+      ],
+      "output": [
+        "gelu_12"
+      ],
+      "attributes": "[name: \"approximate\"\ns: \"none\"\ntype: STRING\n]"
+    },
+    {
+      "name": "node_gelu_13",
+      "input": [
+        "linear_26"
+      ],
+      "output": [
+        "gelu_13"
+      ],
+      "attributes": "[name: \"approximate\"\ns: \"none\"\ntype: STRING\n]"
+    },
+    {
+      "name": "node_gelu_14",
+      "input": [
+        "linear_28"
+      ],
+      "output": [
+        "gelu_14"
+      ],
+      "attributes": "[name: \"approximate\"\ns: \"none\"\ntype: STRING\n]"
+    },
+    {
+      "name": "node_gelu_15",
+      "input": [
+        "linear_30"
+      ],
+      "output": [
+        "gelu_15"
+      ],
+      "attributes": "[name: \"approximate\"\ns: \"none\"\ntype: STRING\n]"
+    },
+    {
+      "name": "node_gelu_16",
+      "input": [
+        "linear_32"
+      ],
+      "output": [
+        "gelu_16"
+      ],
+      "attributes": "[name: \"approximate\"\ns: \"none\"\ntype: STRING\n]"
+    },
+    {
+      "name": "node_gelu_17",
+      "input": [
+        "linear_34"
+      ],
+      "output": [
+        "gelu_17"
+      ],
+      "attributes": "[name: \"approximate\"\ns: \"none\"\ntype: STRING\n]"
+    },
+    {
+      "name": "node_gelu_18",
+      "input": [
+        "linear_36"
+      ],
+      "output": [
+        "gelu_18"
+      ],
+      "attributes": "[name: \"approximate\"\ns: \"none\"\ntype: STRING\n]"
+    },
+    {
+      "name": "node_gelu_19",
+      "input": [
+        "linear_38"
+      ],
+      "output": [
+        "gelu_19"
+      ],
+      "attributes": "[name: \"approximate\"\ns: \"none\"\ntype: STRING\n]"
+    },
+    {
+      "name": "node_gelu_20",
+      "input": [
+        "linear_40"
+      ],
+      "output": [
+        "gelu_20"
+      ],
+      "attributes": "[name: \"approximate\"\ns: \"none\"\ntype: STRING\n]"
+    },
+    {
+      "name": "node_gelu_21",
+      "input": [
+        "linear_42"
+      ],
+      "output": [
+        "gelu_21"
+      ],
+      "attributes": "[name: \"approximate\"\ns: \"none\"\ntype: STRING\n]"
+    },
+    {
+      "name": "node_gelu_22",
+      "input": [
+        "linear_44"
+      ],
+      "output": [
+        "gelu_22"
+      ],
+      "attributes": "[name: \"approximate\"\ns: \"none\"\ntype: STRING\n]"
+    },
+    {
+      "name": "node_gelu_23",
+      "input": [
+        "linear_46"
+      ],
+      "output": [
+        "gelu_23"
+      ],
+      "attributes": "[name: \"approximate\"\ns: \"none\"\ntype: STRING\n]"
+    },
+    {
+      "name": "node_gelu_24",
+      "input": [
+        "linear_48"
+      ],
+      "output": [
+        "gelu_24"
+      ],
+      "attributes": "[name: \"approximate\"\ns: \"none\"\ntype: STRING\n]"
+    },
+    {
+      "name": "node_gelu_25",
+      "input": [
+        "linear_50"
+      ],
+      "output": [
+        "gelu_25"
+      ],
+      "attributes": "[name: \"approximate\"\ns: \"none\"\ntype: STRING\n]"
+    },
+    {
+      "name": "node_gelu_26",
+      "input": [
+        "linear_52"
+      ],
+      "output": [
+        "gelu_26"
+      ],
+      "attributes": "[name: \"approximate\"\ns: \"none\"\ntype: STRING\n]"
+    },
+    {
+      "name": "node_gelu_27",
+      "input": [
+        "linear_54"
+      ],
+      "output": [
+        "gelu_27"
+      ],
+      "attributes": "[name: \"approximate\"\ns: \"none\"\ntype: STRING\n]"
+    },
+    {
+      "name": "node_gelu_28",
+      "input": [
+        "linear_56"
+      ],
+      "output": [
+        "gelu_28"
+      ],
+      "attributes": "[name: \"approximate\"\ns: \"none\"\ntype: STRING\n]"
+    },
+    {
+      "name": "node_gelu_29",
+      "input": [
+        "linear_58"
+      ],
+      "output": [
+        "gelu_29"
+      ],
+      "attributes": "[name: \"approximate\"\ns: \"none\"\ntype: STRING\n]"
+    },
+    {
+      "name": "node_gelu_30",
+      "input": [
+        "linear_60"
+      ],
+      "output": [
+        "gelu_30"
+      ],
+      "attributes": "[name: \"approximate\"\ns: \"none\"\ntype: STRING\n]"
+    },
+    {
+      "name": "node_gelu_31",
+      "input": [
+        "linear_62"
+      ],
+      "output": [
+        "gelu_31"
+      ],
+      "attributes": "[name: \"approximate\"\ns: \"none\"\ntype: STRING\n]"
+    },
+    {
+      "name": "node_gelu_32",
+      "input": [
+        "linear_64"
+      ],
+      "output": [
+        "gelu_32"
+      ],
+      "attributes": "[name: \"approximate\"\ns: \"none\"\ntype: STRING\n]"
+    },
+    {
+      "name": "node_gelu_33",
+      "input": [
+        "linear_66"
+      ],
+      "output": [
+        "gelu_33"
+      ],
+      "attributes": "[name: \"approximate\"\ns: \"none\"\ntype: STRING\n]"
+    },
+    {
+      "name": "node_gelu_34",
+      "input": [
+        "linear_68"
+      ],
+      "output": [
+        "gelu_34"
+      ],
+      "attributes": "[name: \"approximate\"\ns: \"none\"\ntype: STRING\n]"
+    },
+    {
+      "name": "node_gelu_35",
+      "input": [
+        "linear_70"
+      ],
+      "output": [
+        "gelu_35"
+      ],
+      "attributes": "[name: \"approximate\"\ns: \"none\"\ntype: STRING\n]"
+    },
+    {
+      "name": "node_gelu_36",
+      "input": [
+        "linear_72"
+      ],
+      "output": [
+        "gelu_36"
+      ],
+      "attributes": "[name: \"approximate\"\ns: \"tanh\"\ntype: STRING\n]"
+    },
+    {
+      "name": "node_gelu_37",
+      "input": [
+        "linear_74"
+      ],
+      "output": [
+        "gelu_37"
+      ],
+      "attributes": "[name: \"approximate\"\ns: \"tanh\"\ntype: STRING\n]"
+    },
+    {
+      "name": "node_gelu_38",
+      "input": [
+        "linear_83"
+      ],
+      "output": [
+        "gelu_38"
+      ],
+      "attributes": "[name: \"approximate\"\ns: \"tanh\"\ntype: STRING\n]"
+    },
+    {
+      "name": "node_gelu_39",
+      "input": [
+        "linear_86"
+      ],
+      "output": [
+        "gelu_39"
+      ],
+      "attributes": "[name: \"approximate\"\ns: \"tanh\"\ntype: STRING\n]"
+    },
+    {
+      "name": "node_gelu_40",
+      "input": [
+        "linear_88"
+      ],
+      "output": [
+        "gelu_40"
+      ],
+      "attributes": "[name: \"approximate\"\ns: \"tanh\"\ntype: STRING\n]"
+    },
+    {
+      "name": "node_gelu_41",
+      "input": [
+        "linear_98"
+      ],
+      "output": [
+        "gelu_41"
+      ],
+      "attributes": "[name: \"approximate\"\ns: \"tanh\"\ntype: STRING\n]"
+    },
+    {
+      "name": "node_gelu_42",
+      "input": [
+        "linear_102"
+      ],
+      "output": [
+        "gelu_42"
+      ],
+      "attributes": "[name: \"approximate\"\ns: \"tanh\"\ntype: STRING\n]"
+    },
+    {
+      "name": "node_gelu_43",
+      "input": [
+        "linear_106"
+      ],
+      "output": [
+        "gelu_43"
+      ],
+      "attributes": "[name: \"approximate\"\ns: \"tanh\"\ntype: STRING\n]"
+    },
+    {
+      "name": "node_gelu_44",
+      "input": [
+        "linear_110"
+      ],
+      "output": [
+        "gelu_44"
+      ],
+      "attributes": "[name: \"approximate\"\ns: \"tanh\"\ntype: STRING\n]"
+    },
+    {
+      "name": "node_gelu_45",
+      "input": [
+        "linear_112"
+      ],
+      "output": [
+        "gelu_45"
+      ],
+      "attributes": "[name: \"approximate\"\ns: \"tanh\"\ntype: STRING\n]"
+    },
+    {
+      "name": "node_gelu_46",
+      "input": [
+        "linear_115"
+      ],
+      "output": [
+        "gelu_46"
+      ],
+      "attributes": "[name: \"approximate\"\ns: \"tanh\"\ntype: STRING\n]"
+    },
+    {
+      "name": "node_gelu_47",
+      "input": [
+        "linear_118"
+      ],
+      "output": [
+        "gelu_47"
+      ],
+      "attributes": "[name: \"approximate\"\ns: \"tanh\"\ntype: STRING\n]"
+    },
+    {
+      "name": "node_gelu_49",
+      "input": [
+        "linear_124"
+      ],
+      "output": [
+        "gelu_49"
+      ],
+      "attributes": "[name: \"approximate\"\ns: \"tanh\"\ntype: STRING\n]"
+    },
+    {
+      "name": "node_gelu_50",
+      "input": [
+        "linear_127"
+      ],
+      "output": [
+        "gelu_50"
+      ],
+      "attributes": "[name: \"approximate\"\ns: \"tanh\"\ntype: STRING\n]"
+    },
+    {
+      "name": "node_gelu_51",
+      "input": [
+        "linear_129"
+      ],
+      "output": [
+        "gelu_51"
+      ],
+      "attributes": "[name: \"approximate\"\ns: \"tanh\"\ntype: STRING\n]"
+    },
+    {
+      "name": "node_gelu_52",
+      "input": [
+        "linear_139"
+      ],
+      "output": [
+        "gelu_52"
+      ],
+      "attributes": "[name: \"approximate\"\ns: \"tanh\"\ntype: STRING\n]"
+    },
+    {
+      "name": "node_gelu_53",
+      "input": [
+        "linear_143"
+      ],
+      "output": [
+        "gelu_53"
+      ],
+      "attributes": "[name: \"approximate\"\ns: \"tanh\"\ntype: STRING\n]"
+    },
+    {
+      "name": "node_gelu_54",
+      "input": [
+        "linear_147"
+      ],
+      "output": [
+        "gelu_54"
+      ],
+      "attributes": "[name: \"approximate\"\ns: \"tanh\"\ntype: STRING\n]"
+    },
+    {
+      "name": "node_gelu_55",
+      "input": [
+        "linear_151"
+      ],
+      "output": [
+        "gelu_55"
+      ],
+      "attributes": "[name: \"approximate\"\ns: \"tanh\"\ntype: STRING\n]"
+    },
+    {
+      "name": "node_gelu_56",
+      "input": [
+        "linear_153"
+      ],
+      "output": [
+        "gelu_56"
+      ],
+      "attributes": "[name: \"approximate\"\ns: \"tanh\"\ntype: STRING\n]"
+    },
+    {
+      "name": "node_gelu_57",
+      "input": [
+        "linear_156"
+      ],
+      "output": [
+        "gelu_57"
+      ],
+      "attributes": "[name: \"approximate\"\ns: \"tanh\"\ntype: STRING\n]"
+    },
+    {
+      "name": "node_gelu_58",
+      "input": [
+        "linear_158"
+      ],
+      "output": [
+        "gelu_58"
+      ],
+      "attributes": "[name: \"approximate\"\ns: \"tanh\"\ntype: STRING\n]"
+    },
+    {
+      "name": "node_gelu_59",
+      "input": [
+        "linear_168"
+      ],
+      "output": [
+        "gelu_59"
+      ],
+      "attributes": "[name: \"approximate\"\ns: \"tanh\"\ntype: STRING\n]"
+    },
+    {
+      "name": "node_gelu_60",
+      "input": [
+        "linear_172"
+      ],
+      "output": [
+        "gelu_60"
+      ],
+      "attributes": "[name: \"approximate\"\ns: \"tanh\"\ntype: STRING\n]"
+    },
+    {
+      "name": "node_gelu_61",
+      "input": [
+        "linear_176"
+      ],
+      "output": [
+        "gelu_61"
+      ],
+      "attributes": "[name: \"approximate\"\ns: \"tanh\"\ntype: STRING\n]"
+    },
+    {
+      "name": "node_gelu_62",
+      "input": [
+        "linear_180"
+      ],
+      "output": [
+        "gelu_62"
+      ],
+      "attributes": "[name: \"approximate\"\ns: \"tanh\"\ntype: STRING\n]"
+    },
+    {
+      "name": "node_gelu_63",
+      "input": [
+        "linear_184"
+      ],
+      "output": [
+        "gelu_63"
+      ],
+      "attributes": "[name: \"approximate\"\ns: \"tanh\"\ntype: STRING\n]"
+    }
+  ],
+  "initializer_count": 653
+}

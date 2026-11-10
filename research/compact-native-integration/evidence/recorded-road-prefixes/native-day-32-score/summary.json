@@ -1,0 +1,18 @@
+{
+  "status": "RECORDED_IMAGE_NUMERICAL_CHECK_NOT_DRIVING_SAFETY_OR_TARGET_SPEED",
+  "checker_modified": false,
+  "views": {
+    "all_frames": {
+      "first_original_frame": 0,
+      "frames": 32,
+      "checker_exit": 0,
+      "last_line": "OK: every slice and every column at or above corr 0.999, or within 10% of its largest value where too small or too quiet to correlate, per frame and pooled over all 32 frames"
+    },
+    "after_warmup": {
+      "first_original_frame": 16,
+      "frames": 16,
+      "checker_exit": 0,
+      "last_line": "OK: every slice and every column at or above corr 0.999, or within 10% of its largest value where too small or too quiet to correlate, per frame and pooled over all 16 frames"
+    }
+  }
+}

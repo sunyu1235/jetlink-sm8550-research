@@ -1,0 +1,8 @@
+{
+  "source_metadata_sha256": "52ba60617f1715512a93e581887d3a448bae53d80ca94c8b96201d579f807559",
+  "capture_model": "/workspace/shared/jetlink-distillation/real-block/teacher-policy12-capture.onnx",
+  "blocks": 12,
+  "teacher_arithmetic_changed": false,
+  "added_outputs": 24,
+  "teacher_weights_external_file_unchanged": true
+}

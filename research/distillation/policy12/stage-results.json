@@ -1,0 +1,93 @@
+{
+  "checker_sha256": "89a4c8b5c96904a091c713a9d82ce753149e4c5af80c13eaf7ecb306d4b6ff84",
+  "teacher_original_sha256": "6274eb4a3f3eb7ad1ab341d222bbba2ba709b06645dbbd15ac4971d6cb22ab21",
+  "training_seeds": [
+    713
+  ],
+  "validation_seeds": [
+    1777
+  ],
+  "acceptance_seed": 1,
+  "acceptance_targets_used_for_fitting": false,
+  "stages": [
+    {
+      "logical_original_mlp_positions": 3,
+      "unique_student_mlps": 2,
+      "remaining_gelu": 55,
+      "frames": 160,
+      "original_checker_passed": true,
+      "evidence_log": "policy3-full160-parity.log"
+    },
+    {
+      "logical_original_mlp_positions": 6,
+      "unique_student_mlps": 4,
+      "remaining_gelu": 53,
+      "frames": 160,
+      "original_checker_passed": true,
+      "evidence_log": "policy6-full160-parity.log"
+    },
+    {
+      "logical_original_mlp_positions": 12,
+      "unique_student_mlps": 8,
+      "remaining_gelu": 49,
+      "frames": 160,
+      "original_checker_passed": true,
+      "evidence_log": "policy12-full160-parity.log",
+      "night320": {
+        "status": "RECORDED_IMAGE_NUMERICAL_CHECK_NOT_DRIVING_SAFETY_OR_TARGET_SPEED",
+        "checker_modified": false,
+        "views": {
+          "all_frames": {
+            "first_original_frame": 0,
+            "frames": 320,
+            "checker_exit": 0,
+            "last_line": "OK: every slice and every column at or above corr 0.999, or within 10% of its largest value where too small or too quiet to correlate, per frame and pooled over all 320 frames"
+          },
+          "after_warmup": {
+            "first_original_frame": 160,
+            "frames": 160,
+            "checker_exit": 1,
+            "last_line": "FAIL: 1 slice(s) below corr 0.999 or past their error bound, whole or in a column: plan pooled"
+          }
+        }
+      },
+      "overall_accepted": false,
+      "day320": {
+        "status": "RECORDED_IMAGE_NUMERICAL_CHECK_NOT_DRIVING_SAFETY_OR_TARGET_SPEED",
+        "checker_modified": false,
+        "views": {
+          "all_frames": {
+            "first_original_frame": 0,
+            "frames": 320,
+            "checker_exit": 1,
+            "last_line": "FAIL: 1 slice(s) below corr 0.999 or past their error bound, whole or in a column: plan 0.998041 on one frame"
+          },
+          "after_warmup": {
+            "first_original_frame": 160,
+            "frames": 160,
+            "checker_exit": 0,
+            "last_line": "OK: every slice and every column at or above corr 0.999, or within 10% of its largest value where too small or too quiet to correlate, per frame and pooled over all 160 frames"
+          }
+        }
+      }
+    }
+  ],
+  "previous_single_block_day320": {
+    "status": "RECORDED_IMAGE_NUMERICAL_CHECK_NOT_DRIVING_SAFETY_OR_TARGET_SPEED",
+    "checker_modified": false,
+    "views": {
+      "all_frames": {
+        "first_original_frame": 0,
+        "frames": 320,
+        "checker_exit": 0,
+        "last_line": "OK: every slice and every column at or above corr 0.999, or within 10% of its largest value where too small or too quiet to correlate, per frame and pooled over all 320 frames"
+      },
+      "after_warmup": {
+        "first_original_frame": 160,
+        "frames": 160,
+        "checker_exit": 0,
+        "last_line": "OK: every slice and every column at or above corr 0.999, or within 10% of its largest value where too small or too quiet to correlate, per frame and pooled over all 160 frames"
+      }
+    }
+  }
+}

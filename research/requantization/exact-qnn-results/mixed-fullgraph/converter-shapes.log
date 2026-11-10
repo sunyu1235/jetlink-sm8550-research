@@ -1,0 +1,191 @@
+bash /workspace/shared/htp-gelu/integration/run_preserve_converter.sh --input_network /workspace/shared/jetlink-mixed-first-full/mixed-first-projection-shapes.onnx --output_path /workspace/shared/jetlink-mixed-first-full/qnn/mixed_first.cpp --op_package_config /workspace/shared/htp-gelu/integration/Gelu.xml --float_fallback --float_bitwidth 16 --float_bias_bitwidth 16 --act_bitwidth 16 --weights_bitwidth 8 --no_simplification --preserve_io layout 
+2026-11-09 11:20:53,135 - 278 - INFO - Input shape info 
+2026-11-09 11:20:53,587 - 283 - WARNING - WARNING_OPSET_VERSION: Warning multiple opset versions specified, using highest.
+2026-11-09 11:20:53,587 - 283 - WARNING - Skipping Native checker in Defer Loading and ONNX Simplification not invoked
+2026-11-09 11:20:53,609 - 283 - WARNING - WARNING_OP_VERSION_NOT_SUPPORTED: Operation Reshape Not Supported. Expected operator version: [1, 5, 13, 14], instead got version: [19]
+2026-11-09 11:20:53,616 - 283 - WARNING - WARNING_OP_VERSION_NOT_SUPPORTED: Operation Reshape Not Supported. Expected operator version: [1, 5, 13, 14], instead got version: [19]
+2026-11-09 11:20:53,622 - 283 - WARNING - WARNING_OP_VERSION_NOT_SUPPORTED: Operation Reshape Not Supported. Expected operator version: [1, 5, 13, 14], instead got version: [19]
+2026-11-09 11:20:53,623 - 283 - WARNING - WARNING_OP_VERSION_NOT_SUPPORTED: Operation Reshape Not Supported. Expected operator version: [1, 5, 13, 14], instead got version: [19]
+2026-11-09 11:20:53,631 - 283 - WARNING - WARNING_OP_VERSION_NOT_SUPPORTED: Operation Reshape Not Supported. Expected operator version: [1, 5, 13, 14], instead got version: [19]
+2026-11-09 11:20:53,633 - 283 - WARNING - WARNING_OP_VERSION_NOT_SUPPORTED: Operation Cast Not Supported. Expected operator version: [1, 6, 9, 13], instead got version: [19]
+2026-11-09 11:20:53,633 - 283 - WARNING - Only numerical type cast is supported. The cast op: node__to_copy will be interpreted at conversion time
+2026-11-09 11:20:53,633 - 283 - WARNING - WARNING_OP_VERSION_NOT_SUPPORTED: Operation Cast Not Supported. Expected operator version: [1, 6, 9, 13], instead got version: [19]
+2026-11-09 11:20:53,633 - 283 - WARNING - Only numerical type cast is supported. The cast op: node__to_copy_1 will be interpreted at conversion time
+2026-11-09 11:20:53,633 - 283 - WARNING - WARNING_OP_VERSION_NOT_SUPPORTED: Operation Cast Not Supported. Expected operator version: [1, 6, 9, 13], instead got version: [19]
+2026-11-09 11:20:53,633 - 283 - WARNING - Only numerical type cast is supported. The cast op: node__to_copy_2 will be interpreted at conversion time
+2026-11-09 11:20:53,633 - 283 - WARNING - WARNING_OP_VERSION_NOT_SUPPORTED: Operation Cast Not Supported. Expected operator version: [1, 6, 9, 13], instead got version: [19]
+2026-11-09 11:20:53,634 - 283 - WARNING - Only numerical type cast is supported. The cast op: node__to_copy_3 will be interpreted at conversion time
+2026-11-09 11:20:54,249 - 283 - WARNING - WARNING_OP_VERSION_NOT_SUPPORTED: Operation Identity Not Supported. Expected operator version: [1, 13, 14, 16], instead got version: [19]
+2026-11-09 11:20:54,274 - 283 - WARNING - WARNING_OP_VERSION_NOT_SUPPORTED: Operation Reshape Not Supported. Expected operator version: [1, 5, 13, 14], instead got version: [19]
+2026-11-09 11:20:54,281 - 283 - WARNING - GEMM operation is not supported in the general case, attempting to interpret as FC
+2026-11-09 11:20:54,285 - 283 - WARNING - WARNING_OP_VERSION_NOT_SUPPORTED: Operation Reshape Not Supported. Expected operator version: [1, 5, 13, 14], instead got version: [19]
+2026-11-09 11:20:54,287 - 283 - WARNING - WARNING_OP_VERSION_NOT_SUPPORTED: Operation Reshape Not Supported. Expected operator version: [1, 5, 13, 14], instead got version: [19]
+2026-11-09 11:20:54,289 - 283 - WARNING - GEMM operation is not supported in the general case, attempting to interpret as FC
+2026-11-09 11:20:54,294 - 283 - WARNING - GEMM operation is not supported in the general case, attempting to interpret as FC
+2026-11-09 11:20:54,297 - 283 - WARNING - WARNING_OP_VERSION_NOT_SUPPORTED: Operation Reshape Not Supported. Expected operator version: [1, 5, 13, 14], instead got version: [19]
+2026-11-09 11:20:54,299 - 283 - WARNING - WARNING_OP_VERSION_NOT_SUPPORTED: Operation Reshape Not Supported. Expected operator version: [1, 5, 13, 14], instead got version: [19]
+2026-11-09 11:20:54,301 - 283 - WARNING - GEMM operation is not supported in the general case, attempting to interpret as FC
+2026-11-09 11:20:54,305 - 283 - WARNING - GEMM operation is not supported in the general case, attempting to interpret as FC
+2026-11-09 11:20:54,307 - 283 - WARNING - GEMM operation is not supported in the general case, attempting to interpret as FC
+2026-11-09 11:20:54,311 - 283 - WARNING - GEMM operation is not supported in the general case, attempting to interpret as FC
+2026-11-09 11:20:54,314 - 283 - WARNING - GEMM operation is not supported in the general case, attempting to interpret as FC
+2026-11-09 11:20:54,318 - 283 - WARNING - GEMM operation is not supported in the general case, attempting to interpret as FC
+2026-11-09 11:20:54,320 - 283 - WARNING - GEMM operation is not supported in the general case, attempting to interpret as FC
+2026-11-09 11:20:54,323 - 283 - WARNING - GEMM operation is not supported in the general case, attempting to interpret as FC
+2026-11-09 11:20:54,328 - 283 - WARNING - GEMM operation is not supported in the general case, attempting to interpret as FC
+2026-11-09 11:20:54,330 - 283 - WARNING - WARNING_OP_VERSION_NOT_SUPPORTED: Operation Reshape Not Supported. Expected operator version: [1, 5, 13, 14], instead got version: [19]
+2026-11-09 11:20:54,332 - 283 - WARNING - WARNING_OP_VERSION_NOT_SUPPORTED: Operation Reshape Not Supported. Expected operator version: [1, 5, 13, 14], instead got version: [19]
+2026-11-09 11:20:54,333 - 283 - WARNING - GEMM operation is not supported in the general case, attempting to interpret as FC
+2026-11-09 11:20:54,338 - 283 - WARNING - GEMM operation is not supported in the general case, attempting to interpret as FC
+2026-11-09 11:20:54,365 - 283 - WARNING - WARNING_OP_VERSION_NOT_SUPPORTED: Operation Reshape Not Supported. Expected operator version: [1, 5, 13, 14], instead got version: [19]
+2026-11-09 11:20:54,367 - 283 - WARNING - WARNING_OP_VERSION_NOT_SUPPORTED: Operation Reshape Not Supported. Expected operator version: [1, 5, 13, 14], instead got version: [19]
+2026-11-09 11:20:54,376 - 283 - WARNING - WARNING_OP_VERSION_NOT_SUPPORTED: Operation Reshape Not Supported. Expected operator version: [1, 5, 13, 14], instead got version: [19]
+2026-11-09 11:20:54,378 - 283 - WARNING - GEMM operation is not supported in the general case, attempting to interpret as FC
+2026-11-09 11:20:54,384 - 283 - WARNING - GEMM operation is not supported in the general case, attempting to interpret as FC
+2026-11-09 11:20:54,387 - 283 - WARNING - WARNING_OP_VERSION_NOT_SUPPORTED: Operation Reshape Not Supported. Expected operator version: [1, 5, 13, 14], instead got version: [19]
+2026-11-09 11:20:54,388 - 283 - WARNING - GEMM operation is not supported in the general case, attempting to interpret as FC
+2026-11-09 11:20:54,393 - 283 - WARNING - GEMM operation is not supported in the general case, attempting to interpret as FC
+2026-11-09 11:20:54,396 - 283 - WARNING - WARNING_OP_VERSION_NOT_SUPPORTED: Operation Reshape Not Supported. Expected operator version: [1, 5, 13, 14], instead got version: [19]
+2026-11-09 11:20:54,400 - 283 - WARNING - WARNING_OP_VERSION_NOT_SUPPORTED: Operation Reshape Not Supported. Expected operator version: [1, 5, 13, 14], instead got version: [19]
+2026-11-09 11:20:54,400 - 278 - INFO - INFO_STATIC_RESHAPE: Applying static reshape to add_41: new name view_45 new shape [1, 288, 512]
+2026-11-09 11:20:54,409 - 283 - WARNING - WARNING_OP_VERSION_NOT_SUPPORTED: Operation Reshape Not Supported. Expected operator version: [1, 5, 13, 14], instead got version: [19]
+2026-11-09 11:20:54,431 - 283 - WARNING - WARNING_OP_VERSION_NOT_SUPPORTED: Operation Reshape Not Supported. Expected operator version: [1, 5, 13, 14], instead got version: [19]
+2026-11-09 11:20:54,487 - 283 - WARNING - WARNING_OP_VERSION_NOT_SUPPORTED: Operation Cast Not Supported. Expected operator version: [1, 6, 9, 13], instead got version: [19]
+2026-11-09 11:20:54,487 - 283 - WARNING - Only numerical type cast is supported. The cast op: first_projection_qdq__CastInputToFloat32 will be interpreted at conversion time
+2026-11-09 11:20:54,516 - 283 - WARNING - WARNING_OP_VERSION_NOT_SUPPORTED: Operation Cast Not Supported. Expected operator version: [1, 6, 9, 13], instead got version: [19]
+2026-11-09 11:20:54,516 - 283 - WARNING - Only numerical type cast is supported. The cast op: first_projection_qdq__CastOutputToFloat16 will be interpreted at conversion time
+2026-11-09 11:20:54,519 - 283 - WARNING - WARNING_OP_VERSION_NOT_SUPPORTED: Operation Reshape Not Supported. Expected operator version: [1, 5, 13, 14], instead got version: [19]
+2026-11-09 11:20:54,521 - 283 - WARNING - WARNING_OP_VERSION_NOT_SUPPORTED: Operation Reshape Not Supported. Expected operator version: [1, 5, 13, 14], instead got version: [19]
+2026-11-09 11:20:54,537 - 283 - WARNING - WARNING_OP_VERSION_NOT_SUPPORTED: Operation Reshape Not Supported. Expected operator version: [1, 5, 13, 14], instead got version: [19]
+2026-11-09 11:20:54,574 - 283 - WARNING - WARNING_OP_VERSION_NOT_SUPPORTED: Operation Reshape Not Supported. Expected operator version: [1, 5, 13, 14], instead got version: [19]
+2026-11-09 11:20:54,582 - 283 - WARNING - WARNING_OP_VERSION_NOT_SUPPORTED: Operation Reshape Not Supported. Expected operator version: [1, 5, 13, 14], instead got version: [19]
+2026-11-09 11:20:54,584 - 283 - WARNING - WARNING_OP_VERSION_NOT_SUPPORTED: Operation Reshape Not Supported. Expected operator version: [1, 5, 13, 14], instead got version: [19]
+2026-11-09 11:20:54,591 - 283 - WARNING - WARNING_OP_VERSION_NOT_SUPPORTED: Operation Reshape Not Supported. Expected operator version: [1, 5, 13, 14], instead got version: [19]
+2026-11-09 11:20:54,612 - 283 - WARNING - WARNING_OP_VERSION_NOT_SUPPORTED: Operation Reshape Not Supported. Expected operator version: [1, 5, 13, 14], instead got version: [19]
+2026-11-09 11:20:54,620 - 283 - WARNING - WARNING_OP_VERSION_NOT_SUPPORTED: Operation Reshape Not Supported. Expected operator version: [1, 5, 13, 14], instead got version: [19]
+2026-11-09 11:20:54,622 - 283 - WARNING - WARNING_OP_VERSION_NOT_SUPPORTED: Operation Reshape Not Supported. Expected operator version: [1, 5, 13, 14], instead got version: [19]
+2026-11-09 11:20:54,629 - 283 - WARNING - WARNING_OP_VERSION_NOT_SUPPORTED: Operation Reshape Not Supported. Expected operator version: [1, 5, 13, 14], instead got version: [19]
+2026-11-09 11:20:54,650 - 283 - WARNING - WARNING_OP_VERSION_NOT_SUPPORTED: Operation Reshape Not Supported. Expected operator version: [1, 5, 13, 14], instead got version: [19]
+2026-11-09 11:20:54,658 - 283 - WARNING - WARNING_OP_VERSION_NOT_SUPPORTED: Operation Reshape Not Supported. Expected operator version: [1, 5, 13, 14], instead got version: [19]
+2026-11-09 11:20:54,661 - 283 - WARNING - WARNING_OP_VERSION_NOT_SUPPORTED: Operation Reshape Not Supported. Expected operator version: [1, 5, 13, 14], instead got version: [19]
+2026-11-09 11:20:54,669 - 283 - WARNING - GEMM operation is not supported in the general case, attempting to interpret as FC
+2026-11-09 11:20:54,672 - 283 - WARNING - WARNING_OP_VERSION_NOT_SUPPORTED: Operation Reshape Not Supported. Expected operator version: [1, 5, 13, 14], instead got version: [19]
+2026-11-09 11:20:54,674 - 283 - WARNING - WARNING_OP_VERSION_NOT_SUPPORTED: Operation Reshape Not Supported. Expected operator version: [1, 5, 13, 14], instead got version: [19]
+2026-11-09 11:20:54,675 - 283 - WARNING - GEMM operation is not supported in the general case, attempting to interpret as FC
+2026-11-09 11:20:54,679 - 283 - WARNING - GEMM operation is not supported in the general case, attempting to interpret as FC
+2026-11-09 11:20:54,683 - 283 - WARNING - GEMM operation is not supported in the general case, attempting to interpret as FC
+2026-11-09 11:20:54,686 - 283 - WARNING - WARNING_OP_VERSION_NOT_SUPPORTED: Operation Reshape Not Supported. Expected operator version: [1, 5, 13, 14], instead got version: [19]
+2026-11-09 11:20:54,688 - 283 - WARNING - WARNING_OP_VERSION_NOT_SUPPORTED: Operation Reshape Not Supported. Expected operator version: [1, 5, 13, 14], instead got version: [19]
+2026-11-09 11:20:54,690 - 283 - WARNING - GEMM operation is not supported in the general case, attempting to interpret as FC
+2026-11-09 11:20:54,693 - 283 - WARNING - GEMM operation is not supported in the general case, attempting to interpret as FC
+2026-11-09 11:20:54,699 - 283 - WARNING - GEMM operation is not supported in the general case, attempting to interpret as FC
+2026-11-09 11:20:54,702 - 283 - WARNING - WARNING_OP_VERSION_NOT_SUPPORTED: Operation Reshape Not Supported. Expected operator version: [1, 5, 13, 14], instead got version: [19]
+2026-11-09 11:20:54,704 - 283 - WARNING - WARNING_OP_VERSION_NOT_SUPPORTED: Operation Reshape Not Supported. Expected operator version: [1, 5, 13, 14], instead got version: [19]
+2026-11-09 11:20:54,705 - 283 - WARNING - GEMM operation is not supported in the general case, attempting to interpret as FC
+2026-11-09 11:20:54,708 - 283 - WARNING - GEMM operation is not supported in the general case, attempting to interpret as FC
+2026-11-09 11:20:54,712 - 283 - WARNING - GEMM operation is not supported in the general case, attempting to interpret as FC
+2026-11-09 11:20:54,715 - 283 - WARNING - WARNING_OP_VERSION_NOT_SUPPORTED: Operation Reshape Not Supported. Expected operator version: [1, 5, 13, 14], instead got version: [19]
+2026-11-09 11:20:54,716 - 283 - WARNING - WARNING_OP_VERSION_NOT_SUPPORTED: Operation Reshape Not Supported. Expected operator version: [1, 5, 13, 14], instead got version: [19]
+2026-11-09 11:20:54,718 - 283 - WARNING - GEMM operation is not supported in the general case, attempting to interpret as FC
+2026-11-09 11:20:54,721 - 283 - WARNING - GEMM operation is not supported in the general case, attempting to interpret as FC
+2026-11-09 11:20:54,732 - 283 - WARNING - WARNING_OP_VERSION_NOT_SUPPORTED: Operation Reshape Not Supported. Expected operator version: [1, 5, 13, 14], instead got version: [19]
+2026-11-09 11:20:54,740 - 283 - WARNING - WARNING_OP_VERSION_NOT_SUPPORTED: Operation Reshape Not Supported. Expected operator version: [1, 5, 13, 14], instead got version: [19]
+2026-11-09 11:20:54,741 - 283 - WARNING - GEMM operation is not supported in the general case, attempting to interpret as FC
+2026-11-09 11:20:54,743 - 283 - WARNING - WARNING_OP_VERSION_NOT_SUPPORTED: Operation Reshape Not Supported. Expected operator version: [1, 5, 13, 14], instead got version: [19]
+2026-11-09 11:20:54,745 - 283 - WARNING - GEMM operation is not supported in the general case, attempting to interpret as FC
+2026-11-09 11:20:54,748 - 283 - WARNING - WARNING_OP_VERSION_NOT_SUPPORTED: Operation Reshape Not Supported. Expected operator version: [1, 5, 13, 14], instead got version: [19]
+2026-11-09 11:20:54,752 - 283 - WARNING - WARNING_OP_VERSION_NOT_SUPPORTED: Operation Reshape Not Supported. Expected operator version: [1, 5, 13, 14], instead got version: [19]
+2026-11-09 11:20:54,752 - 278 - INFO - INFO_STATIC_RESHAPE: Applying static reshape to add_61: new name view_55 new shape [1, 288, 512]
+2026-11-09 11:20:54,759 - 283 - WARNING - WARNING_OP_VERSION_NOT_SUPPORTED: Operation Reshape Not Supported. Expected operator version: [1, 5, 13, 14], instead got version: [19]
+2026-11-09 11:20:54,781 - 283 - WARNING - WARNING_OP_VERSION_NOT_SUPPORTED: Operation Reshape Not Supported. Expected operator version: [1, 5, 13, 14], instead got version: [19]
+2026-11-09 11:20:54,788 - 283 - WARNING - WARNING_OP_VERSION_NOT_SUPPORTED: Operation Reshape Not Supported. Expected operator version: [1, 5, 13, 14], instead got version: [19]
+2026-11-09 11:20:54,790 - 283 - WARNING - WARNING_OP_VERSION_NOT_SUPPORTED: Operation Reshape Not Supported. Expected operator version: [1, 5, 13, 14], instead got version: [19]
+2026-11-09 11:20:54,798 - 283 - WARNING - WARNING_OP_VERSION_NOT_SUPPORTED: Operation Reshape Not Supported. Expected operator version: [1, 5, 13, 14], instead got version: [19]
+2026-11-09 11:20:54,819 - 283 - WARNING - WARNING_OP_VERSION_NOT_SUPPORTED: Operation Reshape Not Supported. Expected operator version: [1, 5, 13, 14], instead got version: [19]
+2026-11-09 11:20:54,826 - 283 - WARNING - WARNING_OP_VERSION_NOT_SUPPORTED: Operation Reshape Not Supported. Expected operator version: [1, 5, 13, 14], instead got version: [19]
+2026-11-09 11:20:54,828 - 283 - WARNING - WARNING_OP_VERSION_NOT_SUPPORTED: Operation Reshape Not Supported. Expected operator version: [1, 5, 13, 14], instead got version: [19]
+2026-11-09 11:20:54,834 - 283 - WARNING - WARNING_OP_VERSION_NOT_SUPPORTED: Operation Reshape Not Supported. Expected operator version: [1, 5, 13, 14], instead got version: [19]
+2026-11-09 11:20:54,855 - 283 - WARNING - WARNING_OP_VERSION_NOT_SUPPORTED: Operation Reshape Not Supported. Expected operator version: [1, 5, 13, 14], instead got version: [19]
+2026-11-09 11:20:54,862 - 283 - WARNING - WARNING_OP_VERSION_NOT_SUPPORTED: Operation Reshape Not Supported. Expected operator version: [1, 5, 13, 14], instead got version: [19]
+2026-11-09 11:20:54,864 - 283 - WARNING - WARNING_OP_VERSION_NOT_SUPPORTED: Operation Reshape Not Supported. Expected operator version: [1, 5, 13, 14], instead got version: [19]
+2026-11-09 11:20:54,871 - 283 - WARNING - WARNING_OP_VERSION_NOT_SUPPORTED: Operation Reshape Not Supported. Expected operator version: [1, 5, 13, 14], instead got version: [19]
+2026-11-09 11:20:54,892 - 283 - WARNING - WARNING_OP_VERSION_NOT_SUPPORTED: Operation Reshape Not Supported. Expected operator version: [1, 5, 13, 14], instead got version: [19]
+2026-11-09 11:20:54,900 - 283 - WARNING - WARNING_OP_VERSION_NOT_SUPPORTED: Operation Reshape Not Supported. Expected operator version: [1, 5, 13, 14], instead got version: [19]
+2026-11-09 11:20:54,902 - 283 - WARNING - WARNING_OP_VERSION_NOT_SUPPORTED: Operation Reshape Not Supported. Expected operator version: [1, 5, 13, 14], instead got version: [19]
+2026-11-09 11:20:54,909 - 283 - WARNING - GEMM operation is not supported in the general case, attempting to interpret as FC
+2026-11-09 11:20:54,911 - 283 - WARNING - WARNING_OP_VERSION_NOT_SUPPORTED: Operation Reshape Not Supported. Expected operator version: [1, 5, 13, 14], instead got version: [19]
+2026-11-09 11:20:54,913 - 283 - WARNING - WARNING_OP_VERSION_NOT_SUPPORTED: Operation Reshape Not Supported. Expected operator version: [1, 5, 13, 14], instead got version: [19]
+2026-11-09 11:20:54,914 - 283 - WARNING - GEMM operation is not supported in the general case, attempting to interpret as FC
+2026-11-09 11:20:54,918 - 283 - WARNING - GEMM operation is not supported in the general case, attempting to interpret as FC
+2026-11-09 11:20:54,931 - 283 - WARNING - WARNING_OP_VERSION_NOT_SUPPORTED: Operation Reshape Not Supported. Expected operator version: [1, 5, 13, 14], instead got version: [19]
+2026-11-09 11:20:54,940 - 283 - WARNING - WARNING_OP_VERSION_NOT_SUPPORTED: Operation Reshape Not Supported. Expected operator version: [1, 5, 13, 14], instead got version: [19]
+2026-11-09 11:20:54,942 - 283 - WARNING - GEMM operation is not supported in the general case, attempting to interpret as FC
+2026-11-09 11:20:54,946 - 283 - WARNING - GEMM operation is not supported in the general case, attempting to interpret as FC
+2026-11-09 11:20:54,948 - 283 - WARNING - WARNING_OP_VERSION_NOT_SUPPORTED: Operation Reshape Not Supported. Expected operator version: [1, 5, 13, 14], instead got version: [19]
+2026-11-09 11:20:54,949 - 283 - WARNING - GEMM operation is not supported in the general case, attempting to interpret as FC
+2026-11-09 11:20:54,954 - 283 - WARNING - GEMM operation is not supported in the general case, attempting to interpret as FC
+2026-11-09 11:20:54,956 - 283 - WARNING - WARNING_OP_VERSION_NOT_SUPPORTED: Operation Reshape Not Supported. Expected operator version: [1, 5, 13, 14], instead got version: [19]
+2026-11-09 11:20:54,960 - 283 - WARNING - WARNING_OP_VERSION_NOT_SUPPORTED: Operation Reshape Not Supported. Expected operator version: [1, 5, 13, 14], instead got version: [19]
+2026-11-09 11:20:54,960 - 278 - INFO - INFO_STATIC_RESHAPE: Applying static reshape to add_77: new name view_65 new shape [1, 288, 512]
+2026-11-09 11:20:54,967 - 283 - WARNING - WARNING_OP_VERSION_NOT_SUPPORTED: Operation Reshape Not Supported. Expected operator version: [1, 5, 13, 14], instead got version: [19]
+2026-11-09 11:20:54,989 - 283 - WARNING - WARNING_OP_VERSION_NOT_SUPPORTED: Operation Reshape Not Supported. Expected operator version: [1, 5, 13, 14], instead got version: [19]
+2026-11-09 11:20:54,999 - 283 - WARNING - WARNING_OP_VERSION_NOT_SUPPORTED: Operation Reshape Not Supported. Expected operator version: [1, 5, 13, 14], instead got version: [19]
+2026-11-09 11:20:55,001 - 283 - WARNING - WARNING_OP_VERSION_NOT_SUPPORTED: Operation Reshape Not Supported. Expected operator version: [1, 5, 13, 14], instead got version: [19]
+2026-11-09 11:20:55,008 - 283 - WARNING - WARNING_OP_VERSION_NOT_SUPPORTED: Operation Reshape Not Supported. Expected operator version: [1, 5, 13, 14], instead got version: [19]
+2026-11-09 11:20:55,031 - 283 - WARNING - WARNING_OP_VERSION_NOT_SUPPORTED: Operation Reshape Not Supported. Expected operator version: [1, 5, 13, 14], instead got version: [19]
+2026-11-09 11:20:55,039 - 283 - WARNING - WARNING_OP_VERSION_NOT_SUPPORTED: Operation Reshape Not Supported. Expected operator version: [1, 5, 13, 14], instead got version: [19]
+2026-11-09 11:20:55,041 - 283 - WARNING - WARNING_OP_VERSION_NOT_SUPPORTED: Operation Reshape Not Supported. Expected operator version: [1, 5, 13, 14], instead got version: [19]
+2026-11-09 11:20:55,048 - 283 - WARNING - WARNING_OP_VERSION_NOT_SUPPORTED: Operation Reshape Not Supported. Expected operator version: [1, 5, 13, 14], instead got version: [19]
+2026-11-09 11:20:55,069 - 283 - WARNING - WARNING_OP_VERSION_NOT_SUPPORTED: Operation Reshape Not Supported. Expected operator version: [1, 5, 13, 14], instead got version: [19]
+2026-11-09 11:20:55,077 - 283 - WARNING - WARNING_OP_VERSION_NOT_SUPPORTED: Operation Reshape Not Supported. Expected operator version: [1, 5, 13, 14], instead got version: [19]
+2026-11-09 11:20:55,078 - 283 - WARNING - WARNING_OP_VERSION_NOT_SUPPORTED: Operation Reshape Not Supported. Expected operator version: [1, 5, 13, 14], instead got version: [19]
+2026-11-09 11:20:55,086 - 283 - WARNING - WARNING_OP_VERSION_NOT_SUPPORTED: Operation Reshape Not Supported. Expected operator version: [1, 5, 13, 14], instead got version: [19]
+2026-11-09 11:20:55,105 - 283 - WARNING - WARNING_OP_VERSION_NOT_SUPPORTED: Operation Reshape Not Supported. Expected operator version: [1, 5, 13, 14], instead got version: [19]
+2026-11-09 11:20:55,112 - 283 - WARNING - WARNING_OP_VERSION_NOT_SUPPORTED: Operation Reshape Not Supported. Expected operator version: [1, 5, 13, 14], instead got version: [19]
+2026-11-09 11:20:55,114 - 283 - WARNING - WARNING_OP_VERSION_NOT_SUPPORTED: Operation Reshape Not Supported. Expected operator version: [1, 5, 13, 14], instead got version: [19]
+2026-11-09 11:20:55,122 - 283 - WARNING - GEMM operation is not supported in the general case, attempting to interpret as FC
+2026-11-09 11:20:55,126 - 283 - WARNING - GEMM operation is not supported in the general case, attempting to interpret as FC
+2026-11-09 11:20:55,131 - 283 - WARNING - GEMM operation is not supported in the general case, attempting to interpret as FC
+2026-11-09 11:20:55,133 - 283 - WARNING - WARNING_OP_VERSION_NOT_SUPPORTED: Operation Reshape Not Supported. Expected operator version: [1, 5, 13, 14], instead got version: [19]
+2026-11-09 11:20:55,135 - 283 - WARNING - WARNING_OP_VERSION_NOT_SUPPORTED: Operation Reshape Not Supported. Expected operator version: [1, 5, 13, 14], instead got version: [19]
+2026-11-09 11:20:55,137 - 283 - WARNING - GEMM operation is not supported in the general case, attempting to interpret as FC
+2026-11-09 11:20:55,140 - 283 - WARNING - GEMM operation is not supported in the general case, attempting to interpret as FC
+2026-11-09 11:20:55,146 - 283 - WARNING - WARNING_OP_VERSION_NOT_SUPPORTED: Operation Reshape Not Supported. Expected operator version: [1, 5, 13, 14], instead got version: [19]
+2026-11-09 11:20:55,148 - 283 - WARNING - WARNING_OP_VERSION_NOT_SUPPORTED: Operation Cast Not Supported. Expected operator version: [1, 6, 9, 13], instead got version: [19]
+2026-11-09 11:20:55,148 - 283 - WARNING - Only numerical type cast is supported. The cast op: node__to_copy_5 will be interpreted at conversion time
+2026-11-09 11:21:06,962 - 283 - WARNING - QNN Quantization is disabled as --float_fallback flag is provided Some Ops may fallback to float datatype
+2026-11-09 11:21:07,171 - 273 - ERROR - Encountered Error: validateQnnOpConfig: Failed QNN validation for node_add_39 with error
+Validating Input[1] of ID 1205.
+Validating tensor 1224 and 1205 have the same Datatype.
+Tensor 1224 and 1205 have mismatching datatypes. 0x232 != 0x216.
+Op specific validation failed.
+
+Traceback (most recent call last):
+  File "/workspace/shared/htp-dependencies/build-subset/qairt/2.42.0.251225/bin/x86_64-linux-clang/qnn-onnx-converter", line 80, in main
+    backend.save(optimized_graph)
+  File "/workspace/shared/htp-dependencies/build-subset/qairt/2.42.0.251225/lib/python/qti/aisw/converters/backend/ir_to_qnn.py", line 651, in save
+    ir_graph = self.get_ir_graph(graph)
+  File "/workspace/shared/htp-dependencies/build-subset/qairt/2.42.0.251225/lib/python/qti/aisw/converters/qnn_backend/qnn_backend_base.py", line 608, in get_ir_graph
+    raise e
+  File "/workspace/shared/htp-dependencies/build-subset/qairt/2.42.0.251225/lib/python/qti/aisw/converters/qnn_backend/qnn_backend_base.py", line 593, in get_ir_graph
+    QnnTranslations.apply_method_to_all_ops(BackendTranslationBase.ADD_OP_TO_BACKEND, graph, self)
+  File "/workspace/shared/htp-dependencies/build-subset/qairt/2.42.0.251225/lib/python/qti/aisw/converters/common/converter_ir/translation.py", line 90, in apply_method_to_all_ops
+    self.apply_method_to_op(node.op.type, method_name, node, graph, *args, **kwargs)
+  File "/workspace/shared/htp-dependencies/build-subset/qairt/2.42.0.251225/lib/python/qti/aisw/converters/common/converter_ir/translation.py", line 67, in apply_method_to_op
+    return translation.apply_method(method_name, *args, **kwargs)
+  File "/workspace/shared/htp-dependencies/build-subset/qairt/2.42.0.251225/lib/python/qti/aisw/converters/common/converter_ir/translation.py", line 20, in apply_method
+    return self.indexed_methods[method_name](*args, **kwargs)
+  File "/workspace/shared/htp-dependencies/build-subset/qairt/2.42.0.251225/lib/python/qti/aisw/converters/qnn_backend/qnn_translations.py", line 1458, in add_op_to_backend
+    backend.add_node(node.op.name, op_type,
+  File "/workspace/shared/htp-dependencies/build-subset/qairt/2.42.0.251225/lib/python/qti/aisw/converters/backend/ir_to_qnn.py", line 340, in add_node
+    if not self.model.add_node(node_name, node_type, node_package_name, tensor_params, scalar_params,
+RuntimeError: validateQnnOpConfig: Failed QNN validation for node_add_39 with error
+Validating Input[1] of ID 1205.
+Validating tensor 1224 and 1205 have the same Datatype.
+Tensor 1224 and 1205 have mismatching datatypes. 0x232 != 0x216.
+Op specific validation failed.
+
+JETLINK_RETAIN_SEPARATE_ARITHMETIC 4
+JETLINK_RETAIN_SEPARATE_ARITHMETIC 0
+JETLINK_RETAIN_SEPARATE_ARITHMETIC 0
+JETLINK_RETAIN_SEPARATE_ARITHMETIC 0

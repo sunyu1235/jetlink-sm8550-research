@@ -1,0 +1,30 @@
+{
+  "status": "COMPOSED_NOT_ACCEPTED",
+  "model": "/workspace/shared/jetlink-distillation/real-block/student-policy6-cse.onnx",
+  "cse_source": true,
+  "replacements": [
+    {
+      "block": "gelu_41",
+      "weights_sha256": "6c98bdd7fd245b44ca258b2852b085e4d9193b5712b53bb2a1d31b9ab8265451",
+      "reuse_original_passing_single_block": true
+    },
+    {
+      "block": "gelu_42",
+      "weights_sha256": "1271353dcf7c470c21578534c32599247b7e00464c1cf9eb68cceb8a9aabd262",
+      "reuse_original_passing_single_block": false
+    },
+    {
+      "block": "gelu_59",
+      "weights_sha256": "57faad873efafb9ae8dd2d0e9a9e3780fae687ab13a4dec93fd5854124485add",
+      "reuse_original_passing_single_block": false
+    },
+    {
+      "block": "gelu_60",
+      "weights_sha256": "44e050b078de1061ee23bf3e8b0ea24c1447cfb8b38fe6e82dca1e67f38ad301",
+      "reuse_original_passing_single_block": false
+    }
+  ],
+  "remaining_gelu_nodes": 53,
+  "original_output_signature_preserved": true,
+  "new_constants_are_private_to_each_student_block": true
+}

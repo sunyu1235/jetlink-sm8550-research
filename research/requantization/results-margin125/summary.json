@@ -1,0 +1,94 @@
+{
+  "kind": "saved-output-boundary-only",
+  "source": "reports/jetlink-gelu-optimization-20261101/partition-tuning-20261109/last-query-full160/compare",
+  "calibration_frames": [
+    0,
+    79
+  ],
+  "heldout_frames": [
+    80,
+    159
+  ],
+  "margin": 1.25,
+  "baseline_exit_code": 0,
+  "limits": [
+    "No model weights, inputs, internal activations, or HTP execution used.",
+    "Temporal split is not an independent drive; output quantization is not fed back.",
+    "12-bit and column encodings are sensitivity diagnostics, not deployment claims.",
+    "No speed or full-model accuracy prediction is justified."
+  ],
+  "cases": [
+    {
+      "name": "tensor-u8",
+      "exit_code": 1,
+      "clipped_values": 0,
+      "evaluated_values": 1476160,
+      "max_abs_added_error": 0.5825195908546448,
+      "verdict": "FAIL: 12 slice(s) below corr 0.999 or past their error bound, whole or in a column: hidden_state 0.976408 on one frame, lane_lines 0.981170 on one frame, road_edges 0.984692 on one frame, meta 0.990385 on one frame, desire_pred 0.993830 on one frame, plan 0.993865 on one frame, lead 0.998286 on one frame, action pooled, lead_prob pooled, pose pooled, road_transform pooled, wide_from_device_euler pooled"
+    },
+    {
+      "name": "tensor-u12",
+      "exit_code": 1,
+      "clipped_values": 0,
+      "evaluated_values": 1476160,
+      "max_abs_added_error": 0.03627314418554306,
+      "verdict": "FAIL: 5 slice(s) below corr 0.999 or past their error bound, whole or in a column: lead pooled, plan pooled, pose pooled, road_transform pooled, wide_from_device_euler pooled"
+    },
+    {
+      "name": "tensor-u16",
+      "exit_code": 0,
+      "clipped_values": 0,
+      "evaluated_values": 1476160,
+      "max_abs_added_error": 0.0022668838500976562,
+      "verdict": "OK: every slice and every column at or above corr 0.999, or within 10% of its largest value where too small or too quiet to correlate, per frame and pooled over all 80 frames"
+    },
+    {
+      "name": "head-u8",
+      "exit_code": 1,
+      "clipped_values": 9,
+      "evaluated_values": 1476160,
+      "max_abs_added_error": 0.5195313096046448,
+      "verdict": "FAIL: 6 slice(s) below corr 0.999 or past their error bound, whole or in a column: lead 0.998649 on one frame, plan 0.998853 on one frame, pose pooled, road_edges pooled, road_transform pooled, wide_from_device_euler pooled"
+    },
+    {
+      "name": "head-u12",
+      "exit_code": 1,
+      "clipped_values": 13,
+      "evaluated_values": 1476160,
+      "max_abs_added_error": 0.06007372587919235,
+      "verdict": "FAIL: 1 slice(s) below corr 0.999 or past their error bound, whole or in a column: plan pooled"
+    },
+    {
+      "name": "head-u16",
+      "exit_code": 0,
+      "clipped_values": 13,
+      "evaluated_values": 1476160,
+      "max_abs_added_error": 0.06019285321235657,
+      "verdict": "OK: every slice and every column at or above corr 0.999, or within 10% of its largest value where too small or too quiet to correlate, per frame and pooled over all 80 frames"
+    },
+    {
+      "name": "column-u8",
+      "exit_code": 1,
+      "clipped_values": 128,
+      "evaluated_values": 1476160,
+      "max_abs_added_error": 0.5052089691162109,
+      "verdict": "FAIL: 1 slice(s) below corr 0.999 or past their error bound, whole or in a column: plan pooled"
+    },
+    {
+      "name": "column-u12",
+      "exit_code": 1,
+      "clipped_values": 146,
+      "evaluated_values": 1476160,
+      "max_abs_added_error": 0.30160996317863464,
+      "verdict": "FAIL: 1 slice(s) below corr 0.999 or past their error bound, whole or in a column: plan pooled"
+    },
+    {
+      "name": "column-u16",
+      "exit_code": 1,
+      "clipped_values": 146,
+      "evaluated_values": 1476160,
+      "max_abs_added_error": 0.3016124963760376,
+      "verdict": "FAIL: 1 slice(s) below corr 0.999 or past their error bound, whole or in a column: plan pooled"
+    }
+  ]
+}

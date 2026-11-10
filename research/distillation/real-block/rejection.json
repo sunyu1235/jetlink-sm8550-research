@@ -1,0 +1,18 @@
+{
+  "status": "REJECTED_ACCURACY",
+  "completed_frames": 26,
+  "intended_frames": 160,
+  "stopped_early_because": "per-frame checker failures cannot be repaired by later frames",
+  "checker": "unchanged vendor/jetlink/scripts/verify_parity.py",
+  "failed_heads": [
+    "plan",
+    "lead",
+    "desire_state",
+    "lead_prob"
+  ],
+  "target_latency": "not measured",
+  "full_160_acceptance": "not completed; failed prefix",
+  "teacher_ort_version": "1.23.2 CPU",
+  "same_runtime_teacher_vs_archive": "PASS 26 frames",
+  "student_vs_same_runtime_teacher": "FAIL plan, lead, desire_state, lead_prob"
+}

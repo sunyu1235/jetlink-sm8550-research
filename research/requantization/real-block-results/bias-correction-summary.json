@@ -1,0 +1,22 @@
+{
+  "method": "training-sequence mean output residual added to final bias",
+  "calibration_seed": 713,
+  "validation_seed": 991,
+  "used_acceptance_set_targets": false,
+  "correction_max_abs": 0.08596878498792648,
+  "before_validation": {
+    "finite": true,
+    "max_abs": 0.440460205078125,
+    "rmse": 0.048570710975697685,
+    "normalized_rmse": 0.023203411736251792,
+    "correlation": 0.9997308609949922
+  },
+  "after_validation": {
+    "finite": true,
+    "max_abs": 0.4135856628417969,
+    "rmse": 0.04204466035739902,
+    "normalized_rmse": 0.020085758391960192,
+    "correlation": 0.9997982658622216
+  },
+  "scope": "real block on synthetic calibration, no full-model or HTP validation"
+}

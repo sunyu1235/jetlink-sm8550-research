@@ -1,0 +1,219 @@
+{
+  "scope": "Two serialized native HTP host contexts joined with six compact nativeFP16 buffers; not fullmodel target accuracy/device speed",
+  "samples": 8,
+  "values_compared": 12288,
+  "boundary_bytes": 9216,
+  "zero_padding": false,
+  "all_finite": true,
+  "rmse_vs_compact_cpu": 0.0027571115728367286,
+  "max_abs_vs_compact_cpu": 0.03125,
+  "min_correlation_vs_compact_cpu": 0.9999820790126881,
+  "contexts": {
+    "upstream": {
+      "bytes": 8617984,
+      "sha256": "28ae51ce4bfdcdc985f595c6cc7ed2249c7e9459d1ac6ce06a7dc79c27de6718",
+      "prepare_exit": 0,
+      "reload_and_execute_exit": 0
+    },
+    "tails": {
+      "bytes": 2158592,
+      "sha256": "d0bb63f4604b7c0fad751a37766fb716e820c61e699f5dfe7ff5f7839ac094dd",
+      "prepare_exit": 0,
+      "reload_and_execute_exit": 0
+    }
+  },
+  "rows": [
+    {
+      "sample": 0,
+      "output": "select_4",
+      "rmse_vs_compact_cpu": 0.0016307337234790988,
+      "max_abs_vs_compact_cpu": 0.0078125,
+      "correlation_vs_compact_cpu": 0.9999998768047914,
+      "max_abs_vs_full_cpu": 0.0078125
+    },
+    {
+      "sample": 0,
+      "output": "select_7",
+      "rmse_vs_compact_cpu": 0.0026712373553372188,
+      "max_abs_vs_compact_cpu": 0.015625,
+      "correlation_vs_compact_cpu": 0.9999997743529333,
+      "max_abs_vs_full_cpu": 0.015625
+    },
+    {
+      "sample": 0,
+      "output": "select_10",
+      "rmse_vs_compact_cpu": 0.002654989345550861,
+      "max_abs_vs_compact_cpu": 0.01953125,
+      "correlation_vs_compact_cpu": 0.9999938350497736,
+      "max_abs_vs_full_cpu": 0.01953125
+    },
+    {
+      "sample": 1,
+      "output": "select_4",
+      "rmse_vs_compact_cpu": 0.0025046532965805153,
+      "max_abs_vs_compact_cpu": 0.015625,
+      "correlation_vs_compact_cpu": 0.9999997348688233,
+      "max_abs_vs_full_cpu": 0.015625
+    },
+    {
+      "sample": 1,
+      "output": "select_7",
+      "rmse_vs_compact_cpu": 0.0021730229631089053,
+      "max_abs_vs_compact_cpu": 0.015625,
+      "correlation_vs_compact_cpu": 0.9999998013573372,
+      "max_abs_vs_full_cpu": 0.015625
+    },
+    {
+      "sample": 1,
+      "output": "select_10",
+      "rmse_vs_compact_cpu": 0.0005069279760926434,
+      "max_abs_vs_compact_cpu": 0.00390625,
+      "correlation_vs_compact_cpu": 0.9999997724262496,
+      "max_abs_vs_full_cpu": 0.00390625
+    },
+    {
+      "sample": 2,
+      "output": "select_4",
+      "rmse_vs_compact_cpu": 0.0028814023890664044,
+      "max_abs_vs_compact_cpu": 0.015625,
+      "correlation_vs_compact_cpu": 0.9999998189233871,
+      "max_abs_vs_full_cpu": 0.015625
+    },
+    {
+      "sample": 2,
+      "output": "select_7",
+      "rmse_vs_compact_cpu": 0.0021188396348462745,
+      "max_abs_vs_compact_cpu": 0.0234375,
+      "correlation_vs_compact_cpu": 0.9999995767426141,
+      "max_abs_vs_full_cpu": 0.0234375
+    },
+    {
+      "sample": 2,
+      "output": "select_10",
+      "rmse_vs_compact_cpu": 0.0003629531017313172,
+      "max_abs_vs_compact_cpu": 0.001953125,
+      "correlation_vs_compact_cpu": 0.9999998339714609,
+      "max_abs_vs_full_cpu": 0.001953125
+    },
+    {
+      "sample": 3,
+      "output": "select_4",
+      "rmse_vs_compact_cpu": 0.0024257987112126242,
+      "max_abs_vs_compact_cpu": 0.0078125,
+      "correlation_vs_compact_cpu": 0.9999997439311155,
+      "max_abs_vs_full_cpu": 0.0078125
+    },
+    {
+      "sample": 3,
+      "output": "select_7",
+      "rmse_vs_compact_cpu": 0.001199042898481048,
+      "max_abs_vs_compact_cpu": 0.00390625,
+      "correlation_vs_compact_cpu": 0.9999997067140723,
+      "max_abs_vs_full_cpu": 0.00390625
+    },
+    {
+      "sample": 3,
+      "output": "select_10",
+      "rmse_vs_compact_cpu": 0.0006111758840737412,
+      "max_abs_vs_compact_cpu": 0.00390625,
+      "correlation_vs_compact_cpu": 0.9999997115761547,
+      "max_abs_vs_full_cpu": 0.00390625
+    },
+    {
+      "sample": 4,
+      "output": "select_4",
+      "rmse_vs_compact_cpu": 0.001737340084450808,
+      "max_abs_vs_compact_cpu": 0.015625,
+      "correlation_vs_compact_cpu": 0.9999996981735475,
+      "max_abs_vs_full_cpu": 0.015625
+    },
+    {
+      "sample": 4,
+      "output": "select_7",
+      "rmse_vs_compact_cpu": 0.0026170752556475864,
+      "max_abs_vs_compact_cpu": 0.015625,
+      "correlation_vs_compact_cpu": 0.9999998736372674,
+      "max_abs_vs_full_cpu": 0.015625
+    },
+    {
+      "sample": 4,
+      "output": "select_10",
+      "rmse_vs_compact_cpu": 0.002462919890994742,
+      "max_abs_vs_compact_cpu": 0.01373291015625,
+      "correlation_vs_compact_cpu": 0.9999930453019509,
+      "max_abs_vs_full_cpu": 0.01373291015625
+    },
+    {
+      "sample": 5,
+      "output": "select_4",
+      "rmse_vs_compact_cpu": 0.0017047461443485575,
+      "max_abs_vs_compact_cpu": 0.009765625,
+      "correlation_vs_compact_cpu": 0.999999466203797,
+      "max_abs_vs_full_cpu": 0.009765625
+    },
+    {
+      "sample": 5,
+      "output": "select_7",
+      "rmse_vs_compact_cpu": 0.0043977073609495435,
+      "max_abs_vs_compact_cpu": 0.015625,
+      "correlation_vs_compact_cpu": 0.9999998782778147,
+      "max_abs_vs_full_cpu": 0.015625
+    },
+    {
+      "sample": 5,
+      "output": "select_10",
+      "rmse_vs_compact_cpu": 0.00041234136556718605,
+      "max_abs_vs_compact_cpu": 0.001953125,
+      "correlation_vs_compact_cpu": 0.9999998337864288,
+      "max_abs_vs_full_cpu": 0.001953125
+    },
+    {
+      "sample": 6,
+      "output": "select_4",
+      "rmse_vs_compact_cpu": 0.001758835158766747,
+      "max_abs_vs_compact_cpu": 0.0062255859375,
+      "correlation_vs_compact_cpu": 0.9999997369099931,
+      "max_abs_vs_full_cpu": 0.0062255859375
+    },
+    {
+      "sample": 6,
+      "output": "select_7",
+      "rmse_vs_compact_cpu": 0.0015782965990565811,
+      "max_abs_vs_compact_cpu": 0.0078125,
+      "correlation_vs_compact_cpu": 0.9999997818785169,
+      "max_abs_vs_full_cpu": 0.0078125
+    },
+    {
+      "sample": 6,
+      "output": "select_10",
+      "rmse_vs_compact_cpu": 0.0044824254398399075,
+      "max_abs_vs_compact_cpu": 0.022705078125,
+      "correlation_vs_compact_cpu": 0.9999821510383795,
+      "max_abs_vs_full_cpu": 0.022705078125
+    },
+    {
+      "sample": 7,
+      "output": "select_4",
+      "rmse_vs_compact_cpu": 0.002024124879831529,
+      "max_abs_vs_compact_cpu": 0.015625,
+      "correlation_vs_compact_cpu": 0.9999997586820533,
+      "max_abs_vs_full_cpu": 0.015625
+    },
+    {
+      "sample": 7,
+      "output": "select_7",
+      "rmse_vs_compact_cpu": 0.00548013734676933,
+      "max_abs_vs_compact_cpu": 0.03125,
+      "correlation_vs_compact_cpu": 0.9999997773184723,
+      "max_abs_vs_full_cpu": 0.03125
+    },
+    {
+      "sample": 7,
+      "output": "select_10",
+      "rmse_vs_compact_cpu": 0.005964006590978853,
+      "max_abs_vs_compact_cpu": 0.02685546875,
+      "correlation_vs_compact_cpu": 0.9999820790126881,
+      "max_abs_vs_full_cpu": 0.02685546875
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "fcamera.hevc": {
+    "url": "https://commadataci.blob.core.windows.net/openpilotci/5beb9b58bd12b691/0000010a--a51155e496/0/fcamera.hevc",
+    "http_status": 200,
+    "content_length": "37463690",
+    "etag": "0x8DF095491DC4CC2",
+    "last_modified": "Thu, 03 Sep 2026 00:44:53 GMT",
+    "bytes": 37463690,
+    "sha256": "03c86cd00aba7fe627b224f463cfac4836d3ab385c628224f137d916c597e338"
+  },
+  "ecamera.hevc": {
+    "url": "https://commadataci.blob.core.windows.net/openpilotci/5beb9b58bd12b691/0000010a--a51155e496/0/ecamera.hevc",
+    "http_status": 200,
+    "content_length": "37558900",
+    "etag": "0x8DF095491CC590D",
+    "last_modified": "Thu, 03 Sep 2026 00:44:53 GMT",
+    "bytes": 37558900,
+    "sha256": "9b377fb1d9fa2e4c33f95af7c8b829fe0c9cbaae0176cc2ef1c93cc8980dd012"
+  },
+  "rlog.zst": {
+    "url": "https://commadataci.blob.core.windows.net/openpilotci/5beb9b58bd12b691/0000010a--a51155e496/0/rlog.zst",
+    "http_status": 200,
+    "content_length": "10742090",
+    "etag": "0x8DF095491A72051",
+    "last_modified": "Thu, 03 Sep 2026 00:44:53 GMT",
+    "bytes": 10742090,
+    "sha256": "0d4eb61a36e83cf0b626060169cfe77e78f65c8a25daf19bfdaaa4887ea45c82"
+  }
+}

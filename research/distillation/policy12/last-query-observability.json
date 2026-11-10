@@ -1,0 +1,27 @@
+{
+  "proof": "Each final-layer MLP output has one residualAdd consumer, whose only consumer is Gather(axis1,index-1). Sequence length288, so only row287 can affect original outputs.",
+  "nodes": [
+    {
+      "node": "node_select_4",
+      "axis": 1,
+      "index": -1,
+      "source": "add_53",
+      "shape": [
+        1,
+        288,
+        512
+      ]
+    },
+    {
+      "node": "node_select_10",
+      "axis": 1,
+      "index": -1,
+      "source": "add_89",
+      "shape": [
+        1,
+        288,
+        512
+      ]
+    }
+  ]
+}

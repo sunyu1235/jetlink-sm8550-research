@@ -1,0 +1,23 @@
+{
+  "runtime": "CPU:LLVM",
+  "method": "Same pinned warp, source int32 linear-index ramp; independent coordinate diagnostic, inputs unchanged.",
+  "different_sample_coordinates": 1,
+  "differences": [
+    {
+      "dst_uv_x_y": [
+        68,
+        30
+      ],
+      "numpy_src_x_y": [
+        262,
+        103
+      ],
+      "tinygrad_src_x_y": [
+        263,
+        103
+      ],
+      "numpy_float32_src_x_before_round": 262.5
+    }
+  ],
+  "limit": "The diagnostic identifies a CPU coordinate-rounding boundary difference, not QCOM parity or the compiler-level arithmetic cause."
+}

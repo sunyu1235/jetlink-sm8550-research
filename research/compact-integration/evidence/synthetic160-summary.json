@@ -1,0 +1,8 @@
+{
+  "scope": "Reconstructed compact upstream plus all3 compact tails source-level CPU fullmodel; not target execution",
+  "frames": 160,
+  "independent_recurrence": true,
+  "checker_modified": false,
+  "checker_exit": 0,
+  "verdict": "OK: every slice and every column at or above corr 0.999, or within 10% of its largest value where too small or too quiet to correlate, per frame and pooled over all 160 frames"
+}

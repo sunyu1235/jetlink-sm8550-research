@@ -1,0 +1,30 @@
+{
+  "scope": "source-level offline integration, not recovered cached EPContext replacement",
+  "model": "/workspace/shared/jetlink-distillation/real-block/teacher-compact-boundaries.onnx",
+  "sha256": "3c80a2e4ede9781a1e5aec41c503e12e2f2c739e987e168046de8ed87325800a",
+  "removed_source_node_count": 102,
+  "new_partition_nodes": 90,
+  "new_tail_nodes": 15,
+  "unrelated_nodes_byte_identical": true,
+  "original_input_output_signatures_preserved": true,
+  "zero_prefix_nodes": 0,
+  "new_initializer_names": [
+    "jl_compact_starts",
+    "jl_compact_ends",
+    "jl_compact_axis1",
+    "jl_compact_axis2",
+    "val_566__node__unsafe_view_5__last_query",
+    "val_566__node__unsafe_view_9__last_query",
+    "val_566__node__unsafe_view_13__last_query",
+    "compact_token_axis"
+  ],
+  "compact_to_original_names": {
+    "add_52__last_query": "add_52",
+    "add_72__last_query": "add_72",
+    "add_88__last_query": "add_88",
+    "linear_110__last_query": "linear_110",
+    "linear_151__last_query": "linear_151",
+    "linear_180__last_query": "linear_180"
+  },
+  "numerical_validation": "pending"
+}

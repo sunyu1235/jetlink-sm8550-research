@@ -1,0 +1,12 @@
+test_borrow_no_pad (test_bindings.Tests.test_borrow_no_pad) ... ok
+test_legacy_shape_rejected (test_bindings.Tests.test_legacy_shape_rejected) ... ok
+test_names (test_bindings.Tests.test_names) ... ok
+test_noncontiguous (test_bindings.Tests.test_noncontiguous) ... ok
+test_nonfinite (test_bindings.Tests.test_nonfinite) ... ok
+test_session_contract (test_bindings.Tests.test_session_contract) ... ok
+test_wrong_dtype (test_bindings.Tests.test_wrong_dtype) ... ok
+
+----------------------------------------------------------------------
+Ran 7 tests in 0.005s
+
+OK

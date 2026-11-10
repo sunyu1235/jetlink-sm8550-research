@@ -1,0 +1,27 @@
+{
+  "scope": "Offline host functional replay provenance, not phone runtime or driving safety",
+  "roads": {
+    "night": {
+      "frozen_input_files_verified": 641,
+      "input_manifest_sha256": "4b4c9a35ad33ab6a635003e8a6e779de6f675e4db16b91452132d38db138157a",
+      "teacher_frames_validated": 320,
+      "teacher_outputs_ordered_sha256": "c7a6168d11bd3fa53248fbc16a4f240bc3592434adec6e7df45fd3524c43f313",
+      "input_teacher_specs_byte_identical": true,
+      "reference_model": "/workspace/shared/jetlink-distillation/real-block/teacher-capture.onnx",
+      "independent_teacher_recurrence": true
+    },
+    "day": {
+      "frozen_input_files_verified": 648,
+      "input_manifest_sha256": "1228fa6498e3c4966403048b521e11abf0c8faae8b7bacfe0848983cadb4380d",
+      "teacher_frames_validated": 320,
+      "teacher_outputs_ordered_sha256": "cc7cac4e6e227258a93f12bf85f88e90fa497767e79bb0415d234a9969b79ea9",
+      "input_teacher_specs_byte_identical": true,
+      "reference_model": "/workspace/shared/jetlink-distillation/real-block/teacher-capture.onnx",
+      "independent_teacher_recurrence": true
+    }
+  },
+  "checker": {
+    "path": "/workspace/scratch/a607d96f1cc1/htp-work/vendor/jetlink/scripts/verify_parity.py",
+    "sha256": "89a4c8b5c96904a091c713a9d82ce753149e4c5af80c13eaf7ecb306d4b6ff84"
+  }
+}

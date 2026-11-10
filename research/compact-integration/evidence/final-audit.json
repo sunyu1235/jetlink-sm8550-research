@@ -1,0 +1,153 @@
+{
+  "status": "PASS_FINAL_SOURCE_REPRODUCIBLE_STRUCTURAL_AND_LOCAL_NUMERIC_TESTS",
+  "script_sha256": "73d2077e7eac186e72c41ab470c353c86b01bdb3d96eb7d381d3e4c4ed4fd4ad",
+  "numeric_script_sha256": "d072afbf2da776af720c81ec69dbe4fc31f70bcfeb2e32ea7ab17c19bf3a5141",
+  "unit_test_script_sha256": "96faa627ab63988bd5cb62496f77e8f4dbb9328654aa7d127ac1c221531b1c2d",
+  "unit_tests": {
+    "passed": 10,
+    "log": "/workspace/shared/jetlink-compact-boundaries/unit-tests.log"
+  },
+  "artifact_reproducibility": {
+    "baseline": {
+      "reference_sha256": "b009d813939e427c7b5a7424668ba6f8f5a9859525e858260549d9373d61be82",
+      "rebuilt_sha256": "b009d813939e427c7b5a7424668ba6f8f5a9859525e858260549d9373d61be82"
+    },
+    "compact": {
+      "reference_sha256": "c6e931c09ad8839df8c6dfb1a626ec96393f70bdabfa1ad064c0f4a2b194b0e3",
+      "rebuilt_sha256": "c6e931c09ad8839df8c6dfb1a626ec96393f70bdabfa1ad064c0f4a2b194b0e3"
+    }
+  },
+  "attention_matmul_proofs": [
+    {
+      "score": "matmul_6",
+      "context": "matmul_7",
+      "verified_shapes": {
+        "layer_norm_59": [
+          1,
+          8,
+          1,
+          64
+        ],
+        "transpose_8": [
+          1,
+          8,
+          64,
+          288
+        ],
+        "matmul_6": [
+          1,
+          8,
+          1,
+          288
+        ],
+        "softmax_3": [
+          1,
+          8,
+          1,
+          288
+        ],
+        "squeeze_11": [
+          1,
+          8,
+          288,
+          64
+        ],
+        "matmul_7": [
+          1,
+          8,
+          1,
+          64
+        ]
+      },
+      "unchanged_final_kv_ancestor_nodes": 13
+    },
+    {
+      "score": "matmul_14",
+      "context": "matmul_15",
+      "verified_shapes": {
+        "layer_norm_82": [
+          1,
+          8,
+          1,
+          64
+        ],
+        "transpose_16": [
+          1,
+          8,
+          64,
+          288
+        ],
+        "matmul_14": [
+          1,
+          8,
+          1,
+          288
+        ],
+        "softmax_7": [
+          1,
+          8,
+          1,
+          288
+        ],
+        "squeeze_23": [
+          1,
+          8,
+          288,
+          64
+        ],
+        "matmul_15": [
+          1,
+          8,
+          1,
+          64
+        ]
+      },
+      "unchanged_final_kv_ancestor_nodes": 13
+    },
+    {
+      "score": "matmul_22",
+      "context": "matmul_23",
+      "verified_shapes": {
+        "layer_norm_101": [
+          1,
+          8,
+          1,
+          64
+        ],
+        "transpose_24": [
+          1,
+          8,
+          64,
+          288
+        ],
+        "matmul_22": [
+          1,
+          8,
+          1,
+          288
+        ],
+        "softmax_11": [
+          1,
+          8,
+          1,
+          288
+        ],
+        "squeeze_35": [
+          1,
+          8,
+          288,
+          64
+        ],
+        "matmul_23": [
+          1,
+          8,
+          1,
+          64
+        ]
+      },
+      "unchanged_final_kv_ancestor_nodes": 13
+    }
+  ],
+  "numeric_validation": "/workspace/shared/jetlink-compact-boundaries/artifacts/numeric-validation.json",
+  "not_full_model_or_target_acceptance": true
+}

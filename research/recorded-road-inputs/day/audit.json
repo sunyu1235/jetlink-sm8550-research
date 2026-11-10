@@ -1,0 +1,98 @@
+{
+  "status": "PASS",
+  "source_total_bytes": 85764680,
+  "source_files_sha256_verified": true,
+  "full_decode_frames_per_video": 1200,
+  "full_paired_encode_indices": 1200,
+  "full_max_abs_sof_delta_ns": 45363,
+  "camera_frameIds": [
+    0,
+    1202
+  ],
+  "encode_segmentIds": [
+    0,
+    1199
+  ],
+  "encode_frameIds": [
+    2,
+    1201
+  ],
+  "calibration_validity_counts": {
+    "False": 9,
+    "True": 224
+  },
+  "first_valid_calibration_logMonoTime": 429539538201998,
+  "selected_segmentIds": [
+    200,
+    519
+  ],
+  "selected_frameIds": [
+    202,
+    521
+  ],
+  "selected_all_metadata_causal_valid": true,
+  "selected_flat_arrays_match_batched_arrays": true,
+  "selected_high_rate_carState_events": 1594,
+  "selected_max_context_age_ms": {
+    "extrinsicsCalibration": 220.858297,
+    "deviceState": 469.903264,
+    "lateralDelay": 205.914366,
+    "driverMonitoringStateDEPRECATED": 43.322527,
+    "carControl": 7.451888,
+    "carState": 11.293347,
+    "carParams": 25455.985444
+  },
+  "recording_init": {
+    "type": "initData",
+    "logMonoTime": 429534385184802,
+    "valid": true,
+    "data": {
+      "version": "0.10.4",
+      "gitCommit": "1e627a73985e531ff146497262720f06a6fc3e2b",
+      "gitBranch": "nightly",
+      "deviceType": "mici",
+      "wallTimeNanos": 1772040629609080211
+    }
+  },
+  "full_carControl_latActive_counts": {
+    "False": 1920,
+    "True": 4016
+  },
+  "full_recorded_lane_change_counts": {
+    "off": 1007,
+    "preLaneChange": 5,
+    "laneChangeStarting": 101,
+    "laneChangeFinishing": 20
+  },
+  "carParams_records": [
+    {
+      "type": "carParams",
+      "logMonoTime": 429535852511393,
+      "valid": true,
+      "data": {
+        "longitudinalActuatorDelay": 0.15000000596046448,
+        "steerActuatorDelay": 0.20000000298023224,
+        "carFingerprint": "FORD_BRONCO_SPORT_MK1",
+        "brand": "ford"
+      }
+    },
+    {
+      "type": "carParams",
+      "logMonoTime": 429585948114664,
+      "valid": true,
+      "data": {
+        "longitudinalActuatorDelay": 0.15000000596046448,
+        "steerActuatorDelay": 0.20000000298023224,
+        "carFingerprint": "FORD_BRONCO_SPORT_MK1",
+        "brand": "ford"
+      }
+    }
+  ],
+  "spec_sha256": "721b92094842200653744c988ae3b238dc2fb8947931316ec9ea0c19d479b623",
+  "night_frozen_files_verified_unchanged": 641,
+  "limits": [
+    "Offline preprocessing only. No inference, training, vehicle access or redistribution.",
+    "Target scalar formula is reconstructed, not exact captured invocation or historical hidden state.",
+    "Selected route is held out from this local student experiment, not proven absent from the original teacher training data."
+  ]
+}

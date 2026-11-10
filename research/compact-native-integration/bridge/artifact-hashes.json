@@ -1,0 +1,34 @@
+{
+  "/workspace/shared/jetlink-compact-native-bridge/bridge.cpp": {
+    "bytes": 11620,
+    "sha256": "ac97f14e2361485bee88aa1b516e0e0821b4e92e443f6942b8d951849a1b5f9f"
+  },
+  "/workspace/shared/jetlink-compact-native-bridge/libjetlink_compact_bridge.so": {
+    "bytes": 42800,
+    "sha256": "61fa6c8e304cabbfc9087962c0815d7650fb35db1af05c25df33b4c96e5046f5"
+  },
+  "/workspace/shared/jetlink-compact-native-bridge/build.sh": {
+    "bytes": 451,
+    "sha256": "dbe127db2e869a2ba2f59ba15aa71b685ad5da22d4cae40c24c4005e1b1fdccc"
+  },
+  "/workspace/shared/jetlink-compact-native-bridge/run.sh": {
+    "bytes": 494,
+    "sha256": "3d0a9ce6d6d88813bcd7d22d37caa805453b08e132bf9f4377374c9196968780"
+  },
+  "/workspace/shared/jetlink-compact-native-bridge/test_bridge.py": {
+    "bytes": 2622,
+    "sha256": "3e59f90a541cb315dae4c66d35d850d817f79e2350cb0c73ef207db85aac23c5"
+  },
+  "/workspace/shared/jetlink-compact-tail-bindings/upstream-context/compact-upstream.bin": {
+    "bytes": 8617984,
+    "sha256": "28ae51ce4bfdcdc985f595c6cc7ed2249c7e9459d1ac6ce06a7dc79c27de6718"
+  },
+  "/workspace/shared/jetlink-compact-tail-bindings/context/compact-three-tails.bin": {
+    "bytes": 2158592,
+    "sha256": "d0bb63f4604b7c0fad751a37766fb716e820c61e699f5dfe7ff5f7839ac094dd"
+  },
+  "/workspace/shared/htp-gelu-native21/build/libJetlinkGeluHostHidden.so": {
+    "bytes": 1501928,
+    "sha256": "fbc1eebf9b59c9f023dab446327f55724e27c10d057148a1b5002395e1306c7b"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "status": "SYNTHETIC_NUMPY_SMOKE_ONLY_NOT_DRIVING_MODEL",
+  "train_tokens": 4096,
+  "validation_tokens": 1024,
+  "dimensions": [
+    512,
+    1024,
+    512
+  ],
+  "student_width": 768,
+  "fit_seconds": 0.4449942240007658,
+  "synthetic_validation_rmse": 0.227889703682312,
+  "note": "Random weights and Gaussian inputs. No road accuracy, device latency, or trained-model result. CPU time is environment-specific."
+}

@@ -1,0 +1,27 @@
+{
+  "completed_frames": 4,
+  "scope": "Repeatability of interrupted run prefix, not full-road acceptance",
+  "comparisons": [
+    {
+      "frame": 0,
+      "bit_identical": true,
+      "max_abs": 0.0
+    },
+    {
+      "frame": 1,
+      "bit_identical": true,
+      "max_abs": 0.0
+    },
+    {
+      "frame": 2,
+      "bit_identical": true,
+      "max_abs": 0.0
+    },
+    {
+      "frame": 3,
+      "bit_identical": true,
+      "max_abs": 0.0
+    }
+  ],
+  "durable_frames": 4
+}

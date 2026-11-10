@@ -1,0 +1,2572 @@
+{
+  "scope": "held-out recorded-road first projection input only; fixed original synthetic-trained encoding, no fitting or acceptance claim",
+  "range": [
+    -2.968755898946256,
+    2.052728623893927
+  ],
+  "frames": 320,
+  "clipped": 5701,
+  "values": 47185920,
+  "frames_detail": [
+    {
+      "frame": 0,
+      "minimum": -2.923828125,
+      "maximum": 2.15234375,
+      "below": 0,
+      "above": 1,
+      "values": 147456
+    },
+    {
+      "frame": 1,
+      "minimum": -2.8671875,
+      "maximum": 2.103515625,
+      "below": 0,
+      "above": 1,
+      "values": 147456
+    },
+    {
+      "frame": 2,
+      "minimum": -2.919921875,
+      "maximum": 2.169921875,
+      "below": 0,
+      "above": 1,
+      "values": 147456
+    },
+    {
+      "frame": 3,
+      "minimum": -2.9296875,
+      "maximum": 2.130859375,
+      "below": 0,
+      "above": 1,
+      "values": 147456
+    },
+    {
+      "frame": 4,
+      "minimum": -3.1171875,
+      "maximum": 2.408203125,
+      "below": 1,
+      "above": 2,
+      "values": 147456
+    },
+    {
+      "frame": 5,
+      "minimum": -3.1171875,
+      "maximum": 2.392578125,
+      "below": 1,
+      "above": 2,
+      "values": 147456
+    },
+    {
+      "frame": 6,
+      "minimum": -3.08984375,
+      "maximum": 2.36328125,
+      "below": 1,
+      "above": 2,
+      "values": 147456
+    },
+    {
+      "frame": 7,
+      "minimum": -3.1171875,
+      "maximum": 2.412109375,
+      "below": 1,
+      "above": 2,
+      "values": 147456
+    },
+    {
+      "frame": 8,
+      "minimum": -3.201171875,
+      "maximum": 2.5,
+      "below": 2,
+      "above": 3,
+      "values": 147456
+    },
+    {
+      "frame": 9,
+      "minimum": -3.1953125,
+      "maximum": 2.482421875,
+      "below": 2,
+      "above": 2,
+      "values": 147456
+    },
+    {
+      "frame": 10,
+      "minimum": -3.232421875,
+      "maximum": 2.51953125,
+      "below": 2,
+      "above": 3,
+      "values": 147456
+    },
+    {
+      "frame": 11,
+      "minimum": -3.251953125,
+      "maximum": 2.517578125,
+      "below": 2,
+      "above": 3,
+      "values": 147456
+    },
+    {
+      "frame": 12,
+      "minimum": -3.26171875,
+      "maximum": 2.5859375,
+      "below": 4,
+      "above": 4,
+      "values": 147456
+    },
+    {
+      "frame": 13,
+      "minimum": -3.271484375,
+      "maximum": 2.578125,
+      "below": 3,
+      "above": 4,
+      "values": 147456
+    },
+    {
+      "frame": 14,
+      "minimum": -3.341796875,
+      "maximum": 2.62890625,
+      "below": 4,
+      "above": 4,
+      "values": 147456
+    },
+    {
+      "frame": 15,
+      "minimum": -3.3515625,
+      "maximum": 2.626953125,
+      "below": 4,
+      "above": 4,
+      "values": 147456
+    },
+    {
+      "frame": 16,
+      "minimum": -3.400390625,
+      "maximum": 2.646484375,
+      "below": 4,
+      "above": 5,
+      "values": 147456
+    },
+    {
+      "frame": 17,
+      "minimum": -3.357421875,
+      "maximum": 2.640625,
+      "below": 4,
+      "above": 5,
+      "values": 147456
+    },
+    {
+      "frame": 18,
+      "minimum": -3.33203125,
+      "maximum": 2.685546875,
+      "below": 4,
+      "above": 5,
+      "values": 147456
+    },
+    {
+      "frame": 19,
+      "minimum": -3.33984375,
+      "maximum": 2.6953125,
+      "below": 4,
+      "above": 5,
+      "values": 147456
+    },
+    {
+      "frame": 20,
+      "minimum": -3.39453125,
+      "maximum": 2.759765625,
+      "below": 6,
+      "above": 6,
+      "values": 147456
+    },
+    {
+      "frame": 21,
+      "minimum": -3.353515625,
+      "maximum": 2.708984375,
+      "below": 6,
+      "above": 6,
+      "values": 147456
+    },
+    {
+      "frame": 22,
+      "minimum": -3.32421875,
+      "maximum": 2.689453125,
+      "below": 6,
+      "above": 6,
+      "values": 147456
+    },
+    {
+      "frame": 23,
+      "minimum": -3.337890625,
+      "maximum": 2.703125,
+      "below": 6,
+      "above": 7,
+      "values": 147456
+    },
+    {
+      "frame": 24,
+      "minimum": -3.357421875,
+      "maximum": 2.74609375,
+      "below": 6,
+      "above": 8,
+      "values": 147456
+    },
+    {
+      "frame": 25,
+      "minimum": -3.384765625,
+      "maximum": 2.71875,
+      "below": 6,
+      "above": 8,
+      "values": 147456
+    },
+    {
+      "frame": 26,
+      "minimum": -3.43359375,
+      "maximum": 2.76953125,
+      "below": 6,
+      "above": 8,
+      "values": 147456
+    },
+    {
+      "frame": 27,
+      "minimum": -3.44140625,
+      "maximum": 2.767578125,
+      "below": 6,
+      "above": 8,
+      "values": 147456
+    },
+    {
+      "frame": 28,
+      "minimum": -3.509765625,
+      "maximum": 2.8046875,
+      "below": 8,
+      "above": 9,
+      "values": 147456
+    },
+    {
+      "frame": 29,
+      "minimum": -3.46875,
+      "maximum": 2.802734375,
+      "below": 8,
+      "above": 9,
+      "values": 147456
+    },
+    {
+      "frame": 30,
+      "minimum": -3.447265625,
+      "maximum": 2.845703125,
+      "below": 8,
+      "above": 9,
+      "values": 147456
+    },
+    {
+      "frame": 31,
+      "minimum": -3.47265625,
+      "maximum": 2.859375,
+      "below": 8,
+      "above": 10,
+      "values": 147456
+    },
+    {
+      "frame": 32,
+      "minimum": -3.529296875,
+      "maximum": 2.939453125,
+      "below": 9,
+      "above": 12,
+      "values": 147456
+    },
+    {
+      "frame": 33,
+      "minimum": -3.548828125,
+      "maximum": 2.890625,
+      "below": 9,
+      "above": 12,
+      "values": 147456
+    },
+    {
+      "frame": 34,
+      "minimum": -3.58203125,
+      "maximum": 2.875,
+      "below": 9,
+      "above": 12,
+      "values": 147456
+    },
+    {
+      "frame": 35,
+      "minimum": -3.583984375,
+      "maximum": 2.884765625,
+      "below": 9,
+      "above": 12,
+      "values": 147456
+    },
+    {
+      "frame": 36,
+      "minimum": -3.650390625,
+      "maximum": 2.9375,
+      "below": 10,
+      "above": 12,
+      "values": 147456
+    },
+    {
+      "frame": 37,
+      "minimum": -3.61328125,
+      "maximum": 2.89453125,
+      "below": 9,
+      "above": 11,
+      "values": 147456
+    },
+    {
+      "frame": 38,
+      "minimum": -3.587890625,
+      "maximum": 2.923828125,
+      "below": 10,
+      "above": 11,
+      "values": 147456
+    },
+    {
+      "frame": 39,
+      "minimum": -3.587890625,
+      "maximum": 2.951171875,
+      "below": 10,
+      "above": 12,
+      "values": 147456
+    },
+    {
+      "frame": 40,
+      "minimum": -3.6015625,
+      "maximum": 2.927734375,
+      "below": 9,
+      "above": 12,
+      "values": 147456
+    },
+    {
+      "frame": 41,
+      "minimum": -3.55859375,
+      "maximum": 2.953125,
+      "below": 9,
+      "above": 11,
+      "values": 147456
+    },
+    {
+      "frame": 42,
+      "minimum": -3.568359375,
+      "maximum": 2.943359375,
+      "below": 9,
+      "above": 12,
+      "values": 147456
+    },
+    {
+      "frame": 43,
+      "minimum": -3.59375,
+      "maximum": 2.984375,
+      "below": 9,
+      "above": 12,
+      "values": 147456
+    },
+    {
+      "frame": 44,
+      "minimum": -3.630859375,
+      "maximum": 3.01171875,
+      "below": 9,
+      "above": 12,
+      "values": 147456
+    },
+    {
+      "frame": 45,
+      "minimum": -3.65625,
+      "maximum": 3.00390625,
+      "below": 9,
+      "above": 12,
+      "values": 147456
+    },
+    {
+      "frame": 46,
+      "minimum": -3.66796875,
+      "maximum": 2.998046875,
+      "below": 9,
+      "above": 12,
+      "values": 147456
+    },
+    {
+      "frame": 47,
+      "minimum": -3.6484375,
+      "maximum": 2.978515625,
+      "below": 10,
+      "above": 12,
+      "values": 147456
+    },
+    {
+      "frame": 48,
+      "minimum": -3.69921875,
+      "maximum": 3.046875,
+      "below": 9,
+      "above": 10,
+      "values": 147456
+    },
+    {
+      "frame": 49,
+      "minimum": -3.765625,
+      "maximum": 3.044921875,
+      "below": 9,
+      "above": 10,
+      "values": 147456
+    },
+    {
+      "frame": 50,
+      "minimum": -3.76171875,
+      "maximum": 3.01953125,
+      "below": 9,
+      "above": 11,
+      "values": 147456
+    },
+    {
+      "frame": 51,
+      "minimum": -3.7890625,
+      "maximum": 3.015625,
+      "below": 9,
+      "above": 12,
+      "values": 147456
+    },
+    {
+      "frame": 52,
+      "minimum": -3.806640625,
+      "maximum": 3.05859375,
+      "below": 9,
+      "above": 11,
+      "values": 147456
+    },
+    {
+      "frame": 53,
+      "minimum": -3.84765625,
+      "maximum": 3.056640625,
+      "below": 9,
+      "above": 10,
+      "values": 147456
+    },
+    {
+      "frame": 54,
+      "minimum": -3.84375,
+      "maximum": 3.080078125,
+      "below": 9,
+      "above": 10,
+      "values": 147456
+    },
+    {
+      "frame": 55,
+      "minimum": -3.791015625,
+      "maximum": 3.13671875,
+      "below": 9,
+      "above": 10,
+      "values": 147456
+    },
+    {
+      "frame": 56,
+      "minimum": -3.7734375,
+      "maximum": 3.05078125,
+      "below": 9,
+      "above": 11,
+      "values": 147456
+    },
+    {
+      "frame": 57,
+      "minimum": -3.822265625,
+      "maximum": 3.103515625,
+      "below": 9,
+      "above": 10,
+      "values": 147456
+    },
+    {
+      "frame": 58,
+      "minimum": -3.81640625,
+      "maximum": 3.091796875,
+      "below": 9,
+      "above": 10,
+      "values": 147456
+    },
+    {
+      "frame": 59,
+      "minimum": -3.802734375,
+      "maximum": 3.072265625,
+      "below": 9,
+      "above": 10,
+      "values": 147456
+    },
+    {
+      "frame": 60,
+      "minimum": -3.81640625,
+      "maximum": 3.091796875,
+      "below": 9,
+      "above": 11,
+      "values": 147456
+    },
+    {
+      "frame": 61,
+      "minimum": -3.83984375,
+      "maximum": 3.078125,
+      "below": 9,
+      "above": 10,
+      "values": 147456
+    },
+    {
+      "frame": 62,
+      "minimum": -3.853515625,
+      "maximum": 3.07421875,
+      "below": 9,
+      "above": 10,
+      "values": 147456
+    },
+    {
+      "frame": 63,
+      "minimum": -3.87109375,
+      "maximum": 3.1015625,
+      "below": 9,
+      "above": 10,
+      "values": 147456
+    },
+    {
+      "frame": 64,
+      "minimum": -3.8828125,
+      "maximum": 3.185546875,
+      "below": 9,
+      "above": 10,
+      "values": 147456
+    },
+    {
+      "frame": 65,
+      "minimum": -3.919921875,
+      "maximum": 3.193359375,
+      "below": 9,
+      "above": 10,
+      "values": 147456
+    },
+    {
+      "frame": 66,
+      "minimum": -3.916015625,
+      "maximum": 3.185546875,
+      "below": 9,
+      "above": 10,
+      "values": 147456
+    },
+    {
+      "frame": 67,
+      "minimum": -3.876953125,
+      "maximum": 3.19140625,
+      "below": 9,
+      "above": 10,
+      "values": 147456
+    },
+    {
+      "frame": 68,
+      "minimum": -3.890625,
+      "maximum": 3.197265625,
+      "below": 9,
+      "above": 10,
+      "values": 147456
+    },
+    {
+      "frame": 69,
+      "minimum": -3.91015625,
+      "maximum": 3.234375,
+      "below": 9,
+      "above": 9,
+      "values": 147456
+    },
+    {
+      "frame": 70,
+      "minimum": -3.9140625,
+      "maximum": 3.224609375,
+      "below": 9,
+      "above": 9,
+      "values": 147456
+    },
+    {
+      "frame": 71,
+      "minimum": -3.9375,
+      "maximum": 3.19921875,
+      "below": 9,
+      "above": 10,
+      "values": 147456
+    },
+    {
+      "frame": 72,
+      "minimum": -3.9453125,
+      "maximum": 3.19140625,
+      "below": 9,
+      "above": 10,
+      "values": 147456
+    },
+    {
+      "frame": 73,
+      "minimum": -3.98828125,
+      "maximum": 3.197265625,
+      "below": 9,
+      "above": 9,
+      "values": 147456
+    },
+    {
+      "frame": 74,
+      "minimum": -3.984375,
+      "maximum": 3.208984375,
+      "below": 9,
+      "above": 9,
+      "values": 147456
+    },
+    {
+      "frame": 75,
+      "minimum": -3.966796875,
+      "maximum": 3.236328125,
+      "below": 9,
+      "above": 9,
+      "values": 147456
+    },
+    {
+      "frame": 76,
+      "minimum": -3.955078125,
+      "maximum": 3.23828125,
+      "below": 9,
+      "above": 9,
+      "values": 147456
+    },
+    {
+      "frame": 77,
+      "minimum": -3.97265625,
+      "maximum": 3.25,
+      "below": 9,
+      "above": 9,
+      "values": 147456
+    },
+    {
+      "frame": 78,
+      "minimum": -3.96484375,
+      "maximum": 3.283203125,
+      "below": 9,
+      "above": 9,
+      "values": 147456
+    },
+    {
+      "frame": 79,
+      "minimum": -3.966796875,
+      "maximum": 3.267578125,
+      "below": 9,
+      "above": 9,
+      "values": 147456
+    },
+    {
+      "frame": 80,
+      "minimum": -3.9765625,
+      "maximum": 3.24609375,
+      "below": 9,
+      "above": 9,
+      "values": 147456
+    },
+    {
+      "frame": 81,
+      "minimum": -3.9921875,
+      "maximum": 3.302734375,
+      "below": 9,
+      "above": 9,
+      "values": 147456
+    },
+    {
+      "frame": 82,
+      "minimum": -4.0234375,
+      "maximum": 3.294921875,
+      "below": 9,
+      "above": 9,
+      "values": 147456
+    },
+    {
+      "frame": 83,
+      "minimum": -4.05078125,
+      "maximum": 3.259765625,
+      "below": 9,
+      "above": 9,
+      "values": 147456
+    },
+    {
+      "frame": 84,
+      "minimum": -4.03515625,
+      "maximum": 3.2578125,
+      "below": 9,
+      "above": 9,
+      "values": 147456
+    },
+    {
+      "frame": 85,
+      "minimum": -4.05859375,
+      "maximum": 3.271484375,
+      "below": 9,
+      "above": 9,
+      "values": 147456
+    },
+    {
+      "frame": 86,
+      "minimum": -4.04296875,
+      "maximum": 3.26953125,
+      "below": 9,
+      "above": 10,
+      "values": 147456
+    },
+    {
+      "frame": 87,
+      "minimum": -4.04296875,
+      "maximum": 3.29296875,
+      "below": 9,
+      "above": 9,
+      "values": 147456
+    },
+    {
+      "frame": 88,
+      "minimum": -4.04296875,
+      "maximum": 3.29296875,
+      "below": 9,
+      "above": 10,
+      "values": 147456
+    },
+    {
+      "frame": 89,
+      "minimum": -4.0546875,
+      "maximum": 3.3046875,
+      "below": 9,
+      "above": 9,
+      "values": 147456
+    },
+    {
+      "frame": 90,
+      "minimum": -4.02734375,
+      "maximum": 3.328125,
+      "below": 9,
+      "above": 9,
+      "values": 147456
+    },
+    {
+      "frame": 91,
+      "minimum": -4.05859375,
+      "maximum": 3.318359375,
+      "below": 9,
+      "above": 9,
+      "values": 147456
+    },
+    {
+      "frame": 92,
+      "minimum": -4.07421875,
+      "maximum": 3.298828125,
+      "below": 9,
+      "above": 9,
+      "values": 147456
+    },
+    {
+      "frame": 93,
+      "minimum": -4.0546875,
+      "maximum": 3.30859375,
+      "below": 9,
+      "above": 9,
+      "values": 147456
+    },
+    {
+      "frame": 94,
+      "minimum": -4.04296875,
+      "maximum": 3.3203125,
+      "below": 9,
+      "above": 9,
+      "values": 147456
+    },
+    {
+      "frame": 95,
+      "minimum": -4.0390625,
+      "maximum": 3.3125,
+      "below": 9,
+      "above": 9,
+      "values": 147456
+    },
+    {
+      "frame": 96,
+      "minimum": -4.03125,
+      "maximum": 3.3203125,
+      "below": 9,
+      "above": 9,
+      "values": 147456
+    },
+    {
+      "frame": 97,
+      "minimum": -4.04296875,
+      "maximum": 3.33203125,
+      "below": 9,
+      "above": 9,
+      "values": 147456
+    },
+    {
+      "frame": 98,
+      "minimum": -4.04296875,
+      "maximum": 3.29296875,
+      "below": 9,
+      "above": 9,
+      "values": 147456
+    },
+    {
+      "frame": 99,
+      "minimum": -4.0234375,
+      "maximum": 3.318359375,
+      "below": 9,
+      "above": 9,
+      "values": 147456
+    },
+    {
+      "frame": 100,
+      "minimum": -4.0390625,
+      "maximum": 3.328125,
+      "below": 9,
+      "above": 9,
+      "values": 147456
+    },
+    {
+      "frame": 101,
+      "minimum": -4.0703125,
+      "maximum": 3.333984375,
+      "below": 9,
+      "above": 9,
+      "values": 147456
+    },
+    {
+      "frame": 102,
+      "minimum": -4.0390625,
+      "maximum": 3.30859375,
+      "below": 9,
+      "above": 9,
+      "values": 147456
+    },
+    {
+      "frame": 103,
+      "minimum": -4.0546875,
+      "maximum": 3.318359375,
+      "below": 9,
+      "above": 9,
+      "values": 147456
+    },
+    {
+      "frame": 104,
+      "minimum": -4.046875,
+      "maximum": 3.318359375,
+      "below": 9,
+      "above": 9,
+      "values": 147456
+    },
+    {
+      "frame": 105,
+      "minimum": -4.03125,
+      "maximum": 3.330078125,
+      "below": 9,
+      "above": 9,
+      "values": 147456
+    },
+    {
+      "frame": 106,
+      "minimum": -4.00390625,
+      "maximum": 3.33203125,
+      "below": 9,
+      "above": 9,
+      "values": 147456
+    },
+    {
+      "frame": 107,
+      "minimum": -3.984375,
+      "maximum": 3.326171875,
+      "below": 9,
+      "above": 9,
+      "values": 147456
+    },
+    {
+      "frame": 108,
+      "minimum": -3.984375,
+      "maximum": 3.33984375,
+      "below": 9,
+      "above": 9,
+      "values": 147456
+    },
+    {
+      "frame": 109,
+      "minimum": -4.01171875,
+      "maximum": 3.353515625,
+      "below": 9,
+      "above": 9,
+      "values": 147456
+    },
+    {
+      "frame": 110,
+      "minimum": -4.015625,
+      "maximum": 3.357421875,
+      "below": 9,
+      "above": 9,
+      "values": 147456
+    },
+    {
+      "frame": 111,
+      "minimum": -3.982421875,
+      "maximum": 3.359375,
+      "below": 9,
+      "above": 9,
+      "values": 147456
+    },
+    {
+      "frame": 112,
+      "minimum": -4.00390625,
+      "maximum": 3.34375,
+      "below": 9,
+      "above": 9,
+      "values": 147456
+    },
+    {
+      "frame": 113,
+      "minimum": -4.015625,
+      "maximum": 3.310546875,
+      "below": 9,
+      "above": 9,
+      "values": 147456
+    },
+    {
+      "frame": 114,
+      "minimum": -4.01171875,
+      "maximum": 3.3125,
+      "below": 9,
+      "above": 9,
+      "values": 147456
+    },
+    {
+      "frame": 115,
+      "minimum": -3.984375,
+      "maximum": 3.314453125,
+      "below": 9,
+      "above": 9,
+      "values": 147456
+    },
+    {
+      "frame": 116,
+      "minimum": -3.984375,
+      "maximum": 3.3125,
+      "below": 9,
+      "above": 9,
+      "values": 147456
+    },
+    {
+      "frame": 117,
+      "minimum": -3.923828125,
+      "maximum": 3.296875,
+      "below": 9,
+      "above": 9,
+      "values": 147456
+    },
+    {
+      "frame": 118,
+      "minimum": -3.93359375,
+      "maximum": 3.296875,
+      "below": 9,
+      "above": 9,
+      "values": 147456
+    },
+    {
+      "frame": 119,
+      "minimum": -3.92578125,
+      "maximum": 3.267578125,
+      "below": 9,
+      "above": 10,
+      "values": 147456
+    },
+    {
+      "frame": 120,
+      "minimum": -3.927734375,
+      "maximum": 3.2890625,
+      "below": 9,
+      "above": 9,
+      "values": 147456
+    },
+    {
+      "frame": 121,
+      "minimum": -3.92578125,
+      "maximum": 3.271484375,
+      "below": 9,
+      "above": 9,
+      "values": 147456
+    },
+    {
+      "frame": 122,
+      "minimum": -3.943359375,
+      "maximum": 3.28125,
+      "below": 9,
+      "above": 9,
+      "values": 147456
+    },
+    {
+      "frame": 123,
+      "minimum": -3.92578125,
+      "maximum": 3.28515625,
+      "below": 9,
+      "above": 10,
+      "values": 147456
+    },
+    {
+      "frame": 124,
+      "minimum": -3.935546875,
+      "maximum": 3.287109375,
+      "below": 9,
+      "above": 9,
+      "values": 147456
+    },
+    {
+      "frame": 125,
+      "minimum": -3.943359375,
+      "maximum": 3.23046875,
+      "below": 9,
+      "above": 9,
+      "values": 147456
+    },
+    {
+      "frame": 126,
+      "minimum": -3.927734375,
+      "maximum": 3.205078125,
+      "below": 9,
+      "above": 9,
+      "values": 147456
+    },
+    {
+      "frame": 127,
+      "minimum": -3.93359375,
+      "maximum": 3.234375,
+      "below": 9,
+      "above": 9,
+      "values": 147456
+    },
+    {
+      "frame": 128,
+      "minimum": -3.943359375,
+      "maximum": 3.25,
+      "below": 9,
+      "above": 9,
+      "values": 147456
+    },
+    {
+      "frame": 129,
+      "minimum": -3.91796875,
+      "maximum": 3.275390625,
+      "below": 9,
+      "above": 9,
+      "values": 147456
+    },
+    {
+      "frame": 130,
+      "minimum": -3.912109375,
+      "maximum": 3.279296875,
+      "below": 9,
+      "above": 10,
+      "values": 147456
+    },
+    {
+      "frame": 131,
+      "minimum": -3.88671875,
+      "maximum": 3.267578125,
+      "below": 9,
+      "above": 9,
+      "values": 147456
+    },
+    {
+      "frame": 132,
+      "minimum": -3.900390625,
+      "maximum": 3.265625,
+      "below": 9,
+      "above": 9,
+      "values": 147456
+    },
+    {
+      "frame": 133,
+      "minimum": -3.916015625,
+      "maximum": 3.3046875,
+      "below": 9,
+      "above": 9,
+      "values": 147456
+    },
+    {
+      "frame": 134,
+      "minimum": -3.92578125,
+      "maximum": 3.2734375,
+      "below": 9,
+      "above": 9,
+      "values": 147456
+    },
+    {
+      "frame": 135,
+      "minimum": -3.880859375,
+      "maximum": 3.287109375,
+      "below": 9,
+      "above": 9,
+      "values": 147456
+    },
+    {
+      "frame": 136,
+      "minimum": -3.90234375,
+      "maximum": 3.302734375,
+      "below": 9,
+      "above": 9,
+      "values": 147456
+    },
+    {
+      "frame": 137,
+      "minimum": -3.9140625,
+      "maximum": 3.263671875,
+      "below": 9,
+      "above": 9,
+      "values": 147456
+    },
+    {
+      "frame": 138,
+      "minimum": -3.880859375,
+      "maximum": 3.2734375,
+      "below": 9,
+      "above": 9,
+      "values": 147456
+    },
+    {
+      "frame": 139,
+      "minimum": -3.880859375,
+      "maximum": 3.2578125,
+      "below": 9,
+      "above": 9,
+      "values": 147456
+    },
+    {
+      "frame": 140,
+      "minimum": -3.8984375,
+      "maximum": 3.25,
+      "below": 9,
+      "above": 9,
+      "values": 147456
+    },
+    {
+      "frame": 141,
+      "minimum": -3.876953125,
+      "maximum": 3.23046875,
+      "below": 9,
+      "above": 9,
+      "values": 147456
+    },
+    {
+      "frame": 142,
+      "minimum": -3.896484375,
+      "maximum": 3.2421875,
+      "below": 9,
+      "above": 9,
+      "values": 147456
+    },
+    {
+      "frame": 143,
+      "minimum": -3.90625,
+      "maximum": 3.220703125,
+      "below": 9,
+      "above": 9,
+      "values": 147456
+    },
+    {
+      "frame": 144,
+      "minimum": -3.900390625,
+      "maximum": 3.2109375,
+      "below": 9,
+      "above": 9,
+      "values": 147456
+    },
+    {
+      "frame": 145,
+      "minimum": -3.841796875,
+      "maximum": 3.21875,
+      "below": 9,
+      "above": 10,
+      "values": 147456
+    },
+    {
+      "frame": 146,
+      "minimum": -3.84375,
+      "maximum": 3.224609375,
+      "below": 9,
+      "above": 9,
+      "values": 147456
+    },
+    {
+      "frame": 147,
+      "minimum": -3.814453125,
+      "maximum": 3.22265625,
+      "below": 9,
+      "above": 9,
+      "values": 147456
+    },
+    {
+      "frame": 148,
+      "minimum": -3.8046875,
+      "maximum": 3.208984375,
+      "below": 9,
+      "above": 9,
+      "values": 147456
+    },
+    {
+      "frame": 149,
+      "minimum": -3.833984375,
+      "maximum": 3.162109375,
+      "below": 9,
+      "above": 9,
+      "values": 147456
+    },
+    {
+      "frame": 150,
+      "minimum": -3.84375,
+      "maximum": 3.16015625,
+      "below": 9,
+      "above": 9,
+      "values": 147456
+    },
+    {
+      "frame": 151,
+      "minimum": -3.806640625,
+      "maximum": 3.14453125,
+      "below": 9,
+      "above": 9,
+      "values": 147456
+    },
+    {
+      "frame": 152,
+      "minimum": -3.798828125,
+      "maximum": 3.16796875,
+      "below": 9,
+      "above": 9,
+      "values": 147456
+    },
+    {
+      "frame": 153,
+      "minimum": -3.763671875,
+      "maximum": 3.12109375,
+      "below": 9,
+      "above": 9,
+      "values": 147456
+    },
+    {
+      "frame": 154,
+      "minimum": -3.748046875,
+      "maximum": 3.087890625,
+      "below": 9,
+      "above": 9,
+      "values": 147456
+    },
+    {
+      "frame": 155,
+      "minimum": -3.779296875,
+      "maximum": 3.09375,
+      "below": 9,
+      "above": 9,
+      "values": 147456
+    },
+    {
+      "frame": 156,
+      "minimum": -3.763671875,
+      "maximum": 3.083984375,
+      "below": 9,
+      "above": 10,
+      "values": 147456
+    },
+    {
+      "frame": 157,
+      "minimum": -3.712890625,
+      "maximum": 3.08203125,
+      "below": 9,
+      "above": 10,
+      "values": 147456
+    },
+    {
+      "frame": 158,
+      "minimum": -3.66015625,
+      "maximum": 3.08203125,
+      "below": 9,
+      "above": 10,
+      "values": 147456
+    },
+    {
+      "frame": 159,
+      "minimum": -3.673828125,
+      "maximum": 3.099609375,
+      "below": 9,
+      "above": 12,
+      "values": 147456
+    },
+    {
+      "frame": 160,
+      "minimum": -3.67578125,
+      "maximum": 3.072265625,
+      "below": 9,
+      "above": 11,
+      "values": 147456
+    },
+    {
+      "frame": 161,
+      "minimum": -3.66015625,
+      "maximum": 3.025390625,
+      "below": 9,
+      "above": 10,
+      "values": 147456
+    },
+    {
+      "frame": 162,
+      "minimum": -3.6484375,
+      "maximum": 3.052734375,
+      "below": 9,
+      "above": 9,
+      "values": 147456
+    },
+    {
+      "frame": 163,
+      "minimum": -3.72265625,
+      "maximum": 3.11328125,
+      "below": 9,
+      "above": 10,
+      "values": 147456
+    },
+    {
+      "frame": 164,
+      "minimum": -3.658203125,
+      "maximum": 3.080078125,
+      "below": 9,
+      "above": 10,
+      "values": 147456
+    },
+    {
+      "frame": 165,
+      "minimum": -3.58984375,
+      "maximum": 3.013671875,
+      "below": 9,
+      "above": 11,
+      "values": 147456
+    },
+    {
+      "frame": 166,
+      "minimum": -3.634765625,
+      "maximum": 3.044921875,
+      "below": 9,
+      "above": 10,
+      "values": 147456
+    },
+    {
+      "frame": 167,
+      "minimum": -3.71484375,
+      "maximum": 3.044921875,
+      "below": 9,
+      "above": 9,
+      "values": 147456
+    },
+    {
+      "frame": 168,
+      "minimum": -3.6328125,
+      "maximum": 3.05078125,
+      "below": 9,
+      "above": 11,
+      "values": 147456
+    },
+    {
+      "frame": 169,
+      "minimum": -3.626953125,
+      "maximum": 3.048828125,
+      "below": 9,
+      "above": 11,
+      "values": 147456
+    },
+    {
+      "frame": 170,
+      "minimum": -3.615234375,
+      "maximum": 3.0390625,
+      "below": 9,
+      "above": 10,
+      "values": 147456
+    },
+    {
+      "frame": 171,
+      "minimum": -3.6171875,
+      "maximum": 2.9921875,
+      "below": 9,
+      "above": 11,
+      "values": 147456
+    },
+    {
+      "frame": 172,
+      "minimum": -3.62890625,
+      "maximum": 3.005859375,
+      "below": 9,
+      "above": 11,
+      "values": 147456
+    },
+    {
+      "frame": 173,
+      "minimum": -3.6171875,
+      "maximum": 2.982421875,
+      "below": 9,
+      "above": 10,
+      "values": 147456
+    },
+    {
+      "frame": 174,
+      "minimum": -3.611328125,
+      "maximum": 2.97265625,
+      "below": 9,
+      "above": 10,
+      "values": 147456
+    },
+    {
+      "frame": 175,
+      "minimum": -3.572265625,
+      "maximum": 2.98828125,
+      "below": 9,
+      "above": 10,
+      "values": 147456
+    },
+    {
+      "frame": 176,
+      "minimum": -3.58203125,
+      "maximum": 2.94140625,
+      "below": 9,
+      "above": 11,
+      "values": 147456
+    },
+    {
+      "frame": 177,
+      "minimum": -3.5625,
+      "maximum": 2.966796875,
+      "below": 9,
+      "above": 12,
+      "values": 147456
+    },
+    {
+      "frame": 178,
+      "minimum": -3.57421875,
+      "maximum": 2.962890625,
+      "below": 9,
+      "above": 11,
+      "values": 147456
+    },
+    {
+      "frame": 179,
+      "minimum": -3.568359375,
+      "maximum": 2.990234375,
+      "below": 9,
+      "above": 11,
+      "values": 147456
+    },
+    {
+      "frame": 180,
+      "minimum": -3.572265625,
+      "maximum": 2.958984375,
+      "below": 9,
+      "above": 10,
+      "values": 147456
+    },
+    {
+      "frame": 181,
+      "minimum": -3.560546875,
+      "maximum": 2.931640625,
+      "below": 9,
+      "above": 11,
+      "values": 147456
+    },
+    {
+      "frame": 182,
+      "minimum": -3.548828125,
+      "maximum": 2.984375,
+      "below": 9,
+      "above": 10,
+      "values": 147456
+    },
+    {
+      "frame": 183,
+      "minimum": -3.544921875,
+      "maximum": 2.931640625,
+      "below": 9,
+      "above": 10,
+      "values": 147456
+    },
+    {
+      "frame": 184,
+      "minimum": -3.53125,
+      "maximum": 2.94140625,
+      "below": 9,
+      "above": 11,
+      "values": 147456
+    },
+    {
+      "frame": 185,
+      "minimum": -3.5078125,
+      "maximum": 2.935546875,
+      "below": 9,
+      "above": 13,
+      "values": 147456
+    },
+    {
+      "frame": 186,
+      "minimum": -3.548828125,
+      "maximum": 2.951171875,
+      "below": 9,
+      "above": 12,
+      "values": 147456
+    },
+    {
+      "frame": 187,
+      "minimum": -3.529296875,
+      "maximum": 2.953125,
+      "below": 9,
+      "above": 12,
+      "values": 147456
+    },
+    {
+      "frame": 188,
+      "minimum": -3.53515625,
+      "maximum": 2.939453125,
+      "below": 9,
+      "above": 12,
+      "values": 147456
+    },
+    {
+      "frame": 189,
+      "minimum": -3.517578125,
+      "maximum": 2.919921875,
+      "below": 8,
+      "above": 12,
+      "values": 147456
+    },
+    {
+      "frame": 190,
+      "minimum": -3.5234375,
+      "maximum": 2.880859375,
+      "below": 10,
+      "above": 11,
+      "values": 147456
+    },
+    {
+      "frame": 191,
+      "minimum": -3.51953125,
+      "maximum": 2.87109375,
+      "below": 10,
+      "above": 11,
+      "values": 147456
+    },
+    {
+      "frame": 192,
+      "minimum": -3.51953125,
+      "maximum": 2.830078125,
+      "below": 10,
+      "above": 11,
+      "values": 147456
+    },
+    {
+      "frame": 193,
+      "minimum": -3.490234375,
+      "maximum": 2.853515625,
+      "below": 7,
+      "above": 10,
+      "values": 147456
+    },
+    {
+      "frame": 194,
+      "minimum": -3.447265625,
+      "maximum": 2.83984375,
+      "below": 7,
+      "above": 12,
+      "values": 147456
+    },
+    {
+      "frame": 195,
+      "minimum": -3.43359375,
+      "maximum": 2.82421875,
+      "below": 8,
+      "above": 12,
+      "values": 147456
+    },
+    {
+      "frame": 196,
+      "minimum": -3.392578125,
+      "maximum": 2.802734375,
+      "below": 7,
+      "above": 10,
+      "values": 147456
+    },
+    {
+      "frame": 197,
+      "minimum": -3.408203125,
+      "maximum": 2.80859375,
+      "below": 6,
+      "above": 11,
+      "values": 147456
+    },
+    {
+      "frame": 198,
+      "minimum": -3.365234375,
+      "maximum": 2.724609375,
+      "below": 7,
+      "above": 12,
+      "values": 147456
+    },
+    {
+      "frame": 199,
+      "minimum": -3.33984375,
+      "maximum": 2.70703125,
+      "below": 7,
+      "above": 12,
+      "values": 147456
+    },
+    {
+      "frame": 200,
+      "minimum": -3.333984375,
+      "maximum": 2.75,
+      "below": 7,
+      "above": 11,
+      "values": 147456
+    },
+    {
+      "frame": 201,
+      "minimum": -3.310546875,
+      "maximum": 2.763671875,
+      "below": 7,
+      "above": 12,
+      "values": 147456
+    },
+    {
+      "frame": 202,
+      "minimum": -3.291015625,
+      "maximum": 2.708984375,
+      "below": 6,
+      "above": 13,
+      "values": 147456
+    },
+    {
+      "frame": 203,
+      "minimum": -3.2578125,
+      "maximum": 2.673828125,
+      "below": 6,
+      "above": 13,
+      "values": 147456
+    },
+    {
+      "frame": 204,
+      "minimum": -3.244140625,
+      "maximum": 2.677734375,
+      "below": 5,
+      "above": 13,
+      "values": 147456
+    },
+    {
+      "frame": 205,
+      "minimum": -3.2578125,
+      "maximum": 2.66796875,
+      "below": 5,
+      "above": 13,
+      "values": 147456
+    },
+    {
+      "frame": 206,
+      "minimum": -3.21484375,
+      "maximum": 2.6640625,
+      "below": 5,
+      "above": 13,
+      "values": 147456
+    },
+    {
+      "frame": 207,
+      "minimum": -3.20703125,
+      "maximum": 2.638671875,
+      "below": 5,
+      "above": 13,
+      "values": 147456
+    },
+    {
+      "frame": 208,
+      "minimum": -3.234375,
+      "maximum": 2.67578125,
+      "below": 6,
+      "above": 12,
+      "values": 147456
+    },
+    {
+      "frame": 209,
+      "minimum": -3.2421875,
+      "maximum": 2.697265625,
+      "below": 6,
+      "above": 11,
+      "values": 147456
+    },
+    {
+      "frame": 210,
+      "minimum": -3.240234375,
+      "maximum": 2.685546875,
+      "below": 5,
+      "above": 11,
+      "values": 147456
+    },
+    {
+      "frame": 211,
+      "minimum": -3.201171875,
+      "maximum": 2.6640625,
+      "below": 4,
+      "above": 13,
+      "values": 147456
+    },
+    {
+      "frame": 212,
+      "minimum": -3.20703125,
+      "maximum": 2.66796875,
+      "below": 4,
+      "above": 11,
+      "values": 147456
+    },
+    {
+      "frame": 213,
+      "minimum": -3.208984375,
+      "maximum": 2.681640625,
+      "below": 4,
+      "above": 13,
+      "values": 147456
+    },
+    {
+      "frame": 214,
+      "minimum": -3.2109375,
+      "maximum": 2.65234375,
+      "below": 3,
+      "above": 12,
+      "values": 147456
+    },
+    {
+      "frame": 215,
+      "minimum": -3.16796875,
+      "maximum": 2.63671875,
+      "below": 3,
+      "above": 12,
+      "values": 147456
+    },
+    {
+      "frame": 216,
+      "minimum": -3.140625,
+      "maximum": 2.62109375,
+      "below": 4,
+      "above": 12,
+      "values": 147456
+    },
+    {
+      "frame": 217,
+      "minimum": -3.142578125,
+      "maximum": 2.62109375,
+      "below": 5,
+      "above": 12,
+      "values": 147456
+    },
+    {
+      "frame": 218,
+      "minimum": -3.146484375,
+      "maximum": 2.625,
+      "below": 5,
+      "above": 13,
+      "values": 147456
+    },
+    {
+      "frame": 219,
+      "minimum": -3.15234375,
+      "maximum": 2.611328125,
+      "below": 5,
+      "above": 13,
+      "values": 147456
+    },
+    {
+      "frame": 220,
+      "minimum": -3.1171875,
+      "maximum": 2.59765625,
+      "below": 4,
+      "above": 12,
+      "values": 147456
+    },
+    {
+      "frame": 221,
+      "minimum": -3.09375,
+      "maximum": 2.568359375,
+      "below": 4,
+      "above": 15,
+      "values": 147456
+    },
+    {
+      "frame": 222,
+      "minimum": -3.099609375,
+      "maximum": 2.576171875,
+      "below": 4,
+      "above": 14,
+      "values": 147456
+    },
+    {
+      "frame": 223,
+      "minimum": -3.111328125,
+      "maximum": 2.53125,
+      "below": 5,
+      "above": 13,
+      "values": 147456
+    },
+    {
+      "frame": 224,
+      "minimum": -3.12109375,
+      "maximum": 2.5390625,
+      "below": 5,
+      "above": 14,
+      "values": 147456
+    },
+    {
+      "frame": 225,
+      "minimum": -3.134765625,
+      "maximum": 2.548828125,
+      "below": 6,
+      "above": 14,
+      "values": 147456
+    },
+    {
+      "frame": 226,
+      "minimum": -3.1484375,
+      "maximum": 2.5546875,
+      "below": 5,
+      "above": 15,
+      "values": 147456
+    },
+    {
+      "frame": 227,
+      "minimum": -3.107421875,
+      "maximum": 2.611328125,
+      "below": 4,
+      "above": 14,
+      "values": 147456
+    },
+    {
+      "frame": 228,
+      "minimum": -3.109375,
+      "maximum": 2.55859375,
+      "below": 3,
+      "above": 13,
+      "values": 147456
+    },
+    {
+      "frame": 229,
+      "minimum": -3.125,
+      "maximum": 2.55859375,
+      "below": 4,
+      "above": 12,
+      "values": 147456
+    },
+    {
+      "frame": 230,
+      "minimum": -3.154296875,
+      "maximum": 2.56640625,
+      "below": 4,
+      "above": 12,
+      "values": 147456
+    },
+    {
+      "frame": 231,
+      "minimum": -3.15625,
+      "maximum": 2.564453125,
+      "below": 5,
+      "above": 14,
+      "values": 147456
+    },
+    {
+      "frame": 232,
+      "minimum": -3.1171875,
+      "maximum": 2.580078125,
+      "below": 4,
+      "above": 13,
+      "values": 147456
+    },
+    {
+      "frame": 233,
+      "minimum": -3.166015625,
+      "maximum": 2.603515625,
+      "below": 4,
+      "above": 14,
+      "values": 147456
+    },
+    {
+      "frame": 234,
+      "minimum": -3.15625,
+      "maximum": 2.59765625,
+      "below": 5,
+      "above": 14,
+      "values": 147456
+    },
+    {
+      "frame": 235,
+      "minimum": -3.119140625,
+      "maximum": 2.58203125,
+      "below": 6,
+      "above": 15,
+      "values": 147456
+    },
+    {
+      "frame": 236,
+      "minimum": -3.068359375,
+      "maximum": 2.58984375,
+      "below": 6,
+      "above": 15,
+      "values": 147456
+    },
+    {
+      "frame": 237,
+      "minimum": -3.080078125,
+      "maximum": 2.615234375,
+      "below": 5,
+      "above": 14,
+      "values": 147456
+    },
+    {
+      "frame": 238,
+      "minimum": -3.109375,
+      "maximum": 2.615234375,
+      "below": 4,
+      "above": 14,
+      "values": 147456
+    },
+    {
+      "frame": 239,
+      "minimum": -3.095703125,
+      "maximum": 2.599609375,
+      "below": 5,
+      "above": 14,
+      "values": 147456
+    },
+    {
+      "frame": 240,
+      "minimum": -3.056640625,
+      "maximum": 2.63671875,
+      "below": 6,
+      "above": 13,
+      "values": 147456
+    },
+    {
+      "frame": 241,
+      "minimum": -3.1015625,
+      "maximum": 2.642578125,
+      "below": 6,
+      "above": 15,
+      "values": 147456
+    },
+    {
+      "frame": 242,
+      "minimum": -3.09375,
+      "maximum": 2.6328125,
+      "below": 7,
+      "above": 14,
+      "values": 147456
+    },
+    {
+      "frame": 243,
+      "minimum": -3.103515625,
+      "maximum": 2.6484375,
+      "below": 7,
+      "above": 13,
+      "values": 147456
+    },
+    {
+      "frame": 244,
+      "minimum": -3.158203125,
+      "maximum": 2.662109375,
+      "below": 6,
+      "above": 14,
+      "values": 147456
+    },
+    {
+      "frame": 245,
+      "minimum": -3.23046875,
+      "maximum": 2.693359375,
+      "below": 6,
+      "above": 13,
+      "values": 147456
+    },
+    {
+      "frame": 246,
+      "minimum": -3.240234375,
+      "maximum": 2.71875,
+      "below": 6,
+      "above": 14,
+      "values": 147456
+    },
+    {
+      "frame": 247,
+      "minimum": -3.26953125,
+      "maximum": 2.755859375,
+      "below": 7,
+      "above": 14,
+      "values": 147456
+    },
+    {
+      "frame": 248,
+      "minimum": -3.2734375,
+      "maximum": 2.76953125,
+      "below": 5,
+      "above": 14,
+      "values": 147456
+    },
+    {
+      "frame": 249,
+      "minimum": -3.267578125,
+      "maximum": 2.79296875,
+      "below": 6,
+      "above": 15,
+      "values": 147456
+    },
+    {
+      "frame": 250,
+      "minimum": -3.2578125,
+      "maximum": 2.802734375,
+      "below": 6,
+      "above": 13,
+      "values": 147456
+    },
+    {
+      "frame": 251,
+      "minimum": -3.26171875,
+      "maximum": 2.857421875,
+      "below": 6,
+      "above": 14,
+      "values": 147456
+    },
+    {
+      "frame": 252,
+      "minimum": -3.296875,
+      "maximum": 2.88671875,
+      "below": 7,
+      "above": 14,
+      "values": 147456
+    },
+    {
+      "frame": 253,
+      "minimum": -3.3671875,
+      "maximum": 2.900390625,
+      "below": 7,
+      "above": 12,
+      "values": 147456
+    },
+    {
+      "frame": 254,
+      "minimum": -3.388671875,
+      "maximum": 2.921875,
+      "below": 7,
+      "above": 12,
+      "values": 147456
+    },
+    {
+      "frame": 255,
+      "minimum": -3.419921875,
+      "maximum": 2.9375,
+      "below": 8,
+      "above": 12,
+      "values": 147456
+    },
+    {
+      "frame": 256,
+      "minimum": -3.44140625,
+      "maximum": 2.962890625,
+      "below": 7,
+      "above": 15,
+      "values": 147456
+    },
+    {
+      "frame": 257,
+      "minimum": -3.451171875,
+      "maximum": 2.9921875,
+      "below": 9,
+      "above": 13,
+      "values": 147456
+    },
+    {
+      "frame": 258,
+      "minimum": -3.515625,
+      "maximum": 3.009765625,
+      "below": 9,
+      "above": 12,
+      "values": 147456
+    },
+    {
+      "frame": 259,
+      "minimum": -3.517578125,
+      "maximum": 3.033203125,
+      "below": 8,
+      "above": 12,
+      "values": 147456
+    },
+    {
+      "frame": 260,
+      "minimum": -3.521484375,
+      "maximum": 3.044921875,
+      "below": 9,
+      "above": 12,
+      "values": 147456
+    },
+    {
+      "frame": 261,
+      "minimum": -3.513671875,
+      "maximum": 3.04296875,
+      "below": 8,
+      "above": 12,
+      "values": 147456
+    },
+    {
+      "frame": 262,
+      "minimum": -3.49609375,
+      "maximum": 3.06640625,
+      "below": 8,
+      "above": 12,
+      "values": 147456
+    },
+    {
+      "frame": 263,
+      "minimum": -3.501953125,
+      "maximum": 3.091796875,
+      "below": 8,
+      "above": 11,
+      "values": 147456
+    },
+    {
+      "frame": 264,
+      "minimum": -3.5078125,
+      "maximum": 3.103515625,
+      "below": 8,
+      "above": 12,
+      "values": 147456
+    },
+    {
+      "frame": 265,
+      "minimum": -3.5078125,
+      "maximum": 3.10546875,
+      "below": 9,
+      "above": 11,
+      "values": 147456
+    },
+    {
+      "frame": 266,
+      "minimum": -3.53125,
+      "maximum": 3.068359375,
+      "below": 9,
+      "above": 12,
+      "values": 147456
+    },
+    {
+      "frame": 267,
+      "minimum": -3.587890625,
+      "maximum": 3.064453125,
+      "below": 9,
+      "above": 12,
+      "values": 147456
+    },
+    {
+      "frame": 268,
+      "minimum": -3.5234375,
+      "maximum": 3.08984375,
+      "below": 9,
+      "above": 12,
+      "values": 147456
+    },
+    {
+      "frame": 269,
+      "minimum": -3.541015625,
+      "maximum": 3.125,
+      "below": 9,
+      "above": 12,
+      "values": 147456
+    },
+    {
+      "frame": 270,
+      "minimum": -3.603515625,
+      "maximum": 3.1484375,
+      "below": 9,
+      "above": 12,
+      "values": 147456
+    },
+    {
+      "frame": 271,
+      "minimum": -3.6171875,
+      "maximum": 3.171875,
+      "below": 9,
+      "above": 11,
+      "values": 147456
+    },
+    {
+      "frame": 272,
+      "minimum": -3.61328125,
+      "maximum": 3.181640625,
+      "below": 9,
+      "above": 11,
+      "values": 147456
+    },
+    {
+      "frame": 273,
+      "minimum": -3.615234375,
+      "maximum": 3.193359375,
+      "below": 9,
+      "above": 10,
+      "values": 147456
+    },
+    {
+      "frame": 274,
+      "minimum": -3.57421875,
+      "maximum": 3.220703125,
+      "below": 9,
+      "above": 10,
+      "values": 147456
+    },
+    {
+      "frame": 275,
+      "minimum": -3.607421875,
+      "maximum": 3.24609375,
+      "below": 9,
+      "above": 10,
+      "values": 147456
+    },
+    {
+      "frame": 276,
+      "minimum": -3.615234375,
+      "maximum": 3.25,
+      "below": 9,
+      "above": 11,
+      "values": 147456
+    },
+    {
+      "frame": 277,
+      "minimum": -3.626953125,
+      "maximum": 3.248046875,
+      "below": 9,
+      "above": 11,
+      "values": 147456
+    },
+    {
+      "frame": 278,
+      "minimum": -3.6953125,
+      "maximum": 3.20703125,
+      "below": 9,
+      "above": 11,
+      "values": 147456
+    },
+    {
+      "frame": 279,
+      "minimum": -3.705078125,
+      "maximum": 3.150390625,
+      "below": 9,
+      "above": 11,
+      "values": 147456
+    },
+    {
+      "frame": 280,
+      "minimum": -3.708984375,
+      "maximum": 3.171875,
+      "below": 9,
+      "above": 10,
+      "values": 147456
+    },
+    {
+      "frame": 281,
+      "minimum": -3.703125,
+      "maximum": 3.216796875,
+      "below": 9,
+      "above": 10,
+      "values": 147456
+    },
+    {
+      "frame": 282,
+      "minimum": -3.65625,
+      "maximum": 3.294921875,
+      "below": 9,
+      "above": 10,
+      "values": 147456
+    },
+    {
+      "frame": 283,
+      "minimum": -3.666015625,
+      "maximum": 3.263671875,
+      "below": 9,
+      "above": 9,
+      "values": 147456
+    },
+    {
+      "frame": 284,
+      "minimum": -3.6640625,
+      "maximum": 3.271484375,
+      "below": 9,
+      "above": 9,
+      "values": 147456
+    },
+    {
+      "frame": 285,
+      "minimum": -3.650390625,
+      "maximum": 3.259765625,
+      "below": 9,
+      "above": 9,
+      "values": 147456
+    },
+    {
+      "frame": 286,
+      "minimum": -3.73046875,
+      "maximum": 3.267578125,
+      "below": 9,
+      "above": 9,
+      "values": 147456
+    },
+    {
+      "frame": 287,
+      "minimum": -3.763671875,
+      "maximum": 3.287109375,
+      "below": 9,
+      "above": 9,
+      "values": 147456
+    },
+    {
+      "frame": 288,
+      "minimum": -3.654296875,
+      "maximum": 3.29296875,
+      "below": 9,
+      "above": 10,
+      "values": 147456
+    },
+    {
+      "frame": 289,
+      "minimum": -3.6796875,
+      "maximum": 3.28515625,
+      "below": 9,
+      "above": 10,
+      "values": 147456
+    },
+    {
+      "frame": 290,
+      "minimum": -3.712890625,
+      "maximum": 3.251953125,
+      "below": 9,
+      "above": 11,
+      "values": 147456
+    },
+    {
+      "frame": 291,
+      "minimum": -3.767578125,
+      "maximum": 3.228515625,
+      "below": 9,
+      "above": 10,
+      "values": 147456
+    },
+    {
+      "frame": 292,
+      "minimum": -3.755859375,
+      "maximum": 3.30859375,
+      "below": 9,
+      "above": 9,
+      "values": 147456
+    },
+    {
+      "frame": 293,
+      "minimum": -3.748046875,
+      "maximum": 3.3515625,
+      "below": 9,
+      "above": 9,
+      "values": 147456
+    },
+    {
+      "frame": 294,
+      "minimum": -3.75,
+      "maximum": 3.3515625,
+      "below": 9,
+      "above": 9,
+      "values": 147456
+    },
+    {
+      "frame": 295,
+      "minimum": -3.76171875,
+      "maximum": 3.375,
+      "below": 9,
+      "above": 9,
+      "values": 147456
+    },
+    {
+      "frame": 296,
+      "minimum": -3.763671875,
+      "maximum": 3.38671875,
+      "below": 9,
+      "above": 9,
+      "values": 147456
+    },
+    {
+      "frame": 297,
+      "minimum": -3.76171875,
+      "maximum": 3.369140625,
+      "below": 9,
+      "above": 9,
+      "values": 147456
+    },
+    {
+      "frame": 298,
+      "minimum": -3.798828125,
+      "maximum": 3.34765625,
+      "below": 9,
+      "above": 9,
+      "values": 147456
+    },
+    {
+      "frame": 299,
+      "minimum": -3.8359375,
+      "maximum": 3.37109375,
+      "below": 9,
+      "above": 9,
+      "values": 147456
+    },
+    {
+      "frame": 300,
+      "minimum": -3.83203125,
+      "maximum": 3.390625,
+      "below": 9,
+      "above": 10,
+      "values": 147456
+    },
+    {
+      "frame": 301,
+      "minimum": -3.8203125,
+      "maximum": 3.3359375,
+      "below": 9,
+      "above": 9,
+      "values": 147456
+    },
+    {
+      "frame": 302,
+      "minimum": -3.810546875,
+      "maximum": 3.345703125,
+      "below": 9,
+      "above": 9,
+      "values": 147456
+    },
+    {
+      "frame": 303,
+      "minimum": -3.82421875,
+      "maximum": 3.2890625,
+      "below": 9,
+      "above": 9,
+      "values": 147456
+    },
+    {
+      "frame": 304,
+      "minimum": -3.83984375,
+      "maximum": 3.35546875,
+      "below": 9,
+      "above": 9,
+      "values": 147456
+    },
+    {
+      "frame": 305,
+      "minimum": -3.7578125,
+      "maximum": 3.39453125,
+      "below": 9,
+      "above": 9,
+      "values": 147456
+    },
+    {
+      "frame": 306,
+      "minimum": -3.736328125,
+      "maximum": 3.40234375,
+      "below": 9,
+      "above": 9,
+      "values": 147456
+    },
+    {
+      "frame": 307,
+      "minimum": -3.77734375,
+      "maximum": 3.412109375,
+      "below": 9,
+      "above": 10,
+      "values": 147456
+    },
+    {
+      "frame": 308,
+      "minimum": -3.763671875,
+      "maximum": 3.423828125,
+      "below": 9,
+      "above": 9,
+      "values": 147456
+    },
+    {
+      "frame": 309,
+      "minimum": -3.75,
+      "maximum": 3.40625,
+      "below": 9,
+      "above": 9,
+      "values": 147456
+    },
+    {
+      "frame": 310,
+      "minimum": -3.8203125,
+      "maximum": 3.38671875,
+      "below": 9,
+      "above": 9,
+      "values": 147456
+    },
+    {
+      "frame": 311,
+      "minimum": -3.828125,
+      "maximum": 3.40625,
+      "below": 9,
+      "above": 9,
+      "values": 147456
+    },
+    {
+      "frame": 312,
+      "minimum": -3.80078125,
+      "maximum": 3.43359375,
+      "below": 9,
+      "above": 9,
+      "values": 147456
+    },
+    {
+      "frame": 313,
+      "minimum": -3.794921875,
+      "maximum": 3.392578125,
+      "below": 9,
+      "above": 9,
+      "values": 147456
+    },
+    {
+      "frame": 314,
+      "minimum": -3.80078125,
+      "maximum": 3.37890625,
+      "below": 9,
+      "above": 9,
+      "values": 147456
+    },
+    {
+      "frame": 315,
+      "minimum": -3.802734375,
+      "maximum": 3.373046875,
+      "below": 9,
+      "above": 9,
+      "values": 147456
+    },
+    {
+      "frame": 316,
+      "minimum": -3.810546875,
+      "maximum": 3.412109375,
+      "below": 9,
+      "above": 9,
+      "values": 147456
+    },
+    {
+      "frame": 317,
+      "minimum": -3.732421875,
+      "maximum": 3.390625,
+      "below": 9,
+      "above": 9,
+      "values": 147456
+    },
+    {
+      "frame": 318,
+      "minimum": -3.767578125,
+      "maximum": 3.4296875,
+      "below": 9,
+      "above": 9,
+      "values": 147456
+    },
+    {
+      "frame": 319,
+      "minimum": -3.787109375,
+      "maximum": 3.4140625,
+      "below": 9,
+      "above": 9,
+      "values": 147456
+    }
+  ]
+}

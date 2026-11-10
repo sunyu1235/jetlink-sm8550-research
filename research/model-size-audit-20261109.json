@@ -1,0 +1,190 @@
+{
+  "measured_utc": "2026-11-09T23:21:25.044985+00:00",
+  "method": "Read-only stat sizes and ONNX metadata with external tensors unloaded. Original protobuf metadata streamed with all tensor payloads skipped. No replay or artifact mutation. Sizes are logical file bytes, not resident memory or tensor traffic.",
+  "files": {
+    "original_monolithic_onnx": {
+      "path": "/workspace/shared/jetlink-models/light-speed.onnx",
+      "bytes": 792305602,
+      "MB_decimal": 792.305602,
+      "MiB": 755.6015033721924
+    },
+    "original_capture_onnx": {
+      "path": "/workspace/shared/jetlink-distillation/real-block/teacher-capture.onnx",
+      "bytes": 2751237,
+      "MB_decimal": 2.751237,
+      "MiB": 2.623784065246582
+    },
+    "original_capture_external_weights": {
+      "path": "/workspace/shared/jetlink-distillation/real-block/teacher-capture.weights",
+      "bytes": 789594272,
+      "MB_decimal": 789.594272,
+      "MiB": 753.0157775878906
+    },
+    "compact_whole_cpu_onnx": {
+      "path": "/workspace/shared/jetlink-distillation/real-block/teacher-compact-boundaries.onnx",
+      "bytes": 2539288,
+      "MB_decimal": 2.539288,
+      "MiB": 2.4216537475585938
+    },
+    "compact_native_wrapper_onnx": {
+      "path": "/workspace/shared/jetlink-distillation/real-block/teacher-native-compact.onnx",
+      "bytes": 2315296,
+      "MB_decimal": 2.315296,
+      "MiB": 2.208038330078125
+    },
+    "exact_cse_whole_onnx": {
+      "path": "/workspace/shared/jetlink-distillation/real-block/teacher-exact-cse.onnx",
+      "bytes": 2363531,
+      "MB_decimal": 2.363531,
+      "MiB": 2.2540388107299805
+    },
+    "baseline_reconstructed_partition_onnx": {
+      "path": "/workspace/shared/jetlink-compact-boundaries/artifacts/reconstructed-baseline-131-41.onnx",
+      "bytes": 13059888,
+      "MB_decimal": 13.059888,
+      "MiB": 12.454879760742188
+    },
+    "compact_partition_onnx": {
+      "path": "/workspace/shared/jetlink-compact-boundaries/artifacts/compact-partition-131-41.onnx",
+      "bytes": 12805692,
+      "MB_decimal": 12.805692,
+      "MiB": 12.212459564208984
+    },
+    "full_tail_cpu_onnx": {
+      "path": "/workspace/shared/jetlink-compact-tail-bindings/tails-full-cpu.onnx",
+      "bytes": 3181114,
+      "MB_decimal": 3.181114,
+      "MiB": 3.0337467193603516
+    },
+    "compact_tail_cpu_onnx": {
+      "path": "/workspace/shared/jetlink-compact-tail-bindings/tails-cpu.onnx",
+      "bytes": 3177829,
+      "MB_decimal": 3.177829,
+      "MiB": 3.030613899230957
+    },
+    "compact_upstream_qnn_saved_context": {
+      "path": "/workspace/shared/jetlink-compact-tail-bindings/upstream-context/compact-upstream.bin",
+      "bytes": 8617984,
+      "MB_decimal": 8.617984,
+      "MiB": 8.21875
+    },
+    "compact_tail_qnn_saved_context": {
+      "path": "/workspace/shared/jetlink-compact-tail-bindings/context/compact-three-tails.bin",
+      "bytes": 2158592,
+      "MB_decimal": 2.158592,
+      "MiB": 2.05859375
+    },
+    "compact_native_bridge_library": {
+      "path": "/workspace/shared/jetlink-compact-native-bridge/libjetlink_compact_bridge.so",
+      "bytes": 42800,
+      "MB_decimal": 0.0428,
+      "MiB": 0.0408172607421875
+    },
+    "compact_host_gelu_library": {
+      "path": "/workspace/shared/htp-gelu-native21/build/libJetlinkGeluHostHidden.so",
+      "bytes": 1501928,
+      "MB_decimal": 1.501928,
+      "MiB": 1.4323501586914062
+    },
+    "historical_preserve_full_qnn_context_not_accepted": {
+      "path": "/workspace/shared/htp-gelu/integration/context-preserve-layout/preserve-gelu.bin",
+      "bytes": 784543744,
+      "MB_decimal": 784.543744,
+      "MiB": 748.19921875
+    },
+    "historical_mixed_first_full_qnn_context_not_comparable": {
+      "path": "/workspace/shared/jetlink-mixed-first-full/context/mixed-first-sm8550.bin",
+      "bytes": 785444864,
+      "MB_decimal": 785.444864,
+      "MiB": 749.05859375
+    },
+    "upstream_converter_weight_bin_not_saved_context": {
+      "path": "/workspace/shared/jetlink-compact-tail-bindings/qnn/upstream.bin",
+      "bytes": 12636160,
+      "MB_decimal": 12.63616,
+      "MiB": 12.05078125
+    },
+    "selected_tail_converter_weight_bin_not_saved_context": {
+      "path": "/workspace/shared/jetlink-compact-tail-bindings/qnn/tails.bin",
+      "bytes": 3153920,
+      "MB_decimal": 3.15392,
+      "MiB": 3.0078125
+    }
+  },
+  "original_onnx_stream_metadata": {
+    "tensor_messages": 653,
+    "external_locations": [],
+    "external_data_location_count": 0
+  },
+  "onnx_variants": {
+    "original_capture_onnx": {
+      "external_files": {
+        "teacher-capture.weights": {
+          "path": "/workspace/shared/jetlink-distillation/real-block/teacher-capture.weights",
+          "file_bytes": 789594272,
+          "referenced_initializers": 557,
+          "referenced_range_bytes": 789594272
+        }
+      },
+      "onnx_plus_full_external_files_bytes": 792345509,
+      "nodes": 1004
+    },
+    "compact_whole_cpu_onnx": {
+      "external_files": {
+        "teacher-capture.weights": {
+          "path": "/workspace/shared/jetlink-distillation/real-block/teacher-capture.weights",
+          "file_bytes": 789594272,
+          "referenced_initializers": 554,
+          "referenced_range_bytes": 789345440
+        }
+      },
+      "onnx_plus_full_external_files_bytes": 792133560,
+      "nodes": 1007
+    },
+    "compact_native_wrapper_onnx": {
+      "external_files": {
+        "teacher-capture.weights": {
+          "path": "/workspace/shared/jetlink-distillation/real-block/teacher-capture.weights",
+          "file_bytes": 789594272,
+          "referenced_initializers": 520,
+          "referenced_range_bytes": 773589152
+        }
+      },
+      "onnx_plus_full_external_files_bytes": 791909568,
+      "nodes": 903
+    },
+    "exact_cse_whole_onnx": {
+      "external_files": {
+        "teacher-capture.weights": {
+          "path": "/workspace/shared/jetlink-distillation/real-block/teacher-capture.weights",
+          "file_bytes": 789594272,
+          "referenced_initializers": 516,
+          "referenced_range_bytes": 765878432
+        }
+      },
+      "onnx_plus_full_external_files_bytes": 791957803,
+      "nodes": 846
+    }
+  },
+  "totals": {
+    "original_monolithic_bytes": 792305602,
+    "capture_source_package_bytes": 792345509,
+    "compact_cpu_onnx_plus_weights_bytes": 792133560,
+    "compact_cpu_saving_vs_original_bytes": 172042,
+    "compact_cpu_saving_vs_original_percent": 0.021714096122218255,
+    "compact_native_two_qnn_contexts_bytes": 10776576,
+    "compact_native_model_onnx_weights_contexts_bytes": 802686144,
+    "compact_native_model_growth_vs_original_bytes": 10380542,
+    "compact_native_model_growth_vs_original_percent": 1.3101689517020478,
+    "compact_native_model_and_two_custom_host_libraries_bytes": 804230872
+  },
+  "caveats": [
+    "Compact native contexts cover selected upstream attention and three tails only; remainder executes on CPU. They are not the full model.",
+    "Current whole-model wrappers reference the entire unchanged teacher-capture.weights file; do not compare ONNX wrapper alone with the monolithic original. Unreferenced external ranges have not been repacked away.",
+    "The archived accepted phone cached baseline was unavailable. Reconstructed baseline partition is not byte-identical to it.",
+    "Historical whole-model preserve context prepared, but recorded first-road execution SIGSEGV; it is not an accuracy-accepted baseline for a size comparison.",
+    "Native model totals exclude common QNN/ORT/runtime libraries; a separate total adds only the two custom host libraries. No phone deployable full package was assembled.",
+    "The 288x compact boundary reduction concerns activation payload (2,654,208 to 9,216 bytes), not model file size.",
+    "light-speed-original.onnx.partial is an incomplete download and excluded."
+  ]
+}

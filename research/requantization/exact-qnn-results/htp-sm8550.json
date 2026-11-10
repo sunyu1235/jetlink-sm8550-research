@@ -1,0 +1,16 @@
+{
+  "graphs": [
+    {
+      "graph_names": [
+        "qnn_first_projection_native"
+      ],
+      "O": 3
+    }
+  ],
+  "devices": [
+    {
+      "soc_model": 43,
+      "dsp_arch": "v73"
+    }
+  ]
+}

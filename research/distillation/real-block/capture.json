@@ -1,0 +1,77 @@
+{
+  "status": "REAL_WEIGHTS_SYNTHETIC_INPUTS_NOT_ROAD_VALIDATION",
+  "seeds": [
+    713,
+    991
+  ],
+  "frames": [
+    8,
+    4
+  ],
+  "contiguous_lowering": "org.tinygrad::Contiguous replaced by Identity; layout-only assumption",
+  "x": "layer_norm_49",
+  "y": "linear_99",
+  "block": "off_policy temporal transformer layer 0 MLP",
+  "timings": [
+    {
+      "split": "train",
+      "frame": 0,
+      "seconds": 1.7350987440004246
+    },
+    {
+      "split": "train",
+      "frame": 1,
+      "seconds": 1.7728664489995936
+    },
+    {
+      "split": "train",
+      "frame": 2,
+      "seconds": 1.3525923090001015
+    },
+    {
+      "split": "train",
+      "frame": 3,
+      "seconds": 1.6319165999993857
+    },
+    {
+      "split": "train",
+      "frame": 4,
+      "seconds": 1.7239382010002373
+    },
+    {
+      "split": "train",
+      "frame": 5,
+      "seconds": 1.717431420000139
+    },
+    {
+      "split": "train",
+      "frame": 6,
+      "seconds": 1.6662901380004769
+    },
+    {
+      "split": "train",
+      "frame": 7,
+      "seconds": 1.8607469019998462
+    },
+    {
+      "split": "validation",
+      "frame": 0,
+      "seconds": 1.7561118110006646
+    },
+    {
+      "split": "validation",
+      "frame": 1,
+      "seconds": 1.7257130440002584
+    },
+    {
+      "split": "validation",
+      "frame": 2,
+      "seconds": 1.7837047140001232
+    },
+    {
+      "split": "validation",
+      "frame": 3,
+      "seconds": 1.7877097079999658
+    }
+  ]
+}

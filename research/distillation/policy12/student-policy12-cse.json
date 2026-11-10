@@ -1,0 +1,50 @@
+{
+  "status": "COMPOSED_NOT_ACCEPTED",
+  "model": "/workspace/shared/jetlink-distillation/real-block/student-policy12-cse.onnx",
+  "cse_source": true,
+  "replacements": [
+    {
+      "block": "gelu_41",
+      "weights_sha256": "6c98bdd7fd245b44ca258b2852b085e4d9193b5712b53bb2a1d31b9ab8265451",
+      "reuse_original_passing_single_block": true
+    },
+    {
+      "block": "gelu_42",
+      "weights_sha256": "1271353dcf7c470c21578534c32599247b7e00464c1cf9eb68cceb8a9aabd262",
+      "reuse_original_passing_single_block": false
+    },
+    {
+      "block": "gelu_43",
+      "weights_sha256": "7e2db6b69b5b958306854b3477932e2455eb8c1454b9851f69f169f34ef9fc27",
+      "reuse_original_passing_single_block": false
+    },
+    {
+      "block": "gelu_44",
+      "weights_sha256": "ba94fb866c19d014e8ef04d61e0e1b0f36096c673fd9875e6650c513b6a4ca1f",
+      "reuse_original_passing_single_block": false
+    },
+    {
+      "block": "gelu_59",
+      "weights_sha256": "57faad873efafb9ae8dd2d0e9a9e3780fae687ab13a4dec93fd5854124485add",
+      "reuse_original_passing_single_block": false
+    },
+    {
+      "block": "gelu_60",
+      "weights_sha256": "44e050b078de1061ee23bf3e8b0ea24c1447cfb8b38fe6e82dca1e67f38ad301",
+      "reuse_original_passing_single_block": false
+    },
+    {
+      "block": "gelu_61",
+      "weights_sha256": "2a610042bc787191b70c4eb6fdb96ad4645b99bf14aef8f4f100401bfdef96da",
+      "reuse_original_passing_single_block": false
+    },
+    {
+      "block": "gelu_62",
+      "weights_sha256": "b893cdd1359dc300a46edc6c1edc868afe0fc058c2788ee76c48a4b1fcfdfe2f",
+      "reuse_original_passing_single_block": false
+    }
+  ],
+  "remaining_gelu_nodes": 49,
+  "original_output_signature_preserved": true,
+  "new_constants_are_private_to_each_student_block": true
+}

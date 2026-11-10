@@ -1,0 +1,135 @@
+{
+  "tinygrad_ref": "d39227beebd0c3a340dc42b2cdc1e3db1c36aed9",
+  "implementation": "examples/openpilot/compile_warp.py make_frame_prepare",
+  "runtime": "CPU:LLVM",
+  "samples": [
+    {
+      "sequence_index": 0,
+      "camera": "fcamera.hevc",
+      "shape": [
+        6,
+        128,
+        256
+      ],
+      "dtype": "uint8",
+      "different_pixels": 1,
+      "total_pixels": 196608,
+      "max_abs_difference": 1,
+      "mean_abs_difference": 5.086263020833333e-06,
+      "saved_input_matches_numpy": true,
+      "difference_examples_ch_y_x": [
+        {
+          "index": [
+            4,
+            30,
+            68
+          ],
+          "tinygrad": 123,
+          "numpy": 124
+        }
+      ]
+    },
+    {
+      "sequence_index": 0,
+      "camera": "ecamera.hevc",
+      "shape": [
+        6,
+        128,
+        256
+      ],
+      "dtype": "uint8",
+      "different_pixels": 0,
+      "total_pixels": 196608,
+      "max_abs_difference": 0,
+      "mean_abs_difference": 0.0,
+      "saved_input_matches_numpy": true,
+      "difference_examples_ch_y_x": []
+    },
+    {
+      "sequence_index": 159,
+      "camera": "fcamera.hevc",
+      "shape": [
+        6,
+        128,
+        256
+      ],
+      "dtype": "uint8",
+      "different_pixels": 0,
+      "total_pixels": 196608,
+      "max_abs_difference": 0,
+      "mean_abs_difference": 0.0,
+      "saved_input_matches_numpy": true,
+      "difference_examples_ch_y_x": []
+    },
+    {
+      "sequence_index": 159,
+      "camera": "ecamera.hevc",
+      "shape": [
+        6,
+        128,
+        256
+      ],
+      "dtype": "uint8",
+      "different_pixels": 0,
+      "total_pixels": 196608,
+      "max_abs_difference": 0,
+      "mean_abs_difference": 0.0,
+      "saved_input_matches_numpy": true,
+      "difference_examples_ch_y_x": []
+    },
+    {
+      "sequence_index": 319,
+      "camera": "fcamera.hevc",
+      "shape": [
+        6,
+        128,
+        256
+      ],
+      "dtype": "uint8",
+      "different_pixels": 2,
+      "total_pixels": 196608,
+      "max_abs_difference": 1,
+      "mean_abs_difference": 1.0172526041666666e-05,
+      "saved_input_matches_numpy": true,
+      "difference_examples_ch_y_x": [
+        {
+          "index": [
+            4,
+            30,
+            68
+          ],
+          "tinygrad": 121,
+          "numpy": 122
+        },
+        {
+          "index": [
+            5,
+            30,
+            68
+          ],
+          "tinygrad": 134,
+          "numpy": 133
+        }
+      ]
+    },
+    {
+      "sequence_index": 319,
+      "camera": "ecamera.hevc",
+      "shape": [
+        6,
+        128,
+        256
+      ],
+      "dtype": "uint8",
+      "different_pixels": 0,
+      "total_pixels": 196608,
+      "max_abs_difference": 0,
+      "mean_abs_difference": 0.0,
+      "saved_input_matches_numpy": true,
+      "difference_examples_ch_y_x": []
+    }
+  ],
+  "cachelevel": "0",
+  "all_exact": false,
+  "limitation": "CPU source-function comparison; not QCOM GPU runtime/ISP parity."
+}

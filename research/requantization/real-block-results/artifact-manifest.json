@@ -1,0 +1,47 @@
+{
+  "source_model_sha256": "6274eb4a3f3eb7ad1ab341d222bbba2ba709b06645dbbd15ac4971d6cb22ab21",
+  "source_model_bytes": 792305602,
+  "script_hashes": {
+    "audit_calibration_ranges.py": "f798965be948bc8f30fb6682f09f9dd4a3e6660475c9fd20ed34ed7ae82e257a",
+    "bias_correct_block.py": "d6a14d1eaf27f5f26f1b65e2aa335623f3f5049ec7820be0c0d4c1c64f9a1e10",
+    "boundary_sensitivity.py": "825adde4c18f93d383ff5c84d1a4840c5e8ad5b65c268a905a7676b63167c6f3",
+    "capture_long_history.py": "9ec92c9965d762da16db664e22d2030c7b51d0395fa915fd4daf8b5b3e30624a",
+    "evaluate_long_blocks.py": "b253d8c29ffc273c0a81466547d38fbba00206d039a5216212cca24a9caafb8b",
+    "quantize_block.py": "d9691987eb876dbf1133c9a8d5d38b06edcd7a86f80b1ed3771d9cdda72062cb",
+    "regenerate_history.py": "2b55fe4497e5d8cf2a84cdaaf457b40a97fc69193a97031ae985752a649ca574",
+    "replay_qdq_whole.py": "f632d65ae1429d875c97e59477143c368294b19ed4a2f62a63288d4efe4b0aa6",
+    "run_candidate_replay.py": "7c3cbdbe4085823b987c3959edb7016cad5d9c585aa46302db7b5af490fd5463",
+    "test_boundary_sensitivity.py": "3fee0493b6a256551ed20b983b9c563ece6e4b706f6c065824ef7a9bcfec5f26"
+  },
+  "artifact_hashes": {
+    "/workspace/shared/jetlink-distillation/real-block/teacher-block.onnx": {
+      "bytes": 2113104,
+      "sha256": "01fcec2ee6a335ba6688fecf28bab768d3707af067ae17815cf999ff65d8ccc5"
+    },
+    "/workspace/shared/jetlink-distillation/real-block/sequences.npz": {
+      "bytes": 7078914,
+      "sha256": "e04f14b5868e9502c96140f09ce19f1183c38064d032f1eda17ec184430e63e1"
+    },
+    "/workspace/shared/jetlink-qdq-real-block-v2/QUInt16-w8-pc0.onnx": {
+      "bytes": 1069837,
+      "sha256": "9b8bb42163d2a102884ddf53fcee2bfec0203ac765244a4e53908991ea9b39c0"
+    },
+    "/workspace/shared/jetlink-qdq-bias-corrected/bias-corrected.onnx": {
+      "bytes": 1069837,
+      "sha256": "99d7a0bc8707dd5aba4fcc732925beff3c5f4504caf6a7768ad6710f8ce7cc2a"
+    },
+    "/workspace/shared/jetlink-qdq-bias-corrected/correction.npy": {
+      "bytes": 2176,
+      "sha256": "e29553dfefc3275d06cad1463dee49dfb540ae1c4460aadca2cfdaac22c44677"
+    }
+  },
+  "final_candidate": {
+    "block_sha256": "bd111c7b5fbda171f7b793a1483b3018d6809c275d3a5816f3f43e77ecf45967",
+    "block_bytes": 2641725,
+    "reproduced_with_complete_long_capture": true,
+    "same_sha_as_tested_whole160_block": true,
+    "whole160_cpu_checker_exit": 0,
+    "htp_compiled": false,
+    "device_latency_measured": false
+  }
+}

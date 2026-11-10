@@ -1,0 +1,54 @@
+{
+  "shift": 7,
+  "page_entries": 128,
+  "unique_pages": 356,
+  "bytes": 93184,
+  "reference_sha256": "76c28135bba83f37d6bcc651e024d75d9f7482e619472027eaeeca5dcb1c1293",
+  "full_two_table_bytes": 262144,
+  "reduction_percent": 64.453125,
+  "candidates": [
+    {
+      "shift": 3,
+      "page_entries": 8,
+      "unique_pages": 5179,
+      "bytes": 115632
+    },
+    {
+      "shift": 4,
+      "page_entries": 16,
+      "unique_pages": 2664,
+      "bytes": 101632
+    },
+    {
+      "shift": 5,
+      "page_entries": 32,
+      "unique_pages": 1372,
+      "bytes": 96000
+    },
+    {
+      "shift": 6,
+      "page_entries": 64,
+      "unique_pages": 699,
+      "bytes": 93568
+    },
+    {
+      "shift": 7,
+      "page_entries": 128,
+      "unique_pages": 356,
+      "bytes": 93184
+    },
+    {
+      "shift": 8,
+      "page_entries": 256,
+      "unique_pages": 182,
+      "bytes": 94208
+    },
+    {
+      "shift": 9,
+      "page_entries": 512,
+      "unique_pages": 94,
+      "bytes": 96768
+    }
+  ],
+  "note": "Storage only. Not a speed measurement. NaN payloads and signed zeros preserve host reference bit patterns; verify against Android-generated tables before deployment."
+}
