@@ -1,0 +1,106 @@
+{
+  "dot_commit": "af713f089848d1f6725a3ebfb7b3bf9f42e07296",
+  "device": "Moto X40 XT2301-5 / SM8550",
+  "ort": "1.29.0",
+  "qnn": "2.42.0",
+  "execution": "45 cached QNN NPU partitions + 63 existing exact CPU GELUs; two partitions rebuilt",
+  "timing_scope": "whole-model bound Run; excludes initialization, camera/input loading and transport",
+  "timing": {
+    "baseline16": {
+      "frames": 16,
+      "including_first": {
+        "mean_ms": 57.75876625,
+        "p50_ms": 52.919922,
+        "p99_ms": 114.34261439999997,
+        "max_ms": 124.501302
+      },
+      "excluding_first": {
+        "mean_ms": 53.30926386666667,
+        "p50_ms": 52.915157,
+        "p99_ms": 56.43904836,
+        "max_ms": 56.776718
+      },
+      "nonfinite": 0,
+      "gpu_sensor_before_c": 23.2,
+      "gpu_sensor_after_c": 29.9,
+      "battery_temp_start_c": 20.0,
+      "battery_temp_end_c": 20.0
+    },
+    "candidate16": {
+      "frames": 16,
+      "including_first": {
+        "mean_ms": 56.0448633125,
+        "p50_ms": 51.7422395,
+        "p99_ms": 108.10264354999998,
+        "max_ms": 117.524792
+      },
+      "excluding_first": {
+        "mean_ms": 51.9462014,
+        "p50_ms": 51.739531,
+        "p99_ms": 54.363123120000004,
+        "max_ms": 54.710469
+      },
+      "nonfinite": 0,
+      "gpu_sensor_before_c": 28.8,
+      "gpu_sensor_after_c": 33.1,
+      "battery_temp_start_c": 20.0,
+      "battery_temp_end_c": 20.0
+    },
+    "baseline160": {
+      "frames": 160,
+      "including_first": {
+        "mean_ms": 53.632732418749995,
+        "p50_ms": 53.041328,
+        "p99_ms": 55.85007124999999,
+        "max_ms": 122.304896
+      },
+      "excluding_first": {
+        "mean_ms": 53.20083201886793,
+        "p50_ms": 53.039896,
+        "p99_ms": 54.99264814,
+        "max_ms": 56.89474
+      },
+      "nonfinite": 0,
+      "gpu_sensor_before_c": 23.6,
+      "gpu_sensor_after_c": 48.1,
+      "battery_temp_start_c": 20.0,
+      "battery_temp_end_c": 20.0
+    },
+    "candidate160": {
+      "frames": 160,
+      "including_first": {
+        "mean_ms": 52.43601853749999,
+        "p50_ms": 51.955963499999996,
+        "p99_ms": 54.18373707999999,
+        "max_ms": 122.067396
+      },
+      "excluding_first": {
+        "mean_ms": 51.998085345911946,
+        "p50_ms": 51.954844,
+        "p99_ms": 52.80968221999999,
+        "max_ms": 55.69177
+      },
+      "nonfinite": 0,
+      "gpu_sensor_before_c": 23.6,
+      "gpu_sensor_after_c": 46.9,
+      "battery_temp_start_c": 20.0,
+      "battery_temp_end_c": 20.0
+    }
+  },
+  "paired16_speedup_ms_excluding_first": 1.363062466666669,
+  "paired16_speedup_percent": 2.5568960585834835,
+  "paired160_speedup_ms_excluding_first": 1.202746672955982,
+  "paired160_speedup_percent": 2.2607666596819804,
+  "validation160": {
+    "frames": 160,
+    "all_finite": true,
+    "byte_identical_to_accepted_baseline_frames": 160,
+    "max_abs_difference_to_accepted_baseline": 0.0,
+    "unchanged_upstream_checker_exit_code": 0,
+    "unchanged_upstream_checker_pass": true
+  },
+  "candidate_wrapper_sha256": "0daa141df081afa3394a4f6bd004329ff113d806381e6d878ae1e15a3a2e9bd9",
+  "apk_deployed": false,
+  "clock_or_thermal_policy_changed": false,
+  "interpretation": "compact boundary is executable and numerically identical in 160 phone frames; consult matched timing delta for speed benefit; no measured 30ms result; no new road replay performed"
+}

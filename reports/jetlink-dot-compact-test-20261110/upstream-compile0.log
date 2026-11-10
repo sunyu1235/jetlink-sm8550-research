@@ -1,0 +1,17 @@
+shared=0 rpc_us=0 n=1 mean_ms=1.254 p50_ms=1.254 p99_ms=1.254 min_ms=1.254 max_ms=1.254 over50=0
+QNN tuning: soc_model=43 vtcm_mb=default profile=none
+ORT 1.29.0
+SESSION_CREATE_BEGIN
+SESSION_CREATE_END seconds=0.604
+in gelu_43 589824 bytes
+in gelu_54 589824 bytes
+in gelu_61 589824 bytes
+in add_50 294912 bytes
+in add_70 294912 bytes
+in add_86 294912 bytes
+out add_52 1024 bytes
+out add_72 1024 bytes
+out add_88 1024 bytes
+out linear_110 2048 bytes
+out linear_151 2048 bytes
+out linear_180 2048 bytes

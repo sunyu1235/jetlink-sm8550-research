@@ -1,5 +1,7 @@
 # Jetlink Light Speed / Snapdragon 8 Gen 2 研究交接
 
+2026-11-10 手机测试：[紧凑边界真机结果](reports/jetlink-dot-compact-test-20261110/README.md)。同机 160 帧去首帧平均耗时 **53.20 → 52.00 ms（快 2.26%）**，160 帧输出与准确基线逐字节一致，原检查器通过。只重建两块 NPU 分区；尚未替换 App。
+
 这是从本地工作区导出的独立研究快照，供 Dot 审查。源码、证据和结论按原样保留；不是已部署的优化版 Jetlink。
 
 先读 [独立研究任务](reports/jetlink-gelu-optimization-20261101/partition-tuning-20261109/dot-review-request.txt)，再读 [当前结果及证据](reports/jetlink-gelu-optimization-20261101/partition-tuning-20261109/README.md)。

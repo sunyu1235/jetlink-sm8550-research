@@ -1,0 +1,18 @@
+{
+  "dot_commit": "af713f089848d1f6725a3ebfb7b3bf9f42e07296",
+  "scope": "two rebuilt cached partitions; accepted Android CPU exact GELUs; existing NPU remainder",
+  "original_boundary_bytes": 2654208,
+  "compact_boundary_bytes": 9216,
+  "changed_gathers": [
+    "node_select_4",
+    "node_select_7",
+    "node_select_10"
+  ],
+  "changed_reshapes": [
+    "val_735__reshape_out",
+    "val_923__reshape_out",
+    "val_1105__reshape_out"
+  ],
+  "upstream_nodes": 114,
+  "downstream_nodes": 27
+}
