@@ -1,0 +1,8 @@
+RESULT passed_graphs=30 expected_graphs=30 status=PASS
+force-00 PASS
+RESULT passed_graphs=30 expected_graphs=30 status=PASS
+force-01 PASS
+RESULT passed_graphs=30 expected_graphs=30 status=PASS
+force-10 PASS
+RESULT passed_graphs=30 expected_graphs=30 status=PASS
+force-11 PASS

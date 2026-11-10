@@ -1,0 +1,77 @@
+{
+  "scope": "One recorded-night frame, independent zero states, full model against split native vision control. No phone or latency qualification.",
+  "native_invocations": 1,
+  "gelu_package": "/workspace/shared/jetlink-gelu-polynomial-20261110/qnn-package/build/libJetlinkGeluHost.so",
+  "elapsed_host_seconds": 594.1252922330023,
+  "outputs": {
+    "outputs": {
+      "shape": [
+        1,
+        18452
+      ],
+      "dtype": "float32",
+      "exact_bytes": true,
+      "max_abs": 0.0,
+      "nonfinite": 0
+    },
+    "next_state_img_q": {
+      "shape": [
+        2,
+        5,
+        6,
+        128,
+        256
+      ],
+      "dtype": "uint8",
+      "exact_bytes": true,
+      "max_abs": 0.0,
+      "nonfinite": 0
+    },
+    "next_state_desire_q": {
+      "shape": [
+        132,
+        1,
+        8
+      ],
+      "dtype": "float32",
+      "exact_bytes": true,
+      "max_abs": 0.0,
+      "nonfinite": 0
+    },
+    "next_state_feat_q": {
+      "shape": [
+        128,
+        1,
+        16384
+      ],
+      "dtype": "float32",
+      "exact_bytes": true,
+      "max_abs": 0.0,
+      "nonfinite": 0
+    }
+  },
+  "hashes": {
+    "/workspace/shared/jetlink-aggressive-fusion-20261110/bridge/bridge.cpp": "3a1bdeaf10bf408901af33705f40c0adf8c85784991d69d49134db5a83f94ecf",
+    "/workspace/shared/jetlink-aggressive-fusion-20261110/bridge/libjetlink_vision_bridge.so": "303f9670552b8e8096464dcbe23fb326d4aeb59a44346469a23043c769dcfdc3",
+    "/workspace/shared/jetlink-aggressive-fusion-20261110/bridge/model/vision-native.onnx": "28e3470f57299326f502d5ab2c47899e7fa36745cd015e885e43a242ed7e33ce",
+    "/workspace/shared/jetlink-aggressive-fusion-20261110/vision/context/vision.bin": "4427131892da05dcf5aa351fe675e07c9949e9c7b54072d4829b9cd23e2bfd8f",
+    "/workspace/shared/jetlink-aggressive-fusion-20261110/vision/night0-output/Result_0/view_39_native.raw": "6ef1d80fe7d0495cb010d0ca7112397f9c5b7371ac3809255187f87dd4456d0d",
+    "/workspace/shared/jetlink-public-road/inputs320/in_packed_0.npy": "06feb35e8d121fd4cb92f230b73c3426225e3000f4e37aeff863e5c62689b832",
+    "/workspace/shared/jetlink-public-road/inputs320/in_warped_0.npy": "aec22eb4a26ac6f9f18a0984309e97ce79842f330bf7215728d5e7da3a836e52",
+    "/workspace/shared/jetlink-gelu-polynomial-20261110/qnn-package/build/libJetlinkGeluHost.so": "570e77881f1c8c44ee0fad1258c61c5dd80fcccfacc736dac59adb4a391e7881",
+    "/workspace/shared/htp-dependencies/build-subset/qairt/2.42.0.251225/lib/x86_64-linux-clang/libQnnHtp.so": "c1d79c22789cc78e380459001b31cae828f92b9ed9e58db01bc21045df152ea4",
+    "/workspace/shared/htp-dependencies/build-subset/qairt/2.42.0.251225/lib/x86_64-linux-clang/libQnnSystem.so": "15343ef47a1b21a9886705728b2f0ce42bb1aae5d9849ac447b79980fed83ebf",
+    "/workspace/shared/jetlink-aggressive-fusion-20261110/bridge/model/teacher-capture.weights": "b356db4f9b2ed7cc563c2f4534715487ae4b82319e8225f657dcfa77d082bb75"
+  },
+  "dependency_provenance": {
+    "recorded_utc": "2026-11-10T03:46:59.941156+00:00",
+    "timing": "Recorded during the single vector inference.",
+    "hashes": {
+      "/workspace/shared/htp-dependencies/build-subset/qairt/2.42.0.251225/lib/x86_64-linux-clang/libQnnHtp.so": "c1d79c22789cc78e380459001b31cae828f92b9ed9e58db01bc21045df152ea4",
+      "/workspace/shared/htp-dependencies/build-subset/qairt/2.42.0.251225/lib/x86_64-linux-clang/libQnnSystem.so": "15343ef47a1b21a9886705728b2f0ce42bb1aae5d9849ac447b79980fed83ebf",
+      "/workspace/shared/jetlink-aggressive-fusion-20261110/bridge/model/teacher-capture.weights": "b356db4f9b2ed7cc563c2f4534715487ae4b82319e8225f657dcfa77d082bb75",
+      "/workspace/shared/jetlink-gelu-polynomial-20261110/qnn-package/build/libJetlinkGeluHost.so": "570e77881f1c8c44ee0fad1258c61c5dd80fcccfacc736dac59adb4a391e7881"
+    },
+    "post_run_recheck_matches": true
+  }
+}

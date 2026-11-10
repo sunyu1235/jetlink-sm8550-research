@@ -1,0 +1,53 @@
+{
+  "reference_file_sha256": "76c28135bba83f37d6bcc651e024d75d9f7482e619472027eaeeca5dcb1c1293",
+  "erf_reference_sha256": "a79cc86fa014337104233f51ea71407bfd607485dd68942b734f9f4af378f0c4",
+  "standalone_checks": {
+    "native19-test.log": "PASS 1048576 raw comparisons, 0 mismatches; exhaustive lookup/index, permutations, in-place and canaries. Functional execution, NOT device timing.",
+    "native21-test.log": "PASS 1048576 raw comparisons, 0 mismatches; exhaustive lookup/index, permutations, in-place and canaries. Functional execution, NOT device timing.",
+    "qemu-test.log": "PASS 524288 raw comparisons, 0 mismatches; exhaustive lookup/index, permutations, in-place and canaries. Functional execution, NOT device timing."
+  },
+  "qnn_checks": [
+    {
+      "variant": "qnn-package",
+      "comparisons": 9702056,
+      "polynomial_vectors": 75790,
+      "result": "RESULT passed_graphs=24 expected_graphs=24 status=PASS"
+    },
+    {
+      "variant": "force-00",
+      "comparisons": 9734492,
+      "polynomial_vectors": 75826,
+      "result": "RESULT passed_graphs=30 expected_graphs=30 status=PASS"
+    },
+    {
+      "variant": "force-01",
+      "comparisons": 9734492,
+      "polynomial_vectors": 73878,
+      "result": "RESULT passed_graphs=30 expected_graphs=30 status=PASS"
+    },
+    {
+      "variant": "force-10",
+      "comparisons": 9734492,
+      "polynomial_vectors": 73878,
+      "result": "RESULT passed_graphs=30 expected_graphs=30 status=PASS"
+    },
+    {
+      "variant": "force-11",
+      "comparisons": 9734492,
+      "polynomial_vectors": 73878,
+      "result": "RESULT passed_graphs=30 expected_graphs=30 status=PASS"
+    }
+  ],
+  "source_sha256": {
+    "core.cpp": "6bd083754033d3d39bad66f0510effd50fd1b0c893922389efefaed3106a8a18",
+    "core.h": "b9ad82e3f939ae466c718add4b765d866c71219eed5be14c3e245fe3512babcc",
+    "vector_core.h": "3d4e2a12297a91a76a43e2f1a4906ff5b45a21c2d6ce94ce72e2737191979ec4",
+    "coefficients.h": "43b316210037fa386d44f2cacdbb393d79f9f314f50e606d82277c63c93af313",
+    "generate.py": "dc446b63b49c9702f103fc006dd0436407f5393070d1d2356d72060c37786c5b",
+    "test_core.cpp": "aa59a1e7df1997e2cf25249787fef08076aa156403c892c41a9dcdb1ed17f200",
+    "qnn-package/GeluFp16.cpp": "fcfc5aa1aab12b73f90e8aa94441cd19b4d19a6bc9dc1e00b60ef96fe393d9ad"
+  },
+  "physical_device_execution": false,
+  "target_latency_measured": false,
+  "full_vision_tested_with_this_package": false
+}

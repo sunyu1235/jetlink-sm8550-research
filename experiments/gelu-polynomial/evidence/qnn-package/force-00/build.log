@@ -1,0 +1,3 @@
+LIBNATIVE: No alternate configuration present in libnative_tls.conf or from LIBNATIVE_CONFIG environment variable - using default thread-local behavior.
+QNN host dlopen OK
+package dlopen OK

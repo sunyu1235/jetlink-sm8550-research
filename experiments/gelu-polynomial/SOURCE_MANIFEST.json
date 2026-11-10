@@ -1,0 +1,223 @@
+{
+  "description": "Source-only corrected HVX polynomial GELU core and QNN package",
+  "files": [
+    {
+      "path": "README.md",
+      "size": 9202,
+      "sha256": "c8c2caa515af10a4c4acd18103338dcfd886be43e7add31f24c57dcbfb9a6468"
+    },
+    {
+      "path": "build_reference.sh",
+      "size": 591,
+      "sha256": "9275cfb8d2049454f6057b243c0a4e467ed61801840c3a9eeef0f193fce64824"
+    },
+    {
+      "path": "build_test.sh",
+      "size": 715,
+      "sha256": "04d0b14797d5219a3668e2f50fcf4b65cd3295fe110c38628500f20d33c38015"
+    },
+    {
+      "path": "build_v73.sh",
+      "size": 766,
+      "sha256": "c767d9a6e3db4bbccb1839e12489dae31abdc586889c9ab187a8c212182d2a10"
+    },
+    {
+      "path": "coefficients.h",
+      "size": 3246,
+      "sha256": "43b316210037fa386d44f2cacdbb393d79f9f314f50e606d82277c63c93af313"
+    },
+    {
+      "path": "core.cpp",
+      "size": 4942,
+      "sha256": "6bd083754033d3d39bad66f0510effd50fd1b0c893922389efefaed3106a8a18"
+    },
+    {
+      "path": "core.h",
+      "size": 315,
+      "sha256": "b9ad82e3f939ae466c718add4b765d866c71219eed5be14c3e245fe3512babcc"
+    },
+    {
+      "path": "evidence/assembly-check.log",
+      "size": 647,
+      "sha256": "ce9afe43d1da42c54c0a2d36396b847f81e0fdc0448309bcd79f6bb84537ebbb"
+    },
+    {
+      "path": "evidence/native19-test.log",
+      "size": 147,
+      "sha256": "d5b01784844494765876eb44fc3f19e469a0b28151c3beac3b5acc7ec088f0c6"
+    },
+    {
+      "path": "evidence/native21-test.log",
+      "size": 300,
+      "sha256": "35cbb95a7760252d6e99b242e79aa045f1c099ec8c63036e07282ee4080d5386"
+    },
+    {
+      "path": "evidence/qemu-test.log",
+      "size": 146,
+      "sha256": "6a0724b359166bd54314b5fa3d974b86d75765cf63cae1a967dda975355b0ab0"
+    },
+    {
+      "path": "evidence/qnn-package/build-host.log",
+      "size": 190,
+      "sha256": "fd7d2c12386381f4836fb120171dc1bb5576360859ae303b9562d7e2874e70a1"
+    },
+    {
+      "path": "evidence/qnn-package/build-v73.log",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "evidence/qnn-package/force-00/build.log",
+      "size": 190,
+      "sha256": "fd7d2c12386381f4836fb120171dc1bb5576360859ae303b9562d7e2874e70a1"
+    },
+    {
+      "path": "evidence/qnn-package/force-00/roundtrip-test.log",
+      "size": 9971,
+      "sha256": "6fc16aa0956c4ebbc7afc9454c93dee15c80b5b6f5c732ec97e4ebf603672bd3"
+    },
+    {
+      "path": "evidence/qnn-package/force-01/build.log",
+      "size": 190,
+      "sha256": "fd7d2c12386381f4836fb120171dc1bb5576360859ae303b9562d7e2874e70a1"
+    },
+    {
+      "path": "evidence/qnn-package/force-01/roundtrip-test.log",
+      "size": 9971,
+      "sha256": "0daea7dc174cc8ade74a348de450e7c8e0d4d7cad3c8b492f91b7740898ea75c"
+    },
+    {
+      "path": "evidence/qnn-package/force-10/build.log",
+      "size": 190,
+      "sha256": "fd7d2c12386381f4836fb120171dc1bb5576360859ae303b9562d7e2874e70a1"
+    },
+    {
+      "path": "evidence/qnn-package/force-10/roundtrip-test.log",
+      "size": 10005,
+      "sha256": "551fcf98ac913cdde4bfce866c2a353246394e9509533bf5becd80f1c3d150f5"
+    },
+    {
+      "path": "evidence/qnn-package/force-11/build.log",
+      "size": 190,
+      "sha256": "fd7d2c12386381f4836fb120171dc1bb5576360859ae303b9562d7e2874e70a1"
+    },
+    {
+      "path": "evidence/qnn-package/force-11/roundtrip-test.log",
+      "size": 10005,
+      "sha256": "551fcf98ac913cdde4bfce866c2a353246394e9509533bf5becd80f1c3d150f5"
+    },
+    {
+      "path": "evidence/qnn-package/layout-matrix.log",
+      "size": 276,
+      "sha256": "96755fe59aaf45c1047a561849f6171f0b9d22d91a58db0eef51a493272233af"
+    },
+    {
+      "path": "evidence/qnn-package/roundtrip-test.log",
+      "size": 8238,
+      "sha256": "342b9f0173424fbc208d8a265b945fb4b2ec92b2a0bd242081714c681f834d99"
+    },
+    {
+      "path": "generate.py",
+      "size": 802,
+      "sha256": "dc446b63b49c9702f103fc006dd0436407f5393070d1d2356d72060c37786c5b"
+    },
+    {
+      "path": "manifest.json",
+      "size": 2435,
+      "sha256": "986fd27230e45722a8abc16ee92fcf6514b2bc14c005491bff493a3418ddf52e"
+    },
+    {
+      "path": "qnn-package/GeluFp16.cpp",
+      "size": 6269,
+      "sha256": "fcfc5aa1aab12b73f90e8aa94441cd19b4d19a6bc9dc1e00b60ef96fe393d9ad"
+    },
+    {
+      "path": "qnn-package/build_host.sh",
+      "size": 1646,
+      "sha256": "012addac857c16c44a8e05712786eacbcb46bda1f9f073e4227255b3acd4a834"
+    },
+    {
+      "path": "qnn-package/build_v73.sh",
+      "size": 1038,
+      "sha256": "5322a41b03be8f8437bb214d1cbe1e7f4857537150a91d50c4daaf37d9694e03"
+    },
+    {
+      "path": "qnn-package/coefficients.h",
+      "size": 3246,
+      "sha256": "43b316210037fa386d44f2cacdbb393d79f9f314f50e606d82277c63c93af313"
+    },
+    {
+      "path": "qnn-package/compact_gelu.h",
+      "size": 895,
+      "sha256": "21ab03a803f5c014af9a72d7c030483d33b4b009ae16d072294256a491a97126"
+    },
+    {
+      "path": "qnn-package/core.cpp",
+      "size": 4942,
+      "sha256": "6bd083754033d3d39bad66f0510effd50fd1b0c893922389efefaed3106a8a18"
+    },
+    {
+      "path": "qnn-package/core.h",
+      "size": 315,
+      "sha256": "b9ad82e3f939ae466c718add4b765d866c71219eed5be14c3e245fe3512babcc"
+    },
+    {
+      "path": "qnn-package/gelu_tables.h",
+      "size": 266430,
+      "sha256": "8401c4e779a6ac6a0bb92e07bbcb29b7ea2b80d7ad884e269ab825d26b154783"
+    },
+    {
+      "path": "qnn-package/prepare_interface.py",
+      "size": 2470,
+      "sha256": "5ca5f8a7100b11f8930715614a83adc63ad108c878e1c4ba19c75b054b307d08"
+    },
+    {
+      "path": "qnn-package/run_tests.sh",
+      "size": 703,
+      "sha256": "97eaa9278273d6d65218f71e4fc608eb906bc21b0023ca65b2daa1dc2b7f6952"
+    },
+    {
+      "path": "qnn-package/test_layout_matrix.py",
+      "size": 1459,
+      "sha256": "1e2be03392b4300180d4d34f51f844bc244a832eddeb79290da855aa5e6e89ae"
+    },
+    {
+      "path": "qnn-package/test_qnn_gelu.c",
+      "size": 7318,
+      "sha256": "e3a34b08a4242c587e29ff0605590c61f6b3ca1a453b09bb5203da05f0627bf7"
+    },
+    {
+      "path": "qnn-package/vector_core.h",
+      "size": 313,
+      "sha256": "3d4e2a12297a91a76a43e2f1a4906ff5b45a21c2d6ce94ce72e2737191979ec4"
+    },
+    {
+      "path": "reference.c",
+      "size": 771,
+      "sha256": "c00f1f944e1e11fab12b70c8eaec0f8644caaf8dca80afc357004065ef368229"
+    },
+    {
+      "path": "run_qemu.sh",
+      "size": 967,
+      "sha256": "0ea70e5658fd850991f71b5e665006346d6738a1020dc34148e36e7f022a20fb"
+    },
+    {
+      "path": "test_core.cpp",
+      "size": 3049,
+      "sha256": "aa59a1e7df1997e2cf25249787fef08076aa156403c892c41a9dcdb1ed17f200"
+    },
+    {
+      "path": "vector_core.h",
+      "size": 313,
+      "sha256": "3d4e2a12297a91a76a43e2f1a4906ff5b45a21c2d6ce94ce72e2737191979ec4"
+    }
+  ],
+  "excluded": [
+    "SDK-derived LocalLicensedInterface.cpp",
+    "SDK/compiler/runtime/native archive bytes",
+    "compiled binaries and assembly outputs",
+    "model weights and ONNX",
+    "raw reference.bin"
+  ],
+  "manifest_self_hash_excluded": true
+}

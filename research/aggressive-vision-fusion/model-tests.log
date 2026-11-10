@@ -1,0 +1,8 @@
+test_exact_remainder (test_build_model.ModelTests.test_exact_remainder) ... ok
+test_reject_live_side_output (test_build_model.ModelTests.test_reject_live_side_output) ... ok
+test_reject_unclosed_cut (test_build_model.ModelTests.test_reject_unclosed_cut) ... ok
+
+----------------------------------------------------------------------
+Ran 3 tests in 0.061s
+
+OK

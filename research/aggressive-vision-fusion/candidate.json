@@ -1,0 +1,45 @@
+{
+  "source": "preserve_fixed QNN2.42 arithmetic-preserving conversion",
+  "input": {
+    "cat_2": {
+      "shape": [
+        1,
+        24,
+        128,
+        256
+      ],
+      "dtype": "float16",
+      "bytes": 1572864
+    }
+  },
+  "output": {
+    "view_39": {
+      "shape": [
+        1,
+        32,
+        512
+      ],
+      "dtype": "float16",
+      "bytes": 32768
+    }
+  },
+  "qnn_nodes": 482,
+  "vision_gelus": 36,
+  "gelu_elements_per_inference": 24379392,
+  "logical_gelu_read_write_bytes": 97517568,
+  "host_context_prepared": true,
+  "host_native_first_frame": "executed; original full-head checker passes one zero-state road frame",
+  "device_inference": "not run",
+  "performance": "No target estimate or speed claim",
+  "host_native_feature_max_abs": 0.04296875,
+  "host_native_head_max_abs": 0.25,
+  "host_native_wall_seconds_not_target_latency": 622,
+  "full_bridge_one_frame": "PASS: all four outputs bit-identical to split-native control",
+  "recurrent_acceptance": "not run",
+  "vector_full_bridge_one_frame": "PASS: exactly one invocation, all four outputs bit-identical to split-native scalar control, no nonfinite values",
+  "vector_core_qemu": "524288 exact raw comparisons, zero mismatch",
+  "vector_qnn_layouts": "Four forced layout suites; 30 graphs and 9734492 comparisons each; zero mismatch",
+  "repacked_model_data_bytes": 806343617,
+  "repacked_runtime_gate": "Not run; live tensor hashes and all non-initializer graph/model fields verified unchanged",
+  "vector_saved_output_original_checker": "PASS unchanged full-head checker, one independent-zero-state recorded-night frame"
+}

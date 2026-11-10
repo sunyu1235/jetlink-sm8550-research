@@ -1,0 +1,292 @@
+LIBNATIVE: No alternate configuration present in libnative_tls.conf or from LIBNATIVE_CONFIG environment variable - using default thread-local behavior.
+ <W> Initializing HtpProvider
+ <W> HTP arch will be deprecated, please set SoC id instead.
+ <W> Performance Estimates unsupported on soc SM8550
+CONFIG offline_min_arch=73 soc=43
+ <E> QnnBackend_validateOpConfig failed 3110
+ <E> Failed to validate op validation with error 0xc26
+ <E> QnnBackend_validateOpConfig failed 3110
+ <E> Failed to validate op validation with error 0xc26
+ <E> QnnBackend_validateOpConfig failed 3110
+ <E> Failed to validate op validation with error 0xc26
+ <E> QnnBackend_validateOpConfig failed 3110
+ <E> Failed to validate op validation with error 0xc26
+ <E> QnnBackend_validateOpConfig failed 3110
+ <E> Failed to validate op validation with error 0xc26
+ <E> QnnBackend_validateOpConfig failed 3110
+ <E> Failed to validate op validation with error 0xc26
+CONFIG rejected=6 expected=6
+ <W> Sanitizing the value for hvx_threads and setting to default
+
+====== DDR bandwidth summary ======
+spill_bytes=0
+fill_bytes=0
+write_total_bytes=2304
+read_total_bytes=4096
+
+CASE mode=erf shape=1,1,1,1 executions=2 serialized_reload=1 comparisons=2 mismatches=0 finite_mismatches=0
+ <W> Sanitizing the value for hvx_threads and setting to default
+
+====== DDR bandwidth summary ======
+spill_bytes=0
+fill_bytes=0
+write_total_bytes=4352
+read_total_bytes=6144
+
+CASE mode=erf shape=1,1,1,63 executions=2 serialized_reload=1 comparisons=126 mismatches=0 finite_mismatches=0
+ <W> Sanitizing the value for hvx_threads and setting to default
+
+====== DDR bandwidth summary ======
+spill_bytes=0
+fill_bytes=0
+write_total_bytes=4352
+read_total_bytes=6144
+
+CASE mode=erf shape=1,1,1,64 executions=2 serialized_reload=1 comparisons=128 mismatches=0 finite_mismatches=0
+ <W> Sanitizing the value for hvx_threads and setting to default
+
+====== DDR bandwidth summary ======
+spill_bytes=0
+fill_bytes=0
+write_total_bytes=6400
+read_total_bytes=8192
+
+CASE mode=erf shape=1,1,1,65 executions=2 serialized_reload=1 comparisons=130 mismatches=0 finite_mismatches=0
+ <W> Sanitizing the value for hvx_threads and setting to default
+
+====== DDR bandwidth summary ======
+spill_bytes=0
+fill_bytes=0
+write_total_bytes=8448
+read_total_bytes=10240
+
+CASE mode=erf shape=1,1,1,127 executions=2 serialized_reload=1 comparisons=254 mismatches=0 finite_mismatches=0
+ <W> Sanitizing the value for hvx_threads and setting to default
+
+====== DDR bandwidth summary ======
+spill_bytes=0
+fill_bytes=0
+write_total_bytes=8448
+read_total_bytes=10240
+
+CASE mode=erf shape=1,1,1,128 executions=2 serialized_reload=1 comparisons=256 mismatches=0 finite_mismatches=0
+ <W> Sanitizing the value for hvx_threads and setting to default
+
+====== DDR bandwidth summary ======
+spill_bytes=0
+fill_bytes=0
+write_total_bytes=10752
+read_total_bytes=12288
+
+CASE mode=erf shape=1,1,1,129 executions=2 serialized_reload=1 comparisons=258 mismatches=0 finite_mismatches=0
+ <W> Sanitizing the value for hvx_threads and setting to default
+
+====== DDR bandwidth summary ======
+spill_bytes=0
+fill_bytes=0
+write_total_bytes=4325376
+read_total_bytes=4325376
+
+CASE mode=erf shape=1,1,1,65536 executions=2 serialized_reload=1 comparisons=131072 mismatches=0 finite_mismatches=0
+ <W> Sanitizing the value for hvx_threads and setting to default
+
+====== DDR bandwidth summary ======
+spill_bytes=0
+fill_bytes=0
+write_total_bytes=393216
+read_total_bytes=393216
+
+CASE mode=erf shape=2,4,16,512 executions=2 serialized_reload=1 comparisons=131072 mismatches=0 finite_mismatches=0
+ <W> Sanitizing the value for hvx_threads and setting to default
+
+====== DDR bandwidth summary ======
+spill_bytes=0
+fill_bytes=0
+write_total_bytes=4352
+read_total_bytes=6144
+
+CASE mode=erf shape=1,3,5,7 executions=2 serialized_reload=1 comparisons=210 mismatches=0 finite_mismatches=0
+ <W> Sanitizing the value for hvx_threads and setting to default
+
+====== DDR bandwidth summary ======
+spill_bytes=0
+fill_bytes=0
+write_total_bytes=1179648
+read_total_bytes=1179648
+
+CASE mode=erf shape=1,4,16,3072 executions=2 serialized_reload=1 comparisons=393216 mismatches=0 finite_mismatches=0
+ <W> Sanitizing the value for hvx_threads and setting to default
+[2] subgraph_generator.cc:358:WARNING:First group considered for subgraph had more peak tcm than threshold: 4194304 > 3145728
+
+====== DDR bandwidth summary ======
+spill_bytes=0
+fill_bytes=0
+write_total_bytes=8388608
+read_total_bytes=8388608
+
+CASE mode=erf shape=1,32,64,1024 executions=2 serialized_reload=1 comparisons=4194304 mismatches=0 finite_mismatches=0
+ <W> Sanitizing the value for hvx_threads and setting to default
+
+====== DDR bandwidth summary ======
+spill_bytes=0
+fill_bytes=0
+write_total_bytes=38912
+read_total_bytes=38912
+
+CASE mode=erf shape=2,9,5,33 executions=2 serialized_reload=1 comparisons=5940 mismatches=0 finite_mismatches=0
+ <W> Sanitizing the value for hvx_threads and setting to default
+
+====== DDR bandwidth summary ======
+spill_bytes=0
+fill_bytes=0
+write_total_bytes=24576
+read_total_bytes=24576
+
+CASE mode=erf shape=1,9,7,63 executions=2 serialized_reload=1 comparisons=7938 mismatches=0 finite_mismatches=0
+ <W> Sanitizing the value for hvx_threads and setting to default
+
+====== DDR bandwidth summary ======
+spill_bytes=0
+fill_bytes=0
+write_total_bytes=14848
+read_total_bytes=16384
+
+CASE mode=erf shape=2,3,3,65 executions=2 serialized_reload=1 comparisons=2340 mismatches=0 finite_mismatches=0
+ <W> Sanitizing the value for hvx_threads and setting to default
+
+====== DDR bandwidth summary ======
+spill_bytes=0
+fill_bytes=0
+write_total_bytes=2304
+read_total_bytes=4096
+
+CASE mode=tanh shape=1,1,1,1 executions=2 serialized_reload=1 comparisons=2 mismatches=0 finite_mismatches=0
+ <W> Sanitizing the value for hvx_threads and setting to default
+
+====== DDR bandwidth summary ======
+spill_bytes=0
+fill_bytes=0
+write_total_bytes=4352
+read_total_bytes=6144
+
+CASE mode=tanh shape=1,1,1,63 executions=2 serialized_reload=1 comparisons=126 mismatches=0 finite_mismatches=0
+ <W> Sanitizing the value for hvx_threads and setting to default
+
+====== DDR bandwidth summary ======
+spill_bytes=0
+fill_bytes=0
+write_total_bytes=4352
+read_total_bytes=6144
+
+CASE mode=tanh shape=1,1,1,64 executions=2 serialized_reload=1 comparisons=128 mismatches=0 finite_mismatches=0
+ <W> Sanitizing the value for hvx_threads and setting to default
+
+====== DDR bandwidth summary ======
+spill_bytes=0
+fill_bytes=0
+write_total_bytes=6400
+read_total_bytes=8192
+
+CASE mode=tanh shape=1,1,1,65 executions=2 serialized_reload=1 comparisons=130 mismatches=0 finite_mismatches=0
+ <W> Sanitizing the value for hvx_threads and setting to default
+
+====== DDR bandwidth summary ======
+spill_bytes=0
+fill_bytes=0
+write_total_bytes=8448
+read_total_bytes=10240
+
+CASE mode=tanh shape=1,1,1,127 executions=2 serialized_reload=1 comparisons=254 mismatches=0 finite_mismatches=0
+ <W> Sanitizing the value for hvx_threads and setting to default
+
+====== DDR bandwidth summary ======
+spill_bytes=0
+fill_bytes=0
+write_total_bytes=8448
+read_total_bytes=10240
+
+CASE mode=tanh shape=1,1,1,128 executions=2 serialized_reload=1 comparisons=256 mismatches=0 finite_mismatches=0
+ <W> Sanitizing the value for hvx_threads and setting to default
+
+====== DDR bandwidth summary ======
+spill_bytes=0
+fill_bytes=0
+write_total_bytes=10752
+read_total_bytes=12288
+
+CASE mode=tanh shape=1,1,1,129 executions=2 serialized_reload=1 comparisons=258 mismatches=0 finite_mismatches=0
+ <W> Sanitizing the value for hvx_threads and setting to default
+
+====== DDR bandwidth summary ======
+spill_bytes=0
+fill_bytes=0
+write_total_bytes=4325376
+read_total_bytes=4325376
+
+CASE mode=tanh shape=1,1,1,65536 executions=2 serialized_reload=1 comparisons=131072 mismatches=0 finite_mismatches=0
+ <W> Sanitizing the value for hvx_threads and setting to default
+
+====== DDR bandwidth summary ======
+spill_bytes=0
+fill_bytes=0
+write_total_bytes=393216
+read_total_bytes=393216
+
+CASE mode=tanh shape=2,4,16,512 executions=2 serialized_reload=1 comparisons=131072 mismatches=0 finite_mismatches=0
+ <W> Sanitizing the value for hvx_threads and setting to default
+
+====== DDR bandwidth summary ======
+spill_bytes=0
+fill_bytes=0
+write_total_bytes=4352
+read_total_bytes=6144
+
+CASE mode=tanh shape=1,3,5,7 executions=2 serialized_reload=1 comparisons=210 mismatches=0 finite_mismatches=0
+ <W> Sanitizing the value for hvx_threads and setting to default
+
+====== DDR bandwidth summary ======
+spill_bytes=0
+fill_bytes=0
+write_total_bytes=1179648
+read_total_bytes=1179648
+
+CASE mode=tanh shape=1,4,16,3072 executions=2 serialized_reload=1 comparisons=393216 mismatches=0 finite_mismatches=0
+ <W> Sanitizing the value for hvx_threads and setting to default
+[2] subgraph_generator.cc:358:WARNING:First group considered for subgraph had more peak tcm than threshold: 4194304 > 3145728
+
+====== DDR bandwidth summary ======
+spill_bytes=0
+fill_bytes=0
+write_total_bytes=8388608
+read_total_bytes=8388608
+
+CASE mode=tanh shape=1,32,64,1024 executions=2 serialized_reload=1 comparisons=4194304 mismatches=0 finite_mismatches=0
+ <W> Sanitizing the value for hvx_threads and setting to default
+
+====== DDR bandwidth summary ======
+spill_bytes=0
+fill_bytes=0
+write_total_bytes=38912
+read_total_bytes=38912
+
+CASE mode=tanh shape=2,9,5,33 executions=2 serialized_reload=1 comparisons=5940 mismatches=0 finite_mismatches=0
+ <W> Sanitizing the value for hvx_threads and setting to default
+
+====== DDR bandwidth summary ======
+spill_bytes=0
+fill_bytes=0
+write_total_bytes=24576
+read_total_bytes=24576
+
+CASE mode=tanh shape=1,9,7,63 executions=2 serialized_reload=1 comparisons=7938 mismatches=0 finite_mismatches=0
+ <W> Sanitizing the value for hvx_threads and setting to default
+
+====== DDR bandwidth summary ======
+spill_bytes=0
+fill_bytes=0
+write_total_bytes=14848
+read_total_bytes=16384
+
+CASE mode=tanh shape=2,3,3,65 executions=2 serialized_reload=1 comparisons=2340 mismatches=0 finite_mismatches=0
+POLYNOMIAL vectors=73878
+RESULT passed_graphs=30 expected_graphs=30 status=PASS

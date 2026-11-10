@@ -1,0 +1,36 @@
+
+frame 0: corr 1.000000  max abs 0.2500
+    action                   corr 1.000000  max abs   0.0010  mean abs 0.00031   (by error, pooled)
+    desire_pred              corr 1.000000  max abs   0.0049  mean abs 0.00203
+    desire_state             corr 1.000000  max abs   0.0156  mean abs 0.00659   (by error, pooled)
+    hidden_state             corr 0.999999  max abs   0.0430  mean abs 0.00194
+    lane_lines               corr 1.000000  max abs   0.0312  mean abs 0.00147
+    lane_lines_prob          corr 0.999995  max abs   0.0166  mean abs 0.00797   (by error, pooled)
+    lead                     corr 1.000000  max abs   0.2500  mean abs 0.00633
+    lead_prob                corr 0.999996  max abs   0.0059  mean abs 0.00391   (by error, pooled)
+    meta                     corr 1.000000  max abs   0.0039  mean abs 0.00115
+    pad                      corr 1.000000  max abs   0.0000  mean abs 0.00000   (by error, pooled)
+    plan                     corr 1.000000  max abs   0.1250  mean abs 0.00283
+    pose                     corr 1.000000  max abs   0.0156  mean abs 0.00188   (by error, pooled)
+    road_edges               corr 1.000000  max abs   0.0156  mean abs 0.00133
+    road_transform           corr 1.000000  max abs   0.0039  mean abs 0.00033   (by error, pooled)
+    wide_from_device_euler   corr 1.000000  max abs   0.0000  mean abs 0.00000   (by error, pooled)
+
+pooled over 1 frames, per slice and per column:
+    action                   corr 1.000000  by error, max abs 0.0009766 <= 0.2311   max abs   0.0010  mean abs 0.00031
+    desire_pred              corr 1.000000  (compared whole)                        max abs   0.0049  mean abs 0.00203
+    desire_state             corr 1.000000  by error, max abs 0.01562 <= 3.083      max abs   0.0156  mean abs 0.00659
+    hidden_state             corr 0.999999  (compared whole)                        max abs   0.0430  mean abs 0.00194
+    lane_lines               corr 1.000000  worst col 0.999999 mu[1]                    max abs   0.0312  mean abs 0.00147
+    lane_lines_prob          corr 0.999995  by error, max abs 0.0166 <= 0.725       max abs   0.0166  mean abs 0.00797
+    lead                     corr 1.000000  worst col 0.999999 mu[0]    (7 by error)    max abs   0.2500  mean abs 0.00633
+    lead_prob                corr 0.999996  by error, max abs 0.005859 <= 0.2744    max abs   0.0059  mean abs 0.00391
+    meta                     corr 1.000000  (compared whole)                        max abs   0.0039  mean abs 0.00115
+    pad                      corr 1.000000  by error, max abs 0 <= 0                max abs   0.0000  mean abs 0.00000
+    plan                     corr 1.000000  worst col 0.999999 std[11]  (24 by error)   max abs   0.1250  mean abs 0.00283
+    pose                     corr 1.000000  no column correlated        (12 by error)   max abs   0.0156  mean abs 0.00188
+    road_edges               corr 1.000000  worst col 0.999999 mu[1]                    max abs   0.0156  mean abs 0.00133
+    road_transform           corr 1.000000  no column correlated        (12 by error)   max abs   0.0039  mean abs 0.00033
+    wide_from_device_euler   corr 1.000000  no column correlated        (6 by error)    max abs   0.0000  mean abs 0.00000
+
+OK: every slice and every column at or above corr 0.999, or within 10% of its largest value where too small or too quiet to correlate, per frame and pooled over all 1 frames

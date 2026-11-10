@@ -1,0 +1,15 @@
+{
+  "source": "/workspace/shared/jetlink-distillation/real-block/teacher-compact-boundaries.onnx",
+  "source_sha256": "3c80a2e4ede9781a1e5aec41c503e12e2f2c739e987e168046de8ed87325800a",
+  "removed_nodes": 421,
+  "native_nodes": 1,
+  "preserved_outputs": [
+    "outputs",
+    "next_state_img_q",
+    "next_state_desire_q",
+    "next_state_feat_q"
+  ],
+  "all_three_consumers_preserved": true,
+  "native_validation": "pending",
+  "scope": "Host candidate; no device or speed qualification"
+}

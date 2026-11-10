@@ -1,0 +1,56 @@
+{
+  "scope": "Zero-state recorded-night frame 0 only. No recurrent, phone, or speed acceptance.",
+  "control": {
+    "outputs": {
+      "shape": [
+        1,
+        18452
+      ],
+      "nonfinite": 0,
+      "exact_bytes": true,
+      "max_abs": 0.0,
+      "rmse": 0.0,
+      "correlation": 0.9999999999999999
+    },
+    "next_state_img_q": {
+      "shape": [
+        2,
+        5,
+        6,
+        128,
+        256
+      ],
+      "nonfinite": 0,
+      "exact_bytes": true,
+      "max_abs": 0.0,
+      "rmse": 0.0,
+      "correlation": 1.0
+    },
+    "next_state_desire_q": {
+      "shape": [
+        132,
+        1,
+        8
+      ],
+      "nonfinite": 0,
+      "exact_bytes": true,
+      "max_abs": 0.0,
+      "rmse": 0.0,
+      "correlation": null
+    },
+    "next_state_feat_q": {
+      "shape": [
+        128,
+        1,
+        16384
+      ],
+      "nonfinite": 0,
+      "exact_bytes": true,
+      "max_abs": 0.0,
+      "rmse": 0.0,
+      "correlation": 0.9999999999999998
+    }
+  },
+  "source_sha256": "3c80a2e4ede9781a1e5aec41c503e12e2f2c739e987e168046de8ed87325800a",
+  "native_sha256": null
+}

@@ -1,0 +1,59 @@
+{
+  "scope": "Independent final evidence review, no additional QNN invocation",
+  "vector_output_checks": {
+    "outputs": {
+      "shape": [
+        1,
+        18452
+      ],
+      "dtype": "float32",
+      "raw_sha256": "b39ddfc7258789ee83ea2b291c2b846a935f9f08cef1439e3341167faf5e97fb",
+      "exact_to_split_native_scalar": true,
+      "nonfinite": 0
+    },
+    "next_state_img_q": {
+      "shape": [
+        2,
+        5,
+        6,
+        128,
+        256
+      ],
+      "dtype": "uint8",
+      "raw_sha256": "d87264a2ab5f0e9be479a59699e7d67a2318237db83b6b64d1a29eb345db55dd",
+      "exact_to_split_native_scalar": true,
+      "nonfinite": 0
+    },
+    "next_state_desire_q": {
+      "shape": [
+        132,
+        1,
+        8
+      ],
+      "dtype": "float32",
+      "raw_sha256": "0d71643bfaa0cd6f10b638daa12819f01a0f6a53a07835eb11532b45ed90a244",
+      "exact_to_split_native_scalar": true,
+      "nonfinite": 0
+    },
+    "next_state_feat_q": {
+      "shape": [
+        128,
+        1,
+        16384
+      ],
+      "dtype": "float32",
+      "raw_sha256": "dd69ee2deb14e52068aff00cc6d6213608a3a8c47f89e82515408f8e87ff4905",
+      "exact_to_split_native_scalar": true,
+      "nonfinite": 0
+    }
+  },
+  "repack_bytes_verified": 806343617,
+  "repack_tensor_hash_records": 311,
+  "focused_python_tests": 48,
+  "negative_ort_tests": 4,
+  "descriptor_tests": 9,
+  "device_execution": "not run",
+  "recurrent_acceptance": "not run",
+  "repacked_runtime_inference": "not run",
+  "vector_original_checker_exit_code": 0
+}

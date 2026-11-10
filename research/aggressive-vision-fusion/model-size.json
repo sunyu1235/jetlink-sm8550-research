@@ -1,0 +1,44 @@
+{
+  "scope": "Repacked host-validation model data; not an integrated/qualified phone package. Runtime libraries excluded.",
+  "artifacts": [
+    {
+      "path": "/workspace/shared/jetlink-aggressive-fusion-20261110/repacked/vision-native.onnx",
+      "bytes": 1297697
+    },
+    {
+      "path": "/workspace/shared/jetlink-aggressive-fusion-20261110/repacked/remainder.weights",
+      "bytes": 90789536
+    },
+    {
+      "path": "/workspace/shared/jetlink-aggressive-fusion-20261110/vision/context/vision.bin",
+      "bytes": 714256384
+    }
+  ],
+  "total_bytes": 806343617,
+  "original_model_bytes": 792305602,
+  "increase_percent_vs_original": 1.771792975407993,
+  "saved_bytes_vs_duplicated_proof": 698857914,
+  "static_validation": "All 311 live initializer payloads hash-equal; all non-initializer model fields identical; ONNX checker passed. 347 unused initializers removed.",
+  "runtime_validation": "Repacked artifact not executed; scalar/vector full-bridge gates used unrepacked proof.",
+  "unrepacked_proof": {
+    "scope": "Complete current host-validation model data, not optimized phone deployment package",
+    "artifacts": [
+      {
+        "path": "/workspace/shared/jetlink-aggressive-fusion-20261110/bridge/model/vision-native.onnx",
+        "bytes": 1350875
+      },
+      {
+        "path": "/workspace/shared/jetlink-aggressive-fusion-20261110/bridge/model/teacher-capture.weights",
+        "bytes": 789594272
+      },
+      {
+        "path": "/workspace/shared/jetlink-aggressive-fusion-20261110/vision/context/vision.bin",
+        "bytes": 714256384
+      }
+    ],
+    "total_bytes": 1505201531,
+    "original_model_bytes": 792305602,
+    "note": "Original external weight file is still retained in full, while vision weights are also in context. Repack unused original vision weights and regenerate the phone remainder before claiming deployment size. Runtime libraries not included.",
+    "increase_percent_vs_original": 89.97739347045535
+  }
+}

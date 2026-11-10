@@ -1,0 +1,2 @@
+LIBNATIVE: No alternate configuration present in libnative_tls.conf or from LIBNATIVE_CONFIG environment variable - using default thread-local behavior.
+PASS 1048576 raw comparisons, 0 mismatches; exhaustive lookup/index, permutations, in-place and canaries. Functional execution, NOT device timing.

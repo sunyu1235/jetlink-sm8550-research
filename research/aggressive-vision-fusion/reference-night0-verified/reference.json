@@ -1,0 +1,21 @@
+{
+  "source": "/workspace/shared/jetlink-distillation/real-block/teacher-compact-boundaries.onnx",
+  "road": "/workspace/shared/jetlink-public-road/inputs320",
+  "frame": 0,
+  "vision_nodes": 421,
+  "ort_version": "1.23.2",
+  "source_sha256": "3c80a2e4ede9781a1e5aec41c503e12e2f2c739e987e168046de8ed87325800a",
+  "external_weights_sha256": {
+    "teacher-capture.weights": "b356db4f9b2ed7cc563c2f4534715487ae4b82319e8225f657dcfa77d082bb75"
+  },
+  "input_sha256": {
+    "/workspace/shared/jetlink-public-road/inputs320/in_warped_0.npy": "aec22eb4a26ac6f9f18a0984309e97ce79842f330bf7215728d5e7da3a836e52"
+  },
+  "artifact_sha256": {
+    "cat_2.raw": "7f3bd9fd84a45b799e16ea1f52c3ac980be998f6540ead32f46ca3b144c05b34",
+    "teacher.npy": "b2dba46a19092a1063d4012bfca178837235b74c545f5fc8c5807759cc75aeb5",
+    "pre.onnx": "dd7fab1b08c20708e2bf758d5578cbc031ceb0ce01b5ca32e421b05efab1684f",
+    "teacher_vision.onnx": "31755b710583abfec773c75a3c7dfe7213c00ac7aaac73397edcbf1ec2ee4572"
+  },
+  "note": "Boundary diagnostic against ORT teacher. Accepted Android hybrid boundary is unavailable. Not recurrent or target timing validation."
+}

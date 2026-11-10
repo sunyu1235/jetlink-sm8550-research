@@ -1,0 +1,20 @@
+{
+  "baseline160.csv": {
+    "sha256": "8ee1d8fa21ba04fba8a3c9555154c3a40b539e2d6162c73422783cbb4e9cd2aa",
+    "mean_all": 53.632732418749995,
+    "mean_drop_first": 53.20083201886793,
+    "p50_drop_first": 53.039896,
+    "p99_drop_first": 54.99264814,
+    "nonfinite_count": 0
+  },
+  "candidate160.csv": {
+    "sha256": "0b4575f249b913a44e3f6a1098fdbc6a6a3764d5537713c279116a1233aa7ca7",
+    "mean_all": 52.43601853749999,
+    "mean_drop_first": 51.998085345911946,
+    "p50_drop_first": 51.954844,
+    "p99_drop_first": 52.80968221999999,
+    "nonfinite_count": 0
+  },
+  "gain_vs_same_run_ms": 1.202746672955982,
+  "target_latency_measured_by_this_worker": false
+}

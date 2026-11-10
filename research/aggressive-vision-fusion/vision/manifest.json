@@ -1,0 +1,2503 @@
+{
+  "graph_name": "vision_merged",
+  "input_tensors": {
+    "cat_2": {
+      "id": 52,
+      "type": 3,
+      "dataFormat": 0,
+      "data_type": 534,
+      "unquantized_data_type": 534,
+      "permute_order_to_src": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "quant_params": {
+        "definition": 2147483647,
+        "encoding": 2147483647,
+        "is_overridden": false,
+        "scale_offset": {
+          "bitwidth": 0,
+          "minimum": 0.0,
+          "maximum": 0.0,
+          "scale": 0.0,
+          "offset": 0,
+          "is_symmetric": false,
+          "is_fixed_point": true
+        }
+      },
+      "dims": [
+        1,
+        24,
+        128,
+        256
+      ],
+      "is_dynamic_dims": [],
+      "is_quantizable": false,
+      "is_updateable": false
+    }
+  },
+  "output_tensors": {
+    "view_39": {
+      "id": 1117,
+      "type": 3,
+      "dataFormat": 0,
+      "data_type": 534,
+      "unquantized_data_type": 534,
+      "permute_order_to_src": [
+        0,
+        1,
+        2
+      ],
+      "quant_params": {
+        "definition": 2147483647,
+        "encoding": 2147483647,
+        "is_overridden": false,
+        "scale_offset": {
+          "bitwidth": 0,
+          "minimum": 0.0,
+          "maximum": 0.0,
+          "scale": 0.0,
+          "offset": 0,
+          "is_symmetric": false,
+          "is_fixed_point": true
+        }
+      },
+      "dims": [
+        1,
+        32,
+        512
+      ],
+      "is_dynamic_dims": [],
+      "is_quantizable": false,
+      "is_updateable": false
+    }
+  },
+  "nodes": [
+    {
+      "name": "node_sub",
+      "type": "Eltwise_Binary"
+    },
+    {
+      "name": "node_div",
+      "type": "Eltwise_Binary"
+    },
+    {
+      "name": "div_nhwc",
+      "type": "Transpose"
+    },
+    {
+      "name": "node_conv2d",
+      "type": "Conv2d"
+    },
+    {
+      "name": "node_layer_norm",
+      "type": "LayerNorm"
+    },
+    {
+      "name": "node_conv2d_1",
+      "type": "DepthWiseConv2d"
+    },
+    {
+      "name": "node_layer_norm_1",
+      "type": "LayerNorm"
+    },
+    {
+      "name": "node_MatMul_91_pre_reshape",
+      "type": "Reshape"
+    },
+    {
+      "name": "node_MatMul_91",
+      "type": "FullyConnected"
+    },
+    {
+      "name": "node_MatMul_91_post_reshape",
+      "type": "Reshape"
+    },
+    {
+      "name": "node_gelu",
+      "type": "GeluErfFp16"
+    },
+    {
+      "name": "node_MatMul_93_pre_reshape",
+      "type": "Reshape"
+    },
+    {
+      "name": "node_MatMul_93",
+      "type": "FullyConnected"
+    },
+    {
+      "name": "node_MatMul_93_post_reshape",
+      "type": "Reshape"
+    },
+    {
+      "name": "node_permute_3",
+      "type": "Transpose"
+    },
+    {
+      "name": "node_mul",
+      "type": "Eltwise_Binary"
+    },
+    {
+      "name": "mul_nhwc",
+      "type": "Transpose"
+    },
+    {
+      "name": "node_add",
+      "type": "Eltwise_Binary"
+    },
+    {
+      "name": "node_conv2d_2",
+      "type": "DepthWiseConv2d"
+    },
+    {
+      "name": "node_layer_norm_2",
+      "type": "LayerNorm"
+    },
+    {
+      "name": "node_MatMul_101_pre_reshape",
+      "type": "Reshape"
+    },
+    {
+      "name": "node_MatMul_101",
+      "type": "FullyConnected"
+    },
+    {
+      "name": "node_MatMul_101_post_reshape",
+      "type": "Reshape"
+    },
+    {
+      "name": "node_gelu_1",
+      "type": "GeluErfFp16"
+    },
+    {
+      "name": "node_MatMul_103_pre_reshape",
+      "type": "Reshape"
+    },
+    {
+      "name": "node_MatMul_103",
+      "type": "FullyConnected"
+    },
+    {
+      "name": "node_MatMul_103_post_reshape",
+      "type": "Reshape"
+    },
+    {
+      "name": "node_permute_5",
+      "type": "Transpose"
+    },
+    {
+      "name": "node_mul_1",
+      "type": "Eltwise_Binary"
+    },
+    {
+      "name": "mul_1_nhwc",
+      "type": "Transpose"
+    },
+    {
+      "name": "node_add_1",
+      "type": "Eltwise_Binary"
+    },
+    {
+      "name": "node_conv2d_3",
+      "type": "DepthWiseConv2d"
+    },
+    {
+      "name": "node_layer_norm_3",
+      "type": "LayerNorm"
+    },
+    {
+      "name": "node_MatMul_111_pre_reshape",
+      "type": "Reshape"
+    },
+    {
+      "name": "node_MatMul_111",
+      "type": "FullyConnected"
+    },
+    {
+      "name": "node_MatMul_111_post_reshape",
+      "type": "Reshape"
+    },
+    {
+      "name": "node_gelu_2",
+      "type": "GeluErfFp16"
+    },
+    {
+      "name": "node_MatMul_113_pre_reshape",
+      "type": "Reshape"
+    },
+    {
+      "name": "node_MatMul_113",
+      "type": "FullyConnected"
+    },
+    {
+      "name": "node_MatMul_113_post_reshape",
+      "type": "Reshape"
+    },
+    {
+      "name": "node_permute_7",
+      "type": "Transpose"
+    },
+    {
+      "name": "node_mul_2",
+      "type": "Eltwise_Binary"
+    },
+    {
+      "name": "mul_2_nhwc",
+      "type": "Transpose"
+    },
+    {
+      "name": "node_add_2",
+      "type": "Eltwise_Binary"
+    },
+    {
+      "name": "node_layer_norm_4",
+      "type": "LayerNorm"
+    },
+    {
+      "name": "node_conv2d_4",
+      "type": "Conv2d"
+    },
+    {
+      "name": "node_conv2d_5",
+      "type": "DepthWiseConv2d"
+    },
+    {
+      "name": "node_layer_norm_5",
+      "type": "LayerNorm"
+    },
+    {
+      "name": "node_MatMul_121_pre_reshape",
+      "type": "Reshape"
+    },
+    {
+      "name": "node_MatMul_121",
+      "type": "FullyConnected"
+    },
+    {
+      "name": "node_MatMul_121_post_reshape",
+      "type": "Reshape"
+    },
+    {
+      "name": "node_gelu_3",
+      "type": "GeluErfFp16"
+    },
+    {
+      "name": "node_MatMul_123_pre_reshape",
+      "type": "Reshape"
+    },
+    {
+      "name": "node_MatMul_123",
+      "type": "FullyConnected"
+    },
+    {
+      "name": "node_MatMul_123_post_reshape",
+      "type": "Reshape"
+    },
+    {
+      "name": "node_permute_11",
+      "type": "Transpose"
+    },
+    {
+      "name": "node_mul_3",
+      "type": "Eltwise_Binary"
+    },
+    {
+      "name": "mul_3_nhwc",
+      "type": "Transpose"
+    },
+    {
+      "name": "node_add_3",
+      "type": "Eltwise_Binary"
+    },
+    {
+      "name": "node_conv2d_6",
+      "type": "DepthWiseConv2d"
+    },
+    {
+      "name": "node_layer_norm_6",
+      "type": "LayerNorm"
+    },
+    {
+      "name": "node_MatMul_131_pre_reshape",
+      "type": "Reshape"
+    },
+    {
+      "name": "node_MatMul_131",
+      "type": "FullyConnected"
+    },
+    {
+      "name": "node_MatMul_131_post_reshape",
+      "type": "Reshape"
+    },
+    {
+      "name": "node_gelu_4",
+      "type": "GeluErfFp16"
+    },
+    {
+      "name": "node_MatMul_133_pre_reshape",
+      "type": "Reshape"
+    },
+    {
+      "name": "node_MatMul_133",
+      "type": "FullyConnected"
+    },
+    {
+      "name": "node_MatMul_133_post_reshape",
+      "type": "Reshape"
+    },
+    {
+      "name": "node_permute_13",
+      "type": "Transpose"
+    },
+    {
+      "name": "node_mul_4",
+      "type": "Eltwise_Binary"
+    },
+    {
+      "name": "mul_4_nhwc",
+      "type": "Transpose"
+    },
+    {
+      "name": "node_add_4",
+      "type": "Eltwise_Binary"
+    },
+    {
+      "name": "node_conv2d_7",
+      "type": "DepthWiseConv2d"
+    },
+    {
+      "name": "node_layer_norm_7",
+      "type": "LayerNorm"
+    },
+    {
+      "name": "node_MatMul_141_pre_reshape",
+      "type": "Reshape"
+    },
+    {
+      "name": "node_MatMul_141",
+      "type": "FullyConnected"
+    },
+    {
+      "name": "node_MatMul_141_post_reshape",
+      "type": "Reshape"
+    },
+    {
+      "name": "node_gelu_5",
+      "type": "GeluErfFp16"
+    },
+    {
+      "name": "node_MatMul_143_pre_reshape",
+      "type": "Reshape"
+    },
+    {
+      "name": "node_MatMul_143",
+      "type": "FullyConnected"
+    },
+    {
+      "name": "node_MatMul_143_post_reshape",
+      "type": "Reshape"
+    },
+    {
+      "name": "node_permute_15",
+      "type": "Transpose"
+    },
+    {
+      "name": "node_mul_5",
+      "type": "Eltwise_Binary"
+    },
+    {
+      "name": "mul_5_nhwc",
+      "type": "Transpose"
+    },
+    {
+      "name": "node_add_5",
+      "type": "Eltwise_Binary"
+    },
+    {
+      "name": "node_layer_norm_8",
+      "type": "LayerNorm"
+    },
+    {
+      "name": "node_conv2d_8",
+      "type": "Conv2d"
+    },
+    {
+      "name": "node_conv2d_9",
+      "type": "DepthWiseConv2d"
+    },
+    {
+      "name": "node_layer_norm_9",
+      "type": "LayerNorm"
+    },
+    {
+      "name": "node_MatMul_151_pre_reshape",
+      "type": "Reshape"
+    },
+    {
+      "name": "node_MatMul_151",
+      "type": "FullyConnected"
+    },
+    {
+      "name": "node_MatMul_151_post_reshape",
+      "type": "Reshape"
+    },
+    {
+      "name": "node_gelu_6",
+      "type": "GeluErfFp16"
+    },
+    {
+      "name": "node_MatMul_153_pre_reshape",
+      "type": "Reshape"
+    },
+    {
+      "name": "node_MatMul_153",
+      "type": "FullyConnected"
+    },
+    {
+      "name": "node_MatMul_153_post_reshape",
+      "type": "Reshape"
+    },
+    {
+      "name": "node_permute_19",
+      "type": "Transpose"
+    },
+    {
+      "name": "node_mul_6",
+      "type": "Eltwise_Binary"
+    },
+    {
+      "name": "mul_6_nhwc",
+      "type": "Transpose"
+    },
+    {
+      "name": "node_add_6",
+      "type": "Eltwise_Binary"
+    },
+    {
+      "name": "node_conv2d_10",
+      "type": "DepthWiseConv2d"
+    },
+    {
+      "name": "node_layer_norm_10",
+      "type": "LayerNorm"
+    },
+    {
+      "name": "node_MatMul_161_pre_reshape",
+      "type": "Reshape"
+    },
+    {
+      "name": "node_MatMul_161",
+      "type": "FullyConnected"
+    },
+    {
+      "name": "node_MatMul_161_post_reshape",
+      "type": "Reshape"
+    },
+    {
+      "name": "node_gelu_7",
+      "type": "GeluErfFp16"
+    },
+    {
+      "name": "node_MatMul_163_pre_reshape",
+      "type": "Reshape"
+    },
+    {
+      "name": "node_MatMul_163",
+      "type": "FullyConnected"
+    },
+    {
+      "name": "node_MatMul_163_post_reshape",
+      "type": "Reshape"
+    },
+    {
+      "name": "node_permute_21",
+      "type": "Transpose"
+    },
+    {
+      "name": "node_mul_7",
+      "type": "Eltwise_Binary"
+    },
+    {
+      "name": "mul_7_nhwc",
+      "type": "Transpose"
+    },
+    {
+      "name": "node_add_7",
+      "type": "Eltwise_Binary"
+    },
+    {
+      "name": "node_conv2d_11",
+      "type": "DepthWiseConv2d"
+    },
+    {
+      "name": "node_layer_norm_11",
+      "type": "LayerNorm"
+    },
+    {
+      "name": "node_MatMul_171_pre_reshape",
+      "type": "Reshape"
+    },
+    {
+      "name": "node_MatMul_171",
+      "type": "FullyConnected"
+    },
+    {
+      "name": "node_MatMul_171_post_reshape",
+      "type": "Reshape"
+    },
+    {
+      "name": "node_gelu_8",
+      "type": "GeluErfFp16"
+    },
+    {
+      "name": "node_MatMul_173_pre_reshape",
+      "type": "Reshape"
+    },
+    {
+      "name": "node_MatMul_173",
+      "type": "FullyConnected"
+    },
+    {
+      "name": "node_MatMul_173_post_reshape",
+      "type": "Reshape"
+    },
+    {
+      "name": "node_permute_23",
+      "type": "Transpose"
+    },
+    {
+      "name": "node_mul_8",
+      "type": "Eltwise_Binary"
+    },
+    {
+      "name": "mul_8_nhwc",
+      "type": "Transpose"
+    },
+    {
+      "name": "node_add_8",
+      "type": "Eltwise_Binary"
+    },
+    {
+      "name": "node_conv2d_12",
+      "type": "DepthWiseConv2d"
+    },
+    {
+      "name": "node_layer_norm_12",
+      "type": "LayerNorm"
+    },
+    {
+      "name": "node_MatMul_181_pre_reshape",
+      "type": "Reshape"
+    },
+    {
+      "name": "node_MatMul_181",
+      "type": "FullyConnected"
+    },
+    {
+      "name": "node_MatMul_181_post_reshape",
+      "type": "Reshape"
+    },
+    {
+      "name": "node_gelu_9",
+      "type": "GeluErfFp16"
+    },
+    {
+      "name": "node_MatMul_183_pre_reshape",
+      "type": "Reshape"
+    },
+    {
+      "name": "node_MatMul_183",
+      "type": "FullyConnected"
+    },
+    {
+      "name": "node_MatMul_183_post_reshape",
+      "type": "Reshape"
+    },
+    {
+      "name": "node_permute_25",
+      "type": "Transpose"
+    },
+    {
+      "name": "node_mul_9",
+      "type": "Eltwise_Binary"
+    },
+    {
+      "name": "mul_9_nhwc",
+      "type": "Transpose"
+    },
+    {
+      "name": "node_add_9",
+      "type": "Eltwise_Binary"
+    },
+    {
+      "name": "node_conv2d_13",
+      "type": "DepthWiseConv2d"
+    },
+    {
+      "name": "node_layer_norm_13",
+      "type": "LayerNorm"
+    },
+    {
+      "name": "node_MatMul_191_pre_reshape",
+      "type": "Reshape"
+    },
+    {
+      "name": "node_MatMul_191",
+      "type": "FullyConnected"
+    },
+    {
+      "name": "node_MatMul_191_post_reshape",
+      "type": "Reshape"
+    },
+    {
+      "name": "node_gelu_10",
+      "type": "GeluErfFp16"
+    },
+    {
+      "name": "node_MatMul_193_pre_reshape",
+      "type": "Reshape"
+    },
+    {
+      "name": "node_MatMul_193",
+      "type": "FullyConnected"
+    },
+    {
+      "name": "node_MatMul_193_post_reshape",
+      "type": "Reshape"
+    },
+    {
+      "name": "node_permute_27",
+      "type": "Transpose"
+    },
+    {
+      "name": "node_mul_10",
+      "type": "Eltwise_Binary"
+    },
+    {
+      "name": "mul_10_nhwc",
+      "type": "Transpose"
+    },
+    {
+      "name": "node_add_10",
+      "type": "Eltwise_Binary"
+    },
+    {
+      "name": "node_conv2d_14",
+      "type": "DepthWiseConv2d"
+    },
+    {
+      "name": "node_layer_norm_14",
+      "type": "LayerNorm"
+    },
+    {
+      "name": "node_MatMul_201_pre_reshape",
+      "type": "Reshape"
+    },
+    {
+      "name": "node_MatMul_201",
+      "type": "FullyConnected"
+    },
+    {
+      "name": "node_MatMul_201_post_reshape",
+      "type": "Reshape"
+    },
+    {
+      "name": "node_gelu_11",
+      "type": "GeluErfFp16"
+    },
+    {
+      "name": "node_MatMul_203_pre_reshape",
+      "type": "Reshape"
+    },
+    {
+      "name": "node_MatMul_203",
+      "type": "FullyConnected"
+    },
+    {
+      "name": "node_MatMul_203_post_reshape",
+      "type": "Reshape"
+    },
+    {
+      "name": "node_permute_29",
+      "type": "Transpose"
+    },
+    {
+      "name": "node_mul_11",
+      "type": "Eltwise_Binary"
+    },
+    {
+      "name": "mul_11_nhwc",
+      "type": "Transpose"
+    },
+    {
+      "name": "node_add_11",
+      "type": "Eltwise_Binary"
+    },
+    {
+      "name": "node_conv2d_15",
+      "type": "DepthWiseConv2d"
+    },
+    {
+      "name": "node_layer_norm_15",
+      "type": "LayerNorm"
+    },
+    {
+      "name": "node_MatMul_211_pre_reshape",
+      "type": "Reshape"
+    },
+    {
+      "name": "node_MatMul_211",
+      "type": "FullyConnected"
+    },
+    {
+      "name": "node_MatMul_211_post_reshape",
+      "type": "Reshape"
+    },
+    {
+      "name": "node_gelu_12",
+      "type": "GeluErfFp16"
+    },
+    {
+      "name": "node_MatMul_213_pre_reshape",
+      "type": "Reshape"
+    },
+    {
+      "name": "node_MatMul_213",
+      "type": "FullyConnected"
+    },
+    {
+      "name": "node_MatMul_213_post_reshape",
+      "type": "Reshape"
+    },
+    {
+      "name": "node_permute_31",
+      "type": "Transpose"
+    },
+    {
+      "name": "node_mul_12",
+      "type": "Eltwise_Binary"
+    },
+    {
+      "name": "mul_12_nhwc",
+      "type": "Transpose"
+    },
+    {
+      "name": "node_add_12",
+      "type": "Eltwise_Binary"
+    },
+    {
+      "name": "node_conv2d_16",
+      "type": "DepthWiseConv2d"
+    },
+    {
+      "name": "node_layer_norm_16",
+      "type": "LayerNorm"
+    },
+    {
+      "name": "node_MatMul_221_pre_reshape",
+      "type": "Reshape"
+    },
+    {
+      "name": "node_MatMul_221",
+      "type": "FullyConnected"
+    },
+    {
+      "name": "node_MatMul_221_post_reshape",
+      "type": "Reshape"
+    },
+    {
+      "name": "node_gelu_13",
+      "type": "GeluErfFp16"
+    },
+    {
+      "name": "node_MatMul_223_pre_reshape",
+      "type": "Reshape"
+    },
+    {
+      "name": "node_MatMul_223",
+      "type": "FullyConnected"
+    },
+    {
+      "name": "node_MatMul_223_post_reshape",
+      "type": "Reshape"
+    },
+    {
+      "name": "node_permute_33",
+      "type": "Transpose"
+    },
+    {
+      "name": "node_mul_13",
+      "type": "Eltwise_Binary"
+    },
+    {
+      "name": "mul_13_nhwc",
+      "type": "Transpose"
+    },
+    {
+      "name": "node_add_13",
+      "type": "Eltwise_Binary"
+    },
+    {
+      "name": "node_conv2d_17",
+      "type": "DepthWiseConv2d"
+    },
+    {
+      "name": "node_layer_norm_17",
+      "type": "LayerNorm"
+    },
+    {
+      "name": "node_MatMul_231_pre_reshape",
+      "type": "Reshape"
+    },
+    {
+      "name": "node_MatMul_231",
+      "type": "FullyConnected"
+    },
+    {
+      "name": "node_MatMul_231_post_reshape",
+      "type": "Reshape"
+    },
+    {
+      "name": "node_gelu_14",
+      "type": "GeluErfFp16"
+    },
+    {
+      "name": "node_MatMul_233_pre_reshape",
+      "type": "Reshape"
+    },
+    {
+      "name": "node_MatMul_233",
+      "type": "FullyConnected"
+    },
+    {
+      "name": "node_MatMul_233_post_reshape",
+      "type": "Reshape"
+    },
+    {
+      "name": "node_permute_35",
+      "type": "Transpose"
+    },
+    {
+      "name": "node_mul_14",
+      "type": "Eltwise_Binary"
+    },
+    {
+      "name": "mul_14_nhwc",
+      "type": "Transpose"
+    },
+    {
+      "name": "node_add_14",
+      "type": "Eltwise_Binary"
+    },
+    {
+      "name": "node_conv2d_18",
+      "type": "DepthWiseConv2d"
+    },
+    {
+      "name": "node_layer_norm_18",
+      "type": "LayerNorm"
+    },
+    {
+      "name": "node_MatMul_241_pre_reshape",
+      "type": "Reshape"
+    },
+    {
+      "name": "node_MatMul_241",
+      "type": "FullyConnected"
+    },
+    {
+      "name": "node_MatMul_241_post_reshape",
+      "type": "Reshape"
+    },
+    {
+      "name": "node_gelu_15",
+      "type": "GeluErfFp16"
+    },
+    {
+      "name": "node_MatMul_243_pre_reshape",
+      "type": "Reshape"
+    },
+    {
+      "name": "node_MatMul_243",
+      "type": "FullyConnected"
+    },
+    {
+      "name": "node_MatMul_243_post_reshape",
+      "type": "Reshape"
+    },
+    {
+      "name": "node_permute_37",
+      "type": "Transpose"
+    },
+    {
+      "name": "node_mul_15",
+      "type": "Eltwise_Binary"
+    },
+    {
+      "name": "mul_15_nhwc",
+      "type": "Transpose"
+    },
+    {
+      "name": "node_add_15",
+      "type": "Eltwise_Binary"
+    },
+    {
+      "name": "node_conv2d_19",
+      "type": "DepthWiseConv2d"
+    },
+    {
+      "name": "node_layer_norm_19",
+      "type": "LayerNorm"
+    },
+    {
+      "name": "node_MatMul_251_pre_reshape",
+      "type": "Reshape"
+    },
+    {
+      "name": "node_MatMul_251",
+      "type": "FullyConnected"
+    },
+    {
+      "name": "node_MatMul_251_post_reshape",
+      "type": "Reshape"
+    },
+    {
+      "name": "node_gelu_16",
+      "type": "GeluErfFp16"
+    },
+    {
+      "name": "node_MatMul_253_pre_reshape",
+      "type": "Reshape"
+    },
+    {
+      "name": "node_MatMul_253",
+      "type": "FullyConnected"
+    },
+    {
+      "name": "node_MatMul_253_post_reshape",
+      "type": "Reshape"
+    },
+    {
+      "name": "node_permute_39",
+      "type": "Transpose"
+    },
+    {
+      "name": "node_mul_16",
+      "type": "Eltwise_Binary"
+    },
+    {
+      "name": "mul_16_nhwc",
+      "type": "Transpose"
+    },
+    {
+      "name": "node_add_16",
+      "type": "Eltwise_Binary"
+    },
+    {
+      "name": "node_conv2d_20",
+      "type": "DepthWiseConv2d"
+    },
+    {
+      "name": "node_layer_norm_20",
+      "type": "LayerNorm"
+    },
+    {
+      "name": "node_MatMul_261_pre_reshape",
+      "type": "Reshape"
+    },
+    {
+      "name": "node_MatMul_261",
+      "type": "FullyConnected"
+    },
+    {
+      "name": "node_MatMul_261_post_reshape",
+      "type": "Reshape"
+    },
+    {
+      "name": "node_gelu_17",
+      "type": "GeluErfFp16"
+    },
+    {
+      "name": "node_MatMul_263_pre_reshape",
+      "type": "Reshape"
+    },
+    {
+      "name": "node_MatMul_263",
+      "type": "FullyConnected"
+    },
+    {
+      "name": "node_MatMul_263_post_reshape",
+      "type": "Reshape"
+    },
+    {
+      "name": "node_permute_41",
+      "type": "Transpose"
+    },
+    {
+      "name": "node_mul_17",
+      "type": "Eltwise_Binary"
+    },
+    {
+      "name": "mul_17_nhwc",
+      "type": "Transpose"
+    },
+    {
+      "name": "node_add_17",
+      "type": "Eltwise_Binary"
+    },
+    {
+      "name": "node_conv2d_21",
+      "type": "DepthWiseConv2d"
+    },
+    {
+      "name": "node_layer_norm_21",
+      "type": "LayerNorm"
+    },
+    {
+      "name": "node_MatMul_271_pre_reshape",
+      "type": "Reshape"
+    },
+    {
+      "name": "node_MatMul_271",
+      "type": "FullyConnected"
+    },
+    {
+      "name": "node_MatMul_271_post_reshape",
+      "type": "Reshape"
+    },
+    {
+      "name": "node_gelu_18",
+      "type": "GeluErfFp16"
+    },
+    {
+      "name": "node_MatMul_273_pre_reshape",
+      "type": "Reshape"
+    },
+    {
+      "name": "node_MatMul_273",
+      "type": "FullyConnected"
+    },
+    {
+      "name": "node_MatMul_273_post_reshape",
+      "type": "Reshape"
+    },
+    {
+      "name": "node_permute_43",
+      "type": "Transpose"
+    },
+    {
+      "name": "node_mul_18",
+      "type": "Eltwise_Binary"
+    },
+    {
+      "name": "mul_18_nhwc",
+      "type": "Transpose"
+    },
+    {
+      "name": "node_add_18",
+      "type": "Eltwise_Binary"
+    },
+    {
+      "name": "node_conv2d_22",
+      "type": "DepthWiseConv2d"
+    },
+    {
+      "name": "node_layer_norm_22",
+      "type": "LayerNorm"
+    },
+    {
+      "name": "node_MatMul_281_pre_reshape",
+      "type": "Reshape"
+    },
+    {
+      "name": "node_MatMul_281",
+      "type": "FullyConnected"
+    },
+    {
+      "name": "node_MatMul_281_post_reshape",
+      "type": "Reshape"
+    },
+    {
+      "name": "node_gelu_19",
+      "type": "GeluErfFp16"
+    },
+    {
+      "name": "node_MatMul_283_pre_reshape",
+      "type": "Reshape"
+    },
+    {
+      "name": "node_MatMul_283",
+      "type": "FullyConnected"
+    },
+    {
+      "name": "node_MatMul_283_post_reshape",
+      "type": "Reshape"
+    },
+    {
+      "name": "node_permute_45",
+      "type": "Transpose"
+    },
+    {
+      "name": "node_mul_19",
+      "type": "Eltwise_Binary"
+    },
+    {
+      "name": "mul_19_nhwc",
+      "type": "Transpose"
+    },
+    {
+      "name": "node_add_19",
+      "type": "Eltwise_Binary"
+    },
+    {
+      "name": "node_conv2d_23",
+      "type": "DepthWiseConv2d"
+    },
+    {
+      "name": "node_layer_norm_23",
+      "type": "LayerNorm"
+    },
+    {
+      "name": "node_MatMul_291_pre_reshape",
+      "type": "Reshape"
+    },
+    {
+      "name": "node_MatMul_291",
+      "type": "FullyConnected"
+    },
+    {
+      "name": "node_MatMul_291_post_reshape",
+      "type": "Reshape"
+    },
+    {
+      "name": "node_gelu_20",
+      "type": "GeluErfFp16"
+    },
+    {
+      "name": "node_MatMul_293_pre_reshape",
+      "type": "Reshape"
+    },
+    {
+      "name": "node_MatMul_293",
+      "type": "FullyConnected"
+    },
+    {
+      "name": "node_MatMul_293_post_reshape",
+      "type": "Reshape"
+    },
+    {
+      "name": "node_permute_47",
+      "type": "Transpose"
+    },
+    {
+      "name": "node_mul_20",
+      "type": "Eltwise_Binary"
+    },
+    {
+      "name": "mul_20_nhwc",
+      "type": "Transpose"
+    },
+    {
+      "name": "node_add_20",
+      "type": "Eltwise_Binary"
+    },
+    {
+      "name": "node_conv2d_24",
+      "type": "DepthWiseConv2d"
+    },
+    {
+      "name": "node_layer_norm_24",
+      "type": "LayerNorm"
+    },
+    {
+      "name": "node_MatMul_301_pre_reshape",
+      "type": "Reshape"
+    },
+    {
+      "name": "node_MatMul_301",
+      "type": "FullyConnected"
+    },
+    {
+      "name": "node_MatMul_301_post_reshape",
+      "type": "Reshape"
+    },
+    {
+      "name": "node_gelu_21",
+      "type": "GeluErfFp16"
+    },
+    {
+      "name": "node_MatMul_303_pre_reshape",
+      "type": "Reshape"
+    },
+    {
+      "name": "node_MatMul_303",
+      "type": "FullyConnected"
+    },
+    {
+      "name": "node_MatMul_303_post_reshape",
+      "type": "Reshape"
+    },
+    {
+      "name": "node_permute_49",
+      "type": "Transpose"
+    },
+    {
+      "name": "node_mul_21",
+      "type": "Eltwise_Binary"
+    },
+    {
+      "name": "mul_21_nhwc",
+      "type": "Transpose"
+    },
+    {
+      "name": "node_add_21",
+      "type": "Eltwise_Binary"
+    },
+    {
+      "name": "node_conv2d_25",
+      "type": "DepthWiseConv2d"
+    },
+    {
+      "name": "node_layer_norm_25",
+      "type": "LayerNorm"
+    },
+    {
+      "name": "node_MatMul_311_pre_reshape",
+      "type": "Reshape"
+    },
+    {
+      "name": "node_MatMul_311",
+      "type": "FullyConnected"
+    },
+    {
+      "name": "node_MatMul_311_post_reshape",
+      "type": "Reshape"
+    },
+    {
+      "name": "node_gelu_22",
+      "type": "GeluErfFp16"
+    },
+    {
+      "name": "node_MatMul_313_pre_reshape",
+      "type": "Reshape"
+    },
+    {
+      "name": "node_MatMul_313",
+      "type": "FullyConnected"
+    },
+    {
+      "name": "node_MatMul_313_post_reshape",
+      "type": "Reshape"
+    },
+    {
+      "name": "node_permute_51",
+      "type": "Transpose"
+    },
+    {
+      "name": "node_mul_22",
+      "type": "Eltwise_Binary"
+    },
+    {
+      "name": "mul_22_nhwc",
+      "type": "Transpose"
+    },
+    {
+      "name": "node_add_22",
+      "type": "Eltwise_Binary"
+    },
+    {
+      "name": "node_conv2d_26",
+      "type": "DepthWiseConv2d"
+    },
+    {
+      "name": "node_layer_norm_26",
+      "type": "LayerNorm"
+    },
+    {
+      "name": "node_MatMul_321_pre_reshape",
+      "type": "Reshape"
+    },
+    {
+      "name": "node_MatMul_321",
+      "type": "FullyConnected"
+    },
+    {
+      "name": "node_MatMul_321_post_reshape",
+      "type": "Reshape"
+    },
+    {
+      "name": "node_gelu_23",
+      "type": "GeluErfFp16"
+    },
+    {
+      "name": "node_MatMul_323_pre_reshape",
+      "type": "Reshape"
+    },
+    {
+      "name": "node_MatMul_323",
+      "type": "FullyConnected"
+    },
+    {
+      "name": "node_MatMul_323_post_reshape",
+      "type": "Reshape"
+    },
+    {
+      "name": "node_permute_53",
+      "type": "Transpose"
+    },
+    {
+      "name": "node_mul_23",
+      "type": "Eltwise_Binary"
+    },
+    {
+      "name": "mul_23_nhwc",
+      "type": "Transpose"
+    },
+    {
+      "name": "node_add_23",
+      "type": "Eltwise_Binary"
+    },
+    {
+      "name": "node_conv2d_27",
+      "type": "DepthWiseConv2d"
+    },
+    {
+      "name": "node_layer_norm_27",
+      "type": "LayerNorm"
+    },
+    {
+      "name": "node_MatMul_331_pre_reshape",
+      "type": "Reshape"
+    },
+    {
+      "name": "node_MatMul_331",
+      "type": "FullyConnected"
+    },
+    {
+      "name": "node_MatMul_331_post_reshape",
+      "type": "Reshape"
+    },
+    {
+      "name": "node_gelu_24",
+      "type": "GeluErfFp16"
+    },
+    {
+      "name": "node_MatMul_333_pre_reshape",
+      "type": "Reshape"
+    },
+    {
+      "name": "node_MatMul_333",
+      "type": "FullyConnected"
+    },
+    {
+      "name": "node_MatMul_333_post_reshape",
+      "type": "Reshape"
+    },
+    {
+      "name": "node_permute_55",
+      "type": "Transpose"
+    },
+    {
+      "name": "node_mul_24",
+      "type": "Eltwise_Binary"
+    },
+    {
+      "name": "mul_24_nhwc",
+      "type": "Transpose"
+    },
+    {
+      "name": "node_add_24",
+      "type": "Eltwise_Binary"
+    },
+    {
+      "name": "node_conv2d_28",
+      "type": "DepthWiseConv2d"
+    },
+    {
+      "name": "node_layer_norm_28",
+      "type": "LayerNorm"
+    },
+    {
+      "name": "node_MatMul_341_pre_reshape",
+      "type": "Reshape"
+    },
+    {
+      "name": "node_MatMul_341",
+      "type": "FullyConnected"
+    },
+    {
+      "name": "node_MatMul_341_post_reshape",
+      "type": "Reshape"
+    },
+    {
+      "name": "node_gelu_25",
+      "type": "GeluErfFp16"
+    },
+    {
+      "name": "node_MatMul_343_pre_reshape",
+      "type": "Reshape"
+    },
+    {
+      "name": "node_MatMul_343",
+      "type": "FullyConnected"
+    },
+    {
+      "name": "node_MatMul_343_post_reshape",
+      "type": "Reshape"
+    },
+    {
+      "name": "node_permute_57",
+      "type": "Transpose"
+    },
+    {
+      "name": "node_mul_25",
+      "type": "Eltwise_Binary"
+    },
+    {
+      "name": "mul_25_nhwc",
+      "type": "Transpose"
+    },
+    {
+      "name": "node_add_25",
+      "type": "Eltwise_Binary"
+    },
+    {
+      "name": "node_conv2d_29",
+      "type": "DepthWiseConv2d"
+    },
+    {
+      "name": "node_layer_norm_29",
+      "type": "LayerNorm"
+    },
+    {
+      "name": "node_MatMul_351_pre_reshape",
+      "type": "Reshape"
+    },
+    {
+      "name": "node_MatMul_351",
+      "type": "FullyConnected"
+    },
+    {
+      "name": "node_MatMul_351_post_reshape",
+      "type": "Reshape"
+    },
+    {
+      "name": "node_gelu_26",
+      "type": "GeluErfFp16"
+    },
+    {
+      "name": "node_MatMul_353_pre_reshape",
+      "type": "Reshape"
+    },
+    {
+      "name": "node_MatMul_353",
+      "type": "FullyConnected"
+    },
+    {
+      "name": "node_MatMul_353_post_reshape",
+      "type": "Reshape"
+    },
+    {
+      "name": "node_permute_59",
+      "type": "Transpose"
+    },
+    {
+      "name": "node_mul_26",
+      "type": "Eltwise_Binary"
+    },
+    {
+      "name": "mul_26_nhwc",
+      "type": "Transpose"
+    },
+    {
+      "name": "node_add_26",
+      "type": "Eltwise_Binary"
+    },
+    {
+      "name": "node_conv2d_30",
+      "type": "DepthWiseConv2d"
+    },
+    {
+      "name": "node_layer_norm_30",
+      "type": "LayerNorm"
+    },
+    {
+      "name": "node_MatMul_361_pre_reshape",
+      "type": "Reshape"
+    },
+    {
+      "name": "node_MatMul_361",
+      "type": "FullyConnected"
+    },
+    {
+      "name": "node_MatMul_361_post_reshape",
+      "type": "Reshape"
+    },
+    {
+      "name": "node_gelu_27",
+      "type": "GeluErfFp16"
+    },
+    {
+      "name": "node_MatMul_363_pre_reshape",
+      "type": "Reshape"
+    },
+    {
+      "name": "node_MatMul_363",
+      "type": "FullyConnected"
+    },
+    {
+      "name": "node_MatMul_363_post_reshape",
+      "type": "Reshape"
+    },
+    {
+      "name": "node_permute_61",
+      "type": "Transpose"
+    },
+    {
+      "name": "node_mul_27",
+      "type": "Eltwise_Binary"
+    },
+    {
+      "name": "mul_27_nhwc",
+      "type": "Transpose"
+    },
+    {
+      "name": "node_add_27",
+      "type": "Eltwise_Binary"
+    },
+    {
+      "name": "node_conv2d_31",
+      "type": "DepthWiseConv2d"
+    },
+    {
+      "name": "node_layer_norm_31",
+      "type": "LayerNorm"
+    },
+    {
+      "name": "node_MatMul_371_pre_reshape",
+      "type": "Reshape"
+    },
+    {
+      "name": "node_MatMul_371",
+      "type": "FullyConnected"
+    },
+    {
+      "name": "node_MatMul_371_post_reshape",
+      "type": "Reshape"
+    },
+    {
+      "name": "node_gelu_28",
+      "type": "GeluErfFp16"
+    },
+    {
+      "name": "node_MatMul_373_pre_reshape",
+      "type": "Reshape"
+    },
+    {
+      "name": "node_MatMul_373",
+      "type": "FullyConnected"
+    },
+    {
+      "name": "node_MatMul_373_post_reshape",
+      "type": "Reshape"
+    },
+    {
+      "name": "node_permute_63",
+      "type": "Transpose"
+    },
+    {
+      "name": "node_mul_28",
+      "type": "Eltwise_Binary"
+    },
+    {
+      "name": "mul_28_nhwc",
+      "type": "Transpose"
+    },
+    {
+      "name": "node_add_28",
+      "type": "Eltwise_Binary"
+    },
+    {
+      "name": "node_conv2d_32",
+      "type": "DepthWiseConv2d"
+    },
+    {
+      "name": "node_layer_norm_32",
+      "type": "LayerNorm"
+    },
+    {
+      "name": "node_MatMul_381_pre_reshape",
+      "type": "Reshape"
+    },
+    {
+      "name": "node_MatMul_381",
+      "type": "FullyConnected"
+    },
+    {
+      "name": "node_MatMul_381_post_reshape",
+      "type": "Reshape"
+    },
+    {
+      "name": "node_gelu_29",
+      "type": "GeluErfFp16"
+    },
+    {
+      "name": "node_MatMul_383_pre_reshape",
+      "type": "Reshape"
+    },
+    {
+      "name": "node_MatMul_383",
+      "type": "FullyConnected"
+    },
+    {
+      "name": "node_MatMul_383_post_reshape",
+      "type": "Reshape"
+    },
+    {
+      "name": "node_permute_65",
+      "type": "Transpose"
+    },
+    {
+      "name": "node_mul_29",
+      "type": "Eltwise_Binary"
+    },
+    {
+      "name": "mul_29_nhwc",
+      "type": "Transpose"
+    },
+    {
+      "name": "node_add_29",
+      "type": "Eltwise_Binary"
+    },
+    {
+      "name": "node_conv2d_33",
+      "type": "DepthWiseConv2d"
+    },
+    {
+      "name": "node_layer_norm_33",
+      "type": "LayerNorm"
+    },
+    {
+      "name": "node_MatMul_391_pre_reshape",
+      "type": "Reshape"
+    },
+    {
+      "name": "node_MatMul_391",
+      "type": "FullyConnected"
+    },
+    {
+      "name": "node_MatMul_391_post_reshape",
+      "type": "Reshape"
+    },
+    {
+      "name": "node_gelu_30",
+      "type": "GeluErfFp16"
+    },
+    {
+      "name": "node_MatMul_393_pre_reshape",
+      "type": "Reshape"
+    },
+    {
+      "name": "node_MatMul_393",
+      "type": "FullyConnected"
+    },
+    {
+      "name": "node_MatMul_393_post_reshape",
+      "type": "Reshape"
+    },
+    {
+      "name": "node_permute_67",
+      "type": "Transpose"
+    },
+    {
+      "name": "node_mul_30",
+      "type": "Eltwise_Binary"
+    },
+    {
+      "name": "mul_30_nhwc",
+      "type": "Transpose"
+    },
+    {
+      "name": "node_add_30",
+      "type": "Eltwise_Binary"
+    },
+    {
+      "name": "node_conv2d_34",
+      "type": "DepthWiseConv2d"
+    },
+    {
+      "name": "node_layer_norm_34",
+      "type": "LayerNorm"
+    },
+    {
+      "name": "node_MatMul_401_pre_reshape",
+      "type": "Reshape"
+    },
+    {
+      "name": "node_MatMul_401",
+      "type": "FullyConnected"
+    },
+    {
+      "name": "node_MatMul_401_post_reshape",
+      "type": "Reshape"
+    },
+    {
+      "name": "node_gelu_31",
+      "type": "GeluErfFp16"
+    },
+    {
+      "name": "node_MatMul_403_pre_reshape",
+      "type": "Reshape"
+    },
+    {
+      "name": "node_MatMul_403",
+      "type": "FullyConnected"
+    },
+    {
+      "name": "node_MatMul_403_post_reshape",
+      "type": "Reshape"
+    },
+    {
+      "name": "node_permute_69",
+      "type": "Transpose"
+    },
+    {
+      "name": "node_mul_31",
+      "type": "Eltwise_Binary"
+    },
+    {
+      "name": "mul_31_nhwc",
+      "type": "Transpose"
+    },
+    {
+      "name": "node_add_31",
+      "type": "Eltwise_Binary"
+    },
+    {
+      "name": "node_conv2d_35",
+      "type": "DepthWiseConv2d"
+    },
+    {
+      "name": "node_layer_norm_35",
+      "type": "LayerNorm"
+    },
+    {
+      "name": "node_MatMul_411_pre_reshape",
+      "type": "Reshape"
+    },
+    {
+      "name": "node_MatMul_411",
+      "type": "FullyConnected"
+    },
+    {
+      "name": "node_MatMul_411_post_reshape",
+      "type": "Reshape"
+    },
+    {
+      "name": "node_gelu_32",
+      "type": "GeluErfFp16"
+    },
+    {
+      "name": "node_MatMul_413_pre_reshape",
+      "type": "Reshape"
+    },
+    {
+      "name": "node_MatMul_413",
+      "type": "FullyConnected"
+    },
+    {
+      "name": "node_MatMul_413_post_reshape",
+      "type": "Reshape"
+    },
+    {
+      "name": "node_permute_71",
+      "type": "Transpose"
+    },
+    {
+      "name": "node_mul_32",
+      "type": "Eltwise_Binary"
+    },
+    {
+      "name": "mul_32_nhwc",
+      "type": "Transpose"
+    },
+    {
+      "name": "node_add_32",
+      "type": "Eltwise_Binary"
+    },
+    {
+      "name": "node_layer_norm_36",
+      "type": "LayerNorm"
+    },
+    {
+      "name": "node_conv2d_36",
+      "type": "Conv2d"
+    },
+    {
+      "name": "node_conv2d_37",
+      "type": "DepthWiseConv2d"
+    },
+    {
+      "name": "node_layer_norm_37",
+      "type": "LayerNorm"
+    },
+    {
+      "name": "node_MatMul_421_pre_reshape",
+      "type": "Reshape"
+    },
+    {
+      "name": "node_MatMul_421",
+      "type": "FullyConnected"
+    },
+    {
+      "name": "node_MatMul_421_post_reshape",
+      "type": "Reshape"
+    },
+    {
+      "name": "node_gelu_33",
+      "type": "GeluErfFp16"
+    },
+    {
+      "name": "node_MatMul_423_pre_reshape",
+      "type": "Reshape"
+    },
+    {
+      "name": "node_MatMul_423",
+      "type": "FullyConnected"
+    },
+    {
+      "name": "node_MatMul_423_post_reshape",
+      "type": "Reshape"
+    },
+    {
+      "name": "node_permute_75",
+      "type": "Transpose"
+    },
+    {
+      "name": "node_mul_33",
+      "type": "Eltwise_Binary"
+    },
+    {
+      "name": "mul_33_nhwc",
+      "type": "Transpose"
+    },
+    {
+      "name": "node_add_33",
+      "type": "Eltwise_Binary"
+    },
+    {
+      "name": "node_conv2d_38",
+      "type": "DepthWiseConv2d"
+    },
+    {
+      "name": "node_layer_norm_38",
+      "type": "LayerNorm"
+    },
+    {
+      "name": "node_MatMul_431_pre_reshape",
+      "type": "Reshape"
+    },
+    {
+      "name": "node_MatMul_431",
+      "type": "FullyConnected"
+    },
+    {
+      "name": "node_MatMul_431_post_reshape",
+      "type": "Reshape"
+    },
+    {
+      "name": "node_gelu_34",
+      "type": "GeluErfFp16"
+    },
+    {
+      "name": "node_MatMul_433_pre_reshape",
+      "type": "Reshape"
+    },
+    {
+      "name": "node_MatMul_433",
+      "type": "FullyConnected"
+    },
+    {
+      "name": "node_MatMul_433_post_reshape",
+      "type": "Reshape"
+    },
+    {
+      "name": "node_permute_77",
+      "type": "Transpose"
+    },
+    {
+      "name": "node_mul_34",
+      "type": "Eltwise_Binary"
+    },
+    {
+      "name": "mul_34_nhwc",
+      "type": "Transpose"
+    },
+    {
+      "name": "node_add_34",
+      "type": "Eltwise_Binary"
+    },
+    {
+      "name": "node_conv2d_39",
+      "type": "DepthWiseConv2d"
+    },
+    {
+      "name": "node_layer_norm_39",
+      "type": "LayerNorm"
+    },
+    {
+      "name": "node_MatMul_441_pre_reshape",
+      "type": "Reshape"
+    },
+    {
+      "name": "node_MatMul_441",
+      "type": "FullyConnected"
+    },
+    {
+      "name": "node_MatMul_441_post_reshape",
+      "type": "Reshape"
+    },
+    {
+      "name": "node_gelu_35",
+      "type": "GeluErfFp16"
+    },
+    {
+      "name": "node_MatMul_443_pre_reshape",
+      "type": "Reshape"
+    },
+    {
+      "name": "node_MatMul_443",
+      "type": "FullyConnected"
+    },
+    {
+      "name": "node_MatMul_443_post_reshape",
+      "type": "Reshape"
+    },
+    {
+      "name": "node_permute_79",
+      "type": "Transpose"
+    },
+    {
+      "name": "node_mul_35",
+      "type": "Eltwise_Binary"
+    },
+    {
+      "name": "mul_35_nhwc",
+      "type": "Transpose"
+    },
+    {
+      "name": "node_add_35",
+      "type": "Eltwise_Binary"
+    },
+    {
+      "name": "node_layer_norm_40",
+      "type": "LayerNorm"
+    },
+    {
+      "name": "node_conv2d_40",
+      "type": "Conv2d"
+    },
+    {
+      "name": "node_view_39",
+      "type": "Reshape"
+    }
+  ],
+  "unchanged_node_function_sha256": {
+    "node_sub": "b9183eeedc0d21532aa0cdaeabdaf1b8523e7560d7e518a6e155e4ded19ab2c6",
+    "node_div": "f5f6f649609dfd0e63aa7ccd9080844e50743caf5b9fdc4bed6f3f308a20f32e",
+    "div_nhwc": "64ac0417eff00cd6179652bbfda916d954fe3f0b66862ecafac77daa8c5a1b63",
+    "node_conv2d": "e70307eafdc1c526e8ccdc6367b20500149b92abaa61ff594c47bed2feaca625",
+    "node_layer_norm": "0933fd74e74727cf13503d7462fc29ffc518c6103107bc6e5319c00ece2bfb72",
+    "node_conv2d_1": "db064da23515bc12e5148da76cdd0459fa0ad7767e15c37fe2f3f7beae5c55c3",
+    "node_layer_norm_1": "06a45940bbc6d9c4460dbb498cf69044cfd5b87b85838c6d76aa4f7786734a4b",
+    "node_MatMul_91_pre_reshape": "cc5ec7cc0f8521bdd23385abfc1f577cfd21040f485fd2f2dd532df7b92e5a7d",
+    "node_MatMul_91": "9abc6bb1a7dfda7d5fcedfe1fa947bfebbca7fcd80fc9b863de31a2c26b957b2",
+    "node_MatMul_91_post_reshape": "f43bca9462aaceff88cbb4afd559fa8ef1941fca4879e56aa1cee17d21fdee53",
+    "node_gelu": "817a0a58f94e54f42e3c33af02aa5b8ea4816bb5164cd4d77778fd8afbb9d724",
+    "node_MatMul_93_pre_reshape": "5bc5e08be0a9d1237fb66f8f0275990ce3c74544c4121ccf1519a89d839b39b3",
+    "node_MatMul_93": "1c9fcf76226dd3e2403e4dce40b9662a568ac71af65ed07a707cbb4c1344e6f3",
+    "node_MatMul_93_post_reshape": "55a40ab7fe1502855c9d6f26436f0d9a7869e3b78b6c1be9729ba6cac1f0cb44",
+    "node_permute_3": "87164227a9b4dd2cf80794ded611a7069141d2cdd30afb977f2d09af11236d58",
+    "node_mul": "cc4dddb3a4e870ea2232fcebe564c71e50edba87b881fef5d5bad0ed4ad22248",
+    "mul_nhwc": "9055bfac06b1bb8ebc2eb5da40c6e85f77e15bf9c60abfedd1a617a44689ca48",
+    "node_add": "3cd2e8ca969c050d631ba36b3eb5c6752b42cbcc7dbef8706bccfef820fa3f50",
+    "node_conv2d_2": "59bf5ccb12965c3d377aa6b4ac525cbb8e9334a74bc0593d6e02b44f70038cc5",
+    "node_layer_norm_2": "2647427a97c8e8e5b9be0e374293803f8a3c7bb7d77974e9939d117e27e155f2",
+    "node_MatMul_101_pre_reshape": "39bd48681707decb2b6fdbc8b41726f6cb65f86313256ef8df71545868c987ce",
+    "node_MatMul_101": "7cbc65403c6b84f5ab006dfa787dea35780d87563253edfbcbcd85a5ffa05028",
+    "node_MatMul_101_post_reshape": "65aff623bd70cb92fc0b8d017e807588721b79d777390b152d9fe2d6d9542742",
+    "node_gelu_1": "2c08f5b978e25e6f7fb677c54c52d2d8a889ec1d5762e5ddf29dd30cf517a056",
+    "node_MatMul_103_pre_reshape": "6da7d4b6a5aeae6ef8c3244206dea1a23a26b265355c36975baf71dc2af1c437",
+    "node_MatMul_103": "c16eff97fed3409e6362aed18dc2245f8fad41c751fcfcf6b5db515c2fa09bca",
+    "node_MatMul_103_post_reshape": "c288f3160a6d5a800a38e135453c8009a1be5bc740982ce9b830edad4a7cee7e",
+    "node_permute_5": "522b51d317f90b451bb652b6b468e9bdcf8ff930779f33f5d7625ac213d3f6b1",
+    "node_mul_1": "3442f2a0245f62c851e9948d7cc0de4be7f743bce4c27115f2b200c5a54b880f",
+    "mul_1_nhwc": "563c43ae99cd61ec2c4131adbd709775154c23d2ef0c1349206615793aa367cb",
+    "node_add_1": "8af369fa25e8497f82e6160433dd5b9e64c5d8abab334fd3a45b27ca84767661",
+    "node_conv2d_3": "f6cfce08380c9f4f15b723304fd2f8d32b5acee536c51763f460bd1135308126",
+    "node_layer_norm_3": "6cc1cec4eed6fe16d68b5f4c4917ce479b2703611c969925a97a571ac42d094c",
+    "node_MatMul_111_pre_reshape": "d87dca221e2c4383c7e4d2c84b9ba0a7472c07fc76a5e5f2700c6de13752c980",
+    "node_MatMul_111": "486f5b214fddf89865921cc41f8bd4a733aad2f7308059964d2e6b199df498ef",
+    "node_MatMul_111_post_reshape": "6f78d5cacd8616987180043166c0eef8cf63a66ad7d98e6cc9f598dd62657912",
+    "node_gelu_2": "6fd53958630e7ff4f665c12d37a534309a4e3d3ab84bc975c3b344a707c98e9d",
+    "node_MatMul_113_pre_reshape": "e40ed54c3c944058b318d65fee2bb6bcbbac5eb2a775d9e41d341da907f692cf",
+    "node_MatMul_113": "1ba4333b6286591724835f5451680d4c14166cf3fe923f055ea9cd24b03016b6",
+    "node_MatMul_113_post_reshape": "90198b1d445550816c2dcdf105ce3c4cf9dfe586d53d5d7ca3f85305ac891072",
+    "node_permute_7": "44ad66c69b0f79965e133be4a3040fd0fa1dd966e111d3e1ff380e0f7a067e1d",
+    "node_mul_2": "9b9ce9708dc2975310d2c88792e7a9a388c2c8f3a9699407d65d29f67c0c1580",
+    "mul_2_nhwc": "290f8834d89cc3e7362f7e0d4484958666f2b2f12aae9234efe25adda258c3f9",
+    "node_add_2": "851952e9d0626b4e2dce779eb8cff31195a6865cc05e79514c82af87a684205f",
+    "node_layer_norm_4": "cf408e30f7d5475fbdf9750d54afebb0ad1443cafd812dead5c5ee131c74d6b5",
+    "node_conv2d_4": "09ebbe03a6ff29bd1bc4a6eaa77ab8e70ba4bf772dd3ca90e072d9a072ecaef3",
+    "node_conv2d_5": "dfc0a9a02a60acf8ad73e6d8f21594425ffc5126257350fdf0122d0bc3aea07d",
+    "node_layer_norm_5": "cfd468edd4fb40783e9511d4760767adceb76c67b1d9740157d8eedb30c445cd",
+    "node_MatMul_121_pre_reshape": "490c8db8bb6cc5e2218e2082f690f36a6b00392ac99caa2304951d1be83ac6ba",
+    "node_MatMul_121": "099528fcc0fce96fbc3ab229c33613bc0d63dae95a4cf3585cb1cb93cd1bed70",
+    "node_MatMul_121_post_reshape": "33b4477cfe6a1415de7f503ecbfa65b68fefab8b197c4d0ba5bc51a473c7fb7c",
+    "node_gelu_3": "a79d030fdb0093464546b1d7ad6dbdbb8c97b9159fea974ca646a43bef62225e",
+    "node_MatMul_123_pre_reshape": "b0e3f235043eaa61bf69bdcaa592ef202036c36acbc50f2ee2613cad3e1100d4",
+    "node_MatMul_123": "da38ca45c06d8f82f40cf534732874cb8c6001847decdab7f93f53820b49a0aa",
+    "node_MatMul_123_post_reshape": "d78727c72a2de40ac6e9a8c71866de583cf6a063a8ec6de5f0b0ccd27611f55e",
+    "node_permute_11": "498d298a26a2b42c30b111a34667263ad8c335a98e4ae481bbbd64f1dd59595b",
+    "node_mul_3": "342bc5ada185969fa51411e2527522e1f6f172ad2e3b46c66ff363ee6a06bfc6",
+    "mul_3_nhwc": "f6a270dd28463785eda4a99283b807895df52d9065c87cbde6adbd1403e7ab56",
+    "node_add_3": "8aece0a2a207e148958969af38438b9070cd57c1be576f057e258981ba0e7673",
+    "node_conv2d_6": "c64ea998d75186416173ea67fc5f4d4853f030ee2f9014db2ae0db99befd1726",
+    "node_layer_norm_6": "9086e0ec5b0e69fee89ba36e34212d63674586c7f6ffdfd5758aa9c7fced77bd",
+    "node_MatMul_131_pre_reshape": "4e546b8652a4e63982ee4900e0d834b3d20873039d9210cdb8d464ba73f2b7f7",
+    "node_MatMul_131": "43582e4e6b558d03a01674f533a3ccaac9719ece75ff2381f322a58ab41b22e0",
+    "node_MatMul_131_post_reshape": "f594fa972788f0c80981be94e0f13b43f46d85247cdf98f1d2c1010b600dc066",
+    "node_gelu_4": "939a758fd08301f3df23585fc7b2c71908d32f3779b5a6015d6e1927e472251f",
+    "node_MatMul_133_pre_reshape": "85f3f5ddcb1cb0db8b01185f3755d03e915e0589800f654af287cb0f39f84e5c",
+    "node_MatMul_133": "e61d46d46f425e68c0f38c4e24faebe106abdb93c6e9c7115095f8c123d29f07",
+    "node_MatMul_133_post_reshape": "ddbcff7e96615fc794379ea5e4e7bb0e746b25a816ada80de879228f9316db32",
+    "node_permute_13": "4e5c751bd903cf6cec0076c4fcb42a75ea4af8d2217f85f2e081c672bd5c9e38",
+    "node_mul_4": "f5dce3adf913cb324d32c7df657406993b5204aa9f80066f937ea87f21c56f3e",
+    "mul_4_nhwc": "8a766773ba3b0334995afd93f74563b8eb8f274a308cba82c73624370dd956f3",
+    "node_add_4": "d39756fedbb5fb65e6fd9382e57b1cf8c1cc0c50a88c98b91ca9595086c19659",
+    "node_conv2d_7": "ef52073bc1258adf5adfc2d797174f1578dba4eb54d81bd30b80dd4ea475a4da",
+    "node_layer_norm_7": "b8bf8b80c2d2da5c0cc319ac25ac5e698f2b92d54dd1fddff9b5846dc4283907",
+    "node_MatMul_141_pre_reshape": "674692133b92bdfb5f5021f68bb630df85cacd09ab64cec83426c97c6f9ef25a",
+    "node_MatMul_141": "0e65b280406ef0944e03f6aca02d55b583e6ad9c2c409a3b8ff6e0ff9f71f171",
+    "node_MatMul_141_post_reshape": "97f59074ffe28442b728467a1806ba708331c0f100dfc4e0de5a5004d53b92d0",
+    "node_gelu_5": "ece6336c7ec929cfb5e5975a3eb8bf7359d9ede270bc0335feed2a7f3d10bd23",
+    "node_MatMul_143_pre_reshape": "443a8ca75b4887b11fb7ddd61fc780fe3d7dded9f6ffdf12b08e14c567820fb2",
+    "node_MatMul_143": "58512f37c8783e601376eb567ebdfdd5b6e0654f881cfc01fdc9154fbd11fc97",
+    "node_MatMul_143_post_reshape": "dbc306912071ca1d8c48b72a3010695f65fedde0cc5c97b0e09a16692f4b6da4",
+    "node_permute_15": "0fa5651835f34832479f4aa973aa833991d908f87eeb9ce56b53592e1b0da3a3",
+    "node_mul_5": "19a0f04265c4ad572d6781a4352d2f1ae52701e9c2474a17681529d8953c3efd",
+    "mul_5_nhwc": "f6910e787730060eddc98b56c8514564b970ec932540c0e15ab51e7d5da47fdb",
+    "node_add_5": "07864109716f098ee9b21698a215c32826a9b58c8fde4e83889c1548472f7910",
+    "node_layer_norm_8": "77adf51f8d2f65914d70042037abbd0f985e8c375240decb03725f64cec273ac",
+    "node_conv2d_8": "89c58a5eb1c4e3f5ebfd2f1827cbe96e578f6859474ef01c987826e6ad614c95",
+    "node_conv2d_9": "9442355e817c36060d3882bf8c6a58ae064a64b1f0b85ff187b260264b5b8043",
+    "node_layer_norm_9": "afff280b96366301ebd346497f841a08bc1c872f7d551d820630be9b863a21ef",
+    "node_MatMul_151_pre_reshape": "50d1d9c9a4edf95dbe4e2f7d6c5d2fa624b73b2a020031a4fa0b5463c179096d",
+    "node_MatMul_151": "d2562482e8f1eb0f084ec03db623705be9589ecfc4d5b3bee471d926d17fe4b3",
+    "node_MatMul_151_post_reshape": "d71658f28a9b563c23e5dcb79f34de545e8666e2185c96095bba58b05add232a",
+    "node_gelu_6": "74e0ae38127a17e49d9b37ed65a253512328fb29d825e91181aaf641adb4e4a3",
+    "node_MatMul_153_pre_reshape": "7876f12fc12ae9f487564a62c2ba650a4734577dcdb21f33afb91f5caa1d656e",
+    "node_MatMul_153": "9f37c346c93765cb9c7d9316766b0d559552e87b40c45d4b91c85fdcb58f0bf3",
+    "node_MatMul_153_post_reshape": "0e9b863a1c94de6945edf186e6f84cf945d0f03bae2cb3c63db9443f0a83c0cd",
+    "node_permute_19": "697c51582b46bc71978efab20e0c4265de839e934aae06da9e54f659df81d27d",
+    "node_mul_6": "cdd6520a7b25b88c05d536c6284df48a761b341f3a9a7868a3e54b6eda7c2b80",
+    "mul_6_nhwc": "308835949f6f2e7da0f5a872b16db87e8f647bbd6a2e5302ea242dcc9540c662",
+    "node_add_6": "d9eb7c0fcf42b0eee28d04e011559690d6c0c4797927673650c816e265c78393",
+    "node_conv2d_10": "099b6eaff63b1fb4b6a3d4e37190233032f7dfa3086a6cb6d622846a581c4cb6",
+    "node_layer_norm_10": "a3f86932882920ae219c630657c6e4c66c15fb88c745c455484b496774a21061",
+    "node_MatMul_161_pre_reshape": "6eb32591e0a5ac174ad4a0c145fd426684624391e233fdf21da6f858a405e488",
+    "node_MatMul_161": "30249d8857d4ec188831e0cd5f7aa8c7fb22c0ccc1aae6408e8bd66a8f44284c",
+    "node_MatMul_161_post_reshape": "698279d9a72adfe93f8ed7b1344c93e8742e0c437743213d29d41b639f840daa",
+    "node_gelu_7": "44d20620139cfc29794d5061fc479b01ccf487379b8cc909877b672335d49233",
+    "node_MatMul_163_pre_reshape": "473b766bfb8e60145d35b079878b62627f3c3e5a40fafab9aa454c8ee964c593",
+    "node_MatMul_163": "8b1af68c19f556ca947616da648154ea147ecc58ec3caa97f16dc916d3beadc1",
+    "node_MatMul_163_post_reshape": "b39b0462f0cb9948993183ae528dada76827a24f2dbb3bdec8e6c05a4a5ef015",
+    "node_permute_21": "f4e9266e770b2432665c16d58b37970727c915174f3c5ffc289c856afdbc6860",
+    "node_mul_7": "db9a0e8bb8c5173a5154ba7bca93859e4dca48196ee99bf6bd2ddf167b3e33f6",
+    "mul_7_nhwc": "04e26e7827c1e715af2e0ed93da7ba71119a549c18f60c29c68874ab24c35b4c",
+    "node_add_7": "0005849f4bf5da039861241bd08ebe7bdb5f29688ba0250f6206528b2efa9874",
+    "node_conv2d_11": "f1a83f72f7b3a3689c7fd8799f4f9e7c089a7b9a6154225ae208ca49775389b8",
+    "node_layer_norm_11": "93ecde7b80d53a1f482a8f566ddab1a8aacc3643c780077ecadadeaf263ac11f",
+    "node_MatMul_171_pre_reshape": "4172edcea909f9153b0a1394d0b2c614e1d89adccead84f87f2b4e7fd1f96371",
+    "node_MatMul_171": "37ebbc1646ee4372edb3e3cf5542db727c017bb99e70a0bd5fd2c5d5171c4221",
+    "node_MatMul_171_post_reshape": "23609c87f081cbb370f1ebd52b4afe378986ae6bf8aab2f3e16fd7bdc13baa50",
+    "node_gelu_8": "ad5fc49afc7f76395544c34b645b31b1f099129bc38f3d5f77a42e6377a65624",
+    "node_MatMul_173_pre_reshape": "9ec5ba643d9d91d82d17cd8dbe9636c4d04cc416c21f405a9384a6b0c53b90a4",
+    "node_MatMul_173": "bf3a0da845ad231349c545ca9ede2b66b34b8c5197d40c1c288a7185cd4f9eeb",
+    "node_MatMul_173_post_reshape": "f68338a565cfe3c034f125108858b0326dd9278686a508151494cf5cda4d0689",
+    "node_permute_23": "4c665134e97ea61f32a9048e7970291e12505eba84f9035a063e8442f10b0fa5",
+    "node_mul_8": "0fec325dd17383d57ecf82432087fbe6508e5c74a6ca8843d7bd2d9f85cf2be5",
+    "mul_8_nhwc": "4593f5160262c0d910d17bf4c1ca395bde7ba7901c6ba4d3021046b50273c238",
+    "node_add_8": "a67ac399f7719dab7537f731cadb12805335faf504f0961f0dc14ed0536e4360",
+    "node_conv2d_12": "676ef99e078d51a0aca4403087e3fe9e32cb712ce317737f08c90d62a9c7ff9d",
+    "node_layer_norm_12": "e4a1e34477db5a25279e3efedeb95005760003c6fb4be7b7edca7b565e64d81e",
+    "node_MatMul_181_pre_reshape": "9840696c3ffe8ce10b4509a64c2bf7edb0915065cac4c5fa4a91afc1c848b77a",
+    "node_MatMul_181": "c6b96b124a8a1f0d7408b42d8a7c5512cdbc546f6e0744cdeca01b1d3d3b556d",
+    "node_MatMul_181_post_reshape": "8747deb5580718d59d1d68ae37cfa4e1046635d04b3f7e5ea2283bc03cf14fc7",
+    "node_gelu_9": "04f53145c4edf58b2346f1fdcce427cea03b9eaf053b8a6523598a481b3ee39d",
+    "node_MatMul_183_pre_reshape": "86f83750da3d8819ed01af4562c18a59014280d82f2803a455ce13aec03c36b5",
+    "node_MatMul_183": "2c72c219a8dd7f2c8e91011c2850ec4fa831facea04460bfd919805026dff380",
+    "node_MatMul_183_post_reshape": "620583fa13afd58195e7b997226c7d90d1bb7ff9d65166b7b99e18374ff4b5f4",
+    "node_permute_25": "99c4f1e861b505e858c8cfb458a12ebc0ea41c088a33c7962ab7683e740737f4",
+    "node_mul_9": "a4e613e02f65689bfcd955afd2bd547f8b7add6b485548b1965463e3d5218e91",
+    "mul_9_nhwc": "d3b29ae2f9d68107b536eaffa61c61059f1ada0bfd5f6ced44b806ac2061232e",
+    "node_add_9": "7830e45bdfa999c887b4b5a273290a862b996bb980ee04b2a936432e65182c2d",
+    "node_conv2d_13": "9af0f159a4012efccc5fcf8a2237b518dc57333047fee77c3bec3485f340a6d6",
+    "node_layer_norm_13": "ca10091e89a225b2cd038b351d6dc07210a3c999ee8e325f0b0b30192295a8e5",
+    "node_MatMul_191_pre_reshape": "b69ec8672d4c3da86ded609af9c665fffb30a138968d50f69f5f8814337058d9",
+    "node_MatMul_191": "dbf77bcd0b54a00bd359a74db16efdf6e5796406fd43a1cb0649de1a2d32aa0c",
+    "node_MatMul_191_post_reshape": "d66d7aea7795c13c3277929e1c41e91ff178e20b9493085c4e1e5b1d5f40bda9",
+    "node_gelu_10": "7e33f4084957849dca5afbe80bd3a47ccd3f47b18832f79d1b29e080f5f4f83d",
+    "node_MatMul_193_pre_reshape": "b7900b3872355d2d95d3a36c38bdc432b554c5bd934d8d8132e131e3e6834e7f",
+    "node_MatMul_193": "81001816ba368f8729bd8804844357e103f6375853b968c521f61918f3ead75b",
+    "node_MatMul_193_post_reshape": "566f5701b2355854856fe536583cae8d96fd4421146e93657c8b8a3768e807c1",
+    "node_permute_27": "b341881574315b5a67cb50a22b690b8412d91cf253b078249e9c0090ab92f344",
+    "node_mul_10": "8c29df2fd433eaa011ad622890b3e2cee5297557a34b36e6782b85c81062e6ba",
+    "mul_10_nhwc": "d467d9c245cb6daef42dcf07358ca1bd07e5729c14a84db7ea9d2e9806ac4310",
+    "node_add_10": "05a0cba83cb3ac0fe2a7dfb96e428b538815580ab6a977a7c23badc9a5e0d8eb",
+    "node_conv2d_14": "9dca782f3f14f29388251e22aa9d7b687b0ef87fc026120a5b28944e2e31c1e9",
+    "node_layer_norm_14": "1109adcdb75c665d41232297f0ab4adece13a687f673110a57b6632e308abf0f",
+    "node_MatMul_201_pre_reshape": "c66f89f806f5b239e879ceb679ecc33fc3b94cb03d6bf8df44384d2d40be9922",
+    "node_MatMul_201": "4bbd3b04704c051c9792598c9ef1f032b5216c105e8b3f5df4594300049e44ad",
+    "node_MatMul_201_post_reshape": "55f140c1b05573c5a99e45184383cfab389e5c0502334d8d78766b0c8ce75733",
+    "node_gelu_11": "82630f168d7f9a89102626ae387d24121cb5f442bc626a796b36d9c7e78194b9",
+    "node_MatMul_203_pre_reshape": "b27fa9326cc92bf5fb93be2283e893168e60ae07f38827f75d5508e76d81e994",
+    "node_MatMul_203": "49c469c4ca906de39be0db5ac1ac7eafe484816daeaa77cdbc868ee00b57b835",
+    "node_MatMul_203_post_reshape": "ae154882742fd0a031d80ad2e3e5ec6a3ca71272271053d1e1ecee712528d344",
+    "node_permute_29": "629957267ab11a0456674cda0646fe1cd51dc70e9411c2d8aa9d1986e8728995",
+    "node_mul_11": "117290f2618f9bf00ea2946a938c943cb2bc744e9396ffc65173499efc736e3a",
+    "mul_11_nhwc": "7dd6869e27502850078ec10f7e0f502f1f3b531cac71b7d43d44cbfb9e504f5a",
+    "node_add_11": "410b43f726580e8877567e2757477505688fcf0f85a2abfdab88bd4f930bd79b",
+    "node_conv2d_15": "786ae6933b7313e44571004a7c7fc98c4477b772fe7144b10a215793414f3e05",
+    "node_layer_norm_15": "7814f0db10eb7bf3af9c86b62c47dff88c7b3de72f1a5b1b285c7fcc04b9c841",
+    "node_MatMul_211_pre_reshape": "81a31117af5f276131d1491b2d77b9e964fb49920efd375fdcfe40a6d9959111",
+    "node_MatMul_211": "ce93381e9f24386a3600e4462638026532070ee380c00001935e1521b0bf5d66",
+    "node_MatMul_211_post_reshape": "f5250ea7a71ab3f1562ad814d698efb3ff55eefc1d59ab6067a5fb61f43b7713",
+    "node_gelu_12": "3f83184cad0be1e8948dd97480ed0d4017686b820c97bb4898b54dd356cbdf78",
+    "node_MatMul_213_pre_reshape": "8b2eaafa01bbd6f81781e3bb7a7065fe65a112b188179fd9dec4766a5ed62ca1",
+    "node_MatMul_213": "5538bce17a6bb9fee57ed1887ef8850d98c9c06107ca8bd36f74a367916eb261",
+    "node_MatMul_213_post_reshape": "5e1f09cf9ad3a54aab6ae513ff647ef31f1d33d9ad90c8fa6faa280a92954e05",
+    "node_permute_31": "be7234c124b9b9e75087890ea90ac84d2b3ccf58f91537473ba0177d90ded310",
+    "node_mul_12": "09aee03714c21c055322e9a304688979bb591cccd5383f8fb7eaf2dd4e0875ce",
+    "mul_12_nhwc": "23e86a1c5fc20debfc0438dea4446378fe5d10e90367cce64b9471ae62cfb461",
+    "node_add_12": "9cbb264af77ae09e453ad1f3fd24183eae245e7b040e18ad56ad7e81e3bfc014",
+    "node_conv2d_16": "eb0706adb644a401bf3c700b640b99195404abb04c50cd44df668bed6a8f95b9",
+    "node_layer_norm_16": "84b38e99bf3fa8ffc3ddca275a69072dd67d744567a4f92f1821a0d3e64eac22",
+    "node_MatMul_221_pre_reshape": "19e356d4c683a449ac3bc330e6e142ed6f1969d13f2b95037c1c18ca3640d84c",
+    "node_MatMul_221": "56c49cdb3e5bf2cc35047d082b68642cfdbb559dac501ebf244d06df2df527fa",
+    "node_MatMul_221_post_reshape": "916803902771e4f758219109bdaaffb2e85aad381fcd9d49e2b8b35d621c5d3c",
+    "node_gelu_13": "305733f9bd2ccbc14b5183db6ad1db6c5b0147bfa6ff4c8f76b4671facc676d1",
+    "node_MatMul_223_pre_reshape": "d837d6422027e8f5f3784c7207d2d0abe4c93e45f249c274cf67ee8e4de2908d",
+    "node_MatMul_223": "efeed896270ad8598165cbd4fe39276048a79e83beb450a2d84168e820f14cb0",
+    "node_MatMul_223_post_reshape": "9da94d735a49b8c3e5982ab4c8ac456c25c5d562b38221f23968eaab9867bfea",
+    "node_permute_33": "e6afb0b84d118571c55d43e32425be74a39a188a876b7c7fd63808f61e62a33a",
+    "node_mul_13": "0c0764523ff41bc19b9a9d78ae8ae710c2c33c3176a2ad782bfc3cbd850afd05",
+    "mul_13_nhwc": "d54aa7fe49c0ffcf295256545a8a656a9193e6346f40282322de7dd8d11017d3",
+    "node_add_13": "afb722fcc9f6fbceecbf234a82d981091a894b4918be7e7576e5f01de1b64042",
+    "node_conv2d_17": "b96a52e78e07c661d8262849120eaf1d2a98ae9a0915d7901566033cd6d78cce",
+    "node_layer_norm_17": "15475fa761d51487819d77f604c35bac83b71a29687191d81a01ca2d0d7e99f7",
+    "node_MatMul_231_pre_reshape": "292ff118cccda9ae971404da152813b310d27effd39ef562a11df9c91b6cbf6d",
+    "node_MatMul_231": "fbd6cc9c0623c4c5041a71595ba40cb2be37fc643b03e81f0ca97c9d7530710b",
+    "node_MatMul_231_post_reshape": "77f61509edd2fc89d6db92744f20c2be1f78739bd5b5d6f4278ebd0f7b30feb8",
+    "node_gelu_14": "68a3636a279abd0e33f4b39b0f4a8f4ffdbcc5b1f9532a2cb8ce5931dff2a7f8",
+    "node_MatMul_233_pre_reshape": "99b9581f5de2db573eab02c1f6d622148e82ecc61715e65cc5acc696df48217b",
+    "node_MatMul_233": "ca5b4ee6fc2ecdfba4ef409804ba3834d1aa280d397a5b1681c4279d6cf5b4b2",
+    "node_MatMul_233_post_reshape": "5025cd2a42b91bd681ef5bf65b3bf0b0fedbccaf7f85feb07e3177392dd13444",
+    "node_permute_35": "702026999e53bdb8a95d16d1338f515a718079c35cf9675e7745ee97a4a3c97f",
+    "node_mul_14": "3753c25629d5d78b9b6e840508dbfc2bba8d503c1e3c1d934681ac86642e5955",
+    "mul_14_nhwc": "560ab04ed6f89c60ffbaf0a6d81e62740149a2bfd0811d347952d4339e5dc2c4",
+    "node_add_14": "0dbe2a760a3d1997588ef43fe471f275624402539abab591178864936ec8d79d",
+    "node_conv2d_18": "62ff64372024467b00a0d71a534b3d608cdf43447a45a353e6f78cdd1383e7be",
+    "node_layer_norm_18": "2e496641564487f6e469f35db1db56705e72bdbc885290df3b9bb3541562a812",
+    "node_MatMul_241_pre_reshape": "ee3e7f2a6bb2fd09eb507a32c6891b8571541500d7fb6986288c1f39eae2fbea",
+    "node_MatMul_241": "922a7d537dc33aaeee4c2bf63a38b90571cc8dc2ab43f3d18882362dc6e99d00",
+    "node_MatMul_241_post_reshape": "d4d7ec8a71ee58e3fbb939c34bb0d4b093e48d423ba822acf0f4b28091978765",
+    "node_gelu_15": "c60c735c2ed4db11b8e9f29d86a2dc7e6a46eda67f21231f148d5f630cc7b99f",
+    "node_MatMul_243_pre_reshape": "9e56405161d6e150ff88d99ae1a0669b5fef35901a514fef3eb18c4efffe98bf",
+    "node_MatMul_243": "2b1f4f72faf87c53245931245b696598613603cb53e26efc1d097f70b8eaf946",
+    "node_MatMul_243_post_reshape": "70546167a6b2cd065be77cb6bd2f1059727db0156fdab29c2a8d953e1d5032c5",
+    "node_permute_37": "34ba34070980416b04788748ca61f8ab02b0b521def2ef662b394eb46759a6b8",
+    "node_mul_15": "dd47b28ed99f05e34ef45592a3c1e3e38621f343e28f0d720393ea2d1e17d837",
+    "mul_15_nhwc": "19b62518e0967a32ab1ddef99403407545d52e2ba9c3d43555c54976426c8c6d",
+    "node_add_15": "0613d0d71aa1300c9a85e9199f45d47ba0912277a87a461bb28c1944a8008119",
+    "node_conv2d_19": "5f8dd789abe04d8181dbb19c4a1ff426ed410bf99faf66104c3a0a03a4e5b11a",
+    "node_layer_norm_19": "79bca99b7c21f4ff19d4db3aef1495daef75189a6504f70cb8ed1d8259081bfa",
+    "node_MatMul_251_pre_reshape": "4b9463fc762acf9d1c02452c9b20b255b04ee38e429eb2e27fabf6ce64784c16",
+    "node_MatMul_251": "9289fa5b803ed4c04ae1a92ff8ace049cb48d76b5c6071f629f3b43fa2186ecb",
+    "node_MatMul_251_post_reshape": "cad410c1e3f96f8bad9d190ce492851d243a6ca8c76937cd55751996bdc4d27d",
+    "node_gelu_16": "d43c725c038ec77ecb7779243e3e8934a49d2dcfb2de3c6db66f93058acf4193",
+    "node_MatMul_253_pre_reshape": "4e51328a1cf6f34b53b7deb82d384940d9c6154396ca05c75c7cc3a744b1074f",
+    "node_MatMul_253": "cb09484bab645e22aae85f6a38a1a689cac812adef35fc1f094834305e90d21b",
+    "node_MatMul_253_post_reshape": "34feaabd165e51104dda8cd20e36b7f993d5f10271f5a0b2ca9936d6276b93f1",
+    "node_permute_39": "127f25f059fb2bb01d8991c4648d083384becdc3def91ff5419ec0834ced01a3",
+    "node_mul_16": "66f88ffcd8a5fdfca8ce2936916a164da0fd666576c73eb4c56e01c8c16d94e0",
+    "mul_16_nhwc": "92883b80e9fe2ac7c8badc260b3286ba61690b5a7306c0f5a802ee3115639e1f",
+    "node_add_16": "989ac1c3a16757645924a60f3163777b6acdca263de79c1b7b487e1a895def86",
+    "node_conv2d_20": "bc33521446fe75d9e30cfee3ace7d8b9a241c265f0ac177c03b094929f800434",
+    "node_layer_norm_20": "c937bb06f71e608d1d23cd93caae47b37208ada6eb626f2e9b6a945766d8a9c8",
+    "node_MatMul_261_pre_reshape": "9609af2e9240af147a47d4fbe04dadfd3f404320d7bcecf60c86c2f11ae5322c",
+    "node_MatMul_261": "798d87e6c0245879dc68f690bf1de4ffd5fceb07c9e2ca7f7f63c5886a0d9e01",
+    "node_MatMul_261_post_reshape": "ac8af778af143f7bb992c1e7a52a307b7ed328f18063d7b6a188d1c9fc125b62",
+    "node_gelu_17": "672126053a7038c02fefa1831f79e7c07251f79a951eed54f290b5047cff3338",
+    "node_MatMul_263_pre_reshape": "245dea4f80e32cef267fda8705400f3b25f8681998bc39aefdb0137402f1fa5b",
+    "node_MatMul_263": "4d5ca3e9e838c5f29a4cdb223098121c657ba8161c1a7348d1ffa49928c453c6",
+    "node_MatMul_263_post_reshape": "f254ea87b11ca95e72f58b2ca86febae21248b35f11c5a4dcc0beb13e9cee9c1",
+    "node_permute_41": "5206daf25fb97b54ed915bb782d4d25e378fa41abd985d1273f479afe49c2b9a",
+    "node_mul_17": "53345471550d5927ba8b6e04c9e55a05ee8040e57e9ea2637b582d800cf661bd",
+    "mul_17_nhwc": "37248037f860042b581a429eb5a30d1f82c9b4a78a3fffe28213dbb6647a71b2",
+    "node_add_17": "6a3f4be712e508125ff8c9a669f399fcb5931664102cadfed0ed93192b6954b0",
+    "node_conv2d_21": "f7374e1718ac372a95173c53cc462cb2399775fd7c97f7a5edf37b1cdaa05eca",
+    "node_layer_norm_21": "87858e0d218805984083d18b5cc8e432c61417d0df77d7bd2eda1b9081e88ebd",
+    "node_MatMul_271_pre_reshape": "d5ade096334d17f199ae47a691fe5b091ae2c62104dcb2bfb628b57395e11e33",
+    "node_MatMul_271": "948ac679cfd879dc82673a03a07eae52cde10431222dfb8d04ee3261a40493e9",
+    "node_MatMul_271_post_reshape": "243fb05d0d878841ccf29419dcc3a6b26973f230d1500002d35ffb0bf1770fb7",
+    "node_gelu_18": "b49afefbd1465d059d1f0749974533c4a68b702d1f3c3015d027e1cad3ee9660",
+    "node_MatMul_273_pre_reshape": "9931fb6d5d5fe05e74f101ad2c7fc083ad409d46e292b992024bad509633f9dc",
+    "node_MatMul_273": "4e1b34c7d1a16afd3c8f41bcbaedf6c274f0ee8f4d7145e89819119bffedfb7d",
+    "node_MatMul_273_post_reshape": "6b63a4318bdc38d0830c0a14c7ea11698bd4c840b3c4df1b13de7eec3db3dbcc",
+    "node_permute_43": "a7b92e6c25aa7e6d112c8aac7275b792c56d5c5016425354be7672c157c03857",
+    "node_mul_18": "ef570f5a65c17b7f01960752f9915b078a17b669a7caf4f072277d746324e9a3",
+    "mul_18_nhwc": "142cfd34744323376723cfa564c44cb6f4226c07d51ce3aceda8d8a332f0d2a6",
+    "node_add_18": "a533745e493447298cdf38229bbc02d133facf66d3f2688a1d71865fee1bd458",
+    "node_conv2d_22": "5be81294e54e627e06f04f20054c807843537eb322b27789313498707dbe6ad4",
+    "node_layer_norm_22": "1908319e79bc42627ade3f35d2b1df720cabe2acfe744b3bd34b48f63721cf1c",
+    "node_MatMul_281_pre_reshape": "df2def763d6bec1d98fd6a191119ff838d51c881908ca5d23c8902eb409419c1",
+    "node_MatMul_281": "de996532a9668432c3677d82ea47d5837ca70f8d108fa55aaf3d734ecf0cd287",
+    "node_MatMul_281_post_reshape": "b0cfe0d454f2b8dfb1381e617f35b4a105bb48453b54431c1ba7b2520e0f3c07",
+    "node_gelu_19": "9c61a460f7b64801cb427f5f5444bc84845cca3be7ae6d501b97f6f41ca30e54",
+    "node_MatMul_283_pre_reshape": "241f0e8e7e7863a3c369363fa7b13cb4127121a9fd1bc22cf047288521e7e7a6",
+    "node_MatMul_283": "c1eb483141116d9e9d217458f346de96e6f7129d514f281326180d39ff142622",
+    "node_MatMul_283_post_reshape": "3b56f811d843c76b691c260f3bb75cd2f4feaa786859c1d4b4b7b522651651e3",
+    "node_permute_45": "a75823d4b039eb426fc72e636e5753b7f170f696ead62bfca6908f12e978b5eb",
+    "node_mul_19": "551e1e07be33640ee9e79c0ece25d9f70c5c6a886fcc1a6becdc6346ed4a0f5c",
+    "mul_19_nhwc": "aa879cee0e7e52a062fc2ce74057ad8bd7fe096cb06f30a4cc21eb680237fb8d",
+    "node_add_19": "e69f247b787e5a379db7d19a91583de0fd14b4c477fac05aa48058e73c09d384",
+    "node_conv2d_23": "6241148312463a62c04fc1936df4e5fa0e6a43e87f523de24d7a182c1b9727da",
+    "node_layer_norm_23": "feceaccbeb5c81cad217d720b8fecf42d44aa95e3046e40a7ef70538f89bb503",
+    "node_MatMul_291_pre_reshape": "884bac09bf02e7a0b84f46456ba18652f71972402f8295df6e01c84f1b32a714",
+    "node_MatMul_291": "c9177fdacd4db842dae26023530c397e85d0627c7b28995392c5ccac1f796141",
+    "node_MatMul_291_post_reshape": "fa8b96f4ab2e68e4c3cec1af47f87bce7309e38a66ef15f5ec14a1a34556c8d2",
+    "node_gelu_20": "1d4d4a343c06e18200460c1de2ee657d1edfc155fc4c348d167615a0828dad5b",
+    "node_MatMul_293_pre_reshape": "5e5d5e63c78f2b69ec94178986860c8923c96e4ffe1f9b914d626d1ca78a5454",
+    "node_MatMul_293": "f3cdf371a29fe677f63b7fcce3b5a1a35659dde7324477260a79b75de0d0a44c",
+    "node_MatMul_293_post_reshape": "0e6890cf653f35d4283b321531ea2a7cafcbb444bac6787f9a84a4ebde21b236",
+    "node_permute_47": "cc819dfa6644a79b8631537dd4fedcbe1569b13412e0242881b431b183e33351",
+    "node_mul_20": "905c1a5bcca7d1b48f0e88c717a300708c7677c54be5b5151b9c0e649644affb",
+    "mul_20_nhwc": "d502d0977cba64f81fdd080a5a9abbfd19394a265d6a941f048900c19a44592d",
+    "node_add_20": "16da1b528793758e7e7088b6b7ece2cef56adf9441cafcee4dabe8dbedda7e10",
+    "node_conv2d_24": "719511b0f97b33e1915fc74d760ccb0f18fe5c21b442f184247490117f91aabf",
+    "node_layer_norm_24": "6a3733613d734f60a8ccf8dfc7991cd32b303178a7f88b0b8933e9dc697e4610",
+    "node_MatMul_301_pre_reshape": "5631a336381be055d55597343cb36ae3b5db9a3aa946c98e89f7f1c78ba54e2a",
+    "node_MatMul_301": "b542215f3e59d68ec6c4732788cf83c13db7386d83e92d40716f51b4eaaf61ba",
+    "node_MatMul_301_post_reshape": "532586b312c02752be35fc5d9645f22b397ed44e345cc5f5e8a28d28b02986ac",
+    "node_gelu_21": "c4794724d7e4b5b627a47ff5a8c5ccf88902f96cc13c90f3bacb45760cc5d770",
+    "node_MatMul_303_pre_reshape": "c6271df86877910fd0e60950b390b7118f522752a9ff4fbf11ceb234de6e4048",
+    "node_MatMul_303": "cee0e723be65a304b91a02feefd32be0146e5fa2266106f6d24f0bbb87974daa",
+    "node_MatMul_303_post_reshape": "e3f73126fed4324f5ddf3a70e5099279ef01318ea4375096222d6c4f416941c6",
+    "node_permute_49": "1b8ae7ae8da3f64eb1913e03ae4238e6c945831b941b27e5df327c7bb79b367c",
+    "node_mul_21": "7771735cae1b57cd8ec98ee946ea8cd347b87225941f95be2560694404358df8",
+    "mul_21_nhwc": "4e109decf3c1ae302a3a3b235a8b414b7a139ed79f080e69ddd91eaaa5322b9a",
+    "node_add_21": "71457c7cdf9cabe37c9fc9c1bd434f6e45dd843bfa7d5b77845cf840f6270edc",
+    "node_conv2d_25": "2e1bcdc66df410c5f327b5ff1a8c8f31fe852f8e2f0f2e310abd34d720181365",
+    "node_layer_norm_25": "7915d9f0d95e274a5d12bd2b1ff8ed8105578412cdc4464bdf767e20e5e8d616",
+    "node_MatMul_311_pre_reshape": "05538421fa972623de3aab79a9ddd73069ed4a694902bf0bd4388c9d91090dbd",
+    "node_MatMul_311": "31b23fc7c76b1b247be69d965aa5e2537ff20a2fad6c26a5c0519afe17087594",
+    "node_MatMul_311_post_reshape": "169d78092ca0adbf423b8370362d7c1ef4e2220ab4292d607f9a0715ab2e266b",
+    "node_gelu_22": "8ccd1f22aef59f868cf820f86012f166aa0f9ac64422d4ffc3e52e2f2540f91a",
+    "node_MatMul_313_pre_reshape": "787b3ed6a8f142200935fb02d633386396404e2a8abff03ed68406a5842367bf",
+    "node_MatMul_313": "4d7678d316ca17065c4831b15b596a842aa1d7c140b738221cae921a0b4223a2",
+    "node_MatMul_313_post_reshape": "1e2cac2abb13e958cbb97526573c48419cc77fc31254428c2b7f3cb2c1c4763c",
+    "node_permute_51": "4d92b1e718c352a1e7de9f568c783897e76a3dada8995b062628243dff1694ce",
+    "node_mul_22": "5dcac0a8673f11dae61300a30691e67dc8ea4f091ffcd7dd7d6003a047a5dd80",
+    "mul_22_nhwc": "26ac3c7ef5f7bacbc511f6e88b30ebee02e996682a8c692993a9ac8eb0d7e0c8",
+    "node_add_22": "2255c090756d5671a80c7b1cc60bcd0bcb3ef594ffcfb3c57c8f17cee6dbe377",
+    "node_conv2d_26": "37ac62f3d7a4a222200fa3404ecc65ae82687bf6163b95738ce6bf5cee81af9c",
+    "node_layer_norm_26": "ec2695c906da1e9297ca57f4be803a8628a72f828eadfd616b6f384da891e89e",
+    "node_MatMul_321_pre_reshape": "250c077cb4546a6783fd99e393c213ef3d032c8b9ca45e16ac124da59678ff9f",
+    "node_MatMul_321": "5ac7d5be1c463b0a26f4cc9c4e7ab01e61aa2bad397f869bf042fe59a15c9dd0",
+    "node_MatMul_321_post_reshape": "5ba59984c8929a7ed30383b1fea489bef79d9b1cce993aea87b4ca7e3338d52f",
+    "node_gelu_23": "0f99bb80d6c50d3a6e70e45c911ae9fbb89c15b99b66446c27fcccd5ba6c2734",
+    "node_MatMul_323_pre_reshape": "79f76fb69fe6085b0cabee19c4a85b02917cb6a67220c053e868f571d69580f2",
+    "node_MatMul_323": "e565aad9af532d3c22f80599ed0060e59d923c87d6477d18d8de5418048bd1f2",
+    "node_MatMul_323_post_reshape": "75061f98e46fdaa4001b4af5d0142828f2ac35dcbaa7eb871bf51d7f5fc571bd",
+    "node_permute_53": "d9a07a8f3c50771476852f449b86b8174a49bd0900b411c377962c90106fda46",
+    "node_mul_23": "3a1bc92eeb2e00a3450b38e4e2066ae3b0144ac439ced4d9179ec67803ed8fb6",
+    "mul_23_nhwc": "b18491c72c106cff0592e126d1f710151af3a51c08aff51d6d69d2018d3ceaab",
+    "node_add_23": "8f4244edce735aa4a35faaacf620392c83e96e88f9b4f69c931e5eaf1fc5e602",
+    "node_conv2d_27": "3db080976e880ab23fee6035af3cf5715972c68d578279bed25a53ca420e6552",
+    "node_layer_norm_27": "790d6cdc06d911991407bfd5e234710e2996b1754e085b31888196aa769d7126",
+    "node_MatMul_331_pre_reshape": "82ba4af78a70fb3ef4c4205a9bc85b7f6e28778131c84b6b6026d0b3b8a27b60",
+    "node_MatMul_331": "88e468ba3e9add6b72e67a58b51bb573e47fc9142695245814ba20a4699b674d",
+    "node_MatMul_331_post_reshape": "8abbb9312171459e45016d53b1a2b3cb8b5dfc355078caa82ca4dff24b390c30",
+    "node_gelu_24": "31c5e6f24ac705992476502b91759be158bca4b0f5b66bd42a4192af18e5403b",
+    "node_MatMul_333_pre_reshape": "6287fa5edce0312e1b8cf4b8d28ad770cae9c030885388f7003396d6fdd28aa5",
+    "node_MatMul_333": "1c37556ec88d9e8aec22a78ff568bf27da4ee0b894d4a364ab775312321ba14f",
+    "node_MatMul_333_post_reshape": "b4d1f17a056816abe5c762d630682cd0fbe35ceeed4fd9293c1ddf75002a6a18",
+    "node_permute_55": "a75a7a86c69b958404f83c99f9d282b416d25629892f6d5f9d15d7af5cb5ee09",
+    "node_mul_24": "07f023c910dfc00d73a086c9b627bfead30b90fe985834770a56a85a5a52a23f",
+    "mul_24_nhwc": "0cdbda35aa71109855705ce588e34b9fb47d3a36c74f6826304421fbd8563bbc",
+    "node_add_24": "972b503613527f149eb77176369daea84c1d1e8f327f09012e9d6a74149a2695",
+    "node_conv2d_28": "58b68028d24fb913503ca297af4066a83564b82157e22d685c3774169b80053f",
+    "node_layer_norm_28": "388010a4c15d98d9b2b5b508bfcda44f434389aee2cb26b1a5deb05c7e3782fe",
+    "node_MatMul_341_pre_reshape": "028cf639141dc3c9bce6aa0e4b84c148d728e40215444858851ef716d2352c11",
+    "node_MatMul_341": "021eaf4750754be1b1ed29d3e08c5b9125f433f575d87958e0cc65e0488d0e64",
+    "node_MatMul_341_post_reshape": "8895db32f1da91bb2c712e1a191625ae89dc1ce69ecd84d86c7a64497f9c491e",
+    "node_gelu_25": "d7013ffa73e00ec73a036006fe51c12f6e1e3799717947adb0caf0297548e73e",
+    "node_MatMul_343_pre_reshape": "aab528f129e617ee547d874ab23836856a3b5a1837b6a73cabc3a9dfb224d762",
+    "node_MatMul_343": "082c78d00c2d543de9190c7e8ba7c363db725e15b597eb97b9ee7defe354fa82",
+    "node_MatMul_343_post_reshape": "95eb5500a588271742db8f86f74376258a942577062a9ffbc00dbd31fc9a4c90",
+    "node_permute_57": "314befef09c938c6621db1f87798351340b2db2e51f654225453f8a221770139",
+    "node_mul_25": "ed876b8afe4e9bbf8fb110dbac8601697447ea3856ae4d90dbecca02d66e4aae",
+    "mul_25_nhwc": "b74cf6d08a341fc0d62c7f01e9791cc72db2c37849eb718ca4cbf4c40b88d8e1",
+    "node_add_25": "11e274d47c6e50ba05dd912cbabb813de3a22e6af63a855259daea0f85a506a0",
+    "node_conv2d_29": "8254c076cb4288070efab4bd560813efd29b87d594d29285d14fa9f432f5af4d",
+    "node_layer_norm_29": "edb9edf705731cee9778c1647b4420bbb2a955f5d1b0fcf6f87766c28891d06a",
+    "node_MatMul_351_pre_reshape": "4b287c900c06aecb01c7df415cbac9cf006913cc276060d004b76bd7800a449c",
+    "node_MatMul_351": "5cc501df8d91dc6f8f6e0315b56511f48c030168dc1ae717364d84f4c033bc8f",
+    "node_MatMul_351_post_reshape": "a8e504d42b9e3d84fffadb539bc7f2ddfca5c5a87d550605708d1480d80b4deb",
+    "node_gelu_26": "09ae1da2850df6b47517695b336af8cd1215ba0ac29c238da6c73786a77e399f",
+    "node_MatMul_353_pre_reshape": "4065681524dbfb6d5a8beeba5c45ddad87580f91cede124b1bf205204264aaac",
+    "node_MatMul_353": "01db678831620a9634a5ee99abbb6081d21f9465e99b47530aacf686fbee63d2",
+    "node_MatMul_353_post_reshape": "3aa5e54651b2e8371ec4cf3047652d551dfe1107910732e091dac5c45edfacf7",
+    "node_permute_59": "2b89a2a292437a9263aa73e19a555a41840ee4530914e1aa802f2588e671a7d2",
+    "node_mul_26": "ac634bf1a96ca656f4497e90a3105d9e38c84ce6842c9257e9a8d6372494e3d2",
+    "mul_26_nhwc": "fe1f51df2166a2c42250c6869366ab4b5a1eee8a8cb7876e6c5f5fc78a494b0e",
+    "node_add_26": "ba536a8e0f7c1cf09367bfb70c25906dd07c9ca0c12c1f925b99c7f9ab08c50d",
+    "node_conv2d_30": "e9651cc97403f2392c5a7d30262a0052025fe5209393a31f4d28287fbdca5080",
+    "node_layer_norm_30": "c37a55e9211ad3d30df031285b11aee69b41f44451517c28ea9ba8bd85094317",
+    "node_MatMul_361_pre_reshape": "d3eddd2b35396b21b513b8534e9ca113abd816cc5981e56bbc1c3276f39a85b1",
+    "node_MatMul_361": "bf159ebfa95ad5a44b62e4efcfcb2161d6d92eaa27e0066d321bd58b5d83d63a",
+    "node_MatMul_361_post_reshape": "29311253b22e80948d56102d6bcda3b63b70f930967c6dbc93b4ab0200bcecfc",
+    "node_gelu_27": "c46e6444a42227bca6040185c029aa9059e40d55f3636b1431c7be2935d749e5",
+    "node_MatMul_363_pre_reshape": "f96d2c095e9890abd713a0f7df6dbf898156707a4f03ab255b6945fb0c032fee",
+    "node_MatMul_363": "99f1010d54f84b64f2c4e18539b3f4edd1531410c5e14a83ffd2fc2e9d8c815b",
+    "node_MatMul_363_post_reshape": "fb8ee8284008d0612caf56525b984eba60fb4cea9ebbfec2a7d39d5fadfe4c7f",
+    "node_permute_61": "4356e3f64364b85df7b1eec4c160e51732bdf46adce68dd9aae106634be454e5",
+    "node_mul_27": "8a815c2925b12a061e9e31725e04259dd07c632a1fc264d3f95e9109be9d11c5",
+    "mul_27_nhwc": "5d3719e41822dc4bf84190b174e15711f200e44306c3af519db46c835ac59b58",
+    "node_add_27": "4439914e904b411a69f00be788dc7f38d37a53220149826f1f20243972ab1769",
+    "node_conv2d_31": "28f4ec602ad3d18fe8f4d16b9f8937356ed183f8f5321db8acadbdb75c596100",
+    "node_layer_norm_31": "eccdae4c0efdb67149ed3b743f9939ce15ef84afddae2c846926f1c8b18d41ce",
+    "node_MatMul_371_pre_reshape": "5c172ed7b8c347347ebd5bd66eb66d2de578e174dd548fc67a18808b5a702ae6",
+    "node_MatMul_371": "330db9fd992a95bfe56c308534005b03a8ee646639cbba85ce2121e737cdeea9",
+    "node_MatMul_371_post_reshape": "99adc5db435bcef7c4392e43f10367f72b89bd1c1d30d9d48bca02f75052b106",
+    "node_gelu_28": "1f3f95f779151940e81cf960a4e81e2afeff229b92ac788e91c7416c534a6126",
+    "node_MatMul_373_pre_reshape": "02c77e12c06edafb5c4c6f61663ac17101b9827d3793b2b4ace5a74189ac2d78",
+    "node_MatMul_373": "bb6480dc4367bb96b84fa9ad602524cfb2fdd41c69b5d84986d04d5b6b7adcb2",
+    "node_MatMul_373_post_reshape": "b908ecba118576b398b129103130f1cfbd8aa584276291b3da1d091837d9821d",
+    "node_permute_63": "c1b2406982d91e51c21833b639736730c2870d332da57af6bb226ce3b2c9b537",
+    "node_mul_28": "0f1e91e51d42fec113a8b6286cf47b5820c9131993f246d87de6757ffe7eb735",
+    "mul_28_nhwc": "f410179e08b8b38df798c23e3dd19a2c92e5bc03cec3cadcefb6c70144320807",
+    "node_add_28": "926c0dbec93f41d578f1d81727ad929d449a0445ce81f0104ec8a9c50f87d33e",
+    "node_conv2d_32": "c70fbe8dcfb7365bb019000b3360bfca2440ca1541d10fe49bad5578db943fb8",
+    "node_layer_norm_32": "667a297d3e52b5f883407eaf1a65ca6c4f0f04a3484079008ea592df79a2b542",
+    "node_MatMul_381_pre_reshape": "820af0066e6a1ea39f0f9a82d9479eb9dc4e94c5f929ec0ba55e4c7898dafaab",
+    "node_MatMul_381": "501773951944bd7189ff1ed9b1e2fa4beff63d5a6558ba782a43243a8aac353b",
+    "node_MatMul_381_post_reshape": "844095d3a4ce830361cafa1f9782aca727e2c3041022d87162092fa4ffa34fe0",
+    "node_gelu_29": "08f1fc1e381a0b9a9c0b522a87939263b97a070c68601fd15544b7c1300212e7",
+    "node_MatMul_383_pre_reshape": "37702ad2ba73c5c5dee30498d417e32a1771ce16b9314125ca33b2976e049e2f",
+    "node_MatMul_383": "37cafaad26ce6d9305945cd1c72daff7a18996ed7e0e19a54b76bab459a8490d",
+    "node_MatMul_383_post_reshape": "3ea2d2954722379de9c9a211ef1a199f1d9880887c856945ce9bb2349fd7b57f",
+    "node_permute_65": "50f7ed530928c89721e1de522ff5ad3ca60d9722e3798854a186cf31f9b93cce",
+    "node_mul_29": "af7ab0b10eef782396f0b5a4221e99a3241b3b7cf4a45f06ab51250d27e8db41",
+    "mul_29_nhwc": "f3b9fd4ae0e1ff1b3a3e7b913a077715262afce5e65f7b8527d94f68080746fe",
+    "node_add_29": "39d9456279e405530e4a9affec6a2a09b41c71ae9cb346ae374dc218a556e132",
+    "node_conv2d_33": "6ad2cf10077d6613976e45d2731be0ed3f7d7031de5e189fe1bceb38f23bb3e5",
+    "node_layer_norm_33": "f5ea5a21df8a6464af896d5c8d5263f01f61010995a09ce3c12fb0aab1fbc406",
+    "node_MatMul_391_pre_reshape": "a4f799445852946032689a6b8077da6bc45f5e48d45548befe8984b370d0fa43",
+    "node_MatMul_391": "dcfcedaf315ce4572f5ccc5194209eb0614ac1acaebf34f548a056b3108a53e5",
+    "node_MatMul_391_post_reshape": "3f1195d8fdbd16ee28247612be4a1e9229581cf367daa5bbfe9cce8e63d6d1b6",
+    "node_gelu_30": "0ab98ef10230df8ca1132559c0b39502bcbf3b44875afcbf46d6856e075137f5",
+    "node_MatMul_393_pre_reshape": "364ff594b8f7bac3483e441f6734f674e195df2e99527943a3d87375af11e1c6",
+    "node_MatMul_393": "ca95c5e5cbc80ba3fff87c218b512705e15314da4d7c89b359ecb7ce724b1a04",
+    "node_MatMul_393_post_reshape": "4b0c9ec27fca3761ceeaf88c9112c1fad94da6d6efb0364f10d8c385ad6ed1aa",
+    "node_permute_67": "70e5a2b8d5eef43e627792d274cdebf7385b649e514c1dfdf68ee22000c560cf",
+    "node_mul_30": "337d775a53c68a39c345df1d7bf7b53a6122a96e4cc67d6acd3ef62415e9f805",
+    "mul_30_nhwc": "997bbac8ad4e51faf8350d026b40259cd6b5c81f2485d379f71f5812bec894fe",
+    "node_add_30": "ceabc96387fc7d0992471390c5ab8705a8e7be26c9b6426c77f0e2f29e278488",
+    "node_conv2d_34": "9d7fbbf534267e69cbc036fe67d8d116e76924b14d51b4e317036bfbffd452ac",
+    "node_layer_norm_34": "b68d94ffc47afe1c8e9ddc151b22616bcd36185c147b2a38c2efb17a498e0ff2",
+    "node_MatMul_401_pre_reshape": "3732c32ace533d49e1c74e995e7df64d612aa656568be1d910a2051ed2e88350",
+    "node_MatMul_401": "f39d40467c29a54ae31bc62d3d8e688b4eba8001b639ce9104a7591d607c5e41",
+    "node_MatMul_401_post_reshape": "aa2bb57a8bff860d9cabac1ae016c00117deca9ff8c271e979aa6d69a37533d0",
+    "node_gelu_31": "4f1f4fa7a4d1efe0892489e06e02ccd0b9f1314df430d4196844629b025e0c62",
+    "node_MatMul_403_pre_reshape": "e124e701f9030f3e7ceccfdf63d9fd3a1486443bd4847fd9b9db0ae7ef379a34",
+    "node_MatMul_403": "a12d574a1796d4ecf63927171a58260cf049f31ad923005578a5d6517826b3a0",
+    "node_MatMul_403_post_reshape": "437f1121f96d0cc427a1cb06f83bb9e2cb14c218c019e47e53136b64972a3b0c",
+    "node_permute_69": "97e94e284e198cb53177225129b850c65cfdf9ef3476e99afa5194080eb7d590",
+    "node_mul_31": "498a60e56aa0d93a9c0116de412d56e0a500d8ba2b8ee521b05ee58b77583d78",
+    "mul_31_nhwc": "b96cb8f9d0ee90e74a8aefc7b8fda7ee57c49a3641843b41240984205b2f27c2",
+    "node_add_31": "8364d68fda2c09be39e8a638ad564c33c24e53e1abab676df52fec394d32dbf8",
+    "node_conv2d_35": "9414300c58d8c1854a2e9157e05bb85603781d798000fbbb856f0b4dff7bddd6",
+    "node_layer_norm_35": "2b88f056ec61a300f11c49124d2cd0074c0cbbb700826bcb29cba78e383e9d61",
+    "node_MatMul_411_pre_reshape": "69519020ba51cb7e4aa582a9dff7c697c71670f1403eaeb6afd04bf05e0411a4",
+    "node_MatMul_411": "77cd64006954037007bbe47868813b0ceffe7e50ade4aa30e46cde3b717e3b12",
+    "node_MatMul_411_post_reshape": "b8b89f7c6c483bb2a3412cf5552b5c97aa203cd461ec88fbcbe25561683bdab9",
+    "node_gelu_32": "dc3e9b7761c920b3f4e3b8c44a119a8d69b32e8267d6f9013437a8c2e7628577",
+    "node_MatMul_413_pre_reshape": "2475b510940aa5306c8569c109eb4415af512f35107e3ecd555dd3d41ff0ab5d",
+    "node_MatMul_413": "5294391aa52bb48e8d800e7db9fde0432185bf110c77eee071b715dbc32287f3",
+    "node_MatMul_413_post_reshape": "745b5f8ae75377f4c9c683f4b9473abffe6e385bccf497410054fad8a0bd9f59",
+    "node_permute_71": "2b2bd38fc6374e81be70e997240971e88b92d7d7dae0887195ac60158aca2f45",
+    "node_mul_32": "41a61e6980de77d14175b806afe58a929c3cb62c14a301d2be4f29a6750b34cc",
+    "mul_32_nhwc": "36f4473cceab5784ffacad9b25e6f3fae15a48b3b116577119d9854fdfaa7d00",
+    "node_add_32": "40a8b9a951495aacb2b200dbeda19aeeae507efbf91595dcc6776afe4b61a7ac",
+    "node_layer_norm_36": "71facb2b11d093bd8f30bb78f51740d9ca4e56dce6324635cf8ab0c662054f70",
+    "node_conv2d_36": "485d082a7fc2f5debfcf693cedea8da2721d131756a62d07edc299ce71f773c2",
+    "node_conv2d_37": "e3438571b620efb923345443e2032d5ae8a7eb5ed7aaffc28cc34b364b5d037e",
+    "node_layer_norm_37": "cf15df5ed7134dc96ccd1ffcfd2005e8e7e8c6dd2f43805b6a538590d149f8fb",
+    "node_MatMul_421_pre_reshape": "edcd4481d31e8afb55b83a8cd561b5c8c04cb6970d3018c1146ab80aca3bbd35",
+    "node_MatMul_421": "9366abf9792c0e26d4ee3ae3c5290afd5dfb7dd7fd5eb53d0e3fbe4a165fbe7c",
+    "node_MatMul_421_post_reshape": "69a0170845e7fbb76c3e8cca2978fdaea27bf5f02fc76f9208275ccc618423d2",
+    "node_gelu_33": "8dccddba3122bbb938de36fe62b2c00b6b8504b373cb3b36298476a39c553fd3",
+    "node_MatMul_423_pre_reshape": "f1613466c624a466280763890a8fee2a8efb8508576c7b088a2e04478069914a",
+    "node_MatMul_423": "66e89877d68565138476018bcbb9145f7599951aaa8ef82e7bd9040356138d85",
+    "node_MatMul_423_post_reshape": "52300affa35e76444b8058e59cfdf466437fd66448efe1570fa099fe6092364c",
+    "node_permute_75": "cc9137cb0fb13401e37395b1b384f8caf74f46a6f1d1c5ac310ea42788a0420f",
+    "node_mul_33": "f3a8e3bec53699d2d32a8bde7aad32f55935742bf5ffb1adae93b78e775b12a9",
+    "mul_33_nhwc": "964bd59854b3a09ebdee6a263a362605c6e72164349bfd714ab50faa36eaaba5",
+    "node_add_33": "577543793fa2aa45d8765ac53d1099d411f5976626a453358e3a918b611de9c9",
+    "node_conv2d_38": "43bf6c8a1e177dfd79adf5c5b5806229629f12dfe96481f0d6a243562a3b4a78",
+    "node_layer_norm_38": "39b501a96cf83bcc36ff0887eed568527802bc800e9035512f784bb6aec32231",
+    "node_MatMul_431_pre_reshape": "69b530bdf0173278e83708b39efac9addf8e55c1a8bdcfce688a2ad966c1fd73",
+    "node_MatMul_431": "6247b7ee7a26b2ab5e63c2df47b4b98aca693a490a81b20772e02503a8d43d4a",
+    "node_MatMul_431_post_reshape": "6038f6dc731a487535ec7f2a75b228625210cc96890735dcad8dbb5d5c51116d",
+    "node_gelu_34": "20631ed4083f6d049fe41423b8ededdd00edc2829adb07d2e9b10e8b00eaf617",
+    "node_MatMul_433_pre_reshape": "c11f3554092afa5d06332eee34316d781b2adce0a701e7bbc43e387466aed9cd",
+    "node_MatMul_433": "102d49c26b94e92e08bce33e584e9be240d00b32d2907ebabc42af0a0ef929ad",
+    "node_MatMul_433_post_reshape": "4413fab393dd69aca2469f320e5f286b4a9d3608963f577aa86ecab6e25ed76b",
+    "node_permute_77": "4adeef3dc23aad885d7d7bb17e35c6a2192aca31c5d5209c40227d74193cca2f",
+    "node_mul_34": "e4056eece85a15acdb994509d897441618bf396c30e7ed4fed57a9e7900dabd6",
+    "mul_34_nhwc": "dec3f82180f1ce30eea9ed3d9120f872d8b2440883f08637ed2e36d96e8c7e11",
+    "node_add_34": "fd1b7fa4125e73aaa532edcfcc4e458b2621b8a708e034b05cfaa8d57fd34907",
+    "node_conv2d_39": "44dc8d7b7511a089fc899f8c72aff4239be6314eaf88745aee11d9013bdf9faa",
+    "node_layer_norm_39": "d9b7ebb02d37555bd6260d933d9d100482308642fb708cee20d34b547b63c0a3",
+    "node_MatMul_441_pre_reshape": "2efe9a3a8399cccce4740a90c2a04607bd09961daee552945f24358d6b860ace",
+    "node_MatMul_441": "47d3d22010d4b54e2adc3e49c89264b75bee50578388aff7452add71ab3d4cb5",
+    "node_MatMul_441_post_reshape": "bc5b61246f326a2aad47fe251721f014d76ad3d93bcb4c2f83e5a051877447c0",
+    "node_gelu_35": "5b67c26df7ae743adddb76be7b6ab268c981e92dd058e7149d9aa45288b7ab9d",
+    "node_MatMul_443_pre_reshape": "58b104825115502eac813e904a65d1b3acf888bf6ed912c752c824b94d78bd5e",
+    "node_MatMul_443": "78149b00f320a05f63bf747e4f26e3b413248ce3c5a160864738fe1243a45ac3",
+    "node_MatMul_443_post_reshape": "6ad0a49a2afda847a3059614021870d78ada35f91ea91e8198a291c3f75db355",
+    "node_permute_79": "59b19e35a6e41ac2cfa338f460452573d5c3e214c39244cd9916a397f33d4238",
+    "node_mul_35": "0f659acef644ac77cb10353df1627fd90c31860b6adcc4e2421f08ce0e190c18",
+    "mul_35_nhwc": "0b8b341455aec5bcb34df872e9d874a75e89eb4dc5655924d1bdef7c4419ced5",
+    "node_add_35": "87a8f4eb7871255afb982bd1b562a7fc4aa12ae136024a7d8f379b3d659aa9db",
+    "node_layer_norm_40": "01d28174a5505a779fde6503cc0c3159dec72033e600aa7ad141d9fc7d0b278d",
+    "node_conv2d_40": "c1058c3ffdf4ad81599b4871e89e2d043da37b0cb9f667fbf3cbf4299175e86a",
+    "node_view_39": "701f66876d921d9c28113789e741a9a8fa99fde51265be6705b610e74a0c2b3b"
+  },
+  "source_files": {
+    "preserve_net.json": "638536c27d0ce270608ebe32f3d229ad3ab03d84dc2f7187e34b7f955efcd0ac",
+    "preserve_fixed.cpp": "b8d60b95d25e32cc1b703f44d4c8906e33db2e18c3a1f411fff4120c86a07838",
+    "preserve_fixed.bin": "ccc603b554aff8caaacfe7d1a13a5da0c972eb755ce54da6ea74669172990040"
+  },
+  "generated_files": {
+    "region.cpp": "40ae47d23717a0d4bd927ea557c885e7964703e2d17a986fdf45a095dc7fa780",
+    "region.bin": "789d0299b79c1febcec9fc7ac1f7f5eef04cc2571e3fa7da5a03988f57ccf000"
+  },
+  "constant_bytes": 698746880,
+  "semantics": "Node and constant bodies preserved. Only graph boundary descriptors changed. Backend may change layouts/fusion; numeric validation is required.",
+  "target_latency_measured": false
+}

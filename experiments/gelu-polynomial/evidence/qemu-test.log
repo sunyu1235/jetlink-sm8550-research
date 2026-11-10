@@ -1,0 +1,1 @@
+PASS 524288 raw comparisons, 0 mismatches; exhaustive lookup/index, permutations, in-place and canaries. Functional execution, NOT device timing.

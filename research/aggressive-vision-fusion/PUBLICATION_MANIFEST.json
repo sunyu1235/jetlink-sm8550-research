@@ -1,0 +1,618 @@
+{
+  "scope": "Initial aggressive phone-workspace source/evidence handoff; simulator supplement excluded; existing base files unchanged",
+  "base_commit": "4619484678610712fc132b4bf11848cb4a35e481",
+  "files": [
+    {
+      "path": "SOURCE_MANIFEST.json",
+      "bytes": 18857,
+      "sha256": "08b8e8a4fb52429ee0fbf70582f9bf6f60891fdda5b826c635b09e34d27128be",
+      "git_blob_sha1": "a74084da536a645425e831a8d8372c15e5d028b7"
+    },
+    {
+      "path": "experiments/gelu-polynomial/README.md",
+      "bytes": 9202,
+      "sha256": "c8c2caa515af10a4c4acd18103338dcfd886be43e7add31f24c57dcbfb9a6468",
+      "git_blob_sha1": "4f5c7da96d47fbdf7f9ba53475a1e1ab49d5ea6f"
+    },
+    {
+      "path": "experiments/gelu-polynomial/SOURCE_MANIFEST.json",
+      "bytes": 7041,
+      "sha256": "961289bd39092a710b64c6d7babb54936e6303bf1b2c85afb83d880d1ab9f135",
+      "git_blob_sha1": "a7c9b19ea4777dc8ba862c49853028bf055acdaa"
+    },
+    {
+      "path": "experiments/gelu-polynomial/build_reference.sh",
+      "bytes": 591,
+      "sha256": "9275cfb8d2049454f6057b243c0a4e467ed61801840c3a9eeef0f193fce64824",
+      "git_blob_sha1": "1108b46fa4e43644e51042a4ce4255087a360964"
+    },
+    {
+      "path": "experiments/gelu-polynomial/build_test.sh",
+      "bytes": 715,
+      "sha256": "04d0b14797d5219a3668e2f50fcf4b65cd3295fe110c38628500f20d33c38015",
+      "git_blob_sha1": "262f42fdae9a7253678155add426931de4ba5bb5"
+    },
+    {
+      "path": "experiments/gelu-polynomial/build_v73.sh",
+      "bytes": 766,
+      "sha256": "c767d9a6e3db4bbccb1839e12489dae31abdc586889c9ab187a8c212182d2a10",
+      "git_blob_sha1": "352cd3a331d0cb1f3f6fa1869eff0b145daa900a"
+    },
+    {
+      "path": "experiments/gelu-polynomial/coefficients.h",
+      "bytes": 3246,
+      "sha256": "43b316210037fa386d44f2cacdbb393d79f9f314f50e606d82277c63c93af313",
+      "git_blob_sha1": "4bbc3042478c03dfa758707ebfd65ecf949d7caa"
+    },
+    {
+      "path": "experiments/gelu-polynomial/core.cpp",
+      "bytes": 4942,
+      "sha256": "6bd083754033d3d39bad66f0510effd50fd1b0c893922389efefaed3106a8a18",
+      "git_blob_sha1": "13aeeb2827e7be4ecb0a63f031730c85b20d4c1c"
+    },
+    {
+      "path": "experiments/gelu-polynomial/core.h",
+      "bytes": 315,
+      "sha256": "b9ad82e3f939ae466c718add4b765d866c71219eed5be14c3e245fe3512babcc",
+      "git_blob_sha1": "9fb793423d845ffeb781944c451e383fb4f2f3e8"
+    },
+    {
+      "path": "experiments/gelu-polynomial/evidence/assembly-check.log",
+      "bytes": 647,
+      "sha256": "ce9afe43d1da42c54c0a2d36396b847f81e0fdc0448309bcd79f6bb84537ebbb",
+      "git_blob_sha1": "47a9fb69ac1878ea520818819c40135a27ac2eb6"
+    },
+    {
+      "path": "experiments/gelu-polynomial/evidence/native19-test.log",
+      "bytes": 147,
+      "sha256": "d5b01784844494765876eb44fc3f19e469a0b28151c3beac3b5acc7ec088f0c6",
+      "git_blob_sha1": "e35d9c93fb81ec5026c90d568f54e3a01d948d4b"
+    },
+    {
+      "path": "experiments/gelu-polynomial/evidence/native21-test.log",
+      "bytes": 300,
+      "sha256": "35cbb95a7760252d6e99b242e79aa045f1c099ec8c63036e07282ee4080d5386",
+      "git_blob_sha1": "5c6414189b8379809995adad8c532d2df00378c4"
+    },
+    {
+      "path": "experiments/gelu-polynomial/evidence/qemu-test.log",
+      "bytes": 146,
+      "sha256": "6a0724b359166bd54314b5fa3d974b86d75765cf63cae1a967dda975355b0ab0",
+      "git_blob_sha1": "83027d5e0c7d086d5bf9df71ec848d76e5054a8d"
+    },
+    {
+      "path": "experiments/gelu-polynomial/evidence/qnn-package/build-host.log",
+      "bytes": 190,
+      "sha256": "fd7d2c12386381f4836fb120171dc1bb5576360859ae303b9562d7e2874e70a1",
+      "git_blob_sha1": "82384851f61a687caa55daf155e3783e16a9ee54"
+    },
+    {
+      "path": "experiments/gelu-polynomial/evidence/qnn-package/build-v73.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "git_blob_sha1": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "experiments/gelu-polynomial/evidence/qnn-package/force-00/build.log",
+      "bytes": 190,
+      "sha256": "fd7d2c12386381f4836fb120171dc1bb5576360859ae303b9562d7e2874e70a1",
+      "git_blob_sha1": "82384851f61a687caa55daf155e3783e16a9ee54"
+    },
+    {
+      "path": "experiments/gelu-polynomial/evidence/qnn-package/force-00/roundtrip-test.log",
+      "bytes": 9971,
+      "sha256": "6fc16aa0956c4ebbc7afc9454c93dee15c80b5b6f5c732ec97e4ebf603672bd3",
+      "git_blob_sha1": "b4d4905b00b01e0c9c3fbdad90fecb3d775a31d7"
+    },
+    {
+      "path": "experiments/gelu-polynomial/evidence/qnn-package/force-01/build.log",
+      "bytes": 190,
+      "sha256": "fd7d2c12386381f4836fb120171dc1bb5576360859ae303b9562d7e2874e70a1",
+      "git_blob_sha1": "82384851f61a687caa55daf155e3783e16a9ee54"
+    },
+    {
+      "path": "experiments/gelu-polynomial/evidence/qnn-package/force-01/roundtrip-test.log",
+      "bytes": 9971,
+      "sha256": "0daea7dc174cc8ade74a348de450e7c8e0d4d7cad3c8b492f91b7740898ea75c",
+      "git_blob_sha1": "a4befa748b495f5872c829a7cd59ce0866c31edb"
+    },
+    {
+      "path": "experiments/gelu-polynomial/evidence/qnn-package/force-10/build.log",
+      "bytes": 190,
+      "sha256": "fd7d2c12386381f4836fb120171dc1bb5576360859ae303b9562d7e2874e70a1",
+      "git_blob_sha1": "82384851f61a687caa55daf155e3783e16a9ee54"
+    },
+    {
+      "path": "experiments/gelu-polynomial/evidence/qnn-package/force-10/roundtrip-test.log",
+      "bytes": 10005,
+      "sha256": "551fcf98ac913cdde4bfce866c2a353246394e9509533bf5becd80f1c3d150f5",
+      "git_blob_sha1": "49b480774386831b16520e03d74b3f74d94d5587"
+    },
+    {
+      "path": "experiments/gelu-polynomial/evidence/qnn-package/force-11/build.log",
+      "bytes": 190,
+      "sha256": "fd7d2c12386381f4836fb120171dc1bb5576360859ae303b9562d7e2874e70a1",
+      "git_blob_sha1": "82384851f61a687caa55daf155e3783e16a9ee54"
+    },
+    {
+      "path": "experiments/gelu-polynomial/evidence/qnn-package/force-11/roundtrip-test.log",
+      "bytes": 10005,
+      "sha256": "551fcf98ac913cdde4bfce866c2a353246394e9509533bf5becd80f1c3d150f5",
+      "git_blob_sha1": "49b480774386831b16520e03d74b3f74d94d5587"
+    },
+    {
+      "path": "experiments/gelu-polynomial/evidence/qnn-package/layout-matrix.log",
+      "bytes": 276,
+      "sha256": "96755fe59aaf45c1047a561849f6171f0b9d22d91a58db0eef51a493272233af",
+      "git_blob_sha1": "f42c2e341679767ca7bc2ddd3a44ecd7aa7978f6"
+    },
+    {
+      "path": "experiments/gelu-polynomial/evidence/qnn-package/roundtrip-test.log",
+      "bytes": 8238,
+      "sha256": "342b9f0173424fbc208d8a265b945fb4b2ec92b2a0bd242081714c681f834d99",
+      "git_blob_sha1": "418a9adf4c2d4fa4b3f9c1daf1c9bf216f92d44e"
+    },
+    {
+      "path": "experiments/gelu-polynomial/generate.py",
+      "bytes": 802,
+      "sha256": "dc446b63b49c9702f103fc006dd0436407f5393070d1d2356d72060c37786c5b",
+      "git_blob_sha1": "f1a90e1a7bb5d32b01b20ac906da3270f6e2cc2e"
+    },
+    {
+      "path": "experiments/gelu-polynomial/manifest.json",
+      "bytes": 2435,
+      "sha256": "986fd27230e45722a8abc16ee92fcf6514b2bc14c005491bff493a3418ddf52e",
+      "git_blob_sha1": "4aaf73a115c17c657c15a421209aab2cfc802a58"
+    },
+    {
+      "path": "experiments/gelu-polynomial/qnn-package/GeluFp16.cpp",
+      "bytes": 6269,
+      "sha256": "fcfc5aa1aab12b73f90e8aa94441cd19b4d19a6bc9dc1e00b60ef96fe393d9ad",
+      "git_blob_sha1": "ac8399690aceeebc65282c0bd85cb6b2fb88e696"
+    },
+    {
+      "path": "experiments/gelu-polynomial/qnn-package/build_host.sh",
+      "bytes": 1646,
+      "sha256": "012addac857c16c44a8e05712786eacbcb46bda1f9f073e4227255b3acd4a834",
+      "git_blob_sha1": "9199010aff7bb1f221bf7a83d2e2e52b94864f13"
+    },
+    {
+      "path": "experiments/gelu-polynomial/qnn-package/build_v73.sh",
+      "bytes": 1038,
+      "sha256": "5322a41b03be8f8437bb214d1cbe1e7f4857537150a91d50c4daaf37d9694e03",
+      "git_blob_sha1": "f3e2073f3a0a21a52569958536857b16a9dd111d"
+    },
+    {
+      "path": "experiments/gelu-polynomial/qnn-package/coefficients.h",
+      "bytes": 3246,
+      "sha256": "43b316210037fa386d44f2cacdbb393d79f9f314f50e606d82277c63c93af313",
+      "git_blob_sha1": "4bbc3042478c03dfa758707ebfd65ecf949d7caa"
+    },
+    {
+      "path": "experiments/gelu-polynomial/qnn-package/compact_gelu.h",
+      "bytes": 895,
+      "sha256": "21ab03a803f5c014af9a72d7c030483d33b4b009ae16d072294256a491a97126",
+      "git_blob_sha1": "12509f9ccee5b6aec008331402e5b7682c0144e5"
+    },
+    {
+      "path": "experiments/gelu-polynomial/qnn-package/core.cpp",
+      "bytes": 4942,
+      "sha256": "6bd083754033d3d39bad66f0510effd50fd1b0c893922389efefaed3106a8a18",
+      "git_blob_sha1": "13aeeb2827e7be4ecb0a63f031730c85b20d4c1c"
+    },
+    {
+      "path": "experiments/gelu-polynomial/qnn-package/core.h",
+      "bytes": 315,
+      "sha256": "b9ad82e3f939ae466c718add4b765d866c71219eed5be14c3e245fe3512babcc",
+      "git_blob_sha1": "9fb793423d845ffeb781944c451e383fb4f2f3e8"
+    },
+    {
+      "path": "experiments/gelu-polynomial/qnn-package/gelu_tables.h",
+      "bytes": 266430,
+      "sha256": "8401c4e779a6ac6a0bb92e07bbcb29b7ea2b80d7ad884e269ab825d26b154783",
+      "git_blob_sha1": "2de307f4a996f6f223fb2f12758419cc67af2a1c"
+    },
+    {
+      "path": "experiments/gelu-polynomial/qnn-package/prepare_interface.py",
+      "bytes": 2470,
+      "sha256": "5ca5f8a7100b11f8930715614a83adc63ad108c878e1c4ba19c75b054b307d08",
+      "git_blob_sha1": "ef2a08e772873f221ae685c2388096ca0cc41dde"
+    },
+    {
+      "path": "experiments/gelu-polynomial/qnn-package/run_tests.sh",
+      "bytes": 703,
+      "sha256": "97eaa9278273d6d65218f71e4fc608eb906bc21b0023ca65b2daa1dc2b7f6952",
+      "git_blob_sha1": "43439babad7458d62d73aece66ebcf220c553ced"
+    },
+    {
+      "path": "experiments/gelu-polynomial/qnn-package/test_layout_matrix.py",
+      "bytes": 1459,
+      "sha256": "1e2be03392b4300180d4d34f51f844bc244a832eddeb79290da855aa5e6e89ae",
+      "git_blob_sha1": "1148594b242d894c4e7a197888e35d9131897635"
+    },
+    {
+      "path": "experiments/gelu-polynomial/qnn-package/test_qnn_gelu.c",
+      "bytes": 7318,
+      "sha256": "e3a34b08a4242c587e29ff0605590c61f6b3ca1a453b09bb5203da05f0627bf7",
+      "git_blob_sha1": "98e380a54178d7349b73d48f3ac45c50a20e6b70"
+    },
+    {
+      "path": "experiments/gelu-polynomial/qnn-package/vector_core.h",
+      "bytes": 313,
+      "sha256": "3d4e2a12297a91a76a43e2f1a4906ff5b45a21c2d6ce94ce72e2737191979ec4",
+      "git_blob_sha1": "e9028d97da81181136c3c02ebfab70e9b97ed2c0"
+    },
+    {
+      "path": "experiments/gelu-polynomial/reference.c",
+      "bytes": 771,
+      "sha256": "c00f1f944e1e11fab12b70c8eaec0f8644caaf8dca80afc357004065ef368229",
+      "git_blob_sha1": "ee51a54963b8dfbaa182e186d90fdc2c8186e28a"
+    },
+    {
+      "path": "experiments/gelu-polynomial/run_qemu.sh",
+      "bytes": 967,
+      "sha256": "0ea70e5658fd850991f71b5e665006346d6738a1020dc34148e36e7f022a20fb",
+      "git_blob_sha1": "f0bd87664d555c42180b964240a66dc81f9bf9a0"
+    },
+    {
+      "path": "experiments/gelu-polynomial/test_core.cpp",
+      "bytes": 3049,
+      "sha256": "aa59a1e7df1997e2cf25249787fef08076aa156403c892c41a9dcdb1ed17f200",
+      "git_blob_sha1": "f5964dc666dc73195a1333dbf0b401dd877e875e"
+    },
+    {
+      "path": "experiments/gelu-polynomial/vector_core.h",
+      "bytes": 313,
+      "sha256": "3d4e2a12297a91a76a43e2f1a4906ff5b45a21c2d6ce94ce72e2737191979ec4",
+      "git_blob_sha1": "e9028d97da81181136c3c02ebfab70e9b97ed2c0"
+    },
+    {
+      "path": "research/aggressive-vision-fusion/README.md",
+      "bytes": 10901,
+      "sha256": "c489cbd82c1c27e3fda0eead3999208f143b33adb87f88ea91200afa6d4ae918",
+      "git_blob_sha1": "01674bd65f7ab85f390f808714301ffce5832e2b"
+    },
+    {
+      "path": "research/aggressive-vision-fusion/baseline-audit.json",
+      "bytes": 666,
+      "sha256": "d8969a0b436d001fce586a67df1cde14f3f6e3be533146c598b6de1e04fdb19a",
+      "git_blob_sha1": "bdc7273f5e34326b2d063acf90d18a1725134469"
+    },
+    {
+      "path": "research/aggressive-vision-fusion/bridge/README.md",
+      "bytes": 5703,
+      "sha256": "138a06a735566895a1cdfb21aff65243cc3df3d988a253cb6854671d5b2cfd39",
+      "git_blob_sha1": "6d0a13f27b4b23484042ec609d2237c8f54f5998"
+    },
+    {
+      "path": "research/aggressive-vision-fusion/bridge/bridge.cpp",
+      "bytes": 11502,
+      "sha256": "3a1bdeaf10bf408901af33705f40c0adf8c85784991d69d49134db5a83f94ecf",
+      "git_blob_sha1": "68e7344e1eccf479e3bf7f5a5382d0f5a9ff43c7"
+    },
+    {
+      "path": "research/aggressive-vision-fusion/bridge/build.sh",
+      "bytes": 450,
+      "sha256": "8eb1cfa0b5a5b6808b791f6db227f61bf77c698ccf9ab02b58a7888ef1c9e961",
+      "git_blob_sha1": "c039d233bff9cbfc47b3b48b0ab56717a2c70b6a"
+    },
+    {
+      "path": "research/aggressive-vision-fusion/bridge/contract-tests.log",
+      "bytes": 68,
+      "sha256": "ee3ff5318c72591279e77da399ae6babdff2ef63c5dcc20e2483f9eb0c09663c",
+      "git_blob_sha1": "367190b7f87e5343191fb87f49b6bc934a7ef3a3"
+    },
+    {
+      "path": "research/aggressive-vision-fusion/bridge/full-frame-check/provenance.json",
+      "bytes": 847,
+      "sha256": "a315a69f1a123fb12eb5a5dfd08ac432838a73321e4caab028c40201f3c6dbde",
+      "git_blob_sha1": "69d0aba347a13f607bbe3bd1fa38dff53df9ec57"
+    },
+    {
+      "path": "research/aggressive-vision-fusion/bridge/full-frame-check/result.json",
+      "bytes": 2105,
+      "sha256": "8e1c7bfec1339bb96140ea18dae19aaeaaf9edf984099664dfdd3773a392ab36",
+      "git_blob_sha1": "f105d3314e3c53ac146788cf581aa92301df4ccd"
+    },
+    {
+      "path": "research/aggressive-vision-fusion/bridge/model/manifest.json",
+      "bytes": 489,
+      "sha256": "d5ddc5409f0ba8503e97d46edb8b3812214a0612a2b281fc7bdfa42131f15e69",
+      "git_blob_sha1": "684ef3c8046a8ffe60af58bdaeff3dfba42e411d"
+    },
+    {
+      "path": "research/aggressive-vision-fusion/bridge/negative-tests.json",
+      "bytes": 980,
+      "sha256": "eb69fda4c59f8ed854d9919bbba7d8f4d524bffd1a1199ff0093ee249e7e7abc",
+      "git_blob_sha1": "5bd52a838582b892b555488c5d0de5bb0781ce4d"
+    },
+    {
+      "path": "research/aggressive-vision-fusion/bridge/negative-tests.log",
+      "bytes": 1635,
+      "sha256": "ca8246e8dbbd60f08bcd59c4381e149faa68caaddf4867b1e154b068def9cb63",
+      "git_blob_sha1": "40592b9da0c8a30e04097c362ab89bd5b859f0a1"
+    },
+    {
+      "path": "research/aggressive-vision-fusion/bridge/run_full_frame.sh",
+      "bytes": 912,
+      "sha256": "56bf7586e03d573159c04d30a7a91a7fdd2047302b60e69e809c7aab5c760191",
+      "git_blob_sha1": "7a78054fb29bc1afadead2c114b97f8400453f5b"
+    },
+    {
+      "path": "research/aggressive-vision-fusion/bridge/test_bridge.py",
+      "bytes": 2471,
+      "sha256": "964bca860ff56ec9fe377ce0b7039e5aacb6e626c50f192b6f963434b54dfea5",
+      "git_blob_sha1": "fe6c354bc9b71d7f0b0af29fafc1c56ca71676fd"
+    },
+    {
+      "path": "research/aggressive-vision-fusion/bridge/test_contract.cpp",
+      "bytes": 1289,
+      "sha256": "b53de911ae0d7964f3cbaad11275677682c03795a11ff01508daf0131a6c02db",
+      "git_blob_sha1": "b77b23f52bcbf68f9f6fa699520f0a972a04f9d9"
+    },
+    {
+      "path": "research/aggressive-vision-fusion/bridge/test_full_frame.py",
+      "bytes": 4412,
+      "sha256": "3fb1c4a636fcc1bb01e40556a9f441c42989c904f71b4251e4430409d8a61180",
+      "git_blob_sha1": "da554bc243522eafdb173596c2ac69c0d95e25a5"
+    },
+    {
+      "path": "research/aggressive-vision-fusion/bridge/vector-full-frame-check/cpu-baseline-check/checker.log",
+      "bytes": 3430,
+      "sha256": "ff6a5662fc47570cec2a83164c0469c08dc84f34178c2e21f0fa120c4d010fda",
+      "git_blob_sha1": "45374c660a2d4ab0a9c64d6404f1b9e96ddf33c9"
+    },
+    {
+      "path": "research/aggressive-vision-fusion/bridge/vector-full-frame-check/cpu-baseline-check/evidence.json",
+      "bytes": 912,
+      "sha256": "2434c508cf4c28d4e0424c355eb6759fbc6de406c309e1de3bcf9c4a0dd250fa",
+      "git_blob_sha1": "41cbe28c26c21702bba15694d18e754ad00da87f"
+    },
+    {
+      "path": "research/aggressive-vision-fusion/bridge/vector-full-frame-check/provenance.json",
+      "bytes": 826,
+      "sha256": "ca32fd853e24fa6ce9c497a1c50aa9f65a45b6204700a0d658b6e4449057daa5",
+      "git_blob_sha1": "da1da176b99b6ff9468cb87739efbd14873f4451"
+    },
+    {
+      "path": "research/aggressive-vision-fusion/bridge/vector-full-frame-check/result.json",
+      "bytes": 3820,
+      "sha256": "395b047c10e0d8fa6ccc073f2fc33f2241901b96389f376a15259d88f5c46b91",
+      "git_blob_sha1": "ab349529198bf09e35859346ed623c298e56443a"
+    },
+    {
+      "path": "research/aggressive-vision-fusion/build_model.py",
+      "bytes": 5393,
+      "sha256": "2095b7132d5c5cb0531d01eae803d15ebcab5499e8e84e6327c75f6c43be2a90",
+      "git_blob_sha1": "8189db88678f195af25e607207c0fccc19de2647"
+    },
+    {
+      "path": "research/aggressive-vision-fusion/candidate.json",
+      "bytes": 1617,
+      "sha256": "db29ad506faa68f0ad3df12d18c94c9cd9bd673d364a1fdd18ec5613c03a3d73",
+      "git_blob_sha1": "e7b6e9924656779a941f3f6aba048ef1e2d436b7"
+    },
+    {
+      "path": "research/aggressive-vision-fusion/check_remainder.py",
+      "bytes": 4488,
+      "sha256": "a2ed2ec00b5c250cf037c1d0c0b1b2c8a9f4cce13ebffbf5b74f43e797e32426",
+      "git_blob_sha1": "836ee04a75b155d81d61fe2717156558a26fc3c4"
+    },
+    {
+      "path": "research/aggressive-vision-fusion/cpu-cut-control-v2/checker.log",
+      "bytes": 3430,
+      "sha256": "8da46d03404120ecd525544f0a75649d2099591f863f8ec3ff96f32c3830d5f1",
+      "git_blob_sha1": "767054fdbe27ba6038dcb3112c1bc8e259852ec5"
+    },
+    {
+      "path": "research/aggressive-vision-fusion/cpu-cut-control-v2/result.json",
+      "bytes": 1106,
+      "sha256": "c5476dee373acc2162553cd7d32d64f6fe6ee446bae34cc53fb892c61bda3186",
+      "git_blob_sha1": "712a3a29755654515e9d8ebafb84d7a5d878c788"
+    },
+    {
+      "path": "research/aggressive-vision-fusion/extract_region.py",
+      "bytes": 10727,
+      "sha256": "8118a4aa4afe6283301f25294ee293efedba5e8c8995017689b72537473d32d9",
+      "git_blob_sha1": "42a708703e3bf547c17956f1f381dd59145120b4"
+    },
+    {
+      "path": "research/aggressive-vision-fusion/final-tests.log",
+      "bytes": 5198,
+      "sha256": "bc36c0b97f3bb53cb6c6e0a9ddcbd995df57cc04a2b5796cb622dc8c97c021d1",
+      "git_blob_sha1": "dd51b6bb721941e52eca8903e59ef7bd53457c87"
+    },
+    {
+      "path": "research/aggressive-vision-fusion/final-validation.json",
+      "bytes": 1525,
+      "sha256": "1f45bb1aa8d5f6647146942127383d92eb992a03e2337b56de7ac5054843c946",
+      "git_blob_sha1": "6d1b907e0ef060214902c8d053ebef4e199c2e8a"
+    },
+    {
+      "path": "research/aggressive-vision-fusion/model-size.json",
+      "bytes": 1969,
+      "sha256": "0caee94da3acd6c58f5e1eb3abefe1a756326f1772961d16465fbcd8fe4ccac8",
+      "git_blob_sha1": "19122ef9ca52dfdeaa28d26361c0e1c77c0fb845"
+    },
+    {
+      "path": "research/aggressive-vision-fusion/model-tests.log",
+      "bytes": 359,
+      "sha256": "f65b9de743f8c8524cb7c1dd89930b87c05b8e0c32a7c237a9b36ca996274e5b",
+      "git_blob_sha1": "f553330714ec853601851ecce6782279b0a3934a"
+    },
+    {
+      "path": "research/aggressive-vision-fusion/native-first-frame/checker.log",
+      "bytes": 3430,
+      "sha256": "ff6a5662fc47570cec2a83164c0469c08dc84f34178c2e21f0fa120c4d010fda",
+      "git_blob_sha1": "45374c660a2d4ab0a9c64d6404f1b9e96ddf33c9"
+    },
+    {
+      "path": "research/aggressive-vision-fusion/native-first-frame/result.json",
+      "bytes": 2324,
+      "sha256": "b571c48e803e1ee2928223fa66225a5c1bc4814fd353d21a94b297a2d0c78299",
+      "git_blob_sha1": "c752b54a5399aa2e157673c161f31884cf1283dc"
+    },
+    {
+      "path": "research/aggressive-vision-fusion/package_source.py",
+      "bytes": 5556,
+      "sha256": "ae897f4eaecf39ce990d678994a808ab8f7091ed348237c67819b21263ec39a9",
+      "git_blob_sha1": "fce4316a1ba177e40963d4a32508a57b4b80e1ce"
+    },
+    {
+      "path": "research/aggressive-vision-fusion/preparation/Gelu.xml",
+      "bytes": 990,
+      "sha256": "9fa7558c490875cced600e50ee81b5593b01c8eee5b689de12713b36dc0703ef",
+      "git_blob_sha1": "2c00a7caa47f4216662132f9af1e9ec9dcad1085"
+    },
+    {
+      "path": "research/aggressive-vision-fusion/preparation/README.md",
+      "bytes": 3391,
+      "sha256": "3502f10b00a25ec36016a4d168c04ad10a7da08b78b589fc248e0eb6487b22a5",
+      "git_blob_sha1": "fd5921f4edb37f98d1edc306ccb941f4f5c5432e"
+    },
+    {
+      "path": "research/aggressive-vision-fusion/preparation/convert_preserve_arithmetic.py",
+      "bytes": 681,
+      "sha256": "f2a18935272d34476712f590d96712d04798a6dd66808a7894dbf336feebc198",
+      "git_blob_sha1": "e46c1b48e10fc73e0f066ae318c1a6a875d7f99c"
+    },
+    {
+      "path": "research/aggressive-vision-fusion/preparation/map_model.py",
+      "bytes": 2840,
+      "sha256": "306bb4d23c071438e0233c0e93f1c50ea2bb399664beb598903a80b6ae535dbc",
+      "git_blob_sha1": "8e6333b5b5a778984dd4241ace365da46bf46280"
+    },
+    {
+      "path": "research/aggressive-vision-fusion/preparation/promote_images.py",
+      "bytes": 2048,
+      "sha256": "26d320ec3e647b5f062476945eb6a308da211c802bdf21c30ad624ce685d237d",
+      "git_blob_sha1": "a15c3cc0851ec96d625bea5e5f1d48e8925f18c4"
+    },
+    {
+      "path": "research/aggressive-vision-fusion/preparation/repair-check-hashes.txt",
+      "bytes": 220,
+      "sha256": "7180d51cc93c054d37d306c0031da098d07a9055ce3f5e052c839eb32036d7f8",
+      "git_blob_sha1": "2fb3e2fcbddaf6e18ff5a23d998ea53b11f99805"
+    },
+    {
+      "path": "research/aggressive-vision-fusion/preparation/repair-check.log",
+      "bytes": 57,
+      "sha256": "6fbc328a18a46f18332d05896d4ca9979901abf3ae696f982b964744b0b1611a",
+      "git_blob_sha1": "b22ec0dfe12a2db71b6df88aca54b7739b7c4ece"
+    },
+    {
+      "path": "research/aggressive-vision-fusion/preparation/repair_preserved_bias.py",
+      "bytes": 2238,
+      "sha256": "4b0b10f7cb7017fc3d438b5aadfc2d92ee1aa7baf7bba95d350362721b039cd0",
+      "git_blob_sha1": "1902cb764710f0449e6881dc3788bc417ae2c879"
+    },
+    {
+      "path": "research/aggressive-vision-fusion/prepare_reference.py",
+      "bytes": 6442,
+      "sha256": "911cf89ca9c2bc57793351082abb5335a0fa5bdba1a0bff4e486abd0bb296622",
+      "git_blob_sha1": "0fd77657af70f3aeca456c3bd6e6367e4b3b8303"
+    },
+    {
+      "path": "research/aggressive-vision-fusion/publication-focused-tests.log",
+      "bytes": 5198,
+      "sha256": "1e437a7e5a7fdbcbccfc8a3769475f6f503f8010079d21bad615bdfd3553c21e",
+      "git_blob_sha1": "86b9a06f7f8aa7055fe259ab6c164a8179781a6f"
+    },
+    {
+      "path": "research/aggressive-vision-fusion/publication-validation.json",
+      "bytes": 1349,
+      "sha256": "aec6e4367cc10682f02646da083451f42da6ea09619949da9c51d10d243552d3",
+      "git_blob_sha1": "22b0be8118605451c42c42471e926c676940828d"
+    },
+    {
+      "path": "research/aggressive-vision-fusion/reference-night0-verified/reference.json",
+      "bytes": 1132,
+      "sha256": "72db7bad0d830da764bfae95a9ada263544986a34f74268074fbae2fc6973b90",
+      "git_blob_sha1": "f0ff1a31333f5688a7d81c0a53c39811356402c6"
+    },
+    {
+      "path": "research/aggressive-vision-fusion/repack_remainder.py",
+      "bytes": 10086,
+      "sha256": "e68fdc419aec5dee2afc55dde695dc4eb635cdc675203b58e371eb83d7b79b4f",
+      "git_blob_sha1": "ac582d44e0f32619d250cc905ada0f6a8a41e58d"
+    },
+    {
+      "path": "research/aggressive-vision-fusion/repacked/evidence.json",
+      "bytes": 117400,
+      "sha256": "eb35deecaf6944b000edbfa63bb38b97e84970ab4c96b95df3b435106bd519af",
+      "git_blob_sha1": "ae0f60eef7a54537b94dfa6a99917ed89795b008"
+    },
+    {
+      "path": "research/aggressive-vision-fusion/repacked/sha256sums.txt",
+      "bytes": 453,
+      "sha256": "79c68a530655a4a434b4fc17e62b48dbc5034f98e5be0bd1b0d04448043ac5d7",
+      "git_blob_sha1": "6c3a600d622eb8f65a793a0c8a4724710b2264ce"
+    },
+    {
+      "path": "research/aggressive-vision-fusion/repacked/tests.log",
+      "bytes": 1798,
+      "sha256": "e863e4999147c7b3c155a4c4f1391525e08171313ded7df34a506c2b31335197",
+      "git_blob_sha1": "bd5ac4a17026678340d0f2e8575327ed0669bd0a"
+    },
+    {
+      "path": "research/aggressive-vision-fusion/run_native_region.sh",
+      "bytes": 2165,
+      "sha256": "cae0d1301a02d5e26ed4033f5e64bb8092b25d1ea8d6edacd024e6756fc7c8f5",
+      "git_blob_sha1": "6d6466071981913e251a050d4476497f5595a1f1"
+    },
+    {
+      "path": "research/aggressive-vision-fusion/test_build_model.py",
+      "bytes": 1995,
+      "sha256": "885eef19b6b0c70003e87303f4a4fc7e000b67c222e72a8472a07ef0fb4af2e9",
+      "git_blob_sha1": "96847af8407b09e6e5a83f853182ac933878fa91"
+    },
+    {
+      "path": "research/aggressive-vision-fusion/test_extract_region.py",
+      "bytes": 9233,
+      "sha256": "ed7b34248fabe116a38f508c02b3ccc1c48402116f75eb86a5304bb3935ee261",
+      "git_blob_sha1": "1da8d91a873254847bdeda8b7f9270acba1273a1"
+    },
+    {
+      "path": "research/aggressive-vision-fusion/test_repack_remainder.py",
+      "bytes": 6118,
+      "sha256": "e9456be1e499236d3cb6913263be5fc3f71f65d5825df7632ad04f6060a4a358",
+      "git_blob_sha1": "f5e6f536e216619814991240c55a0c7fe4e5d490"
+    },
+    {
+      "path": "research/aggressive-vision-fusion/tests.log",
+      "bytes": 3238,
+      "sha256": "313d0223d4736ddfc0ac23848da603e9ad8f11655e155beb0ab92c34b3a7db78",
+      "git_blob_sha1": "d505d7958c23a8c6452e6a447adf0d2c0be46e0c"
+    },
+    {
+      "path": "research/aggressive-vision-fusion/vision/config.json",
+      "bytes": 107,
+      "sha256": "df00a68fe3ccf84489fe1bee3ecfe817c013179dacccfb96711845170e5c6b8b",
+      "git_blob_sha1": "d9e1f3d5f6dab8c8b9ee797792ff0b732de8e937"
+    },
+    {
+      "path": "research/aggressive-vision-fusion/vision/extensions.json",
+      "bytes": 265,
+      "sha256": "1a9ea96040590bb28dcfd23445fc0609f5b89e9c406752e6a04b6b8cae2891bb",
+      "git_blob_sha1": "fc734e816d53614a4591a53d24dd718a969d1905"
+    },
+    {
+      "path": "research/aggressive-vision-fusion/vision/manifest.json",
+      "bytes": 84093,
+      "sha256": "eacb1a0cb4479df21e0ebd91723369a0c9dd67861361c97c3918281f57bade99",
+      "git_blob_sha1": "423235b2b8cc917253ae02d259072cb86b9e75af"
+    },
+    {
+      "path": "research/aggressive-vision-fusion/vision/night0-run-result.json",
+      "bytes": 70,
+      "sha256": "c947fc56a9635b32429d48934904577b70a0304de1b23b1af6b6e17df00a0ef7",
+      "git_blob_sha1": "60235f6ed0041cbddacfe585aad6d954f77d1ed3"
+    },
+    {
+      "path": "research/aggressive-vision-fusion/REMOTE_HANDOFF.md",
+      "bytes": 4791,
+      "sha256": "5f9b5fad41a3dc4cf9fd4e19d7145b6ba0912d6c313d7c61bf5e9767ca51eb8f",
+      "git_blob_sha1": "f372ddf184a2096f5d706c18c4e738a99f9e7668"
+    }
+  ]
+}

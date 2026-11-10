@@ -1,0 +1,119 @@
+{
+  "scope": "Zero-state recorded-night frame 0 only. No recurrent, phone, or speed acceptance.",
+  "control": {
+    "outputs": {
+      "shape": [
+        1,
+        18452
+      ],
+      "nonfinite": 0,
+      "exact_bytes": true,
+      "max_abs": 0.0,
+      "rmse": 0.0,
+      "correlation": 0.9999999999999999
+    },
+    "next_state_img_q": {
+      "shape": [
+        2,
+        5,
+        6,
+        128,
+        256
+      ],
+      "nonfinite": 0,
+      "exact_bytes": true,
+      "max_abs": 0.0,
+      "rmse": 0.0,
+      "correlation": 1.0
+    },
+    "next_state_desire_q": {
+      "shape": [
+        132,
+        1,
+        8
+      ],
+      "nonfinite": 0,
+      "exact_bytes": true,
+      "max_abs": 0.0,
+      "rmse": 0.0,
+      "correlation": null
+    },
+    "next_state_feat_q": {
+      "shape": [
+        128,
+        1,
+        16384
+      ],
+      "nonfinite": 0,
+      "exact_bytes": true,
+      "max_abs": 0.0,
+      "rmse": 0.0,
+      "correlation": 0.9999999999999998
+    }
+  },
+  "feature": {
+    "shape": [
+      1,
+      32,
+      512
+    ],
+    "nonfinite": 0,
+    "exact_bytes": false,
+    "max_abs": 0.04296875,
+    "rmse": 0.002820585225282633,
+    "correlation": 0.9999987997226785
+  },
+  "native": {
+    "outputs": {
+      "shape": [
+        1,
+        18452
+      ],
+      "nonfinite": 0,
+      "exact_bytes": false,
+      "max_abs": 0.25,
+      "rmse": 0.00443988651742322,
+      "correlation": 0.9999998651370043
+    },
+    "next_state_img_q": {
+      "shape": [
+        2,
+        5,
+        6,
+        128,
+        256
+      ],
+      "nonfinite": 0,
+      "exact_bytes": true,
+      "max_abs": 0.0,
+      "rmse": 0.0,
+      "correlation": 1.0
+    },
+    "next_state_desire_q": {
+      "shape": [
+        132,
+        1,
+        8
+      ],
+      "nonfinite": 0,
+      "exact_bytes": true,
+      "max_abs": 0.0,
+      "rmse": 0.0,
+      "correlation": null
+    },
+    "next_state_feat_q": {
+      "shape": [
+        128,
+        1,
+        16384
+      ],
+      "nonfinite": 0,
+      "exact_bytes": false,
+      "max_abs": 0.04296875,
+      "rmse": 0.00024930686746399194,
+      "correlation": 0.9999987997221411
+    }
+  },
+  "source_sha256": "3c80a2e4ede9781a1e5aec41c503e12e2f2c739e987e168046de8ed87325800a",
+  "native_sha256": "6ef1d80fe7d0495cb010d0ca7112397f9c5b7371ac3809255187f87dd4456d0d"
+}

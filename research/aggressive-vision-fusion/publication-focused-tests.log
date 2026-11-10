@@ -1,0 +1,53 @@
+test_exact_remainder (test_build_model.ModelTests.test_exact_remainder) ... ok
+test_reject_live_side_output (test_build_model.ModelTests.test_reject_live_side_output) ... ok
+test_reject_unclosed_cut (test_build_model.ModelTests.test_reject_unclosed_cut) ... ok
+test_already_app_read_output_supported (test_extract_region.ExtractionTests.test_already_app_read_output_supported) ... ok
+test_boundary_rank_shape_and_output_promotion (test_extract_region.ExtractionTests.test_boundary_rank_shape_and_output_promotion) ... ok
+test_cpp_dtype_layout_rank_and_dynamic_disagreement_rejected (test_extract_region.ExtractionTests.test_cpp_dtype_layout_rank_and_dynamic_disagreement_rejected) ... ok
+test_cpp_json_shape_disagreement_rejected (test_extract_region.ExtractionTests.test_cpp_json_shape_disagreement_rejected) ... ok
+test_cpp_output_shape_disagreement_rejected (test_extract_region.ExtractionTests.test_cpp_output_shape_disagreement_rejected) ... ok
+test_cpp_role_disagreement_rejected (test_extract_region.ExtractionTests.test_cpp_role_disagreement_rejected) ... ok
+test_duplicate_cpp_boundary_rejected (test_extract_region.ExtractionTests.test_duplicate_cpp_boundary_rejected) ... ok
+test_dynamic_boundary_rejected (test_extract_region.ExtractionTests.test_dynamic_boundary_rejected) ... ok
+test_missing_cpp_boundary_rejected (test_extract_region.ExtractionTests.test_missing_cpp_boundary_rejected) ... ok
+test_missing_cpp_dimension_array_rejected (test_extract_region.ExtractionTests.test_missing_cpp_dimension_array_rejected) ... ok
+test_non_dense_input_format_rejected (test_extract_region.ExtractionTests.test_non_dense_input_format_rejected) ... ok
+test_non_fp16_boundary_rejected (test_extract_region.ExtractionTests.test_non_fp16_boundary_rejected) ... ok
+test_nonpositive_dimension_rejected (test_extract_region.ExtractionTests.test_nonpositive_dimension_rejected) ... ok
+test_aliased_output_rejected (test_extract_region.SelectionTests.test_aliased_output_rejected) ... ok
+test_closed_region_and_constants (test_extract_region.SelectionTests.test_closed_region_and_constants) ... ok
+test_constant_output_is_not_a_computed_output (test_extract_region.SelectionTests.test_constant_output_is_not_a_computed_output) ... ok
+test_cycle_rejected (test_extract_region.SelectionTests.test_cycle_rejected) ... ok
+test_declared_side_output_is_legal (test_extract_region.SelectionTests.test_declared_side_output_is_legal) ... ok
+test_does_not_mutate_graph (test_extract_region.SelectionTests.test_does_not_mutate_graph) ... ok
+test_external_side_output_requires_explicit_output (test_extract_region.SelectionTests.test_external_side_output_requires_explicit_output) ... ok
+test_missing_cut_input_descriptor_rejected (test_extract_region.SelectionTests.test_missing_cut_input_descriptor_rejected) ... ok
+test_missing_external_dependency_rejected (test_extract_region.SelectionTests.test_missing_external_dependency_rejected) ... ok
+test_multiple_producers_rejected (test_extract_region.SelectionTests.test_multiple_producers_rejected) ... ok
+test_non_topological_order_rejected (test_extract_region.SelectionTests.test_non_topological_order_rejected) ... ok
+test_original_graph_output_cannot_be_silently_lost (test_extract_region.SelectionTests.test_original_graph_output_cannot_be_silently_lost) ... ok
+test_unused_input_rejected (test_extract_region.SelectionTests.test_unused_input_rejected) ... ok
+test_bad_lengths (test_repack_remainder.RepackTests.test_bad_lengths) ... ok
+test_complete_size (test_repack_remainder.RepackTests.test_complete_size) ... ok
+test_duplicate_initializer (test_repack_remainder.RepackTests.test_duplicate_initializer) ... ok
+test_duplicate_metadata (test_repack_remainder.RepackTests.test_duplicate_metadata) ... ok
+test_embedded_tensor (test_repack_remainder.RepackTests.test_embedded_tensor) ... ok
+test_exact_identity_function (test_repack_remainder.RepackTests.test_exact_identity_function) ... ok
+test_function (test_repack_remainder.RepackTests.test_function) ... ok
+test_graph_output_initializer (test_repack_remainder.RepackTests.test_graph_output_initializer) ... ok
+test_identity_function_invalid_variants (test_repack_remainder.RepackTests.test_identity_function_invalid_variants) ... ok
+test_mixed_payload (test_repack_remainder.RepackTests.test_mixed_payload) ... ok
+test_negative_offset (test_repack_remainder.RepackTests.test_negative_offset) ... ok
+test_output_is_preserved (test_repack_remainder.RepackTests.test_output_is_preserved) ... ok
+test_prune_and_preserve_overridable (test_repack_remainder.RepackTests.test_prune_and_preserve_overridable) ... ok
+test_sparse (test_repack_remainder.RepackTests.test_sparse) ... ok
+test_subgraph (test_repack_remainder.RepackTests.test_subgraph) ... ok
+test_symlink_escape_requires_allowlist (test_repack_remainder.RepackTests.test_symlink_escape_requires_allowlist) ... ok
+test_training (test_repack_remainder.RepackTests.test_training) ... ok
+test_truncated_source (test_repack_remainder.RepackTests.test_truncated_source) ... ok
+test_unsafe_paths (test_repack_remainder.RepackTests.test_unsafe_paths) ... ok
+
+----------------------------------------------------------------------
+Ran 48 tests in 0.167s
+
+OK

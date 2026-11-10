@@ -1,0 +1,10 @@
+{
+  "recorded_utc": "2026-11-10T03:46:59.941156+00:00",
+  "timing": "Recorded during the single vector inference.",
+  "hashes": {
+    "/workspace/shared/htp-dependencies/build-subset/qairt/2.42.0.251225/lib/x86_64-linux-clang/libQnnHtp.so": "c1d79c22789cc78e380459001b31cae828f92b9ed9e58db01bc21045df152ea4",
+    "/workspace/shared/htp-dependencies/build-subset/qairt/2.42.0.251225/lib/x86_64-linux-clang/libQnnSystem.so": "15343ef47a1b21a9886705728b2f0ce42bb1aae5d9849ac447b79980fed83ebf",
+    "/workspace/shared/jetlink-aggressive-fusion-20261110/bridge/model/teacher-capture.weights": "b356db4f9b2ed7cc563c2f4534715487ae4b82319e8225f657dcfa77d082bb75",
+    "/workspace/shared/jetlink-gelu-polynomial-20261110/qnn-package/build/libJetlinkGeluHost.so": "570e77881f1c8c44ee0fad1258c61c5dd80fcccfacc736dac59adb4a391e7881"
+  }
+}

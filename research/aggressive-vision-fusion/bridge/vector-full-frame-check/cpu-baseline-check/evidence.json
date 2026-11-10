@@ -1,0 +1,17 @@
+{
+  "scope": "Exactly one recorded-night frame with independent zero states. Saved actual vector full-model output compared with saved CPU baseline. No inference rerun; no recurrent or device qualification.",
+  "command": [
+    "python",
+    "/workspace/shared/jetlink-exact-cse-20261110/vendor/jetlink/scripts/verify_parity.py",
+    "compare",
+    "--dir",
+    "/workspace/shared/jetlink-aggressive-fusion-20261110/bridge/vector-full-frame-check/cpu-baseline-check"
+  ],
+  "exit_code": 0,
+  "checker_sha256": "89a4c8b5c96904a091c713a9d82ce753149e4c5af80c13eaf7ecb306d4b6ff84",
+  "actual_vector_output_sha256": "f59ed98475381853094f5f20e03d8ffc3f4784078e61ea9bd84a824453cb56ac",
+  "cpu_baseline_sha256": "dd409b449b9f934945fc80b602d7eaecd0ec8f38d08b515c812d7f6fc9b89f4c",
+  "spec_sha256": "721b92094842200653744c988ae3b238dc2fb8947931316ec9ea0c19d479b623",
+  "equal_full_lengths": true,
+  "finite_inputs": true
+}

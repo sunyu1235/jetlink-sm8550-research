@@ -1,0 +1,24 @@
+test_bad_lengths (test_repack_remainder.RepackTests.test_bad_lengths) ... ok
+test_complete_size (test_repack_remainder.RepackTests.test_complete_size) ... ok
+test_duplicate_initializer (test_repack_remainder.RepackTests.test_duplicate_initializer) ... ok
+test_duplicate_metadata (test_repack_remainder.RepackTests.test_duplicate_metadata) ... ok
+test_embedded_tensor (test_repack_remainder.RepackTests.test_embedded_tensor) ... ok
+test_exact_identity_function (test_repack_remainder.RepackTests.test_exact_identity_function) ... ok
+test_function (test_repack_remainder.RepackTests.test_function) ... ok
+test_graph_output_initializer (test_repack_remainder.RepackTests.test_graph_output_initializer) ... ok
+test_identity_function_invalid_variants (test_repack_remainder.RepackTests.test_identity_function_invalid_variants) ... ok
+test_mixed_payload (test_repack_remainder.RepackTests.test_mixed_payload) ... ok
+test_negative_offset (test_repack_remainder.RepackTests.test_negative_offset) ... ok
+test_output_is_preserved (test_repack_remainder.RepackTests.test_output_is_preserved) ... ok
+test_prune_and_preserve_overridable (test_repack_remainder.RepackTests.test_prune_and_preserve_overridable) ... ok
+test_sparse (test_repack_remainder.RepackTests.test_sparse) ... ok
+test_subgraph (test_repack_remainder.RepackTests.test_subgraph) ... ok
+test_symlink_escape_requires_allowlist (test_repack_remainder.RepackTests.test_symlink_escape_requires_allowlist) ... ok
+test_training (test_repack_remainder.RepackTests.test_training) ... ok
+test_truncated_source (test_repack_remainder.RepackTests.test_truncated_source) ... ok
+test_unsafe_paths (test_repack_remainder.RepackTests.test_unsafe_paths) ... ok
+
+----------------------------------------------------------------------
+Ran 19 tests in 0.026s
+
+OK
