@@ -4,8 +4,8 @@
   "files": [
     {
       "path": "README.md",
-      "bytes": 3714,
-      "sha256": "88d247405886f2add06c38a5ddcd6fd76a9f2a71b1aff3826ce06fd89a95a412"
+      "bytes": 3730,
+      "sha256": "9699258f2c9aa203fd9c1e1a083e1ebaf088f0982a5e2dac550e33210ab0cc85"
     },
     {
       "path": "experiments/compact-gelu/.gitignore",
@@ -49,13 +49,13 @@
     },
     {
       "path": "research/CODEX_TEST_PLAN.md",
-      "bytes": 10278,
-      "sha256": "da0318faf9fb2b6ba41aea20597f5fc514e742eb0fe89fbe9b19b757b063003d"
+      "bytes": 10342,
+      "sha256": "f24f5513c8e1b92c518cadf3881b372a04d7a3745896d4cf4ca79569a4565248"
     },
     {
       "path": "research/README.md",
-      "bytes": 6230,
-      "sha256": "b8654d554487e1dcd787228e732a78d44fc7afdd641292d5bbf7620e71a8aa05"
+      "bytes": 6189,
+      "sha256": "be1174e6b82b6680f6f4e00b1c9889f4dcc5f32738fa9c3f2a423ef2592516b8"
     },
     {
       "path": "research/compact-integration/README.md",
@@ -229,8 +229,8 @@
     },
     {
       "path": "research/compact-native-integration/README.md",
-      "bytes": 3212,
-      "sha256": "3dbe114924058d9d5948b77e6757870005ae0c5cca626560c7f4580ba25636bb"
+      "bytes": 3704,
+      "sha256": "4168871e30bc9a3d372b2abec63fc5ed2a857d81af755eaa06db00546b83fcf0"
     },
     {
       "path": "research/compact-native-integration/bridge/README.md",
@@ -376,6 +376,31 @@
       "path": "research/compact-native-integration/evidence/recorded-road-prefixes/native-night-32-score/summary.json",
       "bytes": 734,
       "sha256": "dbee897fb0a39f18e9beb7e1f78fdee61157e651d7b0f447b6c6af8259e14576"
+    },
+    {
+      "path": "research/compact-native-integration/evidence/recorded-roads/README.md",
+      "bytes": 1562,
+      "sha256": "d5baafde362f6d3c5cca840c7d0c453e430a555914c7211f8f67f18be1863de6"
+    },
+    {
+      "path": "research/compact-native-integration/evidence/recorded-roads/day320/after_warmup.log",
+      "bytes": 225131,
+      "sha256": "3c35bb0001aa4270811a1823373dac72e02474009519e454d658efe64bc3b470"
+    },
+    {
+      "path": "research/compact-native-integration/evidence/recorded-roads/day320/all_frames.log",
+      "bytes": 448331,
+      "sha256": "de0dd3ef10e7d2162a781e23cdd3fdabf0ab65ad504b8c6d733b5bd90f9eb2df"
+    },
+    {
+      "path": "research/compact-native-integration/evidence/recorded-roads/day320/summary.json",
+      "bytes": 739,
+      "sha256": "039690eb5448e74c9caf23b35aa47c934337918d8a702ca0809c0986047ad477"
+    },
+    {
+      "path": "research/compact-native-integration/evidence/recorded-roads/final-qualification.json",
+      "bytes": 4251,
+      "sha256": "628aef1017521d8b1d1aad39c72f38bf1a88a859bf6844c43260dd143d89b742"
     },
     {
       "path": "research/compact-native-integration/evidence/recorded-roads/night320/after_warmup.log",
@@ -899,8 +924,8 @@
     },
     {
       "path": "research/publication-validation.json",
-      "bytes": 2019,
-      "sha256": "11bbe9369ac409ef2c2dd9437394f476c1665a88ebbe1401ff252476efa83da8"
+      "bytes": 2359,
+      "sha256": "62f5c342e503c3fad919ce1a39a800cfad2f3feb42d9bc28bded26a1e9d42a00"
     },
     {
       "path": "research/recorded-road-inputs/README.md",

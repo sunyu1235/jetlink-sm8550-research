@@ -34,4 +34,4 @@ PYTHONPATH=vendor/jetlink python vendor/jetlink/scripts/verify_parity.py compare
 
 新增 compact CPU/native integration、重量化、蒸馏、紧凑 GELU 原型及公开道路输入重建脚本。请从 [研究总览](research/README.md) 查看当前通过项、失败项、未完成项及复现边界。已有历史证据与上游源码保持原样。
 
-注意：10.8 MB 只是两个局部分区的 QNN context，不是完整模型。compact CPU 图连同必需权重约 792.134 MB；完整大小核算见 [审计](research/model-size-audit-20261109.json)。原生夜间完整 320 帧及最后 160 帧检查现已通过；白天完整 320 帧仍待完成。未声称手机速度、32 ms 或部署成功。
+注意：10.8 MB 只是两个局部分区的 QNN context，不是完整模型。compact CPU 图连同必需权重约 792.134 MB；完整大小核算见 [审计](research/model-size-audit-20261109.json)。原生夜间和白天各 320 帧及各自暖机后的最后 160 帧检查均已通过，属于主机数值验证。未声称手机速度、32 ms 或部署成功。

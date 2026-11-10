@@ -1,3 +1,7 @@
+## Final recorded-road gates, 2026-11-10
+
+Both complete native night320 and day320 sequences now pass all frames and the predeclared final160 after160 warmup with the unchanged checker and independent recurrence. See [final road evidence](evidence/recorded-roads/README.md) and `evidence/recorded-roads/final-qualification.json`. This supersedes the earlier road-pending statements below. These are host-native contexts with CPU remainder, not phone accuracy, phone timing or a 32ms result.
+
 ## Completed recorded-night gate, 2026-11-10
 
 The native compact candidate now passes the complete 320-frame recorded-night sequence and the predeclared final 160 frames after warmup with the unchanged checker. Both saved QNN contexts execute in independent full-model recurrence; unrelated nodes remain on CPU. Full native day320 qualification is still pending. The completed day32 prefix passes. See `evidence/recorded-roads/qualification-snapshot.json` and `evidence/recorded-roads/night320/`.

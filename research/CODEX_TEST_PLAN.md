@@ -14,10 +14,10 @@ Read:
 
 1. `research/README.md` for current accepted, rejected, and pending gates.
 2. `research/compact-native-integration/README.md` and `bridge/README.md` for the exact host/native boundary.
-3. `research/compact-integration/evidence/recovery-qualification.json`, `research/compact-native-integration/evidence/qualification.json`, and `research/compact-native-integration/evidence/recorded-roads/qualification-snapshot.json`.
+3. `research/compact-integration/evidence/recovery-qualification.json`, `research/compact-native-integration/evidence/qualification.json`, and `research/compact-native-integration/evidence/recorded-roads/final-qualification.json`.
 4. `research/recorded-road-inputs/{day,night}/PREPROCESSING.md` before reconstructing camera inputs.
 
-The completed native night320 and its predeclared final160 view pass. Day320 is still pending in this snapshot. Synthetic160 passes. Earlier prefix scores are diagnostics, not replacements for the predeclared full-road gate. A numerical agreement test against the teacher is not ground-truth driving accuracy.
+The completed native night320 and day320 sequences both pass their all320 and predeclared final160 views. Synthetic160 also passes. These remain host-functional results; phone validation has not run. Earlier prefix scores are diagnostics, not replacements for the predeclared full-road gate. A numerical agreement test against the teacher is not ground-truth driving accuracy.
 
 ## 2. Source-only checks that can run without a phone or model weights
 

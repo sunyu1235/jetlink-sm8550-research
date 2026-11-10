@@ -57,5 +57,14 @@
     "full_model_rerun_for_publication": false,
     "day320": "pending",
     "prior_test_runs": "unchanged code; earlier results retained, not claimed as rerun"
+  },
+  "completed_road_followup": {
+    "source_code_changed": false,
+    "copied_from_completed_immutable_outputs": true,
+    "source_artifact_hashes_verified": true,
+    "day_and_night_all320_checker_exit": 0,
+    "day_and_night_final160_checker_exit": 0,
+    "full_model_rerun_for_publication": false,
+    "device_test_performed": false
   }
 }

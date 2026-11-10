@@ -1,0 +1,96 @@
+{
+  "scope": "Actual saved native QNN compact upstream and three-tail contexts inside full recurrent model; CPU remainder. Offline recorded-road numerical validation, not driving safety or phone speed.",
+  "status": "PASS_NATIVE_COMPACT_CONTEXTS_CPU_REMAINDER_NIGHT320_DAY320",
+  "utc": "2026-11-10T01:33:53.525447+00:00",
+  "model_sha256": "ee3b0afa5b39b36f444a253626db498259161c714719eebae88655b28b33122b",
+  "independent_recurrence": true,
+  "native_contexts": 2,
+  "compact_shared_fp16_boundary_bytes": 9216,
+  "all_runtime_artifact_hashes_unchanged": true,
+  "device_execution": false,
+  "device_latency_measured": false,
+  "road_gates": {
+    "night32": {
+      "status": "RECORDED_IMAGE_NUMERICAL_CHECK_NOT_DRIVING_SAFETY_OR_TARGET_SPEED",
+      "checker_modified": false,
+      "views": {
+        "all_frames": {
+          "first_original_frame": 0,
+          "frames": 32,
+          "checker_exit": 0,
+          "last_line": "OK: every slice and every column at or above corr 0.999, or within 10% of its largest value where too small or too quiet to correlate, per frame and pooled over all 32 frames"
+        },
+        "after_warmup": {
+          "first_original_frame": 16,
+          "frames": 16,
+          "checker_exit": 0,
+          "last_line": "OK: every slice and every column at or above corr 0.999, or within 10% of its largest value where too small or too quiet to correlate, per frame and pooled over all 16 frames"
+        }
+      }
+    },
+    "night320": {
+      "status": "RECORDED_IMAGE_NUMERICAL_CHECK_NOT_DRIVING_SAFETY_OR_TARGET_SPEED",
+      "checker_modified": false,
+      "views": {
+        "all_frames": {
+          "first_original_frame": 0,
+          "frames": 320,
+          "checker_exit": 0,
+          "last_line": "OK: every slice and every column at or above corr 0.999, or within 10% of its largest value where too small or too quiet to correlate, per frame and pooled over all 320 frames"
+        },
+        "after_warmup": {
+          "first_original_frame": 160,
+          "frames": 160,
+          "checker_exit": 0,
+          "last_line": "OK: every slice and every column at or above corr 0.999, or within 10% of its largest value where too small or too quiet to correlate, per frame and pooled over all 160 frames"
+        }
+      }
+    },
+    "day32": {
+      "status": "RECORDED_IMAGE_NUMERICAL_CHECK_NOT_DRIVING_SAFETY_OR_TARGET_SPEED",
+      "checker_modified": false,
+      "views": {
+        "all_frames": {
+          "first_original_frame": 0,
+          "frames": 32,
+          "checker_exit": 0,
+          "last_line": "OK: every slice and every column at or above corr 0.999, or within 10% of its largest value where too small or too quiet to correlate, per frame and pooled over all 32 frames"
+        },
+        "after_warmup": {
+          "first_original_frame": 16,
+          "frames": 16,
+          "checker_exit": 0,
+          "last_line": "OK: every slice and every column at or above corr 0.999, or within 10% of its largest value where too small or too quiet to correlate, per frame and pooled over all 16 frames"
+        }
+      }
+    },
+    "day320": {
+      "status": "RECORDED_IMAGE_NUMERICAL_CHECK_NOT_DRIVING_SAFETY_OR_TARGET_SPEED",
+      "checker_modified": false,
+      "views": {
+        "all_frames": {
+          "first_original_frame": 0,
+          "frames": 320,
+          "checker_exit": 0,
+          "last_line": "OK: every slice and every column at or above corr 0.999, or within 10% of its largest value where too small or too quiet to correlate, per frame and pooled over all 320 frames"
+        },
+        "after_warmup": {
+          "first_original_frame": 160,
+          "frames": 160,
+          "checker_exit": 0,
+          "last_line": "OK: every slice and every column at or above corr 0.999, or within 10% of its largest value where too small or too quiet to correlate, per frame and pooled over all 160 frames"
+        }
+      }
+    }
+  },
+  "outputs": {
+    "night": {
+      "durable_frames": 320,
+      "ordered_outputs_sha256": "a4dc1a644e55edd642ef2f5ee19e5c826b764b089f8d278f82fa1b300d97ef45"
+    },
+    "day": {
+      "durable_frames": 320,
+      "ordered_outputs_sha256": "4fcc7caeccb69a6f74606415c553a44b2c673eb6074318d8144c51d517c73773"
+    }
+  }
+}
